@@ -1,0 +1,39 @@
+name: Generate stats
+on: [push]
+jobs:
+  generate_stats:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v1
+    - name: Set up Python 3.7
+      uses: actions/setup-python@v1
+      with:
+        python-version: 3.7
+    - uses: actions/cache@v2
+      name: Cache dependencies
+      with:
+        path: ~/.cache/pip
+        key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements_dev.txt') }}
+        restore-keys: |
+          ${{ runner.os }}-pip-
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements_dev.txt
+    - name: Install some extras
+      run: |
+        cd helpers
+        git clone https://github.com/IATI/IATI-Rulesets.git@version-2.03
+        ln -s IATI-Rulesets/rulesets .
+        ./get_codelist_mapping.sh
+        ./get_codelists.sh
+        ./get_schemas.sh
+        wget "http://dashboard.iatistandard.org/stats/ckan.json"
+        wget "https://raw.githubusercontent.com/codeforIATI/IATI-Dashboard/main/registry_id_relationships.csv"
+        cd ..
+    - name: Run loop
+      run: python calculate_stats.py loop --folder pwyf
+    - name: Run aggregate
+      run: python calculate_stats.py aggregate
+    - name: Run invert
+      run: python calculate_stats.py invert
