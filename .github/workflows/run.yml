@@ -23,7 +23,7 @@ jobs:
     - name: Install some extras
       run: |
         cd helpers
-        git clone https://github.com/IATI/IATI-Rulesets.git@version-2.03
+        git clone --branch version-2.03 https://github.com/IATI/IATI-Rulesets.git
         ln -s IATI-Rulesets/rulesets .
         ./get_codelist_mapping.sh
         ./get_codelists.sh
