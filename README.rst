@@ -1,15 +1,15 @@
 IATI Stats
 ==========
 
-.. image:: https://travis-ci.org/IATI/IATI-Stats.svg?branch=master
-    :target: https://travis-ci.org/IATI/IATI-Stats
-.. image:: https://requires.io/github/IATI/IATI-Stats/requirements.svg?branch=master
-    :target: https://requires.io/github/IATI/IATI-Stats/requirements/?branch=master
+.. image:: https://github.com/codeforIATI/IATI-Stats/actions/workflows/ci.yml/badge.svg?branch=main
+    :target: https://github.com/codeforIATI/IATI-Stats/actions/workflows/ci.yml
+.. image:: https://requires.io/github/codeforIATI/IATI-Stats/requirements.svg?branch=main
+    :target: https://requires.io/github/codeforIATI/IATI-Stats/requirements/?branch=main
     :alt: Requirements Status
-.. image:: https://coveralls.io/repos/IATI/IATI-Stats/badge.png?branch=master
-    :target: https://coveralls.io/r/IATI/IATI-Stats?branch=master
+.. image:: https://coveralls.io/repos/github/codeforIATI/IATI-Stats/badge.svg?branch=main
+    :target: https://coveralls.io/github/codeforIATI/IATI-Stats?branch=main
 .. image:: https://img.shields.io/badge/license-GPLv3-blue.svg
-    :target: https://github.com/IATI/IATI-Stats/blob/master/GPL.md
+    :target: https://github.com/codeforIATI/IATI-Stats/blob/main/GPL.md
 
 Introduction
 ------------
