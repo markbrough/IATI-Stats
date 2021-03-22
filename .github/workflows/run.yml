@@ -1,5 +1,7 @@
 name: Generate stats
-on: [push]
+on:
+  schedule:
+    - cron: '0 3 * * *'
 jobs:
   generate_stats:
     runs-on: ubuntu-latest
