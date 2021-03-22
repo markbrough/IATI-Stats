@@ -28,12 +28,12 @@ jobs:
         ./get_codelist_mapping.sh
         ./get_codelists.sh
         ./get_schemas.sh
-        wget "http://dashboard.iatistandard.org/stats/ckan.json"
-        wget "https://raw.githubusercontent.com/codeforIATI/IATI-Dashboard/main/registry_id_relationships.csv"
+        wget -q "http://dashboard.iatistandard.org/stats/ckan.json"
+        wget -q "https://raw.githubusercontent.com/codeforIATI/IATI-Dashboard/main/registry_id_relationships.csv"
         cd ..
     - name: Download IATI data
       run: |
-        wget -O iati_dump.zip https://www.dropbox.com/s/kkm80yjihyalwes/iati_dump.zip?dl=1
+        wget -q -O iati_dump.zip https://www.dropbox.com/s/kkm80yjihyalwes/iati_dump.zip?dl=1
         unzip -q iati_dump.zip
         rm -rf iati_dump.zip metadata metadata.json
     - name: Run loop
