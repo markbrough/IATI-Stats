@@ -138,10 +138,7 @@ class ActivityStats(object):
         try:
             transactions = [
                 x for x in self.element.findall('transaction') if
-                x.find('transaction-type') is not None and
-                x.find('transaction-type').get('code') in ['D', 'E'] and
-                x.find('transaction-date') is not None and
-                datetime.datetime.strptime(x.find('transaction-date').get('iso-date').strip('Z'), "%Y-%m-%d") > datetime.datetime(2012, 6, 30)]
+                x.find('transaction-type') is not None and x.find('transaction-type').get('code') in ['D', 'E'] and x.find('transaction-date') is not None and datetime.datetime.strptime(x.find('transaction-date').get('iso-date').strip('Z'), "%Y-%m-%d") > datetime.datetime(2012, 6, 30)]
             spend = sum(map(self.__value_to_dollars, transactions))
             organisationType = self.element.find('reporting-org')
             if organisationType is not None:

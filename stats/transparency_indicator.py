@@ -91,9 +91,7 @@ class PublisherStats(object):
     @aggregate_largest
     def timelag(self):
         if (
-            (1 if self.aggregated['timelag_months']['2-3'] > 0 else 0) +
-            (1 if self.aggregated['timelag_months']['1-2'] > 0 else 0) +
-            (1 if self.aggregated['timelag_months']['1'] > 0 else 0)
+            (1 if self.aggregated['timelag_months']['2-3'] > 0 else 0) + (1 if self.aggregated['timelag_months']['1-2'] > 0 else 0) + (1 if self.aggregated['timelag_months']['1'] > 0 else 0)
         ) >= 2:
             return 4
         elif self.aggregated['timelag_months']['3'] > 0:
@@ -345,17 +343,7 @@ class ActivityStats(GenericStats):
         # regions = set()
         e = self.element
         return not(
-            ((len(e.xpath('recipient-country/@code')) == 0 or '' in e.xpath('recipient-country/@code')) and (len(e.xpath('recipient-region/@code')) == 0 or '998' in e.xpath('recipient-region/@code') or '' in e.xpath('recipient-region/@code'))) or
-            len(sectors.intersection(e.xpath('sector/@code'))) > 0 or
-            len(aid_types.intersection(e.xpath('default-aid-type/@code'))) > 0 or
-            len(flow_types.intersection(e.xpath('default-flow-type/@code'))) > 0 or
-            len(finance_types.intersection(e.xpath('default-finance-type/@code'))) > 0 or
-            len(finance_types.intersection(e.xpath('recipient-region/@code'))) > 0 or
-            (transaction is not None and
-                (
-                    len(aid_types.intersection(transaction.xpath('aid-type/@code'))) > 0 or
-                    len(flow_types.intersection(transaction.xpath('flow-type/@code'))) > 0 or
-                    len(finance_types.intersection(transaction.xpath('finance-type/@code'))) > 0)))
+            ((len(e.xpath('recipient-country/@code')) == 0 or '' in e.xpath('recipient-country/@code')) and (len(e.xpath('recipient-region/@code')) == 0 or '998' in e.xpath('recipient-region/@code') or '' in e.xpath('recipient-region/@code'))) or len(sectors.intersection(e.xpath('sector/@code'))) > 0 or len(aid_types.intersection(e.xpath('default-aid-type/@code'))) > 0 or len(flow_types.intersection(e.xpath('default-flow-type/@code'))) > 0 or len(finance_types.intersection(e.xpath('default-finance-type/@code'))) > 0 or len(finance_types.intersection(e.xpath('recipient-region/@code'))) > 0 or (transaction is not None and (len(aid_types.intersection(transaction.xpath('aid-type/@code'))) > 0 or len(flow_types.intersection(transaction.xpath('flow-type/@code'))) > 0 or len(finance_types.intersection(transaction.xpath('finance-type/@code'))) > 0)))
 
     @returns_number
     def coverage_numerator(self):

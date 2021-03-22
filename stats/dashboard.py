@@ -635,8 +635,7 @@ class ActivityStats(CommonSharedElements):
            Output: a date object, or None if no value date found
         """
         # Get enddate. An 'actual end date' is preferred over a 'planned end date'
-        end_date_list = (self.element.xpath('activity-date[@type="{}"]'.format(self._actual_end_code())) or
-                         self.element.xpath('activity-date[@type="{}"]'.format(self._planned_end_code())))
+        end_date_list = (self.element.xpath('activity-date[@type="{}"]'.format(self._actual_end_code())) or self.element.xpath('activity-date[@type="{}"]'.format(self._planned_end_code())))
 
         # If there is a date, convert to a date object
         if end_date_list:
@@ -766,15 +765,10 @@ class ActivityStats(CommonSharedElements):
             'is_humanitarian': is_humanitarian,
             'is_humanitarian_by_attrib': is_humanitarian_by_attrib,
             'contains_humanitarian_scope': 1 if (
-                is_humanitarian and
-                self._version() in ['2.02', '2.03'] and
-                all_true_and_not_empty(self.element.xpath('humanitarian-scope/@type')) and
-                all_true_and_not_empty(self.element.xpath('humanitarian-scope/@code'))
+                is_humanitarian and self._version() in ['2.02', '2.03'] and all_true_and_not_empty(self.element.xpath('humanitarian-scope/@type')) and all_true_and_not_empty(self.element.xpath('humanitarian-scope/@code'))
             ) else 0,
             'uses_humanitarian_clusters_vocab': 1 if (
-                is_humanitarian and
-                self._version() in ['2.02', '2.03'] and
-                self.element.xpath('sector/@vocabulary="10"')
+                is_humanitarian and self._version() in ['2.02', '2.03'] and self.element.xpath('sector/@vocabulary="10"')
             ) else 0
         }
 
@@ -799,8 +793,7 @@ class ActivityStats(CommonSharedElements):
         out = defaultdict(lambda: defaultdict(lambda: defaultdict(Decimal)))
         for transaction in self.element.findall('transaction'):
             value = transaction.find('value')
-            if (transaction.find('transaction-type') is not None and
-                    transaction.find('transaction-type').attrib.get('code') in [self._incoming_funds_code(), self._commitment_code(), self._disbursement_code(), self._expenditure_code()]):
+            if (transaction.find('transaction-type') is not None and transaction.find('transaction-type').attrib.get('code') in [self._incoming_funds_code(), self._commitment_code(), self._disbursement_code(), self._expenditure_code()]):
 
                 # Set transaction_value if a value exists for this transaction. Else set to 0
                 try:

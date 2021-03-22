@@ -22,7 +22,7 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r requirements_dev.txt
     - name: Lint
-      run: flake8 --ignore=E501,W504,E731,E265
+      run: flake8 --ignore=E501
     - name: Install some extras
       run: |
         cd helpers; ./get_codelist_mapping.sh; ./get_codelists.sh; echo '{}' > ckan.json; touch registry_id_relationships.csv; cd ..
