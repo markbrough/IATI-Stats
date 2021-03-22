@@ -37,8 +37,13 @@ jobs:
         unzip -q iati_dump.zip
         rm -rf iati_dump.zip metadata metadata.json
     - name: Run loop
-      run: python calculate_stats.py loop --folder pwyf
+      run: python calculate_stats.py loop
     - name: Run aggregate
       run: python calculate_stats.py aggregate
     - name: Run invert
       run: python calculate_stats.py invert
+    - name: Deploy 🚀
+      uses: JamesIves/github-pages-deploy-action@4.1.0
+      with:
+        branch: gh-pages
+        folder: out
