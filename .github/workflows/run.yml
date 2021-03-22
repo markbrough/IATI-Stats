@@ -31,6 +31,11 @@ jobs:
         wget "http://dashboard.iatistandard.org/stats/ckan.json"
         wget "https://raw.githubusercontent.com/codeforIATI/IATI-Dashboard/main/registry_id_relationships.csv"
         cd ..
+    - name: Download IATI data
+      run: |
+        wget -O iati_dump.zip https://www.dropbox.com/s/kkm80yjihyalwes/iati_dump.zip?dl=1
+        unzip -q iati_dump.zip
+        rm -rf iati_dump.zip metadata metadata.json
     - name: Run loop
       run: python calculate_stats.py loop --folder pwyf
     - name: Run aggregate
