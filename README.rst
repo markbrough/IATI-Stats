@@ -3,9 +3,6 @@ IATI Stats
 
 .. image:: https://github.com/codeforIATI/IATI-Stats/actions/workflows/ci.yml/badge.svg?branch=main
     :target: https://github.com/codeforIATI/IATI-Stats/actions/workflows/ci.yml
-.. image:: https://requires.io/github/codeforIATI/IATI-Stats/requirements.svg?branch=main
-    :target: https://requires.io/github/codeforIATI/IATI-Stats/requirements/?branch=main
-    :alt: Requirements Status
 .. image:: https://coveralls.io/repos/github/codeforIATI/IATI-Stats/badge.svg?branch=main
     :target: https://coveralls.io/github/codeforIATI/IATI-Stats?branch=main
 .. image:: https://img.shields.io/badge/license-GPLv3-blue.svg
