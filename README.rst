@@ -54,7 +54,7 @@ Getting started
 .. code-block:: bash
 
     # Get the code
-    git clone https://github.com/IATI/IATI-Stats.git
+    git clone https://github.com/codeforIATI/IATI-Stats.git
     cd IATI-Stats
 
     # Put some IATI data in the 'data' directory
@@ -68,7 +68,7 @@ Getting started
 
     # Fetch helper data
     cd helpers
-    git clone https://github.com/IATI/IATI-Rulesets.git
+    git clone https://github.com/IATI/IATI-Rulesets.git@version-2.03
     ln -s IATI-Rulesets/rulesets .
     ./get_codelist_mapping.sh
     ./get_codelists.sh
@@ -110,7 +110,7 @@ Stats definitions are located in a python module, by default ``stats.dashboard``
 -  ``OrganisationStats``
 -  ``OrganisationFileStats``
 
-See `./stats/countonly.py <https://github.com/IATI/IATI-Stats/blob/master/stats/countonly.py>`__ for the structure of a simple stats module.
+See `./stats/countonly.py <https://github.com/codeforIATI/IATI-Stats/blob/main/stats/countonly.py>`__ for the structure of a simple stats module.
 
 Each function within these classes is considered to be a stats function,
 unless it begins with an underscore (``_``). In the appropriate context,
