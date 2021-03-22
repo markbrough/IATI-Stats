@@ -15,8 +15,6 @@ IATI-Stats is a python application for generating JSON stats files from IATI dat
 
 These stats are used to build the `IATI Dashboard <http://dashboard.iatistandard.org/>`_, and also to produce some of the stats for the Transparency Indicator and the IATI Annual report.
 
-.. contents::
-
 Requirements
 ------------
 
@@ -176,4 +174,3 @@ Included Data
 
 -  ``helpers/old/exchange_rates.csv`` derived from `Exchange
    rates.xls <http://www.oecd.org/dac/stats/Exchange%20rates.xls>`__
-
