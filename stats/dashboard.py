@@ -555,22 +555,6 @@ class ActivityStats(CommonSharedElements):
         return element_to_count_dict(self.element, 'iati-activity', defaultdict(int), True)
 
     @returns_numberdictdict
-    def codelist_values(self):
-        out = defaultdict(lambda: defaultdict(int))
-        for path in codelist_mappings[self._major_version()]:
-            for value in self.element.xpath(path):
-                out[path][value] += 1
-        return out
-
-    @returns_numberdictdict
-    def codelist_values_by_major_version(self):
-        out = defaultdict(lambda: defaultdict(int))
-        for path in codelist_mappings[self._major_version()]:
-            for value in self.element.xpath(path):
-                out[path][value] += 1
-        return {self._major_version(): out}
-
-    @returns_numberdictdict
     def boolean_values(self):
         out = defaultdict(lambda: defaultdict(int))
         for path in [
@@ -972,6 +956,41 @@ class ActivityFileStats(GenericFileStats):
     @returns_number
     def activity_files(self):
         return 1
+
+    @memoize
+    def _codelist_values(self):
+        out = defaultdict(lambda: defaultdict(int))
+        for path in codelist_mappings[self._major_version()]:
+            for value in self.root.xpath(path):
+                out[path][value] += 1
+        return out
+
+    @returns_numberdictdict
+    def codelist_values(self):
+        return self._codelist_values()
+
+    @returns_numberdictdict
+    def codelist_values_by_major_version(self):
+        out = self._codelist_values()
+        return {self._major_version(): out}
+
+    @returns_numberdict
+    @memoize
+    def _major_version(self):
+        if self._version().startswith('2.'):
+            return '2'
+        else:
+            return '1'
+
+    @returns_numberdict
+    @memoize
+    def _version(self):
+        allowed_versions = CODELISTS['2']['Version']
+        version = self.root.get('version')
+        if version and version in allowed_versions:
+            return version
+        else:
+            return '1.01'
 
 
 class PublisherStats(object):
