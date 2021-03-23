@@ -2,7 +2,7 @@ import decimal
 import json
 import os
 import sys
-from common import decimal_default
+from common import decimal_default, sort_keys
 
 
 # Set value for the gitout directory
@@ -86,6 +86,6 @@ for commit in os.listdir(os.path.join(GITOUT_DIR, 'commits')):
             # Write output to a temporary file, then rename
             with open(os.path.join(git_out_dir, trimmed_name + '.json.new'), 'w') as filepath:
                 print('Writing data to {}'.format(trimmed_name))
-                json.dump(gitaggregate_json, filepath, sort_keys=True, indent=2, default=decimal_default)
+                json.dump(sort_keys(gitaggregate_json), filepath, indent=2, default=decimal_default)
             print('Renaming file {} to {}'.format(trimmed_name + '.json.new', trimmed_name + '.json'))
             os.rename(os.path.join(git_out_dir, trimmed_name + '.json.new'), os.path.join(git_out_dir, trimmed_name + '.json'))

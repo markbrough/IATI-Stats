@@ -5,7 +5,7 @@ import os
 import sys
 
 from collections import defaultdict
-from common import decimal_default
+from common import decimal_default, sort_keys
 
 GITOUT_DIR = os.environ.get('GITOUT_DIR') or 'gitout'
 
@@ -79,5 +79,5 @@ for commit in os.listdir(os.path.join(GITOUT_DIR, 'commits')):
         # Write data from the 'total' dictionary to a temporary file, then rename
         for statname, statfile in total.items():
             with open(os.path.join(git_out_dir, statname + '.json.new'), 'w') as filepath:
-                json.dump(statfile, filepath, sort_keys=True, indent=2, default=decimal_default)
+                json.dump(sort_keys(statfile), filepath, indent=2, default=decimal_default)
             os.rename(os.path.join(git_out_dir, statname + '.json.new'), os.path.join(git_out_dir, statname + '.json'))

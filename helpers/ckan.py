@@ -1,6 +1,7 @@
 import os
 import json
 from collections import defaultdict
+from statsrunner.common import sort_keys
 
 out = defaultdict(dict)
 
@@ -22,4 +23,4 @@ for publisher in os.listdir('ckan'):
             print('{0} is not valid JSON'.format(publisher))
 
 with open('ckan.json', 'w') as fp:
-    json.dump(out, fp, indent=2, sort_keys=True)
+    json.dump(sort_keys(out), fp, indent=2)

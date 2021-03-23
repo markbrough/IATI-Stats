@@ -1,6 +1,7 @@
 import json
 import os
 from collections import defaultdict
+from statsrunner.common import sort_keys
 
 
 def invert_dir(basedirname, out_filename, output_dir):
@@ -43,7 +44,7 @@ def invert_dir(basedirname, out_filename, output_dir):
         except OSError:
             pass
         with open(os.path.join(output_dir, out_filename, statname + '.json'), 'w') as fp:
-            json.dump(inverted, fp, sort_keys=True, indent=2)
+            json.dump(sort_keys(inverted), fp, indent=2)
 
 
 def invert(args):

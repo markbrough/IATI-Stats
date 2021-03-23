@@ -6,7 +6,7 @@ import sys
 import traceback
 import statsrunner.shared
 import statsrunner.aggregate
-from statsrunner.common import decimal_default
+from statsrunner.common import decimal_default, sort_keys
 
 
 def call_stats(this_stats, args):
@@ -130,7 +130,7 @@ def process_file(*args):
     if args.verbose_loop:
         with open(outputfile, 'w') as outfp:
             stats_json['elements'] = list(stats_json['elements'])
-            json.dump(stats_json, outfp, sort_keys=True, indent=2, default=decimal_default)
+            json.dump(sort_keys(stats_json), outfp, indent=2, default=decimal_default)
     # If args.verbose_loop is not true, create aggregated-file json and return the subtotal dictionary of statsrunner.aggregate.aggregate_file().
     else:
         statsrunner.aggregate.aggregate_file(stats_module, stats_json, os.path.join(output_dir, 'aggregated-file', folder, xmlfile))
