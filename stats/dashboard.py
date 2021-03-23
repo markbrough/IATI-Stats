@@ -769,7 +769,7 @@ class ActivityStats(CommonSharedElements):
         for activity_date in self.element.findall('activity-date'):
             type_code = activity_date.attrib.get('type')
             act_date = iso_date(activity_date)
-            out[type_code][act_date] += 1
+            out[type_code][str(act_date)] += 1
         return out
 
     @returns_numberdictdictdict
@@ -1066,16 +1066,16 @@ class PublisherStats(object):
         }
         min_dates = {k: min(v) for k, v in activity_dates.items() if v}
         max_dates = {k: max(v) for k, v in activity_dates.items() if v}
-        overall_min = min(min_dates.values()) if min_dates else None
-        overall_max = max(max_dates.values()) if min_dates else None
+        overall_min = str(min(min_dates.values())) if min_dates else None
+        overall_max = str(max(max_dates.values())) if min_dates else None
         return {
             'min': {
                 'overall': overall_min,
-                'by_type': {k: v for k, v in min_dates.items()}
+                'by_type': {k: str(v) for k, v in min_dates.items()}
             },
             'max': {
                 'overall': overall_max,
-                'by_type': {k: v for k, v in max_dates.items()}
+                'by_type': {k: str(v) for k, v in max_dates.items()}
             },
         }
 
