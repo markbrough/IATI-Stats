@@ -44,6 +44,8 @@ jobs:
       run: python calculate_stats.py aggregate
     - name: Run invert
       run: python calculate_stats.py invert
+    - name: Add CNAME to output
+      run: echo "dashboard-stats.codeforiati.org" > out/CNAME
     - name: Deploy 🚀
       uses: JamesIves/github-pages-deploy-action@3.7.1
       with:
