@@ -1,7 +1,7 @@
 name: Generate stats
 on:
   schedule:
-    - cron: '0 3 * * *'
+    - cron: '0 2 * * *'
 jobs:
   generate_stats:
     runs-on: ubuntu-latest
@@ -45,11 +45,11 @@ jobs:
         mv ckan.json helpers
         mv metadata.json out
     - name: Run loop
-      run: python calculate_stats.py loop
+      run: python calculate_stats.py --output out/current loop
     - name: Run aggregate
-      run: python calculate_stats.py aggregate
+      run: python calculate_stats.py --output out/current aggregate
     - name: Run invert
-      run: python calculate_stats.py invert
+      run: python calculate_stats.py --output out/current invert
     - name: Add CNAME to output
       run: echo "dashboard-stats.codeforiati.org" > out/CNAME
     - name: Deploy 🚀
