@@ -1,26 +1,27 @@
+from glob import glob
 import os
 import json
 from collections import defaultdict
-from statsrunner.common import sort_keys
 
 out = defaultdict(dict)
 
 # The ckan directory is the one produced by https://github.com/Bjwebb/IATI-Registry-Refresher/tree/save_ckan_json
 
-for publisher in os.listdir('ckan'):
-    with open(os.path.join('ckan', publisher)) as fp:
+for filepath in glob(os.path.join('metadata', '*', '*')):
+    publisher = filepath.split('/', 2)[1]
+    with open(filepath) as fp:
         try:
-            for package in json.load(fp)['result']['results']:
-                if package['resources']:
-                    extras = dict((x['key'], x['value']) for x in package['extras'])
-                    out[publisher][package['name']] = {
-                        'title': package['title'],
-                        'extras': extras,
-                        'license_id': package['license_id'],
-                        'resource': package['resources'][0],
-                    }
+            package = json.load(fp)
+            if package['resources']:
+                extras = dict((x['key'], x['value']) for x in package['extras'])
+                out[publisher][package['name']] = {
+                    'title': package['title'],
+                    'extras': extras,
+                    'license_id': package['license_id'],
+                    'resource': package['resources'][0],
+                }
         except ValueError:
             print('{0} is not valid JSON'.format(publisher))
 
 with open('ckan.json', 'w') as fp:
-    json.dump(sort_keys(out), fp, indent=2)
+    json.dump(out, fp, indent=2, sort_keys=True)

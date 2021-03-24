@@ -30,14 +30,18 @@ jobs:
         ./get_codelist_mapping.sh
         ./get_codelists.sh
         ./get_schemas.sh
-        wget -q "http://dashboard.iatistandard.org/stats/ckan.json"
         wget -q "https://raw.githubusercontent.com/codeforIATI/IATI-Dashboard/main/registry_id_relationships.csv"
         cd ..
     - name: Download IATI data
       run: |
         wget -q -O iati_dump.zip https://www.dropbox.com/s/kkm80yjihyalwes/iati_dump.zip?dl=1
         unzip -q iati_dump.zip
-        rm -rf iati_dump.zip metadata metadata.json
+        rm -rf iati_dump.zip
+    - name: Generate ckan.json
+      run: |
+        mkdir out
+        python helpers/ckan.py
+        mv ckan.json out
     - name: Run loop
       run: python calculate_stats.py loop
     - name: Run aggregate
