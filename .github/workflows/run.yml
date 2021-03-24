@@ -41,7 +41,8 @@ jobs:
     - name: Generate ckan.json
       run: |
         python helpers/ckan.py
-        mv ckan.json out
+        cp ckan.json out
+        mv ckan.json helpers
         mv metadata.json out
     - name: Run loop
       run: python calculate_stats.py loop
