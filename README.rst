@@ -11,7 +11,7 @@ IATI Stats
 Introduction
 ------------
 
-IATI-Stats is a python application for generating JSON stats files from IATI data. An example of this outputted JSON can be found at http://dashboard.iatistandard.org/stats/
+IATI-Stats is a python application for generating JSON stats files from IATI data. An example of this outputted JSON can be found at https://github.com/codeforIATI/IATI-Stats/tree/gh-pages
 
 These stats are used to build the `IATI Dashboard <http://dashboard.iatistandard.org/>`_, and also to produce some of the stats for the Transparency Indicator and the IATI Annual report.
 
