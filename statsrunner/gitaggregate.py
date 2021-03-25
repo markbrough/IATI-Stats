@@ -2,7 +2,8 @@ import decimal
 import json
 import os
 import sys
-from common import decimal_default
+from common import decimal_default, sort_keys
+
 
 # Set value for the gitout directory
 GITOUT_DIR = os.environ.get('GITOUT_DIR') or 'gitout'
@@ -48,7 +49,7 @@ git_out_files = os.listdir(git_out_dir)
 
 # Loop over each commit in gitout/commits
 for commit in os.listdir(os.path.join(GITOUT_DIR, 'commits')):
-    print 'Aggregating for commit: {}'.format(commit)
+    print('Aggregating for commit: {}'.format(commit))
 
     for fname in os.listdir(os.path.join(GITOUT_DIR, 'commits', commit, 'aggregated')):
         if not fname.endswith('.json'):
@@ -59,13 +60,13 @@ for commit in os.listdir(os.path.join(GITOUT_DIR, 'commits')):
         if trimmed_name not in whitelisted_stats_files:
             continue
 
-        print 'Adding to {} for file: {}'.format('gitaggregate-dated' if dated else 'gitaggregate', fname)
+        print('Adding to {} for file: {}'.format('gitaggregate-dated' if dated else 'gitaggregate', fname))
 
         commit_json_fname = os.path.join(GITOUT_DIR, 'commits', commit, 'aggregated', fname)
 
         # Load the current file conents to memory, or set as an empty dictionary
         if fname in git_out_files:
-            # FIXME: This is a possible cause of a memory issue in future, as the size of the aggregate file 
+            # FIXME: This is a possible cause of a memory issue in future, as the size of the aggregate file
             #        increases each time there is a new commit
             with open(os.path.join(git_out_dir, fname)) as filepath:
                 gitaggregate_json = json.load(filepath, parse_float=decimal.Decimal)
@@ -84,7 +85,7 @@ for commit in os.listdir(os.path.join(GITOUT_DIR, 'commits')):
 
             # Write output to a temporary file, then rename
             with open(os.path.join(git_out_dir, trimmed_name + '.json.new'), 'w') as filepath:
-                print 'Writing data to {}'.format(trimmed_name)
-                json.dump(gitaggregate_json, filepath, sort_keys=True, indent=2, default=decimal_default)
-            print 'Renaming file {} to {}'.format(trimmed_name + '.json.new', trimmed_name + '.json')
+                print('Writing data to {}'.format(trimmed_name))
+                json.dump(sort_keys(gitaggregate_json), filepath, indent=2, default=decimal_default)
+            print('Renaming file {} to {}'.format(trimmed_name + '.json.new', trimmed_name + '.json'))
             os.rename(os.path.join(git_out_dir, trimmed_name + '.json.new'), os.path.join(git_out_dir, trimmed_name + '.json'))
