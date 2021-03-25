@@ -102,17 +102,39 @@ def convert_to_float(x):
 
 
 # Import codelists
-# In order to test whether or not correct codelist values are being used in the data
-# we need to pull in data about how codelists map to elements
+# In order to test whether or not correct codelist values are being
+# used in the data we need to pull in data about how codelists map
+# to elements
 def get_codelist_mapping(major_version):
-    codelist_mapping_xml = etree.parse('helpers/mapping-{}.xml'.format(major_version))
-    codelist_mappings = [x.text for x in codelist_mapping_xml.xpath('mapping/path')]
-    codelist_mappings = [re.sub(r'^\/\/iati-activity', './', path) for path in codelist_mappings]
-    codelist_mappings = [re.sub(r'^\/\/', './/', path) for path in codelist_mappings]
-    return codelist_mappings
+    codelist_mapping_xml = etree.parse(
+        'helpers/mapping-{}.xml'.format(major_version))
+    codelist_mappings = codelist_mapping_xml.xpath('mapping')
+    codelist_paths = [
+        x.find('path').text
+        for x in codelist_mappings]
+    codelist_paths = [
+        re.sub(r'^\/\/iati-activity', './', path)
+        for path in codelist_paths]
+    codelist_paths = [
+        re.sub(r'^\/\/', './/', path)
+        for path in codelist_paths]
+    codelist_condition_paths = []
+    for path, mapping in zip(codelist_paths, codelist_mappings):
+        condition_path = None
+        condition = mapping.find('condition')
+        if condition is not None:
+            condition = condition.text
+            pref, attr = path.rsplit('/', 1)
+            condition_path = '{0}[{1}]/{2}'.format(pref, condition, attr)
+        codelist_condition_paths.append((path, condition_path))
+
+    return codelist_condition_paths
 
 
-codelist_mappings = {major_version: get_codelist_mapping(major_version) for major_version in ['1', '2']}
+codelist_mappings = {
+    major_version: get_codelist_mapping(major_version)
+    for major_version in ['1', '2']}
+
 
 CODELISTS = {'1': {}, '2': {}}
 for major_version in ['1', '2']:
@@ -960,8 +982,12 @@ class ActivityFileStats(GenericFileStats):
     @memoize
     def _codelist_values(self):
         out = defaultdict(lambda: defaultdict(int))
-        for path in codelist_mappings[self._major_version()]:
-            for value in self.root.xpath(path):
+        for path, condition_path in codelist_mappings[self._major_version()]:
+            if condition_path:
+                values = self.root.xpath(condition_path)
+            else:
+                values = self.root.xpath(path)
+            for value in values:
                 out[path][value] += 1
         return out
 
