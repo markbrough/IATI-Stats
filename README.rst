@@ -6,7 +6,7 @@ IATI Stats
 .. image:: https://coveralls.io/repos/github/codeforIATI/IATI-Stats/badge.svg?branch=main
     :target: https://coveralls.io/github/codeforIATI/IATI-Stats?branch=main
 .. image:: https://img.shields.io/badge/license-GPLv3-blue.svg
-    :target: https://github.com/codeforIATI/IATI-Stats/blob/main/GPL.md
+    :target: https://github.com/codeforIATI/IATI-Stats/blob/main/LICENSE.md
 
 Introduction
 ------------
