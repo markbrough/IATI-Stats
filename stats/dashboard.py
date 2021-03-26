@@ -120,13 +120,14 @@ def get_codelist_mapping(major_version):
         for path in codelist_paths]
     codelist_condition_paths = []
     for path, mapping in zip(codelist_paths, codelist_mappings):
-        condition_path = None
         condition = mapping.find('condition')
         if condition is not None:
             condition = condition.text
             pref, attr = path.rsplit('/', 1)
             condition_path = '{0}[{1}]/{2}'.format(pref, condition, attr)
-        codelist_condition_paths.append((path, condition_path))
+            codelist_condition_paths.append(condition_path)
+        else:
+            codelist_condition_paths.append(path)
 
     return codelist_condition_paths
 
@@ -982,11 +983,8 @@ class ActivityFileStats(GenericFileStats):
     @memoize
     def _codelist_values(self):
         out = defaultdict(lambda: defaultdict(int))
-        for path, condition_path in codelist_mappings[self._major_version()]:
-            if condition_path:
-                values = self.root.xpath(condition_path)
-            else:
-                values = self.root.xpath(path)
+        for path in codelist_mappings[self._major_version()]:
+            values = self.root.xpath(path)
             for value in values:
                 out[path][value] += 1
         return out
