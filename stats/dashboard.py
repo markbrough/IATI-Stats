@@ -106,23 +106,15 @@ def convert_to_float(x):
 # used in the data we need to pull in data about how codelists map
 # to elements
 def get_codelist_mapping(major_version):
-    codelist_mapping_xml = etree.parse(
-        'helpers/mapping-{}.xml'.format(major_version))
-    codelist_mappings = codelist_mapping_xml.xpath('mapping')
-    codelist_paths = [
-        x.find('path').text
-        for x in codelist_mappings]
-    codelist_paths = [
-        re.sub(r'^\/\/iati-activity', './', path)
-        for path in codelist_paths]
-    codelist_paths = [
-        re.sub(r'^\/\/', './/', path)
-        for path in codelist_paths]
+    with open('helpers/mapping-{}.json'.format(major_version)) as f:
+        codelist_mappings = json.load(f)
     codelist_condition_paths = []
-    for path, mapping in zip(codelist_paths, codelist_mappings):
-        condition = mapping.find('condition')
+    for mapping in codelist_mappings:
+        path = mapping.get('path')
+        path = re.sub(r'^\/\/iati-activity', './', path)
+        path = re.sub(r'^\/\/', './/', path)
+        condition = mapping.get('condition')
         if condition is not None:
-            condition = condition.text
             pref, attr = path.rsplit('/', 1)
             condition_path = '{0}[{1}]/{2}'.format(pref, condition, attr)
             codelist_condition_paths.append(condition_path)
