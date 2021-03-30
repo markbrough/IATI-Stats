@@ -50,8 +50,8 @@ jobs:
       run: python calculate_stats.py --output out/current aggregate
     - name: Run invert
       run: python calculate_stats.py --output out/current invert
-    - name: Add CNAME to output
-      run: echo "dashboard-stats.codeforiati.org" > out/CNAME
+    - name: Add static files to output
+      run: cp -r static/* out
     - name: Deploy 🚀
       uses: JamesIves/github-pages-deploy-action@3.7.1
       with:
