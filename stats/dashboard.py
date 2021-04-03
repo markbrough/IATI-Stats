@@ -847,7 +847,7 @@ class ActivityStats(CommonSharedElements):
             if (date_code_runs + relativedelta(months=+6)) > self._get_end_date():
                 return 1
 
-        if self._get_ratio_commitments_disbursements(year) >= 0.9 and self._get_ratio_commitments_disbursements(year) is not None:
+        if self._get_ratio_commitments_disbursements(year) is not None and self._get_ratio_commitments_disbursements(year) >= 0.9:
             return 2
         else:
             return 0
