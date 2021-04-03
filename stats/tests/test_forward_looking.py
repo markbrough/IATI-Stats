@@ -3,7 +3,7 @@ from lxml import etree
 import pytest
 
 from stats.dashboard import ActivityStats
-from test_comprehensiveness import MockActivityStats
+from .test_comprehensiveness import MockActivityStats
 
 
 def test_forwardlooking_is_current():
