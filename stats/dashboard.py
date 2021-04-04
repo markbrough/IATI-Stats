@@ -1754,9 +1754,9 @@ class PublisherStats(object):
     def most_recent_transaction_date(self):
         """Computes the latest non-future transaction data across a dataset
         """
-        nonfuture_transaction_dates = filter(
+        nonfuture_transaction_dates = list(filter(
             lambda x: x is not None and x <= self.today,
-            map(iso_date_match, sum((x.keys() for x in self.aggregated['transaction_dates'].values()), [])))
+            map(iso_date_match, sum((list(x.keys()) for x in self.aggregated['transaction_dates'].values()), []))))
         if nonfuture_transaction_dates:
             return str(max(nonfuture_transaction_dates))
 
@@ -1764,9 +1764,9 @@ class PublisherStats(object):
     def latest_transaction_date(self):
         """Computes the latest transaction data across a dataset. Can be in the future
         """
-        transaction_dates = filter(
+        transaction_dates = list(filter(
             lambda x: x is not None,
-            map(iso_date_match, sum((x.keys() for x in self.aggregated['transaction_dates'].values()), [])))
+            map(iso_date_match, sum((list(x.keys()) for x in self.aggregated['transaction_dates'].values()), []))))
         if transaction_dates:
             return str(max(transaction_dates))
 
