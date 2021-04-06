@@ -398,15 +398,15 @@ class CommonSharedElements(object):
         return dict([(x.attrib.get('ref'), 1) for x in self.element.findall('participating-org')])
 
     @returns_numberdictdict
-    def participating_orgs_text(self):
+    def _participating_orgs_text(self):
         return dict([(x.attrib.get('ref'), {x.text: 1}) for x in self.element.findall('participating-org')])
 
     @returns_numberdictdict
-    def participating_orgs_by_role(self):
+    def _participating_orgs_by_role(self):
         return dict([(x.attrib.get('role'), {x.attrib.get('ref'): 1}) for x in self.element.findall('participating-org')])
 
     @returns_numberdict
-    def element_versions(self):
+    def _element_versions(self):
         return {self.element.attrib.get('version'): 1}
 
     @returns_numberdict
@@ -484,7 +484,7 @@ class ActivityStats(CommonSharedElements):
             return {('1' if hierarchy is None else hierarchy): out}
 
     @returns_numberdict
-    def currencies(self):
+    def _currencies(self):
         currencies = [x.find('value').get('currency') for x in self.element.findall('transaction') if x.find('value') is not None]
         currencies = [c if c else self.element.get('default-currency') for c in currencies]
         return dict((c, 1) for c in currencies)
@@ -581,7 +581,7 @@ class ActivityStats(CommonSharedElements):
                 debug(self, e)
 
     @returns_numberdict
-    def activities_per_year(self):
+    def _activities_per_year(self):
         return {self.__get_start_year(): 1}
 
     @returns_numberdict
@@ -613,7 +613,7 @@ class ActivityStats(CommonSharedElements):
         return out
 
     @returns_numberdict
-    def provider_org(self):
+    def _provider_org(self):
         out = defaultdict(int)
         for transaction in self.element.findall('transaction'):
             provider_org = transaction.find('provider-org')
@@ -622,7 +622,7 @@ class ActivityStats(CommonSharedElements):
         return out
 
     @returns_numberdict
-    def receiver_org(self):
+    def _receiver_org(self):
         out = defaultdict(int)
         for transaction in self.element.findall('transaction'):
             receiver_org = transaction.find('receiver-org')
@@ -631,7 +631,7 @@ class ActivityStats(CommonSharedElements):
         return out
 
     @returns_numberdict
-    def transactions_incoming_funds(self):
+    def _transactions_incoming_funds(self):
         """
         Counts the number of activities which contain at least one transaction with incoming funds.
         Also counts the number of transactions where the type is incoming funds
@@ -652,7 +652,7 @@ class ActivityStats(CommonSharedElements):
         return out
 
     @returns_numberdict
-    def transaction_timing(self):
+    def _transaction_timing(self):
         today = self.now.date()
 
         def months_ago(n):
@@ -671,7 +671,7 @@ class ActivityStats(CommonSharedElements):
         return out
 
     @returns_numberdict
-    def transaction_months(self):
+    def _transaction_months(self):
         out = defaultdict(int)
         for transaction in self.element.findall('transaction'):
             date = transaction_date(transaction)
@@ -689,7 +689,7 @@ class ActivityStats(CommonSharedElements):
         return out
 
     @returns_numberdict
-    def budget_lengths(self):
+    def _budget_lengths(self):
         out = defaultdict(int)
         for budget in self.element.findall('budget'):
             period_start = iso_date(budget.find('period-start'))
@@ -702,7 +702,7 @@ class ActivityStats(CommonSharedElements):
         t_date = transaction_date(transaction)
         return t_date.year if t_date else None
 
-    def _spend_currency_year(self, transactions):
+    def __spend_currency_year(self, transactions):
         out = defaultdict(lambda: defaultdict(Decimal))
         for transaction in transactions:
             value = transaction.find('value')
@@ -714,8 +714,8 @@ class ActivityStats(CommonSharedElements):
         return out
 
     @returns_numberdictdict
-    def spend_currency_year(self):
-        return self._spend_currency_year(self.element.findall('transaction'))
+    def _spend_currency_year(self):
+        return self.__spend_currency_year(self.element.findall('transaction'))
 
     def _is_secondary_reported(self):
         """Tests if this activity has been secondary reported. Test based on if the
@@ -874,7 +874,7 @@ class ActivityStats(CommonSharedElements):
         )
 
     @returns_dict
-    def forwardlooking_excluded_activities(self):
+    def _forwardlooking_excluded_activities(self):
         """Outputs whether this activity is excluded for the purposes of forwardlooking calculations
            Returns iati-identifier and...: 0 if not excluded
                                            1 if excluded
@@ -990,7 +990,7 @@ class ActivityStats(CommonSharedElements):
         return False
 
     @returns_dict
-    def comprehensiveness_current_activities(self):
+    def _comprehensiveness_current_activities(self):
         """Outputs whether each activity is considered current for the purposes of comprehensiveness calculations"""
         return {self.element.find('iati-identifier').text: self.comprehensiveness_current_activity_status}
 
@@ -1314,14 +1314,14 @@ class ActivityStats(CommonSharedElements):
         return out
 
     @returns_numberdictdict
-    def count_transactions_by_type_by_year(self):
+    def _count_transactions_by_type_by_year(self):
         out = defaultdict(lambda: defaultdict(int))
         for transaction in self.element.findall('transaction'):
             out[self._transaction_type_code(transaction)][self._transaction_year(transaction)] += 1
         return out
 
     @returns_numberdictdictdict
-    def sum_transactions_by_type_by_year(self):
+    def _sum_transactions_by_type_by_year(self):
         out = defaultdict(lambda: defaultdict(lambda: defaultdict(Decimal)))
         for transaction in self.element.findall('transaction'):
             value = transaction.find('value')
@@ -1340,9 +1340,9 @@ class ActivityStats(CommonSharedElements):
     def sum_transactions_by_type_by_year_usd(self):
         out = defaultdict(lambda: defaultdict(lambda: defaultdict(Decimal)))
 
-        # Loop over the values in computed in sum_transactions_by_type_by_year() and build a
+        # Loop over the values in computed in _sum_transactions_by_type_by_year() and build a
         # dictionary of USD values for the currency and year
-        for transaction_type, data in list(self.sum_transactions_by_type_by_year().items()):
+        for transaction_type, data in list(self._sum_transactions_by_type_by_year().items()):
             for currency, years in list(data.items()):
                 for year, value in list(years.items()):
                     if None not in [currency, value, year]:
@@ -1386,14 +1386,14 @@ class ActivityStats(CommonSharedElements):
         return out
 
     @returns_numberdict
-    def count_planned_disbursements_by_year(self):
+    def _count_planned_disbursements_by_year(self):
         out = defaultdict(int)
         for pd in self.element.findall('planned-disbursement'):
             out[planned_disbursement_year(pd)] += 1
         return out
 
     @returns_numberdictdict
-    def sum_planned_disbursements_by_year(self):
+    def _sum_planned_disbursements_by_year(self):
         out = defaultdict(lambda: defaultdict(Decimal))
         for pd in self.element.findall('planned-disbursement'):
             value = pd.find('value')
@@ -1512,6 +1512,7 @@ class ActivityFileStats(GenericFileStats):
     def activity_files(self):
         return 1
 
+    @returns_numberdictdict
     @memoize
     def _codelist_values(self):
         out = defaultdict(lambda: defaultdict(int))
@@ -1520,10 +1521,6 @@ class ActivityFileStats(GenericFileStats):
             for value in values:
                 out[path][value] += 1
         return out
-
-    @returns_numberdictdict
-    def codelist_values(self):
-        return self._codelist_values()
 
     @returns_numberdictdict
     def codelist_values_by_major_version(self):
@@ -1606,7 +1603,7 @@ class PublisherStats(object):
         return len(self.aggregated['iati_identifiers'])
 
     @returns_dict
-    def reference_spend_data(self):
+    def _reference_spend_data(self):
         """Lookup the reference spend data (value and currency) for this publisher (obtained by using the
            name of the folder), for years 2014 and 2015.
            Outputs an empty string for each element where there is no data.
@@ -1632,9 +1629,10 @@ class PublisherStats(object):
         """
 
         output = {}
+        ref_spend_data = self._reference_spend_data()
 
         # Construct a list of reference spend data related to years 2015 & 2014 only
-        ref_data_years = [x for x in self.reference_spend_data().items() if is_number(x[0])]
+        ref_data_years = [x for x in ref_spend_data.items() if is_number(x[0])]
 
         # Loop over the years
         for year, data in ref_data_years:
@@ -1644,8 +1642,8 @@ class PublisherStats(object):
             output[year]['official_forecast'] = data['official_forecast_usd'] if is_number(data['official_forecast_usd']) else ''
 
         # Append the spend error and DAC booleans and return
-        output['spend_data_error_reported'] = self.reference_spend_data().get('spend_data_error_reported', 0)
-        output['DAC'] = self.reference_spend_data().get('DAC', 0)
+        output['spend_data_error_reported'] = ref_spend_data.get('spend_data_error_reported', 0)
+        output['DAC'] = ref_spend_data.get('DAC', 0)
         return output
 
     @returns_numberdict
@@ -1702,7 +1700,7 @@ class PublisherStats(object):
 
     @no_aggregation
     @memoize
-    def budget_length_median(self):
+    def _budget_length_median(self):
         budget_lengths = self.aggregated['budget_lengths']
         budgets = sum(budget_lengths.values())
         i = 0
@@ -1720,7 +1718,7 @@ class PublisherStats(object):
         return median
 
     def _budget_alignment(self):
-        median = self.budget_length_median()
+        median = self._budget_length_median()
         if median is None:
             return 'Not known'
         elif median < 100:
@@ -1761,7 +1759,7 @@ class PublisherStats(object):
             return str(max(nonfuture_transaction_dates))
 
     @no_aggregation
-    def latest_transaction_date(self):
+    def _latest_transaction_date(self):
         """Computes the latest transaction data across a dataset. Can be in the future
         """
         transaction_dates = list(filter(
@@ -1798,10 +1796,6 @@ class OrganisationStats(CommonSharedElements):
     def elements_total(self):
         return element_to_count_dict(self.element, 'iati-organisation', defaultdict(int), True)
 
-    @returns_numberdict
-    def element_versions(self):
-        return {self.element.attrib.get('version'): 1}
-
 
 class AllDataStats(object):
     blank = False
@@ -1811,5 +1805,5 @@ class AllDataStats(object):
         return len(self.aggregated['iati_identifiers'])
 
     @returns_numberdict
-    def duplicate_identifiers(self):
+    def _duplicate_identifiers(self):
         return {k: v for k, v in self.aggregated['iati_identifiers'].items() if v > 1}
