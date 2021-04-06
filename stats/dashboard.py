@@ -617,13 +617,18 @@ class ActivityStats(CommonSharedElements):
           True -- Secondary-reporter flag set
           False -- Secondary-reporter flag not set, or evaulates to False
         """
-        return bool(list((filter(lambda x: int(x) if str(x).isdigit() else 0,
-                    self.element.xpath('reporting-org/@secondary-reporter')))))
+        reporting_org_el = self.element.find('reporting-org')
+        if reporting_org_el is None:
+            return False
+        secondary = reporting_org_el.attrib.get('secondary-reporter')
+        if secondary in ['1', 'true']:
+            return True
+        return False
 
     @returns_dict
     def activities_secondary_reported(self):
         if self._is_secondary_reported():
-            return {self.element.find('iati-identifier').text: 0}
+            return {self.iati_identifier(): 1}
         else:
             return {}
 
