@@ -5,8 +5,7 @@ You can choose a different set of tests by running calculate_stats.py with the `
 
 from __future__ import print_function
 from lxml import etree
-import datetime
-from datetime import date
+from datetime import date, datetime, timedelta
 from collections import defaultdict, OrderedDict
 from decimal import Decimal, InvalidOperation
 import os
@@ -446,7 +445,7 @@ class ActivityStats(CommonSharedElements):
     strict = False  # (Setting this to true will ignore values that don't follow the schema)
     context = ''
     comprehensiveness_current_activity_status = None
-    now = datetime.datetime.now()  # TODO Add option to set this to date of git commit
+    now = datetime.now()  # TODO Add option to set this to date of git commit
 
     @returns_numberdict
     def iati_identifiers(self):
@@ -572,7 +571,7 @@ class ActivityStats(CommonSharedElements):
             activity_date = self.element.find("activity-date[@type='{}']".format(self._planned_start_code()))
         if activity_date is not None and activity_date.get('iso-date'):
             try:
-                act_date = datetime.datetime.strptime(activity_date.get('iso-date').strip('Z'), "%Y-%m-%d")
+                act_date = datetime.strptime(activity_date.get('iso-date').strip('Z'), "%Y-%m-%d")
                 return int(act_date.year)
             except ValueError as e:
                 debug(self, e)
@@ -655,7 +654,7 @@ class ActivityStats(CommonSharedElements):
         today = self.now.date()
 
         def months_ago(n):
-            self.now.date() - datetime.timedelta(days=n * 30)
+            self.now.date() - timedelta(days=n * 30)
         out = {30: 0, 60: 0, 90: 0, 180: 0, 360: 0}
 
         for transaction in self.element.findall('transaction'):
@@ -824,7 +823,7 @@ class ActivityStats(CommonSharedElements):
         else:
             return None
 
-    def _forwardlooking_exclude_in_calculations(self, year=datetime.date.today().year, date_code_runs=None):
+    def _forwardlooking_exclude_in_calculations(self, year=date.today().year, date_code_runs=None):
         """ Tests if an activity should be excluded from the forward looking calculations.
             Activities are excluded if:
               i) They end within six months from date_code_runs OR
@@ -884,7 +883,7 @@ class ActivityStats(CommonSharedElements):
                                            1 if excluded
         """
         # Set the current year. Defaults to self.now (as a date object)
-        this_year = datetime.date.today().year
+        this_year = date.today().year
 
         # Retreive a dictionary with the activity identifier and the result for this and the next two years
         return {self.element.find('iati-identifier').text: {year: int(self._forwardlooking_exclude_in_calculations(year))
@@ -1242,7 +1241,7 @@ class ActivityStats(CommonSharedElements):
                 start_date = None
             return {
                 'recipient_language': 1 if len(self.element.findall('recipient-country')) == 1 else 0,
-                'transaction_spend': 1 if start_date and start_date < self.today and (self.today - start_date) > datetime.timedelta(days=365) else 0,
+                'transaction_spend': 1 if start_date and start_date < self.today and (self.today - start_date) > timedelta(days=365) else 0,
                 'transaction_traceability': 1 if (self.element.xpath('transaction[transaction-type/@code="{}"]'.format(self._incoming_funds_code()))) or self._is_donor_publisher() else 0,
             }
         else:
