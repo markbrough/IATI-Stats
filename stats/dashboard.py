@@ -5,8 +5,7 @@ You can choose a different set of tests by running calculate_stats.py with the `
 """
 from __future__ import print_function
 from lxml import etree
-import datetime
-from datetime import date
+from datetime import date, datetime
 from collections import defaultdict, OrderedDict
 from decimal import Decimal, InvalidOperation
 import os
@@ -434,7 +433,7 @@ class ActivityStats(CommonSharedElements):
     blank = False
     strict = False  # (Setting this to true will ignore values that don't follow the schema)
     context = ''
-    now = datetime.datetime.now()  # TODO Add option to set this to date of git commit
+    now = datetime.now()  # TODO Add option to set this to date of git commit
 
     @returns_numberdict
     def iati_identifiers(self):
@@ -547,7 +546,7 @@ class ActivityStats(CommonSharedElements):
             activity_date = self.element.find("activity-date[@type='{}']".format(self._planned_start_code()))
         if activity_date is not None and activity_date.get('iso-date'):
             try:
-                act_date = datetime.datetime.strptime(activity_date.get('iso-date').strip('Z'), "%Y-%m-%d")
+                act_date = datetime.strptime(activity_date.get('iso-date').strip('Z'), "%Y-%m-%d")
                 return int(act_date.year)
             except ValueError as e:
                 debug(self, e)
