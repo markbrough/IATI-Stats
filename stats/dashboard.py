@@ -438,7 +438,7 @@ class ActivityStats(CommonSharedElements):
     @returns_numberdict
     def iati_identifiers(self):
         try:
-            return {self.element.find('iati-identifier').text: 1}
+            return {self.iati_identifier(): 1}
         except AttributeError:
             return None
 
