@@ -8,8 +8,7 @@ from lxml import etree
 import datetime
 from datetime import date
 from collections import defaultdict, OrderedDict
-from decimal import Decimal
-import decimal
+from decimal import Decimal, InvalidOperation
 import os
 import re
 import json
@@ -300,8 +299,8 @@ def valid_coords(x):
     if len(coords) != 2:
         return False
     try:
-        lat = decimal.Decimal(coords[0])
-        lng = decimal.Decimal(coords[1])
+        lat = Decimal(coords[0])
+        lng = Decimal(coords[1])
         # the (0, 0) coordinate is invalid since it's in the ocean in international waters and near-certainly not actual data
         if lat == 0 and lng == 0:
             return False
@@ -310,7 +309,7 @@ def valid_coords(x):
             return False
         else:
             return True
-    except decimal.InvalidOperation:
+    except InvalidOperation:
         return False
 
 
@@ -802,7 +801,7 @@ class ActivityStats(CommonSharedElements):
                 # Set transaction_value if a value exists for this transaction. Else set to 0
                 try:
                     transaction_value = 0 if (value is None or value.text is None) else Decimal(value.text)
-                except decimal.InvalidOperation:
+                except InvalidOperation:
                     transaction_value = 0
                 if self._transaction_year(transaction):
                     out[self._transaction_type_code(transaction)][get_currency(self, transaction)][self._transaction_year(transaction)] += transaction_value
@@ -838,7 +837,7 @@ class ActivityStats(CommonSharedElements):
             # Set budget_value if a value exists for this budget. Else set to 0
             try:
                 budget_value = Decimal(0) if (value is None or value.text is None) else Decimal(value.text)
-            except (TypeError, AttributeError, decimal.InvalidOperation):
+            except (TypeError, AttributeError, InvalidOperation):
                 budget_value = Decimal(0)
             if budget_year(budget):
                 out[budget.attrib.get('type')][get_currency(self, budget)][budget_year(budget)] += budget_value
