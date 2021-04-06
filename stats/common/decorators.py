@@ -43,7 +43,7 @@ def returns_numberdictdict(f):
 
 
 def returns_numberdict(f):
-    """ Dectorator for dictionaries of integers. """
+    """Dectorator for dictionaries of integers."""
     def wrapper(self, *args, **kwargs):
         if self.blank:
             return defaultdict(int)
@@ -57,7 +57,7 @@ def returns_numberdict(f):
 
 
 def returns_dict(f):
-    """ Dectorator for dictionaries. """
+    """Dectorator for dictionaries."""
     def wrapper(self, *args, **kwargs):
         if self.blank:
             return {}
@@ -71,7 +71,7 @@ def returns_dict(f):
 
 
 def returns_number(f):
-    """ Decorator for integers. """
+    """Decorator for integers."""
     def wrapper(self, *args, **kwargs):
         if self.blank:
             return 0
@@ -85,7 +85,7 @@ def returns_number(f):
 
 
 def no_aggregation(f):
-    """ Decorator that perevents aggreagation. """
+    """Decorator that prevents aggregation."""
     def wrapper(self, *args, **kwargs):
         if self.blank:
             return None
