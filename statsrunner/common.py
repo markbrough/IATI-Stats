@@ -1,4 +1,6 @@
+from collections import OrderedDict
 from decimal import Decimal
+
 
 # From http://bugs.python.org/issue16535
 class NumberStr(float):
@@ -19,3 +21,22 @@ def decimal_default(o):
     if isinstance(o, Decimal):
         return NumberStr(o)
     raise TypeError(repr(o) + " is not JSON serializable")
+
+
+def sort_keys(o):
+    def key(k):
+        if isinstance(k, tuple):
+            k = k[0]
+        if isinstance(k, type(None)):
+            return (0, 0, "")
+        try:
+            return (1, float(k), "")
+        except ValueError:
+            pass
+        return (2, 0, str(k))
+
+    if isinstance(o, list):
+        return sorted(o, key=key)
+    if isinstance(o, dict):
+        return OrderedDict(sorted(o.items(), key=key))
+    return o

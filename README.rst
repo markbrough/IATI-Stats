@@ -1,31 +1,25 @@
 IATI Stats
 ==========
 
-.. image:: https://travis-ci.org/IATI/IATI-Stats.svg?branch=master
-    :target: https://travis-ci.org/IATI/IATI-Stats
-.. image:: https://requires.io/github/IATI/IATI-Stats/requirements.svg?branch=master
-    :target: https://requires.io/github/IATI/IATI-Stats/requirements/?branch=master
-    :alt: Requirements Status
-.. image:: https://coveralls.io/repos/IATI/IATI-Stats/badge.png?branch=master
-    :target: https://coveralls.io/r/IATI/IATI-Stats?branch=master
+.. image:: https://github.com/codeforIATI/IATI-Stats/actions/workflows/ci.yml/badge.svg?branch=main
+    :target: https://github.com/codeforIATI/IATI-Stats/actions/workflows/ci.yml
+.. image:: https://coveralls.io/repos/github/codeforIATI/IATI-Stats/badge.svg?branch=main
+    :target: https://coveralls.io/github/codeforIATI/IATI-Stats?branch=main
 .. image:: https://img.shields.io/badge/license-GPLv3-blue.svg
-    :target: https://github.com/IATI/IATI-Stats/blob/master/GPL.md
+    :target: https://github.com/codeforIATI/IATI-Stats/blob/main/LICENSE.md
 
 Introduction
 ------------
 
-IATI-Stats is a python application for generating JSON stats files from IATI data. An example of this outputted JSON can be found at http://dashboard.iatistandard.org/stats/
+IATI-Stats is a python application for generating JSON stats files from IATI data. An example of this outputted JSON can be found at https://github.com/codeforIATI/IATI-Stats/tree/gh-pages
 
 These stats are used to build the `IATI Dashboard <http://dashboard.iatistandard.org/>`_, and also to produce some of the stats for the Transparency Indicator and the IATI Annual report.
-
-.. contents::
 
 Requirements
 ------------
 
 -  Git
--  Python 2.7
--  python-virtualenv
+-  Python 3.x
 -  pip
 -  Bash
 -  gcc
@@ -55,27 +49,27 @@ Getting started
 .. code-block:: bash
 
     # Get the code
-    git clone https://github.com/IATI/IATI-Stats.git
+    git clone https://github.com/codeforIATI/IATI-Stats.git
     cd IATI-Stats
 
     # Put some IATI data in the 'data' directory
     # (see previous section)
 
     # Create a virtual environment (recommended)
-    virtualenv pyenv
+    python3 -m venv pyenv
     source pyenv/bin/activate
     # Install python depencies
     pip install -r requirements.txt
 
     # Fetch helper data
     cd helpers
-    git clone https://github.com/IATI/IATI-Rulesets.git
+    git clone --branch version-2.03 https://github.com/IATI/IATI-Rulesets.git
     ln -s IATI-Rulesets/rulesets .
     ./get_codelist_mapping.sh
     ./get_codelists.sh
     ./get_schemas.sh
     wget "http://dashboard.iatistandard.org/stats/ckan.json"
-    wget "https://raw.githubusercontent.com/IATI/IATI-Dashboard/live/registry_id_relationships.csv"
+    wget "https://raw.githubusercontent.com/codeforIATI/IATI-Dashboard/main/registry_id_relationships.csv"
     cd ..
 
     # Calculate some stats
@@ -111,7 +105,7 @@ Stats definitions are located in a python module, by default ``stats.dashboard``
 -  ``OrganisationStats``
 -  ``OrganisationFileStats``
 
-See `./stats/countonly.py <https://github.com/IATI/IATI-Stats/blob/master/stats/countonly.py>`__ for the structure of a simple stats module.
+See `./stats/countonly.py <https://github.com/codeforIATI/IATI-Stats/blob/main/stats/countonly.py>`__ for the structure of a simple stats module.
 
 Each function within these classes is considered to be a stats function,
 unless it begins with an underscore (``_``). In the appropriate context,
@@ -159,6 +153,7 @@ License
 ::
 
     Copyright (C) 2013-2015 Ben Webb <bjwebb67@googlemail.com>
+    Copyright (C) 2021 Andy Lulham <a.lulham@gmail.com>
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -180,4 +175,3 @@ Included Data
 
 -  ``helpers/old/exchange_rates.csv`` derived from `Exchange
    rates.xls <http://www.oecd.org/dac/stats/Exchange%20rates.xls>`__
-
