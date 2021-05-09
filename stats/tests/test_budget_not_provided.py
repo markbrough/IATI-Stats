@@ -1,6 +1,6 @@
 from lxml import etree
 
-from stats.dashboard import ActivityStats
+from stats.analytics import ActivityStats
 
 
 class MockActivityStats(ActivityStats):

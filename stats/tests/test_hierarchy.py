@@ -1,6 +1,6 @@
 from lxml import etree
 
-from stats.dashboard import ActivityStats, PublisherStats
+from stats.analytics import ActivityStats, PublisherStats
 
 
 def test_hierarchies():

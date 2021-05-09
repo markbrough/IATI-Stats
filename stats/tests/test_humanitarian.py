@@ -2,7 +2,7 @@
 from lxml import etree
 import pytest
 
-from stats.dashboard import ActivityStats
+from stats.analytics import ActivityStats
 
 
 class MockActivityStats(ActivityStats):

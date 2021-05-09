@@ -80,7 +80,7 @@ def is_number(v):
         Return: True if v is a number
                 False if v is not a number
         NOTE: Any changes to this function should be replicated in:
-              https://github.com/IATI/IATI-Dashboard/blob/master/coverage.py#L7
+              https://github.com/codeforIATI/analytics/blob/881f950c/coverage.py#L10
     """
     try:
         float(v)
@@ -94,7 +94,7 @@ def convert_to_float(x):
         Input: x - a variable
         Return: x as a float, or zero if x is not a number
         NOTE: Any changes to this function should be replicated in:
-              https://github.com/IATI/IATI-Dashboard/blob/master/coverage.py#L19
+              https://github.com/codeforIATI/analytics/blob/881f950c/coverage.py#L23
     """
     if is_number(x):
         return float(x)
@@ -740,7 +740,7 @@ class ActivityStats(CommonSharedElements):
 
     @returns_numberdictdict
     def forwardlooking_currency_year(self):
-        # Note this is not currently displayed on the dashboard
+        # Note this is not currently displayed on Analytics
         # As the forwardlooking page now only displays counts,
         # not the sums that this function calculates.
         out = defaultdict(lambda: defaultdict(Decimal))

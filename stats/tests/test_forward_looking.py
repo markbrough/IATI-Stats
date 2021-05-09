@@ -2,7 +2,7 @@ import datetime
 from lxml import etree
 import pytest
 
-from stats.dashboard import ActivityStats
+from stats.analytics import ActivityStats
 from .test_comprehensiveness import MockActivityStats
 
 

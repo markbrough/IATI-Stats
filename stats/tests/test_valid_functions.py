@@ -1,5 +1,6 @@
-from stats.dashboard import valid_coords, valid_date, valid_url, valid_value
 from lxml import etree
+
+from stats.analytics import valid_coords, valid_date, valid_url, valid_value
 
 
 def test_valid_coords():
