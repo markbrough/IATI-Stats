@@ -24,7 +24,7 @@ def calculate_stats():
     )
     parser.add_argument(
         "--strict",
-        help="Follow the schema strictly. (This is not currently used by the dashboard stats).",
+        help="Follow the schema strictly. (This is not currently used by Analytics).",
         action="store_true"
     )
     parser.add_argument(
@@ -40,8 +40,8 @@ def calculate_stats():
     )
     parser.add_argument(
         "--stats-module",
-        help="Python module to import stats from, defaults to stats.dashboard",
-        default='stats.dashboard'
+        help="Python module to import stats from, defaults to stats.analytics",
+        default='stats.analytics'
     )
     parser.add_argument(
         "--verbose-loop",
