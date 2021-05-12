@@ -1407,14 +1407,12 @@ class ActivityStats(CommonSharedElements):
             out[get_currency(self, pd)][planned_disbursement_year(pd)] += disbursement_value
         return out
 
-    @returns_numberdict
+    @returns_number
     def activities_with_future_transactions(self):
-        future_transactions = 0
         for transaction in self.element.findall('transaction'):
             if transaction_date(transaction) > self.today:
-                future_transactions += 1
-        if future_transactions:
-            return {self.element.find('iati-identifier').text: future_transactions}
+                return 1
+        return 0
 
 
 ckan = json.load(open('helpers/ckan.json'))
