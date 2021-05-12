@@ -6,7 +6,8 @@ jobs:
   generate_stats:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
+    - name: Checkout this repo
+      uses: actions/checkout@v2
       with:
         persist-credentials: false
     - name: Set up Python 3.7
@@ -34,12 +35,19 @@ jobs:
         ./get_schemas.sh
         wget -q "https://raw.githubusercontent.com/codeforIATI/IATI-Dashboard/main/registry_id_relationships.csv"
         cd ..
-        mkdir out
     - name: Download IATI data
       run: |
         wget -q -O iati_dump.zip https://www.dropbox.com/s/kkm80yjihyalwes/iati_dump.zip?dl=1
         unzip -q iati_dump.zip
         rm -rf iati_dump.zip
+    - name: Checkout output
+      uses: actions/checkout@v2
+      with:
+        persist-credentials: false
+        repository: codeforIATI/IATI-Stats-public
+        path: out
+    - name: Delete out/current
+      run: rm -rf out/current
     - name: Generate ckan.json
       run: |
         python helpers/ckan.py
@@ -52,6 +60,10 @@ jobs:
       run: python calculate_stats.py --output out/current aggregate
     - name: Run invert
       run: python calculate_stats.py --output out/current invert
+    - name: Run gitaggregate
+      run: python statsrunner/gitaggregate.py dated
+    - name: Run gitaggregate-publisher
+      run: python statsrunner/gitaggregate-publisher.py dated
     - name: Add static files to output
       run: cp -r static/* out
     - name: Deploy 🚀
