@@ -194,6 +194,8 @@ def element_to_count_dict(element, path, count_dict, count_multiple=False):
         if type(child.tag) == str:
             element_to_count_dict(child, path + '/' + child.tag, count_dict, count_multiple)
     for attribute in element.attrib:
+        if str(element.attrib[attribute]) == '':
+            continue
         if count_multiple:
             count_dict[path + '/@' + attribute] += 1
         else:
