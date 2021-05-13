@@ -5,7 +5,7 @@ import sys
 
 from git import Repo
 
-from common import decimal_default, sort_keys
+from common import decimal_default, sort_keys, get_git_file_contents
 
 
 # Set value for the gitout directory
@@ -37,15 +37,6 @@ whitelisted_stats_files = [
     'teststat'  # Extra 'stat' added as the test_gitaggregate.py assumes a file with this name is present
 ]
 
-
-def get_contents(repo, path, commit):
-    out = repo.git.ls_tree(commit, path)
-    if out == '':
-        return None
-    blob = out.split()[2]
-    return repo.git.cat_file('blob', blob)
-
-
 repo = Repo(GITOUT_DIR)
 metadata_file = 'metadata.json'
 commits = repo.git.log(
@@ -55,10 +46,10 @@ commits = repo.git.log(
 
 # Load the reference of commits to dates
 if dated:
-    gitdates = {}
-    for commit in commits:
-        content = get_contents(repo, metadata_file, commit)
-        gitdates[commit] = json.loads(content)['updated_at']
+    gitdates = {
+        commit: json.loads(get_git_file_contents(repo, metadata_file, commit))['updated_at']
+        for commit in commits
+    }
 
 # Make the gitout directory
 try:
@@ -98,7 +89,7 @@ for commit in commits:
         # If the commit that we are looping over is already in the data for this file, then skip it
         if (dated and gitdates[commit] in gitaggregate_json) or (not dated and commit in gitaggregate_json):
             continue
-        contents = get_contents(repo, commit_json_fname, commit)
+        contents = get_git_file_contents(repo, commit_json_fname, commit)
         if not contents:
             continue
         commit_gitaggregate_json = json.loads(contents, parse_float=decimal.Decimal)

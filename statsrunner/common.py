@@ -40,3 +40,11 @@ def sort_keys(o):
     if isinstance(o, dict):
         return OrderedDict(sorted(o.items(), key=key))
     return o
+
+
+def get_git_file_contents(repo, path, commit):
+    out = repo.git.ls_tree(commit, path)
+    if out == '':
+        return None
+    blob = out.split()[2]
+    return repo.git.cat_file('blob', blob)

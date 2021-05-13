@@ -7,7 +7,7 @@ from collections import defaultdict
 
 from git import Repo
 
-from common import decimal_default, sort_keys
+from common import decimal_default, sort_keys, get_git_file_contents
 
 GITOUT_DIR = os.environ.get('GITOUT_DIR') or 'out'
 
@@ -36,15 +36,6 @@ whitelisted_stats_files = [
 # Set bool if the 'dated' argument has been used in calling this script
 dated = len(sys.argv) > 1 and sys.argv[1] == 'dated'
 
-
-def get_contents(repo, path, commit):
-    out = repo.git.ls_tree(commit, path)
-    if out == '':
-        return None
-    blob = out.split()[2]
-    return repo.git.cat_file('blob', blob)
-
-
 repo = Repo(GITOUT_DIR)
 metadata_file = 'metadata.json'
 commits = repo.git.log(
@@ -54,10 +45,10 @@ commits = repo.git.log(
 
 # Load the reference of commits to dates
 if dated:
-    gitdates = {}
-    for commit in commits:
-        content = get_contents(repo, metadata_file, commit)
-        gitdates[commit] = json.loads(content)['updated_at']
+    gitdates = {
+        commit: json.loads(get_git_file_contents(repo, metadata_file, commit))['updated_at']
+        for commit in commits
+    }
 
 for publisher in os.listdir(os.path.join(GITOUT_DIR, 'current', 'aggregated-publisher')):
     print("{0} Currently looping over publisher {1}".format(str(datetime.datetime.now()), publisher))
@@ -86,7 +77,7 @@ for publisher in os.listdir(os.path.join(GITOUT_DIR, 'current', 'aggregated-publ
             commit_json_fname = os.path.join('current', 'aggregated-publisher', publisher, statname + '.json')
             if (dated and gitdates[commit] in total) or (not dated and commit in total):
                 continue
-            contents = get_contents(repo, commit_json_fname, commit)
+            contents = get_git_file_contents(repo, commit_json_fname, commit)
             if not contents:
                 continue
             statfile = json.loads(contents, parse_float=decimal.Decimal)
