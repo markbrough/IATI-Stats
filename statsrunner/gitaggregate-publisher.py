@@ -16,21 +16,16 @@ GITOUT_DIR = os.environ.get('GITOUT_DIR') or 'out'
 # memory/disk space if aggregated over time
 whitelisted_stats_files = [
     'activities',
+    'activities_with_future_transactions',
     'activity_files',
-    'bottom_hierarchy',
-    'empty',
-    'invalidxml',
     'file_size',
+    'invalidxml',
+    'most_recent_transaction_date',
     'nonstandardroots',
     'organisation_files',
     'publisher_unique_identifiers',
-    'toolarge',
     'validation',
     'versions',
-    'activities_with_future_transactions',
-    'latest_transaction_date',
-    'transaction_dates_hash',
-    'most_recent_transaction_date'
 ]
 
 # Set bool if the 'dated' argument has been used in calling this script
