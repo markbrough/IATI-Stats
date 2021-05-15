@@ -78,3 +78,10 @@ jobs:
         BRANCH: gh-pages
         FOLDER: out
         CLEAN: true
+    - name: Trigger a build on the analytics repo
+      if: github.ref == 'refs/heads/main'
+      uses: peter-evans/repository-dispatch@v1
+      with:
+        repository: codeforIATI/analytics
+        token: ${{ secrets.TOKEN }}
+        event-type: build
