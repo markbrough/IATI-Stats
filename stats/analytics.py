@@ -1526,7 +1526,7 @@ class ActivityFileStats(GenericFileStats):
 
     @returns_numberdictdict
     @memoize
-    def _codelist_values(self):
+    def codelist_values(self):
         out = defaultdict(lambda: defaultdict(int))
         for path in codelist_mappings[self._major_version()]:
             values = self.root.xpath(path)
@@ -1536,7 +1536,7 @@ class ActivityFileStats(GenericFileStats):
 
     @returns_numberdictdict
     def codelist_values_by_major_version(self):
-        out = self._codelist_values()
+        out = self.codelist_values()
         return {self._major_version(): out}
 
     @returns_numberdict
