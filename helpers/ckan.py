@@ -20,8 +20,11 @@ for filepath in glob(os.path.join('metadata', '*', '*')):
                     'license_id': package['license_id'],
                     'resource': package['resources'][0],
                 }
-                if package.get('license_url'):
-                    licenses[package['license_id']] = package['license_url']
+                if package['license_id']:
+                    licenses[package['license_id']] = {
+                        'name': package['license_title'],
+                        'url': package.get('license_url'),
+                    }
         except ValueError:
             print('{0} is not valid JSON'.format(publisher))
 
