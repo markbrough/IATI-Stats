@@ -4,8 +4,8 @@ import json
 from collections import defaultdict
 
 out = defaultdict(dict)
+licenses = {}
 
-# The ckan directory is the one produced by https://github.com/Bjwebb/IATI-Registry-Refresher/tree/save_ckan_json
 
 for filepath in glob(os.path.join('metadata', '*', '*')):
     publisher = filepath.split('/', 2)[1]
@@ -20,8 +20,12 @@ for filepath in glob(os.path.join('metadata', '*', '*')):
                     'license_id': package['license_id'],
                     'resource': package['resources'][0],
                 }
+                if package.get('license_url'):
+                    licenses[package['license_id']] = package['license_url']
         except ValueError:
             print('{0} is not valid JSON'.format(publisher))
 
 with open('ckan.json', 'w') as fp:
     json.dump(out, fp, indent=2, sort_keys=True)
+with open('licenses.json', 'w') as fp:
+    json.dump(licenses, fp, indent=2, sort_keys=True)

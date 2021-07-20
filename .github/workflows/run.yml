@@ -54,6 +54,7 @@ jobs:
         cp ckan.json out
         mv ckan.json helpers
         mv metadata.json out
+        mv licenses.json out
     - name: Run loop
       run: python calculate_stats.py --output out/current loop
     - name: Delete data and metadata
