@@ -1286,6 +1286,9 @@ class ActivityStats(CommonSharedElements):
             'contains_humanitarian_scope': 1 if (
                 is_humanitarian and self._version() in ['2.02', '2.03'] and all_true_and_not_empty(self.element.xpath('humanitarian-scope/@type')) and all_true_and_not_empty(self.element.xpath('humanitarian-scope/@code'))
             ) else 0,
+            'contains_humanitarian_scope_without_humanitarian': 1 if (
+                (not is_humanitarian) and self._version() in ['2.02', '2.03'] and all_true_and_not_empty(self.element.xpath('humanitarian-scope/@type')) and all_true_and_not_empty(self.element.xpath('humanitarian-scope/@code'))
+            ) else 0,
             'uses_humanitarian_clusters_vocab': 1 if (
                 is_humanitarian and self._version() in ['2.02', '2.03'] and self.element.xpath('sector/@vocabulary="10"')
             ) else 0
