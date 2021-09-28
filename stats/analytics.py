@@ -1291,7 +1291,10 @@ class ActivityStats(CommonSharedElements):
             ) else 0,
             'uses_humanitarian_clusters_vocab': 1 if (
                 is_humanitarian and self._version() in ['2.02', '2.03'] and self.element.xpath('sector/@vocabulary="10"')
-            ) else 0
+            ) else 0,
+            'uses_humanitarian_clusters_vocab_without_humanitarian': 1 if (
+                (not is_humanitarian) and self._version() in ['2.02', '2.03'] and self.element.xpath('sector/@vocabulary="10"')
+            ) else 0,
         }
 
     def _transaction_type_code(self, transaction):
