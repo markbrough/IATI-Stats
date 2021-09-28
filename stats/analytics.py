@@ -1286,9 +1286,27 @@ class ActivityStats(CommonSharedElements):
             'contains_humanitarian_scope': 1 if (
                 is_humanitarian and self._version() in ['2.02', '2.03'] and all_true_and_not_empty(self.element.xpath('humanitarian-scope/@type')) and all_true_and_not_empty(self.element.xpath('humanitarian-scope/@code'))
             ) else 0,
+            'contains_humanitarian_scope_without_humanitarian': 1 if (
+                (not is_humanitarian) and self._version() in ['2.02', '2.03'] and all_true_and_not_empty(self.element.xpath('humanitarian-scope/@type')) and all_true_and_not_empty(self.element.xpath('humanitarian-scope/@code'))
+            ) else 0,
             'uses_humanitarian_clusters_vocab': 1 if (
                 is_humanitarian and self._version() in ['2.02', '2.03'] and self.element.xpath('sector/@vocabulary="10"')
-            ) else 0
+            ) else 0,
+            'uses_humanitarian_clusters_vocab_without_humanitarian': 1 if (
+                (not is_humanitarian) and self._version() in ['2.02', '2.03'] and self.element.xpath('sector/@vocabulary="10"')
+            ) else 0,
+            'uses_humanitarian_glide_codes': 1 if (
+                is_humanitarian and self._version() in ['2.02', '2.03'] and self.element.xpath('humanitarian-scope/@vocabulary') and self.element.xpath('humanitarian-scope/@vocabulary="1-2"')
+            ) else 0,
+            'uses_humanitarian_glide_codes_without_humanitarian': 1 if (
+                (not is_humanitarian) and self._version() in ['2.02', '2.03'] and self.element.xpath('humanitarian-scope/@vocabulary') and self.element.xpath('humanitarian-scope/@vocabulary="1-2"')
+            ) else 0,
+            'uses_humanitarian_hrp_codes': 1 if (
+                is_humanitarian and self._version() in ['2.02', '2.03'] and self.element.xpath('humanitarian-scope/@vocabulary') and self.element.xpath('humanitarian-scope/@vocabulary="2-1"')
+            ) else 0,
+            'uses_humanitarian_hrp_codes_without_humanitarian': 1 if (
+                (not is_humanitarian) and self._version() in ['2.02', '2.03'] and self.element.xpath('humanitarian-scope/@vocabulary') and self.element.xpath('humanitarian-scope/@vocabulary="2-1"')
+            ) else 0,
         }
 
     def _transaction_type_code(self, transaction):
@@ -1316,6 +1334,16 @@ class ActivityStats(CommonSharedElements):
             type_code = activity_date.attrib.get('type')
             act_date = iso_date(activity_date)
             out[type_code][str(act_date)] += 1
+        return out
+
+    @returns_numberdictdict
+    def activity_dates_humanitarian(self):
+        out = defaultdict(lambda: defaultdict(int))
+        if ('humanitarian' in self.element.attrib) and (self.element.attrib['humanitarian'] in ['1', 'true']):
+            for activity_date in self.element.findall('activity-date'):
+                type_code = activity_date.attrib.get('type')
+                act_date = iso_date(activity_date)
+                out[type_code][str(act_date)] += 1
         return out
 
     @returns_numberdictdict
