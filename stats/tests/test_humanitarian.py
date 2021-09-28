@@ -758,6 +758,42 @@ def test_glide_codes_with_humanitarian(version, hum_attrib_val):
 
 
 @pytest.mark.parametrize('version', ['2.02', '2.03'])
+@pytest.mark.parametrize('hum_attrib_val', ['0', 'false'])
+def test_hrp_codes_without_humanitarian(version, hum_attrib_val):
+    """
+    Detect that an activity contains HRP codes in the humanitarian scope,
+    when the humanitarian attribute is set to false.
+    """
+    activity_stats = MockActivityStats(version)
+
+    activity_stats.element = etree.fromstring('''
+        <iati-activity humanitarian="{0}">
+           <humanitarian-scope vocabulary="2-1" type="xx" code="xx" />
+        </iati-activity>
+    '''.format(hum_attrib_val))
+    assert activity_stats.humanitarian()['uses_humanitarian_hrp_codes'] == 0
+    assert activity_stats.humanitarian()['uses_humanitarian_hrp_codes_without_humanitarian'] == 1
+
+
+@pytest.mark.parametrize('version', ['2.02', '2.03'])
+@pytest.mark.parametrize('hum_attrib_val', ['1', 'true'])
+def test_hrp_codes_with_humanitarian(version, hum_attrib_val):
+    """
+    Detect that an activity contains HRP codes in the humanitarian scope,
+    when the humanitarian attribute is set to true.
+    """
+    activity_stats = MockActivityStats(version)
+
+    activity_stats.element = etree.fromstring('''
+        <iati-activity humanitarian="{0}">
+           <humanitarian-scope vocabulary="2-1" type="xx" code="xx" />
+        </iati-activity>
+    '''.format(hum_attrib_val))
+    assert activity_stats.humanitarian()['uses_humanitarian_hrp_codes'] == 1
+    assert activity_stats.humanitarian()['uses_humanitarian_hrp_codes_without_humanitarian'] == 0
+
+
+@pytest.mark.parametrize('version', ['2.02', '2.03'])
 @pytest.mark.parametrize('hum_attrib_val', ['1', 'true'])
 def test_humanitarian_clusters_valid(version, hum_attrib_val):
     """
