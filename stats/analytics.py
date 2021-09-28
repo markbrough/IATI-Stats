@@ -1319,6 +1319,16 @@ class ActivityStats(CommonSharedElements):
         return out
 
     @returns_numberdictdict
+    def activity_dates_humanitarian(self):
+        out = defaultdict(lambda: defaultdict(int))
+        if ('humanitarian' in self.element.attrib) and (self.element.attrib['humanitarian'] in ['1', 'true']):
+            for activity_date in self.element.findall('activity-date'):
+                type_code = activity_date.attrib.get('type')
+                act_date = iso_date(activity_date)
+                out[type_code][str(act_date)] += 1
+        return out
+
+    @returns_numberdictdict
     def _count_transactions_by_type_by_year(self):
         out = defaultdict(lambda: defaultdict(int))
         for transaction in self.element.findall('transaction'):
