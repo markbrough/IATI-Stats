@@ -37,7 +37,7 @@ jobs:
         cd ..
     - name: Download IATI data
       run: |
-        wget -q -O iati_dump.zip https://www.dropbox.com/s/kkm80yjihyalwes/iati_dump.zip?dl=1
+        wget -q -O iati_dump.zip https://iati-data.s3.eu-west-1.amazonaws.com/iati_data.zip
         unzip -q iati_dump.zip
         rm -rf iati_dump.zip
     - name: Checkout output
