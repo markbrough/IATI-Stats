@@ -64,8 +64,8 @@ def process_file(*args):
     try:
         file_size = os.stat(inputfile).st_size
         # If the file size is greater than the registry limit, set stats_json file value to 'too large'.
-        # Registry limit: https://github.com/okfn/ckanext-iati/blob/606e0919baf97552a14b7c608529192eb7a04b19/ckanext/iati/archiver.py#L23
-        if file_size > 50000000:
+        # Registry limit: https://github.com/IATI/ckanext-iati/blob/6ec9109826aec42e4fc9297db198753f83a48f80/ckanext/iati/archiver.py#L34-L36
+        if file_size > 60000000:
             stats_json = {'file': {'toolarge': 1, 'file_size': file_size}, 'elements': []}
         # If file size is within limit, set doc to the value of the complete inputfile document, and set root to the root of element tree for doc.
         else:
