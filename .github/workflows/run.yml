@@ -1,5 +1,6 @@
 name: Generate stats
 on:
+  push:
   schedule:
     - cron: '0 1 * * *'
 jobs:
@@ -39,7 +40,8 @@ jobs:
       run: |
         wget -q -O iati_dump.zip https://gitlab.com/codeforIATI/iati-data/-/archive/main/iati-data-main.zip
         unzip -q iati_dump.zip
-        rm -rf iati_dump.zip
+        mv iati-data-main/* .
+        rm -rf iati_dump.zip iati-data-main
     - name: Checkout output
       uses: actions/checkout@v2
       with:
