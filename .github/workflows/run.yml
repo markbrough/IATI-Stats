@@ -1,8 +1,6 @@
 name: Generate stats
 on:
   push:
-  schedule:
-    - cron: '0 1 * * *'
 jobs:
   generate_stats:
     runs-on: ubuntu-latest
@@ -38,10 +36,10 @@ jobs:
         cd ..
     - name: Download IATI data
       run: |
-        wget -q -O iati_dump.zip https://gitlab.com/codeforIATI/iati-data/-/archive/main/iati-data-main.zip
-        unzip -q iati_dump.zip
-        mv iati-data-main/* .
-        rm -rf iati_dump.zip iati-data-main
+        wget -q -O iati_dump.zip https://gitlab.com/codeforIATI/iati-snapshot-mirror/-/archive/74b564ad42e8ec98f53a25fac78b95c09e952c33/iati-snapshot-mirror-74b564ad42e8ec98f53a25fac78b95c09e952c33.zip
+        unzip -q iati-snapshot-mirror-74b564ad42e8ec98f53a25fac78b95c09e952c33.zip
+        mv 74b564ad42e8ec98f53a25fac78b95c09e952c33 data
+        rm -rf iati-snapshot-mirror-74b564ad42e8ec98f53a25fac78b95c09e952c33.zip
     - name: Checkout output
       uses: actions/checkout@v2
       with:
@@ -71,20 +69,9 @@ jobs:
       run: python statsrunner/gitaggregate-publisher.py dated
     - name: Add static files to output
       run: cp -r static/* out
-    - name: Deploy 🚀
-      uses: JamesIves/github-pages-deploy-action@3.7.1
+    - name: Deploy
+      uses: peaceiris/actions-gh-pages@v3
       with:
-        GIT_CONFIG_NAME: Code for IATI bot
-        GIT_CONFIG_EMAIL: 57559326+codeforIATIbot@users.noreply.github.com
-        GITHUB_TOKEN: ${{ secrets.TOKEN }}
-        REPOSITORY_NAME: codeforIATI/IATI-Stats-public
-        BRANCH: gh-pages
-        FOLDER: out
-        CLEAN: true
-    - name: Trigger a build on the analytics repo
-      if: github.ref == 'refs/heads/main'
-      uses: peter-evans/repository-dispatch@v1
-      with:
-        repository: codeforIATI/analytics
-        token: ${{ secrets.TOKEN }}
-        event-type: build
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./out
+        force_orphan: true
