@@ -13,7 +13,7 @@ jobs:
       run: |
         wget -q -O iati_dump.zip https://gitlab.com/codeforIATI/iati-snapshot-mirror/-/archive/74b564ad42e8ec98f53a25fac78b95c09e952c33/iati-snapshot-mirror-74b564ad42e8ec98f53a25fac78b95c09e952c33.zip
         unzip -q iati_dump.zip
-        mv 74b564ad42e8ec98f53a25fac78b95c09e952c33 data
+        mv iati-snapshot-mirror-74b564ad42e8ec98f53a25fac78b95c09e952c33 data
         rm -rf iati_dump.zip
     - name: Set up Python 3.7
       uses: actions/setup-python@v2
