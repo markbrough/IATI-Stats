@@ -48,13 +48,6 @@ jobs:
         path: out
     - name: Delete out/current
       run: rm -rf out/current
-    - name: Generate ckan.json
-      run: |
-        python helpers/ckan.py
-        cp ckan.json out
-        mv ckan.json helpers
-        mv metadata.json out
-        mv licenses.json out
     - name: Run loop
       run: python calculate_stats.py --output out/current loop
     - name: Delete data and metadata
@@ -63,10 +56,6 @@ jobs:
       run: python calculate_stats.py --output out/current aggregate
     - name: Run invert
       run: python calculate_stats.py --output out/current invert
-    - name: Run gitaggregate
-      run: python statsrunner/gitaggregate.py dated
-    - name: Run gitaggregate-publisher
-      run: python statsrunner/gitaggregate-publisher.py dated
     - name: Add static files to output
       run: cp -r static/* out
     - name: Deploy
