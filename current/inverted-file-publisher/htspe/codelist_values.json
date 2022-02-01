@@ -1,0 +1,141 @@
+{
+  ".//@default-currency": {
+    "GBP": {
+      "htspe-ke": 1,
+      "htspe-pk": 1
+    }
+  },
+  ".//@xml:lang": {
+    "en": {
+      "htspe-ke": 8,
+      "htspe-pk": 1
+    }
+  },
+  ".//activity-date/@type": {
+    "start-actual": {
+      "htspe-ke": 1,
+      "htspe-pk": 1
+    },
+    "end-planned": {
+      "htspe-pk": 2
+    }
+  },
+  ".//activity-status/@code": {
+    "2": {
+      "htspe-ke": 1,
+      "htspe-pk": 1
+    }
+  },
+  ".//budget/@type": {
+    "1": {
+      "htspe-ke": 1,
+      "htspe-pk": 1
+    }
+  },
+  ".//budget/value/@currency": {
+    "GBP": {
+      "htspe-ke": 1,
+      "htspe-pk": 1
+    }
+  },
+  ".//default-flow-type/@code": {
+    "10": {
+      "htspe-ke": 1,
+      "htspe-pk": 1
+    }
+  },
+  ".//description/@type": {
+    "1": {
+      "htspe-ke": 1,
+      "htspe-pk": 1
+    }
+  },
+  ".//participating-org/@role": {
+    "Funding": {
+      "htspe-ke": 1,
+      "htspe-pk": 1
+    },
+    "Implementing": {
+      "htspe-ke": 1,
+      "htspe-pk": 2
+    },
+    "Extending": {
+      "htspe-pk": 1
+    }
+  },
+  ".//participating-org/@type": {
+    "10": {
+      "htspe-ke": 1,
+      "htspe-pk": 2
+    },
+    "70": {
+      "htspe-ke": 1,
+      "htspe-pk": 2
+    }
+  },
+  ".//recipient-country/@code": {
+    "KE": {
+      "htspe-ke": 1
+    },
+    "PK": {
+      "htspe-pk": 1
+    }
+  },
+  ".//reporting-org/@type": {
+    "70": {
+      "htspe-ke": 1,
+      "htspe-pk": 1
+    }
+  },
+  ".//sector[@vocabulary = 'DAC' or not(@vocabulary)]/@code": {
+    "1": {
+      "htspe-pk": 1
+    }
+  },
+  ".//transaction/aid-type/@code": {
+    "D02": {
+      "htspe-ke": 2,
+      "htspe-pk": 3
+    }
+  },
+  ".//transaction/disbursement-channel/@code": {
+    "3": {
+      "htspe-ke": 2,
+      "htspe-pk": 3
+    }
+  },
+  ".//transaction/finance-type/@code": {
+    "110": {
+      "htspe-ke": 2,
+      "htspe-pk": 3
+    }
+  },
+  ".//transaction/flow-type/@code": {
+    "10": {
+      "htspe-ke": 2,
+      "htspe-pk": 3
+    }
+  },
+  ".//transaction/tied-status/@code": {
+    "5": {
+      "htspe-ke": 2,
+      "htspe-pk": 3
+    }
+  },
+  ".//transaction/transaction-type/@code": {
+    "E": {
+      "htspe-ke": 1,
+      "htspe-pk": 2
+    },
+    "IF": {
+      "htspe-ke": 1,
+      "htspe-pk": 1
+    }
+  },
+  ".//transaction/value/@currency": {
+    "GBP": {
+      "htspe-ke": 2,
+      "htspe-pk": 3
+    }
+  }
+}

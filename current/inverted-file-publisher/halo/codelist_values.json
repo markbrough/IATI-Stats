@@ -1,0 +1,674 @@
+{
+  ".//@default-currency": {
+    "USD": {
+      "halo-ps": 1,
+      "halo-co": 1,
+      "halo-ua": 1,
+      "halo-lk": 1,
+      "halo-sy": 2,
+      "halo-mm": 1,
+      "halo-la": 2,
+      "halo-xk": 1,
+      "halo-so": 1,
+      "halo-af": 2
+    }
+  },
+  ".//@xml:lang": {
+    "en": {
+      "halo-ps": 5,
+      "halo-co": 23,
+      "halo-ua": 3,
+      "halo-lk": 2,
+      "halo-sy": 56,
+      "halo-mm": 2,
+      "halo-la": 4,
+      "halo-xk": 30,
+      "halo-so": 7,
+      "halo-af": 19
+    }
+  },
+  ".//activity-date/@type": {
+    "1": {
+      "halo-ps": 1,
+      "halo-co": 1,
+      "halo-ua": 1,
+      "halo-lk": 1,
+      "halo-sy": 2,
+      "halo-mm": 1,
+      "halo-la": 2,
+      "halo-xk": 1,
+      "halo-so": 1,
+      "halo-af": 2
+    },
+    "2": {
+      "halo-ps": 1,
+      "halo-co": 1,
+      "halo-lk": 1,
+      "halo-sy": 2,
+      "halo-mm": 1,
+      "halo-la": 2,
+      "halo-xk": 1,
+      "halo-so": 1,
+      "halo-af": 1
+    },
+    "3": {
+      "halo-ps": 1,
+      "halo-co": 1,
+      "halo-ua": 1,
+      "halo-lk": 1,
+      "halo-sy": 2,
+      "halo-mm": 1,
+      "halo-la": 2,
+      "halo-xk": 1,
+      "halo-so": 1,
+      "halo-af": 2
+    }
+  },
+  ".//activity-scope/@code": {
+    "4": {
+      "halo-ps": 1,
+      "halo-co": 1,
+      "halo-ua": 1,
+      "halo-sy": 2,
+      "halo-xk": 1,
+      "halo-so": 1,
+      "halo-af": 1
+    },
+    "1": {
+      "halo-af": 1
+    }
+  },
+  ".//activity-status/@code": {
+    "2": {
+      "halo-ps": 1,
+      "halo-co": 1,
+      "halo-ua": 1,
+      "halo-lk": 1,
+      "halo-sy": 2,
+      "halo-mm": 1,
+      "halo-la": 2,
+      "halo-xk": 1,
+      "halo-so": 1,
+      "halo-af": 2
+    }
+  },
+  ".//budget/@status": {
+    "2": {
+      "halo-ps": 3,
+      "halo-co": 2,
+      "halo-ua": 3,
+      "halo-lk": 2,
+      "halo-sy": 6,
+      "halo-mm": 3,
+      "halo-la": 7,
+      "halo-xk": 5,
+      "halo-so": 5,
+      "halo-af": 11
+    },
+    "1": {
+      "halo-af": 1
+    }
+  },
+  ".//budget/@type": {
+    "2": {
+      "halo-ps": 2,
+      "halo-co": 2,
+      "halo-ua": 2,
+      "halo-sy": 4,
+      "halo-la": 1,
+      "halo-so": 1,
+      "halo-af": 4
+    },
+    "1": {
+      "halo-ps": 1,
+      "halo-ua": 1,
+      "halo-lk": 2,
+      "halo-sy": 2,
+      "halo-mm": 3,
+      "halo-la": 6,
+      "halo-xk": 5,
+      "halo-so": 4,
+      "halo-af": 8
+    }
+  },
+  ".//budget/value/@currency": {
+    "USD": {
+      "halo-ps": 3,
+      "halo-co": 2,
+      "halo-ua": 3,
+      "halo-sy": 6,
+      "halo-xk": 4,
+      "halo-so": 5,
+      "halo-af": 12
+    },
+    "GBP": {
+      "halo-lk": 2,
+      "halo-mm": 3,
+      "halo-la": 7
+    }
+  },
+  ".//collaboration-type/@code": {
+    "1": {
+      "halo-ps": 1,
+      "halo-co": 1,
+      "halo-ua": 1,
+      "halo-lk": 1,
+      "halo-sy": 2,
+      "halo-mm": 1,
+      "halo-la": 2,
+      "halo-xk": 1,
+      "halo-so": 1,
+      "halo-af": 2
+    }
+  },
+  ".//contact-info/@type": {
+    "1": {
+      "halo-ps": 1,
+      "halo-co": 1,
+      "halo-ua": 1,
+      "halo-lk": 1,
+      "halo-sy": 2,
+      "halo-mm": 1,
+      "halo-la": 2,
+      "halo-xk": 1,
+      "halo-so": 1,
+      "halo-af": 2
+    }
+  },
+  ".//default-aid-type/@vocabulary": {
+    "1": {
+      "halo-co": 1,
+      "halo-ua": 1,
+      "halo-lk": 1,
+      "halo-sy": 1,
+      "halo-mm": 1,
+      "halo-la": 2,
+      "halo-xk": 1,
+      "halo-so": 1,
+      "halo-af": 1
+    }
+  },
+  ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "B03": {
+      "halo-ps": 1,
+      "halo-co": 1,
+      "halo-ua": 1,
+      "halo-sy": 2,
+      "halo-xk": 1,
+      "halo-so": 1,
+      "halo-af": 2
+    },
+    "B01": {
+      "halo-lk": 1,
+      "halo-mm": 1,
+      "halo-la": 2
+    }
+  },
+  ".//default-finance-type/@code": {
+    "110": {
+      "halo-ps": 1,
+      "halo-co": 1,
+      "halo-ua": 1,
+      "halo-lk": 1,
+      "halo-sy": 2,
+      "halo-mm": 1,
+      "halo-la": 2,
+      "halo-xk": 1,
+      "halo-so": 1,
+      "halo-af": 2
+    }
+  },
+  ".//default-tied-status/@code": {
+    "5": {
+      "halo-ps": 1,
+      "halo-co": 1,
+      "halo-ua": 1,
+      "halo-sy": 2,
+      "halo-xk": 1,
+      "halo-so": 1,
+      "halo-af": 2
+    }
+  },
+  ".//description/@type": {
+    "1": {
+      "halo-ps": 1,
+      "halo-co": 1,
+      "halo-ua": 1,
+      "halo-lk": 1,
+      "halo-sy": 2,
+      "halo-mm": 1,
+      "halo-la": 2,
+      "halo-xk": 1,
+      "halo-so": 1,
+      "halo-af": 2
+    },
+    "2": {
+      "halo-ps": 1,
+      "halo-co": 1,
+      "halo-ua": 1,
+      "halo-lk": 1,
+      "halo-sy": 1,
+      "halo-mm": 1,
+      "halo-la": 2,
+      "halo-xk": 1,
+      "halo-so": 1,
+      "halo-af": 1
+    },
+    "3": {
+      "halo-ps": 1,
+      "halo-co": 1,
+      "halo-ua": 1,
+      "halo-lk": 1,
+      "halo-sy": 1,
+      "halo-mm": 1,
+      "halo-la": 2,
+      "halo-xk": 1,
+      "halo-so": 1,
+      "halo-af": 1
+    },
+    "4": {
+      "halo-ps": 1
+    }
+  },
+  ".//document-link/@format": {
+    "image/vnd.sealedmedia.softseal.jpg": {
+      "halo-ps": 1
+    },
+    "application/vnd.document+json": {
+      "halo-ps": 1
+    },
+    "application/pdf": {
+      "halo-ps": 2,
+      "halo-co": 3,
+      "halo-ua": 3,
+      "halo-sy": 3,
+      "halo-xk": 3,
+      "halo-so": 3,
+      "halo-af": 3
+    },
+    "application/vnd.ms-word.document.macroEnabled.12": {
+      "halo-sy": 1,
+      "halo-xk": 1,
+      "halo-so": 1,
+      "halo-af": 1
+    }
+  },
+  ".//document-link/category/@code": {
+    "A02": {
+      "halo-ps": 1
+    },
+    "A01": {
+      "halo-ps": 1,
+      "halo-co": 1,
+      "halo-ua": 1,
+      "halo-sy": 1,
+      "halo-xk": 1,
+      "halo-so": 1,
+      "halo-af": 1
+    },
+    "B01": {
+      "halo-ps": 2,
+      "halo-co": 2,
+      "halo-ua": 2,
+      "halo-sy": 3,
+      "halo-xk": 3,
+      "halo-so": 3,
+      "halo-af": 3
+    }
+  },
+  ".//document-link/language/@code": {
+    "en": {
+      "halo-ps": 2,
+      "halo-co": 3,
+      "halo-ua": 3,
+      "halo-sy": 4,
+      "halo-xk": 4,
+      "halo-so": 4,
+      "halo-af": 4
+    }
+  },
+  ".//location/location-reach/@code": {
+    "1": {
+      "halo-ps": 1,
+      "halo-co": 1,
+      "halo-ua": 1,
+      "halo-xk": 1,
+      "halo-so": 1,
+      "halo-af": 1
+    }
+  },
+  ".//participating-org/@role": {
+    "2": {
+      "halo-ps": 1,
+      "halo-co": 1,
+      "halo-ua": 1,
+      "halo-lk": 1,
+      "halo-sy": 2,
+      "halo-mm": 1,
+      "halo-la": 2,
+      "halo-xk": 1,
+      "halo-so": 1,
+      "halo-af": 2
+    },
+    "4": {
+      "halo-ps": 1,
+      "halo-co": 1,
+      "halo-ua": 1,
+      "halo-lk": 1,
+      "halo-sy": 3,
+      "halo-mm": 1,
+      "halo-la": 2,
+      "halo-xk": 1,
+      "halo-so": 1,
+      "halo-af": 3
+    },
+    "1": {
+      "halo-lk": 1,
+      "halo-mm": 1,
+      "halo-la": 2
+    }
+  },
+  ".//participating-org/@type": {
+    "21": {
+      "halo-ps": 2,
+      "halo-co": 2,
+      "halo-ua": 2,
+      "halo-lk": 2,
+      "halo-sy": 4,
+      "halo-mm": 2,
+      "halo-la": 4,
+      "halo-xk": 2,
+      "halo-so": 2,
+      "halo-af": 4
+    },
+    "70": {
+      "halo-lk": 1,
+      "halo-mm": 1,
+      "halo-la": 2
+    },
+    "22": {
+      "halo-sy": 1,
+      "halo-af": 1
+    }
+  },
+  ".//policy-marker/@significance": {
+    "1": {
+      "halo-co": 1,
+      "halo-ua": 1,
+      "halo-sy": 1,
+      "halo-xk": 1
+    }
+  },
+  ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "1": {
+      "halo-co": 1,
+      "halo-ua": 1,
+      "halo-sy": 1,
+      "halo-xk": 1
+    }
+  },
+  ".//recipient-country/@code": {
+    "PS": {
+      "halo-ps": 1,
+      "halo-af": 1
+    },
+    "CO": {
+      "halo-co": 1,
+      "halo-af": 1
+    },
+    "UA": {
+      "halo-ua": 1,
+      "halo-af": 1
+    },
+    "LK": {
+      "halo-lk": 1,
+      "halo-la": 1
+    },
+    "SY": {
+      "halo-sy": 2,
+      "halo-af": 1
+    },
+    "MM": {
+      "halo-mm": 1,
+      "halo-la": 1
+    },
+    "LA": {
+      "halo-la": 2
+    },
+    "XK": {
+      "halo-xk": 1,
+      "halo-af": 1
+    },
+    "SO": {
+      "halo-so": 1,
+      "halo-af": 1
+    },
+    "AF": {
+      "halo-af": 2
+    },
+    "YE": {
+      "halo-af": 1
+    }
+  },
+  ".//related-activity/@type": {
+    "1": {
+      "halo-ps": 1,
+      "halo-co": 1,
+      "halo-ua": 1,
+      "halo-lk": 1,
+      "halo-sy": 2,
+      "halo-mm": 1,
+      "halo-la": 2,
+      "halo-xk": 1,
+      "halo-so": 1,
+      "halo-af": 1
+    },
+    "3": {
+      "halo-ps": 8,
+      "halo-co": 7,
+      "halo-ua": 7,
+      "halo-lk": 2,
+      "halo-sy": 12,
+      "halo-mm": 2,
+      "halo-la": 2,
+      "halo-xk": 7,
+      "halo-so": 7,
+      "halo-af": 7
+    },
+    "2": {
+      "halo-la": 3,
+      "halo-af": 8
+    }
+  },
+  ".//reporting-org/@type": {
+    "21": {
+      "halo-ps": 1,
+      "halo-co": 1,
+      "halo-ua": 1,
+      "halo-lk": 1,
+      "halo-sy": 2,
+      "halo-mm": 1,
+      "halo-la": 2,
+      "halo-xk": 1,
+      "halo-so": 1,
+      "halo-af": 2
+    }
+  },
+  ".//result/@type": {
+    "1": {
+      "halo-ps": 8,
+      "halo-co": 22,
+      "halo-ua": 14,
+      "halo-sy": 28,
+      "halo-xk": 12,
+      "halo-so": 25,
+      "halo-af": 41
+    },
+    "2": {
+      "halo-ps": 13,
+      "halo-co": 18,
+      "halo-ua": 17,
+      "halo-sy": 4,
+      "halo-xk": 14,
+      "halo-so": 8,
+      "halo-af": 6
+    }
+  },
+  ".//result/indicator/@measure": {
+    "1": {
+      "halo-ps": 19,
+      "halo-co": 35,
+      "halo-ua": 26,
+      "halo-sy": 27,
+      "halo-xk": 23,
+      "halo-so": 29,
+      "halo-af": 42
+    },
+    "2": {
+      "halo-ps": 2,
+      "halo-co": 5,
+      "halo-ua": 5,
+      "halo-sy": 5,
+      "halo-xk": 3,
+      "halo-so": 4,
+      "halo-af": 5
+    }
+  },
+  ".//result/indicator/reference/@vocabulary": {
+    "99": {
+      "halo-ps": 21,
+      "halo-co": 40,
+      "halo-sy": 4
+    }
+  },
+  ".//sector/@vocabulary": {
+    "1": {
+      "halo-ps": 1,
+      "halo-co": 2,
+      "halo-ua": 1,
+      "halo-lk": 1,
+      "halo-sy": 4,
+      "halo-mm": 1,
+      "halo-la": 2,
+      "halo-xk": 1,
+      "halo-so": 1,
+      "halo-af": 5
+    }
+  },
+  ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "15250": {
+      "halo-ps": 1,
+      "halo-co": 1,
+      "halo-ua": 1,
+      "halo-lk": 1,
+      "halo-sy": 2,
+      "halo-mm": 1,
+      "halo-la": 2,
+      "halo-xk": 1,
+      "halo-so": 1,
+      "halo-af": 4
+    },
+    "15220": {
+      "halo-co": 1
+    },
+    "72050": {
+      "halo-sy": 1
+    },
+    "92010": {
+      "halo-sy": 1
+    },
+    "15240": {
+      "halo-af": 1
+    }
+  },
+  ".//transaction/provider-org/@type": {
+    "10": {
+      "halo-ps": 3,
+      "halo-co": 3,
+      "halo-ua": 2,
+      "halo-sy": 3,
+      "halo-xk": 3,
+      "halo-so": 3,
+      "halo-af": 4
+    },
+    "21": {
+      "halo-lk": 6,
+      "halo-sy": 18,
+      "halo-mm": 12,
+      "halo-la": 24,
+      "halo-af": 4
+    }
+  },
+  ".//transaction/receiver-org/@type": {
+    "21": {
+      "halo-ps": 3,
+      "halo-co": 3,
+      "halo-ua": 2,
+      "halo-lk": 3,
+      "halo-sy": 3,
+      "halo-mm": 6,
+      "halo-la": 12,
+      "halo-xk": 3,
+      "halo-so": 3,
+      "halo-af": 3
+    },
+    "22": {
+      "halo-sy": 18,
+      "halo-af": 4
+    }
+  },
+  ".//transaction/transaction-type/@code": {
+    "2": {
+      "halo-ps": 1,
+      "halo-co": 1,
+      "halo-ua": 1,
+      "halo-sy": 1,
+      "halo-xk": 1,
+      "halo-so": 1,
+      "halo-af": 1
+    },
+    "4": {
+      "halo-ps": 2,
+      "halo-co": 2,
+      "halo-ua": 1,
+      "halo-lk": 3,
+      "halo-sy": 2,
+      "halo-mm": 6,
+      "halo-la": 12,
+      "halo-xk": 2,
+      "halo-so": 2,
+      "halo-af": 2
+    },
+    "11": {
+      "halo-lk": 1,
+      "halo-mm": 1,
+      "halo-la": 2,
+      "halo-af": 3
+    },
+    "1": {
+      "halo-lk": 2,
+      "halo-mm": 5,
+      "halo-la": 10
+    },
+    "3": {
+      "halo-sy": 20,
+      "halo-af": 4
+    }
+  },
+  ".//transaction/value/@currency": {
+    "USD": {
+      "halo-ps": 3,
+      "halo-co": 3,
+      "halo-ua": 2,
+      "halo-sy": 23,
+      "halo-xk": 2,
+      "halo-so": 3,
+      "halo-af": 10
+    },
+    "GBP": {
+      "halo-lk": 5,
+      "halo-mm": 12,
+      "halo-la": 23
+    }
+  }
+}

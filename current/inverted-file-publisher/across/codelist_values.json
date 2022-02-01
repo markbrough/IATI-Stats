@@ -1,0 +1,167 @@
+{
+  ".//@default-currency": {
+    "GBP": {
+      "across-activity": 1,
+      "across-ss": 1
+    }
+  },
+  ".//@xml:lang": {
+    "EN": {
+      "across-activity": 1
+    },
+    "en": {
+      "across-ss": 64
+    },
+    "nl": {
+      "across-ss": 9
+    }
+  },
+  ".//activity-date/@type": {
+    "end-planned": {
+      "across-activity": 1
+    },
+    "start-actual": {
+      "across-activity": 1
+    },
+    "3": {
+      "across-ss": 1
+    },
+    "2": {
+      "across-ss": 1
+    }
+  },
+  ".//activity-scope/@code": {
+    "2": {
+      "across-ss": 1
+    }
+  },
+  ".//activity-status/@code": {
+    "2": {
+      "across-activity": 1,
+      "across-ss": 1
+    }
+  },
+  ".//budget/@status": {
+    "1": {
+      "across-ss": 1
+    }
+  },
+  ".//budget/@type": {
+    "2": {
+      "across-ss": 1
+    }
+  },
+  ".//description/@type": {
+    "1": {
+      "across-ss": 1
+    }
+  },
+  ".//participating-org/@role": {
+    "Funding": {
+      "across-activity": 1
+    },
+    "Implementing": {
+      "across-activity": 1
+    },
+    "2": {
+      "across-ss": 1
+    },
+    "1": {
+      "across-ss": 1
+    }
+  },
+  ".//participating-org/@type": {
+    "INGO": {
+      "across-activity": 2
+    },
+    "21": {
+      "across-ss": 1
+    },
+    "10": {
+      "across-ss": 1
+    }
+  },
+  ".//recipient-country/@code": {
+    "SS": {
+      "across-activity": 1,
+      "across-ss": 1
+    }
+  },
+  ".//reporting-org/@type": {
+    "21": {
+      "across-activity": 1,
+      "across-ss": 1
+    }
+  },
+  ".//sector/@vocabulary": {
+    "OECD-DAC": {
+      "across-activity": 1
+    },
+    "1": {
+      "across-ss": 1
+    }
+  },
+  ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "11220": {
+      "across-ss": 1
+    }
+  },
+  ".//transaction/aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "C01": {
+      "across-ss": 31
+    }
+  },
+  ".//transaction/disbursement-channel/@code": {
+    "3": {
+      "across-ss": 31
+    }
+  },
+  ".//transaction/finance-type/@code": {
+    "110": {
+      "across-ss": 31
+    }
+  },
+  ".//transaction/flow-type/@code": {
+    "10": {
+      "across-ss": 31
+    }
+  },
+  ".//transaction/provider-org/@type": {
+    "21": {
+      "across-ss": 31
+    }
+  },
+  ".//transaction/receiver-org/@type": {
+    "21": {
+      "across-ss": 9
+    }
+  },
+  ".//transaction/tied-status/@code": {
+    "4": {
+      "across-ss": 31
+    }
+  },
+  ".//transaction/transaction-type/@code": {
+    "IF": {
+      "across-activity": 3
+    },
+    "C": {
+      "across-activity": 1
+    },
+    "E": {
+      "across-activity": 119
+    },
+    "4": {
+      "across-ss": 22
+    },
+    "1": {
+      "across-ss": 9
+    }
+  },
+  ".//transaction/value/@currency": {
+    "GBP": {
+      "across-activity": 123,
+      "across-ss": 31
+    }
+  }
+}

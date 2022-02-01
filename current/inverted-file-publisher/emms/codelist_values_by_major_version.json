@@ -1,0 +1,635 @@
+{
+  "2": {
+    ".//@default-currency": {
+      "emms-in": {
+        "GBP": 7
+      },
+      "emms-gb": {
+        "GBP": 1
+      },
+      "emms-np": {
+        "GBP": 4
+      },
+      "emms-mw": {
+        "GBP": 13
+      }
+    },
+    ".//activity-date/@type": {
+      "emms-in": {
+        "2": 7,
+        "3": 4,
+        "4": 4
+      },
+      "emms-gb": {
+        "2": 1,
+        "3": 1
+      },
+      "emms-np": {
+        "1": 1,
+        "2": 3,
+        "4": 1,
+        "3": 2
+      },
+      "emms-mw": {
+        "2": 13,
+        "4": 9,
+        "3": 4
+      }
+    },
+    ".//activity-status/@code": {
+      "emms-in": {
+        "4": 4,
+        "2": 2,
+        "3": 1
+      },
+      "emms-gb": {
+        "2": 1
+      },
+      "emms-np": {
+        "1": 1,
+        "4": 1,
+        "2": 2
+      },
+      "emms-mw": {
+        "3": 1,
+        "2": 5,
+        "4": 7
+      }
+    },
+    ".//activity-scope/@code": {
+      "emms-in": {
+        "5": 1,
+        "7": 1
+      },
+      "emms-np": {
+        "6": 1,
+        "4": 1
+      },
+      "emms-mw": {
+        "4": 3,
+        "5": 1,
+        "7": 1
+      }
+    },
+    ".//budget/@status": {
+      "emms-in": {
+        "2": 10,
+        "1": 3
+      },
+      "emms-gb": {
+        "2": 3
+      },
+      "emms-np": {
+        "2": 6,
+        "1": 1
+      },
+      "emms-mw": {
+        "2": 16,
+        "1": 10
+      }
+    },
+    ".//budget/@type": {
+      "emms-in": {
+        "1": 13
+      },
+      "emms-gb": {
+        "1": 3
+      },
+      "emms-np": {
+        "1": 6,
+        "2": 1
+      },
+      "emms-mw": {
+        "1": 26
+      }
+    },
+    ".//budget/value/@currency": {
+      "emms-in": {
+        "GBP": 13
+      },
+      "emms-gb": {
+        "GBP": 3
+      },
+      "emms-np": {
+        "GBP": 7
+      },
+      "emms-mw": {
+        "GBP": 25
+      }
+    },
+    ".//collaboration-type/@code": {
+      "emms-in": {
+        "1": 7
+      },
+      "emms-gb": {
+        "1": 1
+      },
+      "emms-np": {
+        "1": 4
+      },
+      "emms-mw": {
+        "1": 12,
+        "3": 1
+      }
+    },
+    ".//conditions/condition/@type": {
+      "emms-in": {
+        "1": 11,
+        "2": 8
+      },
+      "emms-gb": {
+        "1": 2,
+        "2": 2
+      },
+      "emms-np": {
+        "1": 6,
+        "2": 3
+      },
+      "emms-mw": {
+        "1": 14,
+        "2": 8
+      }
+    },
+    ".//contact-info/@type": {
+      "emms-in": {
+        "2": 6
+      },
+      "emms-gb": {
+        "2": 1
+      },
+      "emms-np": {
+        "2": 3
+      },
+      "emms-mw": {
+        "1": 4,
+        "2": 4
+      }
+    },
+    ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "emms-in": {
+        "C01": 7
+      },
+      "emms-gb": {
+        "C01": 1
+      },
+      "emms-np": {
+        "C01": 4
+      },
+      "emms-mw": {
+        "C01": 13
+      }
+    },
+    ".//default-aid-type/@vocabulary": {
+      "emms-in": {
+        "1": 6
+      },
+      "emms-np": {
+        "1": 4
+      },
+      "emms-mw": {
+        "1": 11
+      }
+    },
+    ".//default-finance-type/@code": {
+      "emms-in": {
+        "110": 7
+      },
+      "emms-gb": {
+        "110": 1
+      },
+      "emms-np": {
+        "110": 4
+      },
+      "emms-mw": {
+        "110": 13
+      }
+    },
+    ".//default-flow-type/@code": {
+      "emms-in": {
+        "30": 7
+      },
+      "emms-gb": {
+        "30": 1
+      },
+      "emms-np": {
+        "30": 4
+      },
+      "emms-mw": {
+        "30": 13
+      }
+    },
+    ".//default-tied-status/@code": {
+      "emms-in": {
+        "5": 7
+      },
+      "emms-gb": {
+        "5": 1
+      },
+      "emms-np": {
+        "5": 4
+      },
+      "emms-mw": {
+        "5": 13
+      }
+    },
+    ".//description/@type": {
+      "emms-in": {
+        "1": 7
+      },
+      "emms-gb": {
+        "1": 1
+      },
+      "emms-np": {
+        "1": 4
+      },
+      "emms-mw": {
+        "1": 13
+      }
+    },
+    ".//document-link/@format": {
+      "emms-in": {
+        "application/pdf": 5
+      },
+      "emms-gb": {
+        "application/pdf": 2
+      },
+      "emms-np": {
+        "application/pdf": 1
+      },
+      "emms-mw": {
+        "application/pdf": 5,
+        "application/http": 1
+      }
+    },
+    ".//document-link/category/@code": {
+      "emms-in": {
+        "A02": 4,
+        "A01": 1
+      },
+      "emms-gb": {
+        "A02": 1,
+        "A01": 1
+      },
+      "emms-np": {
+        "A02": 1
+      },
+      "emms-mw": {
+        "A02": 3,
+        "A07": 1,
+        "A01": 1,
+        "A12": 1
+      }
+    },
+    ".//document-link/language/@code": {
+      "emms-in": {
+        "en": 5
+      },
+      "emms-gb": {
+        "en": 2
+      },
+      "emms-np": {
+        "en": 1
+      },
+      "emms-mw": {
+        "en": 6
+      }
+    },
+    ".//location/feature-designation/@code": {
+      "emms-in": {
+        "HSP": 12
+      },
+      "emms-gb": {
+        "PPL": 1
+      },
+      "emms-np": {
+        "HSP": 1,
+        "PPLL": 1,
+        "PPL": 1
+      },
+      "emms-mw": {
+        "AREA": 1,
+        "HSP": 7,
+        "BLDO": 1,
+        "BLDG": 1
+      }
+    },
+    ".//location/location-class/@code": {
+      "emms-in": {
+        "1": 1,
+        "3": 10,
+        "2": 1
+      },
+      "emms-gb": {
+        "2": 1
+      },
+      "emms-np": {
+        "3": 1,
+        "1": 1,
+        "2": 1
+      },
+      "emms-mw": {
+        "2": 2,
+        "3": 8
+      }
+    },
+    ".//location/location-reach/@code": {
+      "emms-in": {
+        "1": 11,
+        "2": 1
+      },
+      "emms-gb": {
+        "2": 1
+      },
+      "emms-np": {
+        "1": 2,
+        "2": 1
+      },
+      "emms-mw": {
+        "2": 1,
+        "1": 8
+      }
+    },
+    ".//location/exactness/@code": {
+      "emms-in": {
+        "1": 12
+      },
+      "emms-gb": {
+        "1": 1
+      },
+      "emms-np": {
+        "1": 2,
+        "2": 1
+      },
+      "emms-mw": {
+        "1": 9,
+        "2": 1
+      }
+    },
+    ".//participating-org/@role": {
+      "emms-in": {
+        "4": 14,
+        "2": 6,
+        "3": 6,
+        "1": 6
+      },
+      "emms-gb": {
+        "2": 1,
+        "1": 1,
+        "4": 1
+      },
+      "emms-np": {
+        "4": 7,
+        "1": 4,
+        "2": 3,
+        "3": 3
+      },
+      "emms-mw": {
+        "4": 39,
+        "2": 12,
+        "3": 13,
+        "1": 18
+      }
+    },
+    ".//participating-org/@type": {
+      "emms-in": {
+        "22": 8,
+        "21": 24
+      },
+      "emms-gb": {
+        "21": 3
+      },
+      "emms-np": {
+        "22": 4,
+        "21": 13
+      },
+      "emms-mw": {
+        "22": 28,
+        "21": 47,
+        "10": 6,
+        "70": 1
+      }
+    },
+    ".//recipient-country/@code": {
+      "emms-in": {
+        "IN": 7
+      },
+      "emms-gb": {
+        "GB": 1
+      },
+      "emms-np": {
+        "NP": 4
+      },
+      "emms-mw": {
+        "MW": 13
+      }
+    },
+    ".//reporting-org/@type": {
+      "emms-in": {
+        "21": 7
+      },
+      "emms-gb": {
+        "21": 1
+      },
+      "emms-np": {
+        "21": 4
+      },
+      "emms-mw": {
+        "21": 13
+      }
+    },
+    ".//result/@type": {
+      "emms-in": {
+        "2": 1,
+        "1": 2,
+        "3": 3
+      },
+      "emms-gb": {
+        "1": 1
+      },
+      "emms-np": {
+        "2": 1
+      },
+      "emms-mw": {
+        "2": 6,
+        "1": 4
+      }
+    },
+    ".//result/indicator/@measure": {
+      "emms-in": {
+        "1": 6
+      },
+      "emms-gb": {
+        "1": 1
+      },
+      "emms-np": {
+        "1": 1
+      },
+      "emms-mw": {
+        "1": 10
+      }
+    },
+    ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "emms-in": {
+        "12230": 1,
+        "12220": 2,
+        "13020": 3
+      },
+      "emms-gb": {
+        "12191": 1
+      },
+      "emms-np": {
+        "12220": 3,
+        "72040": 1,
+        "72010": 1
+      },
+      "emms-mw": {
+        "12220": 6,
+        "72010": 2,
+        "72040": 2,
+        "13040": 1,
+        "73010": 1,
+        "23030": 1
+      }
+    },
+    ".//sector[@vocabulary = '7']/@code": {
+      "emms-in": {
+        "3": 1,
+        "5": 1
+      },
+      "emms-np": {
+        "3": 1
+      },
+      "emms-mw": {
+        "3": 4
+      }
+    },
+    ".//sector/@vocabulary": {
+      "emms-in": {
+        "1": 6,
+        "7": 2
+      },
+      "emms-gb": {
+        "1": 1
+      },
+      "emms-np": {
+        "7": 1,
+        "1": 5
+      },
+      "emms-mw": {
+        "7": 4,
+        "1": 13
+      }
+    },
+    ".//transaction/aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "emms-in": {
+        "C01": 2
+      }
+    },
+    ".//transaction/aid-type/@vocabulary": {
+      "emms-in": {
+        "1": 2
+      }
+    },
+    ".//transaction/disbursement-channel/@code": {
+      "emms-in": {
+        "2": 1
+      }
+    },
+    ".//transaction/finance-type/@code": {
+      "emms-in": {
+        "110": 2
+      }
+    },
+    ".//transaction/flow-type/@code": {
+      "emms-in": {
+        "30": 2
+      }
+    },
+    ".//transaction/receiver-org/@type": {
+      "emms-in": {
+        "22": 1
+      },
+      "emms-mw": {
+        "21": 13,
+        "22": 79,
+        "24": 22
+      }
+    },
+    ".//transaction/tied-status/@code": {
+      "emms-in": {
+        "5": 2
+      }
+    },
+    ".//transaction/transaction-type/@code": {
+      "emms-in": {
+        "4": 45,
+        "3": 35,
+        "1": 39
+      },
+      "emms-gb": {
+        "4": 1,
+        "3": 28
+      },
+      "emms-np": {
+        "3": 18,
+        "4": 17,
+        "1": 16
+      },
+      "emms-mw": {
+        "1": 82,
+        "3": 155,
+        "4": 151,
+        "7": 3
+      }
+    },
+    ".//transaction/value/@currency": {
+      "emms-in": {
+        "GBP": 35
+      },
+      "emms-np": {
+        "GBP": 37
+      },
+      "emms-mw": {
+        "GBP": 214
+      }
+    },
+    ".//@xml:lang": {
+      "emms-in": {
+        "en": 62
+      },
+      "emms-gb": {
+        "en": 11
+      },
+      "emms-np": {
+        "en": 9
+      },
+      "emms-mw": {
+        "en": 63
+      }
+    },
+    ".//planned-disbursement/@type": {
+      "emms-mw": {
+        "1": 53
+      }
+    },
+    ".//planned-disbursement/value/@currency": {
+      "emms-mw": {
+        "GBP": 1
+      }
+    },
+    ".//related-activity/@type": {
+      "emms-mw": {
+        "2": 1,
+        "1": 2,
+        "3": 1
+      }
+    },
+    ".//transaction/provider-org/@type": {
+      "emms-mw": {
+        "15": 1,
+        "10": 13,
+        "70": 7
+      }
+    }
+  }
+}

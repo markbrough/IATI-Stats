@@ -1,0 +1,223 @@
+{
+  ".//@default-currency": {
+    "GBP": {
+      "nri-gb": 1,
+      "nri-998": 1,
+      "nri-za": 1,
+      "nri-ke": 1
+    }
+  },
+  ".//@xml:lang": {
+    "en": {
+      "nri-gb": 18,
+      "nri-998": 16,
+      "nri-za": 19,
+      "nri-ke": 13
+    }
+  },
+  ".//activity-date/@type": {
+    "2": {
+      "nri-gb": 1,
+      "nri-998": 1,
+      "nri-za": 1,
+      "nri-ke": 1
+    },
+    "4": {
+      "nri-gb": 1,
+      "nri-998": 1,
+      "nri-za": 1
+    },
+    "3": {
+      "nri-ke": 1
+    }
+  },
+  ".//activity-status/@code": {
+    "2": {
+      "nri-gb": 1,
+      "nri-998": 1,
+      "nri-ke": 1
+    },
+    "3": {
+      "nri-za": 1
+    }
+  },
+  ".//budget/@status": {
+    "1": {
+      "nri-gb": 4,
+      "nri-998": 4,
+      "nri-za": 5,
+      "nri-ke": 2
+    }
+  },
+  ".//budget/@type": {
+    "1": {
+      "nri-gb": 4,
+      "nri-998": 4,
+      "nri-za": 2,
+      "nri-ke": 2
+    },
+    "2": {
+      "nri-za": 3
+    }
+  },
+  ".//budget/value/@currency": {
+    "GBP": {
+      "nri-gb": 4,
+      "nri-998": 4,
+      "nri-za": 5,
+      "nri-ke": 2
+    }
+  },
+  ".//contact-info/@type": {
+    "1": {
+      "nri-gb": 1,
+      "nri-998": 1,
+      "nri-za": 1,
+      "nri-ke": 1
+    }
+  },
+  ".//description/@type": {
+    "1": {
+      "nri-gb": 1,
+      "nri-998": 1,
+      "nri-za": 1,
+      "nri-ke": 1
+    }
+  },
+  ".//document-link/@format": {
+    "text/html": {
+      "nri-gb": 1,
+      "nri-za": 1
+    }
+  },
+  ".//document-link/category/@code": {
+    "B16": {
+      "nri-gb": 1,
+      "nri-za": 1
+    }
+  },
+  ".//document-link/language/@code": {
+    "en": {
+      "nri-gb": 1,
+      "nri-za": 1
+    }
+  },
+  ".//participating-org/@role": {
+    "4": {
+      "nri-gb": 1,
+      "nri-998": 5,
+      "nri-za": 1,
+      "nri-ke": 4
+    }
+  },
+  ".//participating-org/@type": {
+    "80": {
+      "nri-gb": 1,
+      "nri-za": 1,
+      "nri-ke": 2
+    },
+    "30": {
+      "nri-998": 1
+    },
+    "70": {
+      "nri-998": 2
+    },
+    "21": {
+      "nri-998": 2
+    },
+    "15": {
+      "nri-ke": 2
+    }
+  },
+  ".//recipient-country/@code": {
+    "GB": {
+      "nri-gb": 1
+    },
+    "ZA": {
+      "nri-za": 1
+    },
+    "KE": {
+      "nri-za": 1,
+      "nri-ke": 1
+    },
+    "BD": {
+      "nri-za": 1
+    },
+    "RW": {
+      "nri-ke": 1
+    },
+    "TZ": {
+      "nri-ke": 1
+    }
+  },
+  ".//recipient-region/@vocabulary": {
+    "1": {
+      "nri-998": 2
+    }
+  },
+  ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "298": {
+      "nri-998": 1
+    },
+    "798": {
+      "nri-998": 1
+    }
+  },
+  ".//reporting-org/@type": {
+    "80": {
+      "nri-gb": 1,
+      "nri-998": 1,
+      "nri-za": 1,
+      "nri-ke": 1
+    }
+  },
+  ".//sector/@vocabulary": {
+    "2": {
+      "nri-gb": 1,
+      "nri-za": 1
+    },
+    "1": {
+      "nri-998": 1,
+      "nri-ke": 1
+    }
+  },
+  ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "15127": {
+      "nri-998": 1,
+      "nri-ke": 1
+    }
+  },
+  ".//sector[@vocabulary = '2']/@code": {
+    "311": {
+      "nri-gb": 1,
+      "nri-za": 1
+    }
+  },
+  ".//transaction/transaction-type/@code": {
+    "3": {
+      "nri-gb": 1,
+      "nri-998": 1,
+      "nri-ke": 1
+    },
+    "4": {
+      "nri-gb": 1,
+      "nri-za": 1
+    },
+    "1": {
+      "nri-gb": 1,
+      "nri-za": 1
+    },
+    "2": {
+      "nri-gb": 1,
+      "nri-za": 1
+    }
+  },
+  ".//transaction/value/@currency": {
+    "GBP": {
+      "nri-gb": 4,
+      "nri-998": 1,
+      "nri-za": 3,
+      "nri-ke": 1
+    }
+  }
+}

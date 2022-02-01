@@ -1,0 +1,115 @@
+{
+  ".//@default-currency": {
+    "USD": 10
+  },
+  ".//@xml:lang": {
+    "en": 10
+  },
+  ".//activity-date/@type": {
+    "1": 10,
+    "2": 10,
+    "3": 10,
+    "4": 9
+  },
+  ".//activity-scope/@code": {
+    "4": 10
+  },
+  ".//activity-status/@code": {
+    "4": 9,
+    "2": 1
+  },
+  ".//budget/value/@currency": {
+    "USD": 12
+  },
+  ".//collaboration-type/@code": {
+    "1": 10
+  },
+  ".//contact-info/@type": {
+    "1": 10
+  },
+  ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "A01": 5,
+    "E02": 1,
+    "C01": 3,
+    "D02": 1
+  },
+  ".//default-finance-type/@code": {
+    "110": 10
+  },
+  ".//default-flow-type/@code": {
+    "30": 5,
+    "10": 5
+  },
+  ".//default-tied-status/@code": {
+    "3": 7,
+    "4": 1,
+    "5": 2
+  },
+  ".//document-link/@format": {
+    "text/html": 9
+  },
+  ".//document-link/category/@code": {
+    "A11": 4,
+    "A10": 5
+  },
+  ".//document-link/language/@code": {
+    "en": 9
+  },
+  ".//location/exactness/@code": {
+    "1": 10
+  },
+  ".//location/location-class/@code": {
+    "4": 10
+  },
+  ".//other-identifier/@type": {
+    "B1": 10
+  },
+  ".//participating-org/@role": {
+    "1": 10,
+    "2": 10,
+    "3": 10,
+    "4": 10
+  },
+  ".//participating-org/@type": {
+    "10": 31,
+    "22": 1,
+    "21": 2,
+    "70": 2
+  },
+  ".//recipient-country/@code": {
+    "BT": 10
+  },
+  ".//reporting-org/@type": {
+    "10": 10
+  },
+  ".//sector/@vocabulary": {
+    "1": 24,
+    "99": 24
+  },
+  ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "41030": 18,
+    "11420": 2,
+    "43010": 1,
+    "31181": 1,
+    "15220": 2
+  },
+  ".//transaction/sector/@vocabulary": {
+    "1": 24,
+    "99": 24
+  },
+  ".//transaction/sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "41030": 18,
+    "11420": 2,
+    "43010": 1,
+    "31181": 1,
+    "15220": 2
+  },
+  ".//transaction/transaction-type/@code": {
+    "2": 8,
+    "3": 13,
+    "4": 3
+  },
+  ".//transaction/value/@currency": {
+    "USD": 24
+  }
+}

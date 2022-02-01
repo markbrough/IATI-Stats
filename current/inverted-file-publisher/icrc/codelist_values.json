@@ -1,0 +1,630 @@
+{
+  ".//@default-currency": {
+    "CHF": {
+      "icrc-2018": 65,
+      "icrc-2019ua": 71,
+      "icrc-2017": 70,
+      "icrc-2020": 71
+    }
+  },
+  ".//activity-date/@type": {
+    "2": {
+      "icrc-2018": 65,
+      "icrc-2019ua": 71,
+      "icrc-2017": 70,
+      "icrc-2020": 71
+    },
+    "4": {
+      "icrc-2018": 65,
+      "icrc-2019ua": 71,
+      "icrc-2017": 70,
+      "icrc-2020": 71
+    },
+    "1": {
+      "icrc-2018": 65,
+      "icrc-2019ua": 71,
+      "icrc-2017": 70,
+      "icrc-2020": 71
+    },
+    "3": {
+      "icrc-2018": 65,
+      "icrc-2019ua": 71,
+      "icrc-2017": 70,
+      "icrc-2020": 71
+    }
+  },
+  ".//activity-scope/@code": {
+    "2": {
+      "icrc-2018": 25,
+      "icrc-2019ua": 30,
+      "icrc-2017": 27,
+      "icrc-2020": 28
+    },
+    "4": {
+      "icrc-2018": 40,
+      "icrc-2019ua": 41,
+      "icrc-2017": 43,
+      "icrc-2020": 43
+    }
+  },
+  ".//activity-status/@code": {
+    "2": {
+      "icrc-2018": 46,
+      "icrc-2019ua": 71,
+      "icrc-2017": 54,
+      "icrc-2020": 71
+    },
+    "3": {
+      "icrc-2018": 19,
+      "icrc-2017": 16
+    }
+  },
+  ".//budget/@status": {
+    "2": {
+      "icrc-2018": 64,
+      "icrc-2019ua": 69,
+      "icrc-2017": 69,
+      "icrc-2020": 69
+    }
+  },
+  ".//budget/@type": {
+    "1": {
+      "icrc-2018": 60,
+      "icrc-2019ua": 64,
+      "icrc-2017": 56,
+      "icrc-2020": 68
+    },
+    "2": {
+      "icrc-2018": 4,
+      "icrc-2019ua": 5,
+      "icrc-2017": 13,
+      "icrc-2020": 1
+    }
+  },
+  ".//budget/value/@currency": {
+    "CHF": {
+      "icrc-2018": 64,
+      "icrc-2019ua": 69,
+      "icrc-2017": 69,
+      "icrc-2020": 69
+    }
+  },
+  ".//collaboration-type/@code": {
+    "2": {
+      "icrc-2018": 65,
+      "icrc-2019ua": 71,
+      "icrc-2017": 70,
+      "icrc-2020": 71
+    }
+  },
+  ".//contact-info/@type": {
+    "1": {
+      "icrc-2018": 65,
+      "icrc-2019ua": 71,
+      "icrc-2017": 70,
+      "icrc-2020": 71
+    }
+  },
+  ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "C01": {
+      "icrc-2018": 65,
+      "icrc-2019ua": 71,
+      "icrc-2017": 70,
+      "icrc-2020": 71
+    }
+  },
+  ".//default-finance-type/@code": {
+    "110": {
+      "icrc-2018": 65,
+      "icrc-2019ua": 71,
+      "icrc-2017": 70,
+      "icrc-2020": 71
+    }
+  },
+  ".//default-flow-type/@code": {
+    "20": {
+      "icrc-2018": 65,
+      "icrc-2019ua": 71,
+      "icrc-2017": 70,
+      "icrc-2020": 71
+    }
+  },
+  ".//default-tied-status/@code": {
+    "5": {
+      "icrc-2018": 65,
+      "icrc-2019ua": 71,
+      "icrc-2017": 70,
+      "icrc-2020": 71
+    }
+  },
+  ".//description/@type": {
+    "1": {
+      "icrc-2018": 65,
+      "icrc-2019ua": 71,
+      "icrc-2017": 70,
+      "icrc-2020": 71
+    }
+  },
+  ".//document-link/@format": {
+    "application/pdf": {
+      "icrc-2018": 2610,
+      "icrc-2019ua": 71,
+      "icrc-2017": 2688,
+      "icrc-2020": 65
+    }
+  },
+  ".//document-link/category/@code": {
+    "B01": {
+      "icrc-2018": 2484,
+      "icrc-2017": 2552
+    },
+    "A08": {
+      "icrc-2018": 63,
+      "icrc-2017": 66
+    },
+    "A05": {
+      "icrc-2018": 63,
+      "icrc-2019ua": 67,
+      "icrc-2017": 66,
+      "icrc-2020": 65
+    },
+    "A02": {
+      "icrc-2019ua": 4,
+      "icrc-2017": 4
+    }
+  },
+  ".//document-link/language/@code": {
+    "en": {
+      "icrc-2018": 189,
+      "icrc-2019ua": 71,
+      "icrc-2017": 202,
+      "icrc-2020": 65
+    }
+  },
+  ".//location/exactness/@code": {
+    "1": {
+      "icrc-2018": 219,
+      "icrc-2019ua": 227,
+      "icrc-2017": 247,
+      "icrc-2020": 223
+    },
+    "2": {
+      "icrc-2018": 82,
+      "icrc-2019ua": 84,
+      "icrc-2017": 89,
+      "icrc-2020": 83
+    }
+  },
+  ".//location/location-class/@code": {
+    "1": {
+      "icrc-2018": 301,
+      "icrc-2019ua": 311,
+      "icrc-2017": 336,
+      "icrc-2020": 306
+    }
+  },
+  ".//location/location-reach/@code": {
+    "1": {
+      "icrc-2018": 301,
+      "icrc-2019ua": 311,
+      "icrc-2017": 336,
+      "icrc-2020": 306
+    }
+  },
+  ".//participating-org/@role": {
+    "1": {
+      "icrc-2018": 1079,
+      "icrc-2019ua": 657,
+      "icrc-2017": 1125,
+      "icrc-2020": 441
+    },
+    "4": {
+      "icrc-2019ua": 71,
+      "icrc-2020": 71
+    }
+  },
+  ".//participating-org/@type": {
+    "10": {
+      "icrc-2018": 669,
+      "icrc-2019ua": 395,
+      "icrc-2017": 712,
+      "icrc-2020": 293
+    },
+    "90": {
+      "icrc-2018": 10,
+      "icrc-2019ua": 4,
+      "icrc-2017": 6,
+      "icrc-2020": 2
+    },
+    "70": {
+      "icrc-2018": 66,
+      "icrc-2019ua": 50,
+      "icrc-2017": 55,
+      "icrc-2020": 36
+    },
+    "22": {
+      "icrc-2018": 203,
+      "icrc-2019ua": 146,
+      "icrc-2017": 218,
+      "icrc-2020": 70
+    },
+    "40": {
+      "icrc-2018": 42,
+      "icrc-2019ua": 34,
+      "icrc-2017": 36,
+      "icrc-2020": 25
+    },
+    "60": {
+      "icrc-2018": 25,
+      "icrc-2019ua": 18,
+      "icrc-2017": 30,
+      "icrc-2020": 11
+    },
+    "15": {
+      "icrc-2018": 11,
+      "icrc-2019ua": 9,
+      "icrc-2017": 13,
+      "icrc-2020": 3
+    },
+    "21": {
+      "icrc-2019ua": 71,
+      "icrc-2020": 71
+    }
+  },
+  ".//recipient-country/@code": {
+    "AF": {
+      "icrc-2018": 1,
+      "icrc-2019ua": 1,
+      "icrc-2017": 1,
+      "icrc-2020": 1
+    },
+    "DZ": {
+      "icrc-2018": 1,
+      "icrc-2019ua": 1,
+      "icrc-2017": 1,
+      "icrc-2020": 1
+    },
+    "AM": {
+      "icrc-2018": 1,
+      "icrc-2019ua": 1,
+      "icrc-2017": 1,
+      "icrc-2020": 1
+    },
+    "AZ": {
+      "icrc-2018": 1,
+      "icrc-2019ua": 2,
+      "icrc-2017": 1,
+      "icrc-2020": 2
+    },
+    "BD": {
+      "icrc-2018": 1,
+      "icrc-2019ua": 1,
+      "icrc-2017": 1,
+      "icrc-2020": 1
+    },
+    "BI": {
+      "icrc-2018": 1,
+      "icrc-2019ua": 1,
+      "icrc-2017": 1,
+      "icrc-2020": 1
+    },
+    "CF": {
+      "icrc-2018": 1,
+      "icrc-2019ua": 1,
+      "icrc-2017": 1,
+      "icrc-2020": 1
+    },
+    "TD": {
+      "icrc-2018": 1,
+      "icrc-2019ua": 1,
+      "icrc-2017": 1,
+      "icrc-2020": 1
+    },
+    "CO": {
+      "icrc-2018": 1,
+      "icrc-2019ua": 1,
+      "icrc-2017": 1,
+      "icrc-2020": 1
+    },
+    "CD": {
+      "icrc-2018": 1,
+      "icrc-2019ua": 1,
+      "icrc-2017": 1
+    },
+    "EG": {
+      "icrc-2018": 1,
+      "icrc-2019ua": 1,
+      "icrc-2017": 1,
+      "icrc-2020": 1
+    },
+    "ER": {
+      "icrc-2018": 1,
+      "icrc-2019ua": 1,
+      "icrc-2017": 1,
+      "icrc-2020": 1
+    },
+    "ET": {
+      "icrc-2018": 1,
+      "icrc-2019ua": 1,
+      "icrc-2017": 1,
+      "icrc-2020": 1
+    },
+    "GE": {
+      "icrc-2018": 1,
+      "icrc-2019ua": 2,
+      "icrc-2017": 1,
+      "icrc-2020": 2
+    },
+    "IR": {
+      "icrc-2018": 1,
+      "icrc-2019ua": 1,
+      "icrc-2017": 1,
+      "icrc-2020": 1
+    },
+    "IQ": {
+      "icrc-2018": 1,
+      "icrc-2019ua": 1,
+      "icrc-2017": 1,
+      "icrc-2020": 1
+    },
+    "JO": {
+      "icrc-2018": 1,
+      "icrc-2019ua": 1,
+      "icrc-2017": 1,
+      "icrc-2020": 1
+    },
+    "LB": {
+      "icrc-2018": 1,
+      "icrc-2019ua": 1,
+      "icrc-2017": 1,
+      "icrc-2020": 1
+    },
+    "LY": {
+      "icrc-2018": 1,
+      "icrc-2019ua": 1,
+      "icrc-2017": 1,
+      "icrc-2020": 1
+    },
+    "ML": {
+      "icrc-2018": 1,
+      "icrc-2019ua": 1,
+      "icrc-2017": 1,
+      "icrc-2020": 1
+    },
+    "MR": {
+      "icrc-2018": 1,
+      "icrc-2019ua": 1,
+      "icrc-2017": 1,
+      "icrc-2020": 1
+    },
+    "MA": {
+      "icrc-2018": 1,
+      "icrc-2019ua": 1,
+      "icrc-2017": 1,
+      "icrc-2020": 1
+    },
+    "MM": {
+      "icrc-2018": 1,
+      "icrc-2019ua": 1,
+      "icrc-2017": 1,
+      "icrc-2020": 1
+    },
+    "NE": {
+      "icrc-2018": 1,
+      "icrc-2019ua": 1,
+      "icrc-2017": 1,
+      "icrc-2020": 1
+    },
+    "NG": {
+      "icrc-2018": 1,
+      "icrc-2019ua": 1,
+      "icrc-2017": 1,
+      "icrc-2020": 1
+    },
+    "PK": {
+      "icrc-2018": 1,
+      "icrc-2019ua": 1,
+      "icrc-2017": 1,
+      "icrc-2020": 1
+    },
+    "PH": {
+      "icrc-2018": 1,
+      "icrc-2019ua": 1,
+      "icrc-2017": 1,
+      "icrc-2020": 1
+    },
+    "RW": {
+      "icrc-2018": 1,
+      "icrc-2019ua": 1,
+      "icrc-2017": 1,
+      "icrc-2020": 1
+    },
+    "SO": {
+      "icrc-2018": 1,
+      "icrc-2019ua": 1,
+      "icrc-2017": 1,
+      "icrc-2020": 1
+    },
+    "SS": {
+      "icrc-2018": 1,
+      "icrc-2019ua": 1,
+      "icrc-2017": 1,
+      "icrc-2020": 1
+    },
+    "LK": {
+      "icrc-2018": 1,
+      "icrc-2019ua": 1,
+      "icrc-2017": 1,
+      "icrc-2020": 1
+    },
+    "SD": {
+      "icrc-2018": 1,
+      "icrc-2019ua": 1,
+      "icrc-2017": 1,
+      "icrc-2020": 1
+    },
+    "SY": {
+      "icrc-2018": 1,
+      "icrc-2019ua": 1,
+      "icrc-2017": 1,
+      "icrc-2020": 1
+    },
+    "UG": {
+      "icrc-2018": 1,
+      "icrc-2019ua": 1,
+      "icrc-2017": 1,
+      "icrc-2020": 1
+    },
+    "UA": {
+      "icrc-2018": 1,
+      "icrc-2019ua": 1,
+      "icrc-2017": 1,
+      "icrc-2020": 1
+    },
+    "YE": {
+      "icrc-2018": 1,
+      "icrc-2019ua": 1,
+      "icrc-2017": 1,
+      "icrc-2020": 1
+    },
+    "LR": {
+      "icrc-2017": 1
+    },
+    "BF": {
+      "icrc-2020": 1
+    },
+    "GR": {
+      "icrc-2020": 1
+    }
+  },
+  ".//recipient-region/@vocabulary": {
+    "99": {
+      "icrc-2018": 22,
+      "icrc-2019ua": 24,
+      "icrc-2017": 25,
+      "icrc-2020": 24
+    }
+  },
+  ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "99": {
+      "icrc-2018": 5,
+      "icrc-2019ua": 6,
+      "icrc-2017": 5,
+      "icrc-2020": 5
+    }
+  },
+  ".//reporting-org/@type": {
+    "40": {
+      "icrc-2018": 65,
+      "icrc-2019ua": 71,
+      "icrc-2017": 70,
+      "icrc-2020": 71
+    }
+  },
+  ".//result/@type": {
+    "2": {
+      "icrc-2018": 61,
+      "icrc-2017": 63
+    }
+  },
+  ".//result/indicator/@measure": {
+    "1": {
+      "icrc-2018": 2421,
+      "icrc-2017": 2486
+    }
+  },
+  ".//result/indicator/document-link/@format": {
+    "application/pdf": {
+      "icrc-2018": 2421,
+      "icrc-2017": 2486
+    }
+  },
+  ".//result/indicator/document-link/category/@code": {
+    "B01": {
+      "icrc-2018": 2421,
+      "icrc-2017": 2486
+    }
+  },
+  ".//result/indicator/reference/@vocabulary": {
+    "99": {
+      "icrc-2018": 2421,
+      "icrc-2017": 2486
+    }
+  },
+  ".//sector/@vocabulary": {
+    "99": {
+      "icrc-2018": 311,
+      "icrc-2019ua": 349,
+      "icrc-2017": 331,
+      "icrc-2020": 337
+    }
+  },
+  ".//transaction/provider-org/@type": {
+    "10": {
+      "icrc-2018": 936,
+      "icrc-2019ua": 551,
+      "icrc-2017": 1013,
+      "icrc-2020": 321
+    },
+    "90": {
+      "icrc-2018": 46,
+      "icrc-2019ua": 31,
+      "icrc-2017": 43,
+      "icrc-2020": 6
+    },
+    "70": {
+      "icrc-2018": 717,
+      "icrc-2019ua": 558,
+      "icrc-2017": 664,
+      "icrc-2020": 225
+    },
+    "22": {
+      "icrc-2018": 660,
+      "icrc-2019ua": 479,
+      "icrc-2017": 660,
+      "icrc-2020": 128
+    },
+    "40": {
+      "icrc-2018": 63,
+      "icrc-2019ua": 49,
+      "icrc-2017": 59,
+      "icrc-2020": 31
+    },
+    "60": {
+      "icrc-2018": 107,
+      "icrc-2019ua": 67,
+      "icrc-2017": 125,
+      "icrc-2020": 27
+    },
+    "15": {
+      "icrc-2018": 36,
+      "icrc-2019ua": 23,
+      "icrc-2017": 43,
+      "icrc-2020": 7
+    }
+  },
+  ".//transaction/transaction-type/@code": {
+    "1": {
+      "icrc-2018": 2620,
+      "icrc-2017": 2664
+    },
+    "4": {
+      "icrc-2018": 3720,
+      "icrc-2019ua": 3030,
+      "icrc-2017": 3949,
+      "icrc-2020": 1008
+    },
+    "11": {
+      "icrc-2019ua": 1759,
+      "icrc-2020": 746
+    }
+  },
+  ".//transaction/value/@currency": {
+    "CHF": {
+      "icrc-2018": 6340,
+      "icrc-2019ua": 4789,
+      "icrc-2017": 6613,
+      "icrc-2020": 1754
+    }
+  }
+}

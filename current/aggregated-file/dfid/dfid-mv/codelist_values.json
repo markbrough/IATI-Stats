@@ -1,0 +1,94 @@
+{
+  ".//@default-currency": {
+    "GBP": 2
+  },
+  ".//@xml:lang": {
+    "en": 2
+  },
+  ".//activity-date/@type": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 1
+  },
+  ".//activity-status/@code": {
+    "4": 2
+  },
+  ".//budget/@type": {
+    "1": 1
+  },
+  ".//budget/value/@currency": {
+    "GBP": 1
+  },
+  ".//collaboration-type/@code": {
+    "1": 1
+  },
+  ".//contact-info/@type": {
+    "1": 2
+  },
+  ".//country-budget-items/@vocabulary": {
+    "1": 1
+  },
+  ".//country-budget-items/budget-item[../@vocabulary = '1']/@code": {
+    "4.2.1": 1
+  },
+  ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "C01": 1
+  },
+  ".//default-finance-type/@code": {
+    "110": 1
+  },
+  ".//default-flow-type/@code": {
+    "10": 1
+  },
+  ".//default-tied-status/@code": {
+    "5": 2
+  },
+  ".//description/@type": {
+    "1": 1
+  },
+  ".//other-identifier/@type": {
+    "A1": 2,
+    "B1": 2
+  },
+  ".//participating-org/@role": {
+    "1": 2,
+    "2": 2
+  },
+  ".//participating-org/@type": {
+    "10": 4
+  },
+  ".//policy-marker/@significance": {
+    "0": 3,
+    "2": 2
+  },
+  ".//policy-marker/@vocabulary": {
+    "1": 5
+  },
+  ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "1": 1,
+    "5": 1,
+    "6": 1,
+    "7": 1,
+    "8": 1
+  },
+  ".//recipient-country/@code": {
+    "MV": 2
+  },
+  ".//related-activity/@type": {
+    "2": 1,
+    "1": 1
+  },
+  ".//reporting-org/@type": {
+    "10": 2
+  },
+  ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "41010": 2
+  },
+  ".//transaction/transaction-type/@code": {
+    "4": 1
+  },
+  ".//transaction/value/@currency": {
+    "GBP": 1
+  }
+}

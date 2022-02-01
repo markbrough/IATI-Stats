@@ -1,0 +1,256 @@
+{
+  ".//@default-currency": {
+    "GBP": {
+      "acord-cd": 1,
+      "acord-289": 1,
+      "acord-ss": 1,
+      "acord-tz": 1
+    }
+  },
+  ".//@xml:lang": {
+    "en": {
+      "acord-cd": 5,
+      "acord-289": 23,
+      "acord-ss": 85,
+      "acord-tz": 23
+    }
+  },
+  ".//activity-date/@type": {
+    "2": {
+      "acord-cd": 1,
+      "acord-289": 1,
+      "acord-tz": 1
+    },
+    "3": {
+      "acord-cd": 1
+    },
+    "1": {
+      "acord-ss": 1
+    }
+  },
+  ".//activity-scope/@code": {
+    "4": {
+      "acord-ss": 1
+    }
+  },
+  ".//activity-status/@code": {
+    "4": {
+      "acord-cd": 1
+    },
+    "2": {
+      "acord-289": 1,
+      "acord-ss": 1
+    },
+    "3": {
+      "acord-tz": 1
+    }
+  },
+  ".//budget/@type": {
+    "1": {
+      "acord-cd": 1,
+      "acord-289": 1,
+      "acord-tz": 1
+    }
+  },
+  ".//budget/value/@currency": {
+    "GBP": {
+      "acord-cd": 1,
+      "acord-289": 1,
+      "acord-tz": 1
+    }
+  },
+  ".//contact-info/@type": {
+    "1": {
+      "acord-ss": 1
+    }
+  },
+  ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "C01": {
+      "acord-cd": 1,
+      "acord-289": 1,
+      "acord-ss": 1,
+      "acord-tz": 1
+    }
+  },
+  ".//default-flow-type/@code": {
+    "30": {
+      "acord-cd": 1,
+      "acord-289": 1,
+      "acord-ss": 1,
+      "acord-tz": 1
+    }
+  },
+  ".//description/@type": {
+    "1": {
+      "acord-cd": 1,
+      "acord-289": 1,
+      "acord-ss": 1,
+      "acord-tz": 1
+    }
+  },
+  ".//document-link/@format": {
+    "application/pdf": {
+      "acord-cd": 1,
+      "acord-ss": 1
+    }
+  },
+  ".//document-link/category/@code": {
+    "A07": {
+      "acord-cd": 1
+    },
+    "B01": {
+      "acord-ss": 1
+    }
+  },
+  ".//document-link/language/@code": {
+    "en": {
+      "acord-cd": 1
+    }
+  },
+  ".//participating-org/@role": {
+    "1": {
+      "acord-cd": 1,
+      "acord-289": 1,
+      "acord-ss": 1,
+      "acord-tz": 1
+    },
+    "2": {
+      "acord-cd": 1,
+      "acord-ss": 1
+    },
+    "4": {
+      "acord-cd": 1,
+      "acord-ss": 2
+    }
+  },
+  ".//participating-org/@type": {
+    "10": {
+      "acord-cd": 1,
+      "acord-289": 1,
+      "acord-ss": 1,
+      "acord-tz": 1
+    },
+    "21": {
+      "acord-cd": 2,
+      "acord-ss": 3
+    }
+  },
+  ".//recipient-country/@code": {
+    "CD": {
+      "acord-cd": 1
+    },
+    "TZ": {
+      "acord-289": 1,
+      "acord-tz": 1
+    },
+    "SS": {
+      "acord-ss": 1
+    }
+  },
+  ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "289": {
+      "acord-289": 1,
+      "acord-tz": 1
+    }
+  },
+  ".//reporting-org/@type": {
+    "21": {
+      "acord-cd": 1,
+      "acord-289": 1,
+      "acord-ss": 1,
+      "acord-tz": 1
+    }
+  },
+  ".//result/@type": {
+    "1": {
+      "acord-ss": 16
+    }
+  },
+  ".//result/indicator/@measure": {
+    "1": {
+      "acord-ss": 16
+    }
+  },
+  ".//sector/@vocabulary": {
+    "1": {
+      "acord-cd": 1,
+      "acord-289": 1,
+      "acord-ss": 1,
+      "acord-tz": 1
+    }
+  },
+  ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "15150": {
+      "acord-cd": 1
+    },
+    "13020": {
+      "acord-289": 1,
+      "acord-tz": 1
+    },
+    "15220": {
+      "acord-ss": 1
+    }
+  },
+  ".//transaction/aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "C01": {
+      "acord-cd": 26,
+      "acord-289": 19,
+      "acord-tz": 19
+    }
+  },
+  ".//transaction/disbursement-channel/@code": {
+    "2": {
+      "acord-289": 25,
+      "acord-tz": 25
+    }
+  },
+  ".//transaction/finance-type/@code": {
+    "110": {
+      "acord-cd": 5,
+      "acord-289": 18,
+      "acord-tz": 18
+    }
+  },
+  ".//transaction/flow-type/@code": {
+    "30": {
+      "acord-cd": 21,
+      "acord-289": 3,
+      "acord-tz": 3
+    },
+    "20": {
+      "acord-cd": 5,
+      "acord-289": 17,
+      "acord-tz": 17
+    }
+  },
+  ".//transaction/tied-status/@code": {
+    "5": {
+      "acord-289": 16,
+      "acord-tz": 16
+    }
+  },
+  ".//transaction/transaction-type/@code": {
+    "3": {
+      "acord-cd": 9,
+      "acord-289": 11,
+      "acord-tz": 12
+    },
+    "1": {
+      "acord-cd": 8,
+      "acord-289": 12,
+      "acord-tz": 12
+    },
+    "4": {
+      "acord-cd": 9,
+      "acord-289": 11,
+      "acord-tz": 12
+    }
+  },
+  ".//transaction/value/@currency": {
+    "GBP": {
+      "acord-cd": 21,
+      "acord-289": 9,
+      "acord-tz": 9
+    }
+  }
+}

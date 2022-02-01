@@ -1,0 +1,80 @@
+{
+  ".//@default-currency": {
+    "GBP": {
+      "afelt-activities": 1
+    }
+  },
+  ".//@xml:lang": {
+    "en": {
+      "afelt-activities": 6
+    }
+  },
+  ".//activity-date/@type": {
+    "2": {
+      "afelt-activities": 1
+    }
+  },
+  ".//activity-status/@code": {
+    "2": {
+      "afelt-activities": 1
+    }
+  },
+  ".//description/@type": {
+    "1": {
+      "afelt-activities": 1
+    }
+  },
+  ".//participating-org/@role": {
+    "4": {
+      "afelt-activities": 1
+    }
+  },
+  ".//participating-org/@type": {
+    "80": {
+      "afelt-activities": 1
+    }
+  },
+  ".//recipient-country/@code": {
+    "UG": {
+      "afelt-activities": 1
+    },
+    "TZ": {
+      "afelt-activities": 1
+    }
+  },
+  ".//reporting-org/@type": {
+    "80": {
+      "afelt-activities": 1
+    }
+  },
+  ".//sector/@vocabulary": {
+    "1": {
+      "afelt-activities": 2
+    }
+  },
+  ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "11420": {
+      "afelt-activities": 2
+    }
+  },
+  ".//transaction/provider-org/@type": {
+    "21": {
+      "afelt-activities": 6
+    }
+  },
+  ".//transaction/receiver-org/@type": {
+    "80": {
+      "afelt-activities": 6
+    }
+  },
+  ".//transaction/transaction-type/@code": {
+    "1": {
+      "afelt-activities": 8
+    }
+  },
+  ".//transaction/value/@currency": {
+    "GBP": {
+      "afelt-activities": 8
+    }
+  }
+}

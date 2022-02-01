@@ -1,0 +1,751 @@
+{
+  "iati-activity": {
+    "ecuk-np": 1,
+    "ecuk-ge": 1,
+    "ecuk-tz": 2,
+    "ecuk-gb": 2,
+    "ecuk-zw": 1
+  },
+  "iati-activity/@default-currency": {
+    "ecuk-np": 1,
+    "ecuk-ge": 1,
+    "ecuk-tz": 2,
+    "ecuk-gb": 2,
+    "ecuk-zw": 1
+  },
+  "iati-activity/@hierarchy": {
+    "ecuk-np": 1,
+    "ecuk-ge": 1,
+    "ecuk-tz": 2,
+    "ecuk-gb": 2,
+    "ecuk-zw": 1
+  },
+  "iati-activity/@humanitarian": {
+    "ecuk-np": 1,
+    "ecuk-ge": 1,
+    "ecuk-tz": 2,
+    "ecuk-gb": 2,
+    "ecuk-zw": 1
+  },
+  "iati-activity/@last-updated-datetime": {
+    "ecuk-np": 1,
+    "ecuk-ge": 1,
+    "ecuk-tz": 2,
+    "ecuk-gb": 2,
+    "ecuk-zw": 1
+  },
+  "iati-activity/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "ecuk-np": 1,
+    "ecuk-ge": 1,
+    "ecuk-tz": 2,
+    "ecuk-gb": 2,
+    "ecuk-zw": 1
+  },
+  "iati-activity/activity-date": {
+    "ecuk-np": 3,
+    "ecuk-ge": 3,
+    "ecuk-tz": 4,
+    "ecuk-gb": 4,
+    "ecuk-zw": 2
+  },
+  "iati-activity/activity-date/@iso-date": {
+    "ecuk-np": 3,
+    "ecuk-ge": 3,
+    "ecuk-tz": 4,
+    "ecuk-gb": 4,
+    "ecuk-zw": 2
+  },
+  "iati-activity/activity-date/@type": {
+    "ecuk-np": 3,
+    "ecuk-ge": 3,
+    "ecuk-tz": 4,
+    "ecuk-gb": 4,
+    "ecuk-zw": 2
+  },
+  "iati-activity/activity-date/narrative": {
+    "ecuk-ge": 3,
+    "ecuk-gb": 2
+  },
+  "iati-activity/activity-date/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "ecuk-ge": 2,
+    "ecuk-gb": 2
+  },
+  "iati-activity/activity-status": {
+    "ecuk-np": 1,
+    "ecuk-ge": 1,
+    "ecuk-tz": 2,
+    "ecuk-gb": 2,
+    "ecuk-zw": 1
+  },
+  "iati-activity/activity-status/@code": {
+    "ecuk-np": 1,
+    "ecuk-ge": 1,
+    "ecuk-tz": 2,
+    "ecuk-gb": 2,
+    "ecuk-zw": 1
+  },
+  "iati-activity/budget": {
+    "ecuk-np": 1,
+    "ecuk-ge": 3,
+    "ecuk-tz": 2,
+    "ecuk-gb": 2,
+    "ecuk-zw": 1
+  },
+  "iati-activity/budget/@status": {
+    "ecuk-np": 1,
+    "ecuk-ge": 3,
+    "ecuk-tz": 2,
+    "ecuk-gb": 2,
+    "ecuk-zw": 1
+  },
+  "iati-activity/budget/@type": {
+    "ecuk-np": 1,
+    "ecuk-ge": 3,
+    "ecuk-tz": 2,
+    "ecuk-gb": 2,
+    "ecuk-zw": 1
+  },
+  "iati-activity/budget/period-end": {
+    "ecuk-np": 1,
+    "ecuk-ge": 3,
+    "ecuk-tz": 2,
+    "ecuk-gb": 2,
+    "ecuk-zw": 1
+  },
+  "iati-activity/budget/period-end/@iso-date": {
+    "ecuk-np": 1,
+    "ecuk-ge": 3,
+    "ecuk-tz": 2,
+    "ecuk-gb": 2,
+    "ecuk-zw": 1
+  },
+  "iati-activity/budget/period-start": {
+    "ecuk-np": 1,
+    "ecuk-ge": 3,
+    "ecuk-tz": 2,
+    "ecuk-gb": 2,
+    "ecuk-zw": 1
+  },
+  "iati-activity/budget/period-start/@iso-date": {
+    "ecuk-np": 1,
+    "ecuk-ge": 3,
+    "ecuk-tz": 2,
+    "ecuk-gb": 2,
+    "ecuk-zw": 1
+  },
+  "iati-activity/budget/value": {
+    "ecuk-np": 1,
+    "ecuk-ge": 3,
+    "ecuk-tz": 2,
+    "ecuk-gb": 2,
+    "ecuk-zw": 1
+  },
+  "iati-activity/budget/value/@currency": {
+    "ecuk-np": 1,
+    "ecuk-ge": 3,
+    "ecuk-tz": 1,
+    "ecuk-gb": 2,
+    "ecuk-zw": 1
+  },
+  "iati-activity/budget/value/@value-date": {
+    "ecuk-np": 1,
+    "ecuk-ge": 3,
+    "ecuk-tz": 2,
+    "ecuk-gb": 2,
+    "ecuk-zw": 1
+  },
+  "iati-activity/contact-info": {
+    "ecuk-np": 1,
+    "ecuk-ge": 1,
+    "ecuk-tz": 2,
+    "ecuk-gb": 1,
+    "ecuk-zw": 1
+  },
+  "iati-activity/contact-info/@type": {
+    "ecuk-np": 1,
+    "ecuk-ge": 1,
+    "ecuk-tz": 2,
+    "ecuk-gb": 1,
+    "ecuk-zw": 1
+  },
+  "iati-activity/contact-info/department": {
+    "ecuk-np": 1,
+    "ecuk-ge": 1,
+    "ecuk-tz": 2,
+    "ecuk-gb": 1,
+    "ecuk-zw": 1
+  },
+  "iati-activity/contact-info/department/narrative": {
+    "ecuk-np": 1,
+    "ecuk-ge": 1,
+    "ecuk-tz": 2,
+    "ecuk-gb": 1,
+    "ecuk-zw": 1
+  },
+  "iati-activity/contact-info/email": {
+    "ecuk-np": 1,
+    "ecuk-ge": 1,
+    "ecuk-tz": 2,
+    "ecuk-gb": 1,
+    "ecuk-zw": 1
+  },
+  "iati-activity/contact-info/job-title": {
+    "ecuk-np": 1,
+    "ecuk-ge": 1,
+    "ecuk-tz": 2,
+    "ecuk-gb": 1,
+    "ecuk-zw": 1
+  },
+  "iati-activity/contact-info/job-title/narrative": {
+    "ecuk-np": 1,
+    "ecuk-ge": 1,
+    "ecuk-tz": 2,
+    "ecuk-gb": 1,
+    "ecuk-zw": 1
+  },
+  "iati-activity/contact-info/mailing-address": {
+    "ecuk-np": 1,
+    "ecuk-ge": 1,
+    "ecuk-tz": 2,
+    "ecuk-gb": 1,
+    "ecuk-zw": 1
+  },
+  "iati-activity/contact-info/mailing-address/narrative": {
+    "ecuk-np": 1,
+    "ecuk-ge": 1,
+    "ecuk-tz": 2,
+    "ecuk-gb": 1,
+    "ecuk-zw": 1
+  },
+  "iati-activity/contact-info/organisation": {
+    "ecuk-np": 1,
+    "ecuk-ge": 1,
+    "ecuk-tz": 2,
+    "ecuk-gb": 1,
+    "ecuk-zw": 1
+  },
+  "iati-activity/contact-info/organisation/narrative": {
+    "ecuk-np": 1,
+    "ecuk-ge": 1,
+    "ecuk-tz": 2,
+    "ecuk-gb": 1,
+    "ecuk-zw": 1
+  },
+  "iati-activity/contact-info/organisation/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "ecuk-ge": 1
+  },
+  "iati-activity/contact-info/person-name": {
+    "ecuk-np": 1,
+    "ecuk-ge": 1,
+    "ecuk-tz": 2,
+    "ecuk-gb": 1,
+    "ecuk-zw": 1
+  },
+  "iati-activity/contact-info/person-name/narrative": {
+    "ecuk-np": 1,
+    "ecuk-ge": 1,
+    "ecuk-tz": 2,
+    "ecuk-gb": 1,
+    "ecuk-zw": 1
+  },
+  "iati-activity/contact-info/telephone": {
+    "ecuk-np": 1,
+    "ecuk-ge": 1,
+    "ecuk-tz": 2,
+    "ecuk-gb": 1,
+    "ecuk-zw": 1
+  },
+  "iati-activity/default-aid-type": {
+    "ecuk-np": 1,
+    "ecuk-ge": 1,
+    "ecuk-tz": 2,
+    "ecuk-gb": 1,
+    "ecuk-zw": 1
+  },
+  "iati-activity/default-aid-type/@code": {
+    "ecuk-np": 1,
+    "ecuk-ge": 1,
+    "ecuk-tz": 2,
+    "ecuk-gb": 1,
+    "ecuk-zw": 1
+  },
+  "iati-activity/default-aid-type/@vocabulary": {
+    "ecuk-np": 1,
+    "ecuk-ge": 1,
+    "ecuk-tz": 2,
+    "ecuk-gb": 1,
+    "ecuk-zw": 1
+  },
+  "iati-activity/default-finance-type": {
+    "ecuk-np": 1,
+    "ecuk-ge": 1,
+    "ecuk-tz": 2,
+    "ecuk-gb": 1,
+    "ecuk-zw": 1
+  },
+  "iati-activity/default-finance-type/@code": {
+    "ecuk-np": 1,
+    "ecuk-ge": 1,
+    "ecuk-tz": 2,
+    "ecuk-gb": 1,
+    "ecuk-zw": 1
+  },
+  "iati-activity/default-flow-type": {
+    "ecuk-np": 1,
+    "ecuk-ge": 1,
+    "ecuk-tz": 2,
+    "ecuk-gb": 1,
+    "ecuk-zw": 1
+  },
+  "iati-activity/default-flow-type/@code": {
+    "ecuk-np": 1,
+    "ecuk-ge": 1,
+    "ecuk-tz": 2,
+    "ecuk-gb": 1,
+    "ecuk-zw": 1
+  },
+  "iati-activity/default-tied-status": {
+    "ecuk-np": 1,
+    "ecuk-ge": 1,
+    "ecuk-tz": 2,
+    "ecuk-gb": 1,
+    "ecuk-zw": 1
+  },
+  "iati-activity/default-tied-status/@code": {
+    "ecuk-np": 1,
+    "ecuk-ge": 1,
+    "ecuk-tz": 2,
+    "ecuk-gb": 1,
+    "ecuk-zw": 1
+  },
+  "iati-activity/description": {
+    "ecuk-np": 1,
+    "ecuk-ge": 1,
+    "ecuk-tz": 2,
+    "ecuk-gb": 2,
+    "ecuk-zw": 1
+  },
+  "iati-activity/description/@type": {
+    "ecuk-np": 1,
+    "ecuk-ge": 1,
+    "ecuk-tz": 2,
+    "ecuk-gb": 2,
+    "ecuk-zw": 1
+  },
+  "iati-activity/description/narrative": {
+    "ecuk-np": 1,
+    "ecuk-ge": 1,
+    "ecuk-tz": 2,
+    "ecuk-gb": 2,
+    "ecuk-zw": 1
+  },
+  "iati-activity/description/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "ecuk-np": 1,
+    "ecuk-ge": 1,
+    "ecuk-tz": 2,
+    "ecuk-gb": 2,
+    "ecuk-zw": 1
+  },
+  "iati-activity/document-link": {
+    "ecuk-np": 2,
+    "ecuk-ge": 3,
+    "ecuk-tz": 3,
+    "ecuk-gb": 7,
+    "ecuk-zw": 2
+  },
+  "iati-activity/document-link/@format": {
+    "ecuk-np": 2,
+    "ecuk-ge": 3,
+    "ecuk-tz": 3,
+    "ecuk-gb": 7,
+    "ecuk-zw": 2
+  },
+  "iati-activity/document-link/@url": {
+    "ecuk-np": 2,
+    "ecuk-ge": 3,
+    "ecuk-tz": 3,
+    "ecuk-gb": 7,
+    "ecuk-zw": 2
+  },
+  "iati-activity/document-link/category": {
+    "ecuk-np": 2,
+    "ecuk-ge": 3,
+    "ecuk-tz": 3,
+    "ecuk-gb": 7,
+    "ecuk-zw": 2
+  },
+  "iati-activity/document-link/category/@code": {
+    "ecuk-np": 2,
+    "ecuk-ge": 3,
+    "ecuk-tz": 3,
+    "ecuk-gb": 7,
+    "ecuk-zw": 2
+  },
+  "iati-activity/document-link/document-date": {
+    "ecuk-ge": 1
+  },
+  "iati-activity/document-link/document-date/@iso-date": {
+    "ecuk-ge": 1
+  },
+  "iati-activity/document-link/language": {
+    "ecuk-np": 2,
+    "ecuk-ge": 3,
+    "ecuk-tz": 3,
+    "ecuk-gb": 6,
+    "ecuk-zw": 2
+  },
+  "iati-activity/document-link/language/@code": {
+    "ecuk-np": 2,
+    "ecuk-ge": 3,
+    "ecuk-tz": 3,
+    "ecuk-gb": 6,
+    "ecuk-zw": 2
+  },
+  "iati-activity/document-link/title": {
+    "ecuk-np": 2,
+    "ecuk-ge": 3,
+    "ecuk-tz": 3,
+    "ecuk-gb": 7,
+    "ecuk-zw": 2
+  },
+  "iati-activity/document-link/title/narrative": {
+    "ecuk-np": 2,
+    "ecuk-ge": 3,
+    "ecuk-tz": 3,
+    "ecuk-gb": 7,
+    "ecuk-zw": 2
+  },
+  "iati-activity/document-link/title/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "ecuk-np": 1,
+    "ecuk-ge": 1,
+    "ecuk-tz": 1,
+    "ecuk-gb": 1
+  },
+  "iati-activity/iati-identifier": {
+    "ecuk-np": 1,
+    "ecuk-ge": 1,
+    "ecuk-tz": 2,
+    "ecuk-gb": 2,
+    "ecuk-zw": 1
+  },
+  "iati-activity/participating-org": {
+    "ecuk-np": 3,
+    "ecuk-ge": 3,
+    "ecuk-tz": 4,
+    "ecuk-gb": 6,
+    "ecuk-zw": 3
+  },
+  "iati-activity/participating-org/@activity-id": {
+    "ecuk-np": 3,
+    "ecuk-ge": 3,
+    "ecuk-tz": 4,
+    "ecuk-gb": 6,
+    "ecuk-zw": 3
+  },
+  "iati-activity/participating-org/@ref": {
+    "ecuk-np": 3,
+    "ecuk-ge": 3,
+    "ecuk-tz": 4,
+    "ecuk-gb": 6,
+    "ecuk-zw": 3
+  },
+  "iati-activity/participating-org/@role": {
+    "ecuk-np": 3,
+    "ecuk-ge": 3,
+    "ecuk-tz": 4,
+    "ecuk-gb": 6,
+    "ecuk-zw": 3
+  },
+  "iati-activity/participating-org/@type": {
+    "ecuk-np": 3,
+    "ecuk-ge": 3,
+    "ecuk-tz": 4,
+    "ecuk-gb": 6,
+    "ecuk-zw": 3
+  },
+  "iati-activity/participating-org/narrative": {
+    "ecuk-np": 3,
+    "ecuk-ge": 3,
+    "ecuk-tz": 4,
+    "ecuk-gb": 6,
+    "ecuk-zw": 3
+  },
+  "iati-activity/participating-org/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "ecuk-np": 3,
+    "ecuk-ge": 3,
+    "ecuk-tz": 4,
+    "ecuk-gb": 6,
+    "ecuk-zw": 3
+  },
+  "iati-activity/policy-marker": {
+    "ecuk-np": 1,
+    "ecuk-ge": 1,
+    "ecuk-tz": 2,
+    "ecuk-gb": 1,
+    "ecuk-zw": 1
+  },
+  "iati-activity/policy-marker/@code": {
+    "ecuk-np": 1,
+    "ecuk-ge": 1,
+    "ecuk-tz": 2,
+    "ecuk-gb": 1,
+    "ecuk-zw": 1
+  },
+  "iati-activity/policy-marker/@significance": {
+    "ecuk-tz": 1
+  },
+  "iati-activity/policy-marker/@vocabulary": {
+    "ecuk-tz": 1
+  },
+  "iati-activity/recipient-country": {
+    "ecuk-np": 1,
+    "ecuk-ge": 5,
+    "ecuk-tz": 2,
+    "ecuk-gb": 2,
+    "ecuk-zw": 1
+  },
+  "iati-activity/recipient-country/@code": {
+    "ecuk-np": 1,
+    "ecuk-ge": 5,
+    "ecuk-tz": 2,
+    "ecuk-gb": 2,
+    "ecuk-zw": 1
+  },
+  "iati-activity/recipient-country/@percentage": {
+    "ecuk-np": 1,
+    "ecuk-ge": 5,
+    "ecuk-tz": 2,
+    "ecuk-gb": 1,
+    "ecuk-zw": 1
+  },
+  "iati-activity/reporting-org": {
+    "ecuk-np": 1,
+    "ecuk-ge": 1,
+    "ecuk-tz": 2,
+    "ecuk-gb": 2,
+    "ecuk-zw": 1
+  },
+  "iati-activity/reporting-org/@ref": {
+    "ecuk-np": 1,
+    "ecuk-ge": 1,
+    "ecuk-tz": 2,
+    "ecuk-gb": 2,
+    "ecuk-zw": 1
+  },
+  "iati-activity/reporting-org/@type": {
+    "ecuk-np": 1,
+    "ecuk-ge": 1,
+    "ecuk-tz": 2,
+    "ecuk-gb": 2,
+    "ecuk-zw": 1
+  },
+  "iati-activity/reporting-org/narrative": {
+    "ecuk-np": 1,
+    "ecuk-ge": 1,
+    "ecuk-tz": 2,
+    "ecuk-gb": 2,
+    "ecuk-zw": 1
+  },
+  "iati-activity/reporting-org/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "ecuk-np": 1,
+    "ecuk-ge": 1,
+    "ecuk-tz": 2,
+    "ecuk-gb": 2,
+    "ecuk-zw": 1
+  },
+  "iati-activity/sector": {
+    "ecuk-np": 1,
+    "ecuk-ge": 1,
+    "ecuk-tz": 2,
+    "ecuk-gb": 2,
+    "ecuk-zw": 1
+  },
+  "iati-activity/sector/@code": {
+    "ecuk-np": 1,
+    "ecuk-ge": 1,
+    "ecuk-tz": 2,
+    "ecuk-gb": 2,
+    "ecuk-zw": 1
+  },
+  "iati-activity/sector/@percentage": {
+    "ecuk-tz": 1
+  },
+  "iati-activity/sector/@vocabulary": {
+    "ecuk-np": 1,
+    "ecuk-ge": 1,
+    "ecuk-tz": 2,
+    "ecuk-gb": 2,
+    "ecuk-zw": 1
+  },
+  "iati-activity/title": {
+    "ecuk-np": 1,
+    "ecuk-ge": 1,
+    "ecuk-tz": 2,
+    "ecuk-gb": 2,
+    "ecuk-zw": 1
+  },
+  "iati-activity/title/narrative": {
+    "ecuk-np": 1,
+    "ecuk-ge": 1,
+    "ecuk-tz": 2,
+    "ecuk-gb": 2,
+    "ecuk-zw": 1
+  },
+  "iati-activity/title/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "ecuk-np": 1,
+    "ecuk-ge": 1,
+    "ecuk-tz": 2,
+    "ecuk-gb": 2,
+    "ecuk-zw": 1
+  },
+  "iati-activity/transaction": {
+    "ecuk-np": 6,
+    "ecuk-ge": 13,
+    "ecuk-tz": 22,
+    "ecuk-gb": 8,
+    "ecuk-zw": 2
+  },
+  "iati-activity/transaction/@humanitarian": {
+    "ecuk-ge": 6,
+    "ecuk-tz": 6
+  },
+  "iati-activity/transaction/@ref": {
+    "ecuk-np": 6,
+    "ecuk-ge": 13,
+    "ecuk-tz": 22,
+    "ecuk-gb": 6,
+    "ecuk-zw": 2
+  },
+  "iati-activity/transaction/description": {
+    "ecuk-np": 6,
+    "ecuk-ge": 12,
+    "ecuk-tz": 19,
+    "ecuk-gb": 3,
+    "ecuk-zw": 2
+  },
+  "iati-activity/transaction/description/narrative": {
+    "ecuk-np": 6,
+    "ecuk-ge": 12,
+    "ecuk-tz": 19,
+    "ecuk-gb": 3,
+    "ecuk-zw": 2
+  },
+  "iati-activity/transaction/description/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "ecuk-np": 1,
+    "ecuk-ge": 2
+  },
+  "iati-activity/transaction/provider-org": {
+    "ecuk-np": 6,
+    "ecuk-ge": 8,
+    "ecuk-tz": 22,
+    "ecuk-gb": 2
+  },
+  "iati-activity/transaction/provider-org/@provider-activity-id": {
+    "ecuk-np": 4,
+    "ecuk-ge": 6,
+    "ecuk-tz": 12
+  },
+  "iati-activity/transaction/provider-org/@ref": {
+    "ecuk-np": 5,
+    "ecuk-ge": 8,
+    "ecuk-tz": 17,
+    "ecuk-gb": 2
+  },
+  "iati-activity/transaction/provider-org/@type": {
+    "ecuk-np": 5,
+    "ecuk-ge": 5,
+    "ecuk-tz": 7,
+    "ecuk-gb": 2
+  },
+  "iati-activity/transaction/provider-org/narrative": {
+    "ecuk-np": 5,
+    "ecuk-ge": 3,
+    "ecuk-tz": 10,
+    "ecuk-gb": 2
+  },
+  "iati-activity/transaction/provider-org/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "ecuk-np": 1,
+    "ecuk-gb": 2
+  },
+  "iati-activity/transaction/receiver-org": {
+    "ecuk-np": 6,
+    "ecuk-ge": 6,
+    "ecuk-tz": 22,
+    "ecuk-gb": 2
+  },
+  "iati-activity/transaction/receiver-org/@receiver-activity-id": {
+    "ecuk-np": 4,
+    "ecuk-ge": 4,
+    "ecuk-tz": 12,
+    "ecuk-gb": 2
+  },
+  "iati-activity/transaction/receiver-org/@ref": {
+    "ecuk-np": 5,
+    "ecuk-ge": 6,
+    "ecuk-tz": 17,
+    "ecuk-gb": 2
+  },
+  "iati-activity/transaction/receiver-org/@type": {
+    "ecuk-np": 5,
+    "ecuk-ge": 4,
+    "ecuk-tz": 5,
+    "ecuk-gb": 2
+  },
+  "iati-activity/transaction/receiver-org/narrative": {
+    "ecuk-np": 5,
+    "ecuk-ge": 3,
+    "ecuk-tz": 10,
+    "ecuk-gb": 2
+  },
+  "iati-activity/transaction/receiver-org/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "ecuk-gb": 2
+  },
+  "iati-activity/transaction/transaction-date": {
+    "ecuk-np": 6,
+    "ecuk-ge": 13,
+    "ecuk-tz": 22,
+    "ecuk-gb": 8,
+    "ecuk-zw": 2
+  },
+  "iati-activity/transaction/transaction-date/@iso-date": {
+    "ecuk-np": 6,
+    "ecuk-ge": 13,
+    "ecuk-tz": 22,
+    "ecuk-gb": 8,
+    "ecuk-zw": 2
+  },
+  "iati-activity/transaction/transaction-type": {
+    "ecuk-np": 6,
+    "ecuk-ge": 13,
+    "ecuk-tz": 22,
+    "ecuk-gb": 8,
+    "ecuk-zw": 2
+  },
+  "iati-activity/transaction/transaction-type/@code": {
+    "ecuk-np": 6,
+    "ecuk-ge": 13,
+    "ecuk-tz": 22,
+    "ecuk-gb": 8,
+    "ecuk-zw": 2
+  },
+  "iati-activity/transaction/value": {
+    "ecuk-np": 6,
+    "ecuk-ge": 13,
+    "ecuk-tz": 22,
+    "ecuk-gb": 8,
+    "ecuk-zw": 2
+  },
+  "iati-activity/transaction/value/@currency": {
+    "ecuk-np": 5,
+    "ecuk-ge": 8,
+    "ecuk-tz": 18,
+    "ecuk-gb": 4
+  },
+  "iati-activity/transaction/value/@value-date": {
+    "ecuk-np": 6,
+    "ecuk-ge": 13,
+    "ecuk-tz": 22,
+    "ecuk-gb": 8,
+    "ecuk-zw": 2
+  }
+}

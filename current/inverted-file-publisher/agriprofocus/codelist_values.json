@@ -1,0 +1,392 @@
+{
+  ".//@default-currency": {
+    "EUR": {
+      "agriprofocus-gvc": 6,
+      "agriprofocus-org": 4
+    }
+  },
+  ".//@xml:lang": {
+    "en": {
+      "agriprofocus-gvc": 6,
+      "agriprofocus-org": 5
+    },
+    "EN": {
+      "agriprofocus-org": 6
+    }
+  },
+  ".//activity-date/@type": {
+    "1": {
+      "agriprofocus-gvc": 6,
+      "agriprofocus-org": 4
+    },
+    "2": {
+      "agriprofocus-gvc": 5,
+      "agriprofocus-org": 4
+    },
+    "3": {
+      "agriprofocus-gvc": 6,
+      "agriprofocus-org": 4
+    },
+    "4": {
+      "agriprofocus-org": 3
+    }
+  },
+  ".//activity-status/@code": {
+    "2": {
+      "agriprofocus-gvc": 6,
+      "agriprofocus-org": 2
+    },
+    "3": {
+      "agriprofocus-org": 2
+    }
+  },
+  ".//budget/@type": {
+    "1": {
+      "agriprofocus-org": 3
+    }
+  },
+  ".//budget/value/@currency": {
+    "EUR": {
+      "agriprofocus-org": 3
+    }
+  },
+  ".//collaboration-type/@code": {
+    "3": {
+      "agriprofocus-org": 4
+    }
+  },
+  ".//conditions/condition/@type": {
+    "2": {
+      "agriprofocus-gvc": 6
+    }
+  },
+  ".//contact-info/@type": {
+    "2": {
+      "agriprofocus-gvc": 12
+    }
+  },
+  ".//default-aid-type/@vocabulary": {
+    "1": {
+      "agriprofocus-gvc": 6
+    }
+  },
+  ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "C01": {
+      "agriprofocus-gvc": 6
+    },
+    "B01": {
+      "agriprofocus-org": 4
+    }
+  },
+  ".//default-finance-type/@code": {
+    "110": {
+      "agriprofocus-gvc": 6,
+      "agriprofocus-org": 4
+    }
+  },
+  ".//default-flow-type/@code": {
+    "10": {
+      "agriprofocus-gvc": 6,
+      "agriprofocus-org": 4
+    }
+  },
+  ".//default-tied-status/@code": {
+    "5": {
+      "agriprofocus-gvc": 6,
+      "agriprofocus-org": 4
+    }
+  },
+  ".//description/@type": {
+    "1": {
+      "agriprofocus-gvc": 36,
+      "agriprofocus-org": 8
+    },
+    "2": {
+      "agriprofocus-gvc": 6
+    },
+    "3": {
+      "agriprofocus-gvc": 6
+    }
+  },
+  ".//document-link/@format": {
+    "image/jpeg": {
+      "agriprofocus-gvc": 6,
+      "agriprofocus-org": 4
+    },
+    "application/http": {
+      "agriprofocus-gvc": 13
+    },
+    "application/pdf": {
+      "agriprofocus-gvc": 13
+    },
+    "text/plain": {
+      "agriprofocus-org": 3
+    }
+  },
+  ".//document-link/category/@code": {
+    "A12": {
+      "agriprofocus-gvc": 19,
+      "agriprofocus-org": 4
+    },
+    "B12": {
+      "agriprofocus-gvc": 7
+    },
+    "A08": {
+      "agriprofocus-gvc": 3,
+      "agriprofocus-org": 1
+    },
+    "A07": {
+      "agriprofocus-gvc": 2
+    },
+    "A02": {
+      "agriprofocus-gvc": 1
+    },
+    "B01": {
+      "agriprofocus-org": 1
+    },
+    "A05": {
+      "agriprofocus-org": 1
+    }
+  },
+  ".//location/exactness/@code": {
+    "1": {
+      "agriprofocus-org": 54
+    },
+    "2": {
+      "agriprofocus-org": 24
+    }
+  },
+  ".//location/location-class/@code": {
+    "1": {
+      "agriprofocus-org": 78
+    }
+  },
+  ".//location/location-reach/@code": {
+    "1": {
+      "agriprofocus-org": 78
+    }
+  },
+  ".//other-identifier/@type": {
+    "B9": {
+      "agriprofocus-gvc": 6
+    }
+  },
+  ".//participating-org/@role": {
+    "1": {
+      "agriprofocus-gvc": 8,
+      "agriprofocus-org": 5
+    },
+    "2": {
+      "agriprofocus-gvc": 6
+    },
+    "4": {
+      "agriprofocus-gvc": 12,
+      "agriprofocus-org": 2
+    }
+  },
+  ".//participating-org/@type": {
+    "10": {
+      "agriprofocus-gvc": 5,
+      "agriprofocus-org": 3
+    },
+    "60": {
+      "agriprofocus-gvc": 21,
+      "agriprofocus-org": 2
+    },
+    "1": {
+      "agriprofocus-org": 1
+    },
+    "90": {
+      "agriprofocus-org": 1
+    }
+  },
+  ".//policy-marker/@significance": {
+    "1": {
+      "agriprofocus-gvc": 6
+    },
+    "2": {
+      "agriprofocus-gvc": 6,
+      "agriprofocus-org": 15
+    }
+  },
+  ".//policy-marker/@vocabulary": {
+    "1": {
+      "agriprofocus-gvc": 12
+    },
+    "99": {
+      "agriprofocus-org": 15
+    }
+  },
+  ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "4": {
+      "agriprofocus-gvc": 6
+    },
+    "1": {
+      "agriprofocus-gvc": 6
+    }
+  },
+  ".//recipient-country/@code": {
+    "ET": {
+      "agriprofocus-gvc": 6,
+      "agriprofocus-org": 3
+    },
+    "UG": {
+      "agriprofocus-gvc": 6,
+      "agriprofocus-org": 3
+    },
+    "ZM": {
+      "agriprofocus-gvc": 6,
+      "agriprofocus-org": 3
+    },
+    "BJ": {
+      "agriprofocus-gvc": 6,
+      "agriprofocus-org": 3
+    },
+    "ID": {
+      "agriprofocus-gvc": 6,
+      "agriprofocus-org": 3
+    },
+    "ML": {
+      "agriprofocus-gvc": 6,
+      "agriprofocus-org": 3
+    },
+    "TZ": {
+      "agriprofocus-gvc": 6,
+      "agriprofocus-org": 3
+    },
+    "BI": {
+      "agriprofocus-gvc": 6,
+      "agriprofocus-org": 3
+    },
+    "CD": {
+      "agriprofocus-gvc": 6
+    },
+    "KE": {
+      "agriprofocus-gvc": 6,
+      "agriprofocus-org": 3
+    },
+    "NE": {
+      "agriprofocus-gvc": 6,
+      "agriprofocus-org": 3
+    },
+    "RW": {
+      "agriprofocus-gvc": 6,
+      "agriprofocus-org": 3
+    },
+    "MM": {
+      "agriprofocus-org": 3
+    },
+    "NL": {
+      "agriprofocus-org": 3
+    },
+    "31": {
+      "agriprofocus-org": 3
+    }
+  },
+  ".//related-activity/@type": {
+    "1": {
+      "agriprofocus-gvc": 5,
+      "agriprofocus-org": 3
+    },
+    "2": {
+      "agriprofocus-gvc": 5
+    }
+  },
+  ".//reporting-org/@type": {
+    "60": {
+      "agriprofocus-gvc": 6
+    },
+    "21": {
+      "agriprofocus-org": 4
+    }
+  },
+  ".//result/@type": {
+    "1": {
+      "agriprofocus-gvc": 10,
+      "agriprofocus-org": 15
+    },
+    "2": {
+      "agriprofocus-gvc": 2
+    }
+  },
+  ".//result/indicator/@measure": {
+    "1": {
+      "agriprofocus-gvc": 33,
+      "agriprofocus-org": 95
+    }
+  },
+  ".//result/indicator/reference/@vocabulary": {
+    "99": {
+      "agriprofocus-org": 95
+    }
+  },
+  ".//sector/@vocabulary": {
+    "1": {
+      "agriprofocus-gvc": 6
+    },
+    "7": {
+      "agriprofocus-gvc": 6
+    }
+  },
+  ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "31120": {
+      "agriprofocus-gvc": 6
+    }
+  },
+  ".//sector[@vocabulary = '7']/@code": {
+    "5": {
+      "agriprofocus-gvc": 6
+    }
+  },
+  ".//transaction/disbursement-channel/@code": {
+    "2": {
+      "agriprofocus-org": 3
+    }
+  },
+  ".//transaction/provider-org/@type": {
+    "60": {
+      "agriprofocus-gvc": 16
+    },
+    "22": {
+      "agriprofocus-gvc": 2
+    },
+    "10": {
+      "agriprofocus-gvc": 1,
+      "agriprofocus-org": 3
+    }
+  },
+  ".//transaction/receiver-org/@type": {
+    "60": {
+      "agriprofocus-gvc": 5,
+      "agriprofocus-org": 2
+    },
+    "90": {
+      "agriprofocus-org": 1
+    }
+  },
+  ".//transaction/recipient-country/@code": {
+    "31": {
+      "agriprofocus-org": 3
+    }
+  },
+  ".//transaction/transaction-type/@code": {
+    "4": {
+      "agriprofocus-gvc": 52
+    },
+    "11": {
+      "agriprofocus-gvc": 16
+    },
+    "3": {
+      "agriprofocus-gvc": 14
+    },
+    "1": {
+      "agriprofocus-gvc": 3,
+      "agriprofocus-org": 3
+    }
+  },
+  ".//transaction/value/@currency": {
+    "EUR": {
+      "agriprofocus-org": 3
+    }
+  }
+}

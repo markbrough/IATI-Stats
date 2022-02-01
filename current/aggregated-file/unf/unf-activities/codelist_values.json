@@ -1,0 +1,78 @@
+{
+  ".//@default-currency": {
+    "USD": 6
+  },
+  ".//@xml:lang": {
+    "en": 92
+  },
+  ".//activity-date/@type": {
+    "2": 6,
+    "3": 6
+  },
+  ".//activity-status/@code": {
+    "2": 5,
+    "4": 1
+  },
+  ".//budget/@status": {
+    "2": 2
+  },
+  ".//budget/@type": {
+    "1": 2
+  },
+  ".//budget/value/@currency": {
+    "USD": 1,
+    "GBP": 1
+  },
+  ".//description/@type": {
+    "1": 6,
+    "2": 6
+  },
+  ".//participating-org/@role": {
+    "1": 5,
+    "4": 6
+  },
+  ".//participating-org/@type": {
+    "10": 5,
+    "22": 6
+  },
+  ".//recipient-country/@code": {
+    "US": 7
+  },
+  ".//reporting-org/@type": {
+    "22": 6
+  },
+  ".//sector/@vocabulary": {
+    "1": 13
+  },
+  ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "99810": 3,
+    "13030": 1,
+    "15110": 1,
+    "15125": 1,
+    "15142": 1,
+    "15120": 1,
+    "25010": 1,
+    "32130": 1,
+    "41010": 1,
+    "99820": 1,
+    "23210": 1
+  },
+  ".//transaction/provider-org/@type": {
+    "60": 7,
+    "10": 8
+  },
+  ".//transaction/receiver-org/@type": {
+    "60": 8
+  },
+  ".//transaction/recipient-country/@code": {
+    "US": 2
+  },
+  ".//transaction/transaction-type/@code": {
+    "3": 18,
+    "1": 19
+  },
+  ".//transaction/value/@currency": {
+    "USD": 16,
+    "GBP": 20
+  }
+}

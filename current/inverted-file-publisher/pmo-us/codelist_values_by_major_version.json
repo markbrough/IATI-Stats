@@ -1,0 +1,360 @@
+{
+  "2": {
+    ".//@default-currency": {
+      "pmo-us-289": {
+        "EUR": 1
+      },
+      "pmo-us-589": {
+        "EUR": 1
+      },
+      "pmo-us-rw": {
+        "USD": 1
+      }
+    },
+    ".//activity-date/@type": {
+      "pmo-us-289": {
+        "1": 1
+      },
+      "pmo-us-589": {
+        "1": 1
+      },
+      "pmo-us-rw": {
+        "2": 1
+      }
+    },
+    ".//activity-status/@code": {
+      "pmo-us-289": {
+        "2": 1
+      },
+      "pmo-us-589": {
+        "2": 1
+      },
+      "pmo-us-rw": {
+        "2": 1
+      }
+    },
+    ".//budget/@status": {
+      "pmo-us-289": {
+        "2": 1,
+        "1": 1
+      },
+      "pmo-us-589": {
+        "1": 2
+      },
+      "pmo-us-rw": {
+        "1": 2
+      }
+    },
+    ".//budget/@type": {
+      "pmo-us-289": {
+        "1": 2
+      },
+      "pmo-us-589": {
+        "1": 2
+      },
+      "pmo-us-rw": {
+        "1": 2
+      }
+    },
+    ".//budget/value/@currency": {
+      "pmo-us-289": {
+        "EUR": 2
+      },
+      "pmo-us-589": {
+        "EUR": 2
+      },
+      "pmo-us-rw": {
+        "EUR": 2
+      }
+    },
+    ".//collaboration-type/@code": {
+      "pmo-us-289": {
+        "1": 1
+      },
+      "pmo-us-589": {
+        "1": 1
+      },
+      "pmo-us-rw": {
+        "1": 1
+      }
+    },
+    ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "pmo-us-289": {
+        "C01": 1
+      },
+      "pmo-us-589": {
+        "C01": 1
+      },
+      "pmo-us-rw": {
+        "C01": 1
+      }
+    },
+    ".//default-aid-type/@vocabulary": {
+      "pmo-us-289": {
+        "1": 1
+      },
+      "pmo-us-589": {
+        "1": 1
+      },
+      "pmo-us-rw": {
+        "1": 1
+      }
+    },
+    ".//default-finance-type/@code": {
+      "pmo-us-289": {
+        "110": 1
+      },
+      "pmo-us-589": {
+        "110": 1
+      },
+      "pmo-us-rw": {
+        "110": 1
+      }
+    },
+    ".//default-flow-type/@code": {
+      "pmo-us-289": {
+        "10": 1
+      },
+      "pmo-us-589": {
+        "10": 1
+      },
+      "pmo-us-rw": {
+        "10": 1
+      }
+    },
+    ".//default-tied-status/@code": {
+      "pmo-us-289": {
+        "5": 1
+      },
+      "pmo-us-589": {
+        "5": 1
+      },
+      "pmo-us-rw": {
+        "5": 1
+      }
+    },
+    ".//description/@type": {
+      "pmo-us-289": {
+        "1": 1
+      },
+      "pmo-us-589": {
+        "1": 1
+      },
+      "pmo-us-rw": {
+        "1": 1
+      }
+    },
+    ".//participating-org/@role": {
+      "pmo-us-289": {
+        "4": 2,
+        "1": 1
+      },
+      "pmo-us-589": {
+        "4": 2,
+        "1": 1
+      },
+      "pmo-us-rw": {
+        "1": 1,
+        "4": 1,
+        "2": 1
+      }
+    },
+    ".//participating-org/@type": {
+      "pmo-us-289": {
+        "22": 2,
+        "21": 1
+      },
+      "pmo-us-589": {
+        "22": 2,
+        "21": 1
+      },
+      "pmo-us-rw": {
+        "21": 3
+      }
+    },
+    ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "pmo-us-289": {
+        "1": 1
+      },
+      "pmo-us-589": {
+        "1": 1
+      },
+      "pmo-us-rw": {
+        "1": 1
+      }
+    },
+    ".//policy-marker/@vocabulary": {
+      "pmo-us-289": {
+        "1": 1
+      },
+      "pmo-us-589": {
+        "1": 1
+      },
+      "pmo-us-rw": {
+        "1": 1
+      }
+    },
+    ".//recipient-country/@code": {
+      "pmo-us-289": {
+        "RW": 1
+      },
+      "pmo-us-589": {
+        "LB": 1
+      },
+      "pmo-us-rw": {
+        "LB": 1,
+        "RW": 1
+      }
+    },
+    ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "pmo-us-289": {
+        "289": 1
+      },
+      "pmo-us-589": {
+        "589": 1
+      }
+    },
+    ".//recipient-region/@vocabulary": {
+      "pmo-us-289": {
+        "1": 1
+      },
+      "pmo-us-589": {
+        "1": 1
+      }
+    },
+    ".//related-activity/@type": {
+      "pmo-us-289": {
+        "1": 1
+      },
+      "pmo-us-589": {
+        "1": 1
+      },
+      "pmo-us-rw": {
+        "1": 1,
+        "2": 1
+      }
+    },
+    ".//reporting-org/@type": {
+      "pmo-us-289": {
+        "21": 1
+      },
+      "pmo-us-589": {
+        "21": 1
+      },
+      "pmo-us-rw": {
+        "21": 1
+      }
+    },
+    ".//result/@type": {
+      "pmo-us-289": {
+        "2": 6,
+        "1": 8
+      },
+      "pmo-us-589": {
+        "2": 2,
+        "1": 4
+      }
+    },
+    ".//result/indicator/@measure": {
+      "pmo-us-289": {
+        "2": 7,
+        "1": 26
+      },
+      "pmo-us-589": {
+        "1": 15
+      }
+    },
+    ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "pmo-us-289": {
+        "15164": 1,
+        "15170": 1
+      },
+      "pmo-us-589": {
+        "15164": 1,
+        "15170": 1
+      },
+      "pmo-us-rw": {
+        "15164": 1,
+        "15170": 1
+      }
+    },
+    ".//sector/@vocabulary": {
+      "pmo-us-289": {
+        "1": 2
+      },
+      "pmo-us-589": {
+        "1": 2
+      },
+      "pmo-us-rw": {
+        "1": 2
+      }
+    },
+    ".//transaction/provider-org/@type": {
+      "pmo-us-289": {
+        "21": 20
+      },
+      "pmo-us-589": {
+        "21": 9
+      },
+      "pmo-us-rw": {
+        "21": 28
+      }
+    },
+    ".//transaction/receiver-org/@type": {
+      "pmo-us-289": {
+        "22": 13
+      },
+      "pmo-us-589": {
+        "22": 4
+      },
+      "pmo-us-rw": {
+        "22": 25,
+        "21": 3
+      }
+    },
+    ".//transaction/transaction-type/@code": {
+      "pmo-us-289": {
+        "1": 25,
+        "4": 1,
+        "2": 1
+      },
+      "pmo-us-589": {
+        "1": 9,
+        "4": 1,
+        "2": 1
+      },
+      "pmo-us-rw": {
+        "1": 12,
+        "3": 32,
+        "7": 3,
+        "4": 1,
+        "11": 1
+      }
+    },
+    ".//transaction/value/@currency": {
+      "pmo-us-289": {
+        "EUR": 8,
+        "USD": 19
+      },
+      "pmo-us-589": {
+        "EUR": 5,
+        "USD": 6
+      },
+      "pmo-us-rw": {
+        "EUR": 23,
+        "USD": 26
+      }
+    },
+    ".//@xml:lang": {
+      "pmo-us-289": {
+        "en": 6
+      },
+      "pmo-us-589": {
+        "en": 4
+      },
+      "pmo-us-rw": {
+        "en": 7
+      }
+    }
+  }
+}

@@ -1,0 +1,169 @@
+{
+  "1": {
+    ".//@default-currency": {
+      "htspe-ke": {
+        "GBP": 1
+      },
+      "htspe-pk": {
+        "GBP": 1
+      }
+    },
+    ".//activity-date/@type": {
+      "htspe-ke": {
+        "start-actual": 1
+      },
+      "htspe-pk": {
+        "start-actual": 1,
+        "end-planned": 2
+      }
+    },
+    ".//activity-status/@code": {
+      "htspe-ke": {
+        "2": 1
+      },
+      "htspe-pk": {
+        "2": 1
+      }
+    },
+    ".//budget/@type": {
+      "htspe-ke": {
+        "1": 1
+      },
+      "htspe-pk": {
+        "1": 1
+      }
+    },
+    ".//budget/value/@currency": {
+      "htspe-ke": {
+        "GBP": 1
+      },
+      "htspe-pk": {
+        "GBP": 1
+      }
+    },
+    ".//default-flow-type/@code": {
+      "htspe-ke": {
+        "10": 1
+      },
+      "htspe-pk": {
+        "10": 1
+      }
+    },
+    ".//description/@type": {
+      "htspe-ke": {
+        "1": 1
+      },
+      "htspe-pk": {
+        "1": 1
+      }
+    },
+    ".//participating-org/@role": {
+      "htspe-ke": {
+        "Funding": 1,
+        "Implementing": 1
+      },
+      "htspe-pk": {
+        "Extending": 1,
+        "Implementing": 2,
+        "Funding": 1
+      }
+    },
+    ".//participating-org/@type": {
+      "htspe-ke": {
+        "10": 1,
+        "70": 1
+      },
+      "htspe-pk": {
+        "10": 2,
+        "70": 2
+      }
+    },
+    ".//recipient-country/@code": {
+      "htspe-ke": {
+        "KE": 1
+      },
+      "htspe-pk": {
+        "PK": 1
+      }
+    },
+    ".//reporting-org/@type": {
+      "htspe-ke": {
+        "70": 1
+      },
+      "htspe-pk": {
+        "70": 1
+      }
+    },
+    ".//transaction/aid-type/@code": {
+      "htspe-ke": {
+        "D02": 2
+      },
+      "htspe-pk": {
+        "D02": 3
+      }
+    },
+    ".//transaction/disbursement-channel/@code": {
+      "htspe-ke": {
+        "3": 2
+      },
+      "htspe-pk": {
+        "3": 3
+      }
+    },
+    ".//transaction/finance-type/@code": {
+      "htspe-ke": {
+        "110": 2
+      },
+      "htspe-pk": {
+        "110": 3
+      }
+    },
+    ".//transaction/flow-type/@code": {
+      "htspe-ke": {
+        "10": 2
+      },
+      "htspe-pk": {
+        "10": 3
+      }
+    },
+    ".//transaction/tied-status/@code": {
+      "htspe-ke": {
+        "5": 2
+      },
+      "htspe-pk": {
+        "5": 3
+      }
+    },
+    ".//transaction/transaction-type/@code": {
+      "htspe-ke": {
+        "E": 1,
+        "IF": 1
+      },
+      "htspe-pk": {
+        "IF": 1,
+        "E": 2
+      }
+    },
+    ".//transaction/value/@currency": {
+      "htspe-ke": {
+        "GBP": 2
+      },
+      "htspe-pk": {
+        "GBP": 3
+      }
+    },
+    ".//@xml:lang": {
+      "htspe-ke": {
+        "en": 8
+      },
+      "htspe-pk": {
+        "en": 1
+      }
+    },
+    ".//sector[@vocabulary = 'DAC' or not(@vocabulary)]/@code": {
+      "htspe-pk": {
+        "1": 1
+      }
+    }
+  }
+}

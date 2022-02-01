@@ -1,0 +1,100 @@
+{
+  ".//@default-currency": {
+    "CHF": {
+      "icva-activities": 1
+    }
+  },
+  ".//@xml:lang": {
+    "en": {
+      "icva-activities": 4
+    }
+  },
+  ".//activity-date/@type": {
+    "1": {
+      "icva-activities": 1
+    },
+    "3": {
+      "icva-activities": 1
+    }
+  },
+  ".//activity-status/@code": {
+    "3": {
+      "icva-activities": 1
+    }
+  },
+  ".//budget/@status": {
+    "2": {
+      "icva-activities": 2
+    }
+  },
+  ".//budget/@type": {
+    "1": {
+      "icva-activities": 2
+    }
+  },
+  ".//budget/value/@currency": {
+    "CHF": {
+      "icva-activities": 2
+    }
+  },
+  ".//description/@type": {
+    "1": {
+      "icva-activities": 1
+    }
+  },
+  ".//participating-org/@crs-channel-code": {
+    "21000": {
+      "icva-activities": 1
+    }
+  },
+  ".//participating-org/@role": {
+    "4": {
+      "icva-activities": 1
+    }
+  },
+  ".//participating-org/@type": {
+    "21": {
+      "icva-activities": 1
+    }
+  },
+  ".//recipient-country/@code": {
+    "CH": {
+      "icva-activities": 1
+    }
+  },
+  ".//reporting-org/@type": {
+    "21": {
+      "icva-activities": 1
+    }
+  },
+  ".//sector/@vocabulary": {
+    "99": {
+      "icva-activities": 1
+    }
+  },
+  ".//transaction/aid-type/@vocabulary": {
+    "1": {
+      "icva-activities": 2
+    }
+  },
+  ".//transaction/aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "C01": {
+      "icva-activities": 2
+    }
+  },
+  ".//transaction/finance-type/@code": {
+    "110": {
+      "icva-activities": 2
+    }
+  },
+  ".//transaction/transaction-type/@code": {
+    "4": {
+      "icva-activities": 2
+    }
+  },
+  ".//transaction/value/@currency": {
+    "CHF": {
+      "icva-activities": 2
+    }
+  }
+}

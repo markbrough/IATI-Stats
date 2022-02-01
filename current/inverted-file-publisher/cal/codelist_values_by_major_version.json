@@ -1,0 +1,870 @@
+{
+  "2": {
+    ".//@default-currency": {
+      "cal-998": {
+        "GBP": 1
+      },
+      "cal-np": {
+        "GBP": 3
+      },
+      "cal-ng": {
+        "GBP": 1
+      },
+      "cal-ke": {
+        "GBP": 1
+      },
+      "cal-679": {
+        "GBP": 1
+      },
+      "cal-689": {
+        "GBP": 1
+      },
+      "cal-zw": {
+        "GBP": 2
+      },
+      "cal-ss": {
+        "GBP": 1
+      },
+      "cal-mm": {
+        "GBP": 1
+      }
+    },
+    ".//activity-date/@type": {
+      "cal-998": {
+        "1": 1,
+        "3": 1,
+        "2": 1
+      },
+      "cal-np": {
+        "2": 2,
+        "4": 1,
+        "3": 2,
+        "1": 1
+      },
+      "cal-ng": {
+        "2": 1,
+        "4": 1
+      },
+      "cal-ke": {
+        "2": 1,
+        "3": 1
+      },
+      "cal-679": {
+        "2": 1,
+        "3": 1
+      },
+      "cal-689": {
+        "2": 1,
+        "3": 1
+      },
+      "cal-zw": {
+        "2": 2,
+        "3": 2
+      },
+      "cal-ss": {
+        "2": 1,
+        "3": 1,
+        "1": 1
+      },
+      "cal-mm": {
+        "2": 1,
+        "3": 1
+      }
+    },
+    ".//activity-status/@code": {
+      "cal-998": {
+        "2": 1
+      },
+      "cal-np": {
+        "3": 1,
+        "2": 2
+      },
+      "cal-ng": {
+        "3": 1
+      },
+      "cal-ke": {
+        "2": 1
+      },
+      "cal-679": {
+        "2": 1
+      },
+      "cal-689": {
+        "2": 1
+      },
+      "cal-zw": {
+        "2": 2
+      },
+      "cal-ss": {
+        "2": 1
+      },
+      "cal-mm": {
+        "2": 1
+      }
+    },
+    ".//budget/@status": {
+      "cal-998": {
+        "2": 1
+      },
+      "cal-np": {
+        "1": 7,
+        "2": 15
+      },
+      "cal-ng": {
+        "1": 1
+      },
+      "cal-ke": {
+        "1": 1
+      },
+      "cal-679": {
+        "2": 15
+      },
+      "cal-689": {
+        "1": 3
+      },
+      "cal-zw": {
+        "1": 2,
+        "2": 1
+      },
+      "cal-ss": {
+        "2": 9
+      },
+      "cal-mm": {
+        "1": 13
+      }
+    },
+    ".//budget/@type": {
+      "cal-998": {
+        "1": 1
+      },
+      "cal-np": {
+        "2": 7,
+        "1": 15
+      },
+      "cal-ng": {
+        "1": 1
+      },
+      "cal-ke": {
+        "1": 1
+      },
+      "cal-679": {
+        "1": 15
+      },
+      "cal-689": {
+        "1": 3
+      },
+      "cal-zw": {
+        "1": 3
+      },
+      "cal-ss": {
+        "1": 9
+      },
+      "cal-mm": {
+        "1": 13
+      }
+    },
+    ".//budget/value/@currency": {
+      "cal-998": {
+        "GBP": 1
+      },
+      "cal-np": {
+        "GBP": 22
+      },
+      "cal-ng": {
+        "GBP": 1
+      },
+      "cal-ke": {
+        "GBP": 1
+      },
+      "cal-679": {
+        "GBP": 15
+      },
+      "cal-689": {
+        "GBP": 3
+      },
+      "cal-zw": {
+        "GBP": 2,
+        "USD": 1
+      },
+      "cal-ss": {
+        "GBP": 9
+      },
+      "cal-mm": {
+        "GBP": 11
+      }
+    },
+    ".//contact-info/@type": {
+      "cal-998": {
+        "1": 1
+      },
+      "cal-np": {
+        "1": 3
+      },
+      "cal-ng": {
+        "1": 1
+      },
+      "cal-ke": {
+        "1": 1
+      },
+      "cal-679": {
+        "1": 1
+      },
+      "cal-zw": {
+        "1": 2
+      },
+      "cal-ss": {
+        "1": 1
+      },
+      "cal-mm": {
+        "1": 1
+      }
+    },
+    ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "cal-998": {
+        "C01": 1
+      },
+      "cal-679": {
+        "D02": 1
+      },
+      "cal-689": {
+        "C01": 1
+      },
+      "cal-ss": {
+        "B04": 1
+      }
+    },
+    ".//default-aid-type/@vocabulary": {
+      "cal-998": {
+        "1": 1
+      },
+      "cal-679": {
+        "1": 1
+      },
+      "cal-689": {
+        "1": 1
+      },
+      "cal-ss": {
+        "1": 1
+      }
+    },
+    ".//default-finance-type/@code": {
+      "cal-998": {
+        "110": 1
+      },
+      "cal-679": {
+        "110": 1
+      },
+      "cal-689": {
+        "110": 1
+      },
+      "cal-ss": {
+        "110": 1
+      }
+    },
+    ".//default-flow-type/@code": {
+      "cal-998": {
+        "10": 1
+      },
+      "cal-679": {
+        "10": 1
+      },
+      "cal-689": {
+        "10": 1
+      },
+      "cal-ss": {
+        "10": 1
+      }
+    },
+    ".//default-tied-status/@code": {
+      "cal-998": {
+        "5": 1
+      },
+      "cal-679": {
+        "5": 1
+      },
+      "cal-689": {
+        "5": 1
+      },
+      "cal-ss": {
+        "5": 1
+      }
+    },
+    ".//description/@type": {
+      "cal-998": {
+        "1": 1
+      },
+      "cal-np": {
+        "1": 2,
+        "2": 1
+      },
+      "cal-ng": {
+        "1": 1
+      },
+      "cal-ke": {
+        "1": 1
+      },
+      "cal-679": {
+        "1": 1
+      },
+      "cal-689": {
+        "1": 1
+      },
+      "cal-zw": {
+        "1": 2
+      },
+      "cal-ss": {
+        "1": 1
+      },
+      "cal-mm": {
+        "1": 1
+      }
+    },
+    ".//participating-org/@role": {
+      "cal-998": {
+        "2": 1,
+        "4": 3
+      },
+      "cal-np": {
+        "4": 3,
+        "1": 3,
+        "2": 1
+      },
+      "cal-ng": {
+        "1": 1,
+        "4": 1
+      },
+      "cal-ke": {
+        "4": 1
+      },
+      "cal-679": {
+        "1": 1,
+        "4": 1
+      },
+      "cal-689": {
+        "1": 1,
+        "4": 1
+      },
+      "cal-zw": {
+        "2": 1,
+        "1": 2,
+        "4": 3
+      },
+      "cal-ss": {
+        "1": 1,
+        "2": 1,
+        "4": 23
+      },
+      "cal-mm": {
+        "1": 1,
+        "2": 1,
+        "4": 5
+      }
+    },
+    ".//participating-org/@type": {
+      "cal-998": {
+        "70": 1,
+        "90": 2,
+        "21": 1
+      },
+      "cal-np": {
+        "70": 4,
+        "10": 3
+      },
+      "cal-ng": {
+        "10": 1,
+        "70": 1
+      },
+      "cal-ke": {
+        "70": 1
+      },
+      "cal-679": {
+        "10": 1,
+        "70": 1
+      },
+      "cal-689": {
+        "10": 1,
+        "70": 1
+      },
+      "cal-zw": {
+        "70": 4,
+        "10": 2
+      },
+      "cal-ss": {
+        "10": 1,
+        "70": 2,
+        "71": 1,
+        "15": 1,
+        "22": 5,
+        "21": 15
+      },
+      "cal-mm": {
+        "10": 1,
+        "70": 1,
+        "21": 5
+      }
+    },
+    ".//policy-marker/@significance": {
+      "cal-998": {
+        "4": 1
+      },
+      "cal-ss": {
+        "1": 1
+      }
+    },
+    ".//policy-marker/@vocabulary": {
+      "cal-998": {
+        "99": 1
+      },
+      "cal-679": {
+        "1": 1
+      },
+      "cal-689": {
+        "1": 1
+      },
+      "cal-ss": {
+        "1": 1
+      }
+    },
+    ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "cal-998": {
+        "998": 1
+      },
+      "cal-679": {
+        "679": 1
+      },
+      "cal-689": {
+        "689": 1
+      }
+    },
+    ".//recipient-region/@vocabulary": {
+      "cal-998": {
+        "1": 1
+      },
+      "cal-679": {
+        "1": 1
+      },
+      "cal-689": {
+        "1": 1
+      }
+    },
+    ".//reporting-org/@type": {
+      "cal-998": {
+        "70": 1
+      },
+      "cal-np": {
+        "70": 3
+      },
+      "cal-ng": {
+        "70": 1
+      },
+      "cal-ke": {
+        "70": 1
+      },
+      "cal-679": {
+        "70": 1
+      },
+      "cal-689": {
+        "70": 1
+      },
+      "cal-zw": {
+        "70": 2
+      },
+      "cal-ss": {
+        "70": 1
+      },
+      "cal-mm": {
+        "70": 1
+      }
+    },
+    ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "cal-998": {
+        "12250": 1
+      },
+      "cal-np": {
+        "15111": 2,
+        "23111": 1
+      },
+      "cal-ng": {
+        "12191": 1
+      },
+      "cal-ke": {
+        "23067": 1
+      },
+      "cal-679": {
+        "15120": 1
+      },
+      "cal-689": {
+        "11120": 1
+      },
+      "cal-zw": {
+        "24030": 1,
+        "23067": 1
+      },
+      "cal-ss": {
+        "12220": 1
+      },
+      "cal-mm": {
+        "72050": 1
+      }
+    },
+    ".//sector/@vocabulary": {
+      "cal-998": {
+        "1": 1
+      },
+      "cal-np": {
+        "1": 3
+      },
+      "cal-ng": {
+        "1": 1
+      },
+      "cal-ke": {
+        "1": 1
+      },
+      "cal-679": {
+        "1": 1
+      },
+      "cal-689": {
+        "1": 1
+      },
+      "cal-zw": {
+        "1": 2
+      },
+      "cal-ss": {
+        "1": 1
+      },
+      "cal-mm": {
+        "1": 1
+      }
+    },
+    ".//transaction/provider-org/@type": {
+      "cal-998": {
+        "70": 5,
+        "10": 2
+      },
+      "cal-np": {
+        "70": 39,
+        "10": 10,
+        "71": 1
+      },
+      "cal-ke": {
+        "21": 3,
+        "70": 1,
+        "60": 2
+      },
+      "cal-679": {
+        "10": 7,
+        "70": 37
+      },
+      "cal-689": {
+        "70": 9,
+        "10": 6
+      },
+      "cal-zw": {
+        "70": 3,
+        "10": 1,
+        "60": 1
+      },
+      "cal-ss": {
+        "10": 5,
+        "70": 91
+      },
+      "cal-mm": {
+        "10": 11,
+        "70": 135
+      }
+    },
+    ".//transaction/receiver-org/@type": {
+      "cal-998": {
+        "70": 2
+      },
+      "cal-np": {
+        "70": 13,
+        "71": 2,
+        "73": 1
+      },
+      "cal-ke": {
+        "60": 1,
+        "70": 1
+      },
+      "cal-679": {
+        "70": 9
+      },
+      "cal-689": {
+        "70": 13
+      },
+      "cal-zw": {
+        "10": 1,
+        "70": 2
+      },
+      "cal-ss": {
+        "70": 11,
+        "21": 34,
+        "22": 44,
+        "71": 2
+      },
+      "cal-mm": {
+        "70": 10,
+        "21": 27,
+        "22": 6,
+        "23": 5,
+        "15": 1,
+        "40": 1
+      }
+    },
+    ".//transaction/transaction-type/@code": {
+      "cal-998": {
+        "4": 3,
+        "1": 2,
+        "3": 2
+      },
+      "cal-np": {
+        "4": 19,
+        "1": 13,
+        "11": 1,
+        "3": 23
+      },
+      "cal-ng": {
+        "4": 4,
+        "1": 4,
+        "11": 1
+      },
+      "cal-ke": {
+        "1": 3,
+        "4": 6,
+        "3": 6
+      },
+      "cal-679": {
+        "1": 8,
+        "4": 9,
+        "3": 31
+      },
+      "cal-689": {
+        "3": 7,
+        "1": 6,
+        "4": 8
+      },
+      "cal-zw": {
+        "4": 7,
+        "3": 8,
+        "1": 5,
+        "11": 2
+      },
+      "cal-ss": {
+        "1": 5,
+        "4": 5,
+        "3": 86
+      },
+      "cal-mm": {
+        "1": 12,
+        "11": 1,
+        "4": 14,
+        "3": 133
+      }
+    },
+    ".//transaction/value/@currency": {
+      "cal-998": {
+        "GBP": 7
+      },
+      "cal-np": {
+        "GBP": 54
+      },
+      "cal-ng": {
+        "GBP": 8
+      },
+      "cal-ke": {
+        "GBP": 14,
+        "USD": 1
+      },
+      "cal-679": {
+        "GBP": 48
+      },
+      "cal-689": {
+        "GBP": 21
+      },
+      "cal-zw": {
+        "GBP": 12,
+        "USD": 10
+      },
+      "cal-ss": {
+        "GBP": 96
+      },
+      "cal-mm": {
+        "GBP": 159
+      }
+    },
+    ".//@xml:lang": {
+      "cal-998": {
+        "en": 12
+      },
+      "cal-np": {
+        "en": 114
+      },
+      "cal-ng": {
+        "en": 13
+      },
+      "cal-ke": {
+        "en": 6
+      },
+      "cal-679": {
+        "en": 99
+      },
+      "cal-689": {
+        "en": 53
+      },
+      "cal-zw": {
+        "en": 16
+      },
+      "cal-ss": {
+        "en": 18
+      },
+      "cal-mm": {
+        "en": 41,
+        "eo": 1,
+        "aa": 1
+      }
+    },
+    ".//document-link/@format": {
+      "cal-np": {
+        "application/vnd.openxmlformats-officedocument.wordprocessingml.document.glossary+xml": 1,
+        "text/html": 1
+      },
+      "cal-ng": {
+        "application/pdf": 1
+      },
+      "cal-ke": {
+        "application/vnd.ms-word.document.macroEnabled.12": 1
+      },
+      "cal-679": {
+        "application/vnd.ms-office.activeX+xml": 1
+      },
+      "cal-689": {
+        "application/pdf": 1
+      },
+      "cal-zw": {
+        "application/vnd.ms-word.document.macroEnabled.12": 1,
+        "application/vnd.ms-office.activeX+xml": 1
+      },
+      "cal-ss": {
+        "text/html": 2,
+        "application/msword": 1,
+        "application/vnd.ms-excel": 1
+      },
+      "cal-mm": {
+        "application/pdf": 1
+      }
+    },
+    ".//document-link/category/@code": {
+      "cal-np": {
+        "A02": 2
+      },
+      "cal-ng": {
+        "A02": 1
+      },
+      "cal-ke": {
+        "A02": 1
+      },
+      "cal-679": {
+        "A02": 1
+      },
+      "cal-689": {
+        "A02": 1
+      },
+      "cal-zw": {
+        "A02": 2
+      },
+      "cal-ss": {
+        "A06": 1,
+        "A02": 1,
+        "A08": 1,
+        "A12": 1
+      },
+      "cal-mm": {
+        "A02": 1
+      }
+    },
+    ".//document-link/language/@code": {
+      "cal-np": {
+        "en": 1
+      },
+      "cal-ng": {
+        "en": 1
+      },
+      "cal-679": {
+        "en": 1
+      },
+      "cal-689": {
+        "en": 1
+      },
+      "cal-ss": {
+        "en": 4
+      },
+      "cal-mm": {
+        "en": 1
+      }
+    },
+    ".//recipient-country/@code": {
+      "cal-np": {
+        "NP": 3
+      },
+      "cal-ng": {
+        "NG": 1
+      },
+      "cal-ke": {
+        "KE": 1
+      },
+      "cal-679": {
+        "NP": 1
+      },
+      "cal-689": {
+        "NP": 1
+      },
+      "cal-zw": {
+        "ZW": 2
+      },
+      "cal-ss": {
+        "SS": 1
+      },
+      "cal-mm": {
+        "MM": 1
+      }
+    },
+    ".//transaction/disbursement-channel/@code": {
+      "cal-np": {
+        "2": 1
+      },
+      "cal-ke": {
+        "3": 3
+      }
+    },
+    ".//transaction/tied-status/@code": {
+      "cal-ke": {
+        "5": 2
+      }
+    },
+    ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "cal-679": {
+        "3": 1
+      },
+      "cal-689": {
+        "10": 1
+      },
+      "cal-ss": {
+        "9": 1
+      }
+    },
+    ".//location/location-class/@code": {
+      "cal-ss": {
+        "1": 55
+      }
+    },
+    ".//location/location-reach/@code": {
+      "cal-ss": {
+        "1": 2
+      }
+    },
+    ".//location/exactness/@code": {
+      "cal-ss": {
+        "2": 51
+      }
+    }
+  }
+}

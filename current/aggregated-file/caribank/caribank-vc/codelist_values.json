@@ -1,0 +1,50 @@
+{
+  ".//@default-currency": {
+    "USD": 2
+  },
+  ".//@xml:lang": {
+    "en": 10
+  },
+  ".//activity-date/@type": {
+    "1": 2,
+    "3": 2
+  },
+  ".//activity-status/@code": {
+    "1": 2
+  },
+  ".//budget/@status": {
+    "2": 1
+  },
+  ".//budget/@type": {
+    "1": 1
+  },
+  ".//description/@type": {
+    "1": 1,
+    "2": 1
+  },
+  ".//participating-org/@role": {
+    "1": 2
+  },
+  ".//participating-org/@type": {
+    "40": 2
+  },
+  ".//planned-disbursement/@type": {
+    "1": 2
+  },
+  ".//planned-disbursement/value/@currency": {
+    "USD": 2
+  },
+  ".//recipient-country/@code": {
+    "VC": 2
+  },
+  ".//reporting-org/@type": {
+    "40": 2
+  },
+  ".//sector/@vocabulary": {
+    "1": 1,
+    "7": 2
+  },
+  ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "74010": 1
+  }
+}

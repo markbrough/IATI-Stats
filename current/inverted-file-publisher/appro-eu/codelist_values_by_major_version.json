@@ -1,0 +1,259 @@
+{
+  "2": {
+    ".//@default-currency": {
+      "appro-eu-af": {
+        "USD": 2
+      },
+      "appro-eu-activities": {
+        "USD": 1
+      }
+    },
+    ".//activity-date/@type": {
+      "appro-eu-af": {
+        "2": 2,
+        "3": 1,
+        "4": 1
+      },
+      "appro-eu-activities": {
+        "2": 1,
+        "3": 1
+      }
+    },
+    ".//activity-status/@code": {
+      "appro-eu-af": {
+        "2": 1,
+        "3": 1
+      },
+      "appro-eu-activities": {
+        "2": 1
+      }
+    },
+    ".//activity-scope/@code": {
+      "appro-eu-af": {
+        "4": 1,
+        "5": 1
+      },
+      "appro-eu-activities": {
+        "4": 1
+      }
+    },
+    ".//budget/@status": {
+      "appro-eu-af": {
+        "2": 5
+      },
+      "appro-eu-activities": {
+        "2": 4
+      }
+    },
+    ".//budget/@type": {
+      "appro-eu-af": {
+        "1": 5
+      },
+      "appro-eu-activities": {
+        "1": 4
+      }
+    },
+    ".//budget/value/@currency": {
+      "appro-eu-af": {
+        "USD": 5
+      },
+      "appro-eu-activities": {
+        "USD": 4
+      }
+    },
+    ".//collaboration-type/@code": {
+      "appro-eu-af": {
+        "1": 2
+      },
+      "appro-eu-activities": {
+        "1": 1
+      }
+    },
+    ".//contact-info/@type": {
+      "appro-eu-af": {
+        "1": 2
+      },
+      "appro-eu-activities": {
+        "1": 1
+      }
+    },
+    ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "appro-eu-af": {
+        "C01": 1,
+        "A02": 1
+      },
+      "appro-eu-activities": {
+        "C01": 1
+      }
+    },
+    ".//default-finance-type/@code": {
+      "appro-eu-af": {
+        "110": 2
+      },
+      "appro-eu-activities": {
+        "110": 1
+      }
+    },
+    ".//default-flow-type/@code": {
+      "appro-eu-af": {
+        "10": 2
+      },
+      "appro-eu-activities": {
+        "10": 1
+      }
+    },
+    ".//default-tied-status/@code": {
+      "appro-eu-af": {
+        "4": 2
+      },
+      "appro-eu-activities": {
+        "4": 1
+      }
+    },
+    ".//description/@type": {
+      "appro-eu-af": {
+        "1": 2,
+        "2": 1
+      },
+      "appro-eu-activities": {
+        "1": 1,
+        "2": 1
+      }
+    },
+    ".//document-link/@format": {
+      "appro-eu-af": {
+        "application/applefile": 1,
+        "application/pdf": 1
+      },
+      "appro-eu-activities": {
+        "application/applefile": 1
+      }
+    },
+    ".//document-link/category/@code": {
+      "appro-eu-af": {
+        "A02": 1,
+        "A07": 1
+      },
+      "appro-eu-activities": {
+        "A02": 1
+      }
+    },
+    ".//participating-org/@role": {
+      "appro-eu-af": {
+        "4": 4,
+        "1": 2
+      },
+      "appro-eu-activities": {
+        "4": 2,
+        "1": 1
+      }
+    },
+    ".//participating-org/@type": {
+      "appro-eu-af": {
+        "22": 2,
+        "10": 2,
+        "80": 2
+      },
+      "appro-eu-activities": {
+        "22": 1,
+        "10": 1,
+        "80": 1
+      }
+    },
+    ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "appro-eu-af": {
+        "3": 2
+      },
+      "appro-eu-activities": {
+        "3": 1
+      }
+    },
+    ".//policy-marker/@significance": {
+      "appro-eu-af": {
+        "1": 2
+      },
+      "appro-eu-activities": {
+        "1": 1
+      }
+    },
+    ".//policy-marker/@vocabulary": {
+      "appro-eu-af": {
+        "1": 2
+      },
+      "appro-eu-activities": {
+        "1": 1
+      }
+    },
+    ".//recipient-country/@code": {
+      "appro-eu-af": {
+        "AF": 2
+      },
+      "appro-eu-activities": {
+        "AF": 1
+      }
+    },
+    ".//reporting-org/@type": {
+      "appro-eu-af": {
+        "80": 2
+      },
+      "appro-eu-activities": {
+        "80": 1
+      }
+    },
+    ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "appro-eu-af": {
+        "15162": 2,
+        "15110": 2,
+        "15140": 2
+      },
+      "appro-eu-activities": {
+        "15162": 1,
+        "15110": 1,
+        "15140": 1
+      }
+    },
+    ".//sector/@vocabulary": {
+      "appro-eu-af": {
+        "1": 6
+      },
+      "appro-eu-activities": {
+        "1": 3
+      }
+    },
+    ".//transaction/provider-org/@type": {
+      "appro-eu-af": {
+        "22": 26,
+        "10": 3
+      }
+    },
+    ".//transaction/receiver-org/@type": {
+      "appro-eu-af": {
+        "22": 4
+      }
+    },
+    ".//transaction/transaction-type/@code": {
+      "appro-eu-af": {
+        "1": 11,
+        "4": 39
+      },
+      "appro-eu-activities": {
+        "1": 5,
+        "4": 16
+      }
+    },
+    ".//transaction/value/@currency": {
+      "appro-eu-af": {
+        "EUR": 20,
+        "USD": 9
+      }
+    },
+    ".//@xml:lang": {
+      "appro-eu-af": {
+        "en": 10
+      },
+      "appro-eu-activities": {
+        "en": 6
+      }
+    }
+  }
+}

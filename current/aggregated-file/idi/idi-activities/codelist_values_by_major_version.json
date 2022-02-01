@@ -1,0 +1,311 @@
+{
+  "2": {
+    ".//@default-currency": {
+      "NOK": 8
+    },
+    ".//activity-date/@type": {
+      "2": 8,
+      "3": 8
+    },
+    ".//activity-status/@code": {
+      "2": 8
+    },
+    ".//budget/@status": {
+      "1": 16
+    },
+    ".//budget/@type": {
+      "1": 16
+    },
+    ".//budget/value/@currency": {
+      "NOK": 9
+    },
+    ".//contact-info/@type": {
+      "2": 10
+    },
+    ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "B01": 8,
+      "B03": 5
+    },
+    ".//default-aid-type/@vocabulary": {
+      "1": 13
+    },
+    ".//default-finance-type/@code": {
+      "110": 8
+    },
+    ".//default-flow-type/@code": {
+      "10": 8
+    },
+    ".//default-tied-status/@code": {
+      "5": 8
+    },
+    ".//description/@type": {
+      "1": 8,
+      "2": 6
+    },
+    ".//participating-org/@crs-channel-code": {
+      "11000": 47,
+      "40000": 4,
+      "21000": 32,
+      "42003": 5
+    },
+    ".//participating-org/@role": {
+      "1": 66,
+      "2": 8,
+      "3": 8,
+      "4": 10
+    },
+    ".//participating-org/@type": {
+      "10": 50,
+      "15": 8,
+      "21": 32,
+      "40": 2
+    },
+    ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "3": 8
+    },
+    ".//policy-marker/@significance": {
+      "2": 8
+    },
+    ".//policy-marker/@vocabulary": {
+      "1": 8
+    },
+    ".//recipient-country/@code": {
+      "AZ": 2,
+      "DZ": 2,
+      "AR": 3,
+      "BD": 2,
+      "BJ": 3,
+      "BT": 4,
+      "BO": 3,
+      "BW": 5,
+      "BR": 3,
+      "BF": 3,
+      "BI": 3,
+      "CV": 2,
+      "KH": 4,
+      "CM": 3,
+      "CA": 1,
+      "CF": 2,
+      "TD": 3,
+      "CL": 2,
+      "CN": 4,
+      "CO": 2,
+      "KM": 3,
+      "CD": 4,
+      "CK": 4,
+      "CR": 3,
+      "CI": 3,
+      "CU": 3,
+      "DJ": 3,
+      "EC": 4,
+      "EG": 2,
+      "FJ": 4,
+      "FI": 2,
+      "GA": 4,
+      "GE": 3,
+      "GH": 3,
+      "GT": 3,
+      "GN": 4,
+      "HN": 3,
+      "IN": 4,
+      "ID": 4,
+      "JM": 3,
+      "JP": 1,
+      "KE": 4,
+      "KI": 3,
+      "KW": 2,
+      "LA": 4,
+      "LR": 5,
+      "LY": 3,
+      "MK": 2,
+      "MG": 4,
+      "MW": 3,
+      "MY": 4,
+      "MV": 4,
+      "ML": 3,
+      "MR": 3,
+      "MX": 2,
+      "FM": 3,
+      "MN": 3,
+      "NA": 3,
+      "NP": 3,
+      "NL": 1,
+      "NI": 3,
+      "NE": 4,
+      "NO": 2,
+      "OM": 2,
+      "PW": 2,
+      "PS": 2,
+      "PG": 5,
+      "PY": 2,
+      "PE": 3,
+      "PH": 4,
+      "PL": 1,
+      "QA": 2,
+      "LC": 3,
+      "AS": 1,
+      "ST": 3,
+      "SA": 2,
+      "SN": 3,
+      "SL": 5,
+      "SK": 1,
+      "SB": 4,
+      "ZA": 4,
+      "ES": 2,
+      "LK": 3,
+      "SD": 4,
+      "CH": 1,
+      "TZ": 4,
+      "TG": 4,
+      "TO": 4,
+      "TV": 4,
+      "UG": 4,
+      "AE": 1,
+      "US": 1,
+      "UY": 1,
+      "VE": 2,
+      "ZM": 4,
+      "BH": 1,
+      "CG": 3,
+      "CW": 2,
+      "DM": 3,
+      "EE": 2,
+      "GR": 2,
+      "GU": 2,
+      "HU": 2,
+      "JO": 3,
+      "MA": 3,
+      "RW": 3,
+      "SC": 2,
+      "TN": 3,
+      "VU": 4,
+      "AF": 3,
+      "AL": 2,
+      "AO": 1,
+      "AG": 2,
+      "AM": 2,
+      "BY": 1,
+      "BZ": 3,
+      "BA": 2,
+      "DO": 2,
+      "SV": 2,
+      "GQ": 1,
+      "ER": 3,
+      "ET": 2,
+      "GM": 3,
+      "GD": 2,
+      "GW": 1,
+      "GY": 2,
+      "HT": 2,
+      "IR": 1,
+      "IQ": 2,
+      "KZ": 2,
+      "KP": 1,
+      "XK": 1,
+      "KG": 2,
+      "LB": 2,
+      "LS": 3,
+      "MH": 2,
+      "MU": 1,
+      "MD": 1,
+      "MS": 2,
+      "ME": 1,
+      "MZ": 1,
+      "MM": 3,
+      "NR": 2,
+      "NU": 1,
+      "NG": 2,
+      "PK": 2,
+      "PA": 1,
+      "VC": 2,
+      "WS": 3,
+      "RS": 1,
+      "SO": 2,
+      "SH": 1,
+      "SS": 2,
+      "SR": 2,
+      "SZ": 2,
+      "SY": 2,
+      "TJ": 1,
+      "TH": 3,
+      "TL": 1,
+      "TK": 1,
+      "TR": 2,
+      "TM": 1,
+      "UA": 2,
+      "UZ": 1,
+      "VN": 3,
+      "WF": 1,
+      "IL": 2,
+      "YE": 1,
+      "ZW": 4,
+      "MT": 2,
+      "AT": 1,
+      "KY": 1,
+      "LU": 1,
+      "KN": 1,
+      "SE": 1,
+      "BG": 1
+    },
+    ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "89": 2,
+      "298": 2,
+      "498": 2,
+      "798": 2,
+      "889": 2
+    },
+    ".//recipient-region/@vocabulary": {
+      "1": 10
+    },
+    ".//related-activity/@type": {
+      "1": 7,
+      "2": 7
+    },
+    ".//reporting-org/@type": {
+      "21": 8
+    },
+    ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "15118": 8
+    },
+    ".//sector/@vocabulary": {
+      "1": 8
+    },
+    ".//transaction/aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "B01": 15,
+      "B03": 25
+    },
+    ".//transaction/aid-type/@vocabulary": {
+      "1": 40
+    },
+    ".//transaction/disbursement-channel/@code": {
+      "3": 1
+    },
+    ".//transaction/finance-type/@code": {
+      "110": 40
+    },
+    ".//transaction/flow-type/@code": {
+      "10": 38
+    },
+    ".//transaction/provider-org/@type": {
+      "10": 61,
+      "40": 1,
+      "15": 6,
+      "21": 2
+    },
+    ".//transaction/receiver-org/@type": {
+      "21": 10,
+      "10": 16
+    },
+    ".//transaction/transaction-type/@code": {
+      "4": 101,
+      "11": 40,
+      "1": 43
+    },
+    ".//transaction/value/@currency": {
+      "NOK": 145
+    },
+    ".//@xml:lang": {
+      "en": 593
+    }
+  }
+}

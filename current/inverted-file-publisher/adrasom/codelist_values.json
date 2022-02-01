@@ -1,0 +1,80 @@
+{
+  ".//@default-currency": {
+    "GBP": {
+      "adrasom-egep": 1,
+      "adrasom-somgep": 1
+    }
+  },
+  ".//@xml:lang": {
+    "en": {
+      "adrasom-egep": 1,
+      "adrasom-somgep": 1
+    }
+  },
+  ".//activity-date/@type": {
+    "end-planned": {
+      "adrasom-egep": 1,
+      "adrasom-somgep": 1
+    },
+    "start-actual": {
+      "adrasom-egep": 1,
+      "adrasom-somgep": 1
+    }
+  },
+  ".//activity-status/@code": {
+    "2": {
+      "adrasom-egep": 1,
+      "adrasom-somgep": 1
+    }
+  },
+  ".//participating-org/@role": {
+    "Funding": {
+      "adrasom-egep": 1,
+      "adrasom-somgep": 1
+    },
+    "Extending": {
+      "adrasom-egep": 1,
+      "adrasom-somgep": 1
+    },
+    "Implementing": {
+      "adrasom-egep": 1,
+      "adrasom-somgep": 1
+    }
+  },
+  ".//recipient-country/@code": {
+    "SOM": {
+      "adrasom-egep": 1,
+      "adrasom-somgep": 1
+    }
+  },
+  ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "289": {
+      "adrasom-egep": 1,
+      "adrasom-somgep": 1
+    }
+  },
+  ".//reporting-org/@type": {
+    "21": {
+      "adrasom-egep": 1,
+      "adrasom-somgep": 1
+    }
+  },
+  ".//transaction/aid-type/@code": {
+    "C01": {
+      "adrasom-egep": 66,
+      "adrasom-somgep": 173
+    }
+  },
+  ".//transaction/transaction-type/@code": {
+    "E": {
+      "adrasom-egep": 66,
+      "adrasom-somgep": 173
+    }
+  },
+  ".//transaction/value/@currency": {
+    "GBP": {
+      "adrasom-egep": 66,
+      "adrasom-somgep": 173
+    }
+  }
+}

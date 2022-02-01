@@ -1,0 +1,143 @@
+{
+  ".//@default-currency": {
+    "USD": {
+      "cpi-cn": 1,
+      "cpi-998": 1,
+      "cpi-gb": 1
+    }
+  },
+  ".//@xml:lang": {
+    "en": {
+      "cpi-cn": 5,
+      "cpi-998": 8,
+      "cpi-gb": 8
+    }
+  },
+  ".//activity-date/@type": {
+    "2": {
+      "cpi-cn": 1,
+      "cpi-998": 1,
+      "cpi-gb": 1
+    },
+    "3": {
+      "cpi-cn": 1,
+      "cpi-gb": 1
+    }
+  },
+  ".//activity-status/@code": {
+    "2": {
+      "cpi-cn": 1,
+      "cpi-998": 1,
+      "cpi-gb": 1
+    }
+  },
+  ".//budget/@status": {
+    "2": {
+      "cpi-cn": 1,
+      "cpi-gb": 1
+    }
+  },
+  ".//budget/@type": {
+    "1": {
+      "cpi-cn": 1,
+      "cpi-gb": 1
+    }
+  },
+  ".//budget/value/@currency": {
+    "GBP": {
+      "cpi-cn": 1
+    },
+    "USD": {
+      "cpi-gb": 1
+    }
+  },
+  ".//description/@type": {
+    "1": {
+      "cpi-cn": 1,
+      "cpi-998": 1,
+      "cpi-gb": 1
+    }
+  },
+  ".//document-link/@format": {
+    "application/vnd.adobe.xfdf": {
+      "cpi-998": 1
+    }
+  },
+  ".//document-link/category/@code": {
+    "B01": {
+      "cpi-998": 1
+    }
+  },
+  ".//document-link/language/@code": {
+    "en": {
+      "cpi-998": 1
+    }
+  },
+  ".//participating-org/@crs-channel-code": {
+    "11001": {
+      "cpi-gb": 1
+    },
+    "11000": {
+      "cpi-gb": 1
+    }
+  },
+  ".//participating-org/@role": {
+    "1": {
+      "cpi-cn": 1,
+      "cpi-gb": 1
+    },
+    "4": {
+      "cpi-998": 1
+    },
+    "2": {
+      "cpi-gb": 1
+    }
+  },
+  ".//participating-org/@type": {
+    "10": {
+      "cpi-cn": 1,
+      "cpi-gb": 2
+    },
+    "21": {
+      "cpi-998": 1
+    }
+  },
+  ".//recipient-country/@code": {
+    "CN": {
+      "cpi-cn": 1
+    },
+    "GB": {
+      "cpi-gb": 1
+    }
+  },
+  ".//reporting-org/@type": {
+    "21": {
+      "cpi-cn": 1,
+      "cpi-998": 1,
+      "cpi-gb": 1
+    }
+  },
+  ".//sector/@vocabulary": {
+    "7": {
+      "cpi-cn": 1,
+      "cpi-gb": 1
+    },
+    "1": {
+      "cpi-998": 2
+    }
+  },
+  ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "31193": {
+      "cpi-998": 1
+    },
+    "99810": {
+      "cpi-998": 1
+    }
+  },
+  ".//sector[@vocabulary = '7']/@code": {
+    "13": {
+      "cpi-cn": 1,
+      "cpi-gb": 1
+    }
+  }
+}

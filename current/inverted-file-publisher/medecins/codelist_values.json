@@ -1,0 +1,520 @@
+{
+  ".//@default-currency": {
+    "EUR": {
+      "medecins-998": 1,
+      "medecins-ne": 1,
+      "medecins-ht": 1,
+      "medecins-be": 1,
+      "medecins-bj": 1,
+      "medecins-89": 1,
+      "medecins-bf": 1,
+      "medecins-ma": 1,
+      "medecins-cd": 1
+    }
+  },
+  ".//@xml:lang": {
+    "fr": {
+      "medecins-998": 2,
+      "medecins-ne": 2,
+      "medecins-ht": 2,
+      "medecins-be": 2,
+      "medecins-bj": 2,
+      "medecins-89": 2,
+      "medecins-bf": 2,
+      "medecins-ma": 2,
+      "medecins-cd": 2
+    }
+  },
+  ".//activity-date/@type": {
+    "1": {
+      "medecins-998": 1,
+      "medecins-89": 1
+    },
+    "3": {
+      "medecins-998": 1,
+      "medecins-89": 1
+    },
+    "2": {
+      "medecins-998": 1,
+      "medecins-ne": 1,
+      "medecins-ht": 1,
+      "medecins-be": 1,
+      "medecins-bj": 1,
+      "medecins-89": 1,
+      "medecins-bf": 1,
+      "medecins-ma": 1,
+      "medecins-cd": 1
+    }
+  },
+  ".//activity-status/@code": {
+    "2": {
+      "medecins-998": 1,
+      "medecins-ne": 1,
+      "medecins-ht": 1,
+      "medecins-be": 1,
+      "medecins-bj": 1,
+      "medecins-89": 1,
+      "medecins-bf": 1,
+      "medecins-ma": 1,
+      "medecins-cd": 1
+    }
+  },
+  ".//budget/@status": {
+    "2": {
+      "medecins-ne": 5,
+      "medecins-ht": 4,
+      "medecins-be": 5,
+      "medecins-bj": 5,
+      "medecins-bf": 5,
+      "medecins-ma": 5,
+      "medecins-cd": 5
+    },
+    "1": {
+      "medecins-89": 5
+    }
+  },
+  ".//budget/@type": {
+    "1": {
+      "medecins-ne": 1,
+      "medecins-ht": 1,
+      "medecins-be": 1,
+      "medecins-bj": 1,
+      "medecins-89": 1,
+      "medecins-bf": 1,
+      "medecins-ma": 1,
+      "medecins-cd": 1
+    },
+    "2": {
+      "medecins-ne": 4,
+      "medecins-ht": 3,
+      "medecins-be": 4,
+      "medecins-bj": 4,
+      "medecins-89": 4,
+      "medecins-bf": 4,
+      "medecins-ma": 4,
+      "medecins-cd": 4
+    }
+  },
+  ".//collaboration-type/@code": {
+    "1": {
+      "medecins-998": 1,
+      "medecins-ne": 1,
+      "medecins-ht": 1,
+      "medecins-be": 1,
+      "medecins-bj": 1,
+      "medecins-89": 1,
+      "medecins-bf": 1,
+      "medecins-ma": 1,
+      "medecins-cd": 1
+    }
+  },
+  ".//contact-info/@type": {
+    "1": {
+      "medecins-998": 1,
+      "medecins-ne": 1,
+      "medecins-ht": 1,
+      "medecins-be": 1,
+      "medecins-bj": 1,
+      "medecins-89": 1,
+      "medecins-bf": 1,
+      "medecins-ma": 1,
+      "medecins-cd": 1
+    }
+  },
+  ".//default-aid-type/@vocabulary": {
+    "1": {
+      "medecins-998": 1,
+      "medecins-ne": 1,
+      "medecins-ht": 1,
+      "medecins-be": 1,
+      "medecins-bj": 1,
+      "medecins-89": 1,
+      "medecins-bf": 1,
+      "medecins-ma": 1,
+      "medecins-cd": 1
+    }
+  },
+  ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "C01": {
+      "medecins-998": 1,
+      "medecins-ne": 1,
+      "medecins-ht": 1,
+      "medecins-bj": 1,
+      "medecins-bf": 1,
+      "medecins-ma": 1,
+      "medecins-cd": 1
+    },
+    "H01": {
+      "medecins-be": 1
+    },
+    "G01": {
+      "medecins-89": 1
+    }
+  },
+  ".//default-finance-type/@code": {
+    "110": {
+      "medecins-998": 1,
+      "medecins-ne": 1,
+      "medecins-ht": 1,
+      "medecins-be": 1,
+      "medecins-bj": 1,
+      "medecins-89": 1,
+      "medecins-bf": 1,
+      "medecins-ma": 1,
+      "medecins-cd": 1
+    }
+  },
+  ".//default-flow-type/@code": {
+    "30": {
+      "medecins-998": 1,
+      "medecins-ne": 1,
+      "medecins-ht": 1,
+      "medecins-be": 1,
+      "medecins-bj": 1,
+      "medecins-89": 1,
+      "medecins-bf": 1,
+      "medecins-ma": 1,
+      "medecins-cd": 1
+    }
+  },
+  ".//default-tied-status/@code": {
+    "5": {
+      "medecins-998": 1,
+      "medecins-ne": 1,
+      "medecins-ht": 1,
+      "medecins-be": 1,
+      "medecins-bj": 1,
+      "medecins-89": 1,
+      "medecins-bf": 1,
+      "medecins-ma": 1,
+      "medecins-cd": 1
+    }
+  },
+  ".//description/@type": {
+    "1": {
+      "medecins-998": 1,
+      "medecins-ne": 1,
+      "medecins-ht": 1,
+      "medecins-be": 1,
+      "medecins-bj": 1,
+      "medecins-89": 1,
+      "medecins-bf": 1,
+      "medecins-ma": 1,
+      "medecins-cd": 1
+    }
+  },
+  ".//location/exactness/@code": {
+    "2": {
+      "medecins-ne": 1,
+      "medecins-ht": 1,
+      "medecins-be": 1,
+      "medecins-bj": 1,
+      "medecins-bf": 1,
+      "medecins-ma": 1,
+      "medecins-cd": 1
+    }
+  },
+  ".//location/location-class/@code": {
+    "1": {
+      "medecins-ne": 1,
+      "medecins-ht": 1,
+      "medecins-bj": 1,
+      "medecins-bf": 1,
+      "medecins-ma": 1
+    },
+    "4": {
+      "medecins-be": 1,
+      "medecins-cd": 1
+    }
+  },
+  ".//other-identifier/@type": {
+    "A9": {
+      "medecins-998": 1
+    }
+  },
+  ".//participating-org/@role": {
+    "1": {
+      "medecins-998": 2,
+      "medecins-ne": 2,
+      "medecins-ht": 3,
+      "medecins-be": 2,
+      "medecins-bj": 3,
+      "medecins-89": 1,
+      "medecins-bf": 3,
+      "medecins-ma": 3,
+      "medecins-cd": 2
+    },
+    "2": {
+      "medecins-998": 1,
+      "medecins-ne": 1,
+      "medecins-ht": 1,
+      "medecins-be": 1,
+      "medecins-bj": 1,
+      "medecins-89": 1,
+      "medecins-bf": 1,
+      "medecins-ma": 1,
+      "medecins-cd": 1
+    },
+    "4": {
+      "medecins-998": 1,
+      "medecins-ne": 1,
+      "medecins-ht": 1,
+      "medecins-be": 3,
+      "medecins-bj": 1,
+      "medecins-89": 1,
+      "medecins-bf": 1,
+      "medecins-ma": 1,
+      "medecins-cd": 1
+    }
+  },
+  ".//participating-org/@type": {
+    "10": {
+      "medecins-998": 1,
+      "medecins-ne": 1,
+      "medecins-ht": 1,
+      "medecins-be": 1,
+      "medecins-bj": 1,
+      "medecins-89": 1,
+      "medecins-bf": 1,
+      "medecins-ma": 1,
+      "medecins-cd": 1
+    },
+    "22": {
+      "medecins-998": 3,
+      "medecins-ne": 3,
+      "medecins-ht": 4,
+      "medecins-be": 5,
+      "medecins-bj": 4,
+      "medecins-89": 2,
+      "medecins-bf": 4,
+      "medecins-ma": 4,
+      "medecins-cd": 3
+    }
+  },
+  ".//policy-marker/@significance": {
+    "2": {
+      "medecins-ne": 2,
+      "medecins-ht": 2,
+      "medecins-be": 1,
+      "medecins-ma": 1,
+      "medecins-cd": 2
+    },
+    "1": {
+      "medecins-ne": 1,
+      "medecins-ht": 1,
+      "medecins-be": 2,
+      "medecins-bj": 2,
+      "medecins-bf": 3,
+      "medecins-ma": 1,
+      "medecins-cd": 1
+    }
+  },
+  ".//policy-marker/@vocabulary": {
+    "1": {
+      "medecins-ne": 3,
+      "medecins-ht": 3,
+      "medecins-be": 3,
+      "medecins-bj": 2,
+      "medecins-bf": 3,
+      "medecins-ma": 2,
+      "medecins-cd": 3
+    }
+  },
+  ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "1": {
+      "medecins-ne": 1,
+      "medecins-ht": 1,
+      "medecins-be": 1,
+      "medecins-bj": 1,
+      "medecins-bf": 1,
+      "medecins-ma": 1,
+      "medecins-cd": 1
+    },
+    "9": {
+      "medecins-ne": 1,
+      "medecins-ht": 1,
+      "medecins-be": 1,
+      "medecins-bj": 1,
+      "medecins-bf": 1,
+      "medecins-cd": 1
+    },
+    "3": {
+      "medecins-ne": 1,
+      "medecins-ht": 1,
+      "medecins-be": 1,
+      "medecins-bf": 1,
+      "medecins-ma": 1,
+      "medecins-cd": 1
+    }
+  },
+  ".//recipient-country/@code": {
+    "NE": {
+      "medecins-ne": 1
+    },
+    "HT": {
+      "medecins-ht": 1
+    },
+    "BE": {
+      "medecins-be": 1
+    },
+    "BJ": {
+      "medecins-bj": 1
+    },
+    "BF": {
+      "medecins-bf": 1
+    },
+    "MA": {
+      "medecins-ma": 1
+    },
+    "CD": {
+      "medecins-cd": 1
+    }
+  },
+  ".//recipient-region/@vocabulary": {
+    "1": {
+      "medecins-998": 1,
+      "medecins-89": 1
+    }
+  },
+  ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "998": {
+      "medecins-998": 1
+    },
+    "89": {
+      "medecins-89": 1
+    }
+  },
+  ".//related-activity/@type": {
+    "2": {
+      "medecins-998": 7
+    },
+    "1": {
+      "medecins-ne": 1,
+      "medecins-ht": 1,
+      "medecins-be": 1,
+      "medecins-bj": 1,
+      "medecins-89": 1,
+      "medecins-bf": 1,
+      "medecins-ma": 1,
+      "medecins-cd": 1
+    }
+  },
+  ".//reporting-org/@type": {
+    "22": {
+      "medecins-998": 1,
+      "medecins-ne": 1,
+      "medecins-ht": 1,
+      "medecins-be": 1,
+      "medecins-bj": 1,
+      "medecins-89": 1,
+      "medecins-bf": 1,
+      "medecins-ma": 1,
+      "medecins-cd": 1
+    }
+  },
+  ".//result/@type": {
+    "2": {
+      "medecins-ne": 1,
+      "medecins-ht": 1,
+      "medecins-be": 1,
+      "medecins-bj": 1,
+      "medecins-bf": 1,
+      "medecins-ma": 1,
+      "medecins-cd": 1
+    }
+  },
+  ".//result/indicator/@measure": {
+    "2": {
+      "medecins-ne": 1,
+      "medecins-bj": 1,
+      "medecins-bf": 2,
+      "medecins-ma": 1,
+      "medecins-cd": 6
+    },
+    "1": {
+      "medecins-ne": 1,
+      "medecins-ht": 4,
+      "medecins-be": 1,
+      "medecins-bj": 2,
+      "medecins-ma": 1,
+      "medecins-cd": 2
+    }
+  },
+  ".//sector/@vocabulary": {
+    "1": {
+      "medecins-998": 1,
+      "medecins-89": 1
+    },
+    "2": {
+      "medecins-ne": 1,
+      "medecins-ht": 1,
+      "medecins-be": 1,
+      "medecins-bj": 1,
+      "medecins-bf": 1,
+      "medecins-ma": 1,
+      "medecins-cd": 1
+    }
+  },
+  ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "99810": {
+      "medecins-998": 1
+    },
+    "91010": {
+      "medecins-89": 1
+    }
+  },
+  ".//sector[@vocabulary = '2']/@code": {
+    "121": {
+      "medecins-ne": 1,
+      "medecins-ht": 1,
+      "medecins-be": 1,
+      "medecins-bj": 1,
+      "medecins-bf": 1,
+      "medecins-ma": 1,
+      "medecins-cd": 1
+    }
+  },
+  ".//transaction/provider-org/@type": {
+    "10": {
+      "medecins-998": 10,
+      "medecins-ht": 1
+    },
+    "22": {
+      "medecins-bj": 4,
+      "medecins-bf": 4,
+      "medecins-ma": 2
+    }
+  },
+  ".//transaction/receiver-org/@type": {
+    "22": {
+      "medecins-998": 15,
+      "medecins-ht": 1,
+      "medecins-bj": 3,
+      "medecins-bf": 3,
+      "medecins-ma": 3
+    }
+  },
+  ".//transaction/transaction-type/@code": {
+    "11": {
+      "medecins-998": 10
+    },
+    "1": {
+      "medecins-998": 6
+    },
+    "4": {
+      "medecins-ne": 3,
+      "medecins-ht": 3,
+      "medecins-be": 3,
+      "medecins-bj": 2,
+      "medecins-89": 2,
+      "medecins-bf": 2,
+      "medecins-ma": 2,
+      "medecins-cd": 3
+    },
+    "3": {
+      "medecins-bj": 3,
+      "medecins-bf": 4,
+      "medecins-ma": 4
+    }
+  }
+}

@@ -1,0 +1,748 @@
+{
+  ".//@default-currency": {
+    "USD": {
+      "plan_usa-ke": 1,
+      "plan_usa-sd": 1,
+      "plan_usa-ug": 1,
+      "plan_usa-np": 1,
+      "plan_usa-vn": 1,
+      "plan_usa-sn": 1,
+      "plan_usa-bd": 1,
+      "plan_usa-ph": 2,
+      "plan_usa-ng": 1,
+      "plan_usa-ne": 1,
+      "plan_usa-bj": 1,
+      "plan_usa-tg": 1,
+      "plan_usa-kh": 1,
+      "plan_usa-gh": 1,
+      "plan_usa-bf": 1,
+      "plan_usa-gn": 1,
+      "plan_usa-298": 1,
+      "plan_usa-cm": 1
+    }
+  },
+  ".//@xml:lang": {
+    "en": {
+      "plan_usa-ke": 5,
+      "plan_usa-sd": 10,
+      "plan_usa-ug": 15,
+      "plan_usa-np": 2,
+      "plan_usa-vn": 6,
+      "plan_usa-sn": 2,
+      "plan_usa-bd": 16,
+      "plan_usa-ph": 4,
+      "plan_usa-ng": 4,
+      "plan_usa-ne": 13,
+      "plan_usa-bj": 4,
+      "plan_usa-tg": 4,
+      "plan_usa-kh": 4,
+      "plan_usa-gh": 13,
+      "plan_usa-bf": 4,
+      "plan_usa-gn": 2,
+      "plan_usa-298": 4,
+      "plan_usa-cm": 3
+    }
+  },
+  ".//activity-date/@type": {
+    "start-actual": {
+      "plan_usa-ke": 1,
+      "plan_usa-sd": 1,
+      "plan_usa-ug": 1,
+      "plan_usa-np": 1,
+      "plan_usa-vn": 1,
+      "plan_usa-sn": 1,
+      "plan_usa-bd": 1,
+      "plan_usa-ph": 2,
+      "plan_usa-ng": 1,
+      "plan_usa-ne": 1,
+      "plan_usa-bj": 1,
+      "plan_usa-tg": 1,
+      "plan_usa-kh": 1,
+      "plan_usa-gh": 1,
+      "plan_usa-bf": 1,
+      "plan_usa-gn": 1,
+      "plan_usa-298": 1,
+      "plan_usa-cm": 1
+    },
+    "end-actual": {
+      "plan_usa-ke": 1
+    },
+    "end-planned": {
+      "plan_usa-sd": 1,
+      "plan_usa-ug": 1,
+      "plan_usa-np": 1,
+      "plan_usa-sn": 1,
+      "plan_usa-bd": 1,
+      "plan_usa-ph": 2,
+      "plan_usa-ng": 1,
+      "plan_usa-ne": 2,
+      "plan_usa-bj": 1,
+      "plan_usa-tg": 1,
+      "plan_usa-kh": 1,
+      "plan_usa-gh": 2,
+      "plan_usa-bf": 1,
+      "plan_usa-gn": 1,
+      "plan_usa-298": 1,
+      "plan_usa-cm": 1
+    }
+  },
+  ".//activity-status/@code": {
+    "4": {
+      "plan_usa-ke": 1,
+      "plan_usa-sd": 1,
+      "plan_usa-vn": 1,
+      "plan_usa-gh": 1,
+      "plan_usa-bf": 1
+    },
+    "5": {
+      "plan_usa-ug": 1
+    },
+    "2": {
+      "plan_usa-np": 1,
+      "plan_usa-sn": 1,
+      "plan_usa-bd": 1,
+      "plan_usa-ph": 2,
+      "plan_usa-ne": 1,
+      "plan_usa-bj": 1,
+      "plan_usa-tg": 1,
+      "plan_usa-kh": 1,
+      "plan_usa-gn": 1,
+      "plan_usa-298": 1
+    },
+    "3": {
+      "plan_usa-ng": 1,
+      "plan_usa-cm": 1
+    }
+  },
+  ".//budget/@type": {
+    "1": {
+      "plan_usa-ke": 1,
+      "plan_usa-sd": 1,
+      "plan_usa-np": 1,
+      "plan_usa-vn": 1,
+      "plan_usa-sn": 1,
+      "plan_usa-bd": 1,
+      "plan_usa-ph": 2,
+      "plan_usa-ng": 1,
+      "plan_usa-ne": 1
+    },
+    "2": {
+      "plan_usa-ug": 1,
+      "plan_usa-bj": 1,
+      "plan_usa-tg": 1,
+      "plan_usa-kh": 1,
+      "plan_usa-gh": 1,
+      "plan_usa-bf": 1,
+      "plan_usa-gn": 1,
+      "plan_usa-298": 1,
+      "plan_usa-cm": 1
+    }
+  },
+  ".//budget/value/@currency": {
+    "USD": {
+      "plan_usa-ke": 1,
+      "plan_usa-sd": 1,
+      "plan_usa-ug": 1,
+      "plan_usa-vn": 1,
+      "plan_usa-bd": 1,
+      "plan_usa-ng": 1,
+      "plan_usa-ne": 1,
+      "plan_usa-bj": 1,
+      "plan_usa-tg": 1,
+      "plan_usa-kh": 1,
+      "plan_usa-gh": 1,
+      "plan_usa-bf": 1,
+      "plan_usa-298": 1,
+      "plan_usa-cm": 1
+    }
+  },
+  ".//collaboration-type/@code": {
+    "2": {
+      "plan_usa-ke": 1,
+      "plan_usa-bj": 1,
+      "plan_usa-kh": 1,
+      "plan_usa-bf": 1,
+      "plan_usa-298": 1,
+      "plan_usa-cm": 1
+    },
+    "1": {
+      "plan_usa-sd": 1,
+      "plan_usa-ug": 1,
+      "plan_usa-np": 1,
+      "plan_usa-vn": 1,
+      "plan_usa-sn": 1,
+      "plan_usa-bd": 1,
+      "plan_usa-ph": 2,
+      "plan_usa-ng": 1,
+      "plan_usa-ne": 1,
+      "plan_usa-gh": 1,
+      "plan_usa-gn": 1
+    },
+    "4": {
+      "plan_usa-tg": 1
+    }
+  },
+  ".//contact-info/@type": {
+    "E-mail, telephone and address": {
+      "plan_usa-ke": 1,
+      "plan_usa-np": 1,
+      "plan_usa-sn": 1,
+      "plan_usa-ph": 1,
+      "plan_usa-ng": 1,
+      "plan_usa-ne": 1,
+      "plan_usa-tg": 1,
+      "plan_usa-kh": 1,
+      "plan_usa-bf": 1,
+      "plan_usa-gn": 1,
+      "plan_usa-298": 1,
+      "plan_usa-cm": 1
+    },
+    "e-mail, tel. # and address": {
+      "plan_usa-ph": 1
+    }
+  },
+  ".//default-aid-type/@code": {
+    "B03": {
+      "plan_usa-ke": 1,
+      "plan_usa-sd": 1,
+      "plan_usa-ug": 1,
+      "plan_usa-np": 1,
+      "plan_usa-vn": 1,
+      "plan_usa-sn": 1,
+      "plan_usa-bd": 1,
+      "plan_usa-ph": 2,
+      "plan_usa-ng": 1,
+      "plan_usa-ne": 1,
+      "plan_usa-bj": 1,
+      "plan_usa-kh": 1,
+      "plan_usa-gh": 1,
+      "plan_usa-bf": 1,
+      "plan_usa-gn": 1,
+      "plan_usa-298": 1,
+      "plan_usa-cm": 1
+    },
+    "C01": {
+      "plan_usa-tg": 1
+    }
+  },
+  ".//default-finance-type/@code": {
+    "110": {
+      "plan_usa-ke": 1,
+      "plan_usa-sd": 1,
+      "plan_usa-ug": 1,
+      "plan_usa-np": 1,
+      "plan_usa-vn": 1,
+      "plan_usa-sn": 1,
+      "plan_usa-bd": 1,
+      "plan_usa-ph": 2,
+      "plan_usa-ng": 1,
+      "plan_usa-ne": 1,
+      "plan_usa-bj": 1,
+      "plan_usa-tg": 1,
+      "plan_usa-kh": 1,
+      "plan_usa-gh": 1,
+      "plan_usa-bf": 1,
+      "plan_usa-gn": 1,
+      "plan_usa-298": 1,
+      "plan_usa-cm": 1
+    }
+  },
+  ".//default-flow-type/@code": {
+    "30": {
+      "plan_usa-ke": 1,
+      "plan_usa-ng": 1,
+      "plan_usa-298": 1
+    },
+    "10": {
+      "plan_usa-sd": 1,
+      "plan_usa-ug": 1,
+      "plan_usa-np": 1,
+      "plan_usa-vn": 1,
+      "plan_usa-sn": 1,
+      "plan_usa-bd": 1,
+      "plan_usa-ph": 2,
+      "plan_usa-ne": 1,
+      "plan_usa-bj": 1,
+      "plan_usa-tg": 1,
+      "plan_usa-kh": 1,
+      "plan_usa-gh": 1,
+      "plan_usa-bf": 1,
+      "plan_usa-gn": 1,
+      "plan_usa-cm": 1
+    }
+  },
+  ".//default-tied-status/@code": {
+    "5": {
+      "plan_usa-ke": 1,
+      "plan_usa-ug": 1,
+      "plan_usa-np": 1,
+      "plan_usa-vn": 1,
+      "plan_usa-sn": 1,
+      "plan_usa-bd": 1,
+      "plan_usa-ph": 2,
+      "plan_usa-ng": 1,
+      "plan_usa-ne": 1,
+      "plan_usa-bj": 1,
+      "plan_usa-tg": 1,
+      "plan_usa-kh": 1,
+      "plan_usa-bf": 1,
+      "plan_usa-gn": 1,
+      "plan_usa-298": 1,
+      "plan_usa-cm": 1
+    },
+    "3": {
+      "plan_usa-sd": 1,
+      "plan_usa-gh": 1
+    }
+  },
+  ".//description/@type": {
+    "1": {
+      "plan_usa-ke": 1,
+      "plan_usa-sd": 1,
+      "plan_usa-ug": 1,
+      "plan_usa-vn": 1,
+      "plan_usa-sn": 1,
+      "plan_usa-bd": 1,
+      "plan_usa-ph": 1,
+      "plan_usa-ng": 1,
+      "plan_usa-ne": 1,
+      "plan_usa-bj": 1,
+      "plan_usa-kh": 1,
+      "plan_usa-gh": 1,
+      "plan_usa-bf": 1,
+      "plan_usa-gn": 2,
+      "plan_usa-298": 1
+    },
+    "2": {
+      "plan_usa-np": 1,
+      "plan_usa-ph": 1,
+      "plan_usa-tg": 1,
+      "plan_usa-cm": 1
+    }
+  },
+  ".//participating-org/@role": {
+    "Implementing": {
+      "plan_usa-ke": 1,
+      "plan_usa-sd": 1,
+      "plan_usa-ug": 1,
+      "plan_usa-np": 1,
+      "plan_usa-vn": 1,
+      "plan_usa-bd": 1,
+      "plan_usa-ph": 1,
+      "plan_usa-ng": 1,
+      "plan_usa-ne": 1,
+      "plan_usa-bj": 1,
+      "plan_usa-tg": 1,
+      "plan_usa-kh": 1,
+      "plan_usa-gh": 1,
+      "plan_usa-bf": 1,
+      "plan_usa-298": 1
+    },
+    "Funding": {
+      "plan_usa-ke": 1,
+      "plan_usa-sd": 1,
+      "plan_usa-ug": 1,
+      "plan_usa-np": 1,
+      "plan_usa-vn": 1,
+      "plan_usa-sn": 1,
+      "plan_usa-bd": 1,
+      "plan_usa-ph": 2,
+      "plan_usa-ng": 1,
+      "plan_usa-ne": 1,
+      "plan_usa-bj": 1,
+      "plan_usa-tg": 1,
+      "plan_usa-kh": 1,
+      "plan_usa-gh": 1,
+      "plan_usa-bf": 1,
+      "plan_usa-gn": 1,
+      "plan_usa-298": 1,
+      "plan_usa-cm": 1
+    },
+    "Accountable": {
+      "plan_usa-gh": 1
+    }
+  },
+  ".//participating-org/@type": {
+    "21": {
+      "plan_usa-ke": 1,
+      "plan_usa-sd": 1,
+      "plan_usa-ug": 1,
+      "plan_usa-np": 1,
+      "plan_usa-vn": 1,
+      "plan_usa-bd": 1,
+      "plan_usa-ph": 1,
+      "plan_usa-ng": 1,
+      "plan_usa-ne": 1,
+      "plan_usa-bj": 1,
+      "plan_usa-tg": 1,
+      "plan_usa-kh": 1,
+      "plan_usa-gh": 1,
+      "plan_usa-bf": 1,
+      "plan_usa-298": 1
+    },
+    "60": {
+      "plan_usa-ke": 1,
+      "plan_usa-ng": 1,
+      "plan_usa-298": 1
+    },
+    "10": {
+      "plan_usa-sd": 1,
+      "plan_usa-ug": 1,
+      "plan_usa-np": 1,
+      "plan_usa-vn": 1,
+      "plan_usa-sn": 1,
+      "plan_usa-bd": 1,
+      "plan_usa-ph": 2,
+      "plan_usa-ne": 1,
+      "plan_usa-gh": 2,
+      "plan_usa-gn": 1
+    },
+    "40": {
+      "plan_usa-bj": 1,
+      "plan_usa-tg": 1,
+      "plan_usa-kh": 1,
+      "plan_usa-bf": 1,
+      "plan_usa-cm": 1
+    }
+  },
+  ".//recipient-country/@code": {
+    "KE": {
+      "plan_usa-ke": 1,
+      "plan_usa-298": 1
+    },
+    "MZ": {
+      "plan_usa-ke": 1
+    },
+    "SD": {
+      "plan_usa-sd": 1
+    },
+    "UG": {
+      "plan_usa-ug": 1
+    },
+    "NP": {
+      "plan_usa-np": 1
+    },
+    "VN": {
+      "plan_usa-vn": 1
+    },
+    "SN": {
+      "plan_usa-sn": 1
+    },
+    "BD": {
+      "plan_usa-bd": 1
+    },
+    "PH": {
+      "plan_usa-ph": 2
+    },
+    "NG": {
+      "plan_usa-ng": 1
+    },
+    "NE": {
+      "plan_usa-ne": 1
+    },
+    "BJ": {
+      "plan_usa-bj": 1
+    },
+    "TG": {
+      "plan_usa-tg": 1
+    },
+    "KH": {
+      "plan_usa-kh": 1
+    },
+    "GH": {
+      "plan_usa-gh": 1,
+      "plan_usa-298": 1
+    },
+    "BF": {
+      "plan_usa-bf": 1
+    },
+    "GN": {
+      "plan_usa-gn": 1
+    },
+    "ET": {
+      "plan_usa-298": 1
+    },
+    "CM": {
+      "plan_usa-cm": 1
+    }
+  },
+  ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "679": {
+      "plan_usa-bd": 1
+    },
+    "298": {
+      "plan_usa-ne": 1,
+      "plan_usa-bj": 1,
+      "plan_usa-tg": 1,
+      "plan_usa-bf": 1,
+      "plan_usa-298": 1
+    }
+  },
+  ".//reporting-org/@type": {
+    "21": {
+      "plan_usa-ke": 1,
+      "plan_usa-sd": 1,
+      "plan_usa-ug": 1,
+      "plan_usa-np": 1,
+      "plan_usa-vn": 1,
+      "plan_usa-sn": 1,
+      "plan_usa-bd": 1,
+      "plan_usa-ph": 2,
+      "plan_usa-ng": 1,
+      "plan_usa-ne": 1,
+      "plan_usa-bj": 1,
+      "plan_usa-tg": 1,
+      "plan_usa-kh": 1,
+      "plan_usa-gh": 1,
+      "plan_usa-bf": 1,
+      "plan_usa-gn": 1,
+      "plan_usa-298": 1,
+      "plan_usa-cm": 1
+    }
+  },
+  ".//sector/@vocabulary": {
+    "DAC": {
+      "plan_usa-ke": 1,
+      "plan_usa-sd": 1,
+      "plan_usa-ug": 1,
+      "plan_usa-np": 1,
+      "plan_usa-vn": 1,
+      "plan_usa-sn": 1,
+      "plan_usa-bd": 1,
+      "plan_usa-ph": 2,
+      "plan_usa-ng": 1,
+      "plan_usa-ne": 1,
+      "plan_usa-bj": 1,
+      "plan_usa-tg": 1,
+      "plan_usa-kh": 1,
+      "plan_usa-gh": 1,
+      "plan_usa-bf": 1,
+      "plan_usa-gn": 1,
+      "plan_usa-298": 1,
+      "plan_usa-cm": 1
+    }
+  },
+  ".//sector[@vocabulary = 'DAC' or not(@vocabulary)]/@code": {
+    "11240": {
+      "plan_usa-ke": 1
+    },
+    "12261": {
+      "plan_usa-sd": 1,
+      "plan_usa-gn": 1
+    },
+    "12230": {
+      "plan_usa-ug": 1,
+      "plan_usa-ng": 1
+    },
+    "13020": {
+      "plan_usa-np": 1
+    },
+    "74010": {
+      "plan_usa-vn": 1,
+      "plan_usa-ph": 1
+    },
+    "15162": {
+      "plan_usa-sn": 1,
+      "plan_usa-bd": 1
+    },
+    "72050": {
+      "plan_usa-ph": 1
+    },
+    "11220": {
+      "plan_usa-ne": 1,
+      "plan_usa-gh": 1
+    },
+    "13040": {
+      "plan_usa-bj": 1
+    },
+    "12262": {
+      "plan_usa-tg": 1,
+      "plan_usa-bf": 1,
+      "plan_usa-cm": 1
+    },
+    "14081": {
+      "plan_usa-kh": 1,
+      "plan_usa-298": 1
+    }
+  },
+  ".//transaction/aid-type/@code": {
+    "B03": {
+      "plan_usa-ke": 4,
+      "plan_usa-sd": 1,
+      "plan_usa-ug": 5,
+      "plan_usa-np": 2,
+      "plan_usa-vn": 2,
+      "plan_usa-sn": 5,
+      "plan_usa-bd": 5,
+      "plan_usa-ph": 10,
+      "plan_usa-ng": 5,
+      "plan_usa-ne": 5,
+      "plan_usa-bj": 5,
+      "plan_usa-kh": 5,
+      "plan_usa-gh": 1,
+      "plan_usa-bf": 4,
+      "plan_usa-gn": 3,
+      "plan_usa-298": 5,
+      "plan_usa-cm": 1
+    },
+    "C01": {
+      "plan_usa-tg": 5
+    },
+    "B02": {
+      "plan_usa-cm": 4
+    }
+  },
+  ".//transaction/disbursement-channel/@code": {
+    "2": {
+      "plan_usa-ke": 4,
+      "plan_usa-ng": 5,
+      "plan_usa-bj": 5,
+      "plan_usa-tg": 5,
+      "plan_usa-kh": 5,
+      "plan_usa-bf": 4,
+      "plan_usa-298": 5,
+      "plan_usa-cm": 5
+    },
+    "1": {
+      "plan_usa-sd": 1,
+      "plan_usa-ug": 5,
+      "plan_usa-np": 2,
+      "plan_usa-vn": 2,
+      "plan_usa-sn": 5,
+      "plan_usa-bd": 5,
+      "plan_usa-ph": 10,
+      "plan_usa-ne": 5,
+      "plan_usa-gh": 1,
+      "plan_usa-gn": 3
+    }
+  },
+  ".//transaction/finance-type/@code": {
+    "110": {
+      "plan_usa-ke": 4,
+      "plan_usa-sd": 1,
+      "plan_usa-ug": 5,
+      "plan_usa-np": 2,
+      "plan_usa-vn": 2,
+      "plan_usa-sn": 5,
+      "plan_usa-bd": 5,
+      "plan_usa-ph": 10,
+      "plan_usa-ng": 5,
+      "plan_usa-ne": 5,
+      "plan_usa-bj": 5,
+      "plan_usa-tg": 5,
+      "plan_usa-kh": 5,
+      "plan_usa-gh": 1,
+      "plan_usa-bf": 4,
+      "plan_usa-gn": 3,
+      "plan_usa-298": 5,
+      "plan_usa-cm": 5
+    }
+  },
+  ".//transaction/flow-type/@code": {
+    "30": {
+      "plan_usa-ke": 4,
+      "plan_usa-ng": 5,
+      "plan_usa-298": 5
+    },
+    "10": {
+      "plan_usa-sd": 1,
+      "plan_usa-ug": 5,
+      "plan_usa-np": 2,
+      "plan_usa-vn": 2,
+      "plan_usa-sn": 5,
+      "plan_usa-bd": 5,
+      "plan_usa-ph": 10,
+      "plan_usa-ne": 5,
+      "plan_usa-bj": 5,
+      "plan_usa-tg": 5,
+      "plan_usa-kh": 5,
+      "plan_usa-gh": 1,
+      "plan_usa-bf": 4,
+      "plan_usa-gn": 3,
+      "plan_usa-cm": 5
+    }
+  },
+  ".//transaction/tied-status/@code": {
+    "5": {
+      "plan_usa-ke": 4,
+      "plan_usa-ug": 5,
+      "plan_usa-np": 2,
+      "plan_usa-sn": 5,
+      "plan_usa-bd": 5,
+      "plan_usa-ph": 10,
+      "plan_usa-ng": 5,
+      "plan_usa-ne": 5,
+      "plan_usa-bj": 5,
+      "plan_usa-tg": 5,
+      "plan_usa-kh": 5,
+      "plan_usa-bf": 4,
+      "plan_usa-gn": 3,
+      "plan_usa-298": 5,
+      "plan_usa-cm": 5
+    },
+    "3": {
+      "plan_usa-sd": 1,
+      "plan_usa-vn": 2,
+      "plan_usa-gh": 1
+    }
+  },
+  ".//transaction/transaction-type/@code": {
+    "C": {
+      "plan_usa-ke": 1,
+      "plan_usa-ug": 1,
+      "plan_usa-np": 1,
+      "plan_usa-sn": 1,
+      "plan_usa-ph": 2,
+      "plan_usa-ng": 1,
+      "plan_usa-tg": 1,
+      "plan_usa-gn": 1,
+      "plan_usa-298": 1
+    },
+    "E": {
+      "plan_usa-ke": 3,
+      "plan_usa-ug": 4,
+      "plan_usa-np": 1,
+      "plan_usa-vn": 1,
+      "plan_usa-sn": 4,
+      "plan_usa-bd": 4,
+      "plan_usa-ph": 8,
+      "plan_usa-ng": 4,
+      "plan_usa-ne": 4,
+      "plan_usa-bj": 4,
+      "plan_usa-tg": 4,
+      "plan_usa-kh": 4,
+      "plan_usa-bf": 3,
+      "plan_usa-gn": 2,
+      "plan_usa-298": 4,
+      "plan_usa-cm": 4
+    },
+    "IF": {
+      "plan_usa-sd": 1,
+      "plan_usa-vn": 1,
+      "plan_usa-bd": 1,
+      "plan_usa-ne": 1,
+      "plan_usa-bj": 1,
+      "plan_usa-kh": 1,
+      "plan_usa-gh": 1,
+      "plan_usa-bf": 1,
+      "plan_usa-cm": 1
+    }
+  },
+  ".//transaction/value/@currency": {
+    "USD": {
+      "plan_usa-ke": 1,
+      "plan_usa-sd": 1,
+      "plan_usa-ug": 1,
+      "plan_usa-vn": 1,
+      "plan_usa-bd": 1,
+      "plan_usa-ng": 1,
+      "plan_usa-ne": 1,
+      "plan_usa-bj": 1,
+      "plan_usa-tg": 1,
+      "plan_usa-kh": 1,
+      "plan_usa-gh": 1,
+      "plan_usa-298": 1,
+      "plan_usa-cm": 1
+    }
+  }
+}

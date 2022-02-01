@@ -1,0 +1,830 @@
+{
+  "2": {
+    ".//@default-currency": {
+      "npa-lb": {
+        "GBP": 2
+      },
+      "npa-vn": {
+        "GBP": 1
+      },
+      "npa-la": {
+        "GBP": 1
+      },
+      "npa-88": {
+        "BAM": 1
+      },
+      "npa-589": {
+        "BAM": 1
+      },
+      "npa-ba": {
+        "BAM": 1
+      }
+    },
+    ".//activity-date/@type": {
+      "npa-lb": {
+        "2": 2,
+        "1": 1,
+        "3": 2
+      },
+      "npa-vn": {
+        "2": 1,
+        "3": 1
+      },
+      "npa-la": {
+        "2": 1,
+        "3": 1
+      },
+      "npa-88": {
+        "2": 1,
+        "3": 1
+      },
+      "npa-589": {
+        "2": 1,
+        "3": 1
+      },
+      "npa-ba": {
+        "2": 1,
+        "3": 1
+      }
+    },
+    ".//activity-status/@code": {
+      "npa-lb": {
+        "2": 2
+      },
+      "npa-vn": {
+        "2": 1
+      },
+      "npa-la": {
+        "2": 1
+      },
+      "npa-88": {
+        "2": 1
+      },
+      "npa-589": {
+        "2": 1
+      },
+      "npa-ba": {
+        "2": 1
+      }
+    },
+    ".//activity-scope/@code": {
+      "npa-lb": {
+        "3": 1,
+        "4": 1
+      },
+      "npa-vn": {
+        "4": 1
+      },
+      "npa-la": {
+        "4": 1
+      },
+      "npa-88": {
+        "6": 1
+      },
+      "npa-589": {
+        "4": 1
+      },
+      "npa-ba": {
+        "6": 1
+      }
+    },
+    ".//budget/@status": {
+      "npa-lb": {
+        "2": 6
+      },
+      "npa-vn": {
+        "2": 3
+      },
+      "npa-la": {
+        "2": 3
+      },
+      "npa-88": {
+        "2": 1
+      },
+      "npa-589": {
+        "2": 1
+      },
+      "npa-ba": {
+        "2": 1
+      }
+    },
+    ".//budget/@type": {
+      "npa-lb": {
+        "1": 6
+      },
+      "npa-vn": {
+        "1": 3
+      },
+      "npa-la": {
+        "1": 3
+      },
+      "npa-88": {
+        "1": 1
+      },
+      "npa-589": {
+        "1": 1
+      },
+      "npa-ba": {
+        "1": 1
+      }
+    },
+    ".//budget/value/@currency": {
+      "npa-lb": {
+        "GBP": 6
+      },
+      "npa-vn": {
+        "GBP": 3
+      },
+      "npa-la": {
+        "GBP": 3
+      },
+      "npa-88": {
+        "BAM": 1
+      },
+      "npa-589": {
+        "USD": 1
+      },
+      "npa-ba": {
+        "BAM": 1
+      }
+    },
+    ".//collaboration-type/@code": {
+      "npa-lb": {
+        "4": 1,
+        "1": 1
+      },
+      "npa-vn": {
+        "1": 1
+      },
+      "npa-la": {
+        "1": 1
+      },
+      "npa-88": {
+        "2": 1
+      },
+      "npa-589": {
+        "1": 1
+      },
+      "npa-ba": {
+        "2": 1
+      }
+    },
+    ".//contact-info/@type": {
+      "npa-lb": {
+        "1": 1
+      },
+      "npa-vn": {
+        "1": 1
+      },
+      "npa-la": {
+        "1": 1
+      },
+      "npa-88": {
+        "2": 1,
+        "3": 1,
+        "1": 1
+      },
+      "npa-589": {
+        "2": 1,
+        "4": 1
+      },
+      "npa-ba": {
+        "2": 1,
+        "3": 1,
+        "1": 1
+      }
+    },
+    ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "npa-lb": {
+        "B03": 2
+      },
+      "npa-vn": {
+        "B03": 1
+      },
+      "npa-la": {
+        "B03": 1
+      },
+      "npa-88": {
+        "B03": 1
+      },
+      "npa-589": {
+        "B03": 1
+      },
+      "npa-ba": {
+        "B03": 1
+      }
+    },
+    ".//default-aid-type/@vocabulary": {
+      "npa-lb": {
+        "1": 2
+      },
+      "npa-vn": {
+        "1": 1
+      },
+      "npa-la": {
+        "1": 1
+      },
+      "npa-589": {
+        "1": 1
+      }
+    },
+    ".//default-finance-type/@code": {
+      "npa-lb": {
+        "110": 2
+      },
+      "npa-vn": {
+        "110": 1
+      },
+      "npa-la": {
+        "110": 1
+      },
+      "npa-88": {
+        "110": 1
+      },
+      "npa-589": {
+        "110": 1
+      },
+      "npa-ba": {
+        "110": 1
+      }
+    },
+    ".//default-flow-type/@code": {
+      "npa-lb": {
+        "10": 2
+      },
+      "npa-vn": {
+        "10": 1
+      },
+      "npa-la": {
+        "10": 1
+      },
+      "npa-88": {
+        "10": 1
+      },
+      "npa-589": {
+        "10": 1
+      },
+      "npa-ba": {
+        "10": 1
+      }
+    },
+    ".//default-tied-status/@code": {
+      "npa-lb": {
+        "4": 2
+      },
+      "npa-vn": {
+        "4": 1
+      },
+      "npa-la": {
+        "4": 1
+      },
+      "npa-88": {
+        "4": 1
+      },
+      "npa-589": {
+        "3": 1
+      },
+      "npa-ba": {
+        "4": 1
+      }
+    },
+    ".//description/@type": {
+      "npa-lb": {
+        "1": 2,
+        "2": 2,
+        "3": 2
+      },
+      "npa-vn": {
+        "1": 1
+      },
+      "npa-la": {
+        "1": 1,
+        "2": 1,
+        "3": 1
+      },
+      "npa-88": {
+        "2": 1
+      },
+      "npa-589": {
+        "1": 1
+      },
+      "npa-ba": {
+        "2": 1
+      }
+    },
+    ".//participating-org/@role": {
+      "npa-lb": {
+        "1": 2,
+        "4": 1,
+        "2": 2
+      },
+      "npa-vn": {
+        "1": 1,
+        "2": 1
+      },
+      "npa-la": {
+        "1": 1,
+        "2": 1
+      },
+      "npa-88": {
+        "4": 1
+      },
+      "npa-589": {
+        "4": 1
+      },
+      "npa-ba": {
+        "4": 1
+      }
+    },
+    ".//participating-org/@type": {
+      "npa-lb": {
+        "21": 3,
+        "70": 2
+      },
+      "npa-vn": {
+        "21": 1,
+        "70": 1
+      },
+      "npa-la": {
+        "21": 1,
+        "70": 1
+      },
+      "npa-88": {
+        "21": 1
+      },
+      "npa-589": {
+        "21": 1
+      },
+      "npa-ba": {
+        "21": 1
+      }
+    },
+    ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "npa-lb": {
+        "10": 1
+      },
+      "npa-88": {
+        "3": 1
+      },
+      "npa-ba": {
+        "3": 1
+      }
+    },
+    ".//policy-marker/@significance": {
+      "npa-lb": {
+        "0": 1
+      },
+      "npa-88": {
+        "1": 1
+      },
+      "npa-589": {
+        "1": 1
+      },
+      "npa-ba": {
+        "1": 1
+      }
+    },
+    ".//policy-marker/@vocabulary": {
+      "npa-lb": {
+        "1": 1
+      },
+      "npa-88": {
+        "1": 1
+      },
+      "npa-589": {
+        "99": 1
+      },
+      "npa-ba": {
+        "1": 1
+      }
+    },
+    ".//recipient-country/@code": {
+      "npa-lb": {
+        "LA": 1,
+        "LB": 2,
+        "VN": 1
+      },
+      "npa-vn": {
+        "VN": 1
+      },
+      "npa-la": {
+        "LA": 1
+      },
+      "npa-88": {
+        "BA": 1
+      },
+      "npa-589": {
+        "IQ": 1
+      },
+      "npa-ba": {
+        "BA": 1
+      }
+    },
+    ".//reporting-org/@type": {
+      "npa-lb": {
+        "21": 2
+      },
+      "npa-vn": {
+        "21": 1
+      },
+      "npa-la": {
+        "21": 1
+      },
+      "npa-88": {
+        "21": 1
+      },
+      "npa-589": {
+        "21": 1
+      },
+      "npa-ba": {
+        "21": 1
+      }
+    },
+    ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "npa-lb": {
+        "15250": 20
+      },
+      "npa-vn": {
+        "15250": 1
+      },
+      "npa-la": {
+        "15250": 1
+      },
+      "npa-88": {
+        "15250": 21
+      },
+      "npa-589": {
+        "15180": 13
+      },
+      "npa-ba": {
+        "15250": 1
+      }
+    },
+    ".//sector/@vocabulary": {
+      "npa-lb": {
+        "1": 20
+      },
+      "npa-vn": {
+        "1": 1
+      },
+      "npa-la": {
+        "1": 1
+      },
+      "npa-88": {
+        "1": 21
+      },
+      "npa-589": {
+        "1": 13
+      },
+      "npa-ba": {
+        "1": 1
+      }
+    },
+    ".//transaction/disbursement-channel/@code": {
+      "npa-lb": {
+        "2": 24
+      },
+      "npa-vn": {
+        "2": 6
+      },
+      "npa-la": {
+        "2": 5
+      },
+      "npa-88": {
+        "2": 2,
+        "1": 18
+      },
+      "npa-589": {
+        "1": 13
+      }
+    },
+    ".//transaction/finance-type/@code": {
+      "npa-lb": {
+        "110": 5
+      },
+      "npa-88": {
+        "110": 2
+      },
+      "npa-589": {
+        "110": 1
+      }
+    },
+    ".//transaction/provider-org/@type": {
+      "npa-lb": {
+        "21": 24
+      },
+      "npa-vn": {
+        "21": 6
+      },
+      "npa-la": {
+        "21": 5
+      },
+      "npa-589": {
+        "10": 1
+      }
+    },
+    ".//transaction/receiver-org/@type": {
+      "npa-lb": {
+        "21": 24
+      },
+      "npa-vn": {
+        "21": 6
+      },
+      "npa-la": {
+        "21": 5
+      },
+      "npa-589": {
+        "21": 1
+      }
+    },
+    ".//transaction/sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "npa-lb": {
+        "15250": 19
+      },
+      "npa-88": {
+        "15250": 21
+      },
+      "npa-589": {
+        "15180": 13
+      }
+    },
+    ".//transaction/sector/@vocabulary": {
+      "npa-lb": {
+        "1": 19
+      },
+      "npa-88": {
+        "1": 21
+      },
+      "npa-589": {
+        "1": 13
+      }
+    },
+    ".//transaction/tied-status/@code": {
+      "npa-lb": {
+        "4": 23
+      },
+      "npa-vn": {
+        "4": 6
+      },
+      "npa-la": {
+        "4": 5
+      },
+      "npa-88": {
+        "4": 2
+      },
+      "npa-589": {
+        "3": 1
+      }
+    },
+    ".//transaction/transaction-type/@code": {
+      "npa-lb": {
+        "4": 19,
+        "1": 6
+      },
+      "npa-vn": {
+        "4": 6
+      },
+      "npa-la": {
+        "4": 5
+      },
+      "npa-88": {
+        "1": 1,
+        "4": 19,
+        "2": 1
+      },
+      "npa-589": {
+        "4": 12,
+        "1": 1
+      }
+    },
+    ".//transaction/value/@currency": {
+      "npa-lb": {
+        "GBP": 25
+      },
+      "npa-vn": {
+        "GBP": 6
+      },
+      "npa-la": {
+        "GBP": 5
+      },
+      "npa-88": {
+        "BAM": 20
+      },
+      "npa-589": {
+        "USD": 13
+      }
+    },
+    ".//@xml:lang": {
+      "npa-lb": {
+        "en": 88
+      },
+      "npa-vn": {
+        "en": 21
+      },
+      "npa-la": {
+        "en": 20
+      },
+      "npa-88": {
+        "en": 84
+      },
+      "npa-589": {
+        "en": 146
+      },
+      "npa-ba": {
+        "en": 36
+      }
+    },
+    ".//participating-org/@crs-channel-code": {
+      "npa-vn": {
+        "21000": 1
+      }
+    },
+    ".//conditions/condition/@type": {
+      "npa-88": {
+        "2": 1
+      },
+      "npa-589": {
+        "2": 1
+      },
+      "npa-ba": {
+        "2": 1
+      }
+    },
+    ".//location/administrative/@vocabulary": {
+      "npa-88": {
+        "G1": 1
+      },
+      "npa-ba": {
+        "G1": 1
+      }
+    },
+    ".//location/feature-designation/@code": {
+      "npa-88": {
+        "RGN": 1
+      },
+      "npa-589": {
+        "BLDG": 1
+      },
+      "npa-ba": {
+        "RGN": 1
+      }
+    },
+    ".//location/location-class/@code": {
+      "npa-88": {
+        "1": 1
+      },
+      "npa-589": {
+        "1": 1
+      },
+      "npa-ba": {
+        "1": 1
+      }
+    },
+    ".//location/location-id/@vocabulary": {
+      "npa-88": {
+        "G1": 1
+      },
+      "npa-ba": {
+        "G1": 1
+      }
+    },
+    ".//location/location-reach/@code": {
+      "npa-88": {
+        "1": 1
+      },
+      "npa-589": {
+        "1": 1
+      },
+      "npa-ba": {
+        "1": 1
+      }
+    },
+    ".//location/exactness/@code": {
+      "npa-88": {
+        "2": 1
+      },
+      "npa-589": {
+        "2": 1
+      },
+      "npa-ba": {
+        "2": 1
+      }
+    },
+    ".//planned-disbursement/@type": {
+      "npa-88": {
+        "1": 1
+      },
+      "npa-589": {
+        "1": 1
+      },
+      "npa-ba": {
+        "1": 1
+      }
+    },
+    ".//planned-disbursement/provider-org/@type": {
+      "npa-88": {
+        "Grant": 1
+      },
+      "npa-589": {
+        "GRANT": 1
+      },
+      "npa-ba": {
+        "Grant": 1
+      }
+    },
+    ".//planned-disbursement/receiver-org/@type": {
+      "npa-88": {
+        "Grant": 1
+      },
+      "npa-589": {
+        "GRANT": 1
+      },
+      "npa-ba": {
+        "Grant": 1
+      }
+    },
+    ".//planned-disbursement/value/@currency": {
+      "npa-88": {
+        "BAM": 1
+      },
+      "npa-589": {
+        "USD": 1
+      },
+      "npa-ba": {
+        "BAM": 1
+      }
+    },
+    ".//recipient-region/@vocabulary": {
+      "npa-88": {
+        "99": 1
+      },
+      "npa-589": {
+        "1": 1
+      },
+      "npa-ba": {
+        "99": 1
+      }
+    },
+    ".//result/@type": {
+      "npa-88": {
+        "1": 6
+      },
+      "npa-589": {
+        "2": 11,
+        "1": 20,
+        "3": 1
+      },
+      "npa-ba": {
+        "1": 1
+      }
+    },
+    ".//result/indicator/@measure": {
+      "npa-88": {
+        "2": 6
+      },
+      "npa-589": {
+        "1": 45,
+        "2": 20
+      },
+      "npa-ba": {
+        "2": 1
+      }
+    },
+    ".//result/indicator/reference/@vocabulary": {
+      "npa-88": {
+        "99": 1
+      },
+      "npa-589": {
+        "99": 63
+      }
+    },
+    ".//transaction/aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "npa-88": {
+        "B03": 2
+      },
+      "npa-589": {
+        "B01": 1
+      }
+    },
+    ".//transaction/flow-type/@code": {
+      "npa-88": {
+        "10": 2
+      }
+    },
+    ".//other-identifier/@type": {
+      "npa-589": {
+        "A3": 1
+      }
+    },
+    ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "npa-589": {
+        "589": 1
+      }
+    },
+    ".//transaction/aid-type/@vocabulary": {
+      "npa-589": {
+        "1": 1
+      }
+    }
+  }
+}

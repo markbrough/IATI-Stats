@@ -1,0 +1,84 @@
+{
+  ".//@default-currency": {
+    "EUR": {
+      "hi_fed-activities": 1
+    }
+  },
+  ".//@xml:lang": {
+    "fr": {
+      "hi_fed-activities": 1
+    },
+    "en": {
+      "hi_fed-activities": 4
+    }
+  },
+  ".//activity-date/@type": {
+    "1": {
+      "hi_fed-activities": 1
+    },
+    "4": {
+      "hi_fed-activities": 1
+    }
+  },
+  ".//activity-status/@code": {
+    "4": {
+      "hi_fed-activities": 1
+    }
+  },
+  ".//budget/@status": {
+    "2": {
+      "hi_fed-activities": 1
+    }
+  },
+  ".//budget/@type": {
+    "1": {
+      "hi_fed-activities": 1
+    }
+  },
+  ".//budget/value/@currency": {
+    "GBP": {
+      "hi_fed-activities": 1
+    }
+  },
+  ".//description/@type": {
+    "1": {
+      "hi_fed-activities": 1
+    }
+  },
+  ".//participating-org/@role": {
+    "1": {
+      "hi_fed-activities": 1
+    },
+    "2": {
+      "hi_fed-activities": 1
+    },
+    "4": {
+      "hi_fed-activities": 1
+    }
+  },
+  ".//participating-org/@type": {
+    "21": {
+      "hi_fed-activities": 3
+    }
+  },
+  ".//recipient-country/@code": {
+    "MZ": {
+      "hi_fed-activities": 1
+    }
+  },
+  ".//reporting-org/@type": {
+    "21": {
+      "hi_fed-activities": 1
+    }
+  },
+  ".//sector/@vocabulary": {
+    "1": {
+      "hi_fed-activities": 1
+    }
+  },
+  ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "99810": {
+      "hi_fed-activities": 1
+    }
+  }
+}

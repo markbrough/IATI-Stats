@@ -1,0 +1,749 @@
+{
+  "iati-activity": {
+    "acord-cd": 1,
+    "acord-289": 1,
+    "acord-ss": 1,
+    "acord-tz": 1
+  },
+  "iati-activity/@default-currency": {
+    "acord-cd": 1,
+    "acord-289": 1,
+    "acord-ss": 1,
+    "acord-tz": 1
+  },
+  "iati-activity/@hierarchy": {
+    "acord-cd": 1,
+    "acord-289": 1,
+    "acord-ss": 1,
+    "acord-tz": 1
+  },
+  "iati-activity/@humanitarian": {
+    "acord-ss": 1
+  },
+  "iati-activity/@last-updated-datetime": {
+    "acord-cd": 1,
+    "acord-289": 1,
+    "acord-ss": 1,
+    "acord-tz": 1
+  },
+  "iati-activity/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "acord-cd": 1,
+    "acord-289": 1,
+    "acord-ss": 1,
+    "acord-tz": 1
+  },
+  "iati-activity/activity-date": {
+    "acord-cd": 2,
+    "acord-289": 1,
+    "acord-ss": 1,
+    "acord-tz": 1
+  },
+  "iati-activity/activity-date/@iso-date": {
+    "acord-cd": 2,
+    "acord-289": 1,
+    "acord-ss": 1,
+    "acord-tz": 1
+  },
+  "iati-activity/activity-date/@type": {
+    "acord-cd": 2,
+    "acord-289": 1,
+    "acord-ss": 1,
+    "acord-tz": 1
+  },
+  "iati-activity/activity-date/narrative": {
+    "acord-289": 1,
+    "acord-tz": 1
+  },
+  "iati-activity/activity-date/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "acord-289": 1,
+    "acord-tz": 1
+  },
+  "iati-activity/activity-scope": {
+    "acord-ss": 1
+  },
+  "iati-activity/activity-scope/@code": {
+    "acord-ss": 1
+  },
+  "iati-activity/activity-status": {
+    "acord-cd": 1,
+    "acord-289": 1,
+    "acord-ss": 1,
+    "acord-tz": 1
+  },
+  "iati-activity/activity-status/@code": {
+    "acord-cd": 1,
+    "acord-289": 1,
+    "acord-ss": 1,
+    "acord-tz": 1
+  },
+  "iati-activity/budget": {
+    "acord-cd": 1,
+    "acord-289": 1,
+    "acord-tz": 1
+  },
+  "iati-activity/budget/@type": {
+    "acord-cd": 1,
+    "acord-289": 1,
+    "acord-tz": 1
+  },
+  "iati-activity/budget/period-end": {
+    "acord-cd": 1,
+    "acord-289": 1,
+    "acord-tz": 1
+  },
+  "iati-activity/budget/period-end/@iso-date": {
+    "acord-cd": 1,
+    "acord-289": 1,
+    "acord-tz": 1
+  },
+  "iati-activity/budget/period-start": {
+    "acord-cd": 1,
+    "acord-289": 1,
+    "acord-tz": 1
+  },
+  "iati-activity/budget/period-start/@iso-date": {
+    "acord-cd": 1,
+    "acord-289": 1,
+    "acord-tz": 1
+  },
+  "iati-activity/budget/value": {
+    "acord-cd": 1,
+    "acord-289": 1,
+    "acord-tz": 1
+  },
+  "iati-activity/budget/value/@currency": {
+    "acord-cd": 1,
+    "acord-289": 1,
+    "acord-tz": 1
+  },
+  "iati-activity/budget/value/@value-date": {
+    "acord-cd": 1,
+    "acord-289": 1,
+    "acord-tz": 1
+  },
+  "iati-activity/contact-info": {
+    "acord-cd": 1,
+    "acord-289": 1,
+    "acord-ss": 1,
+    "acord-tz": 1
+  },
+  "iati-activity/contact-info/@type": {
+    "acord-ss": 1
+  },
+  "iati-activity/contact-info/department": {
+    "acord-ss": 1
+  },
+  "iati-activity/contact-info/department/narrative": {
+    "acord-ss": 1
+  },
+  "iati-activity/contact-info/department/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "acord-ss": 1
+  },
+  "iati-activity/contact-info/email": {
+    "acord-cd": 1,
+    "acord-289": 1,
+    "acord-ss": 1,
+    "acord-tz": 1
+  },
+  "iati-activity/contact-info/job-title": {
+    "acord-ss": 1
+  },
+  "iati-activity/contact-info/job-title/narrative": {
+    "acord-ss": 1
+  },
+  "iati-activity/contact-info/job-title/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "acord-ss": 1
+  },
+  "iati-activity/contact-info/mailing-address": {
+    "acord-289": 1,
+    "acord-ss": 1,
+    "acord-tz": 1
+  },
+  "iati-activity/contact-info/mailing-address/narrative": {
+    "acord-289": 1,
+    "acord-ss": 1,
+    "acord-tz": 1
+  },
+  "iati-activity/contact-info/mailing-address/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "acord-ss": 1
+  },
+  "iati-activity/contact-info/organisation": {
+    "acord-289": 1,
+    "acord-ss": 1,
+    "acord-tz": 1
+  },
+  "iati-activity/contact-info/organisation/narrative": {
+    "acord-289": 1,
+    "acord-ss": 1,
+    "acord-tz": 1
+  },
+  "iati-activity/contact-info/organisation/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "acord-ss": 1
+  },
+  "iati-activity/contact-info/person-name": {
+    "acord-ss": 1
+  },
+  "iati-activity/contact-info/person-name/narrative": {
+    "acord-ss": 1
+  },
+  "iati-activity/contact-info/person-name/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "acord-ss": 1
+  },
+  "iati-activity/contact-info/telephone": {
+    "acord-289": 1,
+    "acord-ss": 1,
+    "acord-tz": 1
+  },
+  "iati-activity/contact-info/website": {
+    "acord-289": 1,
+    "acord-ss": 1,
+    "acord-tz": 1
+  },
+  "iati-activity/default-aid-type": {
+    "acord-cd": 1,
+    "acord-289": 1,
+    "acord-ss": 1,
+    "acord-tz": 1
+  },
+  "iati-activity/default-aid-type/@code": {
+    "acord-cd": 1,
+    "acord-289": 1,
+    "acord-ss": 1,
+    "acord-tz": 1
+  },
+  "iati-activity/default-flow-type": {
+    "acord-cd": 1,
+    "acord-289": 1,
+    "acord-ss": 1,
+    "acord-tz": 1
+  },
+  "iati-activity/default-flow-type/@code": {
+    "acord-cd": 1,
+    "acord-289": 1,
+    "acord-ss": 1,
+    "acord-tz": 1
+  },
+  "iati-activity/description": {
+    "acord-cd": 1,
+    "acord-289": 1,
+    "acord-ss": 1,
+    "acord-tz": 1
+  },
+  "iati-activity/description/@type": {
+    "acord-cd": 1,
+    "acord-289": 1,
+    "acord-ss": 1,
+    "acord-tz": 1
+  },
+  "iati-activity/description/narrative": {
+    "acord-cd": 1,
+    "acord-289": 1,
+    "acord-ss": 1,
+    "acord-tz": 1
+  },
+  "iati-activity/description/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "acord-cd": 1,
+    "acord-289": 1,
+    "acord-ss": 1,
+    "acord-tz": 1
+  },
+  "iati-activity/document-link": {
+    "acord-cd": 1,
+    "acord-ss": 1
+  },
+  "iati-activity/document-link/@format": {
+    "acord-cd": 1,
+    "acord-ss": 1
+  },
+  "iati-activity/document-link/@url": {
+    "acord-cd": 1,
+    "acord-ss": 1
+  },
+  "iati-activity/document-link/category": {
+    "acord-cd": 1,
+    "acord-ss": 1
+  },
+  "iati-activity/document-link/category/@code": {
+    "acord-cd": 1,
+    "acord-ss": 1
+  },
+  "iati-activity/document-link/document-date": {
+    "acord-ss": 1
+  },
+  "iati-activity/document-link/document-date/@iso-date": {
+    "acord-ss": 1
+  },
+  "iati-activity/document-link/language": {
+    "acord-cd": 1
+  },
+  "iati-activity/document-link/language/@code": {
+    "acord-cd": 1
+  },
+  "iati-activity/document-link/title": {
+    "acord-cd": 1,
+    "acord-ss": 1
+  },
+  "iati-activity/document-link/title/narrative": {
+    "acord-cd": 1,
+    "acord-ss": 1
+  },
+  "iati-activity/document-link/title/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "acord-ss": 1
+  },
+  "iati-activity/iati-identifier": {
+    "acord-cd": 1,
+    "acord-289": 1,
+    "acord-ss": 1,
+    "acord-tz": 1
+  },
+  "iati-activity/participating-org": {
+    "acord-cd": 3,
+    "acord-289": 1,
+    "acord-ss": 4,
+    "acord-tz": 1
+  },
+  "iati-activity/participating-org/@ref": {
+    "acord-cd": 3,
+    "acord-289": 1,
+    "acord-ss": 1,
+    "acord-tz": 1
+  },
+  "iati-activity/participating-org/@role": {
+    "acord-cd": 3,
+    "acord-289": 1,
+    "acord-ss": 4,
+    "acord-tz": 1
+  },
+  "iati-activity/participating-org/@type": {
+    "acord-cd": 3,
+    "acord-289": 1,
+    "acord-ss": 4,
+    "acord-tz": 1
+  },
+  "iati-activity/participating-org/narrative": {
+    "acord-cd": 3,
+    "acord-289": 1,
+    "acord-ss": 4,
+    "acord-tz": 1
+  },
+  "iati-activity/participating-org/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "acord-cd": 1,
+    "acord-289": 1,
+    "acord-ss": 4,
+    "acord-tz": 1
+  },
+  "iati-activity/recipient-country": {
+    "acord-cd": 1,
+    "acord-289": 1,
+    "acord-ss": 1,
+    "acord-tz": 1
+  },
+  "iati-activity/recipient-country/@code": {
+    "acord-cd": 1,
+    "acord-289": 1,
+    "acord-ss": 1,
+    "acord-tz": 1
+  },
+  "iati-activity/recipient-country/@percentage": {
+    "acord-289": 1,
+    "acord-ss": 1,
+    "acord-tz": 1
+  },
+  "iati-activity/recipient-country/narrative": {
+    "acord-289": 1,
+    "acord-ss": 1,
+    "acord-tz": 1
+  },
+  "iati-activity/recipient-country/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "acord-289": 1,
+    "acord-ss": 1,
+    "acord-tz": 1
+  },
+  "iati-activity/recipient-region": {
+    "acord-289": 1,
+    "acord-tz": 1
+  },
+  "iati-activity/recipient-region/@code": {
+    "acord-289": 1,
+    "acord-tz": 1
+  },
+  "iati-activity/reporting-org": {
+    "acord-cd": 1,
+    "acord-289": 1,
+    "acord-ss": 1,
+    "acord-tz": 1
+  },
+  "iati-activity/reporting-org/@ref": {
+    "acord-cd": 1,
+    "acord-289": 1,
+    "acord-ss": 1,
+    "acord-tz": 1
+  },
+  "iati-activity/reporting-org/@type": {
+    "acord-cd": 1,
+    "acord-289": 1,
+    "acord-ss": 1,
+    "acord-tz": 1
+  },
+  "iati-activity/reporting-org/narrative": {
+    "acord-cd": 1,
+    "acord-289": 1,
+    "acord-ss": 1,
+    "acord-tz": 1
+  },
+  "iati-activity/reporting-org/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "acord-cd": 1,
+    "acord-289": 1,
+    "acord-ss": 1,
+    "acord-tz": 1
+  },
+  "iati-activity/result": {
+    "acord-ss": 16
+  },
+  "iati-activity/result/@aggregation-status": {
+    "acord-ss": 16
+  },
+  "iati-activity/result/@type": {
+    "acord-ss": 16
+  },
+  "iati-activity/result/description": {
+    "acord-ss": 15
+  },
+  "iati-activity/result/description/narrative": {
+    "acord-ss": 15
+  },
+  "iati-activity/result/description/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "acord-ss": 14
+  },
+  "iati-activity/result/indicator": {
+    "acord-ss": 16
+  },
+  "iati-activity/result/indicator/@ascending": {
+    "acord-ss": 11
+  },
+  "iati-activity/result/indicator/@measure": {
+    "acord-ss": 16
+  },
+  "iati-activity/result/indicator/baseline": {
+    "acord-ss": 11
+  },
+  "iati-activity/result/indicator/baseline/@value": {
+    "acord-ss": 11
+  },
+  "iati-activity/result/indicator/baseline/@year": {
+    "acord-ss": 11
+  },
+  "iati-activity/result/indicator/baseline/comment": {
+    "acord-ss": 3
+  },
+  "iati-activity/result/indicator/baseline/comment/narrative": {
+    "acord-ss": 3
+  },
+  "iati-activity/result/indicator/baseline/comment/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "acord-ss": 3
+  },
+  "iati-activity/result/indicator/description": {
+    "acord-ss": 11
+  },
+  "iati-activity/result/indicator/description/narrative": {
+    "acord-ss": 11
+  },
+  "iati-activity/result/indicator/description/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "acord-ss": 8
+  },
+  "iati-activity/result/indicator/period": {
+    "acord-ss": 16
+  },
+  "iati-activity/result/indicator/period/actual": {
+    "acord-ss": 15
+  },
+  "iati-activity/result/indicator/period/actual/@value": {
+    "acord-ss": 15
+  },
+  "iati-activity/result/indicator/period/actual/comment": {
+    "acord-ss": 11
+  },
+  "iati-activity/result/indicator/period/actual/comment/narrative": {
+    "acord-ss": 11
+  },
+  "iati-activity/result/indicator/period/actual/comment/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "acord-ss": 6
+  },
+  "iati-activity/result/indicator/period/actual/location": {
+    "acord-ss": 4
+  },
+  "iati-activity/result/indicator/period/actual/location/@ref": {
+    "acord-ss": 4
+  },
+  "iati-activity/result/indicator/period/period-end": {
+    "acord-ss": 16
+  },
+  "iati-activity/result/indicator/period/period-end/@iso-date": {
+    "acord-ss": 16
+  },
+  "iati-activity/result/indicator/period/period-start": {
+    "acord-ss": 16
+  },
+  "iati-activity/result/indicator/period/period-start/@iso-date": {
+    "acord-ss": 16
+  },
+  "iati-activity/result/indicator/period/target": {
+    "acord-ss": 15
+  },
+  "iati-activity/result/indicator/period/target/@value": {
+    "acord-ss": 15
+  },
+  "iati-activity/result/indicator/period/target/comment": {
+    "acord-ss": 10
+  },
+  "iati-activity/result/indicator/period/target/comment/narrative": {
+    "acord-ss": 10
+  },
+  "iati-activity/result/indicator/period/target/comment/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "acord-ss": 8
+  },
+  "iati-activity/result/indicator/period/target/location": {
+    "acord-ss": 3
+  },
+  "iati-activity/result/indicator/period/target/location/@ref": {
+    "acord-ss": 3
+  },
+  "iati-activity/result/indicator/title": {
+    "acord-ss": 16
+  },
+  "iati-activity/result/indicator/title/narrative": {
+    "acord-ss": 16
+  },
+  "iati-activity/result/indicator/title/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "acord-ss": 15
+  },
+  "iati-activity/result/title": {
+    "acord-ss": 16
+  },
+  "iati-activity/result/title/narrative": {
+    "acord-ss": 16
+  },
+  "iati-activity/result/title/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "acord-ss": 16
+  },
+  "iati-activity/sector": {
+    "acord-cd": 1,
+    "acord-289": 1,
+    "acord-ss": 1,
+    "acord-tz": 1
+  },
+  "iati-activity/sector/@code": {
+    "acord-cd": 1,
+    "acord-289": 1,
+    "acord-ss": 1,
+    "acord-tz": 1
+  },
+  "iati-activity/sector/@vocabulary": {
+    "acord-cd": 1,
+    "acord-289": 1,
+    "acord-ss": 1,
+    "acord-tz": 1
+  },
+  "iati-activity/title": {
+    "acord-cd": 1,
+    "acord-289": 1,
+    "acord-ss": 1,
+    "acord-tz": 1
+  },
+  "iati-activity/title/narrative": {
+    "acord-cd": 1,
+    "acord-289": 1,
+    "acord-ss": 1,
+    "acord-tz": 1
+  },
+  "iati-activity/title/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "acord-cd": 1,
+    "acord-289": 1,
+    "acord-ss": 1,
+    "acord-tz": 1
+  },
+  "iati-activity/transaction": {
+    "acord-cd": 26,
+    "acord-289": 34,
+    "acord-tz": 36
+  },
+  "iati-activity/transaction/@ref": {
+    "acord-cd": 26,
+    "acord-289": 34,
+    "acord-tz": 36
+  },
+  "iati-activity/transaction/aid-type": {
+    "acord-cd": 26,
+    "acord-289": 19,
+    "acord-tz": 19
+  },
+  "iati-activity/transaction/aid-type/@code": {
+    "acord-cd": 26,
+    "acord-289": 19,
+    "acord-tz": 19
+  },
+  "iati-activity/transaction/description": {
+    "acord-289": 23,
+    "acord-tz": 23
+  },
+  "iati-activity/transaction/description/narrative": {
+    "acord-289": 23,
+    "acord-tz": 23
+  },
+  "iati-activity/transaction/description/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "acord-289": 5,
+    "acord-tz": 5
+  },
+  "iati-activity/transaction/disbursement-channel": {
+    "acord-289": 25,
+    "acord-tz": 25
+  },
+  "iati-activity/transaction/disbursement-channel/@code": {
+    "acord-289": 25,
+    "acord-tz": 25
+  },
+  "iati-activity/transaction/finance-type": {
+    "acord-cd": 5,
+    "acord-289": 18,
+    "acord-tz": 18
+  },
+  "iati-activity/transaction/finance-type/@code": {
+    "acord-cd": 5,
+    "acord-289": 18,
+    "acord-tz": 18
+  },
+  "iati-activity/transaction/flow-type": {
+    "acord-cd": 26,
+    "acord-289": 20,
+    "acord-tz": 20
+  },
+  "iati-activity/transaction/flow-type/@code": {
+    "acord-cd": 26,
+    "acord-289": 20,
+    "acord-tz": 20
+  },
+  "iati-activity/transaction/provider-org": {
+    "acord-cd": 26,
+    "acord-289": 34,
+    "acord-tz": 36
+  },
+  "iati-activity/transaction/provider-org/@provider-activity-id": {
+    "acord-cd": 26,
+    "acord-289": 31,
+    "acord-tz": 33
+  },
+  "iati-activity/transaction/provider-org/@ref": {
+    "acord-cd": 26,
+    "acord-289": 33,
+    "acord-tz": 35
+  },
+  "iati-activity/transaction/provider-org/narrative": {
+    "acord-cd": 26,
+    "acord-289": 34,
+    "acord-tz": 34
+  },
+  "iati-activity/transaction/provider-org/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "acord-289": 5,
+    "acord-tz": 5
+  },
+  "iati-activity/transaction/receiver-org": {
+    "acord-cd": 20,
+    "acord-289": 34,
+    "acord-tz": 36
+  },
+  "iati-activity/transaction/receiver-org/@receiver-activity-id": {
+    "acord-cd": 12,
+    "acord-289": 34,
+    "acord-tz": 36
+  },
+  "iati-activity/transaction/receiver-org/@ref": {
+    "acord-cd": 14,
+    "acord-289": 34,
+    "acord-tz": 36
+  },
+  "iati-activity/transaction/receiver-org/narrative": {
+    "acord-cd": 20,
+    "acord-289": 34,
+    "acord-tz": 34
+  },
+  "iati-activity/transaction/receiver-org/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "acord-289": 6,
+    "acord-tz": 6
+  },
+  "iati-activity/transaction/tied-status": {
+    "acord-289": 16,
+    "acord-tz": 16
+  },
+  "iati-activity/transaction/tied-status/@code": {
+    "acord-289": 16,
+    "acord-tz": 16
+  },
+  "iati-activity/transaction/transaction-date": {
+    "acord-cd": 26,
+    "acord-289": 34,
+    "acord-tz": 36
+  },
+  "iati-activity/transaction/transaction-date/@iso-date": {
+    "acord-cd": 26,
+    "acord-289": 34,
+    "acord-tz": 36
+  },
+  "iati-activity/transaction/transaction-type": {
+    "acord-cd": 26,
+    "acord-289": 34,
+    "acord-tz": 36
+  },
+  "iati-activity/transaction/transaction-type/@code": {
+    "acord-cd": 26,
+    "acord-289": 34,
+    "acord-tz": 36
+  },
+  "iati-activity/transaction/value": {
+    "acord-cd": 26,
+    "acord-289": 34,
+    "acord-tz": 36
+  },
+  "iati-activity/transaction/value/@currency": {
+    "acord-cd": 21,
+    "acord-289": 9,
+    "acord-tz": 9
+  },
+  "iati-activity/transaction/value/@value-date": {
+    "acord-cd": 26,
+    "acord-289": 34,
+    "acord-tz": 36
+  },
+  "iati-organisation": {
+    "acord-org": 1
+  },
+  "iati-organisation/@default-currency": {
+    "acord-org": 1
+  },
+  "iati-organisation/@last-updated-datetime": {
+    "acord-org": 1
+  },
+  "iati-organisation/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "acord-org": 1
+  },
+  "iati-organisation/iati-identifier": {
+    "acord-org": 1
+  },
+  "iati-organisation/name": {
+    "acord-org": 1
+  },
+  "iati-organisation/name/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "acord-org": 1
+  },
+  "iati-organisation/reporting-org": {
+    "acord-org": 1
+  },
+  "iati-organisation/reporting-org/@ref": {
+    "acord-org": 1
+  },
+  "iati-organisation/reporting-org/@type": {
+    "acord-org": 1
+  },
+  "iati-organisation/reporting-org/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "acord-org": 1
+  }
+}

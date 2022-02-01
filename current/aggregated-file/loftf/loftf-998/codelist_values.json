@@ -1,0 +1,80 @@
+{
+  ".//@default-currency": {
+    "USD": 1
+  },
+  ".//@xml:lang": {
+    "en": 26
+  },
+  ".//activity-date/@type": {
+    "2": 1
+  },
+  ".//activity-status/@code": {
+    "2": 1
+  },
+  ".//budget/@status": {
+    "2": 6
+  },
+  ".//budget/@type": {
+    "1": 6
+  },
+  ".//budget/value/@currency": {
+    "DKK": 6
+  },
+  ".//description/@type": {
+    "1": 1
+  },
+  ".//participating-org/@role": {
+    "1": 1,
+    "2": 1
+  },
+  ".//participating-org/@type": {
+    "10": 1,
+    "21": 1
+  },
+  ".//recipient-region/@vocabulary": {
+    "1": 1
+  },
+  ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "998": 1
+  },
+  ".//reporting-org/@type": {
+    "21": 1
+  },
+  ".//sector/@vocabulary": {
+    "1": 1
+  },
+  ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "99810": 1
+  },
+  ".//transaction/aid-type/@vocabulary": {
+    "1": 9
+  },
+  ".//transaction/aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "B03": 9
+  },
+  ".//transaction/finance-type/@code": {
+    "110": 8
+  },
+  ".//transaction/flow-type/@code": {
+    "10": 8
+  },
+  ".//transaction/provider-org/@type": {
+    "10": 9,
+    "21": 1
+  },
+  ".//transaction/receiver-org/@type": {
+    "21": 9
+  },
+  ".//transaction/tied-status/@code": {
+    "5": 2
+  },
+  ".//transaction/transaction-type/@code": {
+    "1": 5,
+    "11": 3,
+    "3": 1,
+    "13": 1
+  },
+  ".//transaction/value/@currency": {
+    "DKK": 10
+  }
+}

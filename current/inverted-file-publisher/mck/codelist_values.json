@@ -1,0 +1,242 @@
+{
+  ".//@default-currency": {
+    "GBP": {
+      "mck-pk": 2,
+      "mck-gb": 1,
+      "mck-sl": 3,
+      "mck-ke": 1,
+      "mck-et": 2
+    }
+  },
+  ".//@xml:lang": {
+    "en": {
+      "mck-pk": 19,
+      "mck-gb": 16,
+      "mck-sl": 2,
+      "mck-ke": 16,
+      "mck-et": 6
+    }
+  },
+  ".//activity-date/@type": {
+    "2": {
+      "mck-pk": 2,
+      "mck-gb": 1,
+      "mck-sl": 3,
+      "mck-ke": 1,
+      "mck-et": 2
+    },
+    "4": {
+      "mck-pk": 1,
+      "mck-gb": 1,
+      "mck-sl": 2,
+      "mck-ke": 1
+    },
+    "3": {
+      "mck-pk": 1,
+      "mck-sl": 1,
+      "mck-et": 1
+    }
+  },
+  ".//activity-scope/@code": {
+    "4": {
+      "mck-pk": 1,
+      "mck-gb": 1,
+      "mck-sl": 3,
+      "mck-ke": 1,
+      "mck-et": 1
+    },
+    "6": {
+      "mck-pk": 1
+    }
+  },
+  ".//activity-status/@code": {
+    "3": {
+      "mck-pk": 1,
+      "mck-gb": 1,
+      "mck-sl": 2,
+      "mck-ke": 1
+    },
+    "2": {
+      "mck-pk": 1,
+      "mck-sl": 1,
+      "mck-et": 2
+    }
+  },
+  ".//budget/@status": {
+    "1": {
+      "mck-pk": 1,
+      "mck-ke": 1,
+      "mck-et": 1
+    },
+    "2": {
+      "mck-pk": 10,
+      "mck-sl": 2,
+      "mck-et": 16
+    }
+  },
+  ".//budget/@type": {
+    "1": {
+      "mck-pk": 7,
+      "mck-gb": 1,
+      "mck-sl": 4,
+      "mck-ke": 1,
+      "mck-et": 12
+    }
+  },
+  ".//budget/value/@currency": {
+    "GBP": {
+      "mck-pk": 9,
+      "mck-sl": 2,
+      "mck-et": 16
+    }
+  },
+  ".//contact-info/@type": {
+    "1": {
+      "mck-pk": 1,
+      "mck-gb": 1,
+      "mck-sl": 3,
+      "mck-ke": 1,
+      "mck-et": 1
+    }
+  },
+  ".//description/@type": {
+    "1": {
+      "mck-pk": 2,
+      "mck-gb": 1,
+      "mck-sl": 3,
+      "mck-ke": 1,
+      "mck-et": 2
+    }
+  },
+  ".//participating-org/@role": {
+    "1": {
+      "mck-pk": 1,
+      "mck-gb": 1,
+      "mck-sl": 2,
+      "mck-ke": 1,
+      "mck-et": 1
+    },
+    "4": {
+      "mck-pk": 1,
+      "mck-sl": 1,
+      "mck-et": 1
+    }
+  },
+  ".//participating-org/@type": {
+    "10": {
+      "mck-pk": 1,
+      "mck-gb": 1,
+      "mck-sl": 2,
+      "mck-ke": 1,
+      "mck-et": 1
+    },
+    "70": {
+      "mck-sl": 1,
+      "mck-et": 1
+    }
+  },
+  ".//recipient-country/@code": {
+    "PK": {
+      "mck-pk": 2
+    },
+    "GB": {
+      "mck-gb": 1
+    },
+    "SL": {
+      "mck-sl": 3
+    },
+    "KE": {
+      "mck-ke": 1
+    },
+    "ET": {
+      "mck-et": 2
+    }
+  },
+  ".//reporting-org/@type": {
+    "70": {
+      "mck-pk": 2,
+      "mck-gb": 1,
+      "mck-sl": 3,
+      "mck-ke": 1,
+      "mck-et": 2
+    }
+  },
+  ".//sector/@vocabulary": {
+    "1": {
+      "mck-pk": 2,
+      "mck-gb": 2,
+      "mck-sl": 5,
+      "mck-ke": 1,
+      "mck-et": 2
+    }
+  },
+  ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "11220": {
+      "mck-pk": 2
+    },
+    "43082": {
+      "mck-gb": 2
+    },
+    "99810": {
+      "mck-sl": 4
+    },
+    "43010": {
+      "mck-sl": 1
+    },
+    "32210": {
+      "mck-ke": 1
+    },
+    "12110": {
+      "mck-et": 1
+    },
+    "15110": {
+      "mck-et": 1
+    }
+  },
+  ".//transaction/disbursement-channel/@code": {
+    "2": {
+      "mck-pk": 1,
+      "mck-gb": 1,
+      "mck-sl": 2,
+      "mck-ke": 1
+    }
+  },
+  ".//transaction/sector/@vocabulary": {
+    "1": {
+      "mck-pk": 1,
+      "mck-gb": 1,
+      "mck-sl": 2
+    }
+  },
+  ".//transaction/sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "11220": {
+      "mck-pk": 1
+    },
+    "43082": {
+      "mck-gb": 1
+    },
+    "99810": {
+      "mck-sl": 2
+    }
+  },
+  ".//transaction/transaction-type/@code": {
+    "1": {
+      "mck-pk": 1,
+      "mck-gb": 1,
+      "mck-sl": 2,
+      "mck-ke": 1
+    },
+    "2": {
+      "mck-pk": 1,
+      "mck-sl": 1,
+      "mck-et": 1
+    }
+  },
+  ".//transaction/value/@currency": {
+    "GBP": {
+      "mck-pk": 1,
+      "mck-sl": 1,
+      "mck-et": 1
+    }
+  }
+}

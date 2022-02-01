@@ -1,0 +1,224 @@
+{
+  ".//@default-currency": {
+    "GBP": {
+      "rem-lk": 1,
+      "rem-lr": 1,
+      "rem-congo": 1
+    },
+    "EUR": {
+      "rem-cd": 1
+    }
+  },
+  ".//@xml:lang": {
+    "en": {
+      "rem-lk": 18,
+      "rem-lr": 16,
+      "rem-congo": 24,
+      "rem-cd": 19
+    },
+    "fr": {
+      "rem-congo": 1
+    }
+  },
+  ".//activity-date/@type": {
+    "start-actual": {
+      "rem-lk": 1,
+      "rem-lr": 1,
+      "rem-congo": 1,
+      "rem-cd": 1
+    },
+    "end-planned": {
+      "rem-lk": 1,
+      "rem-congo": 1,
+      "rem-cd": 1
+    },
+    "end-actual": {
+      "rem-lk": 1,
+      "rem-lr": 1
+    }
+  },
+  ".//activity-status/@code": {
+    "2": {
+      "rem-lk": 1,
+      "rem-congo": 1,
+      "rem-cd": 1
+    },
+    "3": {
+      "rem-lr": 1
+    }
+  },
+  ".//budget/@type": {
+    "1": {
+      "rem-lk": 1,
+      "rem-lr": 1,
+      "rem-congo": 1,
+      "rem-cd": 1
+    }
+  },
+  ".//budget/value/@currency": {
+    "GBP": {
+      "rem-lk": 1
+    },
+    "USD": {
+      "rem-lr": 1
+    },
+    "EUR": {
+      "rem-congo": 1,
+      "rem-cd": 1
+    }
+  },
+  ".//description/@type": {
+    "1": {
+      "rem-lk": 1,
+      "rem-lr": 1,
+      "rem-congo": 1,
+      "rem-cd": 1
+    }
+  },
+  ".//document-link/@format": {
+    "text/html": {
+      "rem-congo": 1,
+      "rem-cd": 1
+    }
+  },
+  ".//document-link/category/@code": {
+    "A02": {
+      "rem-congo": 1
+    },
+    "A06": {
+      "rem-cd": 1
+    }
+  },
+  ".//participating-org/@role": {
+    "Funding": {
+      "rem-lk": 1,
+      "rem-lr": 1,
+      "rem-congo": 2,
+      "rem-cd": 1
+    },
+    "Implementing": {
+      "rem-congo": 2
+    }
+  },
+  ".//participating-org/@type": {
+    "10": {
+      "rem-lk": 1,
+      "rem-congo": 1
+    },
+    "40": {
+      "rem-lr": 1,
+      "rem-congo": 1,
+      "rem-cd": 1
+    },
+    "21": {
+      "rem-congo": 1
+    },
+    "22": {
+      "rem-congo": 1
+    }
+  },
+  ".//recipient-country/@code": {
+    "LK": {
+      "rem-lk": 1
+    },
+    "LR": {
+      "rem-lr": 1
+    },
+    "CG": {
+      "rem-congo": 1
+    },
+    "CF": {
+      "rem-congo": 1
+    },
+    "GA": {
+      "rem-congo": 1
+    },
+    "CM": {
+      "rem-congo": 1
+    },
+    "CD": {
+      "rem-congo": 1,
+      "rem-cd": 1
+    }
+  },
+  ".//reporting-org/@type": {
+    "21": {
+      "rem-lk": 1,
+      "rem-lr": 1,
+      "rem-congo": 1,
+      "rem-cd": 1
+    }
+  },
+  ".//sector/@vocabulary": {
+    "ADT": {
+      "rem-lk": 1,
+      "rem-lr": 2
+    },
+    "DAC": {
+      "rem-congo": 2,
+      "rem-cd": 2
+    }
+  },
+  ".//sector[@vocabulary = 'DAC' or not(@vocabulary)]/@code": {
+    "15150": {
+      "rem-congo": 1,
+      "rem-cd": 1
+    },
+    "31210": {
+      "rem-congo": 1,
+      "rem-cd": 1
+    }
+  },
+  ".//transaction/aid-type/@code": {
+    "C01": {
+      "rem-lk": 3,
+      "rem-lr": 1,
+      "rem-congo": 2,
+      "rem-cd": 2
+    }
+  },
+  ".//transaction/finance-type/@code": {
+    "110": {
+      "rem-lk": 3,
+      "rem-lr": 1,
+      "rem-congo": 2,
+      "rem-cd": 2
+    }
+  },
+  ".//transaction/flow-type/@code": {
+    "10": {
+      "rem-lk": 3,
+      "rem-lr": 1,
+      "rem-congo": 2,
+      "rem-cd": 2
+    }
+  },
+  ".//transaction/tied-status/@code": {
+    "5": {
+      "rem-lk": 3,
+      "rem-lr": 1,
+      "rem-congo": 2,
+      "rem-cd": 2
+    }
+  },
+  ".//transaction/transaction-type/@code": {
+    "E": {
+      "rem-lk": 3,
+      "rem-lr": 1,
+      "rem-congo": 2,
+      "rem-cd": 2
+    }
+  },
+  ".//transaction/value/@currency": {
+    "GBP": {
+      "rem-lk": 3
+    },
+    "USD": {
+      "rem-lr": 1
+    },
+    "EUR": {
+      "rem-congo": 2,
+      "rem-cd": 2
+    }
+  }
+}

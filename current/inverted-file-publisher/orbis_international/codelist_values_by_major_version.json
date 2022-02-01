@@ -1,0 +1,289 @@
+{
+  "2": {
+    ".//@default-currency": {
+      "orbis_international-zm": {
+        "GBP": 1
+      },
+      "orbis_international-np": {
+        "GBP": 1
+      },
+      "orbis_international-et": {
+        "GBP": 1
+      }
+    },
+    ".//activity-date/@type": {
+      "orbis_international-zm": {
+        "2": 1,
+        "3": 1
+      },
+      "orbis_international-np": {
+        "2": 1,
+        "3": 1
+      },
+      "orbis_international-et": {
+        "1": 1,
+        "2": 1,
+        "3": 1
+      }
+    },
+    ".//activity-status/@code": {
+      "orbis_international-zm": {
+        "2": 1
+      },
+      "orbis_international-np": {
+        "2": 1
+      },
+      "orbis_international-et": {
+        "2": 1
+      }
+    },
+    ".//description/@type": {
+      "orbis_international-zm": {
+        "1": 1
+      },
+      "orbis_international-np": {
+        "1": 1
+      },
+      "orbis_international-et": {
+        "1": 1
+      }
+    },
+    ".//participating-org/@role": {
+      "orbis_international-zm": {
+        "1": 1,
+        "2": 1,
+        "4": 2
+      },
+      "orbis_international-np": {
+        "1": 1,
+        "2": 1,
+        "4": 1
+      },
+      "orbis_international-et": {
+        "1": 1,
+        "4": 2,
+        "2": 1
+      }
+    },
+    ".//participating-org/@type": {
+      "orbis_international-zm": {
+        "10": 1,
+        "21": 3
+      },
+      "orbis_international-np": {
+        "10": 1,
+        "21": 1,
+        "22": 1
+      },
+      "orbis_international-et": {
+        "10": 1,
+        "21": 2,
+        "22": 1
+      }
+    },
+    ".//recipient-country/@code": {
+      "orbis_international-zm": {
+        "ZM": 1
+      },
+      "orbis_international-np": {
+        "NP": 1
+      },
+      "orbis_international-et": {
+        "ET": 1
+      }
+    },
+    ".//reporting-org/@type": {
+      "orbis_international-zm": {
+        "21": 1
+      },
+      "orbis_international-np": {
+        "21": 1
+      },
+      "orbis_international-et": {
+        "21": 1
+      }
+    },
+    ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "orbis_international-zm": {
+        "12220": 1,
+        "12261": 1,
+        "12281": 1
+      },
+      "orbis_international-np": {
+        "12261": 1,
+        "12220": 1
+      },
+      "orbis_international-et": {
+        "12220": 1,
+        "12250": 1,
+        "12261": 1
+      }
+    },
+    ".//sector/@vocabulary": {
+      "orbis_international-zm": {
+        "1": 3
+      },
+      "orbis_international-np": {
+        "1": 2
+      },
+      "orbis_international-et": {
+        "1": 3
+      }
+    },
+    ".//transaction/disbursement-channel/@code": {
+      "orbis_international-zm": {
+        "2": 10
+      },
+      "orbis_international-np": {
+        "2": 2
+      },
+      "orbis_international-et": {
+        "2": 14
+      }
+    },
+    ".//transaction/provider-org/@type": {
+      "orbis_international-zm": {
+        "21": 11
+      },
+      "orbis_international-np": {
+        "21": 5
+      },
+      "orbis_international-et": {
+        "21": 24
+      }
+    },
+    ".//transaction/receiver-org/@type": {
+      "orbis_international-zm": {
+        "21": 6,
+        "22": 3
+      },
+      "orbis_international-np": {
+        "22": 1,
+        "21": 1
+      },
+      "orbis_international-et": {
+        "22": 9,
+        "21": 7
+      }
+    },
+    ".//transaction/transaction-type/@code": {
+      "orbis_international-zm": {
+        "1": 4,
+        "3": 8
+      },
+      "orbis_international-np": {
+        "2": 2,
+        "3": 1,
+        "1": 1,
+        "4": 1
+      },
+      "orbis_international-et": {
+        "4": 8,
+        "3": 9,
+        "1": 6,
+        "2": 1
+      }
+    },
+    ".//transaction/value/@currency": {
+      "orbis_international-zm": {
+        "GBP": 11
+      },
+      "orbis_international-np": {
+        "GBP": 4
+      },
+      "orbis_international-et": {
+        "GBP": 24
+      }
+    },
+    ".//@xml:lang": {
+      "orbis_international-zm": {
+        "en": 3
+      },
+      "orbis_international-np": {
+        "en": 3
+      },
+      "orbis_international-et": {
+        "en": 3
+      }
+    },
+    ".//budget/@status": {
+      "orbis_international-np": {
+        "2": 4
+      },
+      "orbis_international-et": {
+        "2": 5
+      }
+    },
+    ".//budget/@type": {
+      "orbis_international-np": {
+        "1": 4
+      }
+    },
+    ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "orbis_international-np": {
+        "C01": 1
+      },
+      "orbis_international-et": {
+        "C01": 1
+      }
+    },
+    ".//default-aid-type/@vocabulary": {
+      "orbis_international-np": {
+        "1": 1
+      },
+      "orbis_international-et": {
+        "1": 1
+      }
+    },
+    ".//default-finance-type/@code": {
+      "orbis_international-np": {
+        "110": 1
+      },
+      "orbis_international-et": {
+        "110": 1
+      }
+    },
+    ".//default-flow-type/@code": {
+      "orbis_international-np": {
+        "10": 1
+      },
+      "orbis_international-et": {
+        "10": 1
+      }
+    },
+    ".//default-tied-status/@code": {
+      "orbis_international-np": {
+        "4": 1
+      },
+      "orbis_international-et": {
+        "4": 1
+      }
+    },
+    ".//document-link/@format": {
+      "orbis_international-np": {
+        "application/pdf": 1,
+        "application/vnd.ms-excel": 1
+      }
+    },
+    ".//document-link/category/@code": {
+      "orbis_international-np": {
+        "A02": 2
+      }
+    },
+    ".//document-link/language/@code": {
+      "orbis_international-np": {
+        "en": 2
+      }
+    },
+    ".//location/location-reach/@code": {
+      "orbis_international-np": {
+        "1": 1
+      }
+    },
+    ".//participating-org/@crs-channel-code": {
+      "orbis_international-np": {
+        "20000": 1
+      }
+    }
+  }
+}

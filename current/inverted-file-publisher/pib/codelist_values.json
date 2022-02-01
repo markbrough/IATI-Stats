@@ -1,0 +1,610 @@
+{
+  ".//@default-currency": {
+    "EUR": {
+      "pib-89": 2,
+      "pib-be": 3,
+      "pib-ne": 3,
+      "pib-bo": 2,
+      "pib-bj": 2,
+      "pib-vn": 2
+    }
+  },
+  ".//@xml:lang": {
+    "fr": {
+      "pib-89": 15,
+      "pib-be": 26,
+      "pib-ne": 41,
+      "pib-bo": 10,
+      "pib-bj": 49,
+      "pib-vn": 8
+    },
+    "en": {
+      "pib-89": 9,
+      "pib-be": 22,
+      "pib-ne": 12,
+      "pib-bo": 9,
+      "pib-bj": 9,
+      "pib-vn": 18
+    },
+    "nl": {
+      "pib-89": 5,
+      "pib-be": 12,
+      "pib-ne": 9,
+      "pib-bo": 6,
+      "pib-bj": 7,
+      "pib-vn": 6
+    },
+    "es": {
+      "pib-ne": 1,
+      "pib-bo": 19
+    }
+  },
+  ".//activity-date/@type": {
+    "2": {
+      "pib-89": 2,
+      "pib-be": 3,
+      "pib-ne": 3,
+      "pib-bo": 2,
+      "pib-bj": 1,
+      "pib-vn": 2
+    },
+    "3": {
+      "pib-89": 2,
+      "pib-be": 3,
+      "pib-ne": 3,
+      "pib-bo": 2,
+      "pib-bj": 2,
+      "pib-vn": 2
+    },
+    "1": {
+      "pib-89": 1,
+      "pib-bj": 1
+    }
+  },
+  ".//activity-status/@code": {
+    "2": {
+      "pib-89": 2,
+      "pib-be": 3,
+      "pib-ne": 3,
+      "pib-bo": 2,
+      "pib-bj": 2,
+      "pib-vn": 2
+    }
+  },
+  ".//budget/@status": {
+    "2": {
+      "pib-89": 5,
+      "pib-be": 15,
+      "pib-ne": 15,
+      "pib-bo": 10,
+      "pib-bj": 10,
+      "pib-vn": 10
+    }
+  },
+  ".//budget/@type": {
+    "1": {
+      "pib-89": 1,
+      "pib-be": 3,
+      "pib-ne": 3,
+      "pib-bo": 2,
+      "pib-bj": 2,
+      "pib-vn": 2
+    },
+    "2": {
+      "pib-89": 4,
+      "pib-be": 12,
+      "pib-ne": 12,
+      "pib-bo": 8,
+      "pib-bj": 8,
+      "pib-vn": 8
+    }
+  },
+  ".//budget/value/@currency": {
+    "EUR": {
+      "pib-89": 5,
+      "pib-be": 15,
+      "pib-ne": 15,
+      "pib-bo": 10,
+      "pib-bj": 10,
+      "pib-vn": 10
+    }
+  },
+  ".//collaboration-type/@code": {
+    "1": {
+      "pib-89": 2,
+      "pib-be": 3,
+      "pib-ne": 3,
+      "pib-bo": 2,
+      "pib-bj": 2,
+      "pib-vn": 2
+    }
+  },
+  ".//contact-info/@type": {
+    "3": {
+      "pib-89": 1
+    },
+    "2": {
+      "pib-89": 1,
+      "pib-be": 2,
+      "pib-ne": 3,
+      "pib-bo": 2,
+      "pib-bj": 2,
+      "pib-vn": 2
+    },
+    "1": {
+      "pib-be": 1
+    }
+  },
+  ".//default-aid-type/@vocabulary": {
+    "1": {
+      "pib-89": 2,
+      "pib-be": 3,
+      "pib-ne": 3,
+      "pib-bo": 2,
+      "pib-bj": 2,
+      "pib-vn": 2
+    }
+  },
+  ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "G01": {
+      "pib-89": 1
+    },
+    "C01": {
+      "pib-89": 1,
+      "pib-ne": 3,
+      "pib-bo": 2,
+      "pib-bj": 2,
+      "pib-vn": 2
+    },
+    "H01": {
+      "pib-be": 3
+    }
+  },
+  ".//default-finance-type/@code": {
+    "110": {
+      "pib-89": 2,
+      "pib-be": 3,
+      "pib-ne": 3,
+      "pib-bo": 2,
+      "pib-bj": 2,
+      "pib-vn": 2
+    }
+  },
+  ".//default-flow-type/@code": {
+    "30": {
+      "pib-89": 2,
+      "pib-be": 3,
+      "pib-ne": 3,
+      "pib-bo": 2,
+      "pib-bj": 2,
+      "pib-vn": 2
+    }
+  },
+  ".//default-tied-status/@code": {
+    "5": {
+      "pib-89": 2,
+      "pib-be": 3,
+      "pib-ne": 3,
+      "pib-bo": 2,
+      "pib-bj": 2,
+      "pib-vn": 2
+    }
+  },
+  ".//description/@type": {
+    "1": {
+      "pib-89": 2,
+      "pib-be": 3,
+      "pib-ne": 3,
+      "pib-bo": 2,
+      "pib-bj": 2
+    },
+    "3": {
+      "pib-be": 3,
+      "pib-ne": 3,
+      "pib-bo": 2,
+      "pib-bj": 2,
+      "pib-vn": 2
+    },
+    "2": {
+      "pib-be": 3,
+      "pib-ne": 3,
+      "pib-bo": 2,
+      "pib-bj": 2,
+      "pib-vn": 2
+    }
+  },
+  ".//document-link/@format": {
+    "application/pdf": {
+      "pib-89": 1,
+      "pib-bo": 1,
+      "pib-bj": 1
+    }
+  },
+  ".//document-link/category/@code": {
+    "A08": {
+      "pib-89": 1,
+      "pib-bo": 1,
+      "pib-bj": 1
+    },
+    "A02": {
+      "pib-89": 1
+    },
+    "A03": {
+      "pib-89": 1
+    },
+    "A04": {
+      "pib-89": 1
+    },
+    "A05": {
+      "pib-89": 1
+    }
+  },
+  ".//document-link/language/@code": {
+    "fr": {
+      "pib-89": 1,
+      "pib-bo": 1,
+      "pib-bj": 1
+    }
+  },
+  ".//location/exactness/@code": {
+    "1": {
+      "pib-be": 3,
+      "pib-ne": 4,
+      "pib-bo": 1,
+      "pib-bj": 5,
+      "pib-vn": 2
+    },
+    "2": {
+      "pib-bo": 1
+    }
+  },
+  ".//location/location-class/@code": {
+    "1": {
+      "pib-be": 3,
+      "pib-ne": 4,
+      "pib-bo": 2,
+      "pib-bj": 5,
+      "pib-vn": 2
+    }
+  },
+  ".//location/location-reach/@code": {
+    "1": {
+      "pib-be": 1,
+      "pib-ne": 1,
+      "pib-bj": 4,
+      "pib-vn": 2
+    }
+  },
+  ".//other-identifier/@type": {
+    "A9": {
+      "pib-89": 1
+    }
+  },
+  ".//participating-org/@role": {
+    "1": {
+      "pib-89": 3,
+      "pib-be": 6,
+      "pib-ne": 6,
+      "pib-bo": 4,
+      "pib-bj": 4,
+      "pib-vn": 4
+    },
+    "2": {
+      "pib-89": 1,
+      "pib-be": 3,
+      "pib-ne": 3,
+      "pib-bo": 2,
+      "pib-bj": 2,
+      "pib-vn": 2
+    },
+    "4": {
+      "pib-be": 3,
+      "pib-ne": 3,
+      "pib-bo": 2,
+      "pib-bj": 2,
+      "pib-vn": 2
+    }
+  },
+  ".//participating-org/@type": {
+    "10": {
+      "pib-89": 2,
+      "pib-be": 3,
+      "pib-ne": 3,
+      "pib-bo": 2,
+      "pib-bj": 2,
+      "pib-vn": 2
+    },
+    "22": {
+      "pib-89": 2,
+      "pib-be": 9,
+      "pib-ne": 6,
+      "pib-bo": 4,
+      "pib-bj": 4,
+      "pib-vn": 4
+    },
+    "24": {
+      "pib-ne": 3,
+      "pib-bo": 2,
+      "pib-bj": 2,
+      "pib-vn": 2
+    }
+  },
+  ".//policy-marker/@significance": {
+    "1": {
+      "pib-be": 3,
+      "pib-ne": 11,
+      "pib-bo": 7,
+      "pib-bj": 6,
+      "pib-vn": 4
+    },
+    "2": {
+      "pib-be": 3,
+      "pib-ne": 9,
+      "pib-bo": 4,
+      "pib-bj": 5,
+      "pib-vn": 5
+    },
+    "0": {
+      "pib-bj": 4
+    }
+  },
+  ".//policy-marker/@vocabulary": {
+    "1": {
+      "pib-be": 6,
+      "pib-ne": 20,
+      "pib-bo": 11,
+      "pib-bj": 15,
+      "pib-vn": 9
+    }
+  },
+  ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "2": {
+      "pib-be": 2,
+      "pib-ne": 3,
+      "pib-bo": 2,
+      "pib-bj": 2,
+      "pib-vn": 2
+    },
+    "1": {
+      "pib-be": 3,
+      "pib-ne": 3,
+      "pib-bo": 2,
+      "pib-bj": 2,
+      "pib-vn": 2
+    },
+    "3": {
+      "pib-be": 1,
+      "pib-ne": 3,
+      "pib-bo": 2,
+      "pib-bj": 2,
+      "pib-vn": 2
+    },
+    "8": {
+      "pib-ne": 1,
+      "pib-bj": 1
+    },
+    "5": {
+      "pib-ne": 1,
+      "pib-bj": 1
+    },
+    "7": {
+      "pib-ne": 3,
+      "pib-bo": 2,
+      "pib-bj": 2,
+      "pib-vn": 2
+    },
+    "6": {
+      "pib-ne": 3,
+      "pib-bo": 2,
+      "pib-bj": 2
+    },
+    "9": {
+      "pib-ne": 3,
+      "pib-bo": 1,
+      "pib-bj": 2,
+      "pib-vn": 1
+    },
+    "4": {
+      "pib-bj": 1
+    }
+  },
+  ".//recipient-country/@code": {
+    "BE": {
+      "pib-be": 3
+    },
+    "NE": {
+      "pib-ne": 3
+    },
+    "BO": {
+      "pib-bo": 2
+    },
+    "BJ": {
+      "pib-bj": 2
+    },
+    "VN": {
+      "pib-vn": 2
+    }
+  },
+  ".//recipient-region/@vocabulary": {
+    "1": {
+      "pib-89": 2
+    }
+  },
+  ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "89": {
+      "pib-89": 2
+    }
+  },
+  ".//related-activity/@type": {
+    "1": {
+      "pib-89": 1,
+      "pib-be": 3,
+      "pib-ne": 3,
+      "pib-bo": 2,
+      "pib-bj": 2,
+      "pib-vn": 2
+    },
+    "2": {
+      "pib-89": 13
+    }
+  },
+  ".//reporting-org/@type": {
+    "22": {
+      "pib-89": 2,
+      "pib-be": 3,
+      "pib-ne": 3,
+      "pib-bo": 2,
+      "pib-bj": 2,
+      "pib-vn": 2
+    }
+  },
+  ".//result/@type": {
+    "2": {
+      "pib-be": 3,
+      "pib-ne": 3,
+      "pib-bo": 2,
+      "pib-bj": 2,
+      "pib-vn": 2
+    }
+  },
+  ".//result/indicator/@measure": {
+    "1": {
+      "pib-be": 4,
+      "pib-ne": 4,
+      "pib-bo": 2
+    },
+    "2": {
+      "pib-ne": 5,
+      "pib-bo": 8,
+      "pib-bj": 12,
+      "pib-vn": 6
+    }
+  },
+  ".//sector/@vocabulary": {
+    "1": {
+      "pib-89": 2,
+      "pib-be": 3,
+      "pib-ne": 3,
+      "pib-bo": 9,
+      "pib-bj": 2,
+      "pib-vn": 6
+    }
+  },
+  ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "91010": {
+      "pib-89": 1
+    },
+    "99810": {
+      "pib-89": 1
+    },
+    "99820": {
+      "pib-be": 3
+    },
+    "11110": {
+      "pib-ne": 1,
+      "pib-bj": 1
+    },
+    "15180": {
+      "pib-ne": 1,
+      "pib-bj": 1
+    },
+    "11240": {
+      "pib-ne": 1,
+      "pib-bo": 1,
+      "pib-vn": 1
+    },
+    "12220": {
+      "pib-bo": 1
+    },
+    "12240": {
+      "pib-bo": 1,
+      "pib-vn": 1
+    },
+    "15150": {
+      "pib-bo": 2
+    },
+    "15160": {
+      "pib-bo": 2
+    },
+    "11320": {
+      "pib-bo": 1
+    },
+    "11330": {
+      "pib-bo": 1
+    },
+    "11220": {
+      "pib-vn": 1
+    },
+    "41081": {
+      "pib-vn": 1
+    },
+    "12261": {
+      "pib-vn": 1
+    },
+    "14081": {
+      "pib-vn": 1
+    }
+  },
+  ".//transaction/provider-org/@type": {
+    "22": {
+      "pib-89": 15,
+      "pib-be": 9,
+      "pib-ne": 21,
+      "pib-bo": 14,
+      "pib-bj": 14,
+      "pib-vn": 14
+    },
+    "10": {
+      "pib-89": 12
+    }
+  },
+  ".//transaction/receiver-org/@type": {
+    "22": {
+      "pib-89": 24
+    },
+    "24": {
+      "pib-ne": 12,
+      "pib-bo": 8,
+      "pib-bj": 8,
+      "pib-vn": 8
+    }
+  },
+  ".//transaction/transaction-type/@code": {
+    "4": {
+      "pib-89": 3,
+      "pib-be": 9,
+      "pib-ne": 9,
+      "pib-bo": 6,
+      "pib-bj": 6,
+      "pib-vn": 6
+    },
+    "11": {
+      "pib-89": 18
+    },
+    "1": {
+      "pib-89": 6
+    },
+    "3": {
+      "pib-ne": 9,
+      "pib-bo": 6,
+      "pib-bj": 6,
+      "pib-vn": 6
+    },
+    "2": {
+      "pib-ne": 3,
+      "pib-bo": 2,
+      "pib-bj": 2,
+      "pib-vn": 2
+    }
+  },
+  ".//transaction/value/@currency": {
+    "EUR": {
+      "pib-89": 19,
+      "pib-be": 9,
+      "pib-ne": 17,
+      "pib-bo": 13,
+      "pib-bj": 12,
+      "pib-vn": 14
+    }
+  }
+}

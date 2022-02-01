@@ -1,0 +1,301 @@
+{
+  ".//@default-currency": {
+    "USD": {
+      "caribank-vg": 1,
+      "caribank-bb": 2,
+      "caribank-dm": 1,
+      "caribank-380": 1,
+      "caribank-gd": 1,
+      "caribank-bs": 1,
+      "caribank-vc": 2,
+      "caribank-bz": 4,
+      "caribank-tt": 1
+    }
+  },
+  ".//@xml:lang": {
+    "en": {
+      "caribank-vg": 3,
+      "caribank-bb": 7,
+      "caribank-dm": 4,
+      "caribank-380": 2,
+      "caribank-gd": 2,
+      "caribank-bs": 3,
+      "caribank-vc": 10,
+      "caribank-bz": 18,
+      "caribank-tt": 4
+    }
+  },
+  ".//activity-date/@type": {
+    "1": {
+      "caribank-vg": 1,
+      "caribank-bb": 2,
+      "caribank-dm": 1,
+      "caribank-gd": 1,
+      "caribank-bs": 1,
+      "caribank-vc": 2,
+      "caribank-bz": 4,
+      "caribank-tt": 1
+    },
+    "3": {
+      "caribank-bb": 2,
+      "caribank-dm": 1,
+      "caribank-gd": 1,
+      "caribank-bs": 1,
+      "caribank-vc": 2,
+      "caribank-bz": 4,
+      "caribank-tt": 1
+    },
+    "2": {
+      "caribank-380": 1
+    },
+    "4": {
+      "caribank-380": 1
+    }
+  },
+  ".//activity-status/@code": {
+    "2": {
+      "caribank-vg": 1,
+      "caribank-dm": 1,
+      "caribank-380": 1
+    },
+    "1": {
+      "caribank-bb": 2,
+      "caribank-gd": 1,
+      "caribank-bs": 1,
+      "caribank-vc": 2,
+      "caribank-bz": 4,
+      "caribank-tt": 1
+    }
+  },
+  ".//budget/@status": {
+    "1": {
+      "caribank-vg": 1,
+      "caribank-bb": 1,
+      "caribank-dm": 2
+    },
+    "2": {
+      "caribank-380": 1,
+      "caribank-vc": 1,
+      "caribank-bz": 1
+    }
+  },
+  ".//budget/@type": {
+    "1": {
+      "caribank-vg": 1,
+      "caribank-bb": 1,
+      "caribank-dm": 2,
+      "caribank-380": 1,
+      "caribank-vc": 1,
+      "caribank-bz": 1
+    }
+  },
+  ".//budget/value/@currency": {
+    "USD": {
+      "caribank-vg": 1,
+      "caribank-bb": 1,
+      "caribank-dm": 2,
+      "caribank-bz": 1
+    }
+  },
+  ".//contact-info/@type": {
+    "1": {
+      "caribank-380": 1
+    }
+  },
+  ".//description/@type": {
+    "1": {
+      "caribank-vg": 1,
+      "caribank-dm": 1,
+      "caribank-380": 1,
+      "caribank-gd": 1,
+      "caribank-bs": 1,
+      "caribank-vc": 1,
+      "caribank-bz": 2,
+      "caribank-tt": 1
+    },
+    "2": {
+      "caribank-bb": 2,
+      "caribank-gd": 1,
+      "caribank-vc": 1,
+      "caribank-bz": 2
+    }
+  },
+  ".//participating-org/@role": {
+    "1": {
+      "caribank-vg": 1,
+      "caribank-bb": 2,
+      "caribank-dm": 1,
+      "caribank-380": 1,
+      "caribank-gd": 1,
+      "caribank-bs": 1,
+      "caribank-vc": 2,
+      "caribank-bz": 4,
+      "caribank-tt": 1
+    }
+  },
+  ".//participating-org/@type": {
+    "40": {
+      "caribank-vg": 1,
+      "caribank-bb": 2,
+      "caribank-dm": 1,
+      "caribank-380": 1,
+      "caribank-gd": 1,
+      "caribank-bs": 1,
+      "caribank-vc": 2,
+      "caribank-bz": 4,
+      "caribank-tt": 1
+    }
+  },
+  ".//planned-disbursement/@type": {
+    "1": {
+      "caribank-vg": 1,
+      "caribank-bb": 1,
+      "caribank-dm": 2,
+      "caribank-bs": 1,
+      "caribank-vc": 2,
+      "caribank-bz": 2,
+      "caribank-tt": 1
+    }
+  },
+  ".//planned-disbursement/value/@currency": {
+    "USD": {
+      "caribank-vg": 1,
+      "caribank-bb": 2,
+      "caribank-dm": 2,
+      "caribank-bs": 1,
+      "caribank-vc": 2,
+      "caribank-bz": 4,
+      "caribank-tt": 1
+    }
+  },
+  ".//recipient-country/@code": {
+    "VG": {
+      "caribank-vg": 1
+    },
+    "BB": {
+      "caribank-bb": 2
+    },
+    "DM": {
+      "caribank-dm": 1
+    },
+    "VC": {
+      "caribank-380": 1,
+      "caribank-vc": 2
+    },
+    "GD": {
+      "caribank-gd": 1
+    },
+    "BS": {
+      "caribank-bs": 1
+    },
+    "BZ": {
+      "caribank-bz": 4
+    },
+    "TT": {
+      "caribank-tt": 1
+    }
+  },
+  ".//recipient-region/@vocabulary": {
+    "1": {
+      "caribank-380": 1
+    }
+  },
+  ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "380": {
+      "caribank-380": 1
+    }
+  },
+  ".//reporting-org/@type": {
+    "40": {
+      "caribank-vg": 1,
+      "caribank-bb": 2,
+      "caribank-dm": 1,
+      "caribank-380": 1,
+      "caribank-gd": 1,
+      "caribank-bs": 1,
+      "caribank-vc": 2,
+      "caribank-bz": 4,
+      "caribank-tt": 1
+    }
+  },
+  ".//sector/@vocabulary": {
+    "1": {
+      "caribank-vg": 1,
+      "caribank-bb": 1,
+      "caribank-dm": 1,
+      "caribank-380": 1,
+      "caribank-gd": 1,
+      "caribank-bs": 1,
+      "caribank-vc": 1,
+      "caribank-bz": 4,
+      "caribank-tt": 1
+    },
+    "7": {
+      "caribank-bb": 1,
+      "caribank-vc": 2
+    }
+  },
+  ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "15110": {
+      "caribank-vg": 1
+    },
+    "21010": {
+      "caribank-bb": 1,
+      "caribank-bz": 2
+    },
+    "23010": {
+      "caribank-dm": 1
+    },
+    "21020": {
+      "caribank-380": 1
+    },
+    "31110": {
+      "caribank-gd": 1
+    },
+    "23111": {
+      "caribank-bs": 1
+    },
+    "74010": {
+      "caribank-vc": 1
+    },
+    "23310": {
+      "caribank-bz": 1
+    },
+    "31191": {
+      "caribank-bz": 1
+    },
+    "24030": {
+      "caribank-tt": 1
+    }
+  },
+  ".//sector[@vocabulary = '7']/@code": {
+    "6": {
+      "caribank-bb": 1
+    }
+  },
+  ".//transaction/transaction-type/@code": {
+    "3": {
+      "caribank-vg": 1,
+      "caribank-dm": 2,
+      "caribank-380": 1,
+      "caribank-bz": 1
+    },
+    "5": {
+      "caribank-gd": 1
+    },
+    "2": {
+      "caribank-bz": 2
+    },
+    "7": {
+      "caribank-bz": 1
+    }
+  },
+  ".//transaction/value/@currency": {
+    "USD": {
+      "caribank-vg": 1,
+      "caribank-dm": 2,
+      "caribank-gd": 1,
+      "caribank-bz": 4
+    }
+  }
+}

@@ -1,0 +1,879 @@
+{
+  ".//@default-currency": {
+    "EUR": {
+      "ef_-mg": 1,
+      "ef_-gt": 1,
+      "ef_-89": 1,
+      "ef_-998": 1,
+      "ef_-ph": 1,
+      "ef_-cd": 2,
+      "ef_-be": 3,
+      "ef_-ni": 1,
+      "ef_-ht": 1,
+      "ef_-bi": 1
+    }
+  },
+  ".//@xml:lang": {
+    "fr": {
+      "ef_-mg": 91,
+      "ef_-gt": 54,
+      "ef_-89": 13,
+      "ef_-998": 51,
+      "ef_-ph": 93,
+      "ef_-cd": 85,
+      "ef_-be": 104,
+      "ef_-ni": 68,
+      "ef_-ht": 155,
+      "ef_-bi": 106
+    },
+    "en": {
+      "ef_-mg": 1,
+      "ef_-gt": 1,
+      "ef_-998": 7,
+      "ef_-ph": 27,
+      "ef_-cd": 4,
+      "ef_-be": 3,
+      "ef_-ni": 1,
+      "ef_-ht": 1,
+      "ef_-bi": 1
+    },
+    "es": {
+      "ef_-gt": 21,
+      "ef_-998": 8,
+      "ef_-cd": 1,
+      "ef_-ni": 21
+    },
+    "ht": {
+      "ef_-998": 2,
+      "ef_-ht": 2
+    },
+    "tl": {
+      "ef_-ph": 7
+    }
+  },
+  ".//activity-date/@type": {
+    "1": {
+      "ef_-mg": 1,
+      "ef_-gt": 1,
+      "ef_-89": 1,
+      "ef_-998": 1,
+      "ef_-ph": 1,
+      "ef_-cd": 1,
+      "ef_-be": 3,
+      "ef_-ni": 1,
+      "ef_-ht": 1,
+      "ef_-bi": 1
+    },
+    "3": {
+      "ef_-mg": 1,
+      "ef_-gt": 1,
+      "ef_-89": 1,
+      "ef_-998": 1,
+      "ef_-ph": 1,
+      "ef_-cd": 1,
+      "ef_-be": 3,
+      "ef_-ni": 1,
+      "ef_-ht": 1,
+      "ef_-bi": 1
+    },
+    "2": {
+      "ef_-mg": 1,
+      "ef_-gt": 1,
+      "ef_-89": 1,
+      "ef_-998": 1,
+      "ef_-ph": 1,
+      "ef_-cd": 2,
+      "ef_-be": 3,
+      "ef_-ni": 1,
+      "ef_-ht": 1,
+      "ef_-bi": 1
+    },
+    "4": {
+      "ef_-cd": 1
+    }
+  },
+  ".//activity-scope/@code": {
+    "4": {
+      "ef_-be": 3
+    }
+  },
+  ".//activity-status/@code": {
+    "2": {
+      "ef_-mg": 1,
+      "ef_-gt": 1,
+      "ef_-89": 1,
+      "ef_-998": 1,
+      "ef_-ph": 1,
+      "ef_-cd": 1,
+      "ef_-be": 3,
+      "ef_-ni": 1,
+      "ef_-ht": 1,
+      "ef_-bi": 1
+    },
+    "4": {
+      "ef_-cd": 1
+    }
+  },
+  ".//budget/@status": {
+    "2": {
+      "ef_-mg": 5,
+      "ef_-gt": 5,
+      "ef_-89": 5,
+      "ef_-ph": 5,
+      "ef_-cd": 5,
+      "ef_-be": 15,
+      "ef_-ni": 5,
+      "ef_-ht": 5,
+      "ef_-bi": 5
+    }
+  },
+  ".//budget/@type": {
+    "1": {
+      "ef_-mg": 1,
+      "ef_-gt": 1,
+      "ef_-89": 1,
+      "ef_-ph": 1,
+      "ef_-cd": 1,
+      "ef_-be": 15,
+      "ef_-ni": 1,
+      "ef_-ht": 1,
+      "ef_-bi": 1
+    },
+    "2": {
+      "ef_-mg": 4,
+      "ef_-gt": 3,
+      "ef_-89": 4,
+      "ef_-ph": 4,
+      "ef_-cd": 4,
+      "ef_-ni": 4,
+      "ef_-ht": 4,
+      "ef_-bi": 4
+    }
+  },
+  ".//budget/value/@currency": {
+    "EUR": {
+      "ef_-mg": 5,
+      "ef_-gt": 5,
+      "ef_-89": 5,
+      "ef_-ph": 4,
+      "ef_-cd": 4,
+      "ef_-be": 15,
+      "ef_-ni": 5,
+      "ef_-ht": 4,
+      "ef_-bi": 3
+    }
+  },
+  ".//collaboration-type/@code": {
+    "1": {
+      "ef_-mg": 1,
+      "ef_-gt": 1,
+      "ef_-89": 1,
+      "ef_-998": 1,
+      "ef_-ph": 1,
+      "ef_-cd": 2,
+      "ef_-be": 3,
+      "ef_-ni": 1,
+      "ef_-ht": 1,
+      "ef_-bi": 1
+    }
+  },
+  ".//contact-info/@type": {
+    "1": {
+      "ef_-mg": 1,
+      "ef_-gt": 1,
+      "ef_-89": 1,
+      "ef_-998": 1,
+      "ef_-ph": 1,
+      "ef_-cd": 1,
+      "ef_-be": 3,
+      "ef_-ni": 1,
+      "ef_-ht": 1,
+      "ef_-bi": 1
+    },
+    "3": {
+      "ef_-cd": 1
+    }
+  },
+  ".//default-aid-type/@vocabulary": {
+    "1": {
+      "ef_-mg": 1,
+      "ef_-gt": 1,
+      "ef_-89": 1,
+      "ef_-998": 1,
+      "ef_-ph": 1,
+      "ef_-cd": 2,
+      "ef_-be": 3,
+      "ef_-ni": 1,
+      "ef_-ht": 1,
+      "ef_-bi": 1
+    }
+  },
+  ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "C01": {
+      "ef_-mg": 1,
+      "ef_-gt": 1,
+      "ef_-998": 1,
+      "ef_-ph": 1,
+      "ef_-cd": 2,
+      "ef_-ni": 1,
+      "ef_-ht": 1,
+      "ef_-bi": 1
+    },
+    "G01": {
+      "ef_-89": 1
+    },
+    "H01": {
+      "ef_-be": 3
+    }
+  },
+  ".//default-finance-type/@code": {
+    "110": {
+      "ef_-mg": 1,
+      "ef_-gt": 1,
+      "ef_-89": 1,
+      "ef_-998": 1,
+      "ef_-ph": 1,
+      "ef_-cd": 2,
+      "ef_-be": 3,
+      "ef_-ni": 1,
+      "ef_-ht": 1,
+      "ef_-bi": 1
+    }
+  },
+  ".//default-flow-type/@code": {
+    "30": {
+      "ef_-mg": 1,
+      "ef_-gt": 1,
+      "ef_-89": 1,
+      "ef_-998": 1,
+      "ef_-ph": 1,
+      "ef_-cd": 2,
+      "ef_-be": 3,
+      "ef_-ni": 1,
+      "ef_-ht": 1,
+      "ef_-bi": 1
+    }
+  },
+  ".//default-tied-status/@code": {
+    "5": {
+      "ef_-mg": 1,
+      "ef_-gt": 1,
+      "ef_-89": 1,
+      "ef_-998": 1,
+      "ef_-ph": 1,
+      "ef_-cd": 2,
+      "ef_-be": 3,
+      "ef_-ni": 1,
+      "ef_-ht": 1,
+      "ef_-bi": 1
+    }
+  },
+  ".//description/@type": {
+    "1": {
+      "ef_-mg": 1,
+      "ef_-gt": 1,
+      "ef_-89": 1,
+      "ef_-998": 1,
+      "ef_-ph": 1,
+      "ef_-cd": 2,
+      "ef_-be": 3,
+      "ef_-ni": 1,
+      "ef_-ht": 1,
+      "ef_-bi": 1
+    },
+    "2": {
+      "ef_-998": 1
+    }
+  },
+  ".//document-link/@format": {
+    "application/pdf": {
+      "ef_-mg": 1,
+      "ef_-gt": 1,
+      "ef_-89": 1,
+      "ef_-998": 1,
+      "ef_-ph": 1,
+      "ef_-cd": 1,
+      "ef_-be": 3,
+      "ef_-ni": 1,
+      "ef_-ht": 1,
+      "ef_-bi": 1
+    }
+  },
+  ".//document-link/category/@code": {
+    "A08": {
+      "ef_-mg": 1,
+      "ef_-gt": 1,
+      "ef_-998": 1,
+      "ef_-ph": 1,
+      "ef_-cd": 1,
+      "ef_-be": 3,
+      "ef_-ni": 1,
+      "ef_-ht": 1,
+      "ef_-bi": 1
+    },
+    "A05": {
+      "ef_-89": 1
+    }
+  },
+  ".//document-link/language/@code": {
+    "fr": {
+      "ef_-mg": 1,
+      "ef_-gt": 1,
+      "ef_-89": 1,
+      "ef_-998": 1,
+      "ef_-ph": 1,
+      "ef_-cd": 1,
+      "ef_-be": 3,
+      "ef_-ni": 1,
+      "ef_-ht": 1,
+      "ef_-bi": 1
+    }
+  },
+  ".//location/administrative/@vocabulary": {
+    "A1": {
+      "ef_-mg": 2,
+      "ef_-gt": 1,
+      "ef_-ph": 3,
+      "ef_-cd": 1,
+      "ef_-be": 3,
+      "ef_-ni": 1,
+      "ef_-ht": 5,
+      "ef_-bi": 4
+    }
+  },
+  ".//location/exactness/@code": {
+    "2": {
+      "ef_-mg": 2,
+      "ef_-gt": 1,
+      "ef_-ph": 3,
+      "ef_-cd": 1,
+      "ef_-be": 3,
+      "ef_-ni": 1,
+      "ef_-ht": 5,
+      "ef_-bi": 4
+    }
+  },
+  ".//location/feature-designation/@code": {
+    "ADMF": {
+      "ef_-be": 3
+    }
+  },
+  ".//location/location-class/@code": {
+    "1": {
+      "ef_-mg": 2,
+      "ef_-ph": 3,
+      "ef_-cd": 1,
+      "ef_-be": 3,
+      "ef_-ht": 5,
+      "ef_-bi": 4
+    },
+    "2": {
+      "ef_-gt": 1
+    },
+    "4": {
+      "ef_-ni": 1
+    }
+  },
+  ".//location/location-id/@vocabulary": {
+    "A1": {
+      "ef_-mg": 2,
+      "ef_-gt": 1,
+      "ef_-ph": 3,
+      "ef_-cd": 1,
+      "ef_-be": 3,
+      "ef_-ni": 1,
+      "ef_-ht": 5,
+      "ef_-bi": 4
+    }
+  },
+  ".//location/location-reach/@code": {
+    "1": {
+      "ef_-mg": 2,
+      "ef_-gt": 1,
+      "ef_-ph": 3,
+      "ef_-cd": 1,
+      "ef_-be": 3,
+      "ef_-ni": 1,
+      "ef_-ht": 5,
+      "ef_-bi": 4
+    }
+  },
+  ".//other-identifier/@type": {
+    "A9": {
+      "ef_-998": 1
+    }
+  },
+  ".//participating-org/@role": {
+    "2": {
+      "ef_-mg": 1,
+      "ef_-gt": 1,
+      "ef_-998": 1,
+      "ef_-ph": 1,
+      "ef_-cd": 2,
+      "ef_-be": 3,
+      "ef_-ni": 1,
+      "ef_-ht": 1,
+      "ef_-bi": 1
+    },
+    "4": {
+      "ef_-mg": 5,
+      "ef_-gt": 6,
+      "ef_-89": 1,
+      "ef_-998": 32,
+      "ef_-ph": 6,
+      "ef_-cd": 40,
+      "ef_-be": 3,
+      "ef_-ni": 4,
+      "ef_-ht": 6,
+      "ef_-bi": 7
+    },
+    "1": {
+      "ef_-mg": 2,
+      "ef_-gt": 2,
+      "ef_-998": 2,
+      "ef_-ph": 2,
+      "ef_-cd": 3,
+      "ef_-be": 6,
+      "ef_-ni": 2,
+      "ef_-ht": 2,
+      "ef_-bi": 2
+    }
+  },
+  ".//participating-org/@type": {
+    "22": {
+      "ef_-mg": 3,
+      "ef_-gt": 3,
+      "ef_-89": 1,
+      "ef_-998": 3,
+      "ef_-ph": 3,
+      "ef_-cd": 41,
+      "ef_-be": 9,
+      "ef_-ni": 3,
+      "ef_-ht": 3,
+      "ef_-bi": 3
+    },
+    "24": {
+      "ef_-mg": 4,
+      "ef_-gt": 5,
+      "ef_-998": 31,
+      "ef_-ph": 5,
+      "ef_-cd": 3,
+      "ef_-ni": 3,
+      "ef_-ht": 5,
+      "ef_-bi": 6
+    },
+    "10": {
+      "ef_-mg": 1,
+      "ef_-gt": 1,
+      "ef_-998": 1,
+      "ef_-ph": 1,
+      "ef_-cd": 1,
+      "ef_-be": 3,
+      "ef_-ni": 1,
+      "ef_-ht": 1,
+      "ef_-bi": 1
+    }
+  },
+  ".//policy-marker/@significance": {
+    "2": {
+      "ef_-mg": 2,
+      "ef_-gt": 2,
+      "ef_-ph": 2,
+      "ef_-cd": 2,
+      "ef_-be": 6,
+      "ef_-ni": 2,
+      "ef_-ht": 2,
+      "ef_-bi": 2
+    },
+    "1": {
+      "ef_-mg": 2,
+      "ef_-gt": 2,
+      "ef_-ph": 2,
+      "ef_-cd": 2,
+      "ef_-be": 5,
+      "ef_-ni": 2,
+      "ef_-ht": 2,
+      "ef_-bi": 2
+    },
+    "0": {
+      "ef_-mg": 1,
+      "ef_-gt": 1,
+      "ef_-ph": 1,
+      "ef_-cd": 1,
+      "ef_-be": 7,
+      "ef_-ni": 1,
+      "ef_-ht": 1,
+      "ef_-bi": 1
+    }
+  },
+  ".//policy-marker/@vocabulary": {
+    "1": {
+      "ef_-mg": 5,
+      "ef_-gt": 5,
+      "ef_-ph": 5,
+      "ef_-cd": 5,
+      "ef_-be": 18,
+      "ef_-ni": 5,
+      "ef_-ht": 5,
+      "ef_-bi": 5
+    }
+  },
+  ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "2": {
+      "ef_-mg": 1,
+      "ef_-gt": 1,
+      "ef_-ph": 1,
+      "ef_-cd": 1,
+      "ef_-be": 3,
+      "ef_-ni": 1,
+      "ef_-ht": 1,
+      "ef_-bi": 1
+    },
+    "1": {
+      "ef_-mg": 1,
+      "ef_-gt": 1,
+      "ef_-ph": 1,
+      "ef_-cd": 1,
+      "ef_-be": 3,
+      "ef_-ni": 1,
+      "ef_-ht": 1,
+      "ef_-bi": 1
+    },
+    "3": {
+      "ef_-mg": 1,
+      "ef_-gt": 1,
+      "ef_-ph": 1,
+      "ef_-cd": 1,
+      "ef_-be": 3,
+      "ef_-ni": 1,
+      "ef_-ht": 1,
+      "ef_-bi": 1
+    },
+    "9": {
+      "ef_-mg": 1,
+      "ef_-gt": 1,
+      "ef_-ph": 1,
+      "ef_-cd": 1,
+      "ef_-be": 3,
+      "ef_-ni": 1,
+      "ef_-ht": 1,
+      "ef_-bi": 1
+    },
+    "4": {
+      "ef_-mg": 1,
+      "ef_-gt": 1,
+      "ef_-ph": 1,
+      "ef_-cd": 1,
+      "ef_-be": 3,
+      "ef_-ni": 1,
+      "ef_-ht": 1,
+      "ef_-bi": 1
+    },
+    "5": {
+      "ef_-be": 1
+    },
+    "6": {
+      "ef_-be": 1
+    },
+    "7": {
+      "ef_-be": 1
+    }
+  },
+  ".//recipient-country/@code": {
+    "MG": {
+      "ef_-mg": 1
+    },
+    "GT": {
+      "ef_-gt": 1,
+      "ef_-cd": 1
+    },
+    "PH": {
+      "ef_-ph": 1,
+      "ef_-cd": 1
+    },
+    "BF": {
+      "ef_-cd": 1
+    },
+    "BR": {
+      "ef_-cd": 1
+    },
+    "BI": {
+      "ef_-cd": 1,
+      "ef_-bi": 1
+    },
+    "HT": {
+      "ef_-cd": 1,
+      "ef_-ht": 1
+    },
+    "IN": {
+      "ef_-cd": 1
+    },
+    "PK": {
+      "ef_-cd": 1
+    },
+    "PE": {
+      "ef_-cd": 1
+    },
+    "CD": {
+      "ef_-cd": 2
+    },
+    "RW": {
+      "ef_-cd": 1
+    },
+    "TG": {
+      "ef_-cd": 1
+    },
+    "UY": {
+      "ef_-cd": 1
+    },
+    "ZW": {
+      "ef_-cd": 1
+    },
+    "BE": {
+      "ef_-be": 3
+    },
+    "NI": {
+      "ef_-ni": 1
+    }
+  },
+  ".//recipient-region/@vocabulary": {
+    "1": {
+      "ef_-89": 1,
+      "ef_-998": 1
+    }
+  },
+  ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "89": {
+      "ef_-89": 1
+    },
+    "998": {
+      "ef_-998": 1
+    }
+  },
+  ".//related-activity/@type": {
+    "2": {
+      "ef_-mg": 1,
+      "ef_-89": 1
+    },
+    "1": {
+      "ef_-gt": 1,
+      "ef_-ph": 1,
+      "ef_-cd": 1,
+      "ef_-be": 3,
+      "ef_-ni": 1,
+      "ef_-ht": 1,
+      "ef_-bi": 1
+    }
+  },
+  ".//reporting-org/@type": {
+    "22": {
+      "ef_-mg": 1,
+      "ef_-gt": 1,
+      "ef_-89": 1,
+      "ef_-998": 1,
+      "ef_-ph": 1,
+      "ef_-cd": 2,
+      "ef_-be": 3,
+      "ef_-ni": 1,
+      "ef_-ht": 1,
+      "ef_-bi": 1
+    }
+  },
+  ".//result/@type": {
+    "1": {
+      "ef_-mg": 4,
+      "ef_-gt": 3,
+      "ef_-ph": 6,
+      "ef_-cd": 3,
+      "ef_-be": 9,
+      "ef_-ni": 3,
+      "ef_-ht": 4,
+      "ef_-bi": 4
+    },
+    "2": {
+      "ef_-mg": 1,
+      "ef_-gt": 1,
+      "ef_-ph": 1,
+      "ef_-cd": 1,
+      "ef_-be": 3,
+      "ef_-ni": 1,
+      "ef_-ht": 1,
+      "ef_-bi": 1
+    }
+  },
+  ".//result/indicator/@measure": {
+    "1": {
+      "ef_-mg": 7,
+      "ef_-gt": 11,
+      "ef_-ph": 16,
+      "ef_-cd": 8,
+      "ef_-be": 24,
+      "ef_-ni": 12,
+      "ef_-ht": 9,
+      "ef_-bi": 5
+    },
+    "2": {
+      "ef_-mg": 6,
+      "ef_-cd": 3,
+      "ef_-ht": 3,
+      "ef_-bi": 7
+    }
+  },
+  ".//sector/@vocabulary": {
+    "1": {
+      "ef_-mg": 3,
+      "ef_-gt": 3,
+      "ef_-89": 1,
+      "ef_-998": 1,
+      "ef_-ph": 3,
+      "ef_-cd": 5,
+      "ef_-be": 3,
+      "ef_-ni": 3,
+      "ef_-ht": 3,
+      "ef_-bi": 3
+    }
+  },
+  ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "31120": {
+      "ef_-mg": 1,
+      "ef_-gt": 1,
+      "ef_-998": 1,
+      "ef_-ph": 1,
+      "ef_-cd": 2,
+      "ef_-ni": 1,
+      "ef_-ht": 1,
+      "ef_-bi": 1
+    },
+    "99820": {
+      "ef_-mg": 1,
+      "ef_-gt": 1,
+      "ef_-ph": 1,
+      "ef_-cd": 1,
+      "ef_-be": 3,
+      "ef_-ni": 1,
+      "ef_-ht": 1,
+      "ef_-bi": 1
+    },
+    "43042": {
+      "ef_-mg": 1,
+      "ef_-gt": 1,
+      "ef_-ph": 1,
+      "ef_-cd": 1,
+      "ef_-ni": 1,
+      "ef_-ht": 1,
+      "ef_-bi": 1
+    },
+    "91010": {
+      "ef_-89": 1
+    },
+    "15160": {
+      "ef_-cd": 1
+    }
+  },
+  ".//transaction/disbursement-channel/@code": {
+    "2": {
+      "ef_-mg": 21,
+      "ef_-gt": 29,
+      "ef_-998": 9,
+      "ef_-ph": 30,
+      "ef_-cd": 26,
+      "ef_-ni": 18,
+      "ef_-ht": 32,
+      "ef_-bi": 16
+    },
+    "1": {
+      "ef_-998": 1
+    }
+  },
+  ".//transaction/provider-org/@type": {
+    "22": {
+      "ef_-mg": 25,
+      "ef_-gt": 30,
+      "ef_-89": 3,
+      "ef_-998": 5,
+      "ef_-ph": 32,
+      "ef_-cd": 30,
+      "ef_-be": 7,
+      "ef_-ni": 21,
+      "ef_-ht": 35,
+      "ef_-bi": 20
+    },
+    "10": {
+      "ef_-998": 5
+    },
+    "21": {
+      "ef_-ph": 1
+    }
+  },
+  ".//transaction/receiver-org/@type": {
+    "24": {
+      "ef_-mg": 21,
+      "ef_-gt": 26,
+      "ef_-ph": 28,
+      "ef_-cd": 15,
+      "ef_-ni": 18,
+      "ef_-ht": 30,
+      "ef_-bi": 17
+    },
+    "70": {
+      "ef_-mg": 1,
+      "ef_-ht": 1
+    },
+    "22": {
+      "ef_-gt": 3,
+      "ef_-998": 10,
+      "ef_-ph": 2
+    }
+  },
+  ".//transaction/transaction-type/@code": {
+    "2": {
+      "ef_-mg": 4,
+      "ef_-gt": 5,
+      "ef_-ph": 5,
+      "ef_-cd": 3,
+      "ef_-ni": 3,
+      "ef_-ht": 5,
+      "ef_-bi": 3
+    },
+    "3": {
+      "ef_-mg": 18,
+      "ef_-gt": 25,
+      "ef_-ph": 25,
+      "ef_-cd": 26,
+      "ef_-be": 9,
+      "ef_-ni": 15,
+      "ef_-ht": 26,
+      "ef_-bi": 14
+    },
+    "4": {
+      "ef_-mg": 3,
+      "ef_-gt": 3,
+      "ef_-89": 3,
+      "ef_-ph": 3,
+      "ef_-cd": 3,
+      "ef_-ni": 3,
+      "ef_-ht": 4,
+      "ef_-bi": 3
+    },
+    "11": {
+      "ef_-998": 10
+    },
+    "1": {
+      "ef_-998": 9
+    }
+  },
+  ".//transaction/value/@currency": {
+    "EUR": {
+      "ef_-mg": 24,
+      "ef_-gt": 33,
+      "ef_-89": 3,
+      "ef_-998": 19,
+      "ef_-ph": 33,
+      "ef_-cd": 30,
+      "ef_-be": 7,
+      "ef_-ni": 21,
+      "ef_-ht": 34,
+      "ef_-bi": 20
+    }
+  }
+}

@@ -1,0 +1,95 @@
+{
+  ".//@default-currency": {
+    "NOK": 2
+  },
+  ".//@xml:lang": {
+    "en": 8
+  },
+  ".//activity-date/@type": {
+    "1": 2,
+    "3": 2
+  },
+  ".//activity-status/@code": {
+    "2": 2
+  },
+  ".//budget/@status": {
+    "1": 5
+  },
+  ".//budget/@type": {
+    "2": 4
+  },
+  ".//budget/value/@currency": {
+    "NOK": 3,
+    "GBP": 2
+  },
+  ".//collaboration-type/@code": {
+    "1": 2
+  },
+  ".//default-flow-type/@code": {
+    "30": 1,
+    "10": 1
+  },
+  ".//description/@type": {
+    "1": 2
+  },
+  ".//humanitarian-scope/@type": {
+    "2": 2,
+    "1": 2
+  },
+  ".//humanitarian-scope/@vocabulary": {
+    "2-1": 2,
+    "1-2": 2
+  },
+  ".//humanitarian-scope[@vocabulary = '1-2']/@code": {
+    "CE-2015-000108-YEM": 2
+  },
+  ".//humanitarian-scope[@vocabulary = '2-1']/@code": {
+    "HYEM17": 2
+  },
+  ".//participating-org/@role": {
+    "2": 2,
+    "1": 2,
+    "4": 1
+  },
+  ".//participating-org/@type": {
+    "21": 2,
+    "10": 2,
+    "40": 1
+  },
+  ".//recipient-country/@code": {
+    "YE": 2
+  },
+  ".//reporting-org/@type": {
+    "21": 2
+  },
+  ".//sector/@vocabulary": {
+    "1": 2
+  },
+  ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "72050": 2
+  },
+  ".//transaction/aid-type/@vocabulary": {
+    "1": 6
+  },
+  ".//transaction/aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "C01": 6
+  },
+  ".//transaction/disbursement-channel/@code": {
+    "2": 4
+  },
+  ".//transaction/finance-type/@code": {
+    "110": 6
+  },
+  ".//transaction/flow-type/@code": {
+    "10": 6
+  },
+  ".//transaction/transaction-type/@code": {
+    "4": 21,
+    "11": 1,
+    "1": 2
+  },
+  ".//transaction/value/@currency": {
+    "NOK": 18,
+    "GBP": 3
+  }
+}

@@ -1,0 +1,333 @@
+{
+  ".//@default-currency": {
+    "EUR": {
+      "iteco-be": 2,
+      "iteco-998": 1,
+      "iteco-89": 1
+    }
+  },
+  ".//@xml:lang": {
+    "fr": {
+      "iteco-be": 63,
+      "iteco-998": 18,
+      "iteco-89": 15
+    },
+    "en": {
+      "iteco-be": 2,
+      "iteco-998": 3,
+      "iteco-89": 1
+    }
+  },
+  ".//activity-date/@type": {
+    "1": {
+      "iteco-be": 2,
+      "iteco-998": 1,
+      "iteco-89": 1
+    },
+    "2": {
+      "iteco-be": 2,
+      "iteco-998": 1,
+      "iteco-89": 1
+    },
+    "3": {
+      "iteco-be": 2,
+      "iteco-998": 1,
+      "iteco-89": 1
+    }
+  },
+  ".//activity-scope/@code": {
+    "4": {
+      "iteco-be": 2
+    }
+  },
+  ".//activity-status/@code": {
+    "2": {
+      "iteco-be": 2,
+      "iteco-998": 1,
+      "iteco-89": 1
+    }
+  },
+  ".//budget/@status": {
+    "2": {
+      "iteco-be": 18,
+      "iteco-89": 14
+    }
+  },
+  ".//budget/@type": {
+    "1": {
+      "iteco-be": 10,
+      "iteco-89": 10
+    },
+    "2": {
+      "iteco-be": 8,
+      "iteco-89": 4
+    }
+  },
+  ".//budget/value/@currency": {
+    "EUR": {
+      "iteco-be": 14,
+      "iteco-89": 8
+    }
+  },
+  ".//collaboration-type/@code": {
+    "1": {
+      "iteco-be": 2,
+      "iteco-998": 1,
+      "iteco-89": 1
+    }
+  },
+  ".//contact-info/@type": {
+    "4": {
+      "iteco-be": 1
+    },
+    "1": {
+      "iteco-be": 1,
+      "iteco-998": 1,
+      "iteco-89": 1
+    }
+  },
+  ".//default-aid-type/@vocabulary": {
+    "1": {
+      "iteco-be": 2,
+      "iteco-998": 1,
+      "iteco-89": 1
+    }
+  },
+  ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "H01": {
+      "iteco-be": 2,
+      "iteco-998": 1
+    },
+    "G01": {
+      "iteco-89": 1
+    }
+  },
+  ".//default-finance-type/@code": {
+    "110": {
+      "iteco-be": 2,
+      "iteco-998": 1,
+      "iteco-89": 1
+    }
+  },
+  ".//default-flow-type/@code": {
+    "30": {
+      "iteco-be": 2,
+      "iteco-998": 1,
+      "iteco-89": 1
+    }
+  },
+  ".//default-tied-status/@code": {
+    "5": {
+      "iteco-be": 2,
+      "iteco-998": 1,
+      "iteco-89": 1
+    }
+  },
+  ".//description/@type": {
+    "1": {
+      "iteco-be": 2,
+      "iteco-998": 1,
+      "iteco-89": 1
+    },
+    "2": {
+      "iteco-be": 2,
+      "iteco-998": 1
+    },
+    "3": {
+      "iteco-be": 2
+    },
+    "4": {
+      "iteco-be": 2
+    }
+  },
+  ".//document-link/@format": {
+    "application/pdf": {
+      "iteco-998": 1
+    }
+  },
+  ".//document-link/category/@code": {
+    "A02": {
+      "iteco-998": 1
+    },
+    "A03": {
+      "iteco-998": 1
+    },
+    "A04": {
+      "iteco-998": 1
+    },
+    "A05": {
+      "iteco-998": 1
+    },
+    "A08": {
+      "iteco-998": 1
+    }
+  },
+  ".//document-link/language/@code": {
+    "fr": {
+      "iteco-998": 1
+    }
+  },
+  ".//other-identifier/@type": {
+    "A9": {
+      "iteco-998": 1
+    }
+  },
+  ".//participating-org/@role": {
+    "1": {
+      "iteco-be": 4,
+      "iteco-998": 2,
+      "iteco-89": 2
+    },
+    "2": {
+      "iteco-be": 2,
+      "iteco-998": 1,
+      "iteco-89": 1
+    },
+    "4": {
+      "iteco-be": 3,
+      "iteco-998": 1
+    }
+  },
+  ".//participating-org/@type": {
+    "22": {
+      "iteco-be": 7,
+      "iteco-998": 3,
+      "iteco-89": 2
+    },
+    "10": {
+      "iteco-be": 2,
+      "iteco-998": 1,
+      "iteco-89": 1
+    }
+  },
+  ".//policy-marker/@significance": {
+    "2": {
+      "iteco-be": 3
+    },
+    "1": {
+      "iteco-be": 3
+    }
+  },
+  ".//policy-marker/@vocabulary": {
+    "1": {
+      "iteco-be": 6
+    }
+  },
+  ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "2": {
+      "iteco-be": 2
+    },
+    "3": {
+      "iteco-be": 2
+    },
+    "1": {
+      "iteco-be": 2
+    }
+  },
+  ".//recipient-country/@code": {
+    "BE": {
+      "iteco-be": 2
+    }
+  },
+  ".//recipient-region/@vocabulary": {
+    "1": {
+      "iteco-998": 1,
+      "iteco-89": 1
+    }
+  },
+  ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "998": {
+      "iteco-998": 1
+    },
+    "89": {
+      "iteco-89": 1
+    }
+  },
+  ".//related-activity/@type": {
+    "2": {
+      "iteco-be": 2,
+      "iteco-89": 1
+    },
+    "1": {
+      "iteco-998": 1
+    }
+  },
+  ".//reporting-org/@type": {
+    "22": {
+      "iteco-be": 2,
+      "iteco-998": 1,
+      "iteco-89": 1
+    }
+  },
+  ".//result/@type": {
+    "2": {
+      "iteco-be": 2
+    }
+  },
+  ".//result/indicator/@measure": {
+    "1": {
+      "iteco-be": 7
+    }
+  },
+  ".//sector/@vocabulary": {
+    "1": {
+      "iteco-be": 2,
+      "iteco-998": 1,
+      "iteco-89": 1
+    }
+  },
+  ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "99820": {
+      "iteco-be": 2,
+      "iteco-998": 1
+    },
+    "91010": {
+      "iteco-89": 1
+    }
+  },
+  ".//transaction/flow-type/@code": {
+    "30": {
+      "iteco-be": 2
+    }
+  },
+  ".//transaction/provider-org/@type": {
+    "22": {
+      "iteco-be": 6,
+      "iteco-998": 6,
+      "iteco-89": 5
+    },
+    "10": {
+      "iteco-998": 7
+    }
+  },
+  ".//transaction/receiver-org/@type": {
+    "22": {
+      "iteco-be": 6,
+      "iteco-998": 13,
+      "iteco-89": 5
+    }
+  },
+  ".//transaction/transaction-type/@code": {
+    "4": {
+      "iteco-be": 6,
+      "iteco-89": 3
+    },
+    "3": {
+      "iteco-be": 3,
+      "iteco-89": 3
+    },
+    "11": {
+      "iteco-998": 18
+    },
+    "1": {
+      "iteco-998": 6
+    }
+  },
+  ".//transaction/value/@currency": {
+    "EUR": {
+      "iteco-be": 6,
+      "iteco-998": 13,
+      "iteco-89": 5
+    }
+  }
+}

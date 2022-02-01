@@ -1,0 +1,235 @@
+{
+  ".//@default-currency": {
+    "GBP": {
+      "mapaction-gb": 1,
+      "mapaction-ph": 1,
+      "mapaction-mw": 1
+    }
+  },
+  ".//@xml:lang": {
+    "en": {
+      "mapaction-gb": 25,
+      "mapaction-ph": 13,
+      "mapaction-mw": 8
+    }
+  },
+  ".//activity-date/@type": {
+    "2": {
+      "mapaction-gb": 1,
+      "mapaction-mw": 1
+    },
+    "4": {
+      "mapaction-gb": 1,
+      "mapaction-mw": 1
+    },
+    "start-actual": {
+      "mapaction-ph": 1
+    }
+  },
+  ".//activity-status/@code": {
+    "4": {
+      "mapaction-gb": 1,
+      "mapaction-ph": 1,
+      "mapaction-mw": 1
+    }
+  },
+  ".//budget/@status": {
+    "2": {
+      "mapaction-gb": 1
+    },
+    "1": {
+      "mapaction-mw": 1
+    }
+  },
+  ".//budget/@type": {
+    "1": {
+      "mapaction-gb": 1
+    },
+    "2": {
+      "mapaction-ph": 1,
+      "mapaction-mw": 1
+    }
+  },
+  ".//budget/value/@currency": {
+    "GBP": {
+      "mapaction-gb": 1,
+      "mapaction-ph": 1,
+      "mapaction-mw": 1
+    }
+  },
+  ".//default-aid-type/@code": {
+    "D02": {
+      "mapaction-ph": 1
+    }
+  },
+  ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "B01": {
+      "mapaction-gb": 1,
+      "mapaction-mw": 1
+    }
+  },
+  ".//default-finance-type/@code": {
+    "110": {
+      "mapaction-ph": 1
+    }
+  },
+  ".//default-flow-type/@code": {
+    "10": {
+      "mapaction-gb": 1,
+      "mapaction-mw": 1
+    },
+    "30": {
+      "mapaction-ph": 1
+    }
+  },
+  ".//default-tied-status/@code": {
+    "5": {
+      "mapaction-ph": 1
+    }
+  },
+  ".//description/@type": {
+    "1": {
+      "mapaction-gb": 1,
+      "mapaction-ph": 1,
+      "mapaction-mw": 1
+    }
+  },
+  ".//participating-org/@role": {
+    "4": {
+      "mapaction-gb": 1
+    },
+    "Accountable": {
+      "mapaction-ph": 1
+    },
+    "1": {
+      "mapaction-mw": 1
+    }
+  },
+  ".//participating-org/@type": {
+    "21": {
+      "mapaction-gb": 1,
+      "mapaction-ph": 1
+    },
+    "15": {
+      "mapaction-mw": 1
+    }
+  },
+  ".//recipient-country/@code": {
+    "GB": {
+      "mapaction-gb": 1
+    },
+    "PH": {
+      "mapaction-ph": 1
+    },
+    "MW": {
+      "mapaction-mw": 1
+    }
+  },
+  ".//reporting-org/@type": {
+    "21": {
+      "mapaction-gb": 1,
+      "mapaction-ph": 1,
+      "mapaction-mw": 1
+    }
+  },
+  ".//sector/@vocabulary": {
+    "1": {
+      "mapaction-gb": 1,
+      "mapaction-mw": 1
+    }
+  },
+  ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "72050": {
+      "mapaction-gb": 1,
+      "mapaction-mw": 1
+    }
+  },
+  ".//sector[@vocabulary = 'DAC' or not(@vocabulary)]/@code": {
+    "185": {
+      "mapaction-ph": 1
+    }
+  },
+  ".//transaction/aid-type/@code": {
+    "C01": {
+      "mapaction-ph": 1
+    }
+  },
+  ".//transaction/aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "B01": {
+      "mapaction-gb": 5
+    },
+    "A01": {
+      "mapaction-gb": 1
+    },
+    "B03": {
+      "mapaction-gb": 1
+    }
+  },
+  ".//transaction/disbursement-channel/@code": {
+    "4": {
+      "mapaction-ph": 1
+    }
+  },
+  ".//transaction/finance-type/@code": {
+    "110": {
+      "mapaction-gb": 5,
+      "mapaction-ph": 1
+    },
+    "310": {
+      "mapaction-gb": 1
+    }
+  },
+  ".//transaction/flow-type/@code": {
+    "10": {
+      "mapaction-gb": 5
+    },
+    "35": {
+      "mapaction-gb": 1
+    },
+    "30": {
+      "mapaction-ph": 1
+    }
+  },
+  ".//transaction/provider-org/@type": {
+    "PPA": {
+      "mapaction-gb": 4
+    }
+  },
+  ".//transaction/receiver-org/@type": {
+    "21": {
+      "mapaction-gb": 5
+    }
+  },
+  ".//transaction/tied-status/@code": {
+    "5": {
+      "mapaction-gb": 5,
+      "mapaction-ph": 1
+    },
+    "4": {
+      "mapaction-gb": 1
+    }
+  },
+  ".//transaction/transaction-type/@code": {
+    "1": {
+      "mapaction-gb": 7,
+      "mapaction-mw": 1
+    },
+    "4": {
+      "mapaction-gb": 7,
+      "mapaction-mw": 3
+    },
+    "3": {
+      "mapaction-gb": 1
+    },
+    "E": {
+      "mapaction-ph": 1
+    }
+  },
+  ".//transaction/value/@currency": {
+    "GBP": {
+      "mapaction-gb": 15,
+      "mapaction-ph": 1,
+      "mapaction-mw": 4
+    }
+  }
+}

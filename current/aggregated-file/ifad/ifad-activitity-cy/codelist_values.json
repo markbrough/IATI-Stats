@@ -1,0 +1,82 @@
+{
+  ".//@default-currency": {
+    "USD": 1
+  },
+  ".//@xml:lang": {
+    "en": 1
+  },
+  ".//activity-date/@type": {
+    "2": 1,
+    "4": 1
+  },
+  ".//activity-status/@code": {
+    "4": 1
+  },
+  ".//collaboration-type/@code": {
+    "2": 1
+  },
+  ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "C01": 1
+  },
+  ".//default-tied-status/@code": {
+    "5": 1
+  },
+  ".//document-link/@format": {
+    "text/html": 2
+  },
+  ".//document-link/category/@code": {
+    "A12": 2
+  },
+  ".//document-link/language/@code": {
+    "en": 2
+  },
+  ".//location/exactness/@code": {
+    "1": 1
+  },
+  ".//location/location-reach/@code": {
+    "1": 1
+  },
+  ".//other-identifier/@type": {
+    "A1": 1
+  },
+  ".//participating-org/@role": {
+    "1": 1
+  },
+  ".//participating-org/@type": {
+    "40": 1
+  },
+  ".//recipient-country/@code": {
+    "CY": 1
+  },
+  ".//reporting-org/@type": {
+    "40": 1
+  },
+  ".//sector/@vocabulary": {
+    "2": 1
+  },
+  ".//sector[@vocabulary = '2']/@code": {
+    "311": 1
+  },
+  ".//transaction/aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "C01": 7
+  },
+  ".//transaction/disbursement-channel/@code": {
+    "1": 7
+  },
+  ".//transaction/finance-type/@code": {
+    "421": 7
+  },
+  ".//transaction/flow-type/@code": {
+    "20": 7
+  },
+  ".//transaction/provider-org/@type": {
+    "40": 7
+  },
+  ".//transaction/transaction-type/@code": {
+    "2": 1,
+    "3": 6
+  },
+  ".//transaction/value/@currency": {
+    "XDR": 7
+  }
+}

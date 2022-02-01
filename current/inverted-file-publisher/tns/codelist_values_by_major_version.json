@@ -1,0 +1,296 @@
+{
+  "2": {
+    ".//@default-currency": {
+      "tns-998": {
+        "USD": 1
+      },
+      "tns-298": {
+        "USD": 2,
+        "GBP": 1
+      }
+    },
+    ".//activity-date/@type": {
+      "tns-998": {
+        "2": 1
+      },
+      "tns-298": {
+        "2": 2,
+        "3": 2,
+        "1": 1
+      }
+    },
+    ".//activity-status/@code": {
+      "tns-998": {
+        "2": 1
+      },
+      "tns-298": {
+        "2": 3
+      }
+    },
+    ".//budget/@status": {
+      "tns-998": {
+        "2": 5
+      },
+      "tns-298": {
+        "2": 2
+      }
+    },
+    ".//budget/@type": {
+      "tns-998": {
+        "1": 5
+      },
+      "tns-298": {
+        "1": 1,
+        "2": 1
+      }
+    },
+    ".//budget/value/@currency": {
+      "tns-998": {
+        "GBP": 5
+      },
+      "tns-298": {
+        "USD": 1,
+        "EUR": 1
+      }
+    },
+    ".//contact-info/@type": {
+      "tns-998": {
+        "1": 1
+      },
+      "tns-298": {
+        "1": 2,
+        "2": 1
+      }
+    },
+    ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "tns-998": {
+        "B03": 1
+      },
+      "tns-298": {
+        "B03": 3
+      }
+    },
+    ".//default-aid-type/@vocabulary": {
+      "tns-998": {
+        "1": 1
+      },
+      "tns-298": {
+        "1": 2
+      }
+    },
+    ".//default-finance-type/@code": {
+      "tns-998": {
+        "110": 1
+      },
+      "tns-298": {
+        "110": 3
+      }
+    },
+    ".//default-flow-type/@code": {
+      "tns-998": {
+        "20": 1
+      },
+      "tns-298": {
+        "20": 3
+      }
+    },
+    ".//default-tied-status/@code": {
+      "tns-998": {
+        "4": 1
+      },
+      "tns-298": {
+        "4": 3
+      }
+    },
+    ".//description/@type": {
+      "tns-998": {
+        "1": 1
+      },
+      "tns-298": {
+        "1": 3,
+        "2": 2,
+        "3": 2
+      }
+    },
+    ".//participating-org/@crs-channel-code": {
+      "tns-998": {
+        "11000": 1
+      },
+      "tns-298": {
+        "11000": 1,
+        "21000": 1,
+        "11004": 1
+      }
+    },
+    ".//participating-org/@role": {
+      "tns-998": {
+        "1": 1,
+        "4": 1
+      },
+      "tns-298": {
+        "4": 4,
+        "1": 3
+      }
+    },
+    ".//participating-org/@type": {
+      "tns-998": {
+        "10": 1,
+        "21": 1
+      },
+      "tns-298": {
+        "21": 3,
+        "10": 3,
+        "15": 1
+      }
+    },
+    ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "tns-998": {
+        "298": 1,
+        "798": 1
+      },
+      "tns-298": {
+        "298": 3
+      }
+    },
+    ".//recipient-region/@vocabulary": {
+      "tns-998": {
+        "1": 2
+      },
+      "tns-298": {
+        "1": 3
+      }
+    },
+    ".//reporting-org/@type": {
+      "tns-998": {
+        "21": 1
+      },
+      "tns-298": {
+        "21": 3
+      }
+    },
+    ".//sector[@vocabulary = '2']/@code": {
+      "tns-998": {
+        "311": 1
+      }
+    },
+    ".//sector/@vocabulary": {
+      "tns-998": {
+        "2": 1
+      },
+      "tns-298": {
+        "1": 4
+      }
+    },
+    ".//transaction/provider-org/@type": {
+      "tns-998": {
+        "10": 2
+      },
+      "tns-298": {
+        "10": 4,
+        "21": 2
+      }
+    },
+    ".//transaction/transaction-type/@code": {
+      "tns-998": {
+        "1": 2,
+        "4": 3
+      },
+      "tns-298": {
+        "11": 13,
+        "1": 1,
+        "3": 2,
+        "4": 2
+      }
+    },
+    ".//transaction/value/@currency": {
+      "tns-998": {
+        "GBP": 5
+      },
+      "tns-298": {
+        "USD": 6,
+        "EUR": 7,
+        "GBP": 4
+      }
+    },
+    ".//@xml:lang": {
+      "tns-998": {
+        "en": 11
+      },
+      "tns-298": {
+        "en": 86,
+        "fr": 22
+      }
+    },
+    ".//document-link/@format": {
+      "tns-298": {
+        "application/pdf": 10
+      }
+    },
+    ".//document-link/category/@code": {
+      "tns-298": {
+        "B01": 10
+      }
+    },
+    ".//document-link/language/@code": {
+      "tns-298": {
+        "en": 6,
+        "fr": 4
+      }
+    },
+    ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "tns-298": {
+        "7": 1
+      }
+    },
+    ".//policy-marker/@significance": {
+      "tns-298": {
+        "1": 1,
+        "2": 1
+      }
+    },
+    ".//policy-marker/@vocabulary": {
+      "tns-298": {
+        "1": 1,
+        "99": 1
+      }
+    },
+    ".//recipient-country/@code": {
+      "tns-298": {
+        "MZ": 1,
+        "BJ": 1,
+        "NG": 1
+      }
+    },
+    ".//result/@type": {
+      "tns-298": {
+        "2": 12,
+        "1": 6,
+        "3": 7
+      }
+    },
+    ".//result/indicator/@measure": {
+      "tns-298": {
+        "1": 12,
+        "2": 13
+      }
+    },
+    ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "tns-298": {
+        "31120": 2,
+        "32130": 1,
+        "31110": 1
+      }
+    },
+    ".//transaction/disbursement-channel/@code": {
+      "tns-298": {
+        "2": 1
+      }
+    },
+    ".//transaction/receiver-org/@type": {
+      "tns-298": {
+        "21": 2,
+        "15": 2
+      }
+    }
+  }
+}

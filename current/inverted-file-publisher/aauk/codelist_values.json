@@ -1,0 +1,555 @@
+{
+  ".//@default-currency": {
+    "EUR": {
+      "aauk-activities": 1
+    },
+    "GBP": {
+      "aauk-activities": 29
+    },
+    "CAD": {
+      "aauk-activities": 1
+    },
+    "USD": {
+      "aauk-activities": 1
+    }
+  },
+  ".//@xml:lang": {
+    "en": {
+      "aauk-activities": 975
+    }
+  },
+  ".//activity-date/@type": {
+    "1": {
+      "aauk-activities": 4
+    },
+    "2": {
+      "aauk-activities": 31
+    },
+    "3": {
+      "aauk-activities": 25
+    },
+    "4": {
+      "aauk-activities": 9
+    }
+  },
+  ".//activity-status/@code": {
+    "2": {
+      "aauk-activities": 20
+    },
+    "4": {
+      "aauk-activities": 10
+    },
+    "3": {
+      "aauk-activities": 2
+    }
+  },
+  ".//budget/@status": {
+    "2": {
+      "aauk-activities": 63
+    },
+    "1": {
+      "aauk-activities": 3
+    }
+  },
+  ".//budget/@type": {
+    "2": {
+      "aauk-activities": 18
+    },
+    "1": {
+      "aauk-activities": 47
+    }
+  },
+  ".//budget/value/@currency": {
+    "EUR": {
+      "aauk-activities": 5
+    },
+    "GBP": {
+      "aauk-activities": 53
+    },
+    "CAD": {
+      "aauk-activities": 2
+    },
+    "USD": {
+      "aauk-activities": 3
+    }
+  },
+  ".//collaboration-type/@code": {
+    "2": {
+      "aauk-activities": 12
+    }
+  },
+  ".//contact-info/@type": {
+    "2": {
+      "aauk-activities": 31
+    }
+  },
+  ".//default-aid-type/@vocabulary": {
+    "1": {
+      "aauk-activities": 32
+    },
+    "2": {
+      "aauk-activities": 16
+    },
+    "3": {
+      "aauk-activities": 15
+    },
+    "4": {
+      "aauk-activities": 1
+    }
+  },
+  ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "C01": {
+      "aauk-activities": 32
+    }
+  },
+  ".//default-aid-type[@vocabulary = '2']/@code": {
+    "4": {
+      "aauk-activities": 14
+    },
+    "3": {
+      "aauk-activities": 2
+    }
+  },
+  ".//default-aid-type[@vocabulary = '3']/@code": {
+    "I": {
+      "aauk-activities": 15
+    }
+  },
+  ".//default-aid-type[@vocabulary = '4']/@code": {
+    "1": {
+      "aauk-activities": 1
+    }
+  },
+  ".//default-finance-type/@code": {
+    "110": {
+      "aauk-activities": 32
+    }
+  },
+  ".//default-flow-type/@code": {
+    "30": {
+      "aauk-activities": 32
+    }
+  },
+  ".//default-tied-status/@code": {
+    "5": {
+      "aauk-activities": 32
+    }
+  },
+  ".//description/@type": {
+    "2": {
+      "aauk-activities": 1
+    },
+    "1": {
+      "aauk-activities": 31
+    }
+  },
+  ".//document-link/@format": {
+    "application/pdf": {
+      "aauk-activities": 33
+    },
+    "application/http": {
+      "aauk-activities": 1
+    }
+  },
+  ".//document-link/category/@code": {
+    "A01": {
+      "aauk-activities": 2
+    },
+    "A08": {
+      "aauk-activities": 23
+    },
+    "A12": {
+      "aauk-activities": 1
+    },
+    "A04": {
+      "aauk-activities": 1
+    },
+    "B12": {
+      "aauk-activities": 1
+    },
+    "B01": {
+      "aauk-activities": 6
+    }
+  },
+  ".//document-link/language/@code": {
+    "en": {
+      "aauk-activities": 34
+    }
+  },
+  ".//humanitarian-scope/@type": {
+    "2": {
+      "aauk-activities": 17
+    },
+    "1": {
+      "aauk-activities": 4
+    }
+  },
+  ".//humanitarian-scope/@vocabulary": {
+    "2-1": {
+      "aauk-activities": 17
+    },
+    "1-2": {
+      "aauk-activities": 4
+    }
+  },
+  ".//humanitarian-scope[@vocabulary = '1-2']/@code": {
+    "DR-2019-000024-KEN": {
+      "aauk-activities": 1
+    },
+    "FL-2019-000089-SLE": {
+      "aauk-activities": 1
+    },
+    "FL-2019-000135-GHA": {
+      "aauk-activities": 1
+    },
+    "FL-2020-000011-MOZ": {
+      "aauk-activities": 1
+    }
+  },
+  ".//humanitarian-scope[@vocabulary = '2-1']/@code": {
+    "FKEN17": {
+      "aauk-activities": 1
+    },
+    "HSOM17": {
+      "aauk-activities": 1
+    },
+    "HSOM18": {
+      "aauk-activities": 1
+    },
+    "OBGD18": {
+      "aauk-activities": 2
+    },
+    "OBGD19": {
+      "aauk-activities": 2
+    },
+    "OBGD17": {
+      "aauk-activities": 1
+    },
+    "OIDN18": {
+      "aauk-activities": 1
+    },
+    "FZWE1819": {
+      "aauk-activities": 1
+    },
+    "HMOZ19": {
+      "aauk-activities": 1
+    },
+    "RSYR19": {
+      "aauk-activities": 1
+    },
+    "HCOD19": {
+      "aauk-activities": 3
+    },
+    "OGBD19": {
+      "aauk-activities": 1
+    },
+    "HCOD20": {
+      "aauk-activities": 1
+    }
+  },
+  ".//location/location-reach/@code": {
+    "1": {
+      "aauk-activities": 1
+    }
+  },
+  ".//participating-org/@role": {
+    "1": {
+      "aauk-activities": 34
+    },
+    "2": {
+      "aauk-activities": 30
+    },
+    "4": {
+      "aauk-activities": 42
+    },
+    "3": {
+      "aauk-activities": 1
+    }
+  },
+  ".//participating-org/@type": {
+    "10": {
+      "aauk-activities": 2
+    },
+    "21": {
+      "aauk-activities": 66
+    },
+    "22": {
+      "aauk-activities": 22
+    },
+    "70": {
+      "aauk-activities": 1
+    },
+    "60": {
+      "aauk-activities": 1
+    },
+    "90": {
+      "aauk-activities": 15
+    }
+  },
+  ".//policy-marker/@significance": {
+    "2": {
+      "aauk-activities": 8
+    },
+    "1": {
+      "aauk-activities": 5
+    }
+  },
+  ".//policy-marker/@vocabulary": {
+    "1": {
+      "aauk-activities": 10
+    }
+  },
+  ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "1": {
+      "aauk-activities": 11
+    },
+    "3": {
+      "aauk-activities": 2
+    }
+  },
+  ".//recipient-country/@code": {
+    "GH": {
+      "aauk-activities": 3
+    },
+    "RW": {
+      "aauk-activities": 2
+    },
+    "BD": {
+      "aauk-activities": 4
+    },
+    "PK": {
+      "aauk-activities": 1
+    },
+    "KE": {
+      "aauk-activities": 5
+    },
+    "SO": {
+      "aauk-activities": 2
+    },
+    "SL": {
+      "aauk-activities": 2
+    },
+    "ID": {
+      "aauk-activities": 1
+    },
+    "ZW": {
+      "aauk-activities": 2
+    },
+    "MZ": {
+      "aauk-activities": 2
+    },
+    "JO": {
+      "aauk-activities": 1
+    },
+    "CD": {
+      "aauk-activities": 4
+    },
+    "ET": {
+      "aauk-activities": 3
+    },
+    "IN": {
+      "aauk-activities": 1
+    },
+    "HT": {
+      "aauk-activities": 1
+    },
+    "GT": {
+      "aauk-activities": 1
+    },
+    "UG": {
+      "aauk-activities": 1
+    },
+    "KH": {
+      "aauk-activities": 1
+    }
+  },
+  ".//recipient-region/@vocabulary": {
+    "1": {
+      "aauk-activities": 3
+    }
+  },
+  ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "798": {
+      "aauk-activities": 1
+    },
+    "298": {
+      "aauk-activities": 1
+    },
+    "289": {
+      "aauk-activities": 1
+    }
+  },
+  ".//reporting-org/@type": {
+    "21": {
+      "aauk-activities": 32
+    }
+  },
+  ".//result/@type": {
+    "1": {
+      "aauk-activities": 13
+    },
+    "2": {
+      "aauk-activities": 4
+    }
+  },
+  ".//result/indicator/@measure": {
+    "1": {
+      "aauk-activities": 23
+    },
+    "2": {
+      "aauk-activities": 27
+    },
+    "5": {
+      "aauk-activities": 1
+    }
+  },
+  ".//result/indicator/reference/@vocabulary": {
+    "99": {
+      "aauk-activities": 51
+    }
+  },
+  ".//sector/@vocabulary": {
+    "1": {
+      "aauk-activities": 37
+    }
+  },
+  ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "15170": {
+      "aauk-activities": 1
+    },
+    "72010": {
+      "aauk-activities": 15
+    },
+    "11220": {
+      "aauk-activities": 1
+    },
+    "11320": {
+      "aauk-activities": 1
+    },
+    "15180": {
+      "aauk-activities": 6
+    },
+    "12261": {
+      "aauk-activities": 1
+    },
+    "11120": {
+      "aauk-activities": 1
+    },
+    "16020": {
+      "aauk-activities": 1
+    },
+    "11240": {
+      "aauk-activities": 3
+    },
+    "16070": {
+      "aauk-activities": 1
+    },
+    "43072": {
+      "aauk-activities": 1
+    },
+    "11330": {
+      "aauk-activities": 1
+    },
+    "11230": {
+      "aauk-activities": 2
+    },
+    "16064": {
+      "aauk-activities": 1
+    },
+    "11110": {
+      "aauk-activities": 1
+    }
+  },
+  ".//transaction/aid-type/@vocabulary": {
+    "1": {
+      "aauk-activities": 113
+    },
+    "4": {
+      "aauk-activities": 1
+    }
+  },
+  ".//transaction/aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "C01": {
+      "aauk-activities": 113
+    }
+  },
+  ".//transaction/aid-type[@vocabulary = '4']/@code": {
+    "1": {
+      "aauk-activities": 1
+    }
+  },
+  ".//transaction/finance-type/@code": {
+    "110": {
+      "aauk-activities": 113
+    }
+  },
+  ".//transaction/flow-type/@code": {
+    "30": {
+      "aauk-activities": 113
+    }
+  },
+  ".//transaction/provider-org/@type": {
+    "10": {
+      "aauk-activities": 7
+    },
+    "21": {
+      "aauk-activities": 265
+    },
+    "22": {
+      "aauk-activities": 53
+    },
+    "70": {
+      "aauk-activities": 5
+    },
+    "60": {
+      "aauk-activities": 2
+    },
+    "90": {
+      "aauk-activities": 24
+    }
+  },
+  ".//transaction/receiver-org/@type": {
+    "21": {
+      "aauk-activities": 193
+    },
+    "22": {
+      "aauk-activities": 84
+    }
+  },
+  ".//transaction/tied-status/@code": {
+    "5": {
+      "aauk-activities": 113
+    }
+  },
+  ".//transaction/transaction-type/@code": {
+    "1": {
+      "aauk-activities": 77
+    },
+    "2": {
+      "aauk-activities": 58
+    },
+    "3": {
+      "aauk-activities": 116
+    },
+    "4": {
+      "aauk-activities": 77
+    },
+    "11": {
+      "aauk-activities": 40
+    }
+  },
+  ".//transaction/value/@currency": {
+    "EUR": {
+      "aauk-activities": 74
+    },
+    "GBP": {
+      "aauk-activities": 224
+    },
+    "CAD": {
+      "aauk-activities": 4
+    },
+    "USD": {
+      "aauk-activities": 5
+    }
+  }
+}

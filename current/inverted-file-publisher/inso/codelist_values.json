@@ -1,0 +1,152 @@
+{
+  ".//@default-currency": {
+    "EUR": {
+      "inso-998": 1,
+      "inso-sy": 1,
+      "inso-iq": 1,
+      "inso-so": 1
+    }
+  },
+  ".//@xml:lang": {
+    "en": {
+      "inso-998": 7,
+      "inso-sy": 10,
+      "inso-iq": 11,
+      "inso-so": 7
+    }
+  },
+  ".//activity-date/@type": {
+    "1": {
+      "inso-998": 1,
+      "inso-so": 1
+    },
+    "2": {
+      "inso-sy": 1,
+      "inso-iq": 1
+    },
+    "3": {
+      "inso-sy": 1
+    }
+  },
+  ".//activity-status/@code": {
+    "2": {
+      "inso-998": 1,
+      "inso-sy": 1,
+      "inso-iq": 1,
+      "inso-so": 1
+    }
+  },
+  ".//budget/@status": {
+    "1": {
+      "inso-998": 1,
+      "inso-sy": 2,
+      "inso-iq": 1,
+      "inso-so": 1
+    },
+    "2": {
+      "inso-sy": 2,
+      "inso-iq": 4
+    }
+  },
+  ".//budget/@type": {
+    "1": {
+      "inso-998": 1,
+      "inso-sy": 4,
+      "inso-iq": 5,
+      "inso-so": 1
+    }
+  },
+  ".//budget/value/@currency": {
+    "GBP": {
+      "inso-998": 1,
+      "inso-sy": 4
+    },
+    "EUR": {
+      "inso-iq": 5,
+      "inso-so": 1
+    }
+  },
+  ".//contact-info/@type": {
+    "1": {
+      "inso-998": 1,
+      "inso-sy": 1,
+      "inso-iq": 1,
+      "inso-so": 1
+    }
+  },
+  ".//description/@type": {
+    "1": {
+      "inso-998": 1,
+      "inso-sy": 1,
+      "inso-iq": 1,
+      "inso-so": 1
+    }
+  },
+  ".//participating-org/@role": {
+    "4": {
+      "inso-998": 1,
+      "inso-sy": 1,
+      "inso-iq": 1,
+      "inso-so": 1
+    },
+    "2": {
+      "inso-sy": 1
+    },
+    "1": {
+      "inso-sy": 1,
+      "inso-iq": 4
+    }
+  },
+  ".//participating-org/@type": {
+    "21": {
+      "inso-998": 1,
+      "inso-sy": 2,
+      "inso-iq": 1,
+      "inso-so": 1
+    },
+    "10": {
+      "inso-sy": 1,
+      "inso-iq": 4
+    }
+  },
+  ".//recipient-country/@code": {
+    "SY": {
+      "inso-sy": 1
+    },
+    "IQ": {
+      "inso-iq": 1
+    },
+    "SO": {
+      "inso-so": 1
+    }
+  },
+  ".//reporting-org/@type": {
+    "21": {
+      "inso-998": 1,
+      "inso-sy": 1,
+      "inso-iq": 1,
+      "inso-so": 1
+    }
+  },
+  ".//sector/@vocabulary": {
+    "1": {
+      "inso-998": 2,
+      "inso-sy": 1,
+      "inso-iq": 2,
+      "inso-so": 2
+    }
+  },
+  ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "92030": {
+      "inso-998": 1,
+      "inso-sy": 1,
+      "inso-iq": 1,
+      "inso-so": 1
+    },
+    "92020": {
+      "inso-998": 1,
+      "inso-iq": 1,
+      "inso-so": 1
+    }
+  }
+}
