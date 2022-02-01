@@ -1481,7 +1481,8 @@ class GenericFileStats(object):
         except IOError:
             debug(self, 'Unsupported version \'{0}\' '.format(version))
             return {'fail': 1}
-
+    
+    """
     @returns_numberdict
     def wrong_roots(self):
         tag = self.root.tag
@@ -1491,7 +1492,8 @@ class GenericFileStats(object):
                 return {tag: 1}
         except KeyError:
             pass
-
+    """
+    
     @returns_number
     def file_size(self):
         return os.stat(self.inputfile).st_size
