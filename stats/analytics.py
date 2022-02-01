@@ -1445,7 +1445,7 @@ class ActivityStats(CommonSharedElements):
         return 0
 
 
-ckan = json.load(open('helpers/ckan.json'))
+# ckan = json.load(open('helpers/ckan.json'))
 publisher_re = re.compile(r'(.*)\-[^\-]')
 
 
