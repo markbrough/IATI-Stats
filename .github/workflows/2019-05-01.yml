@@ -1,0 +1,67 @@
+name: Generate stats 2019-05-01
+on:
+  push:
+jobs:
+  generate_stats:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout this repo
+      uses: actions/checkout@v2
+      with:
+        persist-credentials: false
+    - name: Download IATI data
+      run: |
+        wget -q -O iati_dump.zip https://gitlab.com/codeforIATI/iati-snapshot-mirror/-/archive/f16f6f62cd999c6da197d65cc4c463d117a1c8da/iati-snapshot-mirror-f16f6f62cd999c6da197d65cc4c463d117a1c8da.zip
+        unzip -q iati_dump.zip
+        mv iati-snapshot-mirror-f16f6f62cd999c6da197d65cc4c463d117a1c8da data
+        rm -rf iati_dump.zip
+    - name: Set up Python 3.7
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.7
+    - uses: actions/cache@v2
+      name: Cache dependencies
+      with:
+        path: ~/.cache/pip
+        key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
+        restore-keys: |
+          ${{ runner.os }}-pip-
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+    - name: Install some extras
+      run: |
+        cd helpers
+        git clone --branch version-2.03 https://github.com/IATI/IATI-Rulesets.git
+        ln -s IATI-Rulesets/rulesets .
+        ./get_codelist_mapping.sh
+        ./get_codelists.sh
+        ./get_schemas.sh
+        wget -q "https://raw.githubusercontent.com/codeforIATI/IATI-Dashboard/main/registry_id_relationships.csv"
+        cd ..
+    - name: Checkout output
+      uses: actions/checkout@v2
+      with:
+        persist-credentials: false
+        repository: codeforIATI/IATI-Stats-public
+        path: out
+    - name: Delete out/current
+      run: rm -rf out/current
+    - name: Run loop
+      run: python calculate_stats.py --output out/current loop
+    - name: Delete data and metadata
+      run: rm -rf data metadata
+    - name: Run aggregate
+      run: python calculate_stats.py --output out/current aggregate
+    - name: Run invert
+      run: python calculate_stats.py --output out/current invert
+    - name: Add static files to output
+      run: cp -r static/* out
+    - name: Deploy
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./out
+        force_orphan: true
+        publish_branch: f16f6f62cd999c6da197d65cc4c463d117a1c8da

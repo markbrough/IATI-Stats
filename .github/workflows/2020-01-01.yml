@@ -1,4 +1,4 @@
-name: Generate stats 
+name: Generate stats 2020-01-01
 on:
   push:
 jobs:
@@ -11,9 +11,9 @@ jobs:
         persist-credentials: false
     - name: Download IATI data
       run: |
-        wget -q -O iati_dump.zip https://gitlab.com/codeforIATI/iati-snapshot-mirror/-/archive/74b564ad42e8ec98f53a25fac78b95c09e952c33/iati-snapshot-mirror-74b564ad42e8ec98f53a25fac78b95c09e952c33.zip
+        wget -q -O iati_dump.zip https://gitlab.com/codeforIATI/iati-snapshot-mirror/-/archive/46035ec0534e591b5659d447561feec773971ca1/iati-snapshot-mirror-46035ec0534e591b5659d447561feec773971ca1.zip
         unzip -q iati_dump.zip
-        mv iati-snapshot-mirror-74b564ad42e8ec98f53a25fac78b95c09e952c33 data
+        mv iati-snapshot-mirror-46035ec0534e591b5659d447561feec773971ca1 data
         rm -rf iati_dump.zip
     - name: Set up Python 3.7
       uses: actions/setup-python@v2
@@ -64,3 +64,4 @@ jobs:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: ./out
         force_orphan: true
+        publish_branch: 46035ec0534e591b5659d447561feec773971ca1
