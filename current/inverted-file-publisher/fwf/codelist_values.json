@@ -1,0 +1,476 @@
+{
+  ".//@default-currency": {
+    "EUR": {
+      "fwf-vn": 1,
+      "fwf-mm": 1,
+      "fwf-998": 10,
+      "fwf-bd": 1,
+      "fwf-kh": 1,
+      "fwf-nl": 1,
+      "fwf-et": 1,
+      "fwf-id": 1,
+      "fwf-pk": 1,
+      "fwf-in": 1
+    }
+  },
+  ".//@xml:lang": {
+    "en": {
+      "fwf-vn": 10,
+      "fwf-mm": 14,
+      "fwf-998": 114,
+      "fwf-bd": 10,
+      "fwf-kh": 9,
+      "fwf-nl": 10,
+      "fwf-et": 9,
+      "fwf-id": 10,
+      "fwf-pk": 9,
+      "fwf-in": 10
+    }
+  },
+  ".//activity-date/@type": {
+    "1": {
+      "fwf-vn": 1,
+      "fwf-mm": 1,
+      "fwf-998": 10,
+      "fwf-bd": 1,
+      "fwf-kh": 1,
+      "fwf-nl": 1,
+      "fwf-et": 1,
+      "fwf-id": 1,
+      "fwf-pk": 1,
+      "fwf-in": 1
+    },
+    "3": {
+      "fwf-vn": 1,
+      "fwf-mm": 1,
+      "fwf-998": 10,
+      "fwf-bd": 1,
+      "fwf-kh": 1,
+      "fwf-nl": 1,
+      "fwf-et": 1,
+      "fwf-id": 1,
+      "fwf-pk": 1,
+      "fwf-in": 1
+    }
+  },
+  ".//activity-scope/@code": {
+    "3": {
+      "fwf-vn": 1,
+      "fwf-mm": 1,
+      "fwf-998": 9,
+      "fwf-bd": 1,
+      "fwf-kh": 1,
+      "fwf-nl": 1,
+      "fwf-et": 1,
+      "fwf-id": 1,
+      "fwf-pk": 1,
+      "fwf-in": 1
+    },
+    "1": {
+      "fwf-998": 1
+    }
+  },
+  ".//activity-status/@code": {
+    "1": {
+      "fwf-vn": 1,
+      "fwf-mm": 1,
+      "fwf-998": 10,
+      "fwf-bd": 1,
+      "fwf-kh": 1,
+      "fwf-nl": 1,
+      "fwf-et": 1,
+      "fwf-id": 1,
+      "fwf-pk": 1,
+      "fwf-in": 1
+    }
+  },
+  ".//budget/@status": {
+    "1": {
+      "fwf-vn": 1,
+      "fwf-mm": 1,
+      "fwf-998": 9,
+      "fwf-bd": 1,
+      "fwf-kh": 1,
+      "fwf-nl": 1,
+      "fwf-et": 1,
+      "fwf-id": 1,
+      "fwf-pk": 1,
+      "fwf-in": 1
+    },
+    "2": {
+      "fwf-998": 1
+    }
+  },
+  ".//budget/@type": {
+    "2": {
+      "fwf-vn": 1,
+      "fwf-mm": 1,
+      "fwf-998": 9,
+      "fwf-bd": 1,
+      "fwf-kh": 1,
+      "fwf-nl": 1,
+      "fwf-id": 1,
+      "fwf-pk": 1,
+      "fwf-in": 1
+    },
+    "1": {
+      "fwf-998": 1,
+      "fwf-et": 1
+    }
+  },
+  ".//budget/value/@currency": {
+    "EUR": {
+      "fwf-vn": 1,
+      "fwf-mm": 1,
+      "fwf-998": 10,
+      "fwf-bd": 1,
+      "fwf-kh": 1,
+      "fwf-nl": 1,
+      "fwf-et": 1,
+      "fwf-id": 1,
+      "fwf-pk": 1,
+      "fwf-in": 1
+    }
+  },
+  ".//collaboration-type/@code": {
+    "1": {
+      "fwf-vn": 1,
+      "fwf-mm": 1,
+      "fwf-998": 9,
+      "fwf-bd": 1,
+      "fwf-kh": 1,
+      "fwf-nl": 1,
+      "fwf-et": 1,
+      "fwf-id": 1,
+      "fwf-pk": 1,
+      "fwf-in": 1
+    }
+  },
+  ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "C01": {
+      "fwf-vn": 1,
+      "fwf-mm": 1,
+      "fwf-998": 9,
+      "fwf-bd": 1,
+      "fwf-kh": 1,
+      "fwf-nl": 1,
+      "fwf-et": 1,
+      "fwf-id": 1,
+      "fwf-pk": 1,
+      "fwf-in": 1
+    }
+  },
+  ".//default-finance-type/@code": {
+    "110": {
+      "fwf-vn": 1,
+      "fwf-mm": 1,
+      "fwf-998": 10,
+      "fwf-bd": 1,
+      "fwf-kh": 1,
+      "fwf-nl": 1,
+      "fwf-et": 1,
+      "fwf-id": 1,
+      "fwf-pk": 1,
+      "fwf-in": 1
+    }
+  },
+  ".//default-flow-type/@code": {
+    "30": {
+      "fwf-vn": 1,
+      "fwf-mm": 1,
+      "fwf-998": 9,
+      "fwf-bd": 1,
+      "fwf-kh": 1,
+      "fwf-nl": 1,
+      "fwf-et": 1,
+      "fwf-id": 1,
+      "fwf-pk": 1,
+      "fwf-in": 1
+    }
+  },
+  ".//default-tied-status/@code": {
+    "5": {
+      "fwf-vn": 1,
+      "fwf-mm": 1,
+      "fwf-998": 9,
+      "fwf-bd": 1,
+      "fwf-kh": 1,
+      "fwf-nl": 1,
+      "fwf-et": 1,
+      "fwf-id": 1,
+      "fwf-pk": 1,
+      "fwf-in": 1
+    }
+  },
+  ".//description/@type": {
+    "1": {
+      "fwf-vn": 1,
+      "fwf-mm": 1,
+      "fwf-998": 9,
+      "fwf-bd": 1,
+      "fwf-kh": 1,
+      "fwf-nl": 1,
+      "fwf-et": 1,
+      "fwf-id": 1,
+      "fwf-pk": 1,
+      "fwf-in": 1
+    },
+    "2": {
+      "fwf-998": 1
+    }
+  },
+  ".//participating-org/@role": {
+    "4": {
+      "fwf-vn": 1,
+      "fwf-mm": 2,
+      "fwf-998": 11,
+      "fwf-bd": 1,
+      "fwf-kh": 1,
+      "fwf-nl": 1,
+      "fwf-et": 1,
+      "fwf-id": 1,
+      "fwf-pk": 1,
+      "fwf-in": 1
+    },
+    "1": {
+      "fwf-mm": 1,
+      "fwf-998": 1
+    },
+    "2": {
+      "fwf-mm": 1
+    }
+  },
+  ".//participating-org/@type": {
+    "21": {
+      "fwf-vn": 1,
+      "fwf-mm": 3,
+      "fwf-998": 11,
+      "fwf-bd": 1,
+      "fwf-kh": 1,
+      "fwf-nl": 1,
+      "fwf-et": 1,
+      "fwf-id": 1,
+      "fwf-pk": 1,
+      "fwf-in": 1
+    },
+    "10": {
+      "fwf-998": 1
+    }
+  },
+  ".//policy-marker/@vocabulary": {
+    "1": {
+      "fwf-vn": 1,
+      "fwf-mm": 1,
+      "fwf-998": 8,
+      "fwf-bd": 1,
+      "fwf-kh": 1,
+      "fwf-et": 1,
+      "fwf-id": 1,
+      "fwf-pk": 1,
+      "fwf-in": 1
+    }
+  },
+  ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "4": {
+      "fwf-vn": 1,
+      "fwf-mm": 1,
+      "fwf-998": 10,
+      "fwf-bd": 1,
+      "fwf-kh": 1,
+      "fwf-nl": 1,
+      "fwf-et": 1,
+      "fwf-id": 1,
+      "fwf-pk": 1,
+      "fwf-in": 1
+    }
+  },
+  ".//recipient-country/@code": {
+    "VN": {
+      "fwf-vn": 1,
+      "fwf-998": 1
+    },
+    "MM": {
+      "fwf-mm": 1,
+      "fwf-998": 1
+    },
+    "ET": {
+      "fwf-998": 1,
+      "fwf-et": 1
+    },
+    "PK": {
+      "fwf-998": 1,
+      "fwf-pk": 1
+    },
+    "ID": {
+      "fwf-998": 1,
+      "fwf-id": 1
+    },
+    "KH": {
+      "fwf-998": 1,
+      "fwf-kh": 1
+    },
+    "BD": {
+      "fwf-998": 1,
+      "fwf-bd": 1
+    },
+    "NL": {
+      "fwf-998": 1,
+      "fwf-nl": 1
+    },
+    "IN": {
+      "fwf-998": 1,
+      "fwf-in": 1
+    }
+  },
+  ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "998": {
+      "fwf-998": 7
+    }
+  },
+  ".//related-activity/@type": {
+    "1": {
+      "fwf-vn": 1,
+      "fwf-mm": 1,
+      "fwf-998": 8,
+      "fwf-bd": 1,
+      "fwf-kh": 1,
+      "fwf-et": 1,
+      "fwf-id": 1,
+      "fwf-pk": 1,
+      "fwf-in": 1
+    },
+    "2": {
+      "fwf-998": 9
+    },
+    "3": {
+      "fwf-998": 2
+    }
+  },
+  ".//reporting-org/@type": {
+    "21": {
+      "fwf-vn": 1,
+      "fwf-mm": 1,
+      "fwf-998": 10,
+      "fwf-bd": 1,
+      "fwf-kh": 1,
+      "fwf-nl": 1,
+      "fwf-et": 1,
+      "fwf-id": 1,
+      "fwf-pk": 1,
+      "fwf-in": 1
+    }
+  },
+  ".//result/@type": {
+    "1": {
+      "fwf-vn": 1,
+      "fwf-mm": 1,
+      "fwf-998": 10,
+      "fwf-bd": 1,
+      "fwf-kh": 1,
+      "fwf-nl": 1,
+      "fwf-et": 1,
+      "fwf-id": 1,
+      "fwf-pk": 1,
+      "fwf-in": 1
+    }
+  },
+  ".//result/indicator/@measure": {
+    "2": {
+      "fwf-vn": 1,
+      "fwf-mm": 1,
+      "fwf-998": 10,
+      "fwf-bd": 1,
+      "fwf-kh": 1,
+      "fwf-nl": 1,
+      "fwf-et": 1,
+      "fwf-id": 1,
+      "fwf-pk": 1,
+      "fwf-in": 1
+    }
+  },
+  ".//sector/@vocabulary": {
+    "1": {
+      "fwf-vn": 1,
+      "fwf-mm": 1,
+      "fwf-998": 10,
+      "fwf-bd": 1,
+      "fwf-kh": 1,
+      "fwf-nl": 1,
+      "fwf-et": 1,
+      "fwf-id": 1,
+      "fwf-pk": 1,
+      "fwf-in": 1
+    }
+  },
+  ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "32163": {
+      "fwf-vn": 1,
+      "fwf-mm": 1,
+      "fwf-998": 10,
+      "fwf-bd": 1,
+      "fwf-kh": 1,
+      "fwf-nl": 1,
+      "fwf-et": 1,
+      "fwf-id": 1,
+      "fwf-pk": 1,
+      "fwf-in": 1
+    }
+  },
+  ".//transaction/disbursement-channel/@code": {
+    "2": {
+      "fwf-998": 2
+    }
+  },
+  ".//transaction/finance-type/@code": {
+    "110": {
+      "fwf-998": 3
+    }
+  },
+  ".//transaction/recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "998": {
+      "fwf-998": 7
+    }
+  },
+  ".//transaction/transaction-type/@code": {
+    "4": {
+      "fwf-vn": 1,
+      "fwf-mm": 1,
+      "fwf-998": 10,
+      "fwf-bd": 1,
+      "fwf-kh": 1,
+      "fwf-nl": 1,
+      "fwf-et": 1,
+      "fwf-id": 1,
+      "fwf-pk": 1,
+      "fwf-in": 1
+    },
+    "3": {
+      "fwf-mm": 1,
+      "fwf-998": 2
+    },
+    "2": {
+      "fwf-mm": 1,
+      "fwf-998": 2
+    },
+    "1": {
+      "fwf-998": 1
+    },
+    "11": {
+      "fwf-998": 1
+    }
+  },
+  ".//transaction/value/@currency": {
+    "EUR": {
+      "fwf-vn": 1,
+      "fwf-mm": 3,
+      "fwf-998": 16,
+      "fwf-bd": 1,
+      "fwf-kh": 1,
+      "fwf-nl": 1,
+      "fwf-et": 1,
+      "fwf-id": 1,
+      "fwf-pk": 1,
+      "fwf-in": 1
+    }
+  }
+}

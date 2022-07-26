@@ -1,0 +1,117 @@
+{
+  ".//@default-currency": {
+    "GBP": {
+      "crs_vyf-activities": 1
+    }
+  },
+  ".//@xml:lang": {
+    "en": {
+      "crs_vyf-activities": 2
+    }
+  },
+  ".//activity-date/@type": {
+    "start-actual": {
+      "crs_vyf-activities": 1
+    }
+  },
+  ".//activity-status/@code": {
+    "2": {
+      "crs_vyf-activities": 1
+    }
+  },
+  ".//budget/@type": {
+    "2": {
+      "crs_vyf-activities": 2
+    }
+  },
+  ".//description/@type": {
+    "1": {
+      "crs_vyf-activities": 1
+    }
+  },
+  ".//document-link/@format": {
+    "application/msword": {
+      "crs_vyf-activities": 1
+    }
+  },
+  ".//document-link/category/@code": {
+    "A02": {
+      "crs_vyf-activities": 1
+    }
+  },
+  ".//participating-org/@role": {
+    "Implementing": {
+      "crs_vyf-activities": 4
+    },
+    "Funding": {
+      "crs_vyf-activities": 1
+    }
+  },
+  ".//participating-org/@type": {
+    "21": {
+      "crs_vyf-activities": 3
+    },
+    "10": {
+      "crs_vyf-activities": 1
+    },
+    "22": {
+      "crs_vyf-activities": 1
+    }
+  },
+  ".//recipient-country/@code": {
+    "CD": {
+      "crs_vyf-activities": 1
+    }
+  },
+  ".//reporting-org/@type": {
+    "21": {
+      "crs_vyf-activities": 1
+    }
+  },
+  ".//sector/@vocabulary": {
+    "DAC": {
+      "crs_vyf-activities": 1
+    }
+  },
+  ".//sector[@vocabulary = 'DAC' or not(@vocabulary)]/@code": {
+    "11220": {
+      "crs_vyf-activities": 1
+    }
+  },
+  ".//transaction/aid-type/@code": {
+    "B03": {
+      "crs_vyf-activities": 11
+    }
+  },
+  ".//transaction/disbursement-channel/@code": {
+    "2": {
+      "crs_vyf-activities": 11
+    }
+  },
+  ".//transaction/finance-type/@code": {
+    "110": {
+      "crs_vyf-activities": 11
+    }
+  },
+  ".//transaction/flow-type/@code": {
+    "50": {
+      "crs_vyf-activities": 11
+    }
+  },
+  ".//transaction/tied-status/@code": {
+    "5": {
+      "crs_vyf-activities": 11
+    }
+  },
+  ".//transaction/transaction-type/@code": {
+    "IF": {
+      "crs_vyf-activities": 4
+    },
+    "C": {
+      "crs_vyf-activities": 1
+    },
+    "E": {
+      "crs_vyf-activities": 6
+    }
+  }
+}

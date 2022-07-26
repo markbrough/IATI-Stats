@@ -1,0 +1,756 @@
+{
+  ".//@default-currency": {
+    "GBP": {
+      "addinternational-tz": 1,
+      "addinternational-998": 1,
+      "addinternational-798": 2,
+      "addinternational-289": 2,
+      "addinternational-activities": 7,
+      "addinternational-kh": 1,
+      "addinternational-298": 4,
+      "addinternational-bf": 2,
+      "addinternational-sd": 1,
+      "addinternational-in": 1,
+      "addinternational-gb": 4,
+      "addinternational-bd": 2,
+      "addinternational-ug": 1
+    }
+  },
+  ".//@xml:lang": {
+    "en": {
+      "addinternational-tz": 3,
+      "addinternational-998": 3,
+      "addinternational-798": 6,
+      "addinternational-289": 4,
+      "addinternational-activities": 20,
+      "addinternational-kh": 3,
+      "addinternational-298": 11,
+      "addinternational-bf": 4,
+      "addinternational-sd": 3,
+      "addinternational-in": 2,
+      "addinternational-gb": 12,
+      "addinternational-bd": 8,
+      "addinternational-ug": 2
+    }
+  },
+  ".//activity-date/@type": {
+    "start-actual": {
+      "addinternational-tz": 1,
+      "addinternational-998": 1,
+      "addinternational-activities": 3,
+      "addinternational-kh": 1,
+      "addinternational-sd": 2,
+      "addinternational-ug": 1
+    },
+    "end-actual": {
+      "addinternational-998": 1
+    },
+    "2": {
+      "addinternational-798": 2,
+      "addinternational-298": 4,
+      "addinternational-bf": 2,
+      "addinternational-gb": 4,
+      "addinternational-bd": 2
+    },
+    "1": {
+      "addinternational-798": 2
+    },
+    "4": {
+      "addinternational-289": 2,
+      "addinternational-gb": 4,
+      "addinternational-bd": 2
+    },
+    "start-planned": {
+      "addinternational-kh": 1
+    }
+  },
+  ".//activity-status/@code": {
+    "2": {
+      "addinternational-tz": 1,
+      "addinternational-998": 1,
+      "addinternational-798": 2,
+      "addinternational-activities": 5,
+      "addinternational-kh": 1,
+      "addinternational-298": 4,
+      "addinternational-bf": 2,
+      "addinternational-sd": 1,
+      "addinternational-gb": 4,
+      "addinternational-bd": 2,
+      "addinternational-ug": 1
+    },
+    "3": {
+      "addinternational-289": 2,
+      "addinternational-activities": 1
+    }
+  },
+  ".//budget/@status": {
+    "1": {
+      "addinternational-798": 10,
+      "addinternational-289": 4,
+      "addinternational-298": 16,
+      "addinternational-gb": 8
+    }
+  },
+  ".//budget/@type": {
+    "1": {
+      "addinternational-tz": 4,
+      "addinternational-998": 2,
+      "addinternational-798": 10,
+      "addinternational-289": 4,
+      "addinternational-activities": 17,
+      "addinternational-kh": 5,
+      "addinternational-298": 16,
+      "addinternational-bf": 2,
+      "addinternational-sd": 4,
+      "addinternational-in": 2,
+      "addinternational-gb": 8,
+      "addinternational-bd": 8,
+      "addinternational-ug": 4
+    }
+  },
+  ".//budget/value/@currency": {
+    "GBP": {
+      "addinternational-tz": 2,
+      "addinternational-998": 1,
+      "addinternational-798": 4,
+      "addinternational-289": 4,
+      "addinternational-activities": 13,
+      "addinternational-kh": 2,
+      "addinternational-298": 8,
+      "addinternational-sd": 2,
+      "addinternational-in": 2,
+      "addinternational-gb": 4,
+      "addinternational-bd": 4,
+      "addinternational-ug": 2
+    }
+  },
+  ".//contact-info/@type": {
+    "1": {
+      "addinternational-298": 2
+    },
+    "ADD International ": {
+      "addinternational-ug": 1
+    }
+  },
+  ".//default-aid-type/@code": {
+    "B03": {
+      "addinternational-tz": 1,
+      "addinternational-activities": 4,
+      "addinternational-kh": 1,
+      "addinternational-sd": 1,
+      "addinternational-ug": 1
+    },
+    "C01": {
+      "addinternational-998": 1,
+      "addinternational-activities": 1
+    },
+    "A01": {
+      "addinternational-activities": 1,
+      "addinternational-in": 1
+    }
+  },
+  ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "B03": {
+      "addinternational-798": 2,
+      "addinternational-298": 4,
+      "addinternational-bd": 2
+    },
+    "C01": {
+      "addinternational-bf": 2,
+      "addinternational-gb": 4
+    }
+  },
+  ".//default-flow-type/@code": {
+    "30": {
+      "addinternational-tz": 1,
+      "addinternational-998": 1,
+      "addinternational-798": 2,
+      "addinternational-activities": 6,
+      "addinternational-kh": 1,
+      "addinternational-298": 4,
+      "addinternational-bf": 2,
+      "addinternational-sd": 1,
+      "addinternational-in": 1,
+      "addinternational-gb": 4,
+      "addinternational-bd": 2,
+      "addinternational-ug": 1
+    }
+  },
+  ".//description/@type": {
+    "3": {
+      "addinternational-tz": 1,
+      "addinternational-289": 2,
+      "addinternational-activities": 3,
+      "addinternational-298": 3,
+      "addinternational-bd": 2,
+      "addinternational-ug": 1
+    },
+    "1": {
+      "addinternational-998": 1,
+      "addinternational-activities": 1,
+      "addinternational-bf": 2,
+      "addinternational-gb": 4
+    }
+  },
+  ".//document-link/@format": {
+    "text/html": {
+      "addinternational-798": 2,
+      "addinternational-289": 2,
+      "addinternational-298": 4,
+      "addinternational-bf": 2,
+      "addinternational-gb": 4,
+      "addinternational-bd": 2
+    }
+  },
+  ".//document-link/category/@code": {
+    "A12": {
+      "addinternational-798": 2,
+      "addinternational-289": 2,
+      "addinternational-298": 4,
+      "addinternational-bf": 2,
+      "addinternational-gb": 4,
+      "addinternational-bd": 2
+    }
+  },
+  ".//document-link/language/@code": {
+    "en": {
+      "addinternational-798": 2,
+      "addinternational-289": 2,
+      "addinternational-298": 4,
+      "addinternational-bf": 2,
+      "addinternational-gb": 4,
+      "addinternational-bd": 2
+    }
+  },
+  ".//location/administrative/@country": {
+    "TZ": {
+      "addinternational-tz": 1
+    },
+    "KH": {
+      "addinternational-kh": 1
+    },
+    "SD": {
+      "addinternational-sd": 1
+    },
+    "UG": {
+      "addinternational-ug": 1
+    }
+  },
+  ".//location/administrative/@vocabulary": {
+    "A4": {
+      "addinternational-798": 2
+    },
+    "A1": {
+      "addinternational-289": 4,
+      "addinternational-298": 4
+    }
+  },
+  ".//location/administrative[@vocabulary = 'A4']/@code": {
+    "KH": {
+      "addinternational-798": 2
+    }
+  },
+  ".//location/exactness/@code": {
+    "1": {
+      "addinternational-798": 2,
+      "addinternational-289": 4,
+      "addinternational-298": 4
+    }
+  },
+  ".//location/feature-designation/@code": {
+    "ADMD": {
+      "addinternational-798": 2,
+      "addinternational-289": 4,
+      "addinternational-298": 4
+    }
+  },
+  ".//location/location-class/@code": {
+    "1": {
+      "addinternational-798": 2,
+      "addinternational-289": 4,
+      "addinternational-298": 4
+    }
+  },
+  ".//location/location-id/@vocabulary": {
+    "A4": {
+      "addinternational-798": 2
+    },
+    "A1": {
+      "addinternational-289": 4,
+      "addinternational-298": 4
+    }
+  },
+  ".//location/location-reach/@code": {
+    "1": {
+      "addinternational-798": 2,
+      "addinternational-289": 4,
+      "addinternational-298": 4
+    }
+  },
+  ".//location/location-type/@code": {
+    "PPL": {
+      "addinternational-tz": 1,
+      "addinternational-kh": 1,
+      "addinternational-sd": 1,
+      "addinternational-ug": 1
+    }
+  },
+  ".//participating-org/@role": {
+    "Extending": {
+      "addinternational-tz": 1,
+      "addinternational-activities": 5,
+      "addinternational-kh": 1,
+      "addinternational-sd": 1,
+      "addinternational-ug": 1
+    },
+    "Funding": {
+      "addinternational-tz": 2,
+      "addinternational-998": 1,
+      "addinternational-activities": 14,
+      "addinternational-kh": 1,
+      "addinternational-sd": 2,
+      "addinternational-ug": 2
+    },
+    "Implementing": {
+      "addinternational-tz": 1,
+      "addinternational-activities": 15,
+      "addinternational-kh": 12,
+      "addinternational-sd": 37,
+      "addinternational-in": 3,
+      "addinternational-ug": 4
+    },
+    "3": {
+      "addinternational-798": 2,
+      "addinternational-289": 2,
+      "addinternational-298": 4,
+      "addinternational-bd": 2
+    },
+    "1": {
+      "addinternational-798": 2,
+      "addinternational-289": 2,
+      "addinternational-298": 8,
+      "addinternational-bf": 2,
+      "addinternational-gb": 4,
+      "addinternational-bd": 14
+    },
+    "4": {
+      "addinternational-798": 24,
+      "addinternational-289": 192,
+      "addinternational-298": 43,
+      "addinternational-bf": 16
+    }
+  },
+  ".//participating-org/@type": {
+    "22": {
+      "addinternational-tz": 1,
+      "addinternational-289": 46,
+      "addinternational-activities": 2,
+      "addinternational-298": 14,
+      "addinternational-sd": 12,
+      "addinternational-in": 1,
+      "addinternational-bd": 2
+    },
+    "21": {
+      "addinternational-tz": 1,
+      "addinternational-activities": 5,
+      "addinternational-298": 2,
+      "addinternational-in": 2,
+      "addinternational-bd": 4
+    },
+    "10": {
+      "addinternational-998": 1,
+      "addinternational-activities": 4,
+      "addinternational-298": 1,
+      "addinternational-sd": 1,
+      "addinternational-gb": 4,
+      "addinternational-bd": 4
+    },
+    "23": {
+      "addinternational-289": 140,
+      "addinternational-298": 25,
+      "addinternational-sd": 25
+    },
+    "60": {
+      "addinternational-activities": 2,
+      "addinternational-298": 1,
+      "addinternational-bf": 2,
+      "addinternational-bd": 4,
+      "addinternational-ug": 1
+    }
+  },
+  ".//recipient-country/@code": {
+    "TZ": {
+      "addinternational-tz": 1,
+      "addinternational-activities": 1,
+      "addinternational-298": 2
+    },
+    "KH": {
+      "addinternational-798": 2,
+      "addinternational-activities": 1,
+      "addinternational-kh": 1
+    },
+    "38": {
+      "addinternational-798": 8
+    },
+    "CI": {
+      "addinternational-289": 2
+    },
+    "ML": {
+      "addinternational-289": 2
+    },
+    "BD": {
+      "addinternational-activities": 1,
+      "addinternational-bd": 2
+    },
+    "SD": {
+      "addinternational-activities": 1,
+      "addinternational-298": 1,
+      "addinternational-sd": 1
+    },
+    "IN": {
+      "addinternational-activities": 1,
+      "addinternational-in": 1
+    },
+    "210": {
+      "addinternational-298": 8
+    },
+    "219": {
+      "addinternational-298": 6
+    },
+    "UG": {
+      "addinternational-298": 1,
+      "addinternational-ug": 1
+    },
+    "231": {
+      "addinternational-298": 5
+    },
+    "BF": {
+      "addinternational-bf": 2
+    },
+    "36": {
+      "addinternational-bf": 2
+    },
+    "GB": {
+      "addinternational-gb": 4
+    },
+    "19": {
+      "addinternational-bd": 18
+    }
+  },
+  ".//recipient-region/@vocabulary": {
+    "1": {
+      "addinternational-tz": 1,
+      "addinternational-289": 2,
+      "addinternational-298": 4,
+      "addinternational-sd": 1,
+      "addinternational-ug": 1
+    }
+  },
+  ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "298": {
+      "addinternational-tz": 1,
+      "addinternational-298": 4,
+      "addinternational-sd": 1,
+      "addinternational-ug": 1
+    },
+    "798": {
+      "addinternational-798": 2,
+      "addinternational-kh": 1
+    },
+    "12": {
+      "addinternational-798": 2
+    },
+    "11": {
+      "addinternational-798": 6
+    },
+    "289": {
+      "addinternational-289": 2
+    },
+    "4": {
+      "addinternational-298": 19,
+      "addinternational-bf": 2
+    }
+  },
+  ".//reporting-org/@type": {
+    "21": {
+      "addinternational-tz": 1,
+      "addinternational-998": 1,
+      "addinternational-798": 2,
+      "addinternational-289": 2,
+      "addinternational-activities": 7,
+      "addinternational-kh": 1,
+      "addinternational-298": 4,
+      "addinternational-bf": 2,
+      "addinternational-sd": 1,
+      "addinternational-in": 1,
+      "addinternational-gb": 4,
+      "addinternational-bd": 2,
+      "addinternational-ug": 1
+    }
+  },
+  ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "text": {
+      "addinternational-798": 8,
+      "addinternational-298": 19,
+      "addinternational-bf": 2,
+      "addinternational-gb": 4,
+      "addinternational-bd": 18
+    },
+    "42": {
+      "addinternational-gb": 4
+    }
+  },
+  ".//sector[@vocabulary = 'DAC' or not(@vocabulary)]/@code": {
+    "42": {
+      "addinternational-tz": 1,
+      "addinternational-998": 1,
+      "addinternational-kh": 1,
+      "addinternational-sd": 1,
+      "addinternational-in": 1,
+      "addinternational-ug": 1
+    },
+    "15162": {
+      "addinternational-activities": 7
+    }
+  },
+  ".//transaction/aid-type/@code": {
+    "B03": {
+      "addinternational-tz": 9,
+      "addinternational-998": 19,
+      "addinternational-activities": 52,
+      "addinternational-kh": 9,
+      "addinternational-sd": 12,
+      "addinternational-in": 9,
+      "addinternational-ug": 10
+    },
+    "C01": {
+      "addinternational-activities": 2
+    },
+    "B01": {
+      "addinternational-activities": 1
+    }
+  },
+  ".//transaction/aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "B03": {
+      "addinternational-798": 28,
+      "addinternational-289": 18,
+      "addinternational-298": 61,
+      "addinternational-bf": 14,
+      "addinternational-gb": 84,
+      "addinternational-bd": 78
+    },
+    "B01": {
+      "addinternational-289": 2
+    }
+  },
+  ".//transaction/disbursement-channel/@code": {
+    "2": {
+      "addinternational-tz": 3,
+      "addinternational-998": 19,
+      "addinternational-798": 4,
+      "addinternational-289": 14,
+      "addinternational-activities": 55,
+      "addinternational-kh": 2,
+      "addinternational-298": 14,
+      "addinternational-bf": 6,
+      "addinternational-sd": 2,
+      "addinternational-in": 9,
+      "addinternational-gb": 88,
+      "addinternational-bd": 42,
+      "addinternational-ug": 6
+    },
+    "3": {
+      "addinternational-798": 10,
+      "addinternational-298": 21,
+      "addinternational-bf": 2,
+      "addinternational-bd": 12
+    }
+  },
+  ".//transaction/finance-type/@code": {
+    "110": {
+      "addinternational-tz": 9,
+      "addinternational-998": 19,
+      "addinternational-798": 28,
+      "addinternational-289": 20,
+      "addinternational-activities": 55,
+      "addinternational-kh": 9,
+      "addinternational-298": 61,
+      "addinternational-bf": 14,
+      "addinternational-sd": 12,
+      "addinternational-in": 9,
+      "addinternational-gb": 84,
+      "addinternational-bd": 76,
+      "addinternational-ug": 10
+    },
+    "111": {
+      "addinternational-bd": 2
+    }
+  },
+  ".//transaction/flow-type/@code": {
+    "30": {
+      "addinternational-tz": 9,
+      "addinternational-998": 19,
+      "addinternational-798": 28,
+      "addinternational-289": 20,
+      "addinternational-activities": 49,
+      "addinternational-kh": 9,
+      "addinternational-298": 60,
+      "addinternational-bf": 14,
+      "addinternational-sd": 11,
+      "addinternational-in": 6,
+      "addinternational-gb": 76,
+      "addinternational-bd": 74,
+      "addinternational-ug": 10
+    },
+    "10": {
+      "addinternational-activities": 3,
+      "addinternational-298": 1,
+      "addinternational-sd": 1,
+      "addinternational-bd": 4
+    }
+  },
+  ".//transaction/provider-org/@type": {
+    " ": {
+      "addinternational-798": 28,
+      "addinternational-289": 20,
+      "addinternational-298": 61,
+      "addinternational-gb": 88
+    }
+  },
+  ".//transaction/receiver-org/@type": {
+    " ": {
+      "addinternational-798": 28,
+      "addinternational-289": 20,
+      "addinternational-298": 61,
+      "addinternational-gb": 88
+    }
+  },
+  ".//transaction/recipient-country/@code": {
+    "38": {
+      "addinternational-798": 8
+    },
+    "210": {
+      "addinternational-298": 8
+    },
+    "219": {
+      "addinternational-298": 6
+    },
+    "231": {
+      "addinternational-298": 5
+    },
+    "36": {
+      "addinternational-bf": 2
+    },
+    "19": {
+      "addinternational-bd": 18
+    }
+  },
+  ".//transaction/recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "12": {
+      "addinternational-798": 2
+    },
+    "11": {
+      "addinternational-798": 6
+    },
+    "4": {
+      "addinternational-298": 19,
+      "addinternational-bf": 2
+    }
+  },
+  ".//transaction/sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "text": {
+      "addinternational-798": 8,
+      "addinternational-298": 19,
+      "addinternational-bf": 2,
+      "addinternational-gb": 4,
+      "addinternational-bd": 18
+    },
+    "42": {
+      "addinternational-gb": 4
+    }
+  },
+  ".//transaction/tied-status/@code": {
+    "5": {
+      "addinternational-tz": 9,
+      "addinternational-998": 19,
+      "addinternational-798": 28,
+      "addinternational-289": 20,
+      "addinternational-activities": 46,
+      "addinternational-kh": 9,
+      "addinternational-298": 61,
+      "addinternational-bf": 14,
+      "addinternational-sd": 12,
+      "addinternational-in": 6,
+      "addinternational-gb": 84,
+      "addinternational-bd": 66,
+      "addinternational-ug": 10
+    }
+  },
+  ".//transaction/transaction-type/@code": {
+    "D": {
+      "addinternational-tz": 8,
+      "addinternational-activities": 17,
+      "addinternational-kh": 8,
+      "addinternational-sd": 9,
+      "addinternational-in": 6,
+      "addinternational-ug": 9
+    },
+    "IF": {
+      "addinternational-tz": 1,
+      "addinternational-998": 19,
+      "addinternational-activities": 35,
+      "addinternational-kh": 1,
+      "addinternational-sd": 3,
+      "addinternational-ug": 1
+    },
+    "3": {
+      "addinternational-798": 26,
+      "addinternational-289": 14,
+      "addinternational-298": 55,
+      "addinternational-bf": 12,
+      "addinternational-bd": 14
+    },
+    "1": {
+      "addinternational-798": 2,
+      "addinternational-289": 6,
+      "addinternational-298": 6,
+      "addinternational-bf": 2,
+      "addinternational-gb": 88,
+      "addinternational-bd": 64
+    },
+    "C": {
+      "addinternational-activities": 3,
+      "addinternational-in": 3
+    }
+  },
+  ".//transaction/value/@currency": {
+    "GBP": {
+      "addinternational-tz": 3,
+      "addinternational-998": 9,
+      "addinternational-798": 12,
+      "addinternational-289": 16,
+      "addinternational-activities": 27,
+      "addinternational-kh": 5,
+      "addinternational-298": 15,
+      "addinternational-bf": 4,
+      "addinternational-sd": 3,
+      "addinternational-in": 9,
+      "addinternational-gb": 40,
+      "addinternational-ug": 4
+    },
+    "EUR": {
+      "addinternational-998": 3,
+      "addinternational-activities": 5,
+      "addinternational-298": 2,
+      "addinternational-sd": 2,
+      "addinternational-gb": 12
+    },
+    "BDT": {
+      "addinternational-activities": 21,
+      "addinternational-bd": 60
+    },
+    "TZS": {
+      "addinternational-activities": 2
+    }
+  }
+}

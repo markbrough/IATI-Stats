@@ -1,0 +1,47 @@
+{
+  ".//@default-currency": {
+    "GBP": 1
+  },
+  ".//@xml:lang": {
+    "en": 1
+  },
+  ".//activity-date/@type": {
+    "start-actual": 1,
+    "end-actual": 1
+  },
+  ".//activity-status/@code": {
+    "3": 1
+  },
+  ".//budget/@type": {
+    "Revised": 1
+  },
+  ".//description/@type": {
+    "1": 1
+  },
+  ".//participating-org/@role": {
+    "Extending": 1,
+    "Funding": 1,
+    "Implementing": 2
+  },
+  ".//participating-org/@type": {
+    "21": 3,
+    "22": 1
+  },
+  ".//recipient-country/@code": {
+    "": 1
+  },
+  ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "89": 1
+  },
+  ".//reporting-org/@type": {
+    "21": 1
+  },
+  ".//sector/@vocabulary": {
+    "RO": 2
+  },
+  ".//transaction/transaction-type/@code": {
+    "IF": 2,
+    "E": 1,
+    "D": 2
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "1": {
+    ".//@default-currency": {
+      "GBP": 10
+    },
+    ".//activity-date/@type": {
+      "end-planned": 10,
+      "start-planned": 10
+    },
+    ".//activity-status/@code": {
+      "2": 9,
+      "3": 1
+    },
+    ".//participating-org/@role": {
+      "Funding": 10,
+      "Implementing": 10
+    },
+    ".//recipient-country/@code": {
+      "MM": 1,
+      "AF;NG;PK;UG": 1,
+      "NG": 2,
+      "BD": 1,
+      "IN": 1,
+      "UG": 1,
+      "NP": 1,
+      "MW": 1,
+      "NP;MM;AF;MW": 1
+    },
+    ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "998": 2
+    },
+    ".//reporting-org/@type": {
+      "21": 10
+    },
+    ".//transaction/transaction-type/@code": {
+      "C": 25,
+      "IF": 25,
+      "D": 25,
+      "E": 25
+    },
+    ".//transaction/value/@currency": {
+      "GBP": 100
+    },
+    ".//@xml:lang": {
+      "en": 10
+    }
+  }
+}

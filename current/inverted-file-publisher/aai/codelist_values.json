@@ -1,0 +1,634 @@
+{
+  ".//@default-currency": {
+    "GBP": {
+      "aai-2014": 53,
+      "aai-dfidglobal2013": 10,
+      "aai-af": 2,
+      "aai-ng": 1,
+      "aai-vn": 1,
+      "aai-in": 1,
+      "aai-mw": 2,
+      "aai-tz": 1,
+      "aai-2015": 80,
+      "aai-np": 1,
+      "aai-bd": 3,
+      "aai-998": 1,
+      "aai-mm": 1,
+      "aai-ug": 1
+    }
+  },
+  ".//@xml:lang": {
+    "en": {
+      "aai-2014": 53,
+      "aai-dfidglobal2013": 10,
+      "aai-af": 4,
+      "aai-ng": 2,
+      "aai-vn": 2,
+      "aai-in": 2,
+      "aai-mw": 4,
+      "aai-tz": 2,
+      "aai-2015": 80,
+      "aai-np": 2,
+      "aai-bd": 6,
+      "aai-998": 2,
+      "aai-mm": 2,
+      "aai-ug": 2
+    }
+  },
+  ".//activity-date/@type": {
+    "start-actual": {
+      "aai-2014": 53,
+      "aai-2015": 74
+    },
+    "end-actual": {
+      "aai-2014": 21
+    },
+    "end-planned": {
+      "aai-2014": 19,
+      "aai-dfidglobal2013": 10,
+      "aai-2015": 28
+    },
+    "start-planned": {
+      "aai-dfidglobal2013": 10,
+      "aai-2015": 3
+    }
+  },
+  ".//activity-status/@code": {
+    "2": {
+      "aai-2014": 41,
+      "aai-dfidglobal2013": 9,
+      "aai-ng": 1,
+      "aai-vn": 1,
+      "aai-in": 1,
+      "aai-mw": 2,
+      "aai-tz": 1,
+      "aai-2015": 65,
+      "aai-np": 1,
+      "aai-bd": 2,
+      "aai-998": 1,
+      "aai-mm": 1,
+      "aai-ug": 1
+    },
+    "4": {
+      "aai-2014": 1,
+      "aai-2015": 1
+    },
+    "3": {
+      "aai-2014": 11,
+      "aai-dfidglobal2013": 1,
+      "aai-af": 2,
+      "aai-2015": 12,
+      "aai-bd": 1
+    }
+  },
+  ".//budget/@type": {
+    "1": {
+      "aai-2014": 52,
+      "aai-2015": 55
+    },
+    "2": {
+      "aai-2014": 1,
+      "aai-2015": 22
+    }
+  },
+  ".//budget/value/@currency": {
+    "GBP": {
+      "aai-2014": 27,
+      "aai-af": 2,
+      "aai-ng": 1,
+      "aai-vn": 1,
+      "aai-in": 1,
+      "aai-mw": 2,
+      "aai-tz": 1,
+      "aai-2015": 36,
+      "aai-np": 1,
+      "aai-bd": 3,
+      "aai-998": 1,
+      "aai-mm": 1,
+      "aai-ug": 1
+    },
+    "EUR": {
+      "aai-2014": 10,
+      "aai-2015": 32
+    },
+    " EUR ": {
+      "aai-2014": 8
+    },
+    "  EUR  ": {
+      "aai-2014": 2
+    },
+    "DKK": {
+      "aai-2014": 1
+    },
+    "USD": {
+      "aai-2014": 2,
+      "aai-2015": 3
+    },
+    " GBP ": {
+      "aai-2014": 3
+    },
+    "INR": {
+      "aai-2015": 4
+    },
+    "AUS": {
+      "aai-2015": 2
+    }
+  },
+  ".//contact-info/@type": {
+    "2": {
+      "aai-2014": 21
+    },
+    "1": {
+      "aai-2014": 5
+    },
+    "3": {
+      "aai-2014": 15
+    }
+  },
+  ".//default-aid-type/@code": {
+    "C01": {
+      "aai-af": 2,
+      "aai-ng": 1,
+      "aai-vn": 1,
+      "aai-in": 1,
+      "aai-mw": 2,
+      "aai-tz": 1,
+      "aai-np": 1,
+      "aai-bd": 3,
+      "aai-998": 1,
+      "aai-mm": 1,
+      "aai-ug": 1
+    }
+  },
+  ".//default-flow-type/@code": {
+    "30": {
+      "aai-af": 2,
+      "aai-ng": 1,
+      "aai-vn": 1,
+      "aai-in": 1,
+      "aai-mw": 2,
+      "aai-tz": 1,
+      "aai-np": 1,
+      "aai-bd": 3,
+      "aai-998": 1,
+      "aai-mm": 1,
+      "aai-ug": 1
+    }
+  },
+  ".//document-link/@format": {
+    "application/pdf": {
+      "aai-2014": 28
+    },
+    "text/html": {
+      "aai-2014": 22
+    },
+    "video/mp4": {
+      "aai-2014": 3
+    }
+  },
+  ".//document-link/category/@code": {
+    "B01": {
+      "aai-2014": 35
+    },
+    "B10": {
+      "aai-2014": 5
+    },
+    "A12": {
+      "aai-2014": 12
+    },
+    "B03": {
+      "aai-2014": 1
+    }
+  },
+  ".//document-link/language/@code": {
+    "en": {
+      "aai-2014": 52
+    }
+  },
+  ".//participating-org/@role": {
+    "Funding": {
+      "aai-2014": 60,
+      "aai-dfidglobal2013": 10,
+      "aai-af": 3,
+      "aai-ng": 1,
+      "aai-vn": 1,
+      "aai-in": 1,
+      "aai-mw": 2,
+      "aai-tz": 1,
+      "aai-2015": 26,
+      "aai-np": 1,
+      "aai-bd": 3,
+      "aai-998": 1,
+      "aai-mm": 1,
+      "aai-ug": 1
+    },
+    "Implementing": {
+      "aai-2014": 77,
+      "aai-dfidglobal2013": 10,
+      "aai-mw": 2,
+      "aai-2015": 75
+    },
+    "Accountable": {
+      "aai-2014": 33,
+      "aai-af": 1,
+      "aai-ng": 1,
+      "aai-vn": 1,
+      "aai-mw": 2,
+      "aai-tz": 1,
+      "aai-2015": 83,
+      "aai-bd": 3
+    },
+    "Implemeting": {
+      "aai-2015": 1
+    }
+  },
+  ".//participating-org/@type": {
+    "10": {
+      "aai-2014": 33,
+      "aai-af": 2,
+      "aai-ng": 1,
+      "aai-vn": 1,
+      "aai-in": 1,
+      "aai-mw": 2,
+      "aai-tz": 1,
+      "aai-np": 1,
+      "aai-bd": 3,
+      "aai-998": 1,
+      "aai-mm": 1,
+      "aai-ug": 1
+    },
+    "22": {
+      "aai-2014": 98
+    },
+    "21": {
+      "aai-2014": 11,
+      "aai-2015": 94
+    },
+    "15": {
+      "aai-2014": 18
+    },
+    "40": {
+      "aai-2014": 2
+    },
+    "23": {
+      "aai-2014": 1
+    },
+    "70": {
+      "aai-2014": 1
+    }
+  },
+  ".//recipient-country/@code": {
+    "GB": {
+      "aai-2014": 6
+    },
+    "ZA": {
+      "aai-2014": 2
+    },
+    "MM": {
+      "aai-2014": 8,
+      "aai-dfidglobal2013": 1,
+      "aai-2015": 8,
+      "aai-mm": 1
+    },
+    "NP": {
+      "aai-2014": 5,
+      "aai-dfidglobal2013": 1,
+      "aai-2015": 6,
+      "aai-np": 1
+    },
+    "BD": {
+      "aai-2014": 6,
+      "aai-dfidglobal2013": 1,
+      "aai-2015": 4,
+      "aai-bd": 3
+    },
+    "KH": {
+      "aai-2014": 2,
+      "aai-2015": 4
+    },
+    "VN": {
+      "aai-2014": 2,
+      "aai-vn": 1,
+      "aai-2015": 2
+    },
+    "CD": {
+      "aai-2014": 1,
+      "aai-2015": 2
+    },
+    "AF": {
+      "aai-2014": 1,
+      "aai-af": 2,
+      "aai-2015": 4
+    },
+    "IN": {
+      "aai-2014": 3,
+      "aai-dfidglobal2013": 1,
+      "aai-in": 1,
+      "aai-2015": 5
+    },
+    "HT": {
+      "aai-2014": 2,
+      "aai-2015": 1
+    },
+    "UG": {
+      "aai-2014": 3,
+      "aai-dfidglobal2013": 1,
+      "aai-2015": 5,
+      "aai-ug": 1
+    },
+    "NG": {
+      "aai-2014": 5,
+      "aai-dfidglobal2013": 2,
+      "aai-ng": 1,
+      "aai-2015": 3
+    },
+    "GH": {
+      "aai-2014": 2,
+      "aai-2015": 2
+    },
+    "MW": {
+      "aai-2014": 2,
+      "aai-dfidglobal2013": 1,
+      "aai-mw": 2,
+      "aai-2015": 3
+    },
+    "ET": {
+      "aai-2014": 1,
+      "aai-2015": 2
+    },
+    "ZM": {
+      "aai-2014": 1,
+      "aai-2015": 3
+    },
+    "PK": {
+      "aai-2014": 1,
+      "aai-2015": 5
+    },
+    "AF;NG;PK;UG": {
+      "aai-dfidglobal2013": 1
+    },
+    "NP;MM;AF;MW": {
+      "aai-dfidglobal2013": 1
+    },
+    "TZ": {
+      "aai-tz": 1,
+      "aai-2015": 2
+    },
+    "ZW": {
+      "aai-2015": 2
+    },
+    "PS": {
+      "aai-2015": 2
+    },
+    "BI": {
+      "aai-2015": 2
+    },
+    "SL": {
+      "aai-2015": 1
+    },
+    "TH": {
+      "aai-2015": 1
+    },
+    "MZ": {
+      "aai-2015": 3
+    },
+    "LR": {
+      "aai-2015": 1
+    },
+    "SO": {
+      "aai-2015": 1
+    },
+    "KE": {
+      "aai-2015": 3
+    },
+    "GM": {
+      "aai-2015": 1
+    }
+  },
+  ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "998": {
+      "aai-dfidglobal2013": 2
+    }
+  },
+  ".//reporting-org/@type": {
+    "21": {
+      "aai-2014": 53,
+      "aai-dfidglobal2013": 10,
+      "aai-af": 2,
+      "aai-ng": 1,
+      "aai-vn": 1,
+      "aai-in": 1,
+      "aai-mw": 2,
+      "aai-tz": 1,
+      "aai-2015": 80,
+      "aai-np": 1,
+      "aai-bd": 3,
+      "aai-998": 1,
+      "aai-mm": 1,
+      "aai-ug": 1
+    }
+  },
+  ".//sector/@vocabulary": {
+    "1": {
+      "aai-2014": 53
+    }
+  },
+  ".//transaction/aid-type/@code": {
+    "C01": {
+      "aai-af": 6,
+      "aai-ng": 4,
+      "aai-vn": 3,
+      "aai-in": 4,
+      "aai-mw": 7,
+      "aai-tz": 3,
+      "aai-np": 4,
+      "aai-bd": 11,
+      "aai-mm": 2,
+      "aai-ug": 3
+    },
+    "B01": {
+      "aai-998": 3
+    }
+  },
+  ".//transaction/disbursement-channel/@code": {
+    "2": {
+      "aai-af": 6,
+      "aai-ng": 4,
+      "aai-vn": 3,
+      "aai-in": 4,
+      "aai-mw": 7,
+      "aai-tz": 3,
+      "aai-np": 4,
+      "aai-bd": 11,
+      "aai-998": 3,
+      "aai-mm": 1,
+      "aai-ug": 3
+    },
+    "3": {
+      "aai-mm": 1
+    }
+  },
+  ".//transaction/finance-type/@code": {
+    "110": {
+      "aai-af": 6,
+      "aai-ng": 4,
+      "aai-vn": 3,
+      "aai-in": 4,
+      "aai-mw": 7,
+      "aai-tz": 3,
+      "aai-np": 4,
+      "aai-bd": 11,
+      "aai-998": 3,
+      "aai-mm": 2,
+      "aai-ug": 3
+    }
+  },
+  ".//transaction/flow-type/@code": {
+    "30": {
+      "aai-af": 6,
+      "aai-ng": 4,
+      "aai-vn": 3,
+      "aai-in": 4,
+      "aai-mw": 7,
+      "aai-tz": 3,
+      "aai-np": 4,
+      "aai-bd": 9,
+      "aai-998": 3,
+      "aai-mm": 2,
+      "aai-ug": 3
+    }
+  },
+  ".//transaction/tied-status/@code": {
+    "4": {
+      "aai-af": 6,
+      "aai-ng": 4,
+      "aai-vn": 3,
+      "aai-in": 4,
+      "aai-mw": 7,
+      "aai-tz": 3,
+      "aai-np": 4,
+      "aai-bd": 11,
+      "aai-mm": 1,
+      "aai-ug": 3
+    },
+    "5": {
+      "aai-998": 3
+    },
+    "3": {
+      "aai-mm": 1
+    }
+  },
+  ".//transaction/transaction-type/@code": {
+    "E": {
+      "aai-2014": 37,
+      "aai-dfidglobal2013": 25,
+      "aai-af": 2,
+      "aai-ng": 1,
+      "aai-vn": 1,
+      "aai-in": 1,
+      "aai-mw": 2,
+      "aai-tz": 1,
+      "aai-2015": 51,
+      "aai-np": 1,
+      "aai-bd": 3,
+      "aai-998": 1,
+      "aai-ug": 1
+    },
+    "D": {
+      "aai-2014": 72,
+      "aai-dfidglobal2013": 25,
+      "aai-ng": 1,
+      "aai-in": 1,
+      "aai-mw": 1,
+      "aai-2015": 29,
+      "aai-np": 1,
+      "aai-bd": 2,
+      "aai-mm": 1
+    },
+    "C": {
+      "aai-2014": 40,
+      "aai-dfidglobal2013": 25,
+      "aai-af": 2,
+      "aai-ng": 1,
+      "aai-vn": 1,
+      "aai-in": 1,
+      "aai-mw": 2,
+      "aai-tz": 1,
+      "aai-2015": 12,
+      "aai-np": 1,
+      "aai-bd": 3,
+      "aai-998": 1,
+      "aai-mm": 1,
+      "aai-ug": 1
+    },
+    "IF": {
+      "aai-2014": 37,
+      "aai-dfidglobal2013": 25,
+      "aai-af": 2,
+      "aai-ng": 1,
+      "aai-vn": 1,
+      "aai-in": 1,
+      "aai-mw": 2,
+      "aai-tz": 1,
+      "aai-2015": 23,
+      "aai-np": 1,
+      "aai-bd": 3,
+      "aai-998": 1,
+      "aai-ug": 1
+    }
+  },
+  ".//transaction/value/@currency": {
+    "GBP": {
+      "aai-2014": 58,
+      "aai-dfidglobal2013": 100,
+      "aai-2015": 35
+    },
+    "EUR": {
+      "aai-2014": 47,
+      "aai-2015": 38
+    },
+    " EUR ": {
+      "aai-2014": 32
+    },
+    "  EUR  ": {
+      "aai-2014": 9
+    },
+    "   EUR   ": {
+      "aai-2014": 1
+    },
+    "USD": {
+      "aai-2014": 16,
+      "aai-2015": 19
+    },
+    "HTG": {
+      "aai-2014": 3
+    },
+    "GHS": {
+      "aai-2014": 1
+    },
+    "DKK": {
+      "aai-2014": 1
+    },
+    " GBP": {
+      "aai-2014": 1
+    },
+    " GBP ": {
+      "aai-2014": 12
+    },
+    "  GBP  ": {
+      "aai-2014": 4
+    },
+    "INR": {
+      "aai-2015": 5
+    },
+    "BDT": {
+      "aai-2015": 16
+    },
+    "NPR": {
+      "aai-2015": 1
+    },
+    "GMD": {
+      "aai-2015": 1
+    }
+  }
+}

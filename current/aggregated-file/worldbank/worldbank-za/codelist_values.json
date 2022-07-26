@@ -1,0 +1,106 @@
+{
+  ".//@default-currency": {
+    "USD": 1
+  },
+  ".//@xml:lang": {
+    "en": 132
+  },
+  ".//activity-date/@type": {
+    "start-planned": 1,
+    "start-actual": 1,
+    "end-planned": 1,
+    "end-actual": 1
+  },
+  ".//activity-status/@code": {
+    "2": 1
+  },
+  ".//budget/@type": {
+    "1": 123,
+    "2": 123
+  },
+  ".//budget/value/@currency": {
+    "USD": 246
+  },
+  ".//collaboration-type/@code": {
+    "2": 1
+  },
+  ".//default-aid-type/@code": {
+    "C01": 1
+  },
+  ".//default-tied-status/@code": {
+    "5": 1
+  },
+  ".//description/@type": {
+    "1": 1
+  },
+  ".//document-link/@format": {
+    "application/pdf": 3,
+    "text/html": 2
+  },
+  ".//document-link/category/@code": {
+    "A02": 2,
+    "A03": 2,
+    "A05": 2,
+    "A01": 1,
+    "A07": 1,
+    "A08": 1,
+    "A11": 1,
+    "A10": 1
+  },
+  ".//location/administrative/@country": {
+    "ZA": 9
+  },
+  ".//location/coordinates/@precision": {
+    "2": 9
+  },
+  ".//location/gazetteer-entry/@gazetteer-ref": {
+    "GEO": 9
+  },
+  ".//location/location-type/@code": {
+    "": 9
+  },
+  ".//participating-org/@role": {
+    "Funding": 1,
+    "Accountable": 1,
+    "Extending": 1,
+    "Implementing": 1
+  },
+  ".//participating-org/@type": {
+    "40": 2
+  },
+  ".//recipient-country/@code": {
+    "ZA": 1
+  },
+  ".//reporting-org/@type": {
+    "40": 1
+  },
+  ".//result/@type": {
+    "1": 16,
+    "2": 4
+  },
+  ".//result/indicator/@measure": {
+    "1": 15,
+    "2": 5
+  },
+  ".//sector/@vocabulary": {
+    "DAC": 3,
+    "WBSector": 3,
+    "WBTheme": 2
+  },
+  ".//sector[@vocabulary = 'DAC' or not(@vocabulary)]/@code": {
+    "23063": 1,
+    "23067": 1,
+    "23068": 1
+  },
+  ".//transaction/finance-type/@code": {
+    "410": 34
+  },
+  ".//transaction/flow-type/@code": {
+    "20": 34
+  },
+  ".//transaction/transaction-type/@code": {
+    "C": 1,
+    "D": 20,
+    "IR": 13
+  }
+}

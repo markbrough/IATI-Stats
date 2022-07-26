@@ -1,0 +1,93 @@
+{
+  ".//@default-currency": {
+    "USD": 10
+  },
+  ".//@xml:lang": {
+    "en": 10
+  },
+  ".//activity-date/@type": {
+    "start-actual": 10,
+    "end-planned": 3,
+    "end-actual": 7
+  },
+  ".//activity-status/@code": {
+    "2": 10
+  },
+  ".//budget/@type": {
+    "Original": 51,
+    "Revised": 22
+  },
+  ".//budget/value/@currency": {
+    "USD": 73
+  },
+  ".//collaboration-type/@code": {
+    "2": 10
+  },
+  ".//default-aid-type/@code": {
+    "C01": 10
+  },
+  ".//default-finance-type/@code": {
+    "110": 10
+  },
+  ".//default-flow-type/@code": {
+    "20": 10
+  },
+  ".//default-tied-status/@code": {
+    "5": 10
+  },
+  ".//description/@type": {
+    "1": 10
+  },
+  ".//location/administrative/@country": {
+    "PS": 10
+  },
+  ".//location/coordinates/@precision": {
+    "2": 2,
+    "5": 6,
+    "1": 1,
+    "6": 1
+  },
+  ".//location/location-type/@code": {
+    "PPL": 3,
+    "ADM1": 6,
+    "PCL": 1
+  },
+  ".//participating-org/@role": {
+    "Implementing": 10,
+    "Accountable": 10,
+    "Funding": 10
+  },
+  ".//participating-org/@type": {
+    "40": 20
+  },
+  ".//recipient-country/@code": {
+    "PS": 10
+  },
+  ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "589": 10
+  },
+  ".//reporting-org/@type": {
+    "40": 10
+  },
+  ".//sector/@vocabulary": {
+    "DAC": 11
+  },
+  ".//sector[@vocabulary = 'DAC' or not(@vocabulary)]/@code": {
+    "72050": 3,
+    "15220": 1,
+    "15130": 4,
+    "91010": 1,
+    "12220": 1,
+    "15230": 1
+  },
+  ".//transaction/disbursement-channel/@code": {
+    "2": 107
+  },
+  ".//transaction/transaction-type/@code": {
+    "C": 10,
+    "E": 97
+  },
+  ".//transaction/value/@currency": {
+    "USD": 107
+  }
+}

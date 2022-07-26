@@ -1,0 +1,310 @@
+{
+  ".//@default-currency": {
+    "GBP": {
+      "fyf-zw": 1,
+      "fyf-np": 1,
+      "fyf-998": 1,
+      "fyf-in": 2
+    }
+  },
+  ".//@xml:lang": {
+    "en": {
+      "fyf-zw": 16,
+      "fyf-np": 24,
+      "fyf-998": 27,
+      "fyf-in": 27
+    }
+  },
+  ".//activity-date/@type": {
+    "2": {
+      "fyf-zw": 1,
+      "fyf-np": 1,
+      "fyf-998": 1,
+      "fyf-in": 2
+    },
+    "3": {
+      "fyf-np": 1,
+      "fyf-998": 1
+    },
+    "4": {
+      "fyf-in": 2
+    }
+  },
+  ".//activity-status/@code": {
+    "2": {
+      "fyf-zw": 1,
+      "fyf-np": 1,
+      "fyf-998": 1,
+      "fyf-in": 1
+    },
+    "4": {
+      "fyf-in": 1
+    }
+  },
+  ".//budget/@status": {
+    "1": {
+      "fyf-zw": 1,
+      "fyf-np": 1,
+      "fyf-998": 1,
+      "fyf-in": 3
+    }
+  },
+  ".//budget/@type": {
+    "1": {
+      "fyf-zw": 1,
+      "fyf-np": 1,
+      "fyf-998": 1,
+      "fyf-in": 6
+    }
+  },
+  ".//budget/value/@currency": {
+    "GBP": {
+      "fyf-in": 3
+    }
+  },
+  ".//collaboration-type/@code": {
+    "3": {
+      "fyf-zw": 1,
+      "fyf-np": 1,
+      "fyf-998": 1,
+      "fyf-in": 2
+    }
+  },
+  ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "C01": {
+      "fyf-zw": 1,
+      "fyf-np": 1,
+      "fyf-998": 1,
+      "fyf-in": 2
+    }
+  },
+  ".//default-finance-type/@code": {
+    "110": {
+      "fyf-in": 1
+    }
+  },
+  ".//default-flow-type/@code": {
+    "10": {
+      "fyf-zw": 1,
+      "fyf-np": 1,
+      "fyf-998": 1,
+      "fyf-in": 1
+    },
+    "20": {
+      "fyf-in": 1
+    }
+  },
+  ".//default-tied-status/@code": {
+    "5": {
+      "fyf-in": 1
+    }
+  },
+  ".//description/@type": {
+    "1": {
+      "fyf-zw": 1,
+      "fyf-in": 1
+    },
+    "2": {
+      "fyf-np": 1,
+      "fyf-998": 1,
+      "fyf-in": 1
+    }
+  },
+  ".//document-link/@format": {
+    "application/msword": {
+      "fyf-zw": 1,
+      "fyf-np": 1,
+      "fyf-998": 1
+    },
+    "application/pdf": {
+      "fyf-in": 6
+    },
+    "application/rtf": {
+      "fyf-in": 1
+    }
+  },
+  ".//document-link/category/@code": {
+    "A02": {
+      "fyf-zw": 1,
+      "fyf-np": 1,
+      "fyf-998": 1,
+      "fyf-in": 3
+    },
+    "A08": {
+      "fyf-in": 2
+    },
+    "B01": {
+      "fyf-in": 1
+    },
+    "A01": {
+      "fyf-in": 1
+    },
+    "A07": {
+      "fyf-in": 1
+    }
+  },
+  ".//document-link/language/@code": {
+    "en": {
+      "fyf-zw": 1,
+      "fyf-np": 1,
+      "fyf-998": 1,
+      "fyf-in": 7
+    }
+  },
+  ".//participating-org/@role": {
+    "4": {
+      "fyf-zw": 4,
+      "fyf-np": 1,
+      "fyf-998": 1,
+      "fyf-in": 7
+    },
+    "1": {
+      "fyf-zw": 1,
+      "fyf-np": 1,
+      "fyf-998": 1,
+      "fyf-in": 3
+    },
+    "2": {
+      "fyf-zw": 1,
+      "fyf-np": 1,
+      "fyf-998": 1,
+      "fyf-in": 1
+    }
+  },
+  ".//participating-org/@type": {
+    "22": {
+      "fyf-zw": 4,
+      "fyf-np": 1,
+      "fyf-998": 1,
+      "fyf-in": 7
+    },
+    "10": {
+      "fyf-zw": 1,
+      "fyf-np": 1,
+      "fyf-998": 1,
+      "fyf-in": 2
+    },
+    "21": {
+      "fyf-zw": 1,
+      "fyf-np": 1,
+      "fyf-998": 1,
+      "fyf-in": 2
+    }
+  },
+  ".//recipient-country/@code": {
+    "ZW": {
+      "fyf-zw": 1
+    },
+    "NP": {
+      "fyf-np": 1,
+      "fyf-998": 1
+    },
+    "IN": {
+      "fyf-in": 2
+    }
+  },
+  ".//reporting-org/@type": {
+    "21": {
+      "fyf-zw": 1,
+      "fyf-np": 1,
+      "fyf-998": 1,
+      "fyf-in": 2
+    }
+  },
+  ".//sector/@vocabulary": {
+    "1": {
+      "fyf-zw": 1,
+      "fyf-np": 1,
+      "fyf-998": 1,
+      "fyf-in": 2
+    }
+  },
+  ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "43040": {
+      "fyf-zw": 1,
+      "fyf-np": 1,
+      "fyf-998": 1,
+      "fyf-in": 2
+    }
+  },
+  ".//transaction/aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "A01": {
+      "fyf-zw": 3,
+      "fyf-np": 1,
+      "fyf-998": 1,
+      "fyf-in": 1
+    },
+    "C01": {
+      "fyf-zw": 3,
+      "fyf-np": 4,
+      "fyf-998": 4,
+      "fyf-in": 45
+    },
+    "B03": {
+      "fyf-np": 1,
+      "fyf-998": 1,
+      "fyf-in": 1
+    }
+  },
+  ".//transaction/disbursement-channel/@code": {
+    "2": {
+      "fyf-zw": 11,
+      "fyf-np": 6,
+      "fyf-998": 6,
+      "fyf-in": 7
+    }
+  },
+  ".//transaction/finance-type/@code": {
+    "110": {
+      "fyf-zw": 6,
+      "fyf-np": 6,
+      "fyf-998": 6,
+      "fyf-in": 7
+    }
+  },
+  ".//transaction/flow-type/@code": {
+    "10": {
+      "fyf-zw": 5,
+      "fyf-np": 5,
+      "fyf-998": 5,
+      "fyf-in": 44
+    },
+    "20": {
+      "fyf-in": 1
+    }
+  },
+  ".//transaction/tied-status/@code": {
+    "5": {
+      "fyf-zw": 5,
+      "fyf-np": 5,
+      "fyf-998": 5,
+      "fyf-in": 4
+    }
+  },
+  ".//transaction/transaction-type/@code": {
+    "1": {
+      "fyf-zw": 10,
+      "fyf-np": 10,
+      "fyf-998": 10,
+      "fyf-in": 30
+    },
+    "4": {
+      "fyf-zw": 9,
+      "fyf-np": 9,
+      "fyf-998": 10,
+      "fyf-in": 29
+    },
+    "2": {
+      "fyf-zw": 1,
+      "fyf-in": 2
+    }
+  },
+  ".//transaction/value/@currency": {
+    "GBP": {
+      "fyf-zw": 6,
+      "fyf-np": 7,
+      "fyf-998": 8,
+      "fyf-in": 18
+    }
+  }
+}

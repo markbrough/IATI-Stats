@@ -1,0 +1,519 @@
+{
+  "2": {
+    ".//@default-currency": {
+      "wygi-et": {
+        "EUR": 1
+      },
+      "wygi-ng": {
+        "EUR": 1
+      },
+      "wygi-ug": {
+        "EUR": 2
+      },
+      "wygi-za": {
+        "EUR": 1
+      },
+      "wygi-ly": {
+        "EUR": 1
+      },
+      "wygi-bd": {
+        "EUR": 1
+      },
+      "wygi-cd": {
+        "EUR": 1
+      }
+    },
+    ".//activity-date/@type": {
+      "wygi-et": {
+        "2": 1
+      },
+      "wygi-ng": {
+        "2": 1
+      },
+      "wygi-ug": {
+        "2": 2
+      },
+      "wygi-za": {
+        "2": 1
+      },
+      "wygi-ly": {
+        "2": 1
+      },
+      "wygi-bd": {
+        "2": 1
+      },
+      "wygi-cd": {
+        "2": 1
+      }
+    },
+    ".//activity-status/@code": {
+      "wygi-et": {
+        "2": 1
+      },
+      "wygi-ng": {
+        "2": 1
+      },
+      "wygi-ug": {
+        "2": 2
+      },
+      "wygi-za": {
+        "2": 1
+      },
+      "wygi-ly": {
+        "2": 1
+      },
+      "wygi-bd": {
+        "2": 1
+      },
+      "wygi-cd": {
+        "2": 1
+      }
+    },
+    ".//budget/@type": {
+      "wygi-et": {
+        "2": 1
+      },
+      "wygi-ug": {
+        "2": 1
+      },
+      "wygi-bd": {
+        "2": 2
+      },
+      "wygi-cd": {
+        "1": 1
+      }
+    },
+    ".//budget/value/@currency": {
+      "wygi-et": {
+        "EUR": 1
+      },
+      "wygi-ug": {
+        "EUR": 1
+      },
+      "wygi-bd": {
+        "EUR": 1
+      },
+      "wygi-cd": {
+        "EUR": 1
+      }
+    },
+    ".//collaboration-type/@code": {
+      "wygi-et": {
+        "1": 1
+      },
+      "wygi-ng": {
+        "1": 1
+      },
+      "wygi-ug": {
+        "1": 2
+      },
+      "wygi-za": {
+        "1": 1
+      },
+      "wygi-ly": {
+        "1": 1
+      },
+      "wygi-bd": {
+        "1": 1
+      },
+      "wygi-cd": {
+        "1": 1
+      }
+    },
+    ".//contact-info/@type": {
+      "wygi-et": {
+        "1": 1
+      },
+      "wygi-ng": {
+        "1": 1
+      },
+      "wygi-ug": {
+        "1": 2
+      },
+      "wygi-za": {
+        "1": 1
+      },
+      "wygi-ly": {
+        "1": 1
+      },
+      "wygi-bd": {
+        "1": 1
+      },
+      "wygi-cd": {
+        "1": 1
+      }
+    },
+    ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "wygi-et": {
+        "C01": 1
+      },
+      "wygi-ng": {
+        "C01": 1
+      },
+      "wygi-ug": {
+        "C01": 2
+      },
+      "wygi-za": {
+        "C01": 1
+      },
+      "wygi-ly": {
+        "C01": 1
+      },
+      "wygi-bd": {
+        "C01": 1
+      },
+      "wygi-cd": {
+        "C01": 1
+      }
+    },
+    ".//default-finance-type/@code": {
+      "wygi-et": {
+        "110": 1
+      },
+      "wygi-ng": {
+        "110": 1
+      },
+      "wygi-ug": {
+        "110": 2
+      },
+      "wygi-za": {
+        "110": 1
+      },
+      "wygi-ly": {
+        "110": 1
+      },
+      "wygi-bd": {
+        "110": 1
+      },
+      "wygi-cd": {
+        "110": 1
+      }
+    },
+    ".//default-flow-type/@code": {
+      "wygi-et": {
+        "10": 1
+      },
+      "wygi-ng": {
+        "10": 1
+      },
+      "wygi-ug": {
+        "10": 2
+      },
+      "wygi-za": {
+        "10": 1
+      },
+      "wygi-ly": {
+        "10": 1
+      },
+      "wygi-bd": {
+        "10": 1
+      },
+      "wygi-cd": {
+        "10": 1
+      }
+    },
+    ".//default-tied-status/@code": {
+      "wygi-et": {
+        "5": 1
+      },
+      "wygi-ng": {
+        "5": 1
+      },
+      "wygi-ug": {
+        "5": 2
+      },
+      "wygi-za": {
+        "5": 1
+      },
+      "wygi-ly": {
+        "5": 1
+      },
+      "wygi-bd": {
+        "5": 1
+      },
+      "wygi-cd": {
+        "5": 1
+      }
+    },
+    ".//description/@type": {
+      "wygi-et": {
+        "1": 1
+      },
+      "wygi-ng": {
+        "1": 1
+      },
+      "wygi-ug": {
+        "2": 1,
+        "1": 1
+      },
+      "wygi-za": {
+        "1": 1
+      },
+      "wygi-ly": {
+        "1": 1
+      },
+      "wygi-bd": {
+        "1": 1
+      },
+      "wygi-cd": {
+        "1": 1
+      }
+    },
+    ".//participating-org/@role": {
+      "wygi-et": {
+        "4": 2
+      },
+      "wygi-ng": {
+        "1": 1
+      },
+      "wygi-ug": {
+        "1": 2,
+        "2": 1
+      },
+      "wygi-za": {
+        "1": 1,
+        "4": 1
+      },
+      "wygi-ly": {
+        "1": 1,
+        "4": 3
+      },
+      "wygi-bd": {
+        "1": 1
+      },
+      "wygi-cd": {
+        "1": 1
+      }
+    },
+    ".//participating-org/@type": {
+      "wygi-et": {
+        "10": 1,
+        "80": 1
+      },
+      "wygi-ng": {
+        "10": 1
+      },
+      "wygi-ug": {
+        "10": 2,
+        "70": 1
+      },
+      "wygi-za": {
+        "10": 1,
+        "70": 1
+      },
+      "wygi-ly": {
+        "10": 1,
+        "70": 3
+      },
+      "wygi-bd": {
+        "10": 1
+      },
+      "wygi-cd": {
+        "10": 1
+      }
+    },
+    ".//recipient-country/@code": {
+      "wygi-et": {
+        "ET": 1,
+        "TZ": 1,
+        "GH": 1,
+        "MW": 1,
+        "ML": 1,
+        "ZM": 1
+      },
+      "wygi-ng": {
+        "NG": 1
+      },
+      "wygi-ug": {
+        "UG": 2
+      },
+      "wygi-za": {
+        "ZA": 1,
+        "MW": 1,
+        "MZ": 2,
+        "TZ": 1,
+        "ZW": 1
+      },
+      "wygi-ly": {
+        "LY": 1
+      },
+      "wygi-bd": {
+        "BD": 1,
+        "KH": 1,
+        "MG": 1,
+        "MM": 1,
+        "NP": 1,
+        "NE": 1,
+        "PK": 1,
+        "SS": 1,
+        "YE": 1
+      },
+      "wygi-cd": {
+        "CD": 1
+      }
+    },
+    ".//reporting-org/@type": {
+      "wygi-et": {
+        "70": 1
+      },
+      "wygi-ng": {
+        "70": 1
+      },
+      "wygi-ug": {
+        "70": 2
+      },
+      "wygi-za": {
+        "70": 1
+      },
+      "wygi-ly": {
+        "70": 1
+      },
+      "wygi-bd": {
+        "70": 1
+      },
+      "wygi-cd": {
+        "70": 1
+      }
+    },
+    ".//sector/@vocabulary": {
+      "wygi-et": {
+        "99": 2
+      },
+      "wygi-ng": {
+        "99": 1
+      },
+      "wygi-ug": {
+        "99": 3
+      },
+      "wygi-za": {
+        "99": 1
+      },
+      "wygi-ly": {
+        "99": 1
+      },
+      "wygi-bd": {
+        "99": 2
+      },
+      "wygi-cd": {
+        "99": 2
+      }
+    },
+    ".//transaction/disbursement-channel/@code": {
+      "wygi-et": {
+        "1": 1
+      },
+      "wygi-ug": {
+        "1": 1
+      },
+      "wygi-bd": {
+        "1": 1
+      },
+      "wygi-cd": {
+        "1": 1
+      }
+    },
+    ".//transaction/sector/@vocabulary": {
+      "wygi-et": {
+        "99": 1
+      },
+      "wygi-ug": {
+        "99": 1
+      },
+      "wygi-bd": {
+        "99": 1
+      },
+      "wygi-cd": {
+        "99": 1
+      }
+    },
+    ".//transaction/transaction-type/@code": {
+      "wygi-et": {
+        "4": 1,
+        "2": 1
+      },
+      "wygi-ug": {
+        "4": 1,
+        "2": 1
+      },
+      "wygi-bd": {
+        "2": 1,
+        "4": 2
+      },
+      "wygi-cd": {
+        "4": 1,
+        "2": 1
+      }
+    },
+    ".//transaction/value/@currency": {
+      "wygi-et": {
+        "EUR": 1
+      },
+      "wygi-ug": {
+        "EUR": 1
+      },
+      "wygi-bd": {
+        "EUR": 3
+      },
+      "wygi-cd": {
+        "EUR": 1
+      }
+    },
+    ".//@xml:lang": {
+      "wygi-et": {
+        "en": 23,
+        "bn": 1
+      },
+      "wygi-ng": {
+        "en": 13
+      },
+      "wygi-ug": {
+        "en": 19
+      },
+      "wygi-za": {
+        "en": 19
+      },
+      "wygi-ly": {
+        "en": 16
+      },
+      "wygi-bd": {
+        "en": 27
+      },
+      "wygi-cd": {
+        "en": 19
+      }
+    },
+    ".//transaction/aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "wygi-ug": {
+        "C01": 1
+      },
+      "wygi-bd": {
+        "C01": 1
+      },
+      "wygi-cd": {
+        "C01": 1
+      }
+    },
+    ".//transaction/flow-type/@code": {
+      "wygi-ug": {
+        "10": 1
+      },
+      "wygi-bd": {
+        "10": 1
+      },
+      "wygi-cd": {
+        "10": 1
+      }
+    },
+    ".//transaction/tied-status/@code": {
+      "wygi-ug": {
+        "5": 1
+      },
+      "wygi-bd": {
+        "5": 1
+      },
+      "wygi-cd": {
+        "5": 1
+      }
+    }
+  }
+}

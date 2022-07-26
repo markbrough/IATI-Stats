@@ -1,0 +1,47 @@
+{
+  ".//@default-currency": {
+    "GBP": 1
+  },
+  ".//@xml:lang": {
+    "en": 1
+  },
+  ".//activity-date/@type": {
+    "end-planned": 1,
+    "start-actual": 1
+  },
+  ".//activity-status/@code": {
+    "2": 1
+  },
+  ".//budget/@type": {
+    "1": 4
+  },
+  ".//budget/value/@currency": {
+    "GBP": 4
+  },
+  ".//participating-org/@role": {
+    "Funding": 1,
+    "Implementing": 2
+  },
+  ".//participating-org/@type": {
+    "10": 1,
+    "21": 2
+  },
+  ".//recipient-country/@code": {
+    "SL": 1
+  },
+  ".//reporting-org/@type": {
+    "21": 1
+  },
+  ".//sector[@vocabulary = 'DAC' or not(@vocabulary)]/@code": {
+    "12110": 1,
+    "15130": 1
+  },
+  ".//transaction/transaction-type/@code": {
+    "IF": 12,
+    "D": 12,
+    "C": 1
+  },
+  ".//transaction/value/@currency": {
+    "GBP": 25
+  }
+}

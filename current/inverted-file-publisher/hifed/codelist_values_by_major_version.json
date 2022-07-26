@@ -1,0 +1,1358 @@
+{
+  "2": {
+    ".//@default-currency": {
+      "hifed-sl": {
+        "EUR": 1,
+        "GBP": 1
+      },
+      "hifed-89": {
+        "EUR": 1,
+        "GBP": 2
+      },
+      "hifed-kh": {
+        "EUR": 1
+      },
+      "hifed-jo": {
+        "EUR": 1,
+        "GBP": 1
+      },
+      "hifed-rw": {
+        "EUR": 1
+      },
+      "hifed-np": {
+        "EUR": 1,
+        "GBP": 1
+      },
+      "hifed-so": {
+        "EUR": 1
+      },
+      "hifed-iq": {
+        "EUR": 1
+      },
+      "hifed-bd": {
+        "EUR": 1
+      },
+      "hifed-lb": {
+        "EUR": 1
+      },
+      "hifed-ps": {
+        "EUR": 1
+      }
+    },
+    ".//activity-date/@type": {
+      "hifed-sl": {
+        "3": 2,
+        "2": 2
+      },
+      "hifed-89": {
+        "2": 2,
+        "3": 2,
+        "1": 1
+      },
+      "hifed-kh": {
+        "2": 1,
+        "3": 1
+      },
+      "hifed-jo": {
+        "2": 1,
+        "3": 1,
+        "1": 1
+      },
+      "hifed-rw": {
+        "2": 1,
+        "4": 1
+      },
+      "hifed-np": {
+        "2": 2,
+        "4": 1,
+        "3": 1
+      },
+      "hifed-so": {
+        "2": 1,
+        "3": 1
+      },
+      "hifed-iq": {
+        "2": 1,
+        "4": 1
+      },
+      "hifed-bd": {
+        "2": 1,
+        "3": 1
+      },
+      "hifed-lb": {
+        "2": 1,
+        "3": 1
+      },
+      "hifed-ps": {
+        "2": 1,
+        "4": 1
+      }
+    },
+    ".//activity-status/@code": {
+      "hifed-sl": {
+        "2": 2
+      },
+      "hifed-89": {
+        "2": 3
+      },
+      "hifed-kh": {
+        "2": 1
+      },
+      "hifed-jo": {
+        "2": 2
+      },
+      "hifed-rw": {
+        "3": 1
+      },
+      "hifed-np": {
+        "3": 1,
+        "2": 1
+      },
+      "hifed-so": {
+        "2": 1
+      },
+      "hifed-iq": {
+        "3": 1
+      },
+      "hifed-bd": {
+        "2": 1
+      },
+      "hifed-lb": {
+        "2": 1
+      },
+      "hifed-ps": {
+        "3": 1
+      }
+    },
+    ".//budget/@type": {
+      "hifed-sl": {
+        "1": 6
+      },
+      "hifed-89": {
+        "2": 1,
+        "1": 10
+      },
+      "hifed-kh": {
+        "1": 3
+      },
+      "hifed-jo": {
+        "2": 1,
+        "1": 2
+      },
+      "hifed-rw": {
+        "1": 1
+      },
+      "hifed-np": {
+        "1": 3
+      },
+      "hifed-so": {
+        "1": 1
+      },
+      "hifed-iq": {
+        "2": 1
+      },
+      "hifed-bd": {
+        "1": 1
+      },
+      "hifed-lb": {
+        "1": 1
+      },
+      "hifed-ps": {
+        "2": 1,
+        "1": 1
+      }
+    },
+    ".//budget/value/@currency": {
+      "hifed-sl": {
+        "GBP": 6
+      },
+      "hifed-89": {
+        "GBP": 10
+      },
+      "hifed-kh": {
+        "GBP": 3
+      },
+      "hifed-jo": {
+        "GBP": 3
+      },
+      "hifed-rw": {
+        "GBP": 1
+      },
+      "hifed-np": {
+        "GBP": 3
+      },
+      "hifed-so": {
+        "GBP": 1
+      },
+      "hifed-bd": {
+        "GBP": 1
+      },
+      "hifed-lb": {
+        "GBP": 1
+      },
+      "hifed-ps": {
+        "GBP": 2
+      }
+    },
+    ".//collaboration-type/@code": {
+      "hifed-sl": {
+        "3": 2
+      },
+      "hifed-89": {
+        "3": 3
+      },
+      "hifed-jo": {
+        "3": 2
+      },
+      "hifed-rw": {
+        "3": 1
+      },
+      "hifed-np": {
+        "3": 2
+      },
+      "hifed-so": {
+        "3": 1
+      },
+      "hifed-iq": {
+        "3": 1
+      },
+      "hifed-bd": {
+        "3": 1
+      },
+      "hifed-lb": {
+        "3": 1
+      },
+      "hifed-ps": {
+        "3": 1
+      }
+    },
+    ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "hifed-sl": {
+        "C01": 2
+      },
+      "hifed-89": {
+        "C01": 3
+      },
+      "hifed-jo": {
+        "C01": 2
+      },
+      "hifed-rw": {
+        "C01": 1
+      },
+      "hifed-np": {
+        "C01": 2
+      },
+      "hifed-so": {
+        "C01": 1
+      },
+      "hifed-iq": {
+        "C01": 1
+      },
+      "hifed-bd": {
+        "C01": 1
+      },
+      "hifed-lb": {
+        "C01": 1
+      },
+      "hifed-ps": {
+        "C01": 1
+      }
+    },
+    ".//default-finance-type/@code": {
+      "hifed-sl": {
+        "110": 2
+      },
+      "hifed-89": {
+        "110": 3
+      },
+      "hifed-jo": {
+        "110": 2
+      },
+      "hifed-rw": {
+        "110": 1
+      },
+      "hifed-np": {
+        "110": 2
+      },
+      "hifed-so": {
+        "110": 1
+      },
+      "hifed-iq": {
+        "110": 1
+      },
+      "hifed-bd": {
+        "110": 1
+      },
+      "hifed-lb": {
+        "110": 1
+      },
+      "hifed-ps": {
+        "110": 1
+      }
+    },
+    ".//default-flow-type/@code": {
+      "hifed-sl": {
+        "10": 2
+      },
+      "hifed-89": {
+        "10": 3
+      },
+      "hifed-jo": {
+        "10": 2
+      },
+      "hifed-rw": {
+        "10": 1
+      },
+      "hifed-np": {
+        "10": 2
+      },
+      "hifed-so": {
+        "10": 1
+      },
+      "hifed-iq": {
+        "10": 1
+      },
+      "hifed-bd": {
+        "10": 1
+      },
+      "hifed-lb": {
+        "10": 1
+      },
+      "hifed-ps": {
+        "10": 1
+      }
+    },
+    ".//default-tied-status/@code": {
+      "hifed-sl": {
+        "5": 1,
+        "3": 1
+      },
+      "hifed-89": {
+        "3": 3
+      },
+      "hifed-jo": {
+        "3": 2
+      },
+      "hifed-rw": {
+        "5": 1
+      },
+      "hifed-np": {
+        "3": 2
+      },
+      "hifed-so": {
+        "3": 1
+      },
+      "hifed-iq": {
+        "3": 1
+      },
+      "hifed-bd": {
+        "3": 1
+      },
+      "hifed-lb": {
+        "3": 1
+      },
+      "hifed-ps": {
+        "3": 1
+      }
+    },
+    ".//description/@type": {
+      "hifed-sl": {
+        "1": 2
+      },
+      "hifed-89": {
+        "2": 2,
+        "1": 1
+      },
+      "hifed-kh": {
+        "1": 1
+      },
+      "hifed-jo": {
+        "1": 2
+      },
+      "hifed-rw": {
+        "1": 1,
+        "2": 1
+      },
+      "hifed-np": {
+        "1": 2
+      },
+      "hifed-so": {
+        "2": 1
+      },
+      "hifed-iq": {
+        "1": 1
+      },
+      "hifed-bd": {
+        "1": 1
+      },
+      "hifed-lb": {
+        "1": 1
+      },
+      "hifed-ps": {
+        "1": 1
+      }
+    },
+    ".//document-link/@format": {
+      "hifed-sl": {
+        "application/msword": 1,
+        "application/pdf": 1
+      },
+      "hifed-89": {
+        "application/vnd.ms-excel": 3
+      },
+      "hifed-kh": {
+        "text/html": 1
+      },
+      "hifed-jo": {
+        "application/msword": 1,
+        "application/pdf": 1
+      },
+      "hifed-rw": {
+        "application/vnd.ms-excel": 1
+      },
+      "hifed-np": {
+        "application/msword": 1,
+        "application/vnd.ms-excel": 1
+      },
+      "hifed-so": {
+        "application/pdf": 1
+      },
+      "hifed-iq": {
+        "application/msword": 1
+      },
+      "hifed-bd": {
+        "application/vnd.ms-excel": 1
+      },
+      "hifed-lb": {
+        "application/msword": 1
+      },
+      "hifed-ps": {
+        "application/msword": 1
+      }
+    },
+    ".//document-link/category/@code": {
+      "hifed-sl": {
+        "A10": 1,
+        "A02": 1
+      },
+      "hifed-89": {
+        "A05": 3
+      },
+      "hifed-kh": {
+        "A12": 1
+      },
+      "hifed-jo": {
+        "A02": 1,
+        "A11": 1
+      },
+      "hifed-rw": {
+        "A02": 1,
+        "A08": 1
+      },
+      "hifed-np": {
+        "A10": 1,
+        "A05": 1
+      },
+      "hifed-so": {
+        "A02": 1
+      },
+      "hifed-iq": {
+        "A10": 1
+      },
+      "hifed-bd": {
+        "A02": 1
+      },
+      "hifed-lb": {
+        "A02": 1
+      },
+      "hifed-ps": {
+        "A02": 1,
+        "A08": 1
+      }
+    },
+    ".//document-link/language/@code": {
+      "hifed-sl": {
+        "en": 2
+      },
+      "hifed-89": {
+        "en": 3
+      },
+      "hifed-kh": {
+        "en": 1
+      },
+      "hifed-jo": {
+        "en": 1
+      },
+      "hifed-rw": {
+        "en": 1
+      },
+      "hifed-np": {
+        "en": 2
+      },
+      "hifed-so": {
+        "en": 1
+      },
+      "hifed-iq": {
+        "en": 1
+      },
+      "hifed-bd": {
+        "en": 1
+      },
+      "hifed-lb": {
+        "en": 1
+      },
+      "hifed-ps": {
+        "en": 1
+      }
+    },
+    ".//location/administrative/@vocabulary": {
+      "hifed-sl": {
+        "4": 2
+      },
+      "hifed-kh": {
+        "A4": 1
+      },
+      "hifed-jo": {
+        "A4": 4
+      },
+      "hifed-rw": {
+        "4": 2
+      },
+      "hifed-np": {
+        "4": 5
+      },
+      "hifed-so": {
+        "4": 4
+      },
+      "hifed-iq": {
+        "4": 2
+      },
+      "hifed-bd": {
+        "A4": 1
+      },
+      "hifed-lb": {
+        "A4": 2
+      },
+      "hifed-ps": {
+        "4": 1
+      }
+    },
+    ".//location/feature-designation/@code": {
+      "hifed-sl": {
+        "179": 1,
+        "494": 1
+      },
+      "hifed-kh": {
+        "ADM1": 1
+      },
+      "hifed-jo": {
+        "ADM1": 4
+      },
+      "hifed-rw": {
+        "494": 2
+      },
+      "hifed-np": {
+        "494": 5
+      },
+      "hifed-so": {
+        "179": 1
+      },
+      "hifed-iq": {
+        "179": 2
+      },
+      "hifed-bd": {
+        "ADM1": 1
+      },
+      "hifed-lb": {
+        "ADM1": 2
+      },
+      "hifed-ps": {
+        "179": 1
+      }
+    },
+    ".//location/location-class/@code": {
+      "hifed-sl": {
+        "1": 2
+      },
+      "hifed-kh": {
+        "1": 1
+      },
+      "hifed-jo": {
+        "1": 4
+      },
+      "hifed-rw": {
+        "4": 2
+      },
+      "hifed-np": {
+        "2": 1,
+        "4": 4
+      },
+      "hifed-so": {
+        "1": 1
+      },
+      "hifed-iq": {
+        "4": 2
+      },
+      "hifed-bd": {
+        "1": 1
+      },
+      "hifed-lb": {
+        "1": 2
+      },
+      "hifed-ps": {
+        "2": 1
+      }
+    },
+    ".//location/location-id/@vocabulary": {
+      "hifed-sl": {
+        "4": 2
+      },
+      "hifed-kh": {
+        "A4": 1
+      },
+      "hifed-jo": {
+        "A4": 4
+      },
+      "hifed-rw": {
+        "4": 2
+      },
+      "hifed-np": {
+        "4": 5
+      },
+      "hifed-so": {
+        "4": 4
+      },
+      "hifed-iq": {
+        "4": 2
+      },
+      "hifed-bd": {
+        "A4": 1
+      },
+      "hifed-lb": {
+        "A4": 2
+      },
+      "hifed-ps": {
+        "4": 1
+      }
+    },
+    ".//location/location-reach/@code": {
+      "hifed-sl": {
+        "1": 2
+      },
+      "hifed-kh": {
+        "1": 1
+      },
+      "hifed-jo": {
+        "1": 4
+      },
+      "hifed-rw": {
+        "1": 2
+      },
+      "hifed-np": {
+        "1": 5
+      },
+      "hifed-so": {
+        "2": 1
+      },
+      "hifed-iq": {
+        "1": 2
+      },
+      "hifed-bd": {
+        "1": 1
+      },
+      "hifed-lb": {
+        "1": 2
+      },
+      "hifed-ps": {
+        "1": 1
+      }
+    },
+    ".//location/exactness/@code": {
+      "hifed-sl": {
+        "2": 2
+      },
+      "hifed-kh": {
+        "1": 1
+      },
+      "hifed-jo": {
+        "1": 4
+      },
+      "hifed-rw": {
+        "1": 2
+      },
+      "hifed-np": {
+        "2": 4,
+        "1": 1
+      },
+      "hifed-so": {
+        "2": 1
+      },
+      "hifed-iq": {
+        "1": 2
+      },
+      "hifed-bd": {
+        "2": 1
+      },
+      "hifed-lb": {
+        "1": 2
+      },
+      "hifed-ps": {
+        "2": 1
+      }
+    },
+    ".//participating-org/@role": {
+      "hifed-sl": {
+        "1": 2,
+        "4": 3
+      },
+      "hifed-89": {
+        "1": 3,
+        "4": 2
+      },
+      "hifed-kh": {
+        "4": 3,
+        "1": 1
+      },
+      "hifed-jo": {
+        "1": 1,
+        "4": 2
+      },
+      "hifed-rw": {
+        "4": 1,
+        "1": 1
+      },
+      "hifed-np": {
+        "1": 2,
+        "4": 2
+      },
+      "hifed-so": {
+        "1": 1,
+        "4": 1
+      },
+      "hifed-iq": {
+        "1": 1,
+        "4": 1
+      },
+      "hifed-bd": {
+        "1": 1,
+        "4": 1
+      },
+      "hifed-lb": {
+        "1": 1,
+        "4": 1
+      },
+      "hifed-ps": {
+        "1": 1,
+        "4": 1
+      }
+    },
+    ".//participating-org/@type": {
+      "hifed-sl": {
+        "10": 1,
+        "21": 4
+      },
+      "hifed-89": {
+        "10": 3,
+        "21": 2
+      },
+      "hifed-kh": {
+        "22": 3,
+        "10": 1
+      },
+      "hifed-jo": {
+        "10": 1,
+        "21": 2
+      },
+      "hifed-rw": {
+        "21": 1,
+        "10": 1
+      },
+      "hifed-np": {
+        "10": 1,
+        "21": 2,
+        "70": 1
+      },
+      "hifed-so": {
+        "10": 1,
+        "21": 1
+      },
+      "hifed-iq": {
+        "10": 1,
+        "21": 1
+      },
+      "hifed-bd": {
+        "10": 1,
+        "21": 1
+      },
+      "hifed-lb": {
+        "10": 1,
+        "21": 1
+      },
+      "hifed-ps": {
+        "10": 1,
+        "21": 1
+      }
+    },
+    ".//recipient-country/@code": {
+      "hifed-sl": {
+        "SL": 2
+      },
+      "hifed-89": {
+        "GB": 1
+      },
+      "hifed-kh": {
+        "KH": 1
+      },
+      "hifed-jo": {
+        "JO": 2
+      },
+      "hifed-rw": {
+        "RW": 1
+      },
+      "hifed-np": {
+        "NP": 2
+      },
+      "hifed-so": {
+        "SO": 1
+      },
+      "hifed-iq": {
+        "IQ": 1
+      },
+      "hifed-bd": {
+        "BD": 1
+      },
+      "hifed-lb": {
+        "LB": 1
+      },
+      "hifed-ps": {
+        "PS": 1
+      }
+    },
+    ".//reporting-org/@type": {
+      "hifed-sl": {
+        "21": 2
+      },
+      "hifed-89": {
+        "21": 3
+      },
+      "hifed-kh": {
+        "21": 1
+      },
+      "hifed-jo": {
+        "21": 2
+      },
+      "hifed-rw": {
+        "21": 1
+      },
+      "hifed-np": {
+        "21": 2
+      },
+      "hifed-so": {
+        "21": 1
+      },
+      "hifed-iq": {
+        "21": 1
+      },
+      "hifed-bd": {
+        "21": 1
+      },
+      "hifed-lb": {
+        "21": 1
+      },
+      "hifed-ps": {
+        "21": 1
+      }
+    },
+    ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "hifed-sl": {
+        "12191": 7,
+        "11120": 5
+      },
+      "hifed-89": {
+        "11430": 5,
+        "12181": 1
+      },
+      "hifed-kh": {
+        "43040": 1
+      },
+      "hifed-jo": {
+        "43010": 1,
+        "12191": 1
+      },
+      "hifed-rw": {
+        "11220": 1
+      },
+      "hifed-np": {
+        "43010": 3,
+        "12281": 3
+      },
+      "hifed-so": {
+        "15150": 6
+      },
+      "hifed-bd": {
+        "15150": 5
+      },
+      "hifed-lb": {
+        "43010": 1
+      },
+      "hifed-ps": {
+        "43010": 1
+      }
+    },
+    ".//sector/@vocabulary": {
+      "hifed-sl": {
+        "1": 12
+      },
+      "hifed-89": {
+        "1": 6
+      },
+      "hifed-kh": {
+        "1": 1
+      },
+      "hifed-jo": {
+        "1": 2
+      },
+      "hifed-rw": {
+        "1": 1
+      },
+      "hifed-np": {
+        "1": 6
+      },
+      "hifed-so": {
+        "1": 6
+      },
+      "hifed-iq": {
+        "99": 1
+      },
+      "hifed-bd": {
+        "1": 5
+      },
+      "hifed-lb": {
+        "1": 1
+      },
+      "hifed-ps": {
+        "1": 1
+      }
+    },
+    ".//transaction/aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "hifed-sl": {
+        "C01": 6
+      },
+      "hifed-89": {
+        "B03": 1
+      },
+      "hifed-kh": {
+        "C01": 13
+      },
+      "hifed-jo": {
+        "C01": 8
+      },
+      "hifed-rw": {
+        "C01": 1
+      },
+      "hifed-np": {
+        "C01": 1
+      },
+      "hifed-iq": {
+        "C01": 2
+      },
+      "hifed-bd": {
+        "B03": 1,
+        "C01": 2
+      },
+      "hifed-lb": {
+        "C01": 4
+      },
+      "hifed-ps": {
+        "C01": 3
+      }
+    },
+    ".//transaction/disbursement-channel/@code": {
+      "hifed-sl": {
+        "2": 16
+      },
+      "hifed-89": {
+        "2": 4
+      },
+      "hifed-kh": {
+        "2": 15
+      },
+      "hifed-jo": {
+        "2": 8
+      },
+      "hifed-rw": {
+        "2": 1
+      },
+      "hifed-np": {
+        "2": 4
+      },
+      "hifed-so": {
+        "2": 5
+      },
+      "hifed-iq": {
+        "2": 2
+      },
+      "hifed-bd": {
+        "2": 5
+      },
+      "hifed-lb": {
+        "2": 7
+      },
+      "hifed-ps": {
+        "2": 3
+      }
+    },
+    ".//transaction/finance-type/@code": {
+      "hifed-sl": {
+        "110": 6
+      },
+      "hifed-89": {
+        "110": 1
+      },
+      "hifed-kh": {
+        "110": 13
+      },
+      "hifed-jo": {
+        "110": 8
+      },
+      "hifed-rw": {
+        "110": 1
+      },
+      "hifed-np": {
+        "110": 1
+      },
+      "hifed-iq": {
+        "110": 2
+      },
+      "hifed-bd": {
+        "110": 2
+      },
+      "hifed-lb": {
+        "110": 4
+      },
+      "hifed-ps": {
+        "110": 3
+      }
+    },
+    ".//transaction/flow-type/@code": {
+      "hifed-sl": {
+        "10": 6
+      },
+      "hifed-89": {
+        "10": 1
+      },
+      "hifed-kh": {
+        "10": 13
+      },
+      "hifed-jo": {
+        "10": 8
+      },
+      "hifed-rw": {
+        "10": 1
+      },
+      "hifed-np": {
+        "10": 1
+      },
+      "hifed-iq": {
+        "10": 2
+      },
+      "hifed-bd": {
+        "10": 3
+      },
+      "hifed-lb": {
+        "10": 5
+      },
+      "hifed-ps": {
+        "10": 3
+      }
+    },
+    ".//transaction/sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "hifed-sl": {
+        "12191": 6,
+        "11120": 4
+      },
+      "hifed-89": {
+        "11430": 4
+      },
+      "hifed-np": {
+        "43010": 2,
+        "12281": 2
+      },
+      "hifed-so": {
+        "15150": 5
+      },
+      "hifed-bd": {
+        "15150": 5
+      }
+    },
+    ".//transaction/sector/@vocabulary": {
+      "hifed-sl": {
+        "1": 10
+      },
+      "hifed-89": {
+        "1": 4
+      },
+      "hifed-np": {
+        "1": 4
+      },
+      "hifed-so": {
+        "1": 5
+      },
+      "hifed-bd": {
+        "1": 5
+      }
+    },
+    ".//transaction/tied-status/@code": {
+      "hifed-sl": {
+        "5": 6
+      },
+      "hifed-89": {
+        "3": 1
+      },
+      "hifed-kh": {
+        "5": 13
+      },
+      "hifed-jo": {
+        "5": 7,
+        "4": 1
+      },
+      "hifed-rw": {
+        "5": 1
+      },
+      "hifed-np": {
+        "5": 1
+      },
+      "hifed-iq": {
+        "5": 2
+      },
+      "hifed-bd": {
+        "4": 1,
+        "3": 1,
+        "5": 1
+      },
+      "hifed-lb": {
+        "5": 4,
+        "4": 1
+      },
+      "hifed-ps": {
+        "5": 3
+      }
+    },
+    ".//transaction/transaction-type/@code": {
+      "hifed-sl": {
+        "7": 14,
+        "2": 2
+      },
+      "hifed-89": {
+        "1": 1,
+        "7": 3
+      },
+      "hifed-kh": {
+        "1": 14,
+        "2": 1
+      },
+      "hifed-jo": {
+        "1": 7,
+        "2": 1
+      },
+      "hifed-rw": {
+        "2": 1
+      },
+      "hifed-np": {
+        "2": 2,
+        "7": 2
+      },
+      "hifed-so": {
+        "2": 1,
+        "7": 4
+      },
+      "hifed-iq": {
+        "7": 1,
+        "2": 1
+      },
+      "hifed-bd": {
+        "1": 4,
+        "2": 1
+      },
+      "hifed-lb": {
+        "1": 6,
+        "2": 1
+      },
+      "hifed-ps": {
+        "2": 1,
+        "1": 2
+      }
+    },
+    ".//transaction/value/@currency": {
+      "hifed-sl": {
+        "GBP": 12
+      },
+      "hifed-89": {
+        "GBP": 4
+      },
+      "hifed-kh": {
+        "GBP": 6
+      },
+      "hifed-jo": {
+        "GBP": 8
+      },
+      "hifed-rw": {
+        "GBP": 1
+      },
+      "hifed-np": {
+        "GBP": 4
+      },
+      "hifed-so": {
+        "GBP": 4
+      },
+      "hifed-iq": {
+        "GBP": 2
+      },
+      "hifed-bd": {
+        "GBP": 4
+      },
+      "hifed-lb": {
+        "GBP": 7
+      },
+      "hifed-ps": {
+        "GBP": 3
+      }
+    },
+    ".//@xml:lang": {
+      "hifed-sl": {
+        "en": 16
+      },
+      "hifed-89": {
+        "en": 21
+      },
+      "hifed-kh": {
+        "en": 48
+      },
+      "hifed-jo": {
+        "en": 21
+      },
+      "hifed-rw": {
+        "en": 3
+      },
+      "hifed-np": {
+        "en": 17
+      },
+      "hifed-so": {
+        "en": 6
+      },
+      "hifed-iq": {
+        "en": 15
+      },
+      "hifed-bd": {
+        "en": 17
+      },
+      "hifed-lb": {
+        "en": 14
+      },
+      "hifed-ps": {
+        "en": 3
+      }
+    },
+    ".//budget/@status": {
+      "hifed-89": {
+        "1": 6
+      },
+      "hifed-kh": {
+        "1": 3
+      },
+      "hifed-jo": {
+        "1": 1,
+        "2": 2
+      },
+      "hifed-bd": {
+        "1": 1
+      },
+      "hifed-lb": {
+        "1": 1
+      }
+    },
+    ".//contact-info/@type": {
+      "hifed-89": {
+        "1": 1
+      },
+      "hifed-jo": {
+        "1": 1
+      }
+    },
+    ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "hifed-89": {
+        "89": 3
+      }
+    },
+    ".//recipient-region/@vocabulary": {
+      "hifed-89": {
+        "1": 3
+      }
+    },
+    ".//location/administrative[@vocabulary = 'A4']/@code": {
+      "hifed-kh": {
+        "KH-3": 1
+      },
+      "hifed-jo": {
+        " JO-AM* ": 4
+      },
+      "hifed-bd": {
+        "BD-10": 1
+      },
+      "hifed-lb": {
+        " LB-BI* ": 2
+      }
+    },
+    ".//result/@type": {
+      "hifed-kh": {
+        "2": 2
+      },
+      "hifed-jo": {
+        "2": 1
+      },
+      "hifed-np": {
+        "1": 1
+      },
+      "hifed-iq": {
+        "1": 1
+      },
+      "hifed-lb": {
+        "2": 1
+      }
+    },
+    ".//result/indicator/@measure": {
+      "hifed-kh": {
+        "1": 2,
+        "2": 4
+      },
+      "hifed-jo": {
+        "1": 1
+      },
+      "hifed-np": {
+        "1": 2
+      },
+      "hifed-iq": {
+        "1": 2
+      },
+      "hifed-lb": {
+        "1": 1
+      }
+    },
+    ".//transaction/provider-org/@type": {
+      "hifed-bd": {
+        "n/a": 1
+      },
+      "hifed-lb": {
+        "N/A": 1
+      }
+    },
+    ".//transaction/receiver-org/@type": {
+      "hifed-bd": {
+        "n/a": 1
+      },
+      "hifed-lb": {
+        "N/A": 1
+      }
+    }
+  }
+}

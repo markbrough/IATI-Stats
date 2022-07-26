@@ -1,0 +1,64 @@
+{
+  ".//@default-currency": {
+    "usd": 1
+  },
+  ".//@xml:lang": {
+    "en": 140
+  },
+  ".//activity-date/@type": {
+    "start-actual": 1,
+    "end-actual": 1
+  },
+  ".//activity-status/@code": {
+    "3": 1
+  },
+  ".//collaboration-type/@code": {
+    "2": 1
+  },
+  ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "C01": 1
+  },
+  ".//default-finance-type/@code": {
+    "110": 1
+  },
+  ".//default-flow-type/@code": {
+    "10": 1
+  },
+  ".//default-tied-status/@code": {
+    "5": 1
+  },
+  ".//description/@type": {
+    "1": 1
+  },
+  ".//participating-org/@role": {
+    "Implementing": 1
+  },
+  ".//participating-org/@type": {
+    "21": 1
+  },
+  ".//reporting-org/@type": {
+    "40": 1
+  },
+  ".//transaction/aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "C01": 21
+  },
+  ".//transaction/disbursement-channel/@code": {
+    "2": 21
+  },
+  ".//transaction/finance-type/@code": {
+    "110": 21
+  },
+  ".//transaction/flow-type/@code": {
+    "20": 21
+  },
+  ".//transaction/tied-status/@code": {
+    "5": 21
+  },
+  ".//transaction/transaction-type/@code": {
+    "D": 16,
+    "C": 5
+  },
+  ".//transaction/value/@currency": {
+    "usd": 21
+  }
+}

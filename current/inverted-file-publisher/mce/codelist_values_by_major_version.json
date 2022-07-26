@@ -1,0 +1,945 @@
+{
+  "1": {
+    ".//@default-currency": {
+      "mcs-iq": {
+        "GBP": 1
+      }
+    },
+    ".//activity-date/@type": {
+      "mcs-iq": {
+        "start-actual": 1,
+        "end-planned": 1
+      }
+    },
+    ".//activity-status/@code": {
+      "mcs-iq": {
+        "2": 1
+      }
+    },
+    ".//budget/@type": {
+      "mcs-iq": {
+        "2": 1
+      }
+    },
+    ".//contact-info/@type": {
+      "mcs-iq": {
+        "PROGRAMMES": 1
+      }
+    },
+    ".//default-aid-type/@code": {
+      "mcs-iq": {
+        "C01": 1
+      }
+    },
+    ".//default-finance-type/@code": {
+      "mcs-iq": {
+        "110": 1
+      }
+    },
+    ".//default-flow-type/@code": {
+      "mcs-iq": {
+        "10": 1
+      }
+    },
+    ".//default-tied-status/@code": {
+      "mcs-iq": {
+        "5": 1
+      }
+    },
+    ".//description/@type": {
+      "mcs-iq": {
+        "1": 1
+      }
+    },
+    ".//participating-org/@role": {
+      "mcs-iq": {
+        "Implementing": 1,
+        "Accountable": 1,
+        "Funding": 1
+      }
+    },
+    ".//participating-org/@type": {
+      "mcs-iq": {
+        "21": 2,
+        "10": 1
+      }
+    },
+    ".//recipient-country/@code": {
+      "mcs-iq": {
+        "IQ": 1
+      }
+    },
+    ".//reporting-org/@type": {
+      "mcs-iq": {
+        "21": 1
+      }
+    },
+    ".//sector/@vocabulary": {
+      "mcs-iq": {
+        "RO": 1
+      }
+    },
+    ".//transaction/aid-type/@code": {
+      "mcs-iq": {
+        "C01": 4
+      }
+    },
+    ".//transaction/disbursement-channel/@code": {
+      "mcs-iq": {
+        "3": 4
+      }
+    },
+    ".//transaction/finance-type/@code": {
+      "mcs-iq": {
+        "110": 4
+      }
+    },
+    ".//transaction/flow-type/@code": {
+      "mcs-iq": {
+        "10": 4
+      }
+    },
+    ".//transaction/tied-status/@code": {
+      "mcs-iq": {
+        "5": 4
+      }
+    },
+    ".//transaction/transaction-type/@code": {
+      "mcs-iq": {
+        "IF": 1,
+        "E": 4,
+        "C": 1
+      }
+    },
+    ".//@xml:lang": {
+      "mcs-iq": {
+        "en": 2
+      }
+    }
+  },
+  "2": {
+    ".//@default-currency": {
+      "mce-np": {
+        "GBP": 3
+      },
+      "mce-ng": {
+        "GBP": 2
+      },
+      "mce-lb": {
+        "GBP": 2
+      },
+      "mce-cf": {
+        "GBP": 1
+      },
+      "mce-et": {
+        "GBP": 2
+      },
+      "mce-iq": {
+        "GBP": 1
+      },
+      "mce-cd": {
+        "GBP": 1
+      },
+      "mce-tr": {
+        "GBP": 1
+      },
+      "mce-jo": {
+        "GBP": 2
+      }
+    },
+    ".//activity-date/@type": {
+      "mce-np": {
+        "4": 1,
+        "2": 3,
+        "3": 2
+      },
+      "mce-ng": {
+        "2": 1,
+        "3": 2,
+        "1": 1
+      },
+      "mce-lb": {
+        "1": 1,
+        "3": 2,
+        "2": 1
+      },
+      "mce-cf": {
+        "2": 1,
+        "4": 1
+      },
+      "mce-et": {
+        "1": 2,
+        "4": 1,
+        "3": 1
+      },
+      "mce-iq": {
+        "2": 1,
+        "3": 1
+      },
+      "mce-cd": {
+        "2": 1,
+        "4": 1
+      },
+      "mce-tr": {
+        "2": 1,
+        "3": 1
+      },
+      "mce-jo": {
+        "2": 1,
+        "3": 2,
+        "1": 1
+      }
+    },
+    ".//activity-status/@code": {
+      "mce-np": {
+        "3": 2,
+        "2": 1
+      },
+      "mce-ng": {
+        "2": 2
+      },
+      "mce-lb": {
+        "2": 1,
+        "3": 1
+      },
+      "mce-cf": {
+        "3": 1
+      },
+      "mce-et": {
+        "3": 1,
+        "2": 1
+      },
+      "mce-iq": {
+        "3": 1
+      },
+      "mce-cd": {
+        "3": 1
+      },
+      "mce-tr": {
+        "2": 1
+      },
+      "mce-jo": {
+        "3": 1,
+        "2": 1
+      }
+    },
+    ".//budget/@status": {
+      "mce-np": {
+        "1": 6
+      },
+      "mce-ng": {
+        "1": 4,
+        "2": 2
+      },
+      "mce-lb": {
+        "2": 3,
+        "1": 2
+      },
+      "mce-et": {
+        "2": 2,
+        "1": 1
+      },
+      "mce-iq": {
+        "1": 2
+      },
+      "mce-tr": {
+        "2": 3
+      },
+      "mce-jo": {
+        "1": 2,
+        "2": 4
+      }
+    },
+    ".//budget/@type": {
+      "mce-np": {
+        "1": 2,
+        "2": 4
+      },
+      "mce-ng": {
+        "2": 4,
+        "1": 2
+      },
+      "mce-lb": {
+        "1": 4
+      },
+      "mce-cf": {
+        "2": 1
+      },
+      "mce-et": {
+        "1": 3
+      },
+      "mce-iq": {
+        "2": 1
+      },
+      "mce-cd": {
+        "2": 1
+      },
+      "mce-tr": {
+        "1": 2,
+        "2": 1
+      },
+      "mce-jo": {
+        "1": 4
+      }
+    },
+    ".//budget/value/@currency": {
+      "mce-np": {
+        "GBP": 2
+      },
+      "mce-ng": {
+        "GBP": 6
+      },
+      "mce-lb": {
+        "GBP": 5
+      },
+      "mce-cf": {
+        "GBP": 1
+      },
+      "mce-et": {
+        "GBP": 3
+      },
+      "mce-cd": {
+        "GBP": 1
+      },
+      "mce-tr": {
+        "GBP": 3
+      },
+      "mce-jo": {
+        "GBP": 6
+      }
+    },
+    ".//contact-info/@type": {
+      "mce-np": {
+        "2": 3
+      },
+      "mce-ng": {
+        "2": 2
+      },
+      "mce-lb": {
+        "2": 2
+      },
+      "mce-cf": {
+        "2": 1
+      },
+      "mce-et": {
+        "2": 1
+      },
+      "mce-iq": {
+        "2": 1
+      },
+      "mce-cd": {
+        "2": 1
+      },
+      "mce-tr": {
+        "2": 1
+      },
+      "mce-jo": {
+        "2": 1
+      }
+    },
+    ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "mce-np": {
+        "C01": 3
+      },
+      "mce-ng": {
+        "C01": 2
+      },
+      "mce-lb": {
+        "C01": 2
+      },
+      "mce-cf": {
+        "C01": 1
+      },
+      "mce-et": {
+        "C01": 2
+      },
+      "mce-iq": {
+        "C01": 1
+      },
+      "mce-cd": {
+        "C01": 1
+      },
+      "mce-tr": {
+        "C01": 1
+      },
+      "mce-jo": {
+        "C01": 2
+      }
+    },
+    ".//default-finance-type/@code": {
+      "mce-np": {
+        "110": 1
+      },
+      "mce-ng": {
+        "110": 1
+      },
+      "mce-lb": {
+        "110": 2
+      },
+      "mce-et": {
+        "110": 2
+      },
+      "mce-iq": {
+        "110": 1
+      },
+      "mce-tr": {
+        "110": 1
+      },
+      "mce-jo": {
+        "110": 2
+      }
+    },
+    ".//default-flow-type/@code": {
+      "mce-np": {
+        "10": 3
+      },
+      "mce-ng": {
+        "10": 2
+      },
+      "mce-lb": {
+        "10": 2
+      },
+      "mce-cf": {
+        "10": 1
+      },
+      "mce-et": {
+        "10": 2
+      },
+      "mce-iq": {
+        "10": 1
+      },
+      "mce-cd": {
+        "10": 1
+      },
+      "mce-tr": {
+        "10": 1
+      },
+      "mce-jo": {
+        "10": 2
+      }
+    },
+    ".//default-tied-status/@code": {
+      "mce-np": {
+        "5": 1
+      },
+      "mce-ng": {
+        "5": 1
+      },
+      "mce-lb": {
+        "5": 2
+      },
+      "mce-et": {
+        "5": 2
+      },
+      "mce-iq": {
+        "5": 1
+      },
+      "mce-tr": {
+        "5": 1
+      },
+      "mce-jo": {
+        "5": 2
+      }
+    },
+    ".//description/@type": {
+      "mce-np": {
+        "1": 3,
+        "2": 1
+      },
+      "mce-ng": {
+        "1": 2,
+        "2": 1
+      },
+      "mce-lb": {
+        "1": 2,
+        "2": 2
+      },
+      "mce-cf": {
+        "1": 1
+      },
+      "mce-et": {
+        "2": 2,
+        "1": 2
+      },
+      "mce-iq": {
+        "1": 1
+      },
+      "mce-cd": {
+        "1": 1
+      },
+      "mce-tr": {
+        "1": 1
+      },
+      "mce-jo": {
+        "2": 2,
+        "1": 2
+      }
+    },
+    ".//document-link/@format": {
+      "mce-np": {
+        "application/pdf": 6
+      },
+      "mce-ng": {
+        "application/pdf": 1
+      },
+      "mce-lb": {
+        "application/pdf": 2
+      },
+      "mce-cf": {
+        "application/pdf": 2
+      },
+      "mce-et": {
+        "application/pdf": 3
+      },
+      "mce-iq": {
+        "application/pdf": 2
+      },
+      "mce-cd": {
+        "application/pdf": 2
+      },
+      "mce-tr": {
+        "application/pdf": 1
+      },
+      "mce-jo": {
+        "application/pdf": 1
+      }
+    },
+    ".//document-link/category/@code": {
+      "mce-np": {
+        "B01": 6
+      },
+      "mce-ng": {
+        "B01": 1
+      },
+      "mce-lb": {
+        "B01": 2
+      },
+      "mce-cf": {
+        "B01": 2
+      },
+      "mce-et": {
+        "B01": 3
+      },
+      "mce-iq": {
+        "B01": 2
+      },
+      "mce-cd": {
+        "B01": 2
+      },
+      "mce-tr": {
+        "B01": 1
+      },
+      "mce-jo": {
+        "B01": 1
+      }
+    },
+    ".//document-link/language/@code": {
+      "mce-np": {
+        "en": 4
+      },
+      "mce-ng": {
+        "en": 1
+      },
+      "mce-lb": {
+        "en": 2
+      },
+      "mce-et": {
+        "en": 3
+      },
+      "mce-iq": {
+        "en": 2
+      },
+      "mce-tr": {
+        "en": 1
+      },
+      "mce-jo": {
+        "en": 1
+      }
+    },
+    ".//participating-org/@role": {
+      "mce-np": {
+        "4": 8,
+        "2": 3,
+        "1": 3
+      },
+      "mce-ng": {
+        "4": 12,
+        "1": 2,
+        "2": 1
+      },
+      "mce-lb": {
+        "4": 11,
+        "1": 2
+      },
+      "mce-cf": {
+        "4": 2,
+        "1": 1,
+        "2": 1
+      },
+      "mce-et": {
+        "4": 5,
+        "1": 2
+      },
+      "mce-iq": {
+        "4": 1,
+        "2": 1,
+        "1": 1
+      },
+      "mce-cd": {
+        "4": 2,
+        "1": 1,
+        "2": 1
+      },
+      "mce-tr": {
+        "1": 1,
+        "4": 2
+      },
+      "mce-jo": {
+        "4": 2,
+        "1": 2
+      }
+    },
+    ".//participating-org/@type": {
+      "mce-np": {
+        "22": 4,
+        "21": 7,
+        "10": 3
+      },
+      "mce-ng": {
+        "21": 5,
+        "70": 2,
+        "22": 7,
+        "10": 1
+      },
+      "mce-lb": {
+        "21": 2,
+        "10": 2,
+        "22": 4,
+        "23": 5
+      },
+      "mce-cf": {
+        "22": 1,
+        "10": 1,
+        "21": 2
+      },
+      "mce-et": {
+        "21": 3,
+        "10": 3,
+        "22": 1
+      },
+      "mce-iq": {
+        "21": 2,
+        "10": 1
+      },
+      "mce-cd": {
+        "22": 1,
+        "10": 1,
+        "21": 2
+      },
+      "mce-tr": {
+        "10": 1,
+        "21": 1,
+        "23": 1
+      },
+      "mce-jo": {
+        "21": 2,
+        "10": 2
+      }
+    },
+    ".//recipient-country/@code": {
+      "mce-np": {
+        "NP": 3
+      },
+      "mce-ng": {
+        "NG": 2
+      },
+      "mce-lb": {
+        "LB": 2
+      },
+      "mce-cf": {
+        "CF": 1
+      },
+      "mce-et": {
+        "ET": 2,
+        "SD": 1,
+        "ZW": 1,
+        "SO": 1,
+        "UG": 1,
+        "KE": 1,
+        "SS": 1
+      },
+      "mce-iq": {
+        "IQ": 1
+      },
+      "mce-cd": {
+        "CD": 1
+      },
+      "mce-tr": {
+        "TR": 1,
+        "LB": 1,
+        "IQ": 1
+      },
+      "mce-jo": {
+        "JO": 2
+      }
+    },
+    ".//reporting-org/@type": {
+      "mce-np": {
+        "21": 3
+      },
+      "mce-ng": {
+        "21": 2
+      },
+      "mce-lb": {
+        "21": 2
+      },
+      "mce-cf": {
+        "21": 1
+      },
+      "mce-et": {
+        "21": 2
+      },
+      "mce-iq": {
+        "21": 1
+      },
+      "mce-cd": {
+        "21": 1
+      },
+      "mce-tr": {
+        "21": 1
+      },
+      "mce-jo": {
+        "21": 2
+      }
+    },
+    ".//sector/@vocabulary": {
+      "mce-np": {
+        "99": 3
+      },
+      "mce-ng": {
+        "99": 3
+      },
+      "mce-lb": {
+        "99": 3
+      },
+      "mce-cf": {
+        "99": 2
+      },
+      "mce-et": {
+        "99": 3
+      },
+      "mce-iq": {
+        "99": 2
+      },
+      "mce-cd": {
+        "99": 1
+      },
+      "mce-tr": {
+        "99": 3
+      },
+      "mce-jo": {
+        "99": 4
+      }
+    },
+    ".//transaction/aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "mce-np": {
+        "C01": 21
+      },
+      "mce-ng": {
+        "C01": 7
+      },
+      "mce-cf": {
+        "C01": 12
+      },
+      "mce-iq": {
+        "C01": 4
+      },
+      "mce-cd": {
+        "C01": 11
+      }
+    },
+    ".//transaction/disbursement-channel/@code": {
+      "mce-np": {
+        "3": 20,
+        "4": 1
+      },
+      "mce-ng": {
+        "3": 7
+      },
+      "mce-cf": {
+        "3": 12
+      },
+      "mce-iq": {
+        "3": 4
+      },
+      "mce-cd": {
+        "3": 11
+      }
+    },
+    ".//transaction/finance-type/@code": {
+      "mce-np": {
+        "110": 20
+      },
+      "mce-ng": {
+        "110": 7
+      },
+      "mce-cf": {
+        "110": 12
+      },
+      "mce-iq": {
+        "110": 4
+      },
+      "mce-cd": {
+        "110": 10
+      },
+      "mce-tr": {
+        "110": 1
+      }
+    },
+    ".//transaction/flow-type/@code": {
+      "mce-np": {
+        "10": 20,
+        "30": 1
+      },
+      "mce-ng": {
+        "10": 7
+      },
+      "mce-cf": {
+        "10": 12
+      },
+      "mce-iq": {
+        "10": 4
+      },
+      "mce-cd": {
+        "10": 10,
+        "30": 1
+      }
+    },
+    ".//transaction/tied-status/@code": {
+      "mce-np": {
+        "5": 21
+      },
+      "mce-ng": {
+        "5": 7
+      },
+      "mce-cf": {
+        "5": 12
+      },
+      "mce-iq": {
+        "5": 4
+      },
+      "mce-cd": {
+        "5": 11
+      }
+    },
+    ".//transaction/transaction-type/@code": {
+      "mce-np": {
+        "4": 25,
+        "1": 8,
+        "2": 3,
+        "3": 18
+      },
+      "mce-ng": {
+        "4": 13,
+        "2": 2,
+        "3": 31,
+        "1": 3
+      },
+      "mce-lb": {
+        "2": 2,
+        "1": 5,
+        "3": 13,
+        "4": 5
+      },
+      "mce-cf": {
+        "4": 10,
+        "3": 1,
+        "1": 1,
+        "2": 1
+      },
+      "mce-et": {
+        "4": 5,
+        "3": 2,
+        "2": 2,
+        "1": 4
+      },
+      "mce-iq": {
+        "4": 5,
+        "1": 1,
+        "2": 1
+      },
+      "mce-cd": {
+        "4": 10,
+        "3": 1,
+        "1": 1,
+        "2": 1
+      },
+      "mce-tr": {
+        "1": 8,
+        "4": 8,
+        "3": 7
+      },
+      "mce-jo": {
+        "1": 5,
+        "4": 5,
+        "2": 2
+      }
+    },
+    ".//transaction/value/@currency": {
+      "mce-np": {
+        "GBP": 25
+      },
+      "mce-ng": {
+        "GBP": 20
+      },
+      "mce-lb": {
+        "GBP": 16
+      },
+      "mce-cf": {
+        "GBP": 10
+      },
+      "mce-et": {
+        "GBP": 8
+      },
+      "mce-cd": {
+        "GBP": 10
+      },
+      "mce-tr": {
+        "GBP": 23
+      },
+      "mce-jo": {
+        "GBP": 5
+      }
+    },
+    ".//@xml:lang": {
+      "mce-np": {
+        "en": 23,
+        "ne": 2
+      },
+      "mce-ng": {
+        "en": 10
+      },
+      "mce-lb": {
+        "en": 26
+      },
+      "mce-cf": {
+        "en": 10
+      },
+      "mce-et": {
+        "en": 15
+      },
+      "mce-iq": {
+        "en": 4
+      },
+      "mce-cd": {
+        "en": 10
+      },
+      "mce-tr": {
+        "en": 64
+      },
+      "mce-jo": {
+        "en": 20
+      }
+    }
+  }
+}

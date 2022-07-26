@@ -1,0 +1,327 @@
+{
+  ".//@default-currency": {
+    "GBP": {
+      "cal-so": 1,
+      "cal-pk": 1,
+      "cal-gb": 1,
+      "cal-mz": 2,
+      "cal-ug": 2,
+      "cal-np": 1,
+      "cal-ke": 1,
+      "cal-gh": 1,
+      "cal-bd": 1
+    }
+  },
+  ".//@xml:lang": {
+    "en": {
+      "cal-so": 2,
+      "cal-pk": 3,
+      "cal-gb": 2,
+      "cal-mz": 2,
+      "cal-ug": 2,
+      "cal-np": 5,
+      "cal-ke": 2,
+      "cal-gh": 2,
+      "cal-bd": 2
+    }
+  },
+  ".//activity-date/@type": {
+    "start-actual": {
+      "cal-so": 1,
+      "cal-pk": 1,
+      "cal-mz": 1,
+      "cal-ug": 1,
+      "cal-np": 1,
+      "cal-ke": 1
+    },
+    "end-planned": {
+      "cal-so": 1,
+      "cal-pk": 1,
+      "cal-mz": 1,
+      "cal-np": 1,
+      "cal-ke": 1
+    },
+    "2": {
+      "cal-gb": 1,
+      "cal-mz": 1,
+      "cal-ug": 1,
+      "cal-gh": 1,
+      "cal-bd": 1
+    },
+    "3": {
+      "cal-mz": 1,
+      "cal-ug": 1,
+      "cal-gh": 1
+    }
+  },
+  ".//activity-status/@code": {
+    "2": {
+      "cal-so": 1,
+      "cal-pk": 1,
+      "cal-gb": 1,
+      "cal-mz": 2,
+      "cal-ug": 2,
+      "cal-np": 1,
+      "cal-ke": 1,
+      "cal-gh": 1,
+      "cal-bd": 1
+    }
+  },
+  ".//budget/@type": {
+    "1": {
+      "cal-pk": 1,
+      "cal-gb": 1,
+      "cal-ug": 1,
+      "cal-ke": 1
+    },
+    "2": {
+      "cal-gh": 1
+    }
+  },
+  ".//budget/value/@currency": {
+    "GBP": {
+      "cal-np": 1
+    }
+  },
+  ".//description/@type": {
+    "1": {
+      "cal-so": 1,
+      "cal-ke": 1,
+      "cal-gh": 1
+    }
+  },
+  ".//participating-org/@role": {
+    "Funding": {
+      "cal-so": 1,
+      "cal-pk": 1,
+      "cal-np": 1,
+      "cal-ke": 1
+    },
+    "Implementing": {
+      "cal-so": 1,
+      "cal-pk": 1,
+      "cal-np": 1
+    },
+    "Accountable": {
+      "cal-so": 3,
+      "cal-ke": 1
+    },
+    "3": {
+      "cal-gb": 1,
+      "cal-mz": 1,
+      "cal-ug": 1,
+      "cal-bd": 1
+    },
+    "1": {
+      "cal-gb": 1,
+      "cal-gh": 1
+    },
+    "4": {
+      "cal-mz": 1,
+      "cal-ug": 1,
+      "cal-gh": 1,
+      "cal-bd": 1
+    }
+  },
+  ".//participating-org/@type": {
+    "10": {
+      "cal-so": 1,
+      "cal-pk": 1,
+      "cal-gb": 1,
+      "cal-np": 1,
+      "cal-ke": 1
+    },
+    "70": {
+      "cal-so": 3,
+      "cal-pk": 1,
+      "cal-np": 1
+    },
+    "22": {
+      "cal-ke": 1
+    }
+  },
+  ".//recipient-country/@code": {
+    "SO": {
+      "cal-so": 1
+    },
+    "PK": {
+      "cal-pk": 1
+    },
+    "GB": {
+      "cal-gb": 1
+    },
+    "MZ": {
+      "cal-mz": 2
+    },
+    "UG": {
+      "cal-ug": 2
+    },
+    "NP": {
+      "cal-np": 1
+    },
+    "KE": {
+      "cal-ke": 1
+    },
+    "GH": {
+      "cal-gh": 1
+    },
+    "BD": {
+      "cal-bd": 1
+    }
+  },
+  ".//reporting-org/@type": {
+    "70": {
+      "cal-so": 1,
+      "cal-pk": 1,
+      "cal-gb": 1,
+      "cal-mz": 1,
+      "cal-ug": 1,
+      "cal-np": 1,
+      "cal-ke": 1,
+      "cal-gh": 1,
+      "cal-bd": 1
+    }
+  },
+  ".//sector/@vocabulary": {
+    "DAC": {
+      "cal-so": 1,
+      "cal-pk": 1,
+      "cal-ug": 1,
+      "cal-np": 1,
+      "cal-ke": 1
+    },
+    "1": {
+      "cal-gb": 1,
+      "cal-mz": 1,
+      "cal-ug": 1,
+      "cal-gh": 1,
+      "cal-bd": 1
+    }
+  },
+  ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "33120": {
+      "cal-gb": 1
+    },
+    "43010": {
+      "cal-mz": 1
+    },
+    "15111": {
+      "cal-mz": 1
+    },
+    "21020": {
+      "cal-ug": 1
+    },
+    "11110": {
+      "cal-gh": 1
+    },
+    "12230": {
+      "cal-bd": 1
+    }
+  },
+  ".//sector[@vocabulary = 'DAC' or not(@vocabulary)]/@code": {
+    "21020": {
+      "cal-pk": 1
+    },
+    "15120": {
+      "cal-np": 1
+    },
+    "31130": {
+      "cal-ke": 1
+    }
+  },
+  ".//transaction/aid-type/@code": {
+    "B04": {
+      "cal-so": 4,
+      "cal-ke": 5
+    },
+    "C01": {
+      "cal-pk": 1,
+      "cal-np": 10
+    }
+  },
+  ".//transaction/aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "B04": {
+      "cal-gb": 1,
+      "cal-mz": 32
+    }
+  },
+  ".//transaction/disbursement-channel/@code": {
+    "2": {
+      "cal-so": 4,
+      "cal-gb": 1,
+      "cal-mz": 32,
+      "cal-np": 10
+    },
+    "3": {
+      "cal-pk": 1
+    }
+  },
+  ".//transaction/finance-type/@code": {
+    "110": {
+      "cal-so": 4,
+      "cal-pk": 1,
+      "cal-mz": 32,
+      "cal-np": 10,
+      "cal-ke": 5
+    }
+  },
+  ".//transaction/flow-type/@code": {
+    "10": {
+      "cal-so": 4,
+      "cal-pk": 1,
+      "cal-gb": 1,
+      "cal-mz": 32,
+      "cal-ug": 1,
+      "cal-np": 10,
+      "cal-ke": 5
+    }
+  },
+  ".//transaction/tied-status/@code": {
+    "5": {
+      "cal-so": 4,
+      "cal-pk": 1,
+      "cal-mz": 32,
+      "cal-np": 10,
+      "cal-ke": 5
+    }
+  },
+  ".//transaction/transaction-type/@code": {
+    "IF": {
+      "cal-so": 2,
+      "cal-mz": 15,
+      "cal-ug": 38,
+      "cal-np": 6
+    },
+    "E": {
+      "cal-so": 2,
+      "cal-pk": 1,
+      "cal-np": 4
+    },
+    "1": {
+      "cal-gb": 1,
+      "cal-mz": 1,
+      "cal-ug": 1,
+      "cal-gh": 1,
+      "cal-bd": 1
+    },
+    "4": {
+      "cal-gb": 1,
+      "cal-mz": 1,
+      "cal-ug": 2,
+      "cal-gh": 2,
+      "cal-bd": 2
+    },
+    "D": {
+      "cal-mz": 17,
+      "cal-ug": 55,
+      "cal-ke": 5
+    }
+  },
+  ".//transaction/value/@currency": {
+    "GBP": {
+      "cal-gb": 1,
+      "cal-ug": 1,
+      "cal-np": 3
+    }
+  }
+}

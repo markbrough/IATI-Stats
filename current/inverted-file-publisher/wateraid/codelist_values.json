@@ -1,0 +1,956 @@
+{
+  ".//@default-currency": {
+    "GBP": {
+      "wateraid-np": 17,
+      "wateraid-pk": 9,
+      "wateraid-gh": 13,
+      "wateraid-ne": 5,
+      "wateraid-ml": 19,
+      "wateraid-mw": 16,
+      "wateraid-ng": 6,
+      "wateraid-ls": 1,
+      "wateraid-ao": 1,
+      "wateraid-lr": 5,
+      "wateraid-tz": 21,
+      "wateraid-et": 30,
+      "wateraid-sz": 1,
+      "wateraid-global": 25,
+      "wateraid-ug": 20,
+      "wateraid-bd": 33,
+      "wateraid-in": 25,
+      "wateraid-mz": 7,
+      "wateraid-mg": 29,
+      "wateraid-zm": 11,
+      "wateraid-ke": 1,
+      "wateraid-rw": 3,
+      "wateraid-sl": 5,
+      "wateraid-bf": 16
+    }
+  },
+  ".//@xml:lang": {
+    "en": {
+      "wateraid-np": 17,
+      "wateraid-pk": 9,
+      "wateraid-gh": 13,
+      "wateraid-ne": 5,
+      "wateraid-ml": 19,
+      "wateraid-mw": 16,
+      "wateraid-ng": 6,
+      "wateraid-ls": 1,
+      "wateraid-ao": 1,
+      "wateraid-lr": 5,
+      "wateraid-tz": 21,
+      "wateraid-et": 30,
+      "wateraid-sz": 1,
+      "wateraid-global": 64,
+      "wateraid-ug": 20,
+      "wateraid-bd": 33,
+      "wateraid-in": 25,
+      "wateraid-mz": 7,
+      "wateraid-mg": 29,
+      "wateraid-zm": 11,
+      "wateraid-ke": 1,
+      "wateraid-rw": 3,
+      "wateraid-sl": 5,
+      "wateraid-bf": 16
+    },
+    "fr": {
+      "wateraid-global": 1
+    }
+  },
+  ".//activity-date/@type": {
+    "start-actual": {
+      "wateraid-np": 17,
+      "wateraid-pk": 9,
+      "wateraid-gh": 13,
+      "wateraid-ne": 5,
+      "wateraid-ml": 19,
+      "wateraid-mw": 16,
+      "wateraid-ng": 6,
+      "wateraid-ls": 1,
+      "wateraid-ao": 1,
+      "wateraid-lr": 5,
+      "wateraid-tz": 21,
+      "wateraid-et": 30,
+      "wateraid-sz": 1,
+      "wateraid-global": 25,
+      "wateraid-ug": 20,
+      "wateraid-bd": 33,
+      "wateraid-in": 25,
+      "wateraid-mz": 7,
+      "wateraid-mg": 29,
+      "wateraid-zm": 11,
+      "wateraid-ke": 1,
+      "wateraid-rw": 3,
+      "wateraid-sl": 5,
+      "wateraid-bf": 16
+    },
+    "end-planned": {
+      "wateraid-np": 16,
+      "wateraid-pk": 8,
+      "wateraid-gh": 12,
+      "wateraid-ne": 4,
+      "wateraid-ml": 18,
+      "wateraid-mw": 15,
+      "wateraid-ng": 5,
+      "wateraid-lr": 4,
+      "wateraid-tz": 20,
+      "wateraid-et": 29,
+      "wateraid-ug": 19,
+      "wateraid-bd": 32,
+      "wateraid-in": 24,
+      "wateraid-mz": 6,
+      "wateraid-mg": 28,
+      "wateraid-zm": 10,
+      "wateraid-rw": 2,
+      "wateraid-sl": 4,
+      "wateraid-bf": 15
+    }
+  },
+  ".//activity-status/@code": {
+    "2": {
+      "wateraid-np": 17,
+      "wateraid-pk": 9,
+      "wateraid-gh": 13,
+      "wateraid-ne": 5,
+      "wateraid-ml": 19,
+      "wateraid-mw": 16,
+      "wateraid-ng": 6,
+      "wateraid-ls": 1,
+      "wateraid-ao": 1,
+      "wateraid-lr": 5,
+      "wateraid-tz": 21,
+      "wateraid-et": 30,
+      "wateraid-sz": 1,
+      "wateraid-global": 25,
+      "wateraid-ug": 20,
+      "wateraid-bd": 33,
+      "wateraid-in": 25,
+      "wateraid-mz": 7,
+      "wateraid-mg": 29,
+      "wateraid-zm": 11,
+      "wateraid-ke": 1,
+      "wateraid-rw": 3,
+      "wateraid-sl": 5,
+      "wateraid-bf": 16
+    }
+  },
+  ".//budget/@type": {
+    "1": {
+      "wateraid-global": 89
+    }
+  },
+  ".//budget/value/@currency": {
+    "GBP": {
+      "wateraid-global": 89
+    }
+  },
+  ".//contact-info/@type": {
+    "1": {
+      "wateraid-np": 17,
+      "wateraid-pk": 9,
+      "wateraid-gh": 13,
+      "wateraid-ne": 5,
+      "wateraid-ml": 19,
+      "wateraid-mw": 16,
+      "wateraid-ng": 6,
+      "wateraid-ls": 1,
+      "wateraid-ao": 1,
+      "wateraid-lr": 5,
+      "wateraid-tz": 21,
+      "wateraid-et": 30,
+      "wateraid-sz": 1,
+      "wateraid-global": 25,
+      "wateraid-ug": 20,
+      "wateraid-bd": 33,
+      "wateraid-in": 25,
+      "wateraid-mz": 7,
+      "wateraid-mg": 29,
+      "wateraid-zm": 11,
+      "wateraid-ke": 1,
+      "wateraid-rw": 3,
+      "wateraid-sl": 5,
+      "wateraid-bf": 16
+    }
+  },
+  ".//default-aid-type/@code": {
+    "C01": {
+      "wateraid-np": 17,
+      "wateraid-pk": 9,
+      "wateraid-gh": 13,
+      "wateraid-ne": 5,
+      "wateraid-ml": 19,
+      "wateraid-mw": 16,
+      "wateraid-ng": 6,
+      "wateraid-ls": 1,
+      "wateraid-ao": 1,
+      "wateraid-lr": 5,
+      "wateraid-tz": 21,
+      "wateraid-et": 30,
+      "wateraid-sz": 1,
+      "wateraid-ug": 20,
+      "wateraid-bd": 33,
+      "wateraid-in": 25,
+      "wateraid-mz": 7,
+      "wateraid-mg": 29,
+      "wateraid-zm": 11,
+      "wateraid-ke": 1,
+      "wateraid-rw": 3,
+      "wateraid-sl": 5,
+      "wateraid-bf": 16
+    }
+  },
+  ".//default-finance-type/@code": {
+    "110": {
+      "wateraid-np": 17,
+      "wateraid-pk": 9,
+      "wateraid-gh": 13,
+      "wateraid-ne": 5,
+      "wateraid-ml": 19,
+      "wateraid-mw": 16,
+      "wateraid-ng": 6,
+      "wateraid-ls": 1,
+      "wateraid-ao": 1,
+      "wateraid-lr": 5,
+      "wateraid-tz": 21,
+      "wateraid-et": 30,
+      "wateraid-sz": 1,
+      "wateraid-global": 25,
+      "wateraid-ug": 20,
+      "wateraid-bd": 33,
+      "wateraid-in": 25,
+      "wateraid-mz": 7,
+      "wateraid-mg": 29,
+      "wateraid-zm": 11,
+      "wateraid-ke": 1,
+      "wateraid-rw": 3,
+      "wateraid-sl": 5,
+      "wateraid-bf": 16
+    }
+  },
+  ".//default-flow-type/@code": {
+    "30": {
+      "wateraid-np": 17,
+      "wateraid-pk": 9,
+      "wateraid-gh": 13,
+      "wateraid-ne": 5,
+      "wateraid-ml": 19,
+      "wateraid-mw": 16,
+      "wateraid-ng": 6,
+      "wateraid-ls": 1,
+      "wateraid-ao": 1,
+      "wateraid-lr": 5,
+      "wateraid-tz": 21,
+      "wateraid-et": 30,
+      "wateraid-sz": 1,
+      "wateraid-global": 24,
+      "wateraid-ug": 20,
+      "wateraid-bd": 33,
+      "wateraid-in": 25,
+      "wateraid-mz": 7,
+      "wateraid-mg": 29,
+      "wateraid-zm": 11,
+      "wateraid-ke": 1,
+      "wateraid-rw": 3,
+      "wateraid-sl": 5,
+      "wateraid-bf": 16
+    },
+    "10": {
+      "wateraid-global": 1
+    }
+  },
+  ".//default-tied-status/@code": {
+    "5": {
+      "wateraid-np": 17,
+      "wateraid-pk": 9,
+      "wateraid-gh": 11,
+      "wateraid-ne": 5,
+      "wateraid-ml": 17,
+      "wateraid-mw": 14,
+      "wateraid-ng": 6,
+      "wateraid-ls": 1,
+      "wateraid-ao": 1,
+      "wateraid-lr": 5,
+      "wateraid-tz": 19,
+      "wateraid-et": 27,
+      "wateraid-sz": 1,
+      "wateraid-ug": 17,
+      "wateraid-bd": 32,
+      "wateraid-in": 24,
+      "wateraid-mz": 5,
+      "wateraid-mg": 27,
+      "wateraid-zm": 10,
+      "wateraid-ke": 1,
+      "wateraid-rw": 3,
+      "wateraid-sl": 5,
+      "wateraid-bf": 13
+    },
+    "3": {
+      "wateraid-gh": 2,
+      "wateraid-mw": 1,
+      "wateraid-tz": 1,
+      "wateraid-ug": 3,
+      "wateraid-bd": 1,
+      "wateraid-in": 1,
+      "wateraid-mz": 2,
+      "wateraid-mg": 1,
+      "wateraid-zm": 1,
+      "wateraid-bf": 3
+    },
+    "4": {
+      "wateraid-ml": 2,
+      "wateraid-mw": 1,
+      "wateraid-tz": 1,
+      "wateraid-et": 3,
+      "wateraid-mg": 1
+    }
+  },
+  ".//description/@type": {
+    "1": {
+      "wateraid-np": 17,
+      "wateraid-pk": 9,
+      "wateraid-gh": 13,
+      "wateraid-ne": 5,
+      "wateraid-ml": 19,
+      "wateraid-mw": 16,
+      "wateraid-ng": 6,
+      "wateraid-ls": 1,
+      "wateraid-ao": 1,
+      "wateraid-lr": 5,
+      "wateraid-tz": 21,
+      "wateraid-et": 30,
+      "wateraid-sz": 1,
+      "wateraid-global": 25,
+      "wateraid-ug": 20,
+      "wateraid-bd": 33,
+      "wateraid-in": 25,
+      "wateraid-mz": 7,
+      "wateraid-mg": 29,
+      "wateraid-zm": 11,
+      "wateraid-ke": 1,
+      "wateraid-rw": 3,
+      "wateraid-sl": 5,
+      "wateraid-bf": 16
+    }
+  },
+  ".//document-link/@format": {
+    "application/pdf": {
+      "wateraid-global": 40
+    }
+  },
+  ".//document-link/category/@code": {
+    "A07": {
+      "wateraid-global": 12
+    },
+    "A02": {
+      "wateraid-global": 7
+    },
+    "B03": {
+      "wateraid-global": 16
+    },
+    "B01": {
+      "wateraid-global": 5
+    }
+  },
+  ".//document-link/language/@code": {
+    "en": {
+      "wateraid-global": 39
+    },
+    "fr": {
+      "wateraid-global": 1
+    }
+  },
+  ".//participating-org/@role": {
+    "Funding": {
+      "wateraid-np": 58,
+      "wateraid-pk": 10,
+      "wateraid-gh": 15,
+      "wateraid-ne": 6,
+      "wateraid-ml": 26,
+      "wateraid-mw": 18,
+      "wateraid-ng": 7,
+      "wateraid-ls": 1,
+      "wateraid-ao": 1,
+      "wateraid-lr": 6,
+      "wateraid-tz": 36,
+      "wateraid-et": 62,
+      "wateraid-sz": 1,
+      "wateraid-global": 60,
+      "wateraid-ug": 24,
+      "wateraid-bd": 38,
+      "wateraid-in": 34,
+      "wateraid-mz": 11,
+      "wateraid-mg": 52,
+      "wateraid-zm": 33,
+      "wateraid-ke": 1,
+      "wateraid-rw": 3,
+      "wateraid-sl": 11,
+      "wateraid-bf": 20
+    },
+    "Implementing": {
+      "wateraid-np": 51,
+      "wateraid-pk": 28,
+      "wateraid-gh": 69,
+      "wateraid-ne": 22,
+      "wateraid-ml": 97,
+      "wateraid-mw": 93,
+      "wateraid-ng": 98,
+      "wateraid-ls": 2,
+      "wateraid-ao": 2,
+      "wateraid-lr": 22,
+      "wateraid-tz": 82,
+      "wateraid-et": 67,
+      "wateraid-sz": 2,
+      "wateraid-global": 104,
+      "wateraid-ug": 90,
+      "wateraid-bd": 107,
+      "wateraid-in": 179,
+      "wateraid-mz": 55,
+      "wateraid-mg": 77,
+      "wateraid-zm": 51,
+      "wateraid-ke": 2,
+      "wateraid-rw": 12,
+      "wateraid-sl": 31,
+      "wateraid-bf": 78
+    }
+  },
+  ".//participating-org/@type": {
+    "52": {
+      "wateraid-np": 28,
+      "wateraid-pk": 1,
+      "wateraid-gh": 4,
+      "wateraid-ml": 6,
+      "wateraid-lr": 2,
+      "wateraid-tz": 13,
+      "wateraid-et": 14,
+      "wateraid-ug": 4,
+      "wateraid-bd": 2,
+      "wateraid-in": 7,
+      "wateraid-mz": 4,
+      "wateraid-mg": 18,
+      "wateraid-zm": 6,
+      "wateraid-sl": 5,
+      "wateraid-bf": 4
+    },
+    "70": {
+      "wateraid-np": 17,
+      "wateraid-pk": 1,
+      "wateraid-gh": 3,
+      "wateraid-ne": 1,
+      "wateraid-ml": 1,
+      "wateraid-mw": 5,
+      "wateraid-ng": 2,
+      "wateraid-tz": 3,
+      "wateraid-et": 29,
+      "wateraid-global": 4,
+      "wateraid-ug": 4,
+      "wateraid-bd": 16,
+      "wateraid-in": 11,
+      "wateraid-mz": 4,
+      "wateraid-mg": 14,
+      "wateraid-zm": 7,
+      "wateraid-bf": 1
+    },
+    "21": {
+      "wateraid-np": 26,
+      "wateraid-pk": 11,
+      "wateraid-gh": 18,
+      "wateraid-ne": 9,
+      "wateraid-ml": 27,
+      "wateraid-mw": 17,
+      "wateraid-ng": 9,
+      "wateraid-ls": 2,
+      "wateraid-ao": 2,
+      "wateraid-lr": 6,
+      "wateraid-tz": 29,
+      "wateraid-et": 41,
+      "wateraid-sz": 2,
+      "wateraid-global": 32,
+      "wateraid-ug": 30,
+      "wateraid-bd": 40,
+      "wateraid-in": 33,
+      "wateraid-mz": 9,
+      "wateraid-mg": 39,
+      "wateraid-zm": 22,
+      "wateraid-ke": 2,
+      "wateraid-rw": 4,
+      "wateraid-sl": 7,
+      "wateraid-bf": 22
+    },
+    "22": {
+      "wateraid-np": 36,
+      "wateraid-pk": 20,
+      "wateraid-gh": 57,
+      "wateraid-ne": 17,
+      "wateraid-ml": 82,
+      "wateraid-mw": 78,
+      "wateraid-ng": 92,
+      "wateraid-ls": 1,
+      "wateraid-ao": 1,
+      "wateraid-lr": 18,
+      "wateraid-tz": 64,
+      "wateraid-et": 42,
+      "wateraid-sz": 1,
+      "wateraid-global": 106,
+      "wateraid-ug": 71,
+      "wateraid-bd": 80,
+      "wateraid-in": 158,
+      "wateraid-mz": 48,
+      "wateraid-mg": 51,
+      "wateraid-zm": 41,
+      "wateraid-ke": 1,
+      "wateraid-rw": 9,
+      "wateraid-sl": 26,
+      "wateraid-bf": 62
+    },
+    "10": {
+      "wateraid-np": 1,
+      "wateraid-pk": 1,
+      "wateraid-ne": 1,
+      "wateraid-ml": 2,
+      "wateraid-mw": 6,
+      "wateraid-lr": 2,
+      "wateraid-tz": 3,
+      "wateraid-et": 3,
+      "wateraid-global": 8,
+      "wateraid-ug": 1,
+      "wateraid-bd": 3,
+      "wateraid-in": 2,
+      "wateraid-mg": 1,
+      "wateraid-zm": 1,
+      "wateraid-rw": 2,
+      "wateraid-sl": 3
+    },
+    "15": {
+      "wateraid-np": 1,
+      "wateraid-pk": 1,
+      "wateraid-ml": 1,
+      "wateraid-global": 2,
+      "wateraid-bd": 1,
+      "wateraid-mg": 1,
+      "wateraid-zm": 1
+    },
+    "40": {
+      "wateraid-pk": 3,
+      "wateraid-gh": 2,
+      "wateraid-ml": 3,
+      "wateraid-mw": 2,
+      "wateraid-ng": 1,
+      "wateraid-tz": 2,
+      "wateraid-global": 5,
+      "wateraid-ug": 3,
+      "wateraid-bd": 2,
+      "wateraid-mz": 1,
+      "wateraid-mg": 3,
+      "wateraid-zm": 2,
+      "wateraid-sl": 1,
+      "wateraid-bf": 7
+    },
+    "60": {
+      "wateraid-ml": 1,
+      "wateraid-mw": 2,
+      "wateraid-ng": 1,
+      "wateraid-tz": 4,
+      "wateraid-global": 5,
+      "wateraid-in": 2,
+      "wateraid-mg": 1,
+      "wateraid-zm": 4,
+      "wateraid-bf": 2
+    },
+    "80": {
+      "wateraid-mw": 1,
+      "wateraid-global": 1,
+      "wateraid-ug": 1,
+      "wateraid-bd": 1,
+      "wateraid-mg": 1
+    },
+    "30": {
+      "wateraid-global": 1
+    }
+  },
+  ".//recipient-country/@code": {
+    "NP": {
+      "wateraid-np": 17,
+      "wateraid-global": 1
+    },
+    "PK": {
+      "wateraid-pk": 9,
+      "wateraid-global": 1
+    },
+    "GH": {
+      "wateraid-gh": 13,
+      "wateraid-global": 1
+    },
+    "NE": {
+      "wateraid-ne": 5,
+      "wateraid-global": 1
+    },
+    "ML": {
+      "wateraid-ml": 19,
+      "wateraid-global": 1
+    },
+    "MW": {
+      "wateraid-mw": 16,
+      "wateraid-global": 1
+    },
+    "NG": {
+      "wateraid-ng": 6,
+      "wateraid-global": 1
+    },
+    "LS": {
+      "wateraid-ls": 1,
+      "wateraid-global": 1
+    },
+    "AO": {
+      "wateraid-ao": 1,
+      "wateraid-global": 1
+    },
+    "LR": {
+      "wateraid-lr": 5,
+      "wateraid-global": 1
+    },
+    "TZ": {
+      "wateraid-tz": 21,
+      "wateraid-global": 1
+    },
+    "ET": {
+      "wateraid-et": 30,
+      "wateraid-global": 1
+    },
+    "SZ": {
+      "wateraid-sz": 1,
+      "wateraid-global": 1
+    },
+    "GB": {
+      "wateraid-global": 2
+    },
+    "BD": {
+      "wateraid-global": 1,
+      "wateraid-bd": 33
+    },
+    "BF": {
+      "wateraid-global": 1,
+      "wateraid-bf": 16
+    },
+    "IN": {
+      "wateraid-global": 1,
+      "wateraid-in": 25
+    },
+    "KE": {
+      "wateraid-global": 1,
+      "wateraid-ke": 1
+    },
+    "MG": {
+      "wateraid-global": 1,
+      "wateraid-mg": 29
+    },
+    "MZ": {
+      "wateraid-global": 1,
+      "wateraid-mz": 7
+    },
+    "RW": {
+      "wateraid-global": 1,
+      "wateraid-rw": 3
+    },
+    "SL": {
+      "wateraid-global": 1,
+      "wateraid-sl": 5
+    },
+    "UG": {
+      "wateraid-global": 1,
+      "wateraid-ug": 20
+    },
+    "ZM": {
+      "wateraid-global": 1,
+      "wateraid-zm": 11
+    }
+  },
+  ".//related-activity/@type": {
+    "1": {
+      "wateraid-np": 17,
+      "wateraid-pk": 9,
+      "wateraid-gh": 13,
+      "wateraid-ne": 5,
+      "wateraid-ml": 19,
+      "wateraid-mw": 16,
+      "wateraid-ng": 6,
+      "wateraid-ls": 1,
+      "wateraid-ao": 1,
+      "wateraid-lr": 5,
+      "wateraid-tz": 21,
+      "wateraid-et": 30,
+      "wateraid-sz": 1,
+      "wateraid-global": 24,
+      "wateraid-ug": 20,
+      "wateraid-bd": 33,
+      "wateraid-in": 25,
+      "wateraid-mz": 7,
+      "wateraid-mg": 29,
+      "wateraid-zm": 11,
+      "wateraid-ke": 1,
+      "wateraid-rw": 3,
+      "wateraid-sl": 5,
+      "wateraid-bf": 16
+    },
+    "3": {
+      "wateraid-np": 272,
+      "wateraid-pk": 72,
+      "wateraid-gh": 156,
+      "wateraid-ne": 20,
+      "wateraid-ml": 342,
+      "wateraid-mw": 240,
+      "wateraid-ng": 30,
+      "wateraid-lr": 20,
+      "wateraid-tz": 420,
+      "wateraid-et": 870,
+      "wateraid-ug": 380,
+      "wateraid-bd": 1056,
+      "wateraid-in": 600,
+      "wateraid-mz": 42,
+      "wateraid-mg": 812,
+      "wateraid-zm": 110,
+      "wateraid-rw": 6,
+      "wateraid-sl": 20,
+      "wateraid-bf": 240
+    },
+    "": {
+      "wateraid-global": 1
+    }
+  },
+  ".//reporting-org/@type": {
+    "21": {
+      "wateraid-np": 17,
+      "wateraid-pk": 9,
+      "wateraid-gh": 13,
+      "wateraid-ne": 5,
+      "wateraid-ml": 19,
+      "wateraid-mw": 16,
+      "wateraid-ng": 6,
+      "wateraid-ls": 1,
+      "wateraid-ao": 1,
+      "wateraid-lr": 5,
+      "wateraid-tz": 21,
+      "wateraid-et": 30,
+      "wateraid-sz": 1,
+      "wateraid-global": 25,
+      "wateraid-ug": 20,
+      "wateraid-bd": 33,
+      "wateraid-in": 25,
+      "wateraid-mz": 7,
+      "wateraid-mg": 29,
+      "wateraid-zm": 11,
+      "wateraid-ke": 1,
+      "wateraid-rw": 3,
+      "wateraid-sl": 5,
+      "wateraid-bf": 16
+    }
+  },
+  ".//sector/@vocabulary": {
+    "DAC": {
+      "wateraid-np": 17,
+      "wateraid-pk": 9,
+      "wateraid-gh": 13,
+      "wateraid-ne": 5,
+      "wateraid-ml": 19,
+      "wateraid-mw": 16,
+      "wateraid-ng": 6,
+      "wateraid-ls": 1,
+      "wateraid-ao": 1,
+      "wateraid-lr": 5,
+      "wateraid-tz": 21,
+      "wateraid-et": 30,
+      "wateraid-sz": 1,
+      "wateraid-global": 25,
+      "wateraid-ug": 20,
+      "wateraid-bd": 33,
+      "wateraid-in": 25,
+      "wateraid-mz": 7,
+      "wateraid-mg": 29,
+      "wateraid-zm": 11,
+      "wateraid-ke": 1,
+      "wateraid-rw": 3,
+      "wateraid-sl": 5,
+      "wateraid-bf": 16
+    }
+  },
+  ".//sector[@vocabulary = 'DAC' or not(@vocabulary)]/@code": {
+    "140": {
+      "wateraid-np": 17,
+      "wateraid-pk": 9,
+      "wateraid-gh": 13,
+      "wateraid-ne": 5,
+      "wateraid-ml": 19,
+      "wateraid-mw": 16,
+      "wateraid-ng": 6,
+      "wateraid-ls": 1,
+      "wateraid-ao": 1,
+      "wateraid-lr": 5,
+      "wateraid-tz": 21,
+      "wateraid-et": 30,
+      "wateraid-sz": 1,
+      "wateraid-global": 25,
+      "wateraid-ug": 20,
+      "wateraid-bd": 33,
+      "wateraid-in": 25,
+      "wateraid-mz": 7,
+      "wateraid-mg": 29,
+      "wateraid-zm": 11,
+      "wateraid-ke": 1,
+      "wateraid-rw": 3,
+      "wateraid-sl": 5,
+      "wateraid-bf": 16
+    }
+  },
+  ".//transaction/flow-type/@code": {
+    "30": {
+      "wateraid-np": 541,
+      "wateraid-pk": 228,
+      "wateraid-gh": 394,
+      "wateraid-ne": 127,
+      "wateraid-ml": 519,
+      "wateraid-mw": 540,
+      "wateraid-ng": 534,
+      "wateraid-ls": 20,
+      "wateraid-ao": 3,
+      "wateraid-lr": 118,
+      "wateraid-tz": 358,
+      "wateraid-et": 459,
+      "wateraid-sz": 23,
+      "wateraid-global": 432,
+      "wateraid-ug": 466,
+      "wateraid-bd": 830,
+      "wateraid-in": 908,
+      "wateraid-mz": 316,
+      "wateraid-mg": 460,
+      "wateraid-zm": 333,
+      "wateraid-ke": 19,
+      "wateraid-rw": 66,
+      "wateraid-sl": 157,
+      "wateraid-bf": 405
+    },
+    "10": {
+      "wateraid-np": 5,
+      "wateraid-pk": 13,
+      "wateraid-gh": 4,
+      "wateraid-ne": 2,
+      "wateraid-ml": 14,
+      "wateraid-mw": 34,
+      "wateraid-ng": 2,
+      "wateraid-lr": 4,
+      "wateraid-tz": 10,
+      "wateraid-et": 4,
+      "wateraid-global": 85,
+      "wateraid-ug": 10,
+      "wateraid-bd": 21,
+      "wateraid-in": 11,
+      "wateraid-mz": 3,
+      "wateraid-mg": 8,
+      "wateraid-zm": 13,
+      "wateraid-rw": 3,
+      "wateraid-sl": 4,
+      "wateraid-bf": 13
+    }
+  },
+  ".//transaction/transaction-type/@code": {
+    "D": {
+      "wateraid-np": 278,
+      "wateraid-pk": 136,
+      "wateraid-gh": 253,
+      "wateraid-ne": 86,
+      "wateraid-ml": 387,
+      "wateraid-mw": 402,
+      "wateraid-ng": 479,
+      "wateraid-ls": 9,
+      "wateraid-ao": 1,
+      "wateraid-lr": 90,
+      "wateraid-tz": 190,
+      "wateraid-et": 171,
+      "wateraid-sz": 11,
+      "wateraid-ug": 309,
+      "wateraid-bd": 552,
+      "wateraid-in": 698,
+      "wateraid-mz": 223,
+      "wateraid-mg": 236,
+      "wateraid-zm": 189,
+      "wateraid-ke": 9,
+      "wateraid-rw": 49,
+      "wateraid-sl": 101,
+      "wateraid-bf": 262
+    },
+    "E": {
+      "wateraid-np": 108,
+      "wateraid-pk": 67,
+      "wateraid-gh": 101,
+      "wateraid-ne": 31,
+      "wateraid-ml": 86,
+      "wateraid-mw": 103,
+      "wateraid-ng": 41,
+      "wateraid-ls": 11,
+      "wateraid-ao": 2,
+      "wateraid-lr": 24,
+      "wateraid-tz": 105,
+      "wateraid-et": 131,
+      "wateraid-sz": 12,
+      "wateraid-ug": 115,
+      "wateraid-bd": 182,
+      "wateraid-in": 128,
+      "wateraid-mz": 51,
+      "wateraid-mg": 122,
+      "wateraid-zm": 72,
+      "wateraid-ke": 10,
+      "wateraid-rw": 17,
+      "wateraid-sl": 27,
+      "wateraid-bf": 99
+    },
+    "IF": {
+      "wateraid-np": 160,
+      "wateraid-pk": 38,
+      "wateraid-gh": 44,
+      "wateraid-ne": 12,
+      "wateraid-ml": 60,
+      "wateraid-mw": 69,
+      "wateraid-ng": 16,
+      "wateraid-lr": 8,
+      "wateraid-tz": 73,
+      "wateraid-et": 161,
+      "wateraid-global": 259,
+      "wateraid-ug": 52,
+      "wateraid-bd": 117,
+      "wateraid-in": 93,
+      "wateraid-mz": 45,
+      "wateraid-mg": 110,
+      "wateraid-zm": 85,
+      "wateraid-rw": 3,
+      "wateraid-sl": 33,
+      "wateraid-bf": 57
+    }
+  },
+  ".//transaction/value/@currency": {
+    "GBP": {
+      "wateraid-np": 546,
+      "wateraid-pk": 241,
+      "wateraid-gh": 398,
+      "wateraid-ne": 129,
+      "wateraid-ml": 533,
+      "wateraid-mw": 574,
+      "wateraid-ng": 536,
+      "wateraid-ls": 20,
+      "wateraid-ao": 3,
+      "wateraid-lr": 122,
+      "wateraid-tz": 368,
+      "wateraid-et": 463,
+      "wateraid-sz": 23,
+      "wateraid-global": 517,
+      "wateraid-ug": 476,
+      "wateraid-bd": 851,
+      "wateraid-in": 919,
+      "wateraid-mz": 319,
+      "wateraid-mg": 468,
+      "wateraid-zm": 346,
+      "wateraid-ke": 19,
+      "wateraid-rw": 69,
+      "wateraid-sl": 161,
+      "wateraid-bf": 418
+    }
+  }
+}

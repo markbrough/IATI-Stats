@@ -1,0 +1,915 @@
+{
+  "2": {
+    ".//@default-currency": {
+      "nimd-hq-bj": {
+        "EUR": 1
+      },
+      "nimd-hq-489": {
+        "EUR": 1
+      },
+      "nimd-hq-389": {
+        "EUR": 3
+      },
+      "nimd-hq-189": {
+        "EUR": 1
+      },
+      "nimd-hq-289": {
+        "EUR": 8
+      },
+      "nimd-hq-activities": {
+        "EUR": 21
+      },
+      "nimd-hq-89": {
+        "EUR": 2
+      },
+      "nimd-hq-789": {
+        "EUR": 2
+      },
+      "nimd-hq-co": {
+        "EUR": 1
+      }
+    },
+    ".//activity-date/@type": {
+      "nimd-hq-bj": {
+        "1": 1,
+        "2": 1,
+        "3": 1
+      },
+      "nimd-hq-489": {
+        "1": 1,
+        "2": 1,
+        "3": 1
+      },
+      "nimd-hq-389": {
+        "1": 3,
+        "2": 3,
+        "3": 3
+      },
+      "nimd-hq-189": {
+        "1": 1,
+        "2": 1,
+        "3": 1
+      },
+      "nimd-hq-289": {
+        "1": 7,
+        "2": 8,
+        "3": 8
+      },
+      "nimd-hq-activities": {
+        "1": 20,
+        "2": 21,
+        "3": 21
+      },
+      "nimd-hq-89": {
+        "1": 2,
+        "2": 2,
+        "3": 2
+      },
+      "nimd-hq-789": {
+        "1": 2,
+        "2": 2,
+        "3": 2
+      },
+      "nimd-hq-co": {
+        "1": 1,
+        "2": 1,
+        "3": 1
+      }
+    },
+    ".//activity-status/@code": {
+      "nimd-hq-bj": {
+        "2": 1
+      },
+      "nimd-hq-489": {
+        "2": 1
+      },
+      "nimd-hq-389": {
+        "2": 3
+      },
+      "nimd-hq-189": {
+        "2": 1
+      },
+      "nimd-hq-289": {
+        "2": 8
+      },
+      "nimd-hq-activities": {
+        "2": 18,
+        "1": 3
+      },
+      "nimd-hq-89": {
+        "1": 2
+      },
+      "nimd-hq-789": {
+        "2": 1,
+        "1": 1
+      },
+      "nimd-hq-co": {
+        "2": 1
+      }
+    },
+    ".//budget/@status": {
+      "nimd-hq-bj": {
+        "1": 1
+      },
+      "nimd-hq-489": {
+        "1": 1
+      },
+      "nimd-hq-389": {
+        "1": 3
+      },
+      "nimd-hq-189": {
+        "1": 1
+      },
+      "nimd-hq-289": {
+        "1": 8
+      },
+      "nimd-hq-activities": {
+        "1": 21
+      },
+      "nimd-hq-89": {
+        "1": 2
+      },
+      "nimd-hq-789": {
+        "1": 2
+      },
+      "nimd-hq-co": {
+        "1": 1
+      }
+    },
+    ".//budget/@type": {
+      "nimd-hq-bj": {
+        "1": 1
+      },
+      "nimd-hq-489": {
+        "1": 1
+      },
+      "nimd-hq-389": {
+        "1": 3
+      },
+      "nimd-hq-189": {
+        "1": 1
+      },
+      "nimd-hq-289": {
+        "1": 8
+      },
+      "nimd-hq-activities": {
+        "1": 21
+      },
+      "nimd-hq-89": {
+        "1": 2
+      },
+      "nimd-hq-789": {
+        "1": 2
+      },
+      "nimd-hq-co": {
+        "1": 1
+      }
+    },
+    ".//collaboration-type/@code": {
+      "nimd-hq-bj": {
+        "1": 1
+      },
+      "nimd-hq-489": {
+        "1": 1
+      },
+      "nimd-hq-389": {
+        "1": 3
+      },
+      "nimd-hq-189": {
+        "1": 1
+      },
+      "nimd-hq-289": {
+        "1": 7
+      },
+      "nimd-hq-activities": {
+        "1": 20
+      },
+      "nimd-hq-89": {
+        "1": 2
+      },
+      "nimd-hq-789": {
+        "1": 2
+      },
+      "nimd-hq-co": {
+        "1": 1
+      }
+    },
+    ".//contact-info/@type": {
+      "nimd-hq-bj": {
+        "1": 1
+      },
+      "nimd-hq-489": {
+        "1": 1
+      },
+      "nimd-hq-389": {
+        "1": 3
+      },
+      "nimd-hq-189": {
+        "1": 1
+      },
+      "nimd-hq-289": {
+        "1": 7
+      },
+      "nimd-hq-activities": {
+        "1": 20
+      },
+      "nimd-hq-89": {
+        "1": 2
+      },
+      "nimd-hq-789": {
+        "1": 2
+      },
+      "nimd-hq-co": {
+        "1": 1
+      }
+    },
+    ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "nimd-hq-bj": {
+        "B03": 1
+      },
+      "nimd-hq-489": {
+        "B03": 1
+      },
+      "nimd-hq-389": {
+        "B03": 3
+      },
+      "nimd-hq-189": {
+        "B03": 1
+      },
+      "nimd-hq-289": {
+        "B03": 8
+      },
+      "nimd-hq-activities": {
+        "B03": 21
+      },
+      "nimd-hq-89": {
+        "B03": 2
+      },
+      "nimd-hq-789": {
+        "B03": 2
+      },
+      "nimd-hq-co": {
+        "B03": 1
+      }
+    },
+    ".//default-finance-type/@code": {
+      "nimd-hq-bj": {
+        "110": 1
+      },
+      "nimd-hq-489": {
+        "110": 1
+      },
+      "nimd-hq-389": {
+        "110": 3
+      },
+      "nimd-hq-189": {
+        "110": 1
+      },
+      "nimd-hq-289": {
+        "110": 8
+      },
+      "nimd-hq-activities": {
+        "110": 21
+      },
+      "nimd-hq-89": {
+        "110": 2
+      },
+      "nimd-hq-789": {
+        "110": 2
+      },
+      "nimd-hq-co": {
+        "110": 1
+      }
+    },
+    ".//default-flow-type/@code": {
+      "nimd-hq-bj": {
+        "10": 1
+      },
+      "nimd-hq-489": {
+        "10": 1
+      },
+      "nimd-hq-389": {
+        "10": 3
+      },
+      "nimd-hq-189": {
+        "10": 1
+      },
+      "nimd-hq-289": {
+        "10": 8
+      },
+      "nimd-hq-activities": {
+        "10": 21
+      },
+      "nimd-hq-89": {
+        "10": 2
+      },
+      "nimd-hq-789": {
+        "10": 2
+      },
+      "nimd-hq-co": {
+        "10": 1
+      }
+    },
+    ".//default-tied-status/@code": {
+      "nimd-hq-bj": {
+        "5": 1
+      },
+      "nimd-hq-489": {
+        "5": 1
+      },
+      "nimd-hq-389": {
+        "5": 3
+      },
+      "nimd-hq-189": {
+        "5": 1
+      },
+      "nimd-hq-289": {
+        "5": 8
+      },
+      "nimd-hq-activities": {
+        "5": 21
+      },
+      "nimd-hq-89": {
+        "5": 2
+      },
+      "nimd-hq-789": {
+        "5": 2
+      },
+      "nimd-hq-co": {
+        "5": 1
+      }
+    },
+    ".//description/@type": {
+      "nimd-hq-bj": {
+        "1": 1
+      },
+      "nimd-hq-489": {
+        "1": 1
+      },
+      "nimd-hq-389": {
+        "1": 3
+      },
+      "nimd-hq-189": {
+        "1": 1
+      },
+      "nimd-hq-289": {
+        "1": 8
+      },
+      "nimd-hq-activities": {
+        "1": 21
+      },
+      "nimd-hq-89": {
+        "1": 2
+      },
+      "nimd-hq-789": {
+        "1": 2
+      },
+      "nimd-hq-co": {
+        "1": 1
+      }
+    },
+    ".//participating-org/@role": {
+      "nimd-hq-bj": {
+        "1": 1,
+        "2": 1,
+        "4": 2
+      },
+      "nimd-hq-489": {
+        "4": 3,
+        "2": 1,
+        "1": 1
+      },
+      "nimd-hq-389": {
+        "4": 6,
+        "2": 3,
+        "1": 5
+      },
+      "nimd-hq-189": {
+        "4": 4,
+        "2": 1,
+        "1": 1
+      },
+      "nimd-hq-289": {
+        "4": 23,
+        "2": 8,
+        "1": 14
+      },
+      "nimd-hq-activities": {
+        "1": 32,
+        "2": 21,
+        "4": 49
+      },
+      "nimd-hq-89": {
+        "4": 4,
+        "2": 2,
+        "1": 4
+      },
+      "nimd-hq-789": {
+        "2": 2,
+        "1": 3,
+        "4": 3
+      },
+      "nimd-hq-co": {
+        "1": 1,
+        "2": 1,
+        "4": 1
+      }
+    },
+    ".//participating-org/@type": {
+      "nimd-hq-bj": {
+        "10": 1,
+        "21": 3
+      },
+      "nimd-hq-489": {
+        "21": 3,
+        "10": 1,
+        "40": 1
+      },
+      "nimd-hq-389": {
+        "21": 12,
+        "10": 2
+      },
+      "nimd-hq-189": {
+        "22": 1,
+        "21": 3,
+        "10": 1,
+        "40": 1
+      },
+      "nimd-hq-289": {
+        "22": 6,
+        "21": 31,
+        "15": 1,
+        "10": 6,
+        "40": 1
+      },
+      "nimd-hq-activities": {
+        "10": 10,
+        "21": 80,
+        "22": 7,
+        "40": 4,
+        "15": 1
+      },
+      "nimd-hq-89": {
+        "21": 7,
+        "10": 2,
+        "40": 1
+      },
+      "nimd-hq-789": {
+        "21": 8
+      },
+      "nimd-hq-co": {
+        "10": 1,
+        "21": 2
+      }
+    },
+    ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "nimd-hq-bj": {
+        "3": 1
+      },
+      "nimd-hq-489": {
+        "3": 1
+      },
+      "nimd-hq-389": {
+        "3": 3
+      },
+      "nimd-hq-189": {
+        "3": 1
+      },
+      "nimd-hq-289": {
+        "3": 8
+      },
+      "nimd-hq-activities": {
+        "3": 21
+      },
+      "nimd-hq-89": {
+        "3": 2
+      },
+      "nimd-hq-789": {
+        "3": 2
+      },
+      "nimd-hq-co": {
+        "3": 1
+      }
+    },
+    ".//policy-marker/@significance": {
+      "nimd-hq-bj": {
+        "2": 1
+      },
+      "nimd-hq-489": {
+        "2": 1
+      },
+      "nimd-hq-389": {
+        "2": 3
+      },
+      "nimd-hq-189": {
+        "2": 1
+      },
+      "nimd-hq-289": {
+        "2": 7
+      },
+      "nimd-hq-activities": {
+        "2": 20
+      },
+      "nimd-hq-89": {
+        "2": 2
+      },
+      "nimd-hq-789": {
+        "2": 2
+      },
+      "nimd-hq-co": {
+        "2": 1
+      }
+    },
+    ".//recipient-country/@code": {
+      "nimd-hq-bj": {
+        "BJ": 1,
+        "GH": 1,
+        "KE": 1,
+        "ML": 1,
+        "MZ": 1,
+        "UG": 1,
+        "ZW": 1,
+        "GE": 1,
+        "ID": 1,
+        "MM": 1,
+        "GT": 1,
+        "HN": 1,
+        "SV": 1
+      },
+      "nimd-hq-489": {
+        "CO": 1
+      },
+      "nimd-hq-389": {
+        "SV": 2,
+        "GT": 1
+      },
+      "nimd-hq-189": {
+        "TN": 1
+      },
+      "nimd-hq-289": {
+        "KE": 1,
+        "ML": 1,
+        "BJ": 1,
+        "MZ": 1,
+        "UG": 1,
+        "BI": 1,
+        "ZW": 1,
+        "GH": 1
+      },
+      "nimd-hq-activities": {
+        "BJ": 3,
+        "GH": 3,
+        "KE": 3,
+        "ML": 3,
+        "MZ": 3,
+        "UG": 3,
+        "ZW": 3,
+        "GE": 2,
+        "ID": 3,
+        "MM": 3,
+        "GT": 3,
+        "HN": 2,
+        "SV": 4,
+        "TN": 3,
+        "BI": 1,
+        "UA": 4,
+        "CO": 3,
+        "SS": 2,
+        "IL": 2,
+        "PS": 2,
+        "JO": 2,
+        "IQ": 2,
+        "LB": 2
+      },
+      "nimd-hq-89": {
+        "UA": 2
+      },
+      "nimd-hq-789": {
+        "MM": 1,
+        "ID": 1
+      },
+      "nimd-hq-co": {
+        "CO": 1,
+        "SS": 1,
+        "TN": 1,
+        "UA": 1,
+        "IL": 1,
+        "PS": 1,
+        "JO": 1,
+        "IQ": 1,
+        "LB": 1
+      }
+    },
+    ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "nimd-hq-bj": {
+        "289": 1,
+        "619": 1,
+        "789": 1,
+        "389": 1
+      },
+      "nimd-hq-489": {
+        "489": 1
+      },
+      "nimd-hq-389": {
+        "389": 3
+      },
+      "nimd-hq-189": {
+        "189": 1
+      },
+      "nimd-hq-289": {
+        "289": 8
+      },
+      "nimd-hq-activities": {
+        "289": 12,
+        "619": 2,
+        "789": 4,
+        "389": 5,
+        "189": 3,
+        "89": 4,
+        "489": 3,
+        "589": 2
+      },
+      "nimd-hq-89": {
+        "89": 2
+      },
+      "nimd-hq-789": {
+        "789": 2
+      },
+      "nimd-hq-co": {
+        "289": 1,
+        "89": 1,
+        "189": 1,
+        "489": 1,
+        "589": 1
+      }
+    },
+    ".//recipient-region/@vocabulary": {
+      "nimd-hq-bj": {
+        "1": 4
+      },
+      "nimd-hq-489": {
+        "1": 1
+      },
+      "nimd-hq-389": {
+        "1": 3
+      },
+      "nimd-hq-189": {
+        "1": 1
+      },
+      "nimd-hq-289": {
+        "1": 8
+      },
+      "nimd-hq-activities": {
+        "1": 35
+      },
+      "nimd-hq-89": {
+        "1": 2
+      },
+      "nimd-hq-789": {
+        "1": 2
+      },
+      "nimd-hq-co": {
+        "1": 5
+      }
+    },
+    ".//related-activity/@type": {
+      "nimd-hq-bj": {
+        "2": 1
+      },
+      "nimd-hq-489": {
+        "1": 1
+      },
+      "nimd-hq-389": {
+        "1": 3,
+        "3": 6
+      },
+      "nimd-hq-189": {
+        "1": 1
+      },
+      "nimd-hq-289": {
+        "1": 8,
+        "5": 6
+      },
+      "nimd-hq-activities": {
+        "2": 2,
+        "1": 17,
+        "5": 6,
+        "3": 6
+      },
+      "nimd-hq-89": {
+        "1": 2
+      },
+      "nimd-hq-789": {
+        "1": 2
+      }
+    },
+    ".//reporting-org/@type": {
+      "nimd-hq-bj": {
+        "21": 1
+      },
+      "nimd-hq-489": {
+        "21": 1
+      },
+      "nimd-hq-389": {
+        "21": 3
+      },
+      "nimd-hq-189": {
+        "21": 1
+      },
+      "nimd-hq-289": {
+        "21": 8
+      },
+      "nimd-hq-activities": {
+        "21": 21
+      },
+      "nimd-hq-89": {
+        "21": 2
+      },
+      "nimd-hq-789": {
+        "21": 2
+      },
+      "nimd-hq-co": {
+        "21": 1
+      }
+    },
+    ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "nimd-hq-bj": {
+        "15152": 1
+      },
+      "nimd-hq-489": {
+        "15152": 1
+      },
+      "nimd-hq-389": {
+        "15152": 3
+      },
+      "nimd-hq-189": {
+        "15152": 1
+      },
+      "nimd-hq-289": {
+        "15152": 8
+      },
+      "nimd-hq-activities": {
+        "15152": 21
+      },
+      "nimd-hq-89": {
+        "15152": 2
+      },
+      "nimd-hq-789": {
+        "15152": 2
+      },
+      "nimd-hq-co": {
+        "15152": 1
+      }
+    },
+    ".//sector/@vocabulary": {
+      "nimd-hq-bj": {
+        "1": 1
+      },
+      "nimd-hq-489": {
+        "1": 1
+      },
+      "nimd-hq-389": {
+        "1": 3
+      },
+      "nimd-hq-189": {
+        "1": 1
+      },
+      "nimd-hq-289": {
+        "1": 8
+      },
+      "nimd-hq-activities": {
+        "1": 21
+      },
+      "nimd-hq-89": {
+        "1": 2
+      },
+      "nimd-hq-789": {
+        "1": 2
+      },
+      "nimd-hq-co": {
+        "1": 1
+      }
+    },
+    ".//transaction/transaction-type/@code": {
+      "nimd-hq-bj": {
+        "1": 2,
+        "3": 3
+      },
+      "nimd-hq-389": {
+        "11": 3,
+        "3": 7
+      },
+      "nimd-hq-289": {
+        "11": 5,
+        "3": 8
+      },
+      "nimd-hq-activities": {
+        "1": 5,
+        "3": 53,
+        "11": 12
+      },
+      "nimd-hq-89": {
+        "11": 1,
+        "3": 2
+      },
+      "nimd-hq-789": {
+        "11": 2,
+        "3": 3
+      }
+    },
+    ".//@xml:lang": {
+      "nimd-hq-bj": {
+        "en": 2
+      },
+      "nimd-hq-489": {
+        "en": 4
+      },
+      "nimd-hq-389": {
+        "en": 12
+      },
+      "nimd-hq-189": {
+        "en": 4
+      },
+      "nimd-hq-289": {
+        "en": 30
+      },
+      "nimd-hq-activities": {
+        "en": 145
+      },
+      "nimd-hq-89": {
+        "en": 8
+      },
+      "nimd-hq-789": {
+        "en": 8
+      },
+      "nimd-hq-co": {
+        "en": 2
+      }
+    },
+    ".//policy-marker/@vocabulary": {
+      "nimd-hq-489": {
+        "1": 1
+      },
+      "nimd-hq-389": {
+        "1": 3
+      },
+      "nimd-hq-189": {
+        "1": 1
+      },
+      "nimd-hq-289": {
+        "1": 8
+      },
+      "nimd-hq-activities": {
+        "1": 17
+      },
+      "nimd-hq-89": {
+        "1": 2
+      },
+      "nimd-hq-789": {
+        "1": 2
+      }
+    },
+    ".//transaction/value/@currency": {
+      "nimd-hq-389": {
+        "EUR": 5,
+        "USD": 5
+      },
+      "nimd-hq-289": {
+        "EUR": 13
+      },
+      "nimd-hq-activities": {
+        "EUR": 25,
+        "USD": 10
+      },
+      "nimd-hq-89": {
+        "EUR": 2
+      },
+      "nimd-hq-789": {
+        "EUR": 4
+      }
+    },
+    ".//document-link/@format": {
+      "nimd-hq-activities": {
+        "application/msword": 3,
+        "application/vnd.ms-excel": 1
+      }
+    },
+    ".//document-link/category/@code": {
+      "nimd-hq-activities": {
+        "A05": 2,
+        "A02": 2
+      }
+    },
+    ".//result/@type": {
+      "nimd-hq-activities": {
+        "2": 90
+      }
+    },
+    ".//result/indicator/@measure": {
+      "nimd-hq-activities": {
+        "1": 55,
+        "2": 37
+      }
+    }
+  }
+}

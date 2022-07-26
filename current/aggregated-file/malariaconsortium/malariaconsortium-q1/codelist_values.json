@@ -1,0 +1,92 @@
+{
+  ".//@default-currency": {
+    "USD": 3
+  },
+  ".//@xml:lang": {
+    "en": 7
+  },
+  ".//activity-date/@type": {
+    "end-planned": 3,
+    "start-actual": 3
+  },
+  ".//activity-status/@code": {
+    "2": 3
+  },
+  ".//budget/@type": {
+    "1": 1,
+    "2": 3
+  },
+  ".//budget/value/@currency": {
+    "USD": 4
+  },
+  ".//default-aid-type/@code": {
+    "C01": 3
+  },
+  ".//default-finance-type/@code": {
+    "110": 3
+  },
+  ".//default-flow-type/@code": {
+    "10": 3
+  },
+  ".//default-tied-status/@code": {
+    "3": 3
+  },
+  ".//description/@type": {
+    "1": 1
+  },
+  ".//document-link/@format": {
+    "text/html": 1
+  },
+  ".//document-link/category/@code": {
+    "A06": 1
+  },
+  ".//participating-org/@role": {
+    "Implementing": 1,
+    "Funding": 1
+  },
+  ".//participating-org/@type": {
+    "21": 1,
+    "70": 1
+  },
+  ".//recipient-country/@code": {
+    "ET": 2,
+    "GB": 2
+  },
+  ".//related-activity/@type": {
+    "2": 2,
+    "1": 2
+  },
+  ".//reporting-org/@type": {
+    "21": 3
+  },
+  ".//sector/@vocabulary": {
+    "DAC": 3
+  },
+  ".//sector[@vocabulary = 'DAC' or not(@vocabulary)]/@code": {
+    "12250": 3
+  },
+  ".//transaction/aid-type/@code": {
+    "B03": 22,
+    "C01": 4
+  },
+  ".//transaction/disbursement-channel/@code": {
+    "2": 26
+  },
+  ".//transaction/finance-type/@code": {
+    "110": 26
+  },
+  ".//transaction/flow-type/@code": {
+    "10": 26
+  },
+  ".//transaction/tied-status/@code": {
+    "3": 26
+  },
+  ".//transaction/transaction-type/@code": {
+    "C": 2,
+    "IF": 10,
+    "E": 14
+  },
+  ".//transaction/value/@currency": {
+    "USD": 26
+  }
+}

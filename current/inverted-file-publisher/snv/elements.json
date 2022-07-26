@@ -1,0 +1,811 @@
+{
+  "iati-activity": {
+    "snv-eowe": 3,
+    "snv-eowe2": 3,
+    "snv-vfcp": 20
+  },
+  "iati-activity/@default-currency": {
+    "snv-eowe": 3,
+    "snv-eowe2": 3,
+    "snv-vfcp": 20
+  },
+  "iati-activity/@last-updated-datetime": {
+    "snv-eowe": 3,
+    "snv-eowe2": 3,
+    "snv-vfcp": 20
+  },
+  "iati-activity/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "snv-eowe": 3,
+    "snv-eowe2": 3,
+    "snv-vfcp": 19
+  },
+  "iati-activity/activity-date": {
+    "snv-eowe": 3,
+    "snv-eowe2": 3,
+    "snv-vfcp": 20
+  },
+  "iati-activity/activity-date/@iso-date": {
+    "snv-eowe": 3,
+    "snv-eowe2": 3,
+    "snv-vfcp": 20
+  },
+  "iati-activity/activity-date/@type": {
+    "snv-eowe": 3,
+    "snv-eowe2": 3,
+    "snv-vfcp": 20
+  },
+  "iati-activity/activity-scope": {
+    "snv-eowe": 1,
+    "snv-eowe2": 3,
+    "snv-vfcp": 1
+  },
+  "iati-activity/activity-scope/@code": {
+    "snv-eowe": 1,
+    "snv-eowe2": 3,
+    "snv-vfcp": 1
+  },
+  "iati-activity/activity-status": {
+    "snv-eowe": 3,
+    "snv-eowe2": 3,
+    "snv-vfcp": 20
+  },
+  "iati-activity/activity-status/@code": {
+    "snv-eowe": 3,
+    "snv-eowe2": 3,
+    "snv-vfcp": 20
+  },
+  "iati-activity/budget": {
+    "snv-eowe": 3,
+    "snv-eowe2": 3,
+    "snv-vfcp": 20
+  },
+  "iati-activity/budget/period-end": {
+    "snv-eowe": 3,
+    "snv-eowe2": 3,
+    "snv-vfcp": 20
+  },
+  "iati-activity/budget/period-end/@iso-date": {
+    "snv-eowe": 3,
+    "snv-eowe2": 3,
+    "snv-vfcp": 20
+  },
+  "iati-activity/budget/period-start": {
+    "snv-eowe": 3,
+    "snv-eowe2": 3,
+    "snv-vfcp": 20
+  },
+  "iati-activity/budget/period-start/@iso-date": {
+    "snv-eowe": 3,
+    "snv-eowe2": 3,
+    "snv-vfcp": 20
+  },
+  "iati-activity/budget/value": {
+    "snv-eowe": 3,
+    "snv-eowe2": 3,
+    "snv-vfcp": 20
+  },
+  "iati-activity/budget/value/@value-date": {
+    "snv-eowe": 3,
+    "snv-eowe2": 3,
+    "snv-vfcp": 20
+  },
+  "iati-activity/budget/value/@{http://akvo.org/iati-activities}label": {
+    "snv-eowe": 3,
+    "snv-eowe2": 3,
+    "snv-vfcp": 20
+  },
+  "iati-activity/capital-spend": {
+    "snv-eowe": 1,
+    "snv-eowe2": 1
+  },
+  "iati-activity/capital-spend/@percentage": {
+    "snv-eowe": 1,
+    "snv-eowe2": 1
+  },
+  "iati-activity/conditions": {
+    "snv-eowe": 3,
+    "snv-eowe2": 3,
+    "snv-vfcp": 20
+  },
+  "iati-activity/conditions/@attached": {
+    "snv-eowe": 3,
+    "snv-eowe2": 3,
+    "snv-vfcp": 20
+  },
+  "iati-activity/contact-info": {
+    "snv-eowe": 3,
+    "snv-eowe2": 3,
+    "snv-vfcp": 20
+  },
+  "iati-activity/contact-info/@type": {
+    "snv-eowe": 2,
+    "snv-eowe2": 2
+  },
+  "iati-activity/contact-info/email": {
+    "snv-eowe": 3,
+    "snv-eowe2": 3,
+    "snv-vfcp": 20
+  },
+  "iati-activity/contact-info/mailing-address": {
+    "snv-eowe": 3,
+    "snv-eowe2": 3,
+    "snv-vfcp": 20
+  },
+  "iati-activity/contact-info/mailing-address/narrative": {
+    "snv-eowe": 3,
+    "snv-eowe2": 3,
+    "snv-vfcp": 20
+  },
+  "iati-activity/contact-info/organisation": {
+    "snv-eowe": 3,
+    "snv-eowe2": 3
+  },
+  "iati-activity/contact-info/organisation/narrative": {
+    "snv-eowe": 3,
+    "snv-eowe2": 3
+  },
+  "iati-activity/contact-info/person-name": {
+    "snv-eowe": 3,
+    "snv-eowe2": 3
+  },
+  "iati-activity/contact-info/person-name/narrative": {
+    "snv-eowe": 3,
+    "snv-eowe2": 3
+  },
+  "iati-activity/contact-info/website": {
+    "snv-eowe": 3,
+    "snv-eowe2": 3
+  },
+  "iati-activity/default-aid-type": {
+    "snv-eowe": 3,
+    "snv-eowe2": 3,
+    "snv-vfcp": 20
+  },
+  "iati-activity/default-aid-type/@code": {
+    "snv-eowe": 3,
+    "snv-eowe2": 3,
+    "snv-vfcp": 20
+  },
+  "iati-activity/default-finance-type": {
+    "snv-eowe": 3,
+    "snv-eowe2": 3,
+    "snv-vfcp": 20
+  },
+  "iati-activity/default-finance-type/@code": {
+    "snv-eowe": 3,
+    "snv-eowe2": 3,
+    "snv-vfcp": 20
+  },
+  "iati-activity/default-flow-type": {
+    "snv-eowe": 3,
+    "snv-eowe2": 3,
+    "snv-vfcp": 20
+  },
+  "iati-activity/default-flow-type/@code": {
+    "snv-eowe": 3,
+    "snv-eowe2": 3,
+    "snv-vfcp": 20
+  },
+  "iati-activity/default-tied-status": {
+    "snv-eowe": 3,
+    "snv-eowe2": 3,
+    "snv-vfcp": 20
+  },
+  "iati-activity/default-tied-status/@code": {
+    "snv-eowe": 3,
+    "snv-eowe2": 3,
+    "snv-vfcp": 20
+  },
+  "iati-activity/description": {
+    "snv-eowe": 3,
+    "snv-eowe2": 3,
+    "snv-vfcp": 20
+  },
+  "iati-activity/description/@type": {
+    "snv-eowe": 3,
+    "snv-eowe2": 3,
+    "snv-vfcp": 20
+  },
+  "iati-activity/description/@{http://akvo.org/iati-activities}type": {
+    "snv-eowe": 3,
+    "snv-eowe2": 3,
+    "snv-vfcp": 20
+  },
+  "iati-activity/description/narrative": {
+    "snv-eowe": 3,
+    "snv-eowe2": 3,
+    "snv-vfcp": 20
+  },
+  "iati-activity/document-link": {
+    "snv-eowe": 3,
+    "snv-eowe2": 3,
+    "snv-vfcp": 20
+  },
+  "iati-activity/document-link/@format": {
+    "snv-eowe": 3,
+    "snv-eowe2": 3,
+    "snv-vfcp": 20
+  },
+  "iati-activity/document-link/@url": {
+    "snv-eowe": 3,
+    "snv-eowe2": 3,
+    "snv-vfcp": 20
+  },
+  "iati-activity/document-link/category": {
+    "snv-eowe": 3,
+    "snv-eowe2": 3,
+    "snv-vfcp": 20
+  },
+  "iati-activity/document-link/category/@code": {
+    "snv-eowe": 3,
+    "snv-eowe2": 3,
+    "snv-vfcp": 20
+  },
+  "iati-activity/document-link/title": {
+    "snv-eowe": 3,
+    "snv-eowe2": 3,
+    "snv-vfcp": 20
+  },
+  "iati-activity/document-link/title/narrative": {
+    "snv-eowe": 3,
+    "snv-eowe2": 3,
+    "snv-vfcp": 20
+  },
+  "iati-activity/iati-identifier": {
+    "snv-eowe": 3,
+    "snv-eowe2": 3,
+    "snv-vfcp": 20
+  },
+  "iati-activity/location": {
+    "snv-eowe": 3,
+    "snv-eowe2": 3,
+    "snv-vfcp": 20
+  },
+  "iati-activity/location/description": {
+    "snv-eowe": 3,
+    "snv-eowe2": 3
+  },
+  "iati-activity/location/description/narrative": {
+    "snv-eowe": 3,
+    "snv-eowe2": 3
+  },
+  "iati-activity/location/point": {
+    "snv-eowe": 3,
+    "snv-eowe2": 3,
+    "snv-vfcp": 20
+  },
+  "iati-activity/location/point/@srsName": {
+    "snv-eowe": 3,
+    "snv-eowe2": 3,
+    "snv-vfcp": 20
+  },
+  "iati-activity/location/point/pos": {
+    "snv-eowe": 3,
+    "snv-eowe2": 3,
+    "snv-vfcp": 20
+  },
+  "iati-activity/other-identifier": {
+    "snv-eowe": 3,
+    "snv-eowe2": 3,
+    "snv-vfcp": 20
+  },
+  "iati-activity/other-identifier/@ref": {
+    "snv-eowe": 3,
+    "snv-eowe2": 3,
+    "snv-vfcp": 20
+  },
+  "iati-activity/other-identifier/@type": {
+    "snv-eowe": 3,
+    "snv-eowe2": 3,
+    "snv-vfcp": 20
+  },
+  "iati-activity/other-identifier/owner-org": {
+    "snv-eowe": 3,
+    "snv-eowe2": 3,
+    "snv-vfcp": 20
+  },
+  "iati-activity/other-identifier/owner-org/@ref": {
+    "snv-eowe": 3,
+    "snv-eowe2": 3,
+    "snv-vfcp": 20
+  },
+  "iati-activity/other-identifier/owner-org/narrative": {
+    "snv-eowe": 3,
+    "snv-eowe2": 3,
+    "snv-vfcp": 20
+  },
+  "iati-activity/participating-org": {
+    "snv-eowe": 3,
+    "snv-eowe2": 3,
+    "snv-vfcp": 20
+  },
+  "iati-activity/participating-org/@activity-id": {
+    "snv-vfcp": 1
+  },
+  "iati-activity/participating-org/@ref": {
+    "snv-eowe": 1,
+    "snv-eowe2": 1,
+    "snv-vfcp": 20
+  },
+  "iati-activity/participating-org/@role": {
+    "snv-eowe": 3,
+    "snv-eowe2": 3,
+    "snv-vfcp": 20
+  },
+  "iati-activity/participating-org/@type": {
+    "snv-eowe": 3,
+    "snv-eowe2": 3,
+    "snv-vfcp": 20
+  },
+  "iati-activity/participating-org/narrative": {
+    "snv-eowe": 3,
+    "snv-eowe2": 3,
+    "snv-vfcp": 20
+  },
+  "iati-activity/planned-disbursement": {
+    "snv-eowe": 1,
+    "snv-eowe2": 1,
+    "snv-vfcp": 1
+  },
+  "iati-activity/planned-disbursement/@type": {
+    "snv-eowe": 1,
+    "snv-eowe2": 1
+  },
+  "iati-activity/planned-disbursement/period-end": {
+    "snv-eowe": 1,
+    "snv-eowe2": 1,
+    "snv-vfcp": 1
+  },
+  "iati-activity/planned-disbursement/period-end/@iso-date": {
+    "snv-eowe": 1,
+    "snv-eowe2": 1,
+    "snv-vfcp": 1
+  },
+  "iati-activity/planned-disbursement/period-start": {
+    "snv-eowe": 1,
+    "snv-eowe2": 1,
+    "snv-vfcp": 1
+  },
+  "iati-activity/planned-disbursement/period-start/@iso-date": {
+    "snv-eowe": 1,
+    "snv-eowe2": 1,
+    "snv-vfcp": 1
+  },
+  "iati-activity/planned-disbursement/provider-org": {
+    "snv-vfcp": 1
+  },
+  "iati-activity/planned-disbursement/provider-org/@provider-activity-id": {
+    "snv-vfcp": 1
+  },
+  "iati-activity/planned-disbursement/provider-org/@type": {
+    "snv-vfcp": 1
+  },
+  "iati-activity/planned-disbursement/provider-org/narrative": {
+    "snv-vfcp": 1
+  },
+  "iati-activity/planned-disbursement/receiver-org": {
+    "snv-vfcp": 1
+  },
+  "iati-activity/planned-disbursement/receiver-org/@ref": {
+    "snv-vfcp": 1
+  },
+  "iati-activity/planned-disbursement/receiver-org/@type": {
+    "snv-vfcp": 1
+  },
+  "iati-activity/planned-disbursement/receiver-org/narrative": {
+    "snv-vfcp": 1
+  },
+  "iati-activity/planned-disbursement/value": {
+    "snv-eowe": 1,
+    "snv-eowe2": 1,
+    "snv-vfcp": 1
+  },
+  "iati-activity/planned-disbursement/value/@value-date": {
+    "snv-eowe": 1,
+    "snv-eowe2": 1,
+    "snv-vfcp": 1
+  },
+  "iati-activity/policy-marker": {
+    "snv-eowe": 3,
+    "snv-eowe2": 3,
+    "snv-vfcp": 2
+  },
+  "iati-activity/policy-marker/@code": {
+    "snv-eowe": 3,
+    "snv-eowe2": 3,
+    "snv-vfcp": 2
+  },
+  "iati-activity/policy-marker/@significance": {
+    "snv-eowe": 3,
+    "snv-eowe2": 3,
+    "snv-vfcp": 2
+  },
+  "iati-activity/policy-marker/@vocabulary": {
+    "snv-eowe": 3,
+    "snv-eowe2": 3,
+    "snv-vfcp": 2
+  },
+  "iati-activity/recipient-country": {
+    "snv-eowe": 1,
+    "snv-eowe2": 3,
+    "snv-vfcp": 20
+  },
+  "iati-activity/recipient-country/@code": {
+    "snv-eowe": 1,
+    "snv-eowe2": 3,
+    "snv-vfcp": 20
+  },
+  "iati-activity/recipient-country/@percentage": {
+    "snv-eowe": 1,
+    "snv-eowe2": 1,
+    "snv-vfcp": 1
+  },
+  "iati-activity/related-activity": {
+    "snv-eowe": 3,
+    "snv-eowe2": 3,
+    "snv-vfcp": 20
+  },
+  "iati-activity/related-activity/@ref": {
+    "snv-eowe": 3,
+    "snv-eowe2": 3,
+    "snv-vfcp": 20
+  },
+  "iati-activity/related-activity/@type": {
+    "snv-eowe": 3,
+    "snv-eowe2": 3,
+    "snv-vfcp": 20
+  },
+  "iati-activity/reporting-org": {
+    "snv-eowe": 3,
+    "snv-eowe2": 3,
+    "snv-vfcp": 20
+  },
+  "iati-activity/reporting-org/@ref": {
+    "snv-eowe": 3,
+    "snv-eowe2": 3,
+    "snv-vfcp": 20
+  },
+  "iati-activity/reporting-org/@secondary-reporter": {
+    "snv-eowe": 3,
+    "snv-eowe2": 3,
+    "snv-vfcp": 20
+  },
+  "iati-activity/reporting-org/@type": {
+    "snv-eowe": 3,
+    "snv-eowe2": 3,
+    "snv-vfcp": 20
+  },
+  "iati-activity/reporting-org/narrative": {
+    "snv-eowe": 3,
+    "snv-eowe2": 3,
+    "snv-vfcp": 20
+  },
+  "iati-activity/result": {
+    "snv-eowe": 3,
+    "snv-eowe2": 3,
+    "snv-vfcp": 1
+  },
+  "iati-activity/result/@aggregation-status": {
+    "snv-eowe": 3,
+    "snv-eowe2": 3,
+    "snv-vfcp": 1
+  },
+  "iati-activity/result/@type": {
+    "snv-eowe": 3,
+    "snv-eowe2": 3,
+    "snv-vfcp": 1
+  },
+  "iati-activity/result/description": {
+    "snv-eowe2": 3
+  },
+  "iati-activity/result/description/narrative": {
+    "snv-eowe2": 3
+  },
+  "iati-activity/result/indicator": {
+    "snv-eowe": 3,
+    "snv-eowe2": 3,
+    "snv-vfcp": 1
+  },
+  "iati-activity/result/indicator/@ascending": {
+    "snv-eowe": 3,
+    "snv-eowe2": 3,
+    "snv-vfcp": 1
+  },
+  "iati-activity/result/indicator/@measure": {
+    "snv-eowe": 3,
+    "snv-eowe2": 3,
+    "snv-vfcp": 1
+  },
+  "iati-activity/result/indicator/baseline": {
+    "snv-eowe": 3,
+    "snv-eowe2": 3,
+    "snv-vfcp": 1
+  },
+  "iati-activity/result/indicator/baseline/@value": {
+    "snv-eowe": 3,
+    "snv-eowe2": 3,
+    "snv-vfcp": 1
+  },
+  "iati-activity/result/indicator/baseline/@year": {
+    "snv-eowe": 3,
+    "snv-eowe2": 3,
+    "snv-vfcp": 1
+  },
+  "iati-activity/result/indicator/baseline/comment": {
+    "snv-eowe": 3,
+    "snv-eowe2": 2,
+    "snv-vfcp": 1
+  },
+  "iati-activity/result/indicator/baseline/comment/narrative": {
+    "snv-eowe": 3,
+    "snv-eowe2": 2,
+    "snv-vfcp": 1
+  },
+  "iati-activity/result/indicator/description": {
+    "snv-eowe": 3,
+    "snv-eowe2": 2,
+    "snv-vfcp": 1
+  },
+  "iati-activity/result/indicator/description/narrative": {
+    "snv-eowe": 3,
+    "snv-eowe2": 2,
+    "snv-vfcp": 1
+  },
+  "iati-activity/result/indicator/period": {
+    "snv-eowe": 3,
+    "snv-eowe2": 3,
+    "snv-vfcp": 1
+  },
+  "iati-activity/result/indicator/period/period-end": {
+    "snv-eowe": 3,
+    "snv-eowe2": 3,
+    "snv-vfcp": 1
+  },
+  "iati-activity/result/indicator/period/period-end/@iso-date": {
+    "snv-eowe": 3,
+    "snv-eowe2": 3,
+    "snv-vfcp": 1
+  },
+  "iati-activity/result/indicator/period/period-start": {
+    "snv-eowe": 3,
+    "snv-eowe2": 3,
+    "snv-vfcp": 1
+  },
+  "iati-activity/result/indicator/period/period-start/@iso-date": {
+    "snv-eowe": 3,
+    "snv-eowe2": 3,
+    "snv-vfcp": 1
+  },
+  "iati-activity/result/indicator/period/target": {
+    "snv-eowe": 3,
+    "snv-eowe2": 3,
+    "snv-vfcp": 1
+  },
+  "iati-activity/result/indicator/period/target/@value": {
+    "snv-eowe": 3,
+    "snv-eowe2": 3,
+    "snv-vfcp": 1
+  },
+  "iati-activity/result/indicator/period/target/comment": {
+    "snv-eowe": 3,
+    "snv-eowe2": 2
+  },
+  "iati-activity/result/indicator/period/target/comment/narrative": {
+    "snv-eowe": 3,
+    "snv-eowe2": 2
+  },
+  "iati-activity/result/indicator/title": {
+    "snv-eowe": 3,
+    "snv-eowe2": 3,
+    "snv-vfcp": 1
+  },
+  "iati-activity/result/indicator/title/narrative": {
+    "snv-eowe": 3,
+    "snv-eowe2": 3,
+    "snv-vfcp": 1
+  },
+  "iati-activity/result/title": {
+    "snv-eowe": 3,
+    "snv-eowe2": 3,
+    "snv-vfcp": 1
+  },
+  "iati-activity/result/title/narrative": {
+    "snv-eowe": 3,
+    "snv-eowe2": 3,
+    "snv-vfcp": 1
+  },
+  "iati-activity/sector": {
+    "snv-eowe": 3,
+    "snv-eowe2": 3,
+    "snv-vfcp": 20
+  },
+  "iati-activity/sector/@code": {
+    "snv-eowe": 3,
+    "snv-eowe2": 3,
+    "snv-vfcp": 20
+  },
+  "iati-activity/sector/@percentage": {
+    "snv-eowe": 3,
+    "snv-eowe2": 3,
+    "snv-vfcp": 20
+  },
+  "iati-activity/sector/@vocabulary": {
+    "snv-eowe": 3,
+    "snv-eowe2": 3,
+    "snv-vfcp": 20
+  },
+  "iati-activity/title": {
+    "snv-eowe": 3,
+    "snv-eowe2": 3,
+    "snv-vfcp": 20
+  },
+  "iati-activity/title/narrative": {
+    "snv-eowe": 3,
+    "snv-eowe2": 3,
+    "snv-vfcp": 20
+  },
+  "iati-activity/transaction": {
+    "snv-eowe": 3,
+    "snv-eowe2": 3,
+    "snv-vfcp": 20
+  },
+  "iati-activity/transaction/provider-org": {
+    "snv-eowe": 2,
+    "snv-eowe2": 2,
+    "snv-vfcp": 20
+  },
+  "iati-activity/transaction/provider-org/@provider-activity-id": {
+    "snv-eowe": 2,
+    "snv-eowe2": 2,
+    "snv-vfcp": 19
+  },
+  "iati-activity/transaction/provider-org/@ref": {
+    "snv-eowe": 1,
+    "snv-eowe2": 1,
+    "snv-vfcp": 20
+  },
+  "iati-activity/transaction/provider-org/@type": {
+    "snv-eowe2": 2,
+    "snv-vfcp": 20
+  },
+  "iati-activity/transaction/provider-org/narrative": {
+    "snv-eowe": 2,
+    "snv-eowe2": 2,
+    "snv-vfcp": 20
+  },
+  "iati-activity/transaction/receiver-org": {
+    "snv-eowe": 2,
+    "snv-eowe2": 2,
+    "snv-vfcp": 1
+  },
+  "iati-activity/transaction/receiver-org/@receiver-activity-id": {
+    "snv-eowe": 2,
+    "snv-eowe2": 2
+  },
+  "iati-activity/transaction/receiver-org/@ref": {
+    "snv-vfcp": 1
+  },
+  "iati-activity/transaction/receiver-org/@type": {
+    "snv-eowe2": 2,
+    "snv-vfcp": 1
+  },
+  "iati-activity/transaction/receiver-org/narrative": {
+    "snv-eowe": 2,
+    "snv-eowe2": 2,
+    "snv-vfcp": 1
+  },
+  "iati-activity/transaction/transaction-date": {
+    "snv-eowe": 3,
+    "snv-eowe2": 3,
+    "snv-vfcp": 20
+  },
+  "iati-activity/transaction/transaction-date/@iso-date": {
+    "snv-eowe": 3,
+    "snv-eowe2": 3,
+    "snv-vfcp": 20
+  },
+  "iati-activity/transaction/transaction-type": {
+    "snv-eowe": 3,
+    "snv-eowe2": 3,
+    "snv-vfcp": 20
+  },
+  "iati-activity/transaction/transaction-type/@code": {
+    "snv-eowe": 3,
+    "snv-eowe2": 3,
+    "snv-vfcp": 20
+  },
+  "iati-activity/transaction/value": {
+    "snv-eowe": 3,
+    "snv-eowe2": 3,
+    "snv-vfcp": 20
+  },
+  "iati-activity/transaction/value/@value-date": {
+    "snv-eowe": 3,
+    "snv-eowe2": 3,
+    "snv-vfcp": 20
+  },
+  "iati-organisation": {
+    "snv-org": 1
+  },
+  "iati-organisation/@default-currency": {
+    "snv-org": 1
+  },
+  "iati-organisation/@last-updated-datetime": {
+    "snv-org": 1
+  },
+  "iati-organisation/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "snv-org": 1
+  },
+  "iati-organisation/document-link": {
+    "snv-org": 1
+  },
+  "iati-organisation/document-link/@format": {
+    "snv-org": 1
+  },
+  "iati-organisation/document-link/@url": {
+    "snv-org": 1
+  },
+  "iati-organisation/document-link/category": {
+    "snv-org": 1
+  },
+  "iati-organisation/document-link/category/@code": {
+    "snv-org": 1
+  },
+  "iati-organisation/document-link/title": {
+    "snv-org": 1
+  },
+  "iati-organisation/document-link/title/narrative": {
+    "snv-org": 1
+  },
+  "iati-organisation/name": {
+    "snv-org": 1
+  },
+  "iati-organisation/name/narrative": {
+    "snv-org": 1
+  },
+  "iati-organisation/organisation-identifier": {
+    "snv-org": 1
+  },
+  "iati-organisation/reporting-org": {
+    "snv-org": 1
+  },
+  "iati-organisation/reporting-org/@ref": {
+    "snv-org": 1
+  },
+  "iati-organisation/reporting-org/@secondary-reporter": {
+    "snv-org": 1
+  },
+  "iati-organisation/reporting-org/@type": {
+    "snv-org": 1
+  },
+  "iati-organisation/reporting-org/narrative": {
+    "snv-org": 1
+  },
+  "iati-organisation/total-budget": {
+    "snv-org": 1
+  },
+  "iati-organisation/total-budget/@status": {
+    "snv-org": 1
+  },
+  "iati-organisation/total-budget/period-end": {
+    "snv-org": 1
+  },
+  "iati-organisation/total-budget/period-end/@iso-date": {
+    "snv-org": 1
+  },
+  "iati-organisation/total-budget/period-start": {
+    "snv-org": 1
+  },
+  "iati-organisation/total-budget/period-start/@iso-date": {
+    "snv-org": 1
+  },
+  "iati-organisation/total-budget/value": {
+    "snv-org": 1
+  },
+  "iati-organisation/total-budget/value/@currency": {
+    "snv-org": 1
+  },
+  "iati-organisation/total-budget/value/@value-date": {
+    "snv-org": 1
+  }
+}
