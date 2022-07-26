@@ -1,0 +1,91 @@
+{
+  ".//@default-currency": {
+    "USD": 1
+  },
+  ".//@xml:lang": {
+    "en": 21
+  },
+  ".//activity-date/@type": {
+    "1": 1,
+    "2": 1,
+    "3": 1,
+    "4": 1
+  },
+  ".//activity-status/@code": {
+    "2": 1
+  },
+  ".//budget/@status": {
+    "2": 1
+  },
+  ".//budget/@type": {
+    "1": 1
+  },
+  ".//budget/value/@currency": {
+    "USD": 1
+  },
+  ".//collaboration-type/@code": {
+    "4": 1
+  },
+  ".//country-budget-items/@vocabulary": {
+    "1": 1
+  },
+  ".//country-budget-items/budget-item[../@vocabulary = '1']/@code": {
+    "5.1.1": 1
+  },
+  ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "B03": 1
+  },
+  ".//default-finance-type/@code": {
+    "110": 1
+  },
+  ".//default-flow-type/@code": {
+    "10": 1
+  },
+  ".//default-tied-status/@code": {
+    "5": 1
+  },
+  ".//description/@type": {
+    "1": 1,
+    "2": 1
+  },
+  ".//participating-org/@role": {
+    "1": 1,
+    "2": 1,
+    "3": 1,
+    "4": 1
+  },
+  ".//participating-org/@type": {
+    "70": 1,
+    "40": 3
+  },
+  ".//recipient-country/@code": {
+    "JP": 1
+  },
+  ".//reporting-org/@type": {
+    "40": 1
+  },
+  ".//sector/@vocabulary": {
+    "1": 1
+  },
+  ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "12220": 1
+  },
+  ".//transaction/flow-type/@code": {
+    "20": 1
+  },
+  ".//transaction/sector/@vocabulary": {
+    "1": 1
+  },
+  ".//transaction/sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "12220": 1
+  },
+  ".//transaction/tied-status/@code": {
+    "5": 1
+  },
+  ".//transaction/transaction-type/@code": {
+    "2": 1
+  },
+  ".//transaction/value/@currency": {
+    "USD": 1
+  }
+}

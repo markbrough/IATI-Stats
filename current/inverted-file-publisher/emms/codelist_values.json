@@ -1,0 +1,423 @@
+{
+  ".//@default-currency": {
+    "GBP": {
+      "emms-gb": 1,
+      "emms-np": 4,
+      "emms-mw": 12,
+      "emms-in": 7
+    }
+  },
+  ".//@xml:lang": {
+    "en": {
+      "emms-gb": 11,
+      "emms-np": 8,
+      "emms-mw": 50,
+      "emms-in": 58
+    }
+  },
+  ".//activity-date/@type": {
+    "2": {
+      "emms-gb": 1,
+      "emms-np": 4,
+      "emms-mw": 12,
+      "emms-in": 7
+    },
+    "3": {
+      "emms-gb": 1,
+      "emms-np": 4,
+      "emms-mw": 6,
+      "emms-in": 6
+    },
+    "4": {
+      "emms-mw": 6,
+      "emms-in": 1
+    }
+  },
+  ".//activity-scope/@code": {
+    "4": {
+      "emms-np": 1,
+      "emms-mw": 1
+    },
+    "5": {
+      "emms-mw": 1,
+      "emms-in": 1
+    }
+  },
+  ".//activity-status/@code": {
+    "2": {
+      "emms-gb": 1,
+      "emms-np": 3,
+      "emms-mw": 7,
+      "emms-in": 4
+    },
+    "4": {
+      "emms-np": 1,
+      "emms-mw": 5,
+      "emms-in": 2
+    },
+    "3": {
+      "emms-in": 1
+    }
+  },
+  ".//budget/@status": {
+    "2": {
+      "emms-gb": 3,
+      "emms-np": 6,
+      "emms-mw": 16,
+      "emms-in": 10
+    },
+    "1": {
+      "emms-np": 1,
+      "emms-mw": 6,
+      "emms-in": 3
+    }
+  },
+  ".//budget/@type": {
+    "1": {
+      "emms-gb": 3,
+      "emms-np": 6,
+      "emms-mw": 22,
+      "emms-in": 13
+    },
+    "2": {
+      "emms-np": 1
+    }
+  },
+  ".//budget/value/@currency": {
+    "GBP": {
+      "emms-gb": 3,
+      "emms-np": 7,
+      "emms-mw": 21,
+      "emms-in": 13
+    }
+  },
+  ".//collaboration-type/@code": {
+    "1": {
+      "emms-gb": 1,
+      "emms-np": 4,
+      "emms-mw": 12,
+      "emms-in": 7
+    }
+  },
+  ".//conditions/condition/@type": {
+    "1": {
+      "emms-gb": 2,
+      "emms-np": 2,
+      "emms-mw": 4,
+      "emms-in": 7
+    },
+    "2": {
+      "emms-gb": 2,
+      "emms-np": 1,
+      "emms-mw": 3,
+      "emms-in": 6
+    }
+  },
+  ".//contact-info/@type": {
+    "2": {
+      "emms-gb": 1,
+      "emms-np": 1,
+      "emms-mw": 2,
+      "emms-in": 4
+    },
+    "1": {
+      "emms-mw": 1
+    }
+  },
+  ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "C01": {
+      "emms-gb": 1,
+      "emms-np": 4,
+      "emms-mw": 12,
+      "emms-in": 7
+    }
+  },
+  ".//default-finance-type/@code": {
+    "110": {
+      "emms-gb": 1,
+      "emms-np": 4,
+      "emms-mw": 12,
+      "emms-in": 7
+    }
+  },
+  ".//default-flow-type/@code": {
+    "30": {
+      "emms-gb": 1,
+      "emms-np": 4,
+      "emms-mw": 12,
+      "emms-in": 7
+    }
+  },
+  ".//default-tied-status/@code": {
+    "5": {
+      "emms-gb": 1,
+      "emms-np": 4,
+      "emms-mw": 12,
+      "emms-in": 7
+    }
+  },
+  ".//description/@type": {
+    "1": {
+      "emms-gb": 1,
+      "emms-np": 4,
+      "emms-mw": 12,
+      "emms-in": 7
+    }
+  },
+  ".//document-link/@format": {
+    "application/pdf": {
+      "emms-gb": 2,
+      "emms-mw": 2,
+      "emms-in": 4
+    },
+    "application/http": {
+      "emms-mw": 1
+    }
+  },
+  ".//document-link/category/@code": {
+    "A02": {
+      "emms-gb": 1,
+      "emms-mw": 1,
+      "emms-in": 4
+    },
+    "A01": {
+      "emms-gb": 1
+    },
+    "A07": {
+      "emms-mw": 1
+    },
+    "A12": {
+      "emms-mw": 1
+    }
+  },
+  ".//document-link/language/@code": {
+    "en": {
+      "emms-gb": 2,
+      "emms-mw": 3,
+      "emms-in": 4
+    }
+  },
+  ".//location/administrative/@vocabulary": {
+    "A4": {
+      "emms-mw": 1
+    }
+  },
+  ".//location/administrative[@vocabulary = 'A4']/@code": {
+    "MW": {
+      "emms-mw": 1
+    }
+  },
+  ".//location/exactness/@code": {
+    "1": {
+      "emms-gb": 1,
+      "emms-mw": 3,
+      "emms-in": 4
+    },
+    "2": {
+      "emms-np": 1,
+      "emms-mw": 1
+    }
+  },
+  ".//location/feature-designation/@code": {
+    "PPL": {
+      "emms-gb": 1,
+      "emms-np": 1
+    },
+    "PPLC": {
+      "emms-mw": 1
+    },
+    "BLDO": {
+      "emms-mw": 1
+    },
+    "HSP": {
+      "emms-mw": 2,
+      "emms-in": 4
+    }
+  },
+  ".//location/location-class/@code": {
+    "2": {
+      "emms-gb": 1,
+      "emms-np": 1,
+      "emms-in": 1
+    },
+    "1": {
+      "emms-mw": 1,
+      "emms-in": 1
+    },
+    "3": {
+      "emms-mw": 3,
+      "emms-in": 2
+    }
+  },
+  ".//location/location-reach/@code": {
+    "2": {
+      "emms-gb": 1,
+      "emms-mw": 1,
+      "emms-in": 1
+    },
+    "1": {
+      "emms-np": 1,
+      "emms-mw": 3,
+      "emms-in": 3
+    }
+  },
+  ".//participating-org/@role": {
+    "2": {
+      "emms-gb": 1,
+      "emms-np": 4,
+      "emms-mw": 12,
+      "emms-in": 7
+    },
+    "1": {
+      "emms-gb": 1,
+      "emms-np": 4,
+      "emms-mw": 17,
+      "emms-in": 7
+    },
+    "4": {
+      "emms-gb": 1,
+      "emms-np": 7,
+      "emms-mw": 33,
+      "emms-in": 14
+    },
+    "3": {
+      "emms-np": 3,
+      "emms-mw": 11,
+      "emms-in": 6
+    }
+  },
+  ".//participating-org/@type": {
+    "21": {
+      "emms-gb": 3,
+      "emms-np": 15,
+      "emms-mw": 47,
+      "emms-in": 27
+    },
+    "22": {
+      "emms-np": 3,
+      "emms-mw": 21,
+      "emms-in": 7
+    },
+    "10": {
+      "emms-mw": 5
+    }
+  },
+  ".//recipient-country/@code": {
+    "GB": {
+      "emms-gb": 1
+    },
+    "NP": {
+      "emms-np": 4
+    },
+    "MW": {
+      "emms-mw": 12
+    },
+    "IN": {
+      "emms-in": 7
+    }
+  },
+  ".//related-activity/@type": {
+    "2": {
+      "emms-mw": 1
+    }
+  },
+  ".//reporting-org/@type": {
+    "21": {
+      "emms-gb": 1,
+      "emms-np": 4,
+      "emms-mw": 12,
+      "emms-in": 7
+    }
+  },
+  ".//result/@type": {
+    "1": {
+      "emms-gb": 1,
+      "emms-mw": 1
+    },
+    "2": {
+      "emms-np": 1,
+      "emms-mw": 1,
+      "emms-in": 1
+    },
+    "3": {
+      "emms-in": 3
+    }
+  },
+  ".//result/indicator/@measure": {
+    "1": {
+      "emms-gb": 1,
+      "emms-np": 1,
+      "emms-mw": 2,
+      "emms-in": 4
+    }
+  },
+  ".//sector/@vocabulary": {
+    "1": {
+      "emms-gb": 1,
+      "emms-np": 6,
+      "emms-mw": 18,
+      "emms-in": 8
+    }
+  },
+  ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "12191": {
+      "emms-gb": 1
+    },
+    "12220": {
+      "emms-np": 4,
+      "emms-mw": 7,
+      "emms-in": 4
+    },
+    "72040": {
+      "emms-np": 1,
+      "emms-mw": 2
+    },
+    "72010": {
+      "emms-np": 1,
+      "emms-mw": 2
+    },
+    "13081": {
+      "emms-mw": 1
+    },
+    "13040": {
+      "emms-mw": 1
+    },
+    "12281": {
+      "emms-mw": 1
+    },
+    "12181": {
+      "emms-mw": 1
+    },
+    "12182": {
+      "emms-mw": 1
+    },
+    "73010": {
+      "emms-mw": 1
+    },
+    "23030": {
+      "emms-mw": 1
+    },
+    "13020": {
+      "emms-in": 3
+    },
+    "12230": {
+      "emms-in": 1
+    }
+  },
+  ".//transaction/transaction-type/@code": {
+    "4": {
+      "emms-gb": 1,
+      "emms-mw": 28,
+      "emms-in": 18
+    },
+    "3": {
+      "emms-gb": 28,
+      "emms-np": 8,
+      "emms-mw": 89,
+      "emms-in": 29
+    },
+    "1": {
+      "emms-mw": 11
+    }
+  }
+}

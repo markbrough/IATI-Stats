@@ -1,0 +1,543 @@
+{
+  ".//@default-currency": {
+    "EUR": {
+      "pontis-by": 1,
+      "pontis-tn": 2,
+      "pontis-eg": 1,
+      "pontis-xk": 1,
+      "pontis-md": 3,
+      "pontis-ke": 3,
+      "pontis-mk": 1,
+      "pontis-sk": 3
+    }
+  },
+  ".//@xml:lang": {
+    "en": {
+      "pontis-by": 5,
+      "pontis-tn": 15,
+      "pontis-eg": 4,
+      "pontis-xk": 2,
+      "pontis-md": 12,
+      "pontis-ke": 52,
+      "pontis-mk": 9,
+      "pontis-sk": 27
+    }
+  },
+  ".//activity-date/@type": {
+    "2": {
+      "pontis-by": 1,
+      "pontis-tn": 2,
+      "pontis-eg": 1,
+      "pontis-md": 3,
+      "pontis-ke": 3,
+      "pontis-mk": 1,
+      "pontis-sk": 3
+    },
+    "4": {
+      "pontis-by": 1,
+      "pontis-tn": 1,
+      "pontis-eg": 1,
+      "pontis-md": 1,
+      "pontis-ke": 1,
+      "pontis-sk": 2
+    },
+    "3": {
+      "pontis-tn": 1,
+      "pontis-md": 1,
+      "pontis-ke": 2,
+      "pontis-mk": 1,
+      "pontis-sk": 1
+    },
+    "1": {
+      "pontis-xk": 1
+    }
+  },
+  ".//activity-status/@code": {
+    "3": {
+      "pontis-by": 1,
+      "pontis-tn": 2,
+      "pontis-eg": 1,
+      "pontis-md": 3,
+      "pontis-ke": 2,
+      "pontis-mk": 1,
+      "pontis-sk": 3
+    },
+    "1": {
+      "pontis-xk": 1
+    },
+    "2": {
+      "pontis-ke": 1
+    }
+  },
+  ".//budget/@status": {
+    "1": {
+      "pontis-by": 1,
+      "pontis-tn": 2,
+      "pontis-eg": 1,
+      "pontis-xk": 1,
+      "pontis-md": 3,
+      "pontis-ke": 5,
+      "pontis-mk": 1,
+      "pontis-sk": 2
+    }
+  },
+  ".//budget/@type": {
+    "1": {
+      "pontis-by": 1,
+      "pontis-tn": 2,
+      "pontis-eg": 1,
+      "pontis-xk": 1,
+      "pontis-md": 3,
+      "pontis-ke": 5,
+      "pontis-mk": 1,
+      "pontis-sk": 2
+    }
+  },
+  ".//budget/value/@currency": {
+    "EUR": {
+      "pontis-by": 1,
+      "pontis-tn": 2,
+      "pontis-eg": 1,
+      "pontis-xk": 1,
+      "pontis-md": 3,
+      "pontis-ke": 5,
+      "pontis-mk": 1,
+      "pontis-sk": 2
+    }
+  },
+  ".//collaboration-type/@code": {
+    "1": {
+      "pontis-by": 1,
+      "pontis-tn": 2,
+      "pontis-eg": 1,
+      "pontis-xk": 1,
+      "pontis-md": 3,
+      "pontis-ke": 3,
+      "pontis-mk": 1,
+      "pontis-sk": 3
+    }
+  },
+  ".//contact-info/@type": {
+    "1": {
+      "pontis-by": 1,
+      "pontis-tn": 2,
+      "pontis-eg": 1,
+      "pontis-xk": 1,
+      "pontis-md": 3,
+      "pontis-mk": 1,
+      "pontis-sk": 3
+    },
+    "2": {
+      "pontis-ke": 3
+    }
+  },
+  ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "C01": {
+      "pontis-by": 1,
+      "pontis-tn": 2,
+      "pontis-eg": 1,
+      "pontis-xk": 1,
+      "pontis-md": 3,
+      "pontis-ke": 3,
+      "pontis-mk": 1,
+      "pontis-sk": 3
+    }
+  },
+  ".//default-finance-type/@code": {
+    "110": {
+      "pontis-by": 1,
+      "pontis-tn": 2,
+      "pontis-eg": 1,
+      "pontis-xk": 1,
+      "pontis-md": 3,
+      "pontis-ke": 3,
+      "pontis-mk": 1,
+      "pontis-sk": 2
+    }
+  },
+  ".//default-flow-type/@code": {
+    "10": {
+      "pontis-by": 1,
+      "pontis-tn": 2,
+      "pontis-eg": 1,
+      "pontis-xk": 1,
+      "pontis-md": 3,
+      "pontis-ke": 3,
+      "pontis-mk": 1,
+      "pontis-sk": 3
+    }
+  },
+  ".//default-tied-status/@code": {
+    "5": {
+      "pontis-by": 1,
+      "pontis-tn": 2,
+      "pontis-eg": 1,
+      "pontis-xk": 1,
+      "pontis-md": 3,
+      "pontis-ke": 3,
+      "pontis-mk": 1,
+      "pontis-sk": 3
+    }
+  },
+  ".//description/@type": {
+    "1": {
+      "pontis-by": 1,
+      "pontis-tn": 1,
+      "pontis-eg": 1,
+      "pontis-xk": 1,
+      "pontis-md": 2,
+      "pontis-ke": 3,
+      "pontis-sk": 3
+    },
+    "2": {
+      "pontis-tn": 2,
+      "pontis-xk": 1,
+      "pontis-ke": 1,
+      "pontis-mk": 1,
+      "pontis-sk": 2
+    },
+    "3": {
+      "pontis-ke": 1,
+      "pontis-mk": 1,
+      "pontis-sk": 1
+    }
+  },
+  ".//document-link/@format": {
+    "text/html": {
+      "pontis-by": 1,
+      "pontis-tn": 3,
+      "pontis-eg": 1,
+      "pontis-md": 2,
+      "pontis-ke": 2,
+      "pontis-mk": 1,
+      "pontis-sk": 2
+    },
+    "application/vnd.anser-web-certificate-issue-initiation": {
+      "pontis-sk": 1
+    }
+  },
+  ".//document-link/category/@code": {
+    "A12": {
+      "pontis-by": 1,
+      "pontis-tn": 3,
+      "pontis-eg": 1,
+      "pontis-md": 2,
+      "pontis-ke": 2,
+      "pontis-mk": 1,
+      "pontis-sk": 3
+    }
+  },
+  ".//document-link/language/@code": {
+    "en": {
+      "pontis-by": 1,
+      "pontis-tn": 3,
+      "pontis-eg": 1,
+      "pontis-md": 2,
+      "pontis-ke": 2,
+      "pontis-mk": 1,
+      "pontis-sk": 3
+    }
+  },
+  ".//location/exactness/@code": {
+    "2": {
+      "pontis-by": 1,
+      "pontis-tn": 1,
+      "pontis-eg": 1,
+      "pontis-xk": 1,
+      "pontis-md": 1,
+      "pontis-ke": 1,
+      "pontis-mk": 3,
+      "pontis-sk": 4
+    }
+  },
+  ".//location/location-reach/@code": {
+    "1": {
+      "pontis-by": 1,
+      "pontis-tn": 2,
+      "pontis-eg": 1,
+      "pontis-xk": 1,
+      "pontis-md": 2,
+      "pontis-ke": 2,
+      "pontis-mk": 3,
+      "pontis-sk": 5
+    }
+  },
+  ".//participating-org/@role": {
+    "3": {
+      "pontis-by": 1,
+      "pontis-tn": 2,
+      "pontis-eg": 1,
+      "pontis-xk": 1,
+      "pontis-md": 3,
+      "pontis-ke": 3,
+      "pontis-mk": 1
+    },
+    "4": {
+      "pontis-by": 1,
+      "pontis-tn": 2,
+      "pontis-eg": 1,
+      "pontis-xk": 1,
+      "pontis-md": 2,
+      "pontis-ke": 3,
+      "pontis-mk": 1,
+      "pontis-sk": 5
+    },
+    "1": {
+      "pontis-by": 1,
+      "pontis-tn": 2,
+      "pontis-eg": 1,
+      "pontis-xk": 1,
+      "pontis-md": 2,
+      "pontis-ke": 3,
+      "pontis-mk": 1,
+      "pontis-sk": 3
+    }
+  },
+  ".//participating-org/@type": {
+    "80": {
+      "pontis-by": 1
+    },
+    "60": {
+      "pontis-by": 1,
+      "pontis-tn": 2,
+      "pontis-eg": 1,
+      "pontis-xk": 1,
+      "pontis-md": 3,
+      "pontis-ke": 3,
+      "pontis-mk": 1,
+      "pontis-sk": 3
+    },
+    "10": {
+      "pontis-by": 1,
+      "pontis-tn": 2,
+      "pontis-eg": 1,
+      "pontis-xk": 1,
+      "pontis-md": 3,
+      "pontis-ke": 3,
+      "pontis-mk": 1,
+      "pontis-sk": 2
+    },
+    "22": {
+      "pontis-tn": 2,
+      "pontis-xk": 1,
+      "pontis-md": 1,
+      "pontis-ke": 3,
+      "pontis-mk": 1
+    }
+  },
+  ".//policy-marker/@significance": {
+    "1": {
+      "pontis-by": 1,
+      "pontis-tn": 2,
+      "pontis-eg": 1,
+      "pontis-xk": 1,
+      "pontis-md": 3,
+      "pontis-ke": 3,
+      "pontis-mk": 1,
+      "pontis-sk": 3
+    }
+  },
+  ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "3": {
+      "pontis-by": 1,
+      "pontis-tn": 2,
+      "pontis-eg": 1,
+      "pontis-xk": 1,
+      "pontis-md": 3,
+      "pontis-ke": 3,
+      "pontis-mk": 1,
+      "pontis-sk": 3
+    }
+  },
+  ".//recipient-country/@code": {
+    "BY": {
+      "pontis-by": 1
+    },
+    "TN": {
+      "pontis-tn": 2,
+      "pontis-eg": 1
+    },
+    "EG": {
+      "pontis-eg": 1
+    },
+    "XK": {
+      "pontis-xk": 1
+    },
+    "MD": {
+      "pontis-md": 3
+    },
+    "KE": {
+      "pontis-ke": 3
+    },
+    "MK": {
+      "pontis-mk": 1
+    },
+    "RS": {
+      "pontis-mk": 1
+    },
+    "SK": {
+      "pontis-sk": 3
+    },
+    "CY": {
+      "pontis-sk": 1
+    },
+    "IE": {
+      "pontis-sk": 1
+    }
+  },
+  ".//reporting-org/@type": {
+    "60": {
+      "pontis-by": 1,
+      "pontis-tn": 2,
+      "pontis-eg": 1,
+      "pontis-xk": 1,
+      "pontis-md": 3,
+      "pontis-ke": 3,
+      "pontis-mk": 1,
+      "pontis-sk": 3
+    }
+  },
+  ".//result/@type": {
+    "1": {
+      "pontis-by": 1,
+      "pontis-tn": 1,
+      "pontis-md": 2,
+      "pontis-ke": 5,
+      "pontis-sk": 2
+    },
+    "3": {
+      "pontis-ke": 1
+    },
+    "2": {
+      "pontis-ke": 1
+    }
+  },
+  ".//result/indicator/@measure": {
+    "1": {
+      "pontis-by": 1,
+      "pontis-tn": 1,
+      "pontis-md": 2,
+      "pontis-ke": 7,
+      "pontis-sk": 2
+    }
+  },
+  ".//sector/@vocabulary": {
+    "1": {
+      "pontis-by": 1,
+      "pontis-tn": 2,
+      "pontis-eg": 1,
+      "pontis-xk": 1,
+      "pontis-md": 3,
+      "pontis-ke": 9,
+      "pontis-mk": 1,
+      "pontis-sk": 3
+    }
+  },
+  ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "11110": {
+      "pontis-by": 1
+    },
+    "15150": {
+      "pontis-tn": 2,
+      "pontis-eg": 1,
+      "pontis-xk": 1,
+      "pontis-md": 3,
+      "pontis-mk": 1
+    },
+    "11120": {
+      "pontis-ke": 1,
+      "pontis-sk": 1
+    },
+    "11130": {
+      "pontis-ke": 2
+    },
+    "11320": {
+      "pontis-ke": 5
+    },
+    "22040": {
+      "pontis-ke": 1
+    },
+    "99820": {
+      "pontis-sk": 2
+    }
+  },
+  ".//transaction/aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "C01": {
+      "pontis-ke": 7
+    }
+  },
+  ".//transaction/disbursement-channel/@code": {
+    "2": {
+      "pontis-md": 2,
+      "pontis-ke": 6
+    },
+    "4": {
+      "pontis-ke": 1
+    },
+    "3": {
+      "pontis-ke": 1
+    }
+  },
+  ".//transaction/finance-type/@code": {
+    "110": {
+      "pontis-ke": 7
+    }
+  },
+  ".//transaction/flow-type/@code": {
+    "10": {
+      "pontis-ke": 7
+    }
+  },
+  ".//transaction/provider-org/@type": {
+    "60": {
+      "pontis-ke": 1
+    }
+  },
+  ".//transaction/receiver-org/@type": {
+    "22": {
+      "pontis-ke": 1
+    }
+  },
+  ".//transaction/sector/@vocabulary": {
+    "1": {
+      "pontis-ke": 5
+    }
+  },
+  ".//transaction/sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "11320": {
+      "pontis-ke": 5
+    }
+  },
+  ".//transaction/tied-status/@code": {
+    "5": {
+      "pontis-ke": 7
+    }
+  },
+  ".//transaction/transaction-type/@code": {
+    "4": {
+      "pontis-tn": 1,
+      "pontis-md": 2,
+      "pontis-ke": 2,
+      "pontis-mk": 1,
+      "pontis-sk": 1
+    },
+    "1": {
+      "pontis-ke": 1
+    },
+    "2": {
+      "pontis-ke": 1
+    },
+    "3": {
+      "pontis-ke": 5
+    }
+  },
+  ".//transaction/value/@currency": {
+    "EUR": {
+      "pontis-tn": 1,
+      "pontis-md": 2,
+      "pontis-ke": 2,
+      "pontis-mk": 1,
+      "pontis-sk": 1
+    }
+  }
+}

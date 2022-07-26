@@ -1,0 +1,85 @@
+{
+  ".//@default-currency": {
+    "USD": 4
+  },
+  ".//@xml:lang": {
+    "en": 4
+  },
+  ".//activity-date/@type": {
+    "start-actual": 4,
+    "end-actual": 4
+  },
+  ".//activity-status/@code": {
+    "2": 4
+  },
+  ".//budget/@type": {
+    "Original": 12,
+    "Revised": 4
+  },
+  ".//budget/value/@currency": {
+    "USD": 16
+  },
+  ".//collaboration-type/@code": {
+    "2": 4
+  },
+  ".//default-aid-type/@code": {
+    "C01": 4
+  },
+  ".//default-finance-type/@code": {
+    "110": 4
+  },
+  ".//default-flow-type/@code": {
+    "20": 4
+  },
+  ".//default-tied-status/@code": {
+    "5": 4
+  },
+  ".//description/@type": {
+    "1": 4
+  },
+  ".//location/administrative/@country": {
+    "MX": 4
+  },
+  ".//location/coordinates/@precision": {
+    "6": 1,
+    "4": 3
+  },
+  ".//location/location-type/@code": {
+    "PCL": 1,
+    "ADM1": 3
+  },
+  ".//participating-org/@role": {
+    "Implementing": 4,
+    "Accountable": 4,
+    "Funding": 4
+  },
+  ".//participating-org/@type": {
+    "40": 8
+  },
+  ".//recipient-country/@code": {
+    "MX": 4
+  },
+  ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "389": 4
+  },
+  ".//reporting-org/@type": {
+    "40": 4
+  },
+  ".//sector/@vocabulary": {
+    "DAC": 2
+  },
+  ".//sector[@vocabulary = 'DAC' or not(@vocabulary)]/@code": {
+    "41010": 1,
+    "15110": 1
+  },
+  ".//transaction/disbursement-channel/@code": {
+    "2": 28
+  },
+  ".//transaction/transaction-type/@code": {
+    "C": 4,
+    "E": 24
+  },
+  ".//transaction/value/@currency": {
+    "USD": 28
+  }
+}

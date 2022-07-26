@@ -1,0 +1,562 @@
+{
+  "2": {
+    ".//@default-currency": {
+      "skn-ml": {
+        "EUR": 8
+      },
+      "skn-sn": {
+        "EUR": 4
+      },
+      "skn-et": {
+        "EUR": 9
+      },
+      "skn-bf": {
+        "EUR": 8
+      },
+      "skn-activities": {
+        "EUR": 5
+      }
+    },
+    ".//activity-date/@type": {
+      "skn-ml": {
+        "1": 8,
+        "3": 8
+      },
+      "skn-sn": {
+        "1": 4,
+        "3": 4
+      },
+      "skn-et": {
+        "1": 9,
+        "3": 9
+      },
+      "skn-bf": {
+        "1": 8,
+        "3": 8
+      },
+      "skn-activities": {
+        "1": 5,
+        "3": 5
+      }
+    },
+    ".//activity-status/@code": {
+      "skn-ml": {
+        "2": 8
+      },
+      "skn-sn": {
+        "2": 4
+      },
+      "skn-et": {
+        "2": 9
+      },
+      "skn-bf": {
+        "2": 8
+      },
+      "skn-activities": {
+        "3": 5
+      }
+    },
+    ".//activity-scope/@code": {
+      "skn-ml": {
+        "4": 8
+      },
+      "skn-sn": {
+        "4": 4
+      },
+      "skn-et": {
+        "4": 9
+      },
+      "skn-bf": {
+        "4": 8
+      }
+    },
+    ".//budget/@status": {
+      "skn-ml": {
+        "2": 8
+      },
+      "skn-sn": {
+        "2": 4
+      },
+      "skn-et": {
+        "2": 9
+      },
+      "skn-bf": {
+        "2": 8
+      },
+      "skn-activities": {
+        "2": 5
+      }
+    },
+    ".//budget/@type": {
+      "skn-ml": {
+        "2": 7,
+        "1": 1
+      },
+      "skn-sn": {
+        "2": 2,
+        "1": 2
+      },
+      "skn-et": {
+        "2": 5,
+        "1": 4
+      },
+      "skn-bf": {
+        "2": 6,
+        "1": 2
+      },
+      "skn-activities": {
+        "2": 5
+      }
+    },
+    ".//budget/value/@currency": {
+      "skn-ml": {
+        "EUR": 8
+      },
+      "skn-sn": {
+        "EUR": 4
+      },
+      "skn-et": {
+        "EUR": 9
+      },
+      "skn-bf": {
+        "EUR": 8
+      },
+      "skn-activities": {
+        "EUR": 5
+      }
+    },
+    ".//collaboration-type/@code": {
+      "skn-ml": {
+        "1": 8
+      },
+      "skn-sn": {
+        "1": 4
+      },
+      "skn-et": {
+        "1": 9
+      },
+      "skn-bf": {
+        "1": 8
+      },
+      "skn-activities": {
+        "1": 5
+      }
+    },
+    ".//contact-info/@type": {
+      "skn-ml": {
+        "2": 8
+      },
+      "skn-sn": {
+        "2": 4
+      },
+      "skn-et": {
+        "2": 9
+      },
+      "skn-bf": {
+        "2": 8
+      },
+      "skn-activities": {
+        "2": 5
+      }
+    },
+    ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "skn-ml": {
+        "C01": 8
+      },
+      "skn-sn": {
+        "C01": 4
+      },
+      "skn-et": {
+        "C01": 9
+      },
+      "skn-bf": {
+        "C01": 8
+      },
+      "skn-activities": {
+        "C01": 5
+      }
+    },
+    ".//default-finance-type/@code": {
+      "skn-ml": {
+        "110": 8
+      },
+      "skn-sn": {
+        "110": 4
+      },
+      "skn-et": {
+        "110": 9
+      },
+      "skn-bf": {
+        "110": 8
+      },
+      "skn-activities": {
+        "110": 5
+      }
+    },
+    ".//default-flow-type/@code": {
+      "skn-ml": {
+        "30": 8
+      },
+      "skn-sn": {
+        "30": 4
+      },
+      "skn-et": {
+        "30": 9
+      },
+      "skn-bf": {
+        "30": 8
+      },
+      "skn-activities": {
+        "30": 5
+      }
+    },
+    ".//default-tied-status/@code": {
+      "skn-ml": {
+        "5": 8
+      },
+      "skn-sn": {
+        "5": 4
+      },
+      "skn-et": {
+        "5": 9
+      },
+      "skn-bf": {
+        "5": 8
+      },
+      "skn-activities": {
+        "5": 5
+      }
+    },
+    ".//description/@type": {
+      "skn-ml": {
+        "1": 8
+      },
+      "skn-sn": {
+        "1": 4
+      },
+      "skn-et": {
+        "1": 9
+      },
+      "skn-bf": {
+        "1": 8
+      },
+      "skn-activities": {
+        "1": 5,
+        "2": 5,
+        "4": 5
+      }
+    },
+    ".//participating-org/@role": {
+      "skn-ml": {
+        "2": 8,
+        "4": 8,
+        "1": 8
+      },
+      "skn-sn": {
+        "2": 4,
+        "4": 4,
+        "1": 4
+      },
+      "skn-et": {
+        "2": 9,
+        "4": 9,
+        "1": 9
+      },
+      "skn-bf": {
+        "2": 8,
+        "4": 8,
+        "1": 8
+      },
+      "skn-activities": {
+        "4": 24,
+        "1": 1,
+        "2": 1
+      }
+    },
+    ".//participating-org/@type": {
+      "skn-ml": {
+        "21": 8,
+        "22": 8,
+        "10": 8
+      },
+      "skn-sn": {
+        "21": 4,
+        "22": 4,
+        "10": 4
+      },
+      "skn-et": {
+        "21": 9,
+        "22": 9,
+        "10": 9
+      },
+      "skn-bf": {
+        "21": 8,
+        "22": 7,
+        "10": 8,
+        "70": 1
+      },
+      "skn-activities": {
+        "22": 20,
+        "70": 1,
+        "10": 1,
+        "21": 4
+      }
+    },
+    ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "skn-ml": {
+        "9": 8
+      },
+      "skn-sn": {
+        "9": 4
+      },
+      "skn-et": {
+        "9": 9
+      },
+      "skn-bf": {
+        "9": 8
+      },
+      "skn-activities": {
+        "1": 5
+      }
+    },
+    ".//policy-marker/@significance": {
+      "skn-ml": {
+        "4": 8
+      },
+      "skn-sn": {
+        "4": 4
+      },
+      "skn-et": {
+        "4": 9
+      },
+      "skn-bf": {
+        "4": 8
+      }
+    },
+    ".//policy-marker/@vocabulary": {
+      "skn-ml": {
+        "1": 7
+      },
+      "skn-sn": {
+        "1": 4
+      },
+      "skn-et": {
+        "1": 9
+      },
+      "skn-bf": {
+        "1": 8
+      },
+      "skn-activities": {
+        "1": 5
+      }
+    },
+    ".//recipient-country/@code": {
+      "skn-ml": {
+        "ML": 8
+      },
+      "skn-sn": {
+        "SN": 4
+      },
+      "skn-et": {
+        "ET": 9
+      },
+      "skn-bf": {
+        "BF": 8
+      },
+      "skn-activities": {
+        "BF": 2,
+        "NL": 1,
+        "ET": 2,
+        "ML": 2,
+        "SN": 2
+      }
+    },
+    ".//reporting-org/@type": {
+      "skn-ml": {
+        "21": 8
+      },
+      "skn-sn": {
+        "21": 4
+      },
+      "skn-et": {
+        "21": 9
+      },
+      "skn-bf": {
+        "21": 8
+      },
+      "skn-activities": {
+        "21": 5
+      }
+    },
+    ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "skn-ml": {
+        "11230": 8
+      },
+      "skn-sn": {
+        "11230": 4
+      },
+      "skn-et": {
+        "11230": 9
+      },
+      "skn-bf": {
+        "11230": 8
+      },
+      "skn-activities": {
+        "15164": 5
+      }
+    },
+    ".//sector/@vocabulary": {
+      "skn-ml": {
+        "1": 8
+      },
+      "skn-sn": {
+        "1": 4
+      },
+      "skn-et": {
+        "1": 9
+      },
+      "skn-bf": {
+        "1": 8
+      },
+      "skn-activities": {
+        "1": 5
+      }
+    },
+    ".//transaction/disbursement-channel/@code": {
+      "skn-ml": {
+        "2": 41
+      },
+      "skn-sn": {
+        "2": 22
+      },
+      "skn-et": {
+        "2": 44
+      },
+      "skn-bf": {
+        "2": 43
+      }
+    },
+    ".//transaction/provider-org/@type": {
+      "skn-ml": {
+        "21": 41
+      },
+      "skn-sn": {
+        "21": 21
+      },
+      "skn-et": {
+        "21": 44
+      },
+      "skn-bf": {
+        "21": 43
+      }
+    },
+    ".//transaction/receiver-org/@type": {
+      "skn-ml": {
+        "22": 40
+      },
+      "skn-sn": {
+        "22": 22
+      },
+      "skn-et": {
+        "22": 44
+      },
+      "skn-bf": {
+        "22": 43
+      }
+    },
+    ".//transaction/transaction-type/@code": {
+      "skn-ml": {
+        "2": 16,
+        "3": 25
+      },
+      "skn-sn": {
+        "2": 11,
+        "3": 11
+      },
+      "skn-et": {
+        "2": 19,
+        "3": 25
+      },
+      "skn-bf": {
+        "2": 18,
+        "3": 25
+      },
+      "skn-activities": {
+        "4": 5,
+        "2": 31,
+        "3": 31,
+        "11": 1,
+        "1": 1
+      }
+    },
+    ".//transaction/value/@currency": {
+      "skn-ml": {
+        "EUR": 40
+      },
+      "skn-sn": {
+        "EUR": 22
+      },
+      "skn-et": {
+        "EUR": 43
+      },
+      "skn-bf": {
+        "EUR": 43
+      }
+    },
+    ".//@xml:lang": {
+      "skn-ml": {
+        "en": 217
+      },
+      "skn-sn": {
+        "en": 114
+      },
+      "skn-et": {
+        "en": 239
+      },
+      "skn-bf": {
+        "en": 222
+      },
+      "skn-activities": {
+        "en": 5
+      }
+    },
+    ".//transaction/aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "skn-bf": {
+        "C01": 1
+      }
+    },
+    ".//transaction/finance-type/@code": {
+      "skn-bf": {
+        "110": 1
+      }
+    },
+    ".//transaction/flow-type/@code": {
+      "skn-bf": {
+        "30": 1
+      }
+    },
+    ".//transaction/tied-status/@code": {
+      "skn-bf": {
+        "5": 1
+      }
+    },
+    ".//related-activity/@type": {
+      "skn-activities": {
+        "1": 4
+      }
+    },
+    ".//result/@type": {
+      "skn-activities": {
+        "3": 16,
+        "2": 80,
+        "1": 48
+      }
+    },
+    ".//result/indicator/@measure": {
+      "skn-activities": {
+        "2": 132,
+        "1": 52
+      }
+    }
+  }
+}

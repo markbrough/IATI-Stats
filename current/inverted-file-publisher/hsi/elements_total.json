@@ -1,0 +1,596 @@
+{
+  "iati-activity": {
+    "hsi-activities": 1
+  },
+  "iati-activity/@default-currency": {
+    "hsi-activities": 1
+  },
+  "iati-activity/@hierarchy": {
+    "hsi-activities": 1
+  },
+  "iati-activity/@humanitarian": {
+    "hsi-activities": 1
+  },
+  "iati-activity/@last-updated-datetime": {
+    "hsi-activities": 1
+  },
+  "iati-activity/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "hsi-activities": 1
+  },
+  "iati-activity/activity-date": {
+    "hsi-activities": 2
+  },
+  "iati-activity/activity-date/@iso-date": {
+    "hsi-activities": 2
+  },
+  "iati-activity/activity-date/@type": {
+    "hsi-activities": 2
+  },
+  "iati-activity/activity-date/narrative": {
+    "hsi-activities": 1
+  },
+  "iati-activity/activity-date/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "hsi-activities": 1
+  },
+  "iati-activity/activity-status": {
+    "hsi-activities": 1
+  },
+  "iati-activity/activity-status/@code": {
+    "hsi-activities": 1
+  },
+  "iati-activity/budget": {
+    "hsi-activities": 1
+  },
+  "iati-activity/budget/@status": {
+    "hsi-activities": 1
+  },
+  "iati-activity/budget/@type": {
+    "hsi-activities": 1
+  },
+  "iati-activity/budget/period-end": {
+    "hsi-activities": 1
+  },
+  "iati-activity/budget/period-end/@iso-date": {
+    "hsi-activities": 1
+  },
+  "iati-activity/budget/period-start": {
+    "hsi-activities": 1
+  },
+  "iati-activity/budget/period-start/@iso-date": {
+    "hsi-activities": 1
+  },
+  "iati-activity/budget/value": {
+    "hsi-activities": 1
+  },
+  "iati-activity/budget/value/@currency": {
+    "hsi-activities": 1
+  },
+  "iati-activity/budget/value/@value-date": {
+    "hsi-activities": 1
+  },
+  "iati-activity/collaboration-type": {
+    "hsi-activities": 1
+  },
+  "iati-activity/collaboration-type/@code": {
+    "hsi-activities": 1
+  },
+  "iati-activity/default-aid-type": {
+    "hsi-activities": 1
+  },
+  "iati-activity/default-aid-type/@code": {
+    "hsi-activities": 1
+  },
+  "iati-activity/default-finance-type": {
+    "hsi-activities": 1
+  },
+  "iati-activity/default-finance-type/@code": {
+    "hsi-activities": 1
+  },
+  "iati-activity/default-flow-type": {
+    "hsi-activities": 1
+  },
+  "iati-activity/default-flow-type/@code": {
+    "hsi-activities": 1
+  },
+  "iati-activity/description": {
+    "hsi-activities": 3
+  },
+  "iati-activity/description/@type": {
+    "hsi-activities": 3
+  },
+  "iati-activity/description/narrative": {
+    "hsi-activities": 3
+  },
+  "iati-activity/description/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "hsi-activities": 3
+  },
+  "iati-activity/document-link": {
+    "hsi-activities": 2
+  },
+  "iati-activity/document-link/@format": {
+    "hsi-activities": 2
+  },
+  "iati-activity/document-link/@url": {
+    "hsi-activities": 2
+  },
+  "iati-activity/document-link/category": {
+    "hsi-activities": 2
+  },
+  "iati-activity/document-link/category/@code": {
+    "hsi-activities": 2
+  },
+  "iati-activity/document-link/document-date": {
+    "hsi-activities": 2
+  },
+  "iati-activity/document-link/document-date/@iso-date": {
+    "hsi-activities": 2
+  },
+  "iati-activity/document-link/language": {
+    "hsi-activities": 2
+  },
+  "iati-activity/document-link/language/@code": {
+    "hsi-activities": 2
+  },
+  "iati-activity/document-link/title": {
+    "hsi-activities": 2
+  },
+  "iati-activity/document-link/title/narrative": {
+    "hsi-activities": 2
+  },
+  "iati-activity/document-link/title/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "hsi-activities": 2
+  },
+  "iati-activity/iati-identifier": {
+    "hsi-activities": 1
+  },
+  "iati-activity/participating-org": {
+    "hsi-activities": 2
+  },
+  "iati-activity/participating-org/@activity-id": {
+    "hsi-activities": 2
+  },
+  "iati-activity/participating-org/@ref": {
+    "hsi-activities": 2
+  },
+  "iati-activity/participating-org/@role": {
+    "hsi-activities": 2
+  },
+  "iati-activity/participating-org/@type": {
+    "hsi-activities": 2
+  },
+  "iati-activity/participating-org/narrative": {
+    "hsi-activities": 2
+  },
+  "iati-activity/participating-org/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "hsi-activities": 2
+  },
+  "iati-activity/recipient-country": {
+    "hsi-activities": 1
+  },
+  "iati-activity/recipient-country/@code": {
+    "hsi-activities": 1
+  },
+  "iati-activity/recipient-country/@percentage": {
+    "hsi-activities": 1
+  },
+  "iati-activity/reporting-org": {
+    "hsi-activities": 1
+  },
+  "iati-activity/reporting-org/@ref": {
+    "hsi-activities": 1
+  },
+  "iati-activity/reporting-org/@type": {
+    "hsi-activities": 1
+  },
+  "iati-activity/reporting-org/narrative": {
+    "hsi-activities": 1
+  },
+  "iati-activity/reporting-org/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "hsi-activities": 1
+  },
+  "iati-activity/result": {
+    "hsi-activities": 16
+  },
+  "iati-activity/result/@aggregation-status": {
+    "hsi-activities": 15
+  },
+  "iati-activity/result/@type": {
+    "hsi-activities": 16
+  },
+  "iati-activity/result/description": {
+    "hsi-activities": 16
+  },
+  "iati-activity/result/description/narrative": {
+    "hsi-activities": 16
+  },
+  "iati-activity/result/description/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "hsi-activities": 16
+  },
+  "iati-activity/result/indicator": {
+    "hsi-activities": 51
+  },
+  "iati-activity/result/indicator/@ascending": {
+    "hsi-activities": 50
+  },
+  "iati-activity/result/indicator/@measure": {
+    "hsi-activities": 51
+  },
+  "iati-activity/result/indicator/baseline": {
+    "hsi-activities": 46
+  },
+  "iati-activity/result/indicator/baseline/@value": {
+    "hsi-activities": 46
+  },
+  "iati-activity/result/indicator/baseline/@year": {
+    "hsi-activities": 46
+  },
+  "iati-activity/result/indicator/baseline/comment": {
+    "hsi-activities": 12
+  },
+  "iati-activity/result/indicator/baseline/comment/narrative": {
+    "hsi-activities": 12
+  },
+  "iati-activity/result/indicator/baseline/comment/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "hsi-activities": 10
+  },
+  "iati-activity/result/indicator/description": {
+    "hsi-activities": 51
+  },
+  "iati-activity/result/indicator/description/narrative": {
+    "hsi-activities": 51
+  },
+  "iati-activity/result/indicator/description/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "hsi-activities": 49
+  },
+  "iati-activity/result/indicator/period": {
+    "hsi-activities": 51
+  },
+  "iati-activity/result/indicator/period/actual": {
+    "hsi-activities": 4
+  },
+  "iati-activity/result/indicator/period/actual/@value": {
+    "hsi-activities": 4
+  },
+  "iati-activity/result/indicator/period/actual/comment": {
+    "hsi-activities": 3
+  },
+  "iati-activity/result/indicator/period/actual/comment/narrative": {
+    "hsi-activities": 3
+  },
+  "iati-activity/result/indicator/period/actual/comment/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "hsi-activities": 3
+  },
+  "iati-activity/result/indicator/period/actual/dimension": {
+    "hsi-activities": 3
+  },
+  "iati-activity/result/indicator/period/actual/dimension/@name": {
+    "hsi-activities": 3
+  },
+  "iati-activity/result/indicator/period/actual/dimension/@value": {
+    "hsi-activities": 3
+  },
+  "iati-activity/result/indicator/period/actual/location": {
+    "hsi-activities": 4
+  },
+  "iati-activity/result/indicator/period/actual/location/@ref": {
+    "hsi-activities": 4
+  },
+  "iati-activity/result/indicator/period/period-end": {
+    "hsi-activities": 51
+  },
+  "iati-activity/result/indicator/period/period-end/@iso-date": {
+    "hsi-activities": 51
+  },
+  "iati-activity/result/indicator/period/period-start": {
+    "hsi-activities": 51
+  },
+  "iati-activity/result/indicator/period/period-start/@iso-date": {
+    "hsi-activities": 51
+  },
+  "iati-activity/result/indicator/period/target": {
+    "hsi-activities": 46
+  },
+  "iati-activity/result/indicator/period/target/@value": {
+    "hsi-activities": 46
+  },
+  "iati-activity/result/indicator/period/target/comment": {
+    "hsi-activities": 11
+  },
+  "iati-activity/result/indicator/period/target/comment/narrative": {
+    "hsi-activities": 11
+  },
+  "iati-activity/result/indicator/period/target/comment/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "hsi-activities": 11
+  },
+  "iati-activity/result/indicator/period/target/dimension": {
+    "hsi-activities": 16
+  },
+  "iati-activity/result/indicator/period/target/dimension/@name": {
+    "hsi-activities": 16
+  },
+  "iati-activity/result/indicator/period/target/dimension/@value": {
+    "hsi-activities": 16
+  },
+  "iati-activity/result/indicator/period/target/location": {
+    "hsi-activities": 46
+  },
+  "iati-activity/result/indicator/period/target/location/@ref": {
+    "hsi-activities": 46
+  },
+  "iati-activity/result/indicator/reference": {
+    "hsi-activities": 51
+  },
+  "iati-activity/result/indicator/reference/@code": {
+    "hsi-activities": 51
+  },
+  "iati-activity/result/indicator/reference/@vocabulary": {
+    "hsi-activities": 51
+  },
+  "iati-activity/result/indicator/title": {
+    "hsi-activities": 51
+  },
+  "iati-activity/result/indicator/title/narrative": {
+    "hsi-activities": 51
+  },
+  "iati-activity/result/indicator/title/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "hsi-activities": 50
+  },
+  "iati-activity/result/title": {
+    "hsi-activities": 16
+  },
+  "iati-activity/result/title/narrative": {
+    "hsi-activities": 16
+  },
+  "iati-activity/result/title/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "hsi-activities": 16
+  },
+  "iati-activity/title": {
+    "hsi-activities": 1
+  },
+  "iati-activity/title/narrative": {
+    "hsi-activities": 1
+  },
+  "iati-activity/title/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "hsi-activities": 1
+  },
+  "iati-activity/transaction": {
+    "hsi-activities": 2
+  },
+  "iati-activity/transaction/@humanitarian": {
+    "hsi-activities": 2
+  },
+  "iati-activity/transaction/description": {
+    "hsi-activities": 2
+  },
+  "iati-activity/transaction/description/narrative": {
+    "hsi-activities": 2
+  },
+  "iati-activity/transaction/description/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "hsi-activities": 2
+  },
+  "iati-activity/transaction/disbursement-channel": {
+    "hsi-activities": 2
+  },
+  "iati-activity/transaction/disbursement-channel/@code": {
+    "hsi-activities": 2
+  },
+  "iati-activity/transaction/provider-org": {
+    "hsi-activities": 2
+  },
+  "iati-activity/transaction/provider-org/@provider-activity-id": {
+    "hsi-activities": 2
+  },
+  "iati-activity/transaction/provider-org/@ref": {
+    "hsi-activities": 2
+  },
+  "iati-activity/transaction/provider-org/@type": {
+    "hsi-activities": 2
+  },
+  "iati-activity/transaction/provider-org/narrative": {
+    "hsi-activities": 2
+  },
+  "iati-activity/transaction/provider-org/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "hsi-activities": 2
+  },
+  "iati-activity/transaction/receiver-org": {
+    "hsi-activities": 1
+  },
+  "iati-activity/transaction/receiver-org/@receiver-activity-id": {
+    "hsi-activities": 1
+  },
+  "iati-activity/transaction/receiver-org/@ref": {
+    "hsi-activities": 1
+  },
+  "iati-activity/transaction/receiver-org/@type": {
+    "hsi-activities": 1
+  },
+  "iati-activity/transaction/receiver-org/narrative": {
+    "hsi-activities": 1
+  },
+  "iati-activity/transaction/receiver-org/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "hsi-activities": 1
+  },
+  "iati-activity/transaction/sector": {
+    "hsi-activities": 2
+  },
+  "iati-activity/transaction/sector/@code": {
+    "hsi-activities": 2
+  },
+  "iati-activity/transaction/sector/@vocabulary": {
+    "hsi-activities": 2
+  },
+  "iati-activity/transaction/transaction-date": {
+    "hsi-activities": 2
+  },
+  "iati-activity/transaction/transaction-date/@iso-date": {
+    "hsi-activities": 2
+  },
+  "iati-activity/transaction/transaction-type": {
+    "hsi-activities": 2
+  },
+  "iati-activity/transaction/transaction-type/@code": {
+    "hsi-activities": 2
+  },
+  "iati-activity/transaction/value": {
+    "hsi-activities": 2
+  },
+  "iati-activity/transaction/value/@currency": {
+    "hsi-activities": 2
+  },
+  "iati-activity/transaction/value/@value-date": {
+    "hsi-activities": 2
+  },
+  "iati-organisation": {
+    "hsi-org": 1
+  },
+  "iati-organisation/@default-currency": {
+    "hsi-org": 1
+  },
+  "iati-organisation/@last-updated-datetime": {
+    "hsi-org": 1
+  },
+  "iati-organisation/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "hsi-org": 1
+  },
+  "iati-organisation/document-link": {
+    "hsi-org": 1
+  },
+  "iati-organisation/document-link/@format": {
+    "hsi-org": 1
+  },
+  "iati-organisation/document-link/@url": {
+    "hsi-org": 1
+  },
+  "iati-organisation/document-link/category": {
+    "hsi-org": 1
+  },
+  "iati-organisation/document-link/category/@code": {
+    "hsi-org": 1
+  },
+  "iati-organisation/document-link/document-date": {
+    "hsi-org": 1
+  },
+  "iati-organisation/document-link/document-date/@iso-date": {
+    "hsi-org": 1
+  },
+  "iati-organisation/document-link/language": {
+    "hsi-org": 1
+  },
+  "iati-organisation/document-link/language/@code": {
+    "hsi-org": 1
+  },
+  "iati-organisation/document-link/recipient-country": {
+    "hsi-org": 1
+  },
+  "iati-organisation/document-link/recipient-country/@code": {
+    "hsi-org": 1
+  },
+  "iati-organisation/document-link/recipient-country/narrative": {
+    "hsi-org": 1
+  },
+  "iati-organisation/document-link/recipient-country/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "hsi-org": 1
+  },
+  "iati-organisation/document-link/title": {
+    "hsi-org": 1
+  },
+  "iati-organisation/document-link/title/narrative": {
+    "hsi-org": 1
+  },
+  "iati-organisation/document-link/title/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "hsi-org": 1
+  },
+  "iati-organisation/name": {
+    "hsi-org": 1
+  },
+  "iati-organisation/name/narrative": {
+    "hsi-org": 1
+  },
+  "iati-organisation/name/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "hsi-org": 1
+  },
+  "iati-organisation/organisation-identifier": {
+    "hsi-org": 1
+  },
+  "iati-organisation/recipient-org-budget": {
+    "hsi-org": 1
+  },
+  "iati-organisation/recipient-org-budget/@status": {
+    "hsi-org": 1
+  },
+  "iati-organisation/recipient-org-budget/period-end": {
+    "hsi-org": 1
+  },
+  "iati-organisation/recipient-org-budget/period-end/@iso-date": {
+    "hsi-org": 1
+  },
+  "iati-organisation/recipient-org-budget/period-start": {
+    "hsi-org": 1
+  },
+  "iati-organisation/recipient-org-budget/period-start/@iso-date": {
+    "hsi-org": 1
+  },
+  "iati-organisation/recipient-org-budget/recipient-org": {
+    "hsi-org": 1
+  },
+  "iati-organisation/recipient-org-budget/recipient-org/@ref": {
+    "hsi-org": 1
+  },
+  "iati-organisation/recipient-org-budget/recipient-org/narrative": {
+    "hsi-org": 1
+  },
+  "iati-organisation/recipient-org-budget/recipient-org/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "hsi-org": 1
+  },
+  "iati-organisation/recipient-org-budget/value": {
+    "hsi-org": 1
+  },
+  "iati-organisation/recipient-org-budget/value/@currency": {
+    "hsi-org": 1
+  },
+  "iati-organisation/recipient-org-budget/value/@value-date": {
+    "hsi-org": 1
+  },
+  "iati-organisation/reporting-org": {
+    "hsi-org": 1
+  },
+  "iati-organisation/reporting-org/@ref": {
+    "hsi-org": 1
+  },
+  "iati-organisation/reporting-org/@type": {
+    "hsi-org": 1
+  },
+  "iati-organisation/reporting-org/narrative": {
+    "hsi-org": 1
+  },
+  "iati-organisation/reporting-org/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "hsi-org": 1
+  },
+  "iati-organisation/total-budget": {
+    "hsi-org": 1
+  },
+  "iati-organisation/total-budget/@status": {
+    "hsi-org": 1
+  },
+  "iati-organisation/total-budget/period-end": {
+    "hsi-org": 1
+  },
+  "iati-organisation/total-budget/period-end/@iso-date": {
+    "hsi-org": 1
+  },
+  "iati-organisation/total-budget/period-start": {
+    "hsi-org": 1
+  },
+  "iati-organisation/total-budget/period-start/@iso-date": {
+    "hsi-org": 1
+  },
+  "iati-organisation/total-budget/value": {
+    "hsi-org": 1
+  },
+  "iati-organisation/total-budget/value/@currency": {
+    "hsi-org": 1
+  },
+  "iati-organisation/total-budget/value/@value-date": {
+    "hsi-org": 1
+  }
+}

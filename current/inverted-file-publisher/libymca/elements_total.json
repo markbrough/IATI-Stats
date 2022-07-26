@@ -1,0 +1,305 @@
+{
+  "iati-activity": {
+    "libymca-lr": 1
+  },
+  "iati-activity/@default-currency": {
+    "libymca-lr": 1
+  },
+  "iati-activity/@hierarchy": {
+    "libymca-lr": 1
+  },
+  "iati-activity/@humanitarian": {
+    "libymca-lr": 1
+  },
+  "iati-activity/@last-updated-datetime": {
+    "libymca-lr": 1
+  },
+  "iati-activity/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "libymca-lr": 1
+  },
+  "iati-activity/activity-date": {
+    "libymca-lr": 1
+  },
+  "iati-activity/activity-date/@iso-date": {
+    "libymca-lr": 1
+  },
+  "iati-activity/activity-date/@type": {
+    "libymca-lr": 1
+  },
+  "iati-activity/activity-status": {
+    "libymca-lr": 1
+  },
+  "iati-activity/activity-status/@code": {
+    "libymca-lr": 1
+  },
+  "iati-activity/description": {
+    "libymca-lr": 1
+  },
+  "iati-activity/description/@type": {
+    "libymca-lr": 1
+  },
+  "iati-activity/description/narrative": {
+    "libymca-lr": 1
+  },
+  "iati-activity/iati-identifier": {
+    "libymca-lr": 1
+  },
+  "iati-activity/participating-org": {
+    "libymca-lr": 3
+  },
+  "iati-activity/participating-org/@activity-id": {
+    "libymca-lr": 2
+  },
+  "iati-activity/participating-org/@ref": {
+    "libymca-lr": 3
+  },
+  "iati-activity/participating-org/@role": {
+    "libymca-lr": 3
+  },
+  "iati-activity/participating-org/@type": {
+    "libymca-lr": 3
+  },
+  "iati-activity/participating-org/narrative": {
+    "libymca-lr": 3
+  },
+  "iati-activity/participating-org/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "libymca-lr": 3
+  },
+  "iati-activity/recipient-country": {
+    "libymca-lr": 1
+  },
+  "iati-activity/recipient-country/@code": {
+    "libymca-lr": 1
+  },
+  "iati-activity/related-activity": {
+    "libymca-lr": 1
+  },
+  "iati-activity/related-activity/@ref": {
+    "libymca-lr": 1
+  },
+  "iati-activity/related-activity/@type": {
+    "libymca-lr": 1
+  },
+  "iati-activity/reporting-org": {
+    "libymca-lr": 1
+  },
+  "iati-activity/reporting-org/@ref": {
+    "libymca-lr": 1
+  },
+  "iati-activity/reporting-org/@type": {
+    "libymca-lr": 1
+  },
+  "iati-activity/reporting-org/narrative": {
+    "libymca-lr": 1
+  },
+  "iati-activity/reporting-org/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "libymca-lr": 1
+  },
+  "iati-activity/result": {
+    "libymca-lr": 6
+  },
+  "iati-activity/result/@aggregation-status": {
+    "libymca-lr": 6
+  },
+  "iati-activity/result/@type": {
+    "libymca-lr": 6
+  },
+  "iati-activity/result/description": {
+    "libymca-lr": 1
+  },
+  "iati-activity/result/description/narrative": {
+    "libymca-lr": 1
+  },
+  "iati-activity/result/indicator": {
+    "libymca-lr": 17
+  },
+  "iati-activity/result/indicator/@ascending": {
+    "libymca-lr": 16
+  },
+  "iati-activity/result/indicator/@measure": {
+    "libymca-lr": 17
+  },
+  "iati-activity/result/indicator/baseline": {
+    "libymca-lr": 17
+  },
+  "iati-activity/result/indicator/baseline/@value": {
+    "libymca-lr": 17
+  },
+  "iati-activity/result/indicator/baseline/@year": {
+    "libymca-lr": 17
+  },
+  "iati-activity/result/indicator/baseline/comment": {
+    "libymca-lr": 4
+  },
+  "iati-activity/result/indicator/baseline/comment/narrative": {
+    "libymca-lr": 4
+  },
+  "iati-activity/result/indicator/description": {
+    "libymca-lr": 2
+  },
+  "iati-activity/result/indicator/description/narrative": {
+    "libymca-lr": 2
+  },
+  "iati-activity/result/indicator/period": {
+    "libymca-lr": 17
+  },
+  "iati-activity/result/indicator/period/actual": {
+    "libymca-lr": 17
+  },
+  "iati-activity/result/indicator/period/actual/@value": {
+    "libymca-lr": 17
+  },
+  "iati-activity/result/indicator/period/actual/comment": {
+    "libymca-lr": 4
+  },
+  "iati-activity/result/indicator/period/actual/comment/narrative": {
+    "libymca-lr": 4
+  },
+  "iati-activity/result/indicator/period/actual/dimension": {
+    "libymca-lr": 5
+  },
+  "iati-activity/result/indicator/period/actual/dimension/@name": {
+    "libymca-lr": 5
+  },
+  "iati-activity/result/indicator/period/period-end": {
+    "libymca-lr": 17
+  },
+  "iati-activity/result/indicator/period/period-end/@iso-date": {
+    "libymca-lr": 17
+  },
+  "iati-activity/result/indicator/period/period-start": {
+    "libymca-lr": 17
+  },
+  "iati-activity/result/indicator/period/period-start/@iso-date": {
+    "libymca-lr": 17
+  },
+  "iati-activity/result/indicator/period/target": {
+    "libymca-lr": 17
+  },
+  "iati-activity/result/indicator/period/target/@value": {
+    "libymca-lr": 17
+  },
+  "iati-activity/result/indicator/period/target/comment": {
+    "libymca-lr": 3
+  },
+  "iati-activity/result/indicator/period/target/comment/narrative": {
+    "libymca-lr": 3
+  },
+  "iati-activity/result/indicator/period/target/dimension": {
+    "libymca-lr": 4
+  },
+  "iati-activity/result/indicator/period/target/dimension/@name": {
+    "libymca-lr": 4
+  },
+  "iati-activity/result/indicator/title": {
+    "libymca-lr": 17
+  },
+  "iati-activity/result/indicator/title/narrative": {
+    "libymca-lr": 17
+  },
+  "iati-activity/result/title": {
+    "libymca-lr": 6
+  },
+  "iati-activity/result/title/narrative": {
+    "libymca-lr": 6
+  },
+  "iati-activity/sector": {
+    "libymca-lr": 7
+  },
+  "iati-activity/sector/@code": {
+    "libymca-lr": 7
+  },
+  "iati-activity/sector/@percentage": {
+    "libymca-lr": 7
+  },
+  "iati-activity/sector/@vocabulary": {
+    "libymca-lr": 7
+  },
+  "iati-activity/title": {
+    "libymca-lr": 1
+  },
+  "iati-activity/title/narrative": {
+    "libymca-lr": 1
+  },
+  "iati-activity/transaction": {
+    "libymca-lr": 7
+  },
+  "iati-activity/transaction/@humanitarian": {
+    "libymca-lr": 2
+  },
+  "iati-activity/transaction/@ref": {
+    "libymca-lr": 7
+  },
+  "iati-activity/transaction/description": {
+    "libymca-lr": 6
+  },
+  "iati-activity/transaction/description/narrative": {
+    "libymca-lr": 6
+  },
+  "iati-activity/transaction/description/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "libymca-lr": 2
+  },
+  "iati-activity/transaction/disbursement-channel": {
+    "libymca-lr": 2
+  },
+  "iati-activity/transaction/disbursement-channel/@code": {
+    "libymca-lr": 2
+  },
+  "iati-activity/transaction/provider-org": {
+    "libymca-lr": 7
+  },
+  "iati-activity/transaction/provider-org/@provider-activity-id": {
+    "libymca-lr": 7
+  },
+  "iati-activity/transaction/provider-org/@ref": {
+    "libymca-lr": 7
+  },
+  "iati-activity/transaction/provider-org/@type": {
+    "libymca-lr": 7
+  },
+  "iati-activity/transaction/provider-org/narrative": {
+    "libymca-lr": 7
+  },
+  "iati-activity/transaction/provider-org/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "libymca-lr": 3
+  },
+  "iati-activity/transaction/receiver-org": {
+    "libymca-lr": 7
+  },
+  "iati-activity/transaction/receiver-org/@receiver-activity-id": {
+    "libymca-lr": 3
+  },
+  "iati-activity/transaction/receiver-org/@ref": {
+    "libymca-lr": 3
+  },
+  "iati-activity/transaction/receiver-org/@type": {
+    "libymca-lr": 4
+  },
+  "iati-activity/transaction/receiver-org/narrative": {
+    "libymca-lr": 7
+  },
+  "iati-activity/transaction/receiver-org/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "libymca-lr": 3
+  },
+  "iati-activity/transaction/transaction-date": {
+    "libymca-lr": 7
+  },
+  "iati-activity/transaction/transaction-date/@iso-date": {
+    "libymca-lr": 7
+  },
+  "iati-activity/transaction/transaction-type": {
+    "libymca-lr": 7
+  },
+  "iati-activity/transaction/transaction-type/@code": {
+    "libymca-lr": 7
+  },
+  "iati-activity/transaction/value": {
+    "libymca-lr": 7
+  },
+  "iati-activity/transaction/value/@currency": {
+    "libymca-lr": 7
+  },
+  "iati-activity/transaction/value/@value-date": {
+    "libymca-lr": 7
+  }
+}

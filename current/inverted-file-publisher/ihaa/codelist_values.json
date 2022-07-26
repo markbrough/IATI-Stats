@@ -1,0 +1,765 @@
+{
+  ".//@default-currency": {
+    "EUR": {
+      "ihaa-activities": 10,
+      "ihaa-legacy": 1
+    },
+    "USD": {
+      "ihaa-activities": 8,
+      "ihaa-legacy": 38
+    },
+    "GBP": {
+      "ihaa-legacy": 3
+    }
+  },
+  ".//@xml:lang": {
+    "en": {
+      "ihaa-activities": 186,
+      "ihaa-legacy": 44
+    }
+  },
+  ".//activity-date/@type": {
+    "2": {
+      "ihaa-activities": 17,
+      "ihaa-legacy": 1
+    },
+    "3": {
+      "ihaa-activities": 18,
+      "ihaa-legacy": 1
+    },
+    "1": {
+      "ihaa-activities": 1
+    },
+    "start-actual": {
+      "ihaa-legacy": 41
+    },
+    "start-planned": {
+      "ihaa-legacy": 41
+    },
+    "end-actual": {
+      "ihaa-legacy": 41
+    },
+    "end-planned": {
+      "ihaa-legacy": 41
+    }
+  },
+  ".//activity-scope/@code": {
+    "1": {
+      "ihaa-activities": 1,
+      "ihaa-legacy": 1
+    },
+    "4": {
+      "ihaa-activities": 9
+    }
+  },
+  ".//activity-status/@code": {
+    "2": {
+      "ihaa-activities": 18,
+      "ihaa-legacy": 41
+    },
+    "1": {
+      "ihaa-legacy": 1
+    }
+  },
+  ".//budget/@status": {
+    "2": {
+      "ihaa-activities": 27
+    },
+    "1": {
+      "ihaa-activities": 33
+    }
+  },
+  ".//budget/@type": {
+    "1": {
+      "ihaa-activities": 51,
+      "ihaa-legacy": 1
+    },
+    "2": {
+      "ihaa-activities": 9
+    },
+    "original": {
+      "ihaa-legacy": 43
+    },
+    "Revised": {
+      "ihaa-legacy": 1
+    }
+  },
+  ".//budget/value/@currency": {
+    "EUR": {
+      "ihaa-activities": 44,
+      "ihaa-legacy": 1
+    },
+    "USD": {
+      "ihaa-activities": 13,
+      "ihaa-legacy": 1
+    }
+  },
+  ".//collaboration-type/@code": {
+    "3": {
+      "ihaa-activities": 10,
+      "ihaa-legacy": 1
+    },
+    "1": {
+      "ihaa-activities": 8
+    },
+    "6": {
+      "ihaa-legacy": 41
+    }
+  },
+  ".//contact-info/@type": {
+    "1": {
+      "ihaa-activities": 18,
+      "ihaa-legacy": 1
+    }
+  },
+  ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "C01": {
+      "ihaa-activities": 11,
+      "ihaa-legacy": 42
+    },
+    "B01": {
+      "ihaa-activities": 7
+    }
+  },
+  ".//default-finance-type/@code": {
+    "110": {
+      "ihaa-activities": 18,
+      "ihaa-legacy": 1
+    }
+  },
+  ".//default-flow-type/@code": {
+    "30": {
+      "ihaa-activities": 18,
+      "ihaa-legacy": 41
+    },
+    "10": {
+      "ihaa-legacy": 1
+    }
+  },
+  ".//default-tied-status/@code": {
+    "5": {
+      "ihaa-activities": 18,
+      "ihaa-legacy": 1
+    }
+  },
+  ".//description/@type": {
+    "1": {
+      "ihaa-activities": 18,
+      "ihaa-legacy": 42
+    },
+    "2": {
+      "ihaa-activities": 12,
+      "ihaa-legacy": 1
+    },
+    "3": {
+      "ihaa-activities": 16
+    }
+  },
+  ".//document-link/@format": {
+    "text/html": {
+      "ihaa-activities": 3
+    },
+    "application/pdf": {
+      "ihaa-activities": 3
+    }
+  },
+  ".//document-link/category/@code": {
+    "A12": {
+      "ihaa-activities": 2
+    },
+    "B01": {
+      "ihaa-activities": 2
+    },
+    "B11": {
+      "ihaa-activities": 1
+    },
+    "B16": {
+      "ihaa-activities": 1
+    }
+  },
+  ".//participating-org/@role": {
+    "1": {
+      "ihaa-activities": 32,
+      "ihaa-legacy": 1
+    },
+    "4": {
+      "ihaa-activities": 91,
+      "ihaa-legacy": 1
+    },
+    "2": {
+      "ihaa-activities": 17
+    },
+    "Funding": {
+      "ihaa-legacy": 36
+    },
+    "Implementing": {
+      "ihaa-legacy": 73
+    },
+    "Accountable": {
+      "ihaa-legacy": 2
+    }
+  },
+  ".//participating-org/@type": {
+    "21": {
+      "ihaa-activities": 56,
+      "ihaa-legacy": 87
+    },
+    "22": {
+      "ihaa-activities": 52,
+      "ihaa-legacy": 22
+    },
+    "10": {
+      "ihaa-activities": 22,
+      "ihaa-legacy": 1
+    },
+    "23": {
+      "ihaa-activities": 10,
+      "ihaa-legacy": 3
+    }
+  },
+  ".//policy-marker/@significance": {
+    "4": {
+      "ihaa-activities": 11,
+      "ihaa-legacy": 1
+    },
+    "1": {
+      "ihaa-activities": 1
+    }
+  },
+  ".//policy-marker/@vocabulary": {
+    "1": {
+      "ihaa-activities": 12,
+      "ihaa-legacy": 1
+    }
+  },
+  ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "9": {
+      "ihaa-activities": 11,
+      "ihaa-legacy": 1
+    },
+    "1": {
+      "ihaa-activities": 1
+    }
+  },
+  ".//recipient-country/@code": {
+    "ID": {
+      "ihaa-activities": 9,
+      "ihaa-legacy": 2
+    },
+    "KE": {
+      "ihaa-activities": 6,
+      "ihaa-legacy": 4
+    },
+    "MZ": {
+      "ihaa-activities": 3,
+      "ihaa-legacy": 1
+    },
+    "MM": {
+      "ihaa-activities": 11,
+      "ihaa-legacy": 8
+    },
+    "NG": {
+      "ihaa-activities": 2,
+      "ihaa-legacy": 1
+    },
+    "UG": {
+      "ihaa-activities": 8,
+      "ihaa-legacy": 4
+    },
+    "UA": {
+      "ihaa-activities": 9,
+      "ihaa-legacy": 2
+    },
+    "VN": {
+      "ihaa-activities": 4,
+      "ihaa-legacy": 1
+    },
+    "ZW": {
+      "ihaa-activities": 3,
+      "ihaa-legacy": 1
+    },
+    "TZ": {
+      "ihaa-activities": 3
+    },
+    "SZ": {
+      "ihaa-activities": 3,
+      "ihaa-legacy": 1
+    },
+    "BW": {
+      "ihaa-activities": 2
+    },
+    "MY": {
+      "ihaa-activities": 4,
+      "ihaa-legacy": 1
+    },
+    "LB": {
+      "ihaa-activities": 3,
+      "ihaa-legacy": 2
+    },
+    "BI": {
+      "ihaa-activities": 6
+    },
+    "CI": {
+      "ihaa-activities": 3
+    },
+    "SN": {
+      "ihaa-activities": 11
+    },
+    "KG": {
+      "ihaa-activities": 2
+    },
+    "SV": {
+      "ihaa-activities": 2,
+      "ihaa-legacy": 1
+    },
+    "CD": {
+      "ihaa-activities": 2,
+      "ihaa-legacy": 1
+    },
+    "CN": {
+      "ihaa-activities": 3,
+      "ihaa-legacy": 4
+    },
+    "ZA": {
+      "ihaa-activities": 5,
+      "ihaa-legacy": 3
+    },
+    "MA": {
+      "ihaa-activities": 2,
+      "ihaa-legacy": 1
+    },
+    "MX": {
+      "ihaa-activities": 2,
+      "ihaa-legacy": 1
+    },
+    "EC": {
+      "ihaa-activities": 2
+    },
+    "IN": {
+      "ihaa-activities": 11,
+      "ihaa-legacy": 3
+    },
+    "BF": {
+      "ihaa-activities": 2,
+      "ihaa-legacy": 1
+    },
+    "BO": {
+      "ihaa-activities": 2
+    },
+    "KH": {
+      "ihaa-activities": 2,
+      "ihaa-legacy": 3
+    },
+    "ET": {
+      "ihaa-activities": 4,
+      "ihaa-legacy": 1
+    },
+    "NA": {
+      "ihaa-activities": 4
+    },
+    "HT": {
+      "ihaa-activities": 2
+    },
+    "PE": {
+      "ihaa-activities": 5
+    },
+    "AL": {
+      "ihaa-legacy": 1
+    },
+    "TN": {
+      "ihaa-legacy": 2
+    },
+    "DZ": {
+      "ihaa-legacy": 1
+    },
+    "SS": {
+      "ihaa-legacy": 3
+    },
+    "ZM": {
+      "ihaa-legacy": 7
+    },
+    "NM": {
+      "ihaa-legacy": 1
+    },
+    "BD": {
+      "ihaa-legacy": 1
+    },
+    "MW": {
+      "ihaa-legacy": 1
+    },
+    "GB": {
+      "ihaa-legacy": 1
+    }
+  },
+  ".//recipient-region/@vocabulary": {
+    "1": {
+      "ihaa-activities": 7,
+      "ihaa-legacy": 3
+    }
+  },
+  ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "298": {
+      "ihaa-activities": 4,
+      "ihaa-legacy": 1
+    },
+    "798": {
+      "ihaa-activities": 11,
+      "ihaa-legacy": 1
+    },
+    "89": {
+      "ihaa-activities": 1,
+      "ihaa-legacy": 1
+    },
+    "489": {
+      "ihaa-activities": 6,
+      "ihaa-legacy": 1
+    },
+    "589": {
+      "ihaa-activities": 3,
+      "ihaa-legacy": 1
+    },
+    "998": {
+      "ihaa-activities": 22
+    },
+    "189": {
+      "ihaa-legacy": 1
+    },
+    "289": {
+      "ihaa-legacy": 1
+    },
+    "619": {
+      "ihaa-legacy": 1
+    },
+    "380": {
+      "ihaa-legacy": 1
+    }
+  },
+  ".//related-activity/@type": {
+    "2": {
+      "ihaa-activities": 15
+    },
+    "1": {
+      "ihaa-activities": 20
+    }
+  },
+  ".//reporting-org/@type": {
+    "21": {
+      "ihaa-activities": 18,
+      "ihaa-legacy": 42
+    }
+  },
+  ".//result/@type": {
+    "2": {
+      "ihaa-activities": 42
+    },
+    "1": {
+      "ihaa-activities": 3
+    }
+  },
+  ".//result/indicator/@measure": {
+    "1": {
+      "ihaa-activities": 145
+    },
+    "2": {
+      "ihaa-activities": 27
+    }
+  },
+  ".//result/indicator/reference/@vocabulary": {
+    "7": {
+      "ihaa-activities": 5
+    },
+    "99": {
+      "ihaa-activities": 34
+    },
+    "1": {
+      "ihaa-activities": 1
+    }
+  },
+  ".//sector/@vocabulary": {
+    "1": {
+      "ihaa-activities": 77,
+      "ihaa-legacy": 2
+    }
+  },
+  ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "13040": {
+      "ihaa-activities": 8,
+      "ihaa-legacy": 41
+    },
+    "16064": {
+      "ihaa-activities": 17
+    },
+    "13030": {
+      "ihaa-activities": 8
+    },
+    "15160": {
+      "ihaa-activities": 9,
+      "ihaa-legacy": 1
+    },
+    "15162": {
+      "ihaa-activities": 7
+    },
+    "13020": {
+      "ihaa-activities": 7,
+      "ihaa-legacy": 15
+    },
+    "13081": {
+      "ihaa-activities": 7
+    },
+    "15164": {
+      "ihaa-activities": 7
+    },
+    "92030": {
+      "ihaa-activities": 7
+    },
+    "22040": {
+      "ihaa-legacy": 1
+    },
+    "16010": {
+      "ihaa-legacy": 1
+    },
+    "12220": {
+      "ihaa-legacy": 1
+    },
+    "12262": {
+      "ihaa-legacy": 6
+    }
+  },
+  ".//transaction/aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "B03": {
+      "ihaa-activities": 349
+    }
+  },
+  ".//transaction/disbursement-channel/@code": {
+    "2": {
+      "ihaa-activities": 349
+    }
+  },
+  ".//transaction/finance-type/@code": {
+    "110": {
+      "ihaa-activities": 349
+    }
+  },
+  ".//transaction/flow-type/@code": {
+    "30": {
+      "ihaa-activities": 349
+    }
+  },
+  ".//transaction/provider-org/@type": {
+    "21": {
+      "ihaa-activities": 367,
+      "ihaa-legacy": 10
+    },
+    "23": {
+      "ihaa-activities": 1
+    },
+    "10": {
+      "ihaa-activities": 18,
+      "ihaa-legacy": 15
+    },
+    "40": {
+      "ihaa-legacy": 8
+    },
+    "60": {
+      "ihaa-legacy": 5
+    },
+    "22": {
+      "ihaa-legacy": 2
+    },
+    "80": {
+      "ihaa-legacy": 1
+    }
+  },
+  ".//transaction/receiver-org/@type": {
+    "21": {
+      "ihaa-activities": 49
+    },
+    "22": {
+      "ihaa-activities": 267
+    },
+    "23": {
+      "ihaa-activities": 52
+    }
+  },
+  ".//transaction/recipient-country/@code": {
+    "LB": {
+      "ihaa-activities": 2
+    },
+    "SN": {
+      "ihaa-activities": 10
+    },
+    "UA": {
+      "ihaa-activities": 6
+    },
+    "PE": {
+      "ihaa-activities": 4
+    },
+    "MM": {
+      "ihaa-activities": 8
+    },
+    "NA": {
+      "ihaa-activities": 3
+    },
+    "ZA": {
+      "ihaa-activities": 4
+    },
+    "IN": {
+      "ihaa-activities": 10
+    },
+    "BI": {
+      "ihaa-activities": 5
+    },
+    "CI": {
+      "ihaa-activities": 2
+    },
+    "KG": {
+      "ihaa-activities": 1
+    },
+    "CD": {
+      "ihaa-activities": 1
+    },
+    "CN": {
+      "ihaa-activities": 2
+    },
+    "BW": {
+      "ihaa-activities": 1
+    },
+    "MX": {
+      "ihaa-activities": 1
+    },
+    "BO": {
+      "ihaa-activities": 1
+    },
+    "KE": {
+      "ihaa-activities": 3
+    },
+    "KH": {
+      "ihaa-activities": 1
+    },
+    "EC": {
+      "ihaa-activities": 1
+    },
+    "HT": {
+      "ihaa-activities": 1
+    },
+    "TZ": {
+      "ihaa-activities": 1
+    },
+    "SZ": {
+      "ihaa-activities": 1
+    },
+    "ID": {
+      "ihaa-activities": 6
+    },
+    "MA": {
+      "ihaa-activities": 1
+    },
+    "SV": {
+      "ihaa-activities": 1
+    },
+    "UG": {
+      "ihaa-activities": 5
+    },
+    "BF": {
+      "ihaa-activities": 1
+    },
+    "MY": {
+      "ihaa-activities": 3
+    },
+    "ET": {
+      "ihaa-activities": 3
+    },
+    "VN": {
+      "ihaa-activities": 1
+    }
+  },
+  ".//transaction/recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "798": {
+      "ihaa-activities": 9
+    },
+    "589": {
+      "ihaa-activities": 2
+    },
+    "998": {
+      "ihaa-activities": 22
+    },
+    "489": {
+      "ihaa-activities": 5
+    },
+    "298": {
+      "ihaa-activities": 2
+    }
+  },
+  ".//transaction/tied-status/@code": {
+    "5": {
+      "ihaa-activities": 349
+    }
+  },
+  ".//transaction/transaction-type/@code": {
+    "1": {
+      "ihaa-activities": 15,
+      "ihaa-legacy": 1
+    },
+    "2": {
+      "ihaa-activities": 112
+    },
+    "3": {
+      "ihaa-activities": 251
+    },
+    "4": {
+      "ihaa-activities": 70
+    },
+    "11": {
+      "ihaa-activities": 8
+    },
+    "C": {
+      "ihaa-legacy": 40
+    },
+    "IF": {
+      "ihaa-legacy": 1
+    }
+  },
+  ".//transaction/value/@currency": {
+    "EUR": {
+      "ihaa-activities": 86,
+      "ihaa-legacy": 1
+    },
+    "USD": {
+      "ihaa-activities": 282
+    },
+    "GBP": {
+      "ihaa-activities": 17,
+      "ihaa-legacy": 1
+    },
+    "SZL": {
+      "ihaa-activities": 5
+    },
+    "ZAR": {
+      "ihaa-activities": 11
+    },
+    "TZS": {
+      "ihaa-activities": 7
+    },
+    "KES": {
+      "ihaa-activities": 4
+    },
+    "IDR": {
+      "ihaa-activities": 4
+    },
+    "NGN": {
+      "ihaa-activities": 2
+    },
+    "UGX": {
+      "ihaa-activities": 26
+    },
+    "VND": {
+      "ihaa-activities": 3
+    },
+    "MMK": {
+      "ihaa-activities": 4
+    },
+    "SEK": {
+      "ihaa-activities": 5
+    }
+  }
+}

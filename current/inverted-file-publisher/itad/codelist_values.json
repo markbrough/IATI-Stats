@@ -1,0 +1,212 @@
+{
+  ".//@default-currency": {
+    "GBP": {
+      "itad-mw": 1,
+      "itad-mz": 1,
+      "itad-gt": 1,
+      "itad-zw": 1,
+      "itad-gh": 2
+    }
+  },
+  ".//@xml:lang": {
+    "en": {
+      "itad-mw": 12,
+      "itad-mz": 15,
+      "itad-gt": 12,
+      "itad-zw": 14,
+      "itad-gh": 23
+    }
+  },
+  ".//activity-date/@type": {
+    "1": {
+      "itad-mw": 1,
+      "itad-zw": 1,
+      "itad-gh": 1
+    },
+    "2": {
+      "itad-mz": 1,
+      "itad-gt": 1,
+      "itad-gh": 1
+    },
+    "3": {
+      "itad-zw": 1
+    }
+  },
+  ".//activity-status/@code": {
+    "2": {
+      "itad-mw": 1,
+      "itad-mz": 1,
+      "itad-gt": 1,
+      "itad-zw": 1,
+      "itad-gh": 2
+    }
+  },
+  ".//budget/@type": {
+    "1": {
+      "itad-mw": 1,
+      "itad-mz": 1,
+      "itad-gt": 1,
+      "itad-zw": 1,
+      "itad-gh": 2
+    }
+  },
+  ".//budget/value/@currency": {
+    "GBP": {
+      "itad-mw": 1,
+      "itad-mz": 1,
+      "itad-zw": 1,
+      "itad-gh": 2
+    }
+  },
+  ".//description/@type": {
+    "1": {
+      "itad-mw": 1,
+      "itad-mz": 1,
+      "itad-gt": 1,
+      "itad-zw": 1,
+      "itad-gh": 2
+    }
+  },
+  ".//participating-org/@role": {
+    "4": {
+      "itad-mw": 1,
+      "itad-mz": 1,
+      "itad-gt": 1,
+      "itad-zw": 1,
+      "itad-gh": 2
+    }
+  },
+  ".//participating-org/@type": {
+    "70": {
+      "itad-mw": 1,
+      "itad-mz": 1,
+      "itad-gt": 1,
+      "itad-zw": 1,
+      "itad-gh": 2
+    }
+  },
+  ".//recipient-country/@code": {
+    "MW": {
+      "itad-mw": 1
+    },
+    "MZ": {
+      "itad-mz": 1
+    },
+    "LK": {
+      "itad-mz": 1
+    },
+    "VN": {
+      "itad-mz": 1,
+      "itad-gt": 1
+    },
+    "KH": {
+      "itad-mz": 1
+    },
+    "LA": {
+      "itad-mz": 1
+    },
+    "GT": {
+      "itad-gt": 1
+    },
+    "GY": {
+      "itad-gt": 1
+    },
+    "LR": {
+      "itad-gt": 1
+    },
+    "GH": {
+      "itad-gt": 1,
+      "itad-gh": 2
+    },
+    "CI": {
+      "itad-gt": 1
+    },
+    "CD": {
+      "itad-gt": 1
+    },
+    "CM": {
+      "itad-gt": 1
+    },
+    "ID": {
+      "itad-gt": 1
+    },
+    "CL": {
+      "itad-gt": 1
+    },
+    "ZW": {
+      "itad-zw": 1
+    },
+    "KE": {
+      "itad-zw": 1
+    },
+    "ZA": {
+      "itad-zw": 1
+    },
+    "IN": {
+      "itad-zw": 1
+    },
+    "BF": {
+      "itad-gh": 1
+    },
+    "NE": {
+      "itad-gh": 1
+    },
+    "NG": {
+      "itad-gh": 1
+    }
+  },
+  ".//reporting-org/@type": {
+    "70": {
+      "itad-mw": 1,
+      "itad-mz": 1,
+      "itad-gt": 1,
+      "itad-zw": 1,
+      "itad-gh": 2
+    }
+  },
+  ".//sector/@vocabulary": {
+    "1": {
+      "itad-mw": 1,
+      "itad-mz": 1,
+      "itad-gt": 1,
+      "itad-zw": 1,
+      "itad-gh": 2
+    }
+  },
+  ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "15150": {
+      "itad-mw": 1
+    },
+    "99810": {
+      "itad-mz": 1,
+      "itad-gt": 1,
+      "itad-zw": 1,
+      "itad-gh": 2
+    }
+  },
+  ".//transaction/transaction-type/@code": {
+    "4": {
+      "itad-mw": 5,
+      "itad-mz": 7,
+      "itad-gt": 7,
+      "itad-zw": 7,
+      "itad-gh": 13
+    },
+    "1": {
+      "itad-mw": 3,
+      "itad-mz": 6,
+      "itad-gt": 4,
+      "itad-zw": 6,
+      "itad-gh": 10
+    }
+  },
+  ".//transaction/value/@currency": {
+    "GBP": {
+      "itad-mw": 6,
+      "itad-mz": 12,
+      "itad-gt": 11,
+      "itad-zw": 13,
+      "itad-gh": 23
+    }
+  }
+}

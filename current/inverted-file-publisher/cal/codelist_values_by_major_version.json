@@ -1,0 +1,335 @@
+{
+  "2": {
+    ".//@default-currency": {
+      "cal-np": {
+        "GBP": 2
+      },
+      "cal-mm": {
+        "GBP": 1
+      },
+      "cal-zw": {
+        "GBP": 1
+      },
+      "cal-ng": {
+        "GBP": 1
+      }
+    },
+    ".//activity-date/@type": {
+      "cal-np": {
+        "2": 2,
+        "4": 1,
+        "3": 1
+      },
+      "cal-mm": {
+        "2": 1,
+        "3": 1
+      },
+      "cal-zw": {
+        "2": 1,
+        "3": 1
+      },
+      "cal-ng": {
+        "2": 1,
+        "4": 1
+      }
+    },
+    ".//activity-status/@code": {
+      "cal-np": {
+        "3": 1,
+        "2": 1
+      },
+      "cal-mm": {
+        "2": 1
+      },
+      "cal-zw": {
+        "2": 1
+      },
+      "cal-ng": {
+        "3": 1
+      }
+    },
+    ".//budget/@status": {
+      "cal-np": {
+        "1": 5
+      },
+      "cal-mm": {
+        "1": 5
+      },
+      "cal-zw": {
+        "1": 2
+      },
+      "cal-ng": {
+        "1": 1
+      }
+    },
+    ".//budget/@type": {
+      "cal-np": {
+        "2": 5
+      },
+      "cal-mm": {
+        "1": 5
+      },
+      "cal-zw": {
+        "1": 2
+      },
+      "cal-ng": {
+        "1": 1
+      }
+    },
+    ".//budget/value/@currency": {
+      "cal-np": {
+        "GBP": 5
+      },
+      "cal-mm": {
+        "GBP": 5
+      },
+      "cal-zw": {
+        "GBP": 1,
+        "USD": 1
+      },
+      "cal-ng": {
+        "GBP": 1
+      }
+    },
+    ".//contact-info/@type": {
+      "cal-np": {
+        "1": 2
+      },
+      "cal-mm": {
+        "1": 1
+      },
+      "cal-zw": {
+        "1": 1
+      },
+      "cal-ng": {
+        "1": 1
+      }
+    },
+    ".//description/@type": {
+      "cal-np": {
+        "1": 1,
+        "2": 1
+      },
+      "cal-mm": {
+        "1": 1
+      },
+      "cal-zw": {
+        "1": 1
+      },
+      "cal-ng": {
+        "1": 1
+      }
+    },
+    ".//document-link/@format": {
+      "cal-np": {
+        "application/vnd.openxmlformats-officedocument.wordprocessingml.document.glossary+xml": 1
+      },
+      "cal-mm": {
+        "application/pdf": 1
+      },
+      "cal-zw": {
+        "application/vnd.ms-word.document.macroEnabled.12": 1
+      },
+      "cal-ng": {
+        "application/pdf": 1
+      }
+    },
+    ".//document-link/category/@code": {
+      "cal-np": {
+        "A02": 1
+      },
+      "cal-mm": {
+        "A02": 1
+      },
+      "cal-zw": {
+        "A02": 1
+      },
+      "cal-ng": {
+        "A02": 1
+      }
+    },
+    ".//participating-org/@role": {
+      "cal-np": {
+        "4": 3,
+        "1": 2
+      },
+      "cal-mm": {
+        "1": 1,
+        "2": 1,
+        "4": 5
+      },
+      "cal-zw": {
+        "2": 1,
+        "1": 1,
+        "4": 2
+      },
+      "cal-ng": {
+        "1": 1,
+        "4": 1
+      }
+    },
+    ".//participating-org/@type": {
+      "cal-np": {
+        "70": 3,
+        "10": 2
+      },
+      "cal-mm": {
+        "10": 1,
+        "70": 1,
+        "21": 5
+      },
+      "cal-zw": {
+        "70": 3,
+        "10": 1
+      },
+      "cal-ng": {
+        "10": 1,
+        "70": 1
+      }
+    },
+    ".//recipient-country/@code": {
+      "cal-np": {
+        "NP": 2
+      },
+      "cal-mm": {
+        "MM": 1
+      },
+      "cal-zw": {
+        "ZW": 1
+      },
+      "cal-ng": {
+        "NG": 1
+      }
+    },
+    ".//reporting-org/@type": {
+      "cal-np": {
+        "70": 2
+      },
+      "cal-mm": {
+        "70": 1
+      },
+      "cal-zw": {
+        "70": 1
+      },
+      "cal-ng": {
+        "70": 1
+      }
+    },
+    ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "cal-np": {
+        "15111": 1,
+        "23111": 1
+      },
+      "cal-mm": {
+        "72050": 1
+      },
+      "cal-zw": {
+        "24030": 1
+      },
+      "cal-ng": {
+        "12191": 1
+      }
+    },
+    ".//sector/@vocabulary": {
+      "cal-np": {
+        "1": 2
+      },
+      "cal-mm": {
+        "1": 1
+      },
+      "cal-zw": {
+        "1": 1
+      },
+      "cal-ng": {
+        "1": 1
+      }
+    },
+    ".//transaction/provider-org/@type": {
+      "cal-np": {
+        "70": 3
+      },
+      "cal-mm": {
+        "10": 1,
+        "70": 5
+      },
+      "cal-zw": {
+        "70": 3,
+        "10": 1
+      }
+    },
+    ".//transaction/receiver-org/@type": {
+      "cal-np": {
+        "70": 2
+      },
+      "cal-mm": {
+        "70": 1,
+        "21": 6
+      },
+      "cal-zw": {
+        "10": 1,
+        "70": 2
+      }
+    },
+    ".//transaction/transaction-type/@code": {
+      "cal-np": {
+        "4": 5,
+        "1": 2,
+        "11": 1
+      },
+      "cal-mm": {
+        "1": 3,
+        "4": 5,
+        "3": 11,
+        "11": 1
+      },
+      "cal-zw": {
+        "4": 4,
+        "3": 7,
+        "1": 3,
+        "11": 2
+      },
+      "cal-ng": {
+        "4": 4,
+        "1": 4,
+        "11": 1
+      }
+    },
+    ".//transaction/value/@currency": {
+      "cal-np": {
+        "GBP": 8
+      },
+      "cal-mm": {
+        "GBP": 19
+      },
+      "cal-zw": {
+        "GBP": 7,
+        "USD": 9
+      },
+      "cal-ng": {
+        "GBP": 8
+      }
+    },
+    ".//@xml:lang": {
+      "cal-np": {
+        "en": 12
+      },
+      "cal-mm": {
+        "en": 11
+      },
+      "cal-zw": {
+        "en": 5
+      },
+      "cal-ng": {
+        "en": 13
+      }
+    },
+    ".//document-link/language/@code": {
+      "cal-mm": {
+        "en": 1
+      },
+      "cal-ng": {
+        "en": 1
+      }
+    }
+  }
+}

@@ -1,0 +1,313 @@
+{
+  ".//@default-currency": {
+    "EUR": {
+      "dca-ml": 1,
+      "dca-ss": 1,
+      "dca-sd": 1,
+      "dca-ly": 2,
+      "dca-lb": 2
+    }
+  },
+  ".//@xml:lang": {
+    "en": {
+      "dca-ml": 2,
+      "dca-ss": 2,
+      "dca-sd": 13,
+      "dca-ly": 4,
+      "dca-lb": 4
+    },
+    "da": {
+      "dca-ml": 1,
+      "dca-ss": 1,
+      "dca-sd": 1,
+      "dca-ly": 2,
+      "dca-lb": 2
+    }
+  },
+  ".//activity-date/@type": {
+    "2": {
+      "dca-ml": 1,
+      "dca-ss": 1,
+      "dca-sd": 1,
+      "dca-ly": 1,
+      "dca-lb": 2
+    },
+    "3": {
+      "dca-ml": 1,
+      "dca-ss": 1,
+      "dca-sd": 1,
+      "dca-ly": 2,
+      "dca-lb": 2
+    },
+    "1": {
+      "dca-ly": 1
+    }
+  },
+  ".//activity-status/@code": {
+    "2": {
+      "dca-ml": 1,
+      "dca-ss": 1,
+      "dca-sd": 1,
+      "dca-ly": 2,
+      "dca-lb": 2
+    }
+  },
+  ".//budget/@status": {
+    "2": {
+      "dca-ml": 5,
+      "dca-ss": 4,
+      "dca-sd": 3,
+      "dca-ly": 6,
+      "dca-lb": 9
+    },
+    "1": {
+      "dca-lb": 1
+    }
+  },
+  ".//budget/@type": {
+    "1": {
+      "dca-ml": 5,
+      "dca-ly": 6,
+      "dca-lb": 5
+    },
+    "2": {
+      "dca-ss": 4,
+      "dca-sd": 3,
+      "dca-lb": 5
+    }
+  },
+  ".//budget/value/@currency": {
+    "DKK": {
+      "dca-sd": 3
+    },
+    "EUR": {
+      "dca-ly": 5,
+      "dca-lb": 5
+    }
+  },
+  ".//contact-info/@type": {
+    "1": {
+      "dca-ml": 1,
+      "dca-ss": 1,
+      "dca-sd": 1,
+      "dca-ly": 2,
+      "dca-lb": 2
+    },
+    "2": {
+      "dca-sd": 1
+    }
+  },
+  ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "C01": {
+      "dca-ml": 1,
+      "dca-ss": 1,
+      "dca-sd": 1,
+      "dca-ly": 2,
+      "dca-lb": 2
+    }
+  },
+  ".//default-finance-type/@code": {
+    "110": {
+      "dca-ml": 1,
+      "dca-ss": 1,
+      "dca-sd": 1,
+      "dca-ly": 2,
+      "dca-lb": 2
+    }
+  },
+  ".//default-flow-type/@code": {
+    "30": {
+      "dca-ml": 1,
+      "dca-ss": 1,
+      "dca-sd": 1,
+      "dca-ly": 2,
+      "dca-lb": 2
+    }
+  },
+  ".//default-tied-status/@code": {
+    "5": {
+      "dca-ml": 1,
+      "dca-ss": 1,
+      "dca-sd": 1,
+      "dca-ly": 2,
+      "dca-lb": 2
+    }
+  },
+  ".//description/@type": {
+    "2": {
+      "dca-ml": 1,
+      "dca-ss": 1,
+      "dca-ly": 2,
+      "dca-lb": 2
+    },
+    "1": {
+      "dca-sd": 1,
+      "dca-ly": 1,
+      "dca-lb": 1
+    }
+  },
+  ".//participating-org/@role": {
+    "1": {
+      "dca-ml": 1,
+      "dca-ss": 1,
+      "dca-sd": 1,
+      "dca-ly": 2,
+      "dca-lb": 2
+    }
+  },
+  ".//participating-org/@type": {
+    "10": {
+      "dca-ml": 1,
+      "dca-ss": 1,
+      "dca-sd": 1,
+      "dca-ly": 2,
+      "dca-lb": 2
+    }
+  },
+  ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "3": {
+      "dca-ml": 1,
+      "dca-ss": 1,
+      "dca-ly": 2,
+      "dca-lb": 2
+    }
+  },
+  ".//recipient-country/@code": {
+    "ML": {
+      "dca-ml": 1,
+      "dca-lb": 1
+    },
+    "SS": {
+      "dca-ss": 1,
+      "dca-lb": 1
+    },
+    "SD": {
+      "dca-sd": 1
+    },
+    "LY": {
+      "dca-ly": 2,
+      "dca-lb": 1
+    },
+    "LB": {
+      "dca-lb": 2
+    }
+  },
+  ".//related-activity/@type": {
+    "1": {
+      "dca-ml": 1,
+      "dca-ss": 1,
+      "dca-ly": 2,
+      "dca-lb": 1
+    },
+    "2": {
+      "dca-lb": 5
+    }
+  },
+  ".//reporting-org/@type": {
+    "21": {
+      "dca-ml": 1,
+      "dca-ss": 1,
+      "dca-sd": 1,
+      "dca-ly": 2,
+      "dca-lb": 2
+    }
+  },
+  ".//result/@type": {
+    "2": {
+      "dca-ml": 2,
+      "dca-ss": 2,
+      "dca-ly": 2,
+      "dca-lb": 2
+    },
+    "1": {
+      "dca-ml": 2,
+      "dca-ss": 11,
+      "dca-ly": 22,
+      "dca-lb": 9
+    }
+  },
+  ".//result/indicator/@measure": {
+    "2": {
+      "dca-ml": 6,
+      "dca-ss": 9,
+      "dca-ly": 6,
+      "dca-lb": 9
+    },
+    "1": {
+      "dca-ml": 5,
+      "dca-ss": 28,
+      "dca-ly": 73,
+      "dca-lb": 22
+    }
+  },
+  ".//result/indicator/reference/@vocabulary": {
+    "99": {
+      "dca-ml": 11,
+      "dca-ss": 37,
+      "dca-ly": 79,
+      "dca-lb": 31
+    }
+  },
+  ".//sector/@vocabulary": {
+    "1": {
+      "dca-ml": 1,
+      "dca-ss": 1,
+      "dca-sd": 1,
+      "dca-ly": 2,
+      "dca-lb": 2
+    }
+  },
+  ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "15250": {
+      "dca-ml": 1,
+      "dca-ss": 1,
+      "dca-ly": 2,
+      "dca-lb": 2
+    },
+    "15127": {
+      "dca-sd": 1
+    }
+  },
+  ".//transaction/provider-org/@type": {
+    "21": {
+      "dca-ml": 2,
+      "dca-ss": 2,
+      "dca-ly": 3,
+      "dca-lb": 11
+    },
+    "10": {
+      "dca-lb": 5
+    }
+  },
+  ".//transaction/receiver-org/@type": {
+    "21": {
+      "dca-lb": 14
+    }
+  },
+  ".//transaction/transaction-type/@code": {
+    "1": {
+      "dca-ml": 2,
+      "dca-ss": 2,
+      "dca-sd": 8,
+      "dca-ly": 3,
+      "dca-lb": 5
+    },
+    "4": {
+      "dca-ml": 4,
+      "dca-ss": 4,
+      "dca-ly": 8,
+      "dca-lb": 4
+    },
+    "11": {
+      "dca-lb": 2
+    },
+    "3": {
+      "dca-lb": 9
+    }
+  },
+  ".//transaction/value/@currency": {
+    "USD": {
+      "dca-sd": 8
+    }
+  }
+}

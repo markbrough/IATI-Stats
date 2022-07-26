@@ -1,0 +1,75 @@
+{
+  ".//@default-currency": {
+    "USD": 2
+  },
+  ".//@xml:lang": {
+    "en": 2
+  },
+  ".//activity-date/@type": {
+    "2": 2,
+    "4": 2
+  },
+  ".//activity-scope/@code": {
+    "4": 2
+  },
+  ".//activity-status/@code": {
+    "2": 2
+  },
+  ".//collaboration-type/@code": {
+    "1": 2
+  },
+  ".//contact-info/@type": {
+    "1": 2
+  },
+  ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "D02": 2
+  },
+  ".//default-finance-type/@code": {
+    "110": 2
+  },
+  ".//default-flow-type/@code": {
+    "10": 1,
+    "20": 1
+  },
+  ".//default-tied-status/@code": {
+    "5": 2
+  },
+  ".//location/exactness/@code": {
+    "1": 2
+  },
+  ".//location/location-class/@code": {
+    "4": 2
+  },
+  ".//participating-org/@role": {
+    "1": 2,
+    "2": 2,
+    "3": 2,
+    "4": 2
+  },
+  ".//participating-org/@type": {
+    "10": 8
+  },
+  ".//recipient-country/@code": {
+    "BY": 2
+  },
+  ".//reporting-org/@type": {
+    "10": 2
+  },
+  ".//sector/@vocabulary": {
+    "1": 11,
+    "99": 11
+  },
+  ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "43082": 11
+  },
+  ".//transaction/sector/@vocabulary": {
+    "1": 11,
+    "99": 11
+  },
+  ".//transaction/sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "43082": 11
+  },
+  ".//transaction/transaction-type/@code": {
+    "3": 11
+  }
+}

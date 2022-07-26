@@ -1,0 +1,67 @@
+{
+  ".//@default-currency": {
+    "USD": 6
+  },
+  ".//@xml:lang": {
+    "en": 6
+  },
+  ".//activity-date/@type": {
+    "end-planned": 6,
+    "start-planned": 6
+  },
+  ".//activity-status/@code": {
+    "2": 6
+  },
+  ".//participating-org/@role": {
+    "Funding": 6,
+    "Extending": 6,
+    "Implementing": 6
+  },
+  ".//recipient-country/@code": {
+    "KE": 4,
+    "ET": 2,
+    "TZ": 3,
+    "NG": 2,
+    "GH": 2,
+    "SN": 1,
+    "ZA": 2,
+    "UG": 3,
+    "EG ": 1,
+    "RW": 2,
+    "ZM": 1,
+    "NP": 1,
+    "ID": 1,
+    "BD": 1,
+    "LK": 1,
+    "PK": 1,
+    "BI": 1,
+    "GE": 1
+  },
+  ".//reporting-org/@type": {
+    "60": 6
+  },
+  ".//sector[@vocabulary = 'DAC' or not(@vocabulary)]/@code": {
+    " ": 1,
+    "121": 4,
+    "311": 5,
+    "111": 4,
+    "230": 3,
+    "250": 4,
+    "321": 2,
+    "332": 2,
+    "240": 1,
+    "140": 2,
+    "220": 2
+  },
+  ".//transaction/finance-type/@code": {
+    "500": 5,
+    "400": 1
+  },
+  ".//transaction/transaction-type/@code": {
+    "$12.000.000": 1,
+    "$15.000.000": 1,
+    "$5.000.000": 2,
+    "$11.050.000": 1,
+    "$8.000.000": 1
+  }
+}

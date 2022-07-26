@@ -1,0 +1,147 @@
+{
+  ".//@default-currency": {
+    "EUR": {
+      "ics-org": 45
+    }
+  },
+  ".//@xml:lang": {
+    "en": {
+      "ics-org": 45
+    }
+  },
+  ".//activity-date/@type": {
+    "end-planned": {
+      "ics-org": 45
+    },
+    "start-actual": {
+      "ics-org": 45
+    }
+  },
+  ".//activity-status/@code": {
+    "2": {
+      "ics-org": 30
+    },
+    "3": {
+      "ics-org": 13
+    },
+    "4": {
+      "ics-org": 2
+    }
+  },
+  ".//budget/value/@currency": {
+    "EUR": {
+      "ics-org": 45
+    }
+  },
+  ".//participating-org/@role": {
+    "Funding": {
+      "ics-org": 68
+    },
+    "Implementing": {
+      "ics-org": 68
+    }
+  },
+  ".//participating-org/@type": {
+    "10": {
+      "ics-org": 41
+    },
+    "60": {
+      "ics-org": 5
+    },
+    "22": {
+      "ics-org": 38
+    },
+    "70": {
+      "ics-org": 10
+    },
+    "40": {
+      "ics-org": 1
+    },
+    "80": {
+      "ics-org": 1
+    },
+    "21": {
+      "ics-org": 2
+    },
+    "15": {
+      "ics-org": 1
+    }
+  },
+  ".//recipient-country/@code": {
+    "ET": {
+      "ics-org": 1
+    },
+    "KE": {
+      "ics-org": 16
+    },
+    "KH": {
+      "ics-org": 12
+    },
+    "TZ": {
+      "ics-org": 15
+    }
+  },
+  ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "298": {
+      "ics-org": 5
+    },
+    "798": {
+      "ics-org": 3
+    },
+    "489": {
+      "ics-org": 2
+    },
+    "589": {
+      "ics-org": 2
+    },
+    "889": {
+      "ics-org": 2
+    }
+  },
+  ".//reporting-org/@type": {
+    "INGO": {
+      "ics-org": 45
+    }
+  },
+  ".//sector/@vocabulary": {
+    "DAC": {
+      "ics-org": 45
+    }
+  },
+  ".//sector[@vocabulary = 'DAC' or not(@vocabulary)]/@code": {
+    "151": {
+      "ics-org": 20
+    },
+    "160": {
+      "ics-org": 11
+    },
+    "250": {
+      "ics-org": 7
+    },
+    "111": {
+      "ics-org": 3
+    },
+    "311": {
+      "ics-org": 2
+    },
+    "140": {
+      "ics-org": 1
+    },
+    "122": {
+      "ics-org": 1
+    }
+  },
+  ".//transaction/transaction-type/@code": {
+    "Disbursement": {
+      "ics-org": 27
+    },
+    "Expenditure": {
+      "ics-org": 18
+    }
+  },
+  ".//transaction/value/@currency": {
+    "EUR ": {
+      "ics-org": 45
+    }
+  }
+}
