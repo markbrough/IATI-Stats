@@ -1,0 +1,659 @@
+{
+  "2": {
+    ".//@default-currency": {
+      "ifrcrcs-act201808": {
+        "CHF": 166
+      },
+      "ifrcrcs-act201810": {
+        "CHF": 157
+      },
+      "ifrcrcs-act201809": {
+        "CHF": 156
+      },
+      "ifrcrcs-act201811": {
+        "CHF": 151
+      }
+    },
+    ".//activity-date/@type": {
+      "ifrcrcs-act201808": {
+        "2": 166,
+        "3": 163,
+        "4": 1
+      },
+      "ifrcrcs-act201810": {
+        "2": 157,
+        "3": 153,
+        "4": 2
+      },
+      "ifrcrcs-act201809": {
+        "2": 156,
+        "3": 153,
+        "4": 1
+      },
+      "ifrcrcs-act201811": {
+        "2": 151,
+        "3": 146,
+        "4": 3
+      }
+    },
+    ".//activity-status/@code": {
+      "ifrcrcs-act201808": {
+        "2": 165,
+        "3": 1
+      },
+      "ifrcrcs-act201810": {
+        "2": 155,
+        "3": 2
+      },
+      "ifrcrcs-act201809": {
+        "2": 155,
+        "3": 1
+      },
+      "ifrcrcs-act201811": {
+        "2": 148,
+        "3": 3
+      }
+    },
+    ".//activity-scope/@code": {
+      "ifrcrcs-act201808": {
+        "4": 153,
+        "2": 5,
+        "1": 8
+      },
+      "ifrcrcs-act201810": {
+        "4": 144,
+        "2": 4,
+        "1": 9
+      },
+      "ifrcrcs-act201809": {
+        "4": 143,
+        "2": 5,
+        "1": 8
+      },
+      "ifrcrcs-act201811": {
+        "4": 138,
+        "2": 4,
+        "1": 9
+      }
+    },
+    ".//budget/@status": {
+      "ifrcrcs-act201808": {
+        "1": 332
+      },
+      "ifrcrcs-act201810": {
+        "1": 314
+      },
+      "ifrcrcs-act201809": {
+        "1": 312
+      },
+      "ifrcrcs-act201811": {
+        "1": 302
+      }
+    },
+    ".//budget/@type": {
+      "ifrcrcs-act201808": {
+        "1": 166,
+        "2": 166
+      },
+      "ifrcrcs-act201810": {
+        "1": 157,
+        "2": 157
+      },
+      "ifrcrcs-act201809": {
+        "1": 156,
+        "2": 156
+      },
+      "ifrcrcs-act201811": {
+        "1": 151,
+        "2": 151
+      }
+    },
+    ".//budget/value/@currency": {
+      "ifrcrcs-act201808": {
+        "CHF": 332
+      },
+      "ifrcrcs-act201810": {
+        "CHF": 314
+      },
+      "ifrcrcs-act201809": {
+        "CHF": 312
+      },
+      "ifrcrcs-act201811": {
+        "CHF": 302
+      }
+    },
+    ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "ifrcrcs-act201808": {
+        "C01": 166
+      },
+      "ifrcrcs-act201810": {
+        "C01": 157
+      },
+      "ifrcrcs-act201809": {
+        "C01": 156
+      },
+      "ifrcrcs-act201811": {
+        "C01": 151
+      }
+    },
+    ".//document-link/@format": {
+      "ifrcrcs-act201808": {
+        "application/pdf": 1000,
+        "application/docx": 1,
+        "application/doc": 1
+      },
+      "ifrcrcs-act201810": {
+        "application/pdf": 995,
+        "application/docx": 1,
+        "application/doc": 1
+      },
+      "ifrcrcs-act201809": {
+        "application/pdf": 978,
+        "application/docx": 1,
+        "application/doc": 1
+      },
+      "ifrcrcs-act201811": {
+        "application/pdf": 992,
+        "application/docx": 1,
+        "application/doc": 1
+      }
+    },
+    ".//document-link/category/@code": {
+      "ifrcrcs-act201808": {
+        "A07": 1002
+      },
+      "ifrcrcs-act201810": {
+        "A07": 997
+      },
+      "ifrcrcs-act201809": {
+        "A07": 980
+      },
+      "ifrcrcs-act201811": {
+        "A07": 994
+      }
+    },
+    ".//participating-org/@role": {
+      "ifrcrcs-act201808": {
+        "4": 166,
+        "1": 1345
+      },
+      "ifrcrcs-act201810": {
+        "4": 157,
+        "1": 1566
+      },
+      "ifrcrcs-act201809": {
+        "4": 156,
+        "1": 1549
+      },
+      "ifrcrcs-act201811": {
+        "4": 151,
+        "1": 1560
+      }
+    },
+    ".//participating-org/@type": {
+      "ifrcrcs-act201808": {
+        "90": 166,
+        "21": 51
+      },
+      "ifrcrcs-act201810": {
+        "90": 157,
+        "21": 52
+      },
+      "ifrcrcs-act201809": {
+        "90": 156,
+        "21": 51
+      },
+      "ifrcrcs-act201811": {
+        "90": 151,
+        "21": 52
+      }
+    },
+    ".//recipient-country/@code": {
+      "ifrcrcs-act201808": {
+        "PG": 3,
+        "NG": 4,
+        "CO": 2,
+        "UY": 1,
+        "BW": 1,
+        "RW": 3,
+        "KE": 4,
+        "BY": 2,
+        "TD": 1,
+        "UG": 5,
+        "SN": 3,
+        "NP": 2,
+        "SL": 2,
+        "CD": 6,
+        "BD": 3,
+        "PY": 1,
+        "ET": 3,
+        "TZ": 4,
+        "CR": 2,
+        "MK": 1,
+        "CU": 1,
+        "DM": 1,
+        "VU": 2,
+        "GT": 3,
+        "IT": 1,
+        "TR": 1,
+        "UA": 1,
+        "CM": 2,
+        "NE": 4,
+        "GR": 2,
+        "SD": 3,
+        "HU": 1,
+        "RS": 1,
+        "MW": 1,
+        "NA": 1,
+        "FJ": 2,
+        "BI": 3,
+        "EC": 2,
+        "LK": 3,
+        "SC": 1,
+        "KP": 5,
+        "BJ": 1,
+        "HT": 1,
+        "VE": 1,
+        "BR": 1,
+        "LS": 1,
+        "MN": 3,
+        "PE": 1,
+        "MG": 2,
+        "GN": 1,
+        "GH": 1,
+        "MR": 2,
+        "MZ": 2,
+        "IQ": 2,
+        "NI": 2,
+        "TG": 2,
+        "HN": 2,
+        "EG": 1,
+        "AL": 1,
+        "PH": 4,
+        "SY": 1,
+        "SO": 1,
+        "DO": 2,
+        "MU": 1,
+        "MA": 1,
+        "AR": 1,
+        "TO": 1,
+        "RU": 2,
+        "SV": 1,
+        "TJ": 1,
+        "CG": 1,
+        "BO": 1,
+        "ME": 1,
+        "BA": 1,
+        "CI": 1,
+        "GW": 1,
+        "CN": 1,
+        "GE": 1,
+        "LA": 1,
+        "ID": 1,
+        "TN": 1,
+        "MM": 1,
+        "IN": 1,
+        "ML": 1,
+        "AM": 1,
+        "ZW": 1
+      },
+      "ifrcrcs-act201810": {
+        "PG": 2,
+        "CO": 2,
+        "UY": 1,
+        "BW": 1,
+        "RW": 3,
+        "BY": 2,
+        "TD": 1,
+        "UG": 4,
+        "NP": 2,
+        "SL": 2,
+        "BD": 4,
+        "PY": 2,
+        "ET": 3,
+        "TZ": 4,
+        "CR": 3,
+        "MK": 1,
+        "CU": 1,
+        "DM": 1,
+        "IT": 1,
+        "HT": 3,
+        "TR": 1,
+        "UA": 1,
+        "CM": 3,
+        "NE": 4,
+        "NG": 4,
+        "SN": 1,
+        "GR": 2,
+        "SD": 3,
+        "HU": 1,
+        "RS": 1,
+        "KE": 3,
+        "MW": 1,
+        "FJ": 2,
+        "BI": 4,
+        "EC": 2,
+        "LK": 3,
+        "CD": 4,
+        "KP": 4,
+        "BJ": 1,
+        "GH": 2,
+        "VE": 1,
+        "BR": 1,
+        "PE": 1,
+        "MG": 2,
+        "IQ": 2,
+        "TG": 2,
+        "EG": 1,
+        "AL": 1,
+        "PH": 3,
+        "SY": 1,
+        "SO": 1,
+        "DO": 2,
+        "MU": 1,
+        "MA": 1,
+        "MN": 2,
+        "RU": 4,
+        "NI": 1,
+        "VU": 1,
+        "MR": 1,
+        "TJ": 1,
+        "GT": 2,
+        "CG": 1,
+        "BO": 1,
+        "ME": 1,
+        "BA": 1,
+        "CI": 1,
+        "GW": 1,
+        "CN": 1,
+        "GE": 1,
+        "LA": 1,
+        "ID": 1,
+        "TN": 2,
+        "MM": 1,
+        "IN": 2,
+        "ML": 1,
+        "AM": 1,
+        "ZW": 1,
+        "SV": 1,
+        "SS": 1,
+        "TT": 1,
+        "AF": 1
+      },
+      "ifrcrcs-act201809": {
+        "PG": 2,
+        "CO": 2,
+        "UY": 1,
+        "BW": 1,
+        "RW": 3,
+        "BY": 2,
+        "TD": 1,
+        "UG": 4,
+        "NP": 2,
+        "SL": 2,
+        "CD": 5,
+        "BD": 4,
+        "PY": 1,
+        "ET": 3,
+        "SN": 2,
+        "TZ": 5,
+        "CR": 3,
+        "MK": 1,
+        "CU": 1,
+        "DM": 1,
+        "IT": 1,
+        "HT": 3,
+        "TR": 1,
+        "UA": 1,
+        "CM": 3,
+        "NE": 4,
+        "NG": 3,
+        "GR": 2,
+        "SD": 3,
+        "HU": 1,
+        "RS": 1,
+        "KE": 3,
+        "MW": 1,
+        "FJ": 2,
+        "BI": 4,
+        "EC": 2,
+        "LK": 3,
+        "SC": 1,
+        "KP": 4,
+        "BJ": 1,
+        "VE": 1,
+        "BR": 1,
+        "LS": 1,
+        "MN": 3,
+        "PE": 1,
+        "MG": 2,
+        "MR": 2,
+        "IQ": 2,
+        "NI": 2,
+        "TG": 2,
+        "EG": 1,
+        "AL": 1,
+        "PH": 3,
+        "SY": 1,
+        "SO": 1,
+        "DO": 2,
+        "MU": 1,
+        "MA": 1,
+        "RU": 2,
+        "VU": 1,
+        "TJ": 1,
+        "GT": 1,
+        "CG": 1,
+        "BO": 1,
+        "ME": 1,
+        "BA": 1,
+        "CI": 1,
+        "GW": 1,
+        "CN": 1,
+        "GE": 1,
+        "LA": 1,
+        "ID": 1,
+        "TN": 2,
+        "MM": 1,
+        "IN": 1,
+        "ML": 1,
+        "AM": 1,
+        "ZW": 1,
+        "GH": 1,
+        "SV": 1,
+        "SS": 1
+      },
+      "ifrcrcs-act201811": {
+        "NG": 5,
+        "CO": 2,
+        "TD": 1,
+        "UG": 4,
+        "NP": 2,
+        "SL": 2,
+        "BD": 4,
+        "PY": 2,
+        "ET": 3,
+        "TZ": 4,
+        "CR": 3,
+        "MK": 1,
+        "CU": 1,
+        "DM": 1,
+        "IT": 1,
+        "HT": 3,
+        "TR": 1,
+        "UA": 1,
+        "CM": 3,
+        "NE": 4,
+        "SN": 1,
+        "GR": 2,
+        "SD": 3,
+        "RS": 1,
+        "KE": 3,
+        "RW": 2,
+        "MW": 1,
+        "FJ": 2,
+        "BI": 4,
+        "EC": 2,
+        "LK": 3,
+        "CD": 4,
+        "KP": 4,
+        "BJ": 1,
+        "GH": 2,
+        "VE": 1,
+        "BR": 1,
+        "PE": 1,
+        "MG": 2,
+        "IQ": 1,
+        "TG": 2,
+        "EG": 1,
+        "AL": 1,
+        "PH": 3,
+        "SY": 1,
+        "SO": 1,
+        "DO": 2,
+        "MU": 1,
+        "MA": 1,
+        "MN": 2,
+        "RU": 4,
+        "NI": 1,
+        "VU": 1,
+        "MR": 1,
+        "TJ": 1,
+        "GT": 2,
+        "CG": 1,
+        "BO": 1,
+        "ME": 1,
+        "BA": 2,
+        "CI": 1,
+        "PG": 1,
+        "GW": 1,
+        "CN": 1,
+        "GE": 1,
+        "LA": 1,
+        "ID": 1,
+        "TN": 2,
+        "MM": 1,
+        "IN": 2,
+        "ML": 1,
+        "AM": 1,
+        "ZW": 1,
+        "SV": 1,
+        "SS": 1,
+        "TT": 1,
+        "AF": 1
+      }
+    },
+    ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "ifrcrcs-act201808": {
+        "389": 1,
+        "89": 1,
+        "298": 6,
+        "998": 3,
+        "889": 1,
+        "498": 1
+      },
+      "ifrcrcs-act201810": {
+        "389": 1,
+        "89": 2,
+        "998": 3,
+        "298": 5,
+        "889": 1,
+        "498": 1
+      },
+      "ifrcrcs-act201809": {
+        "389": 1,
+        "89": 1,
+        "298": 6,
+        "998": 3,
+        "889": 1,
+        "498": 1
+      },
+      "ifrcrcs-act201811": {
+        "389": 1,
+        "89": 2,
+        "998": 3,
+        "298": 5,
+        "889": 1,
+        "498": 1
+      }
+    },
+    ".//reporting-org/@type": {
+      "ifrcrcs-act201808": {
+        "90": 166
+      },
+      "ifrcrcs-act201810": {
+        "90": 157
+      },
+      "ifrcrcs-act201809": {
+        "90": 156
+      },
+      "ifrcrcs-act201811": {
+        "90": 151
+      }
+    },
+    ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "ifrcrcs-act201808": {
+        "72010": 166
+      },
+      "ifrcrcs-act201810": {
+        "72010": 157
+      },
+      "ifrcrcs-act201809": {
+        "72010": 156
+      },
+      "ifrcrcs-act201811": {
+        "72010": 151
+      }
+    },
+    ".//sector/@vocabulary": {
+      "ifrcrcs-act201808": {
+        "1": 166
+      },
+      "ifrcrcs-act201810": {
+        "1": 157
+      },
+      "ifrcrcs-act201809": {
+        "1": 156
+      },
+      "ifrcrcs-act201811": {
+        "1": 151
+      }
+    },
+    ".//transaction/transaction-type/@code": {
+      "ifrcrcs-act201808": {
+        "3": 140,
+        "4": 819,
+        "1": 2501
+      },
+      "ifrcrcs-act201810": {
+        "3": 107,
+        "4": 299,
+        "1": 2292
+      },
+      "ifrcrcs-act201809": {
+        "3": 103,
+        "4": 301,
+        "1": 2273
+      },
+      "ifrcrcs-act201811": {
+        "3": 106,
+        "4": 295,
+        "1": 2276
+      }
+    },
+    ".//transaction/value/@currency": {
+      "ifrcrcs-act201808": {
+        "CHF": 3460
+      },
+      "ifrcrcs-act201810": {
+        "CHF": 2698
+      },
+      "ifrcrcs-act201809": {
+        "CHF": 2677
+      },
+      "ifrcrcs-act201811": {
+        "CHF": 2677
+      }
+    }
+  }
+}

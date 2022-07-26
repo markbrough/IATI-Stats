@@ -1,0 +1,581 @@
+{
+  "iati-activity": {
+    "tlmew-mm": 1,
+    "tlmew-activities": 2,
+    "tlmew-mz": 1
+  },
+  "iati-activity/@default-currency": {
+    "tlmew-mm": 1,
+    "tlmew-activities": 2,
+    "tlmew-mz": 1
+  },
+  "iati-activity/@hierarchy": {
+    "tlmew-mm": 1,
+    "tlmew-activities": 2,
+    "tlmew-mz": 1
+  },
+  "iati-activity/@humanitarian": {
+    "tlmew-mm": 1,
+    "tlmew-mz": 1
+  },
+  "iati-activity/@last-updated-datetime": {
+    "tlmew-mm": 1,
+    "tlmew-activities": 2,
+    "tlmew-mz": 1
+  },
+  "iati-activity/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "tlmew-mm": 1,
+    "tlmew-activities": 2,
+    "tlmew-mz": 1
+  },
+  "iati-activity/activity-date": {
+    "tlmew-mm": 3,
+    "tlmew-activities": 4,
+    "tlmew-mz": 2
+  },
+  "iati-activity/activity-date/@iso-date": {
+    "tlmew-mm": 3,
+    "tlmew-activities": 4,
+    "tlmew-mz": 2
+  },
+  "iati-activity/activity-date/@type": {
+    "tlmew-mm": 3,
+    "tlmew-activities": 4,
+    "tlmew-mz": 2
+  },
+  "iati-activity/activity-date/narrative": {
+    "tlmew-mm": 2,
+    "tlmew-activities": 4,
+    "tlmew-mz": 2
+  },
+  "iati-activity/activity-date/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "tlmew-mm": 2,
+    "tlmew-activities": 4,
+    "tlmew-mz": 2
+  },
+  "iati-activity/activity-status": {
+    "tlmew-mm": 1,
+    "tlmew-activities": 2,
+    "tlmew-mz": 1
+  },
+  "iati-activity/activity-status/@code": {
+    "tlmew-mm": 1,
+    "tlmew-activities": 2,
+    "tlmew-mz": 1
+  },
+  "iati-activity/budget": {
+    "tlmew-mm": 1,
+    "tlmew-activities": 2,
+    "tlmew-mz": 4
+  },
+  "iati-activity/budget/@status": {
+    "tlmew-mm": 1,
+    "tlmew-mz": 4
+  },
+  "iati-activity/budget/@type": {
+    "tlmew-mm": 1,
+    "tlmew-activities": 2,
+    "tlmew-mz": 4
+  },
+  "iati-activity/budget/period-end": {
+    "tlmew-mm": 1,
+    "tlmew-activities": 2,
+    "tlmew-mz": 4
+  },
+  "iati-activity/budget/period-end/@iso-date": {
+    "tlmew-mm": 1,
+    "tlmew-activities": 2,
+    "tlmew-mz": 4
+  },
+  "iati-activity/budget/period-start": {
+    "tlmew-mm": 1,
+    "tlmew-activities": 2,
+    "tlmew-mz": 4
+  },
+  "iati-activity/budget/period-start/@iso-date": {
+    "tlmew-mm": 1,
+    "tlmew-activities": 2,
+    "tlmew-mz": 4
+  },
+  "iati-activity/budget/value": {
+    "tlmew-mm": 1,
+    "tlmew-activities": 2,
+    "tlmew-mz": 4
+  },
+  "iati-activity/budget/value/@currency": {
+    "tlmew-mm": 1,
+    "tlmew-activities": 1,
+    "tlmew-mz": 4
+  },
+  "iati-activity/budget/value/@value-date": {
+    "tlmew-mm": 1,
+    "tlmew-activities": 2,
+    "tlmew-mz": 4
+  },
+  "iati-activity/contact-info": {
+    "tlmew-activities": 1,
+    "tlmew-mz": 1
+  },
+  "iati-activity/contact-info/@type": {
+    "tlmew-activities": 1,
+    "tlmew-mz": 1
+  },
+  "iati-activity/contact-info/department": {
+    "tlmew-activities": 1,
+    "tlmew-mz": 1
+  },
+  "iati-activity/contact-info/department/narrative": {
+    "tlmew-activities": 1,
+    "tlmew-mz": 1
+  },
+  "iati-activity/contact-info/department/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "tlmew-activities": 1,
+    "tlmew-mz": 1
+  },
+  "iati-activity/contact-info/email": {
+    "tlmew-activities": 1,
+    "tlmew-mz": 1
+  },
+  "iati-activity/contact-info/job-title": {
+    "tlmew-activities": 1,
+    "tlmew-mz": 1
+  },
+  "iati-activity/contact-info/job-title/narrative": {
+    "tlmew-activities": 1,
+    "tlmew-mz": 1
+  },
+  "iati-activity/contact-info/job-title/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "tlmew-activities": 1,
+    "tlmew-mz": 1
+  },
+  "iati-activity/contact-info/mailing-address": {
+    "tlmew-activities": 1,
+    "tlmew-mz": 1
+  },
+  "iati-activity/contact-info/mailing-address/narrative": {
+    "tlmew-activities": 1,
+    "tlmew-mz": 1
+  },
+  "iati-activity/contact-info/mailing-address/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "tlmew-activities": 1,
+    "tlmew-mz": 1
+  },
+  "iati-activity/contact-info/organisation": {
+    "tlmew-activities": 1,
+    "tlmew-mz": 1
+  },
+  "iati-activity/contact-info/organisation/narrative": {
+    "tlmew-activities": 1,
+    "tlmew-mz": 1
+  },
+  "iati-activity/contact-info/organisation/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "tlmew-activities": 1,
+    "tlmew-mz": 1
+  },
+  "iati-activity/contact-info/person-name": {
+    "tlmew-activities": 1,
+    "tlmew-mz": 1
+  },
+  "iati-activity/contact-info/person-name/narrative": {
+    "tlmew-activities": 1,
+    "tlmew-mz": 1
+  },
+  "iati-activity/contact-info/person-name/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "tlmew-activities": 1,
+    "tlmew-mz": 1
+  },
+  "iati-activity/contact-info/website": {
+    "tlmew-activities": 1,
+    "tlmew-mz": 1
+  },
+  "iati-activity/description": {
+    "tlmew-mm": 1,
+    "tlmew-activities": 2,
+    "tlmew-mz": 1
+  },
+  "iati-activity/description/@type": {
+    "tlmew-mm": 1,
+    "tlmew-activities": 2,
+    "tlmew-mz": 1
+  },
+  "iati-activity/description/narrative": {
+    "tlmew-mm": 1,
+    "tlmew-activities": 2,
+    "tlmew-mz": 1
+  },
+  "iati-activity/description/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "tlmew-mm": 1,
+    "tlmew-activities": 2,
+    "tlmew-mz": 1
+  },
+  "iati-activity/document-link": {
+    "tlmew-activities": 3,
+    "tlmew-mz": 3
+  },
+  "iati-activity/document-link/@format": {
+    "tlmew-activities": 3,
+    "tlmew-mz": 3
+  },
+  "iati-activity/document-link/@url": {
+    "tlmew-activities": 3,
+    "tlmew-mz": 3
+  },
+  "iati-activity/document-link/category": {
+    "tlmew-activities": 3,
+    "tlmew-mz": 3
+  },
+  "iati-activity/document-link/category/@code": {
+    "tlmew-activities": 3,
+    "tlmew-mz": 3
+  },
+  "iati-activity/document-link/language": {
+    "tlmew-activities": 3,
+    "tlmew-mz": 3
+  },
+  "iati-activity/document-link/language/@code": {
+    "tlmew-activities": 3,
+    "tlmew-mz": 3
+  },
+  "iati-activity/document-link/title": {
+    "tlmew-activities": 3,
+    "tlmew-mz": 3
+  },
+  "iati-activity/document-link/title/narrative": {
+    "tlmew-activities": 3,
+    "tlmew-mz": 3
+  },
+  "iati-activity/document-link/title/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "tlmew-activities": 3,
+    "tlmew-mz": 3
+  },
+  "iati-activity/iati-identifier": {
+    "tlmew-mm": 1,
+    "tlmew-activities": 2,
+    "tlmew-mz": 1
+  },
+  "iati-activity/participating-org": {
+    "tlmew-mm": 1,
+    "tlmew-activities": 5,
+    "tlmew-mz": 4
+  },
+  "iati-activity/participating-org/@ref": {
+    "tlmew-activities": 2,
+    "tlmew-mz": 2
+  },
+  "iati-activity/participating-org/@role": {
+    "tlmew-mm": 1,
+    "tlmew-activities": 5,
+    "tlmew-mz": 4
+  },
+  "iati-activity/participating-org/@type": {
+    "tlmew-mm": 1,
+    "tlmew-activities": 5,
+    "tlmew-mz": 4
+  },
+  "iati-activity/participating-org/narrative": {
+    "tlmew-mm": 1,
+    "tlmew-activities": 5,
+    "tlmew-mz": 4
+  },
+  "iati-activity/participating-org/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "tlmew-mm": 1,
+    "tlmew-activities": 5,
+    "tlmew-mz": 4
+  },
+  "iati-activity/recipient-country": {
+    "tlmew-mm": 1,
+    "tlmew-activities": 2,
+    "tlmew-mz": 1
+  },
+  "iati-activity/recipient-country/@code": {
+    "tlmew-mm": 1,
+    "tlmew-activities": 2,
+    "tlmew-mz": 1
+  },
+  "iati-activity/recipient-country/@percentage": {
+    "tlmew-mm": 1,
+    "tlmew-activities": 2,
+    "tlmew-mz": 1
+  },
+  "iati-activity/recipient-country/narrative": {
+    "tlmew-mm": 1,
+    "tlmew-activities": 2,
+    "tlmew-mz": 1
+  },
+  "iati-activity/recipient-country/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "tlmew-mm": 1,
+    "tlmew-activities": 2,
+    "tlmew-mz": 1
+  },
+  "iati-activity/reporting-org": {
+    "tlmew-mm": 1,
+    "tlmew-activities": 2,
+    "tlmew-mz": 1
+  },
+  "iati-activity/reporting-org/@ref": {
+    "tlmew-mm": 1,
+    "tlmew-activities": 2,
+    "tlmew-mz": 1
+  },
+  "iati-activity/reporting-org/@type": {
+    "tlmew-mm": 1,
+    "tlmew-activities": 2,
+    "tlmew-mz": 1
+  },
+  "iati-activity/reporting-org/narrative": {
+    "tlmew-mm": 1,
+    "tlmew-activities": 2,
+    "tlmew-mz": 1
+  },
+  "iati-activity/reporting-org/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "tlmew-mm": 1,
+    "tlmew-activities": 2,
+    "tlmew-mz": 1
+  },
+  "iati-activity/sector": {
+    "tlmew-mm": 1,
+    "tlmew-activities": 5,
+    "tlmew-mz": 4
+  },
+  "iati-activity/sector/@code": {
+    "tlmew-mm": 1,
+    "tlmew-activities": 5,
+    "tlmew-mz": 4
+  },
+  "iati-activity/sector/@percentage": {
+    "tlmew-activities": 5,
+    "tlmew-mz": 4
+  },
+  "iati-activity/sector/@vocabulary": {
+    "tlmew-mm": 1,
+    "tlmew-activities": 5,
+    "tlmew-mz": 4
+  },
+  "iati-activity/sector/narrative": {
+    "tlmew-activities": 2,
+    "tlmew-mz": 1
+  },
+  "iati-activity/title": {
+    "tlmew-mm": 1,
+    "tlmew-activities": 2,
+    "tlmew-mz": 1
+  },
+  "iati-activity/title/narrative": {
+    "tlmew-mm": 1,
+    "tlmew-activities": 2,
+    "tlmew-mz": 1
+  },
+  "iati-activity/title/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "tlmew-mm": 1,
+    "tlmew-activities": 2,
+    "tlmew-mz": 1
+  },
+  "iati-activity/transaction": {
+    "tlmew-mm": 28,
+    "tlmew-activities": 35,
+    "tlmew-mz": 35
+  },
+  "iati-activity/transaction/@humanitarian": {
+    "tlmew-mz": 16
+  },
+  "iati-activity/transaction/@ref": {
+    "tlmew-mm": 28,
+    "tlmew-activities": 35,
+    "tlmew-mz": 35
+  },
+  "iati-activity/transaction/aid-type": {
+    "tlmew-mm": 24,
+    "tlmew-activities": 24
+  },
+  "iati-activity/transaction/aid-type/@code": {
+    "tlmew-mm": 24,
+    "tlmew-activities": 24
+  },
+  "iati-activity/transaction/description": {
+    "tlmew-mm": 28,
+    "tlmew-activities": 35,
+    "tlmew-mz": 34
+  },
+  "iati-activity/transaction/description/narrative": {
+    "tlmew-mm": 28,
+    "tlmew-activities": 35,
+    "tlmew-mz": 34
+  },
+  "iati-activity/transaction/description/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "tlmew-mm": 14,
+    "tlmew-activities": 15,
+    "tlmew-mz": 27
+  },
+  "iati-activity/transaction/disbursement-channel": {
+    "tlmew-mm": 28,
+    "tlmew-activities": 35,
+    "tlmew-mz": 21
+  },
+  "iati-activity/transaction/disbursement-channel/@code": {
+    "tlmew-mm": 28,
+    "tlmew-activities": 35,
+    "tlmew-mz": 21
+  },
+  "iati-activity/transaction/finance-type": {
+    "tlmew-mm": 24,
+    "tlmew-activities": 24
+  },
+  "iati-activity/transaction/finance-type/@code": {
+    "tlmew-mm": 24,
+    "tlmew-activities": 24
+  },
+  "iati-activity/transaction/flow-type": {
+    "tlmew-mm": 24,
+    "tlmew-activities": 24
+  },
+  "iati-activity/transaction/flow-type/@code": {
+    "tlmew-mm": 24,
+    "tlmew-activities": 24
+  },
+  "iati-activity/transaction/provider-org": {
+    "tlmew-mm": 28,
+    "tlmew-activities": 35,
+    "tlmew-mz": 35
+  },
+  "iati-activity/transaction/provider-org/@provider-activity-id": {
+    "tlmew-mm": 28,
+    "tlmew-activities": 29,
+    "tlmew-mz": 8
+  },
+  "iati-activity/transaction/provider-org/@ref": {
+    "tlmew-mm": 28,
+    "tlmew-activities": 35,
+    "tlmew-mz": 35
+  },
+  "iati-activity/transaction/provider-org/@type": {
+    "tlmew-mz": 27
+  },
+  "iati-activity/transaction/provider-org/narrative": {
+    "tlmew-mm": 28,
+    "tlmew-activities": 35,
+    "tlmew-mz": 35
+  },
+  "iati-activity/transaction/provider-org/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "tlmew-mm": 4,
+    "tlmew-activities": 4,
+    "tlmew-mz": 27
+  },
+  "iati-activity/transaction/receiver-org": {
+    "tlmew-mm": 28,
+    "tlmew-activities": 35,
+    "tlmew-mz": 34
+  },
+  "iati-activity/transaction/receiver-org/@receiver-activity-id": {
+    "tlmew-mm": 28,
+    "tlmew-activities": 28
+  },
+  "iati-activity/transaction/receiver-org/@ref": {
+    "tlmew-mm": 28,
+    "tlmew-activities": 35,
+    "tlmew-mz": 17
+  },
+  "iati-activity/transaction/receiver-org/@type": {
+    "tlmew-mz": 18
+  },
+  "iati-activity/transaction/receiver-org/narrative": {
+    "tlmew-mm": 28,
+    "tlmew-activities": 35,
+    "tlmew-mz": 34
+  },
+  "iati-activity/transaction/receiver-org/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "tlmew-mm": 5,
+    "tlmew-activities": 5,
+    "tlmew-mz": 26
+  },
+  "iati-activity/transaction/sector": {
+    "tlmew-activities": 13
+  },
+  "iati-activity/transaction/sector/@code": {
+    "tlmew-activities": 13
+  },
+  "iati-activity/transaction/sector/@vocabulary": {
+    "tlmew-activities": 13
+  },
+  "iati-activity/transaction/sector/narrative": {
+    "tlmew-activities": 13
+  },
+  "iati-activity/transaction/sector/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "tlmew-activities": 5
+  },
+  "iati-activity/transaction/tied-status": {
+    "tlmew-mm": 24,
+    "tlmew-activities": 24
+  },
+  "iati-activity/transaction/tied-status/@code": {
+    "tlmew-mm": 24,
+    "tlmew-activities": 24
+  },
+  "iati-activity/transaction/transaction-date": {
+    "tlmew-mm": 28,
+    "tlmew-activities": 35,
+    "tlmew-mz": 35
+  },
+  "iati-activity/transaction/transaction-date/@iso-date": {
+    "tlmew-mm": 28,
+    "tlmew-activities": 35,
+    "tlmew-mz": 35
+  },
+  "iati-activity/transaction/transaction-type": {
+    "tlmew-mm": 28,
+    "tlmew-activities": 35,
+    "tlmew-mz": 35
+  },
+  "iati-activity/transaction/transaction-type/@code": {
+    "tlmew-mm": 28,
+    "tlmew-activities": 35,
+    "tlmew-mz": 35
+  },
+  "iati-activity/transaction/value": {
+    "tlmew-mm": 28,
+    "tlmew-activities": 35,
+    "tlmew-mz": 35
+  },
+  "iati-activity/transaction/value/@currency": {
+    "tlmew-mm": 11,
+    "tlmew-activities": 15,
+    "tlmew-mz": 33
+  },
+  "iati-activity/transaction/value/@value-date": {
+    "tlmew-mm": 28,
+    "tlmew-activities": 35,
+    "tlmew-mz": 35
+  },
+  "iati-organisation": {
+    "tlmew-org": 1
+  },
+  "iati-organisation/@default-currency": {
+    "tlmew-org": 1
+  },
+  "iati-organisation/@last-updated-datetime": {
+    "tlmew-org": 1
+  },
+  "iati-organisation/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "tlmew-org": 1
+  },
+  "iati-organisation/iati-identifier": {
+    "tlmew-org": 1
+  },
+  "iati-organisation/name": {
+    "tlmew-org": 1
+  },
+  "iati-organisation/name/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "tlmew-org": 1
+  },
+  "iati-organisation/reporting-org": {
+    "tlmew-org": 1
+  },
+  "iati-organisation/reporting-org/@ref": {
+    "tlmew-org": 1
+  },
+  "iati-organisation/reporting-org/@type": {
+    "tlmew-org": 1
+  },
+  "iati-organisation/reporting-org/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "tlmew-org": 1
+  }
+}

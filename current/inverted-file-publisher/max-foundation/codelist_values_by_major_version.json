@@ -1,0 +1,252 @@
+{
+  "2": {
+    ".//@default-currency": {
+      "max-foundation-activities": {
+        "EUR": 1
+      }
+    },
+    ".//activity-date/@type": {
+      "max-foundation-activities": {
+        "2": 1
+      }
+    },
+    ".//activity-status/@code": {
+      "max-foundation-activities": {
+        "2": 1
+      }
+    },
+    ".//activity-scope/@code": {
+      "max-foundation-activities": {
+        "4": 1
+      }
+    },
+    ".//budget/@status": {
+      "max-foundation-activities": {
+        "2": 1,
+        "1": 3
+      }
+    },
+    ".//budget/@type": {
+      "max-foundation-activities": {
+        "2": 2,
+        "1": 2
+      }
+    },
+    ".//budget/value/@currency": {
+      "max-foundation-activities": {
+        "EUR": 4
+      }
+    },
+    ".//collaboration-type/@code": {
+      "max-foundation-activities": {
+        "2": 1
+      }
+    },
+    ".//contact-info/@type": {
+      "max-foundation-activities": {
+        "2": 1
+      }
+    },
+    ".//country-budget-items/@vocabulary": {
+      "max-foundation-activities": {
+        "1": 1
+      }
+    },
+    ".//country-budget-items/budget-item[../@vocabulary = '1']/@code": {
+      "max-foundation-activities": {
+        "4.1.3": 1
+      }
+    },
+    ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "max-foundation-activities": {
+        "B03": 1
+      }
+    },
+    ".//description/@type": {
+      "max-foundation-activities": {
+        "1": 1
+      }
+    },
+    ".//document-link/@format": {
+      "max-foundation-activities": {
+        "application/pdf": 3
+      }
+    },
+    ".//document-link/category/@code": {
+      "max-foundation-activities": {
+        "B01": 2,
+        "A08": 1
+      }
+    },
+    ".//document-link/language/@code": {
+      "max-foundation-activities": {
+        "en": 3
+      }
+    },
+    ".//humanitarian-scope/@type": {
+      "max-foundation-activities": {
+        "2": 1
+      }
+    },
+    ".//humanitarian-scope/@vocabulary": {
+      "max-foundation-activities": {
+        "99": 1
+      }
+    },
+    ".//location/administrative/@vocabulary": {
+      "max-foundation-activities": {
+        "G2": 1
+      }
+    },
+    ".//location/feature-designation/@code": {
+      "max-foundation-activities": {
+        "PPLS": 1
+      }
+    },
+    ".//location/location-class/@code": {
+      "max-foundation-activities": {
+        "2": 1
+      }
+    },
+    ".//location/location-id/@vocabulary": {
+      "max-foundation-activities": {
+        "G2": 1
+      }
+    },
+    ".//location/location-reach/@code": {
+      "max-foundation-activities": {
+        "1": 1
+      }
+    },
+    ".//location/exactness/@code": {
+      "max-foundation-activities": {
+        "2": 1
+      }
+    },
+    ".//other-identifier/@type": {
+      "max-foundation-activities": {
+        "A1": 1
+      }
+    },
+    ".//participating-org/@role": {
+      "max-foundation-activities": {
+        "1": 1
+      }
+    },
+    ".//participating-org/@type": {
+      "max-foundation-activities": {
+        "10": 1
+      }
+    },
+    ".//planned-disbursement/@type": {
+      "max-foundation-activities": {
+        "2": 1
+      }
+    },
+    ".//planned-disbursement/value/@currency": {
+      "max-foundation-activities": {
+        "EUR": 1
+      }
+    },
+    ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "max-foundation-activities": {
+        "9": 1
+      }
+    },
+    ".//policy-marker/@significance": {
+      "max-foundation-activities": {
+        "1": 1
+      }
+    },
+    ".//policy-marker/@vocabulary": {
+      "max-foundation-activities": {
+        "1": 1
+      }
+    },
+    ".//recipient-country/@code": {
+      "max-foundation-activities": {
+        "BD": 1
+      }
+    },
+    ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "max-foundation-activities": {
+        "679": 1
+      }
+    },
+    ".//recipient-region/@vocabulary": {
+      "max-foundation-activities": {
+        "1": 1
+      }
+    },
+    ".//related-activity/@type": {
+      "max-foundation-activities": {
+        "4": 1
+      }
+    },
+    ".//reporting-org/@type": {
+      "max-foundation-activities": {
+        "21": 1
+      }
+    },
+    ".//result/@type": {
+      "max-foundation-activities": {
+        "2": 12
+      }
+    },
+    ".//result/indicator/@measure": {
+      "max-foundation-activities": {
+        "1": 11,
+        "2": 1
+      }
+    },
+    ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "max-foundation-activities": {
+        "14081": 1
+      }
+    },
+    ".//sector/@vocabulary": {
+      "max-foundation-activities": {
+        "1": 1
+      }
+    },
+    ".//transaction/disbursement-channel/@code": {
+      "max-foundation-activities": {
+        "2": 1,
+        "1": 4
+      }
+    },
+    ".//transaction/finance-type/@code": {
+      "max-foundation-activities": {
+        "110": 3
+      }
+    },
+    ".//transaction/provider-org/@type": {
+      "max-foundation-activities": {
+        "22": 1,
+        "10": 4
+      }
+    },
+    ".//transaction/receiver-org/@type": {
+      "max-foundation-activities": {
+        "22": 2,
+        "60": 2
+      }
+    },
+    ".//transaction/transaction-type/@code": {
+      "max-foundation-activities": {
+        "4": 1,
+        "1": 4
+      }
+    },
+    ".//transaction/value/@currency": {
+      "max-foundation-activities": {
+        "EUR": 5
+      }
+    },
+    ".//@xml:lang": {
+      "max-foundation-activities": {
+        "en": 48
+      }
+    }
+  }
+}

@@ -1,0 +1,93 @@
+{
+  ".//@default-currency": {
+    "GBP": 2
+  },
+  ".//@xml:lang": {
+    "en": 64
+  },
+  ".//activity-date/@type": {
+    "2": 2
+  },
+  ".//activity-status/@code": {
+    "2": 2
+  },
+  ".//budget/@status": {
+    "2": 8,
+    "1": 2
+  },
+  ".//budget/@type": {
+    "1": 4,
+    "2": 5
+  },
+  ".//budget/value/@currency": {
+    "GBP": 10
+  },
+  ".//description/@type": {
+    "1": 2
+  },
+  ".//participating-org/@role": {
+    "4": 10,
+    "2": 1
+  },
+  ".//participating-org/@type": {
+    "80": 7,
+    "10": 2,
+    "23": 2
+  },
+  ".//recipient-country/@code": {
+    "GB": 2,
+    "ZA": 1,
+    "NG": 1,
+    "CM": 1,
+    "KE": 1,
+    "IN": 1,
+    "CN": 1,
+    "NO": 1,
+    "SL": 1,
+    "ZW": 1,
+    "UG": 1,
+    "KH": 1
+  },
+  ".//reporting-org/@type": {
+    "80": 2
+  },
+  ".//sector/@vocabulary": {
+    "1": 2,
+    "2": 1
+  },
+  ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "12182": 1,
+    "12110": 1
+  },
+  ".//sector[@vocabulary = '2']/@code": {
+    "121": 1
+  },
+  ".//transaction/aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "A01": 36
+  },
+  ".//transaction/disbursement-channel/@code": {
+    "2": 36
+  },
+  ".//transaction/finance-type/@code": {
+    "110": 36
+  },
+  ".//transaction/flow-type/@code": {
+    "10": 36
+  },
+  ".//transaction/provider-org/@type": {
+    "80": 35
+  },
+  ".//transaction/receiver-org/@type": {
+    "80": 30
+  },
+  ".//transaction/tied-status/@code": {
+    "5": 24
+  },
+  ".//transaction/transaction-type/@code": {
+    "4": 13,
+    "3": 60
+  },
+  ".//transaction/value/@currency": {
+    "GBP": 72
+  }
+}

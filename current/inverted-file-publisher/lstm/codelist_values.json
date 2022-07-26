@@ -1,0 +1,179 @@
+{
+  ".//@default-currency": {
+    "GBP": {
+      "lstm-gb": 2
+    }
+  },
+  ".//@xml:lang": {
+    "en": {
+      "lstm-gb": 64
+    }
+  },
+  ".//activity-date/@type": {
+    "2": {
+      "lstm-gb": 2
+    }
+  },
+  ".//activity-status/@code": {
+    "2": {
+      "lstm-gb": 2
+    }
+  },
+  ".//budget/@status": {
+    "2": {
+      "lstm-gb": 8
+    },
+    "1": {
+      "lstm-gb": 2
+    }
+  },
+  ".//budget/@type": {
+    "1": {
+      "lstm-gb": 4
+    },
+    "2": {
+      "lstm-gb": 5
+    }
+  },
+  ".//budget/value/@currency": {
+    "GBP": {
+      "lstm-gb": 10
+    }
+  },
+  ".//description/@type": {
+    "1": {
+      "lstm-gb": 2
+    }
+  },
+  ".//participating-org/@role": {
+    "4": {
+      "lstm-gb": 10
+    },
+    "2": {
+      "lstm-gb": 1
+    }
+  },
+  ".//participating-org/@type": {
+    "80": {
+      "lstm-gb": 7
+    },
+    "10": {
+      "lstm-gb": 2
+    },
+    "23": {
+      "lstm-gb": 2
+    }
+  },
+  ".//recipient-country/@code": {
+    "GB": {
+      "lstm-gb": 2
+    },
+    "ZA": {
+      "lstm-gb": 1
+    },
+    "NG": {
+      "lstm-gb": 1
+    },
+    "CM": {
+      "lstm-gb": 1
+    },
+    "KE": {
+      "lstm-gb": 1
+    },
+    "IN": {
+      "lstm-gb": 1
+    },
+    "CN": {
+      "lstm-gb": 1
+    },
+    "NO": {
+      "lstm-gb": 1
+    },
+    "SL": {
+      "lstm-gb": 1
+    },
+    "ZW": {
+      "lstm-gb": 1
+    },
+    "UG": {
+      "lstm-gb": 1
+    },
+    "KH": {
+      "lstm-gb": 1
+    }
+  },
+  ".//reporting-org/@type": {
+    "80": {
+      "lstm-gb": 2
+    }
+  },
+  ".//sector/@vocabulary": {
+    "1": {
+      "lstm-gb": 2
+    },
+    "2": {
+      "lstm-gb": 1
+    }
+  },
+  ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "12182": {
+      "lstm-gb": 1
+    },
+    "12110": {
+      "lstm-gb": 1
+    }
+  },
+  ".//sector[@vocabulary = '2']/@code": {
+    "121": {
+      "lstm-gb": 1
+    }
+  },
+  ".//transaction/aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "A01": {
+      "lstm-gb": 36
+    }
+  },
+  ".//transaction/disbursement-channel/@code": {
+    "2": {
+      "lstm-gb": 36
+    }
+  },
+  ".//transaction/finance-type/@code": {
+    "110": {
+      "lstm-gb": 36
+    }
+  },
+  ".//transaction/flow-type/@code": {
+    "10": {
+      "lstm-gb": 36
+    }
+  },
+  ".//transaction/provider-org/@type": {
+    "80": {
+      "lstm-gb": 35
+    }
+  },
+  ".//transaction/receiver-org/@type": {
+    "80": {
+      "lstm-gb": 30
+    }
+  },
+  ".//transaction/tied-status/@code": {
+    "5": {
+      "lstm-gb": 24
+    }
+  },
+  ".//transaction/transaction-type/@code": {
+    "4": {
+      "lstm-gb": 13
+    },
+    "3": {
+      "lstm-gb": 60
+    }
+  },
+  ".//transaction/value/@currency": {
+    "GBP": {
+      "lstm-gb": 72
+    }
+  }
+}

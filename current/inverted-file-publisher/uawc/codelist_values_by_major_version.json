@@ -1,0 +1,253 @@
+{
+  "2": {
+    ".//@default-currency": {
+      "uawc-ps": {
+        "USD": 1
+      }
+    },
+    ".//activity-date/@type": {
+      "uawc-ps": {
+        "2": 1,
+        "3": 1
+      }
+    },
+    ".//activity-status/@code": {
+      "uawc-ps": {
+        "2": 1
+      }
+    },
+    ".//activity-scope/@code": {
+      "uawc-ps": {
+        "4": 1
+      }
+    },
+    ".//budget/@status": {
+      "uawc-ps": {
+        "2": 4
+      }
+    },
+    ".//budget/@type": {
+      "uawc-ps": {
+        "2": 4
+      }
+    },
+    ".//budget/value/@currency": {
+      "uawc-ps": {
+        "USD": 4
+      }
+    },
+    ".//collaboration-type/@code": {
+      "uawc-ps": {
+        "1": 1
+      }
+    },
+    ".//contact-info/@type": {
+      "uawc-ps": {
+        "1": 1
+      }
+    },
+    ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "uawc-ps": {
+        "C01": 1
+      }
+    },
+    ".//default-finance-type/@code": {
+      "uawc-ps": {
+        "110": 1
+      }
+    },
+    ".//default-flow-type/@code": {
+      "uawc-ps": {
+        "10": 1
+      }
+    },
+    ".//default-tied-status/@code": {
+      "uawc-ps": {
+        "4": 1
+      }
+    },
+    ".//description/@type": {
+      "uawc-ps": {
+        "1": 1,
+        "2": 1,
+        "3": 1
+      }
+    },
+    ".//document-link/@format": {
+      "uawc-ps": {
+        "application/3gpdash-qoe-report+xml": 2,
+        "text/rtx": 1,
+        "image/jpeg": 1,
+        "text/richtext": 1,
+        "text/rtf": 3,
+        "text/html": 1
+      }
+    },
+    ".//document-link/category/@code": {
+      "uawc-ps": {
+        "A08": 3,
+        "A12": 4,
+        "B01": 2
+      }
+    },
+    ".//document-link/language/@code": {
+      "uawc-ps": {
+        "en": 9
+      }
+    },
+    ".//location/location-reach/@code": {
+      "uawc-ps": {
+        "1": 1
+      }
+    },
+    ".//location/exactness/@code": {
+      "uawc-ps": {
+        "2": 1
+      }
+    },
+    ".//other-identifier/@type": {
+      "uawc-ps": {
+        "A1": 1
+      }
+    },
+    ".//participating-org/@role": {
+      "uawc-ps": {
+        "3": 1,
+        "2": 3,
+        "1": 1
+      }
+    },
+    ".//participating-org/@type": {
+      "uawc-ps": {
+        "10": 1,
+        "22": 4
+      }
+    },
+    ".//policy-marker/@significance": {
+      "uawc-ps": {
+        "4": 1
+      }
+    },
+    ".//policy-marker/@vocabulary": {
+      "uawc-ps": {
+        "99": 1
+      }
+    },
+    ".//recipient-country/@code": {
+      "uawc-ps": {
+        "PS": 1
+      }
+    },
+    ".//reporting-org/@type": {
+      "uawc-ps": {
+        "22": 1
+      }
+    },
+    ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "uawc-ps": {
+        "31130": 19,
+        "31120": 40,
+        "31140": 32,
+        "31181": 30,
+        "31110": 6,
+        "31165": 16,
+        "22030": 1,
+        "99820": 5,
+        "15160": 2,
+        "92010": 1,
+        "16062": 1,
+        "16061": 1,
+        "11430": 2,
+        "31182": 2,
+        "52010": 1,
+        "33120": 1
+      }
+    },
+    ".//sector/@vocabulary": {
+      "uawc-ps": {
+        "1": 160
+      }
+    },
+    ".//transaction/aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "uawc-ps": {
+        "C01": 159
+      }
+    },
+    ".//transaction/disbursement-channel/@code": {
+      "uawc-ps": {
+        "2": 159,
+        "1": 1
+      }
+    },
+    ".//transaction/finance-type/@code": {
+      "uawc-ps": {
+        "110": 159,
+        "111": 1
+      }
+    },
+    ".//transaction/flow-type/@code": {
+      "uawc-ps": {
+        "10": 159
+      }
+    },
+    ".//transaction/provider-org/@type": {
+      "uawc-ps": {
+        "10": 159,
+        "22": 1
+      }
+    },
+    ".//transaction/receiver-org/@type": {
+      "uawc-ps": {
+        "22": 160
+      }
+    },
+    ".//transaction/sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "uawc-ps": {
+        "31130": 19,
+        "31120": 40,
+        "31140": 32,
+        "31181": 30,
+        "31110": 6,
+        "31165": 16,
+        "22030": 1,
+        "99820": 5,
+        "15160": 2,
+        "92010": 1,
+        "16062": 1,
+        "16061": 1,
+        "11430": 2,
+        "31182": 2,
+        "52010": 1,
+        "33120": 1
+      }
+    },
+    ".//transaction/sector/@vocabulary": {
+      "uawc-ps": {
+        "1": 160
+      }
+    },
+    ".//transaction/tied-status/@code": {
+      "uawc-ps": {
+        "4": 160
+      }
+    },
+    ".//transaction/transaction-type/@code": {
+      "uawc-ps": {
+        "4": 102,
+        "11": 1,
+        "1": 3,
+        "2": 54
+      }
+    },
+    ".//transaction/value/@currency": {
+      "uawc-ps": {
+        "USD": 160
+      }
+    },
+    ".//@xml:lang": {
+      "uawc-ps": {
+        "en": 606
+      }
+    }
+  }
+}

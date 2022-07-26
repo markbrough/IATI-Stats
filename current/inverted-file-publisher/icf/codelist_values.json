@@ -1,0 +1,270 @@
+{
+  ".//@default-currency": {
+    "GBP": {
+      "icf-ng": 3,
+      "icf-in": 1,
+      "icf-mr": 1,
+      "icf-np": 1
+    }
+  },
+  ".//@xml:lang": {
+    "en": {
+      "icf-ng": 17,
+      "icf-in": 5,
+      "icf-mr": 5,
+      "icf-np": 4
+    }
+  },
+  ".//activity-date/@type": {
+    "2": {
+      "icf-ng": 3,
+      "icf-in": 1,
+      "icf-mr": 1,
+      "icf-np": 1
+    },
+    "3": {
+      "icf-ng": 3,
+      "icf-mr": 1,
+      "icf-np": 1
+    },
+    "4": {
+      "icf-in": 1
+    }
+  },
+  ".//activity-status/@code": {
+    "2": {
+      "icf-ng": 3,
+      "icf-in": 1,
+      "icf-mr": 1,
+      "icf-np": 1
+    }
+  },
+  ".//budget/@status": {
+    "2": {
+      "icf-ng": 7,
+      "icf-in": 3,
+      "icf-mr": 4,
+      "icf-np": 4
+    },
+    "1": {
+      "icf-ng": 1
+    }
+  },
+  ".//budget/@type": {
+    "1": {
+      "icf-ng": 8,
+      "icf-in": 2,
+      "icf-mr": 4,
+      "icf-np": 4
+    },
+    "2": {
+      "icf-in": 1
+    }
+  },
+  ".//budget/value/@currency": {
+    "GBP": {
+      "icf-ng": 8,
+      "icf-in": 3,
+      "icf-mr": 4,
+      "icf-np": 4
+    }
+  },
+  ".//description/@type": {
+    "1": {
+      "icf-ng": 3,
+      "icf-in": 1,
+      "icf-mr": 1,
+      "icf-np": 1
+    }
+  },
+  ".//document-link/@format": {
+    "text/html": {
+      "icf-ng": 1
+    }
+  },
+  ".//document-link/category/@code": {
+    "B18": {
+      "icf-ng": 1
+    }
+  },
+  ".//location/exactness/@code": {
+    "2": {
+      "icf-ng": 7
+    }
+  },
+  ".//location/location-class/@code": {
+    "1": {
+      "icf-ng": 2
+    }
+  },
+  ".//location/location-reach/@code": {
+    "2": {
+      "icf-ng": 7
+    }
+  },
+  ".//participating-org/@role": {
+    "1": {
+      "icf-ng": 3,
+      "icf-in": 1,
+      "icf-mr": 1,
+      "icf-np": 1
+    },
+    "4": {
+      "icf-ng": 19
+    },
+    "2": {
+      "icf-ng": 1,
+      "icf-np": 1
+    }
+  },
+  ".//participating-org/@type": {
+    "10": {
+      "icf-ng": 3,
+      "icf-in": 1,
+      "icf-mr": 1,
+      "icf-np": 1
+    },
+    "80": {
+      "icf-ng": 4
+    },
+    "70": {
+      "icf-ng": 9,
+      "icf-np": 1
+    },
+    "21": {
+      "icf-ng": 2
+    },
+    "22": {
+      "icf-ng": 1
+    },
+    "60": {
+      "icf-ng": 2
+    },
+    "15": {
+      "icf-ng": 2
+    }
+  },
+  ".//recipient-country/@code": {
+    "NG": {
+      "icf-ng": 3
+    },
+    "IN": {
+      "icf-in": 1
+    },
+    "BF": {
+      "icf-mr": 1
+    },
+    "TD": {
+      "icf-mr": 1
+    },
+    "CM": {
+      "icf-mr": 1
+    },
+    "ML": {
+      "icf-mr": 1
+    },
+    "MR": {
+      "icf-mr": 1
+    },
+    "NE": {
+      "icf-mr": 1
+    },
+    "SN": {
+      "icf-mr": 1
+    },
+    "NP": {
+      "icf-np": 1
+    }
+  },
+  ".//reporting-org/@type": {
+    "70": {
+      "icf-ng": 3,
+      "icf-in": 1,
+      "icf-mr": 1,
+      "icf-np": 1
+    }
+  },
+  ".//sector/@vocabulary": {
+    "2": {
+      "icf-ng": 5,
+      "icf-in": 1,
+      "icf-mr": 1,
+      "icf-np": 1
+    },
+    "1": {
+      "icf-ng": 2
+    }
+  },
+  ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "43030": {
+      "icf-ng": 1
+    },
+    "15112": {
+      "icf-ng": 1
+    }
+  },
+  ".//sector[@vocabulary = '2']/@code": {
+    "151": {
+      "icf-ng": 2
+    },
+    "160": {
+      "icf-ng": 1
+    },
+    "210": {
+      "icf-ng": 1
+    },
+    "230": {
+      "icf-ng": 1
+    },
+    "111": {
+      "icf-in": 1
+    },
+    "520": {
+      "icf-mr": 1
+    },
+    "730": {
+      "icf-np": 1
+    }
+  },
+  ".//transaction/provider-org/@type": {
+    "80": {
+      "icf-ng": 2
+    },
+    "10": {
+      "icf-in": 1
+    }
+  },
+  ".//transaction/receiver-org/@type": {
+    "80": {
+      "icf-ng": 5
+    }
+  },
+  ".//transaction/transaction-type/@code": {
+    "1": {
+      "icf-ng": 43,
+      "icf-in": 5,
+      "icf-mr": 3,
+      "icf-np": 4
+    },
+    "3": {
+      "icf-ng": 130,
+      "icf-in": 15,
+      "icf-mr": 15,
+      "icf-np": 17
+    },
+    "4": {
+      "icf-ng": 33,
+      "icf-in": 8,
+      "icf-mr": 9,
+      "icf-np": 7
+    }
+  },
+  ".//transaction/value/@currency": {
+    "GBP": {
+      "icf-ng": 185,
+      "icf-in": 25,
+      "icf-mr": 27,
+      "icf-np": 28
+    }
+  }
+}

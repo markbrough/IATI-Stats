@@ -1,0 +1,108 @@
+{
+  ".//@default-currency": {
+    "USD": {
+      "cda-998": 3,
+      "cda-us": 1
+    }
+  },
+  ".//@xml:lang": {
+    "en": {
+      "cda-998": 18,
+      "cda-us": 6
+    }
+  },
+  ".//activity-date/@type": {
+    "start-actual": {
+      "cda-us": 1
+    }
+  },
+  ".//activity-status/@code": {
+    "2": {
+      "cda-998": 3,
+      "cda-us": 1
+    }
+  },
+  ".//budget/@type": {
+    "1": {
+      "cda-998": 3,
+      "cda-us": 1
+    }
+  },
+  ".//budget/value/@currency": {
+    "USD": {
+      "cda-998": 3,
+      "cda-us": 1
+    }
+  },
+  ".//description/@type": {
+    "1": {
+      "cda-998": 3,
+      "cda-us": 1
+    }
+  },
+  ".//document-link/category/@code": {
+    "B01": {
+      "cda-us": 1
+    }
+  },
+  ".//recipient-country/@code": {
+    "US": {
+      "cda-us": 1
+    }
+  },
+  ".//reporting-org/@type": {
+    "21": {
+      "cda-998": 3,
+      "cda-us": 1
+    }
+  },
+  ".//sector[@vocabulary = 'DAC' or not(@vocabulary)]/@code": {
+    "32110": {
+      "cda-998": 1
+    },
+    "43010": {
+      "cda-998": 1
+    },
+    "72010": {
+      "cda-998": 1
+    },
+    "15220": {
+      "cda-us": 1
+    }
+  },
+  ".//transaction/aid-type/@code": {
+    "B01": {
+      "cda-us": 1
+    }
+  },
+  ".//transaction/disbursement-channel/@code": {
+    "2": {
+      "cda-us": 1
+    }
+  },
+  ".//transaction/finance-type/@code": {
+    "110": {
+      "cda-us": 1
+    }
+  },
+  ".//transaction/flow-type/@code": {
+    "50": {
+      "cda-us": 1
+    }
+  },
+  ".//transaction/tied-status/@code": {
+    "5": {
+      "cda-us": 1
+    }
+  },
+  ".//transaction/transaction-type/@code": {
+    "IF": {
+      "cda-us": 1
+    }
+  },
+  ".//transaction/value/@currency": {
+    "GBP": {
+      "cda-us": 1
+    }
+  }
+}

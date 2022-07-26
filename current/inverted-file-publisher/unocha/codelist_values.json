@@ -1,0 +1,987 @@
+{
+  ".//@default-currency": {
+    "USD": {
+      "unocha-file2017": 123,
+      "unocha-file2016": 135,
+      "unocha-file2019": 91,
+      "unocha-file2015": 138,
+      "unocha-file2018": 112
+    }
+  },
+  ".//activity-date/@type": {
+    "3": {
+      "unocha-file2017": 123,
+      "unocha-file2016": 135,
+      "unocha-file2019": 91,
+      "unocha-file2015": 138,
+      "unocha-file2018": 112
+    },
+    "2": {
+      "unocha-file2017": 123,
+      "unocha-file2016": 135,
+      "unocha-file2019": 91,
+      "unocha-file2015": 138,
+      "unocha-file2018": 112
+    }
+  },
+  ".//activity-status/@code": {
+    "2": {
+      "unocha-file2017": 123,
+      "unocha-file2016": 135,
+      "unocha-file2019": 91,
+      "unocha-file2015": 138,
+      "unocha-file2018": 112
+    }
+  },
+  ".//budget/@type": {
+    "1": {
+      "unocha-file2017": 123,
+      "unocha-file2016": 135,
+      "unocha-file2019": 91,
+      "unocha-file2015": 138,
+      "unocha-file2018": 112
+    },
+    "2": {
+      "unocha-file2017": 123,
+      "unocha-file2016": 135,
+      "unocha-file2019": 91,
+      "unocha-file2015": 138,
+      "unocha-file2018": 112
+    }
+  },
+  ".//budget/value/@currency": {
+    "USD": {
+      "unocha-file2017": 246,
+      "unocha-file2016": 270,
+      "unocha-file2019": 182,
+      "unocha-file2015": 276,
+      "unocha-file2018": 224
+    }
+  },
+  ".//document-link/category/@code": {
+    "B17": {
+      "unocha-file2017": 123,
+      "unocha-file2016": 135,
+      "unocha-file2019": 91,
+      "unocha-file2015": 138,
+      "unocha-file2018": 112
+    }
+  },
+  ".//humanitarian-scope/@type": {
+    "1": {
+      "unocha-file2017": 31,
+      "unocha-file2016": 29,
+      "unocha-file2019": 32,
+      "unocha-file2015": 28,
+      "unocha-file2018": 33
+    }
+  },
+  ".//humanitarian-scope/@vocabulary": {
+    "2-1": {
+      "unocha-file2017": 31,
+      "unocha-file2016": 29,
+      "unocha-file2019": 32,
+      "unocha-file2015": 28,
+      "unocha-file2018": 33
+    }
+  },
+  ".//humanitarian-scope[@vocabulary = '2-1']/@code": {
+    "": {
+      "unocha-file2017": 31,
+      "unocha-file2016": 29,
+      "unocha-file2019": 32,
+      "unocha-file2015": 28,
+      "unocha-file2018": 33
+    }
+  },
+  ".//participating-org/@role": {
+    "4": {
+      "unocha-file2017": 123,
+      "unocha-file2016": 135,
+      "unocha-file2019": 91,
+      "unocha-file2015": 138,
+      "unocha-file2018": 112
+    }
+  },
+  ".//participating-org/@type": {
+    "40": {
+      "unocha-file2017": 123,
+      "unocha-file2016": 135,
+      "unocha-file2019": 91,
+      "unocha-file2015": 138,
+      "unocha-file2018": 112
+    }
+  },
+  ".//recipient-country/@code": {
+    "CH": {
+      "unocha-file2017": 44,
+      "unocha-file2016": 57,
+      "unocha-file2019": 26,
+      "unocha-file2015": 50,
+      "unocha-file2018": 30
+    },
+    "RU": {
+      "unocha-file2017": 3,
+      "unocha-file2016": 2,
+      "unocha-file2015": 1,
+      "unocha-file2018": 2
+    },
+    "US": {
+      "unocha-file2017": 88,
+      "unocha-file2016": 113,
+      "unocha-file2019": 15,
+      "unocha-file2015": 81,
+      "unocha-file2018": 84
+    },
+    "AF": {
+      "unocha-file2017": 1,
+      "unocha-file2016": 2,
+      "unocha-file2019": 1,
+      "unocha-file2015": 3,
+      "unocha-file2018": 1
+    },
+    "SE": {
+      "unocha-file2017": 40,
+      "unocha-file2016": 54,
+      "unocha-file2015": 33,
+      "unocha-file2018": 38
+    },
+    "": {
+      "unocha-file2017": 98,
+      "unocha-file2016": 102,
+      "unocha-file2019": 18,
+      "unocha-file2015": 146,
+      "unocha-file2018": 98
+    },
+    "DE": {
+      "unocha-file2017": 19,
+      "unocha-file2016": 37,
+      "unocha-file2019": 12,
+      "unocha-file2015": 16,
+      "unocha-file2018": 18
+    },
+    "EE": {
+      "unocha-file2017": 6,
+      "unocha-file2016": 4,
+      "unocha-file2015": 6,
+      "unocha-file2018": 6
+    },
+    "NO": {
+      "unocha-file2017": 26,
+      "unocha-file2016": 21,
+      "unocha-file2015": 15,
+      "unocha-file2018": 15
+    },
+    "DK": {
+      "unocha-file2017": 24,
+      "unocha-file2016": 1,
+      "unocha-file2015": 2,
+      "unocha-file2018": 1
+    },
+    "ET": {
+      "unocha-file2017": 2,
+      "unocha-file2016": 2,
+      "unocha-file2019": 1,
+      "unocha-file2015": 2,
+      "unocha-file2018": 2
+    },
+    "BE": {
+      "unocha-file2017": 11,
+      "unocha-file2016": 11,
+      "unocha-file2019": 1,
+      "unocha-file2015": 3,
+      "unocha-file2018": 3
+    },
+    "BI": {
+      "unocha-file2017": 1,
+      "unocha-file2016": 1,
+      "unocha-file2019": 1,
+      "unocha-file2018": 1
+    },
+    "CA": {
+      "unocha-file2017": 43,
+      "unocha-file2016": 24,
+      "unocha-file2015": 24,
+      "unocha-file2018": 35
+    },
+    "CM": {
+      "unocha-file2017": 1,
+      "unocha-file2019": 1,
+      "unocha-file2018": 1
+    },
+    "CF": {
+      "unocha-file2017": 1,
+      "unocha-file2016": 2,
+      "unocha-file2019": 1,
+      "unocha-file2015": 2,
+      "unocha-file2018": 1
+    },
+    "TD": {
+      "unocha-file2017": 1,
+      "unocha-file2016": 1,
+      "unocha-file2019": 1,
+      "unocha-file2015": 1,
+      "unocha-file2018": 1
+    },
+    "ES": {
+      "unocha-file2017": 5,
+      "unocha-file2016": 2,
+      "unocha-file2015": 1,
+      "unocha-file2018": 11
+    },
+    "KR": {
+      "unocha-file2017": 4,
+      "unocha-file2016": 3,
+      "unocha-file2019": 1,
+      "unocha-file2015": 4,
+      "unocha-file2018": 4
+    },
+    "AU": {
+      "unocha-file2017": 7,
+      "unocha-file2016": 4,
+      "unocha-file2019": 3,
+      "unocha-file2015": 4,
+      "unocha-file2018": 5
+    },
+    "CO": {
+      "unocha-file2017": 1,
+      "unocha-file2016": 1,
+      "unocha-file2019": 1,
+      "unocha-file2015": 1,
+      "unocha-file2018": 1
+    },
+    "NL": {
+      "unocha-file2017": 3,
+      "unocha-file2016": 3,
+      "unocha-file2019": 1,
+      "unocha-file2015": 5,
+      "unocha-file2018": 3
+    },
+    "CD": {
+      "unocha-file2017": 1,
+      "unocha-file2016": 2,
+      "unocha-file2019": 1,
+      "unocha-file2015": 2,
+      "unocha-file2018": 1
+    },
+    "ER": {
+      "unocha-file2017": 1,
+      "unocha-file2016": 1,
+      "unocha-file2019": 1,
+      "unocha-file2015": 1,
+      "unocha-file2018": 1
+    },
+    "IE": {
+      "unocha-file2017": 5,
+      "unocha-file2016": 5,
+      "unocha-file2019": 1,
+      "unocha-file2015": 3,
+      "unocha-file2018": 3
+    },
+    "AE": {
+      "unocha-file2017": 4,
+      "unocha-file2016": 3,
+      "unocha-file2019": 1,
+      "unocha-file2015": 6,
+      "unocha-file2018": 10
+    },
+    "TH": {
+      "unocha-file2017": 3,
+      "unocha-file2016": 3,
+      "unocha-file2019": 2,
+      "unocha-file2015": 3,
+      "unocha-file2018": 2
+    },
+    "KE": {
+      "unocha-file2017": 2,
+      "unocha-file2016": 2,
+      "unocha-file2019": 2,
+      "unocha-file2015": 2,
+      "unocha-file2018": 2
+    },
+    "HT": {
+      "unocha-file2017": 1,
+      "unocha-file2016": 1,
+      "unocha-file2019": 1,
+      "unocha-file2015": 1,
+      "unocha-file2018": 1
+    },
+    "PE": {
+      "unocha-file2017": 2
+    },
+    "IQ": {
+      "unocha-file2017": 1,
+      "unocha-file2016": 1,
+      "unocha-file2019": 1,
+      "unocha-file2015": 2,
+      "unocha-file2018": 1
+    },
+    "MY": {
+      "unocha-file2017": 6,
+      "unocha-file2015": 1
+    },
+    "BG": {
+      "unocha-file2017": 2,
+      "unocha-file2016": 1,
+      "unocha-file2018": 3
+    },
+    "SK": {
+      "unocha-file2017": 3,
+      "unocha-file2018": 2
+    },
+    "JP": {
+      "unocha-file2017": 10,
+      "unocha-file2016": 12,
+      "unocha-file2015": 12,
+      "unocha-file2018": 14
+    },
+    "LY": {
+      "unocha-file2017": 1,
+      "unocha-file2019": 1,
+      "unocha-file2018": 1
+    },
+    "ML": {
+      "unocha-file2017": 1,
+      "unocha-file2016": 1,
+      "unocha-file2019": 1,
+      "unocha-file2015": 1,
+      "unocha-file2018": 1
+    },
+    "MM": {
+      "unocha-file2017": 1,
+      "unocha-file2016": 1,
+      "unocha-file2019": 1,
+      "unocha-file2015": 1,
+      "unocha-file2018": 1
+    },
+    "NE": {
+      "unocha-file2017": 1,
+      "unocha-file2016": 1,
+      "unocha-file2019": 1,
+      "unocha-file2015": 1,
+      "unocha-file2018": 1
+    },
+    "NG": {
+      "unocha-file2017": 1,
+      "unocha-file2016": 1,
+      "unocha-file2019": 1,
+      "unocha-file2015": 1,
+      "unocha-file2018": 1
+    },
+    "KW": {
+      "unocha-file2017": 6,
+      "unocha-file2016": 1,
+      "unocha-file2015": 1,
+      "unocha-file2018": 1
+    },
+    "QA": {
+      "unocha-file2017": 5,
+      "unocha-file2019": 2,
+      "unocha-file2018": 3
+    },
+    "PS": {
+      "unocha-file2017": 1,
+      "unocha-file2016": 1,
+      "unocha-file2019": 1,
+      "unocha-file2015": 1,
+      "unocha-file2018": 1
+    },
+    "PK": {
+      "unocha-file2017": 1,
+      "unocha-file2016": 1,
+      "unocha-file2019": 1,
+      "unocha-file2015": 1,
+      "unocha-file2018": 1
+    },
+    "GB": {
+      "unocha-file2017": 13,
+      "unocha-file2016": 24,
+      "unocha-file2019": 3,
+      "unocha-file2015": 18,
+      "unocha-file2018": 11
+    },
+    "PH": {
+      "unocha-file2017": 1,
+      "unocha-file2016": 6,
+      "unocha-file2019": 1,
+      "unocha-file2015": 1,
+      "unocha-file2018": 1
+    },
+    "PA": {
+      "unocha-file2017": 1,
+      "unocha-file2016": 1,
+      "unocha-file2019": 1,
+      "unocha-file2015": 1,
+      "unocha-file2018": 1
+    },
+    "AR": {
+      "unocha-file2017": 1
+    },
+    "ZA": {
+      "unocha-file2017": 1,
+      "unocha-file2016": 1,
+      "unocha-file2015": 2,
+      "unocha-file2018": 1
+    },
+    "KZ": {
+      "unocha-file2017": 3,
+      "unocha-file2016": 3,
+      "unocha-file2015": 1,
+      "unocha-file2018": 8
+    },
+    "EG": {
+      "unocha-file2017": 1,
+      "unocha-file2016": 1,
+      "unocha-file2019": 1,
+      "unocha-file2015": 1,
+      "unocha-file2018": 1
+    },
+    "FJ": {
+      "unocha-file2017": 1,
+      "unocha-file2016": 1,
+      "unocha-file2019": 1,
+      "unocha-file2015": 1,
+      "unocha-file2018": 1
+    },
+    "SN": {
+      "unocha-file2017": 1,
+      "unocha-file2016": 2,
+      "unocha-file2019": 1,
+      "unocha-file2015": 2,
+      "unocha-file2018": 1
+    },
+    "MT": {
+      "unocha-file2017": 6,
+      "unocha-file2016": 5,
+      "unocha-file2018": 1
+    },
+    "SO": {
+      "unocha-file2017": 2,
+      "unocha-file2016": 3,
+      "unocha-file2019": 1,
+      "unocha-file2015": 2,
+      "unocha-file2018": 1
+    },
+    "SS": {
+      "unocha-file2017": 1,
+      "unocha-file2016": 2,
+      "unocha-file2019": 1,
+      "unocha-file2015": 2,
+      "unocha-file2018": 1
+    },
+    "SA": {
+      "unocha-file2017": 1,
+      "unocha-file2019": 1,
+      "unocha-file2015": 3,
+      "unocha-file2018": 7
+    },
+    "SD": {
+      "unocha-file2017": 1,
+      "unocha-file2016": 2,
+      "unocha-file2019": 1,
+      "unocha-file2015": 2,
+      "unocha-file2018": 1
+    },
+    "SY": {
+      "unocha-file2017": 5,
+      "unocha-file2016": 5,
+      "unocha-file2019": 1,
+      "unocha-file2015": 5,
+      "unocha-file2018": 1
+    },
+    "PL": {
+      "unocha-file2017": 1,
+      "unocha-file2016": 1,
+      "unocha-file2015": 2,
+      "unocha-file2018": 1
+    },
+    "GR": {
+      "unocha-file2017": 1
+    },
+    "UA": {
+      "unocha-file2017": 1,
+      "unocha-file2016": 1,
+      "unocha-file2019": 1,
+      "unocha-file2015": 1,
+      "unocha-file2018": 1
+    },
+    "AT": {
+      "unocha-file2017": 2,
+      "unocha-file2016": 2,
+      "unocha-file2015": 3,
+      "unocha-file2018": 1
+    },
+    "CN": {
+      "unocha-file2017": 1,
+      "unocha-file2016": 1,
+      "unocha-file2015": 1,
+      "unocha-file2018": 1
+    },
+    "FI": {
+      "unocha-file2017": 1,
+      "unocha-file2016": 1,
+      "unocha-file2015": 1,
+      "unocha-file2018": 1
+    },
+    "FR": {
+      "unocha-file2017": 1,
+      "unocha-file2016": 1,
+      "unocha-file2015": 1,
+      "unocha-file2018": 1
+    },
+    "IS": {
+      "unocha-file2017": 1,
+      "unocha-file2016": 1,
+      "unocha-file2019": 1,
+      "unocha-file2015": 1,
+      "unocha-file2018": 2
+    },
+    "LU": {
+      "unocha-file2017": 3,
+      "unocha-file2016": 2,
+      "unocha-file2019": 2,
+      "unocha-file2015": 3,
+      "unocha-file2018": 4
+    },
+    "MC": {
+      "unocha-file2017": 1,
+      "unocha-file2016": 1,
+      "unocha-file2015": 2,
+      "unocha-file2018": 1
+    },
+    "NZ": {
+      "unocha-file2017": 1,
+      "unocha-file2016": 1,
+      "unocha-file2015": 1,
+      "unocha-file2018": 1
+    },
+    "SG": {
+      "unocha-file2017": 1,
+      "unocha-file2016": 1,
+      "unocha-file2015": 2
+    },
+    "TR": {
+      "unocha-file2017": 1,
+      "unocha-file2016": 1,
+      "unocha-file2019": 1,
+      "unocha-file2015": 4,
+      "unocha-file2018": 1
+    },
+    "YE": {
+      "unocha-file2017": 1,
+      "unocha-file2016": 1,
+      "unocha-file2019": 2,
+      "unocha-file2015": 1,
+      "unocha-file2018": 4
+    },
+    "AD": {
+      "unocha-file2017": 1,
+      "unocha-file2015": 1
+    },
+    "AZ": {
+      "unocha-file2017": 1,
+      "unocha-file2015": 1
+    },
+    "CI": {
+      "unocha-file2016": 1,
+      "unocha-file2015": 1
+    },
+    "RO": {
+      "unocha-file2016": 1,
+      "unocha-file2018": 1
+    },
+    "GE": {
+      "unocha-file2016": 1
+    },
+    "CZ": {
+      "unocha-file2016": 1,
+      "unocha-file2015": 2
+    },
+    "HU": {
+      "unocha-file2016": 1
+    },
+    "JO": {
+      "unocha-file2019": 2,
+      "unocha-file2018": 2
+    },
+    "LB": {
+      "unocha-file2019": 1,
+      "unocha-file2018": 1
+    },
+    "ID": {
+      "unocha-file2015": 1
+    },
+    "IT": {
+      "unocha-file2015": 1,
+      "unocha-file2018": 1
+    },
+    "NP": {
+      "unocha-file2015": 1
+    },
+    "MA": {
+      "unocha-file2015": 1
+    },
+    "TT": {
+      "unocha-file2015": 2
+    },
+    "LV": {
+      "unocha-file2018": 1
+    }
+  },
+  ".//reporting-org/@type": {
+    "40": {
+      "unocha-file2017": 123,
+      "unocha-file2016": 135,
+      "unocha-file2019": 91,
+      "unocha-file2015": 138,
+      "unocha-file2018": 112
+    }
+  },
+  ".//sector/@vocabulary": {
+    "1": {
+      "unocha-file2017": 123,
+      "unocha-file2016": 135,
+      "unocha-file2019": 91,
+      "unocha-file2015": 138,
+      "unocha-file2018": 112
+    }
+  },
+  ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "72050": {
+      "unocha-file2017": 123,
+      "unocha-file2016": 135,
+      "unocha-file2019": 91,
+      "unocha-file2015": 138,
+      "unocha-file2018": 112
+    }
+  },
+  ".//transaction/aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "B02": {
+      "unocha-file2017": 423,
+      "unocha-file2016": 426,
+      "unocha-file2019": 35,
+      "unocha-file2015": 377,
+      "unocha-file2018": 362
+    }
+  },
+  ".//transaction/finance-type/@code": {
+    "110": {
+      "unocha-file2017": 423,
+      "unocha-file2016": 426,
+      "unocha-file2019": 35,
+      "unocha-file2015": 377,
+      "unocha-file2018": 362
+    }
+  },
+  ".//transaction/recipient-country/@code": {
+    "RU": {
+      "unocha-file2017": 3,
+      "unocha-file2016": 2,
+      "unocha-file2015": 1,
+      "unocha-file2018": 2
+    },
+    "US": {
+      "unocha-file2017": 72,
+      "unocha-file2016": 90,
+      "unocha-file2015": 61,
+      "unocha-file2018": 69
+    },
+    "SE": {
+      "unocha-file2017": 40,
+      "unocha-file2016": 54,
+      "unocha-file2015": 33,
+      "unocha-file2018": 38
+    },
+    "": {
+      "unocha-file2017": 68,
+      "unocha-file2016": 73,
+      "unocha-file2019": 5,
+      "unocha-file2015": 113,
+      "unocha-file2018": 64
+    },
+    "DE": {
+      "unocha-file2017": 19,
+      "unocha-file2016": 37,
+      "unocha-file2019": 12,
+      "unocha-file2015": 16,
+      "unocha-file2018": 18
+    },
+    "EE": {
+      "unocha-file2017": 6,
+      "unocha-file2016": 4,
+      "unocha-file2015": 6,
+      "unocha-file2018": 6
+    },
+    "NO": {
+      "unocha-file2017": 26,
+      "unocha-file2016": 21,
+      "unocha-file2015": 15,
+      "unocha-file2018": 15
+    },
+    "DK": {
+      "unocha-file2017": 24,
+      "unocha-file2016": 1,
+      "unocha-file2015": 2,
+      "unocha-file2018": 1
+    },
+    "BE": {
+      "unocha-file2017": 10,
+      "unocha-file2016": 10,
+      "unocha-file2019": 1,
+      "unocha-file2015": 2,
+      "unocha-file2018": 2
+    },
+    "CA": {
+      "unocha-file2017": 43,
+      "unocha-file2016": 24,
+      "unocha-file2015": 24,
+      "unocha-file2018": 35
+    },
+    "ES": {
+      "unocha-file2017": 5,
+      "unocha-file2016": 2,
+      "unocha-file2015": 1,
+      "unocha-file2018": 11
+    },
+    "KR": {
+      "unocha-file2017": 4,
+      "unocha-file2016": 3,
+      "unocha-file2019": 1,
+      "unocha-file2015": 4,
+      "unocha-file2018": 4
+    },
+    "CH": {
+      "unocha-file2017": 12,
+      "unocha-file2016": 23,
+      "unocha-file2019": 4,
+      "unocha-file2015": 16,
+      "unocha-file2018": 15
+    },
+    "AU": {
+      "unocha-file2017": 7,
+      "unocha-file2016": 4,
+      "unocha-file2019": 3,
+      "unocha-file2015": 4,
+      "unocha-file2018": 5
+    },
+    "IE": {
+      "unocha-file2017": 5,
+      "unocha-file2016": 5,
+      "unocha-file2019": 1,
+      "unocha-file2015": 3,
+      "unocha-file2018": 3
+    },
+    "AE": {
+      "unocha-file2017": 3,
+      "unocha-file2016": 2,
+      "unocha-file2015": 5,
+      "unocha-file2018": 8
+    },
+    "PE": {
+      "unocha-file2017": 2
+    },
+    "MY": {
+      "unocha-file2017": 6,
+      "unocha-file2015": 1
+    },
+    "BG": {
+      "unocha-file2017": 2,
+      "unocha-file2016": 1,
+      "unocha-file2018": 3
+    },
+    "SK": {
+      "unocha-file2017": 3,
+      "unocha-file2018": 2
+    },
+    "JP": {
+      "unocha-file2017": 10,
+      "unocha-file2016": 12,
+      "unocha-file2015": 12,
+      "unocha-file2018": 14
+    },
+    "KW": {
+      "unocha-file2017": 6,
+      "unocha-file2016": 1,
+      "unocha-file2015": 1,
+      "unocha-file2018": 1
+    },
+    "QA": {
+      "unocha-file2017": 4,
+      "unocha-file2019": 1,
+      "unocha-file2018": 2
+    },
+    "GB": {
+      "unocha-file2017": 13,
+      "unocha-file2016": 24,
+      "unocha-file2019": 3,
+      "unocha-file2015": 18,
+      "unocha-file2018": 11
+    },
+    "TH": {
+      "unocha-file2017": 1,
+      "unocha-file2016": 1,
+      "unocha-file2015": 1
+    },
+    "AR": {
+      "unocha-file2017": 1
+    },
+    "KZ": {
+      "unocha-file2017": 2,
+      "unocha-file2016": 2,
+      "unocha-file2018": 7
+    },
+    "MT": {
+      "unocha-file2017": 6,
+      "unocha-file2016": 5,
+      "unocha-file2018": 1
+    },
+    "SA": {
+      "unocha-file2017": 1,
+      "unocha-file2019": 1,
+      "unocha-file2015": 3,
+      "unocha-file2018": 7
+    },
+    "PL": {
+      "unocha-file2017": 1,
+      "unocha-file2016": 1,
+      "unocha-file2015": 2,
+      "unocha-file2018": 1
+    },
+    "GR": {
+      "unocha-file2017": 1
+    },
+    "AT": {
+      "unocha-file2017": 2,
+      "unocha-file2016": 2,
+      "unocha-file2015": 3,
+      "unocha-file2018": 1
+    },
+    "CN": {
+      "unocha-file2017": 1,
+      "unocha-file2016": 1,
+      "unocha-file2015": 1,
+      "unocha-file2018": 1
+    },
+    "FI": {
+      "unocha-file2017": 1,
+      "unocha-file2016": 1,
+      "unocha-file2015": 1,
+      "unocha-file2018": 1
+    },
+    "FR": {
+      "unocha-file2017": 1,
+      "unocha-file2016": 1,
+      "unocha-file2015": 1,
+      "unocha-file2018": 1
+    },
+    "IS": {
+      "unocha-file2017": 1,
+      "unocha-file2016": 1,
+      "unocha-file2019": 1,
+      "unocha-file2015": 1,
+      "unocha-file2018": 2
+    },
+    "LU": {
+      "unocha-file2017": 3,
+      "unocha-file2016": 2,
+      "unocha-file2019": 2,
+      "unocha-file2015": 3,
+      "unocha-file2018": 4
+    },
+    "MC": {
+      "unocha-file2017": 1,
+      "unocha-file2016": 1,
+      "unocha-file2015": 2,
+      "unocha-file2018": 1
+    },
+    "NL": {
+      "unocha-file2017": 2,
+      "unocha-file2016": 3,
+      "unocha-file2015": 5,
+      "unocha-file2018": 2
+    },
+    "NZ": {
+      "unocha-file2017": 1,
+      "unocha-file2016": 1,
+      "unocha-file2015": 1,
+      "unocha-file2018": 1
+    },
+    "SG": {
+      "unocha-file2017": 1,
+      "unocha-file2016": 1,
+      "unocha-file2015": 2
+    },
+    "TR": {
+      "unocha-file2017": 1,
+      "unocha-file2016": 1,
+      "unocha-file2015": 4
+    },
+    "AD": {
+      "unocha-file2017": 1,
+      "unocha-file2015": 1
+    },
+    "AZ": {
+      "unocha-file2017": 1,
+      "unocha-file2015": 1
+    },
+    "RO": {
+      "unocha-file2016": 1,
+      "unocha-file2018": 1
+    },
+    "PH": {
+      "unocha-file2016": 5
+    },
+    "GE": {
+      "unocha-file2016": 1
+    },
+    "CZ": {
+      "unocha-file2016": 1,
+      "unocha-file2015": 2
+    },
+    "HU": {
+      "unocha-file2016": 1
+    },
+    "AF": {
+      "unocha-file2015": 1
+    },
+    "ZA": {
+      "unocha-file2015": 1
+    },
+    "MA": {
+      "unocha-file2015": 1
+    },
+    "TT": {
+      "unocha-file2015": 2
+    },
+    "IT": {
+      "unocha-file2018": 1
+    },
+    "LV": {
+      "unocha-file2018": 1
+    }
+  },
+  ".//transaction/transaction-type/@code": {
+    "1": {
+      "unocha-file2017": 417,
+      "unocha-file2016": 425,
+      "unocha-file2019": 3,
+      "unocha-file2015": 377,
+      "unocha-file2018": 328
+    },
+    "11": {
+      "unocha-file2017": 6,
+      "unocha-file2016": 1,
+      "unocha-file2019": 32,
+      "unocha-file2018": 34
+    }
+  },
+  ".//transaction/value/@currency": {
+    "USD": {
+      "unocha-file2017": 423,
+      "unocha-file2016": 426,
+      "unocha-file2019": 35,
+      "unocha-file2015": 377,
+      "unocha-file2018": 362
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  ".//@default-currency": {
+    "GBP": 10
+  },
+  ".//@xml:lang": {
+    "en": 10
+  },
+  ".//activity-date/@type": {
+    "2": 10,
+    "3": 10
+  },
+  ".//activity-status/@code": {
+    "2": 10
+  },
+  ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "C01": 10
+  },
+  ".//default-finance-type/@code": {
+    "110": 10
+  },
+  ".//default-flow-type/@code": {
+    "30": 10
+  },
+  ".//default-tied-status/@code": {
+    "5": 10
+  },
+  ".//other-identifier/@type": {
+    "A1": 10
+  },
+  ".//participating-org/@role": {
+    "Funding": 10,
+    "Implementing": 10
+  },
+  ".//recipient-country/@code": {
+    "MZ": 10
+  },
+  ".//reporting-org/@type": {
+    "21": 10
+  },
+  ".//sector/@vocabulary": {
+    "1": 26
+  },
+  ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "31130": 3,
+    "32130": 2,
+    "72040": 2,
+    "92030": 7,
+    "15160": 3,
+    "15150": 2,
+    "11330": 2,
+    "14030": 2,
+    "15220": 2,
+    "72010": 1
+  },
+  ".//transaction/transaction-type/@code": {
+    "1": 19,
+    "3": 41
+  }
+}

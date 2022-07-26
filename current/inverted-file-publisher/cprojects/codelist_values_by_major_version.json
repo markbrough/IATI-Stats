@@ -1,0 +1,515 @@
+{
+  "2": {
+    ".//@default-currency": {
+      "cprojects-ukaidmatchgrants": {
+        "GBP": 108
+      },
+      "cprojects-commongroundinitiativegrants": {
+        "GBP": 235
+      },
+      "cprojects-initiatives": {
+        "GBP": 6
+      }
+    },
+    ".//activity-date/@type": {
+      "cprojects-ukaidmatchgrants": {
+        "1": 108,
+        "3": 108
+      },
+      "cprojects-commongroundinitiativegrants": {
+        "1": 235,
+        "3": 235
+      },
+      "cprojects-initiatives": {
+        "2": 6,
+        "3": 6
+      }
+    },
+    ".//activity-status/@code": {
+      "cprojects-ukaidmatchgrants": {
+        "2": 64,
+        "3": 40,
+        "4": 4
+      },
+      "cprojects-commongroundinitiativegrants": {
+        "3": 212,
+        "2": 23
+      },
+      "cprojects-initiatives": {
+        "2": 6
+      }
+    },
+    ".//budget/@status": {
+      "cprojects-ukaidmatchgrants": {
+        "2": 108
+      },
+      "cprojects-commongroundinitiativegrants": {
+        "2": 235
+      },
+      "cprojects-initiatives": {
+        "2": 6
+      }
+    },
+    ".//budget/@type": {
+      "cprojects-ukaidmatchgrants": {
+        "1": 99,
+        "2": 9
+      },
+      "cprojects-commongroundinitiativegrants": {
+        "1": 214,
+        "2": 21
+      },
+      "cprojects-initiatives": {
+        "2": 6
+      }
+    },
+    ".//budget/value/@currency": {
+      "cprojects-ukaidmatchgrants": {
+        "GBP": 108
+      },
+      "cprojects-commongroundinitiativegrants": {
+        "GBP": 235
+      },
+      "cprojects-initiatives": {
+        "GBP": 6
+      }
+    },
+    ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "cprojects-ukaidmatchgrants": {
+        "C01": 106,
+        "C02": 1,
+        "C03": 1
+      },
+      "cprojects-commongroundinitiativegrants": {
+        "C01": 235
+      },
+      "cprojects-initiatives": {
+        "C01": 6
+      }
+    },
+    ".//default-finance-type/@code": {
+      "cprojects-ukaidmatchgrants": {
+        "110": 108
+      },
+      "cprojects-commongroundinitiativegrants": {
+        "110": 235
+      }
+    },
+    ".//default-flow-type/@code": {
+      "cprojects-ukaidmatchgrants": {
+        "30": 108
+      },
+      "cprojects-commongroundinitiativegrants": {
+        "30": 235
+      },
+      "cprojects-initiatives": {
+        "30": 6
+      }
+    },
+    ".//default-tied-status/@code": {
+      "cprojects-ukaidmatchgrants": {
+        "5": 108
+      },
+      "cprojects-commongroundinitiativegrants": {
+        "5": 235
+      }
+    },
+    ".//participating-org/@role": {
+      "cprojects-ukaidmatchgrants": {
+        "1": 108,
+        "2": 76,
+        "4": 32
+      },
+      "cprojects-commongroundinitiativegrants": {
+        "1": 235,
+        "2": 235
+      },
+      "cprojects-initiatives": {
+        "2": 6,
+        "1": 11
+      }
+    },
+    ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "cprojects-ukaidmatchgrants": {
+        "3": 44,
+        "1": 15,
+        "9": 16
+      },
+      "cprojects-commongroundinitiativegrants": {
+        "9": 15,
+        "7": 4
+      },
+      "cprojects-initiatives": {
+        "9": 1,
+        "3": 1,
+        "1": 2,
+        "4": 1
+      }
+    },
+    ".//policy-marker/@significance": {
+      "cprojects-ukaidmatchgrants": {
+        "2": 46,
+        "1": 29
+      },
+      "cprojects-commongroundinitiativegrants": {
+        "2": 15,
+        "1": 4
+      },
+      "cprojects-initiatives": {
+        "1": 3,
+        "2": 2
+      }
+    },
+    ".//recipient-country/@code": {
+      "cprojects-ukaidmatchgrants": {
+        "ET": 7,
+        "ZM": 13,
+        "TZ": 22,
+        "SN": 1,
+        "KE": 9,
+        "UG": 21,
+        "MW": 10,
+        "NG": 1,
+        "ZA": 12,
+        "ZW": 1,
+        "GH": 4,
+        "ML": 3,
+        "SL": 8,
+        "BF": 1,
+        "MR": 1,
+        "SZ": 1,
+        "SD": 1,
+        "CD": 1,
+        "RW": 3,
+        "LR": 1
+      },
+      "cprojects-commongroundinitiativegrants": {
+        "GH": 16,
+        "MW": 11,
+        "TZ": 17,
+        "CD": 8,
+        "LS": 2,
+        "SS": 4,
+        "CM": 3,
+        "ET": 10,
+        "ZA": 17,
+        "BF": 2,
+        "MZ": 2,
+        "KE": 27,
+        "ZW": 8,
+        "UG": 32,
+        "SZ": 1,
+        "UK": 33,
+        "BI": 1,
+        "SL": 13,
+        "SO": 9,
+        "MG": 3,
+        "EG": 2,
+        "CG": 3,
+        "ZM": 9,
+        "LR": 1,
+        "ML": 1,
+        "RW": 4,
+        "NG": 12,
+        "SN": 1,
+        "GN": 1,
+        "KE              ": 1,
+        "SD": 1,
+        "BJ": 1
+      }
+    },
+    ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "cprojects-ukaidmatchgrants": {
+        "289": 1
+      },
+      "cprojects-commongroundinitiativegrants": {
+        "289": 1
+      },
+      "cprojects-initiatives": {
+        "289": 6
+      }
+    },
+    ".//recipient-region/@vocabulary": {
+      "cprojects-ukaidmatchgrants": {
+        "1": 1
+      },
+      "cprojects-commongroundinitiativegrants": {
+        "1": 1
+      },
+      "cprojects-initiatives": {
+        "1": 6
+      }
+    },
+    ".//related-activity/@type": {
+      "cprojects-ukaidmatchgrants": {
+        "1": 108
+      },
+      "cprojects-commongroundinitiativegrants": {
+        "1": 235
+      },
+      "cprojects-initiatives": {
+        "2": 342
+      }
+    },
+    ".//reporting-org/@type": {
+      "cprojects-ukaidmatchgrants": {
+        "60": 106,
+        "61": 1,
+        "62": 1
+      },
+      "cprojects-commongroundinitiativegrants": {
+        "60": 235
+      },
+      "cprojects-initiatives": {
+        "60": 6
+      }
+    },
+    ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "cprojects-ukaidmatchgrants": {
+        "31162": 7,
+        "15150": 39,
+        "31181": 2,
+        "31191": 4,
+        "31220": 3,
+        "31194": 5,
+        "31281": 1,
+        "31161": 2,
+        "16010": 3,
+        "32161": 1,
+        "32265": 1,
+        "11220": 22,
+        "15180": 12,
+        "25010": 4,
+        "11120": 1,
+        "11240": 9,
+        "11182": 1,
+        "12220": 9,
+        "11320": 1,
+        "11321": 2,
+        "16020": 4,
+        "11130": 1,
+        "14030": 20,
+        "14050": 20,
+        "16030": 20,
+        "15160": 20,
+        "15170": 3,
+        "16064": 1,
+        "13020": 5,
+        "13081": 2,
+        "31120": 1,
+        "32262": 1,
+        "31163": 1,
+        "11110": 4,
+        "12110": 2,
+        "32130": 1
+      },
+      "cprojects-commongroundinitiativegrants": {
+        "15170": 6,
+        "13040": 22,
+        "11320": 4,
+        "15180": 14,
+        "72010": 8,
+        "14050": 2,
+        "13020": 16,
+        "16010": 22,
+        "11130": 6,
+        "32130": 15,
+        "32161": 3,
+        "16040": 4,
+        "31161": 10,
+        "11120": 5,
+        "11220": 19,
+        "51010": 31,
+        "11182": 14,
+        "11230": 3,
+        "33210": 2,
+        "12220": 4,
+        "31162": 7,
+        "12263": 2,
+        "14031": 1,
+        "16050": 6,
+        "11110": 2,
+        "11240": 1,
+        "12281": 1,
+        "31320": 2,
+        "31120": 3,
+        "41010": 1,
+        "16020": 2,
+        "16061": 2,
+        "31181": 3,
+        "31191": 1,
+        "16064": 2,
+        "16030": 2,
+        "11330": 1,
+        "14030": 1,
+        "15150": 1,
+        "15160": 1,
+        "16063": 1,
+        "31194": 2,
+        "31150": 1,
+        "13030": 1,
+        "16939": 1,
+        "31140": 1,
+        "12240": 1,
+        "31193": 1,
+        "25010": 1,
+        "24050": 1
+      },
+      "cprojects-initiatives": {
+        "11220": 3,
+        "12220": 1,
+        "14030": 1,
+        "14050": 1,
+        "15150": 2,
+        "16030": 1,
+        "15160": 1,
+        "16010": 3,
+        "13020": 1,
+        "31161": 2,
+        "31162": 2,
+        "32130": 2,
+        "13081": 1,
+        "15170": 1,
+        "15180": 2,
+        "25010": 2,
+        "31120": 1,
+        "31194": 1,
+        "31181": 1,
+        "31191": 1,
+        "32161": 1,
+        "31281": 1,
+        "32262": 2,
+        "32265": 1,
+        "16020": 1,
+        "31163": 1,
+        "31220": 1,
+        "11120": 1,
+        "11130": 1,
+        "11182": 1,
+        "11320": 1,
+        "11240": 1,
+        "11321": 1,
+        "43010": 1
+      }
+    },
+    ".//transaction/transaction-type/@code": {
+      "cprojects-ukaidmatchgrants": {
+        "2": 121,
+        "3": 520,
+        "7": 2
+      },
+      "cprojects-commongroundinitiativegrants": {
+        "2": 259,
+        "3": 820,
+        "7": 10
+      },
+      "cprojects-initiatives": {
+        "1": 20,
+        "2": 6,
+        "3": 118,
+        "7": 2,
+        "4": 69
+      }
+    },
+    ".//description/@type": {
+      "cprojects-initiatives": {
+        "1": 6
+      }
+    },
+    ".//participating-org/@type": {
+      "cprojects-initiatives": {
+        "60": 11,
+        "10": 6
+      }
+    },
+    ".//sector[@vocabulary = '2']/@code": {
+      "cprojects-initiatives": {
+        "111": 2,
+        "122": 1,
+        "140": 1,
+        "160": 1,
+        "151": 3,
+        "112": 1,
+        "130": 1,
+        "321": 2,
+        "430": 1
+      }
+    },
+    ".//sector/@vocabulary": {
+      "cprojects-initiatives": {
+        "2": 13,
+        "1": 45
+      }
+    },
+    ".//transaction/aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "cprojects-initiatives": {
+        "C01": 111,
+        "G01": 68,
+        "C02": 1,
+        "C03": 1,
+        "C04": 1,
+        "C05": 1,
+        "C06": 1,
+        "C07": 1,
+        "C08": 1,
+        "C09": 1,
+        "C10": 1,
+        "C11": 1,
+        "C12": 1,
+        "C13": 1,
+        "C14": 1,
+        "C15": 1,
+        "C16": 1,
+        "C17": 1,
+        "C18": 1,
+        "C19": 1,
+        "C20": 1,
+        "C21": 1,
+        "C22": 1,
+        "C23": 1,
+        "C24": 1,
+        "C25": 1,
+        "C26": 1,
+        "C27": 1,
+        "C28": 1,
+        "C29": 1,
+        "C30": 1,
+        "C31": 1,
+        "C32": 1,
+        "C33": 1,
+        "C34": 1,
+        "C35": 3
+      }
+    },
+    ".//transaction/disbursement-channel/@code": {
+      "cprojects-initiatives": {
+        "2": 215
+      }
+    },
+    ".//transaction/finance-type/@code": {
+      "cprojects-initiatives": {
+        "110": 215
+      }
+    },
+    ".//transaction/flow-type/@code": {
+      "cprojects-initiatives": {
+        "30": 215
+      }
+    },
+    ".//transaction/tied-status/@code": {
+      "cprojects-initiatives": {
+        "5": 215
+      }
+    },
+    ".//transaction/value/@currency": {
+      "cprojects-initiatives": {
+        "GBP": 215
+      }
+    },
+    ".//@xml:lang": {
+      "cprojects-initiatives": {
+        "en": 274
+      }
+    }
+  }
+}

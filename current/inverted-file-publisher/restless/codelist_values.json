@@ -1,0 +1,610 @@
+{
+  ".//@default-currency": {
+    "SLL": {
+      "restless-sl": 1
+    },
+    "NPR": {
+      "restless-np": 1
+    },
+    "GBP": {
+      "restless-gb": 3
+    },
+    "ZAR": {
+      "restless-za": 1
+    },
+    "INR": {
+      "restless-in": 1
+    },
+    "ZMK": {
+      "restless-zm": 1
+    },
+    "USD": {
+      "restless-zw": 1
+    },
+    "TZS": {
+      "restless-tz": 1
+    },
+    "UGX": {
+      "restless-ug": 1
+    }
+  },
+  ".//@xml:lang": {
+    "en": {
+      "restless-sl": 135,
+      "restless-np": 108,
+      "restless-gb": 250,
+      "restless-za": 97,
+      "restless-in": 108,
+      "restless-zm": 128,
+      "restless-zw": 131,
+      "restless-tz": 105,
+      "restless-ug": 135
+    },
+    "bn": {
+      "restless-zw": 1
+    }
+  },
+  ".//activity-date/@type": {
+    "2": {
+      "restless-sl": 1,
+      "restless-np": 1,
+      "restless-gb": 3,
+      "restless-za": 1,
+      "restless-in": 1,
+      "restless-zm": 1,
+      "restless-zw": 1,
+      "restless-tz": 1,
+      "restless-ug": 1
+    },
+    "3": {
+      "restless-sl": 1,
+      "restless-np": 1,
+      "restless-gb": 1,
+      "restless-za": 1,
+      "restless-in": 1,
+      "restless-zm": 1,
+      "restless-zw": 1,
+      "restless-tz": 1,
+      "restless-ug": 1
+    },
+    "4": {
+      "restless-gb": 2
+    }
+  },
+  ".//activity-status/@code": {
+    "2": {
+      "restless-sl": 1,
+      "restless-np": 1,
+      "restless-gb": 2,
+      "restless-za": 1,
+      "restless-in": 1,
+      "restless-zm": 1,
+      "restless-zw": 1,
+      "restless-tz": 1,
+      "restless-ug": 1
+    },
+    "3": {
+      "restless-gb": 1
+    }
+  },
+  ".//budget/@status": {
+    "1": {
+      "restless-sl": 8,
+      "restless-np": 8,
+      "restless-gb": 22,
+      "restless-za": 8,
+      "restless-in": 8,
+      "restless-zm": 8,
+      "restless-zw": 8,
+      "restless-tz": 8,
+      "restless-ug": 8
+    }
+  },
+  ".//budget/@type": {
+    "2": {
+      "restless-sl": 7,
+      "restless-np": 7,
+      "restless-gb": 20,
+      "restless-za": 7,
+      "restless-in": 7,
+      "restless-zm": 7,
+      "restless-zw": 7,
+      "restless-tz": 7,
+      "restless-ug": 7
+    },
+    "1": {
+      "restless-sl": 1,
+      "restless-np": 1,
+      "restless-gb": 2,
+      "restless-za": 1,
+      "restless-in": 1,
+      "restless-zm": 1,
+      "restless-zw": 1,
+      "restless-tz": 1,
+      "restless-ug": 1
+    }
+  },
+  ".//budget/value/@currency": {
+    "SLL": {
+      "restless-sl": 6
+    },
+    "GBP": {
+      "restless-sl": 2,
+      "restless-np": 2,
+      "restless-gb": 15,
+      "restless-za": 2,
+      "restless-in": 1,
+      "restless-zm": 2,
+      "restless-zw": 1,
+      "restless-tz": 1,
+      "restless-ug": 2
+    },
+    "NPR": {
+      "restless-np": 5
+    },
+    "ZAR": {
+      "restless-za": 6
+    },
+    "INR": {
+      "restless-in": 6
+    },
+    "ZMK": {
+      "restless-zm": 5
+    },
+    "USD": {
+      "restless-zw": 5
+    },
+    "TZS": {
+      "restless-tz": 5
+    },
+    "UGX": {
+      "restless-ug": 6
+    }
+  },
+  ".//contact-info/@type": {
+    "1": {
+      "restless-gb": 1
+    }
+  },
+  ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "C01": {
+      "restless-sl": 1,
+      "restless-np": 1,
+      "restless-gb": 3,
+      "restless-za": 1,
+      "restless-in": 1,
+      "restless-zm": 1,
+      "restless-zw": 1,
+      "restless-tz": 1,
+      "restless-ug": 1
+    }
+  },
+  ".//default-flow-type/@code": {
+    "30": {
+      "restless-sl": 1,
+      "restless-np": 1,
+      "restless-gb": 3,
+      "restless-za": 1,
+      "restless-in": 1,
+      "restless-zm": 1,
+      "restless-zw": 1,
+      "restless-tz": 1,
+      "restless-ug": 1
+    }
+  },
+  ".//description/@type": {
+    "1": {
+      "restless-sl": 1,
+      "restless-np": 1,
+      "restless-gb": 3,
+      "restless-za": 1,
+      "restless-in": 1,
+      "restless-zm": 1,
+      "restless-zw": 1,
+      "restless-tz": 1,
+      "restless-ug": 1
+    }
+  },
+  ".//document-link/@format": {
+    "application/pdf": {
+      "restless-sl": 6,
+      "restless-np": 2,
+      "restless-gb": 14,
+      "restless-za": 3,
+      "restless-in": 4,
+      "restless-zm": 9,
+      "restless-zw": 2,
+      "restless-tz": 12,
+      "restless-ug": 6
+    },
+    "text/html": {
+      "restless-sl": 1,
+      "restless-np": 1,
+      "restless-gb": 2,
+      "restless-za": 1,
+      "restless-in": 1,
+      "restless-zm": 1,
+      "restless-zw": 1,
+      "restless-tz": 1,
+      "restless-ug": 1
+    },
+    "application/vnd.ms-excel": {
+      "restless-gb": 1
+    }
+  },
+  ".//document-link/category/@code": {
+    "B02": {
+      "restless-sl": 1,
+      "restless-np": 1,
+      "restless-gb": 2,
+      "restless-za": 1,
+      "restless-in": 1,
+      "restless-zm": 1,
+      "restless-zw": 1,
+      "restless-tz": 2,
+      "restless-ug": 1
+    },
+    "B01": {
+      "restless-sl": 1,
+      "restless-np": 1,
+      "restless-gb": 4,
+      "restless-za": 1,
+      "restless-in": 1,
+      "restless-zm": 1,
+      "restless-zw": 1,
+      "restless-tz": 2,
+      "restless-ug": 1
+    },
+    "A02": {
+      "restless-sl": 3,
+      "restless-gb": 8,
+      "restless-za": 1,
+      "restless-zm": 3,
+      "restless-tz": 4,
+      "restless-ug": 2
+    },
+    "A01": {
+      "restless-sl": 1,
+      "restless-in": 1,
+      "restless-tz": 2
+    },
+    "A12": {
+      "restless-sl": 1,
+      "restless-np": 1,
+      "restless-gb": 2,
+      "restless-za": 1,
+      "restless-in": 1,
+      "restless-zm": 1,
+      "restless-zw": 1,
+      "restless-tz": 1,
+      "restless-ug": 1
+    },
+    "A08": {
+      "restless-gb": 1
+    },
+    "A07": {
+      "restless-in": 1,
+      "restless-zm": 3,
+      "restless-tz": 1,
+      "restless-ug": 1
+    },
+    "B03": {
+      "restless-zm": 1,
+      "restless-tz": 1,
+      "restless-ug": 1
+    }
+  },
+  ".//document-link/language/@code": {
+    "en": {
+      "restless-sl": 7,
+      "restless-np": 3,
+      "restless-gb": 17,
+      "restless-za": 4,
+      "restless-in": 5,
+      "restless-zm": 10,
+      "restless-zw": 3,
+      "restless-tz": 13,
+      "restless-ug": 7
+    }
+  },
+  ".//other-identifier/@type": {
+    "A1": {
+      "restless-sl": 1,
+      "restless-np": 1,
+      "restless-gb": 2,
+      "restless-za": 1,
+      "restless-in": 1,
+      "restless-zm": 1,
+      "restless-zw": 1,
+      "restless-tz": 1,
+      "restless-ug": 1
+    }
+  },
+  ".//participating-org/@role": {
+    "4": {
+      "restless-sl": 1,
+      "restless-np": 1,
+      "restless-gb": 5,
+      "restless-za": 1,
+      "restless-in": 1,
+      "restless-zm": 1,
+      "restless-zw": 1,
+      "restless-tz": 1,
+      "restless-ug": 1
+    },
+    "1": {
+      "restless-sl": 13,
+      "restless-np": 10,
+      "restless-gb": 22,
+      "restless-za": 11,
+      "restless-in": 12,
+      "restless-zm": 15,
+      "restless-zw": 15,
+      "restless-tz": 6,
+      "restless-ug": 20
+    }
+  },
+  ".//participating-org/@type": {
+    "21": {
+      "restless-sl": 2,
+      "restless-np": 2,
+      "restless-gb": 7,
+      "restless-za": 3,
+      "restless-in": 5,
+      "restless-zm": 4,
+      "restless-zw": 6,
+      "restless-tz": 2,
+      "restless-ug": 6
+    },
+    "22": {
+      "restless-sl": 1,
+      "restless-np": 1,
+      "restless-gb": 1,
+      "restless-in": 1
+    },
+    "10": {
+      "restless-sl": 5,
+      "restless-np": 3,
+      "restless-gb": 7,
+      "restless-za": 6,
+      "restless-in": 2,
+      "restless-zm": 6,
+      "restless-zw": 2,
+      "restless-tz": 3,
+      "restless-ug": 6
+    },
+    "40": {
+      "restless-sl": 4,
+      "restless-np": 1,
+      "restless-gb": 2,
+      "restless-za": 1,
+      "restless-in": 1,
+      "restless-zm": 2,
+      "restless-zw": 2,
+      "restless-tz": 1,
+      "restless-ug": 1
+    },
+    "70": {
+      "restless-sl": 1,
+      "restless-np": 2,
+      "restless-gb": 1,
+      "restless-za": 1,
+      "restless-in": 2,
+      "restless-zm": 2,
+      "restless-zw": 2,
+      "restless-ug": 3
+    },
+    "60": {
+      "restless-sl": 1,
+      "restless-np": 2,
+      "restless-gb": 9,
+      "restless-za": 1,
+      "restless-in": 2,
+      "restless-zm": 2,
+      "restless-zw": 4,
+      "restless-tz": 1,
+      "restless-ug": 5
+    }
+  },
+  ".//recipient-country/@code": {
+    "SL": {
+      "restless-sl": 1
+    },
+    "NP": {
+      "restless-np": 1
+    },
+    "GB": {
+      "restless-gb": 3
+    },
+    "ZA": {
+      "restless-za": 1
+    },
+    "IN": {
+      "restless-in": 1
+    },
+    "ZM": {
+      "restless-zm": 1
+    },
+    "ZW": {
+      "restless-zw": 1
+    },
+    "TZ": {
+      "restless-tz": 1
+    },
+    "UG": {
+      "restless-ug": 1
+    }
+  },
+  ".//reporting-org/@type": {
+    "21": {
+      "restless-sl": 1,
+      "restless-np": 1,
+      "restless-gb": 3,
+      "restless-za": 1,
+      "restless-in": 1,
+      "restless-zm": 1,
+      "restless-zw": 1,
+      "restless-tz": 1,
+      "restless-ug": 1
+    }
+  },
+  ".//sector/@vocabulary": {
+    "1": {
+      "restless-sl": 3,
+      "restless-np": 3,
+      "restless-gb": 6,
+      "restless-za": 3,
+      "restless-in": 3,
+      "restless-zm": 3,
+      "restless-zw": 3,
+      "restless-tz": 3,
+      "restless-ug": 3
+    },
+    "99": {
+      "restless-gb": 1
+    }
+  },
+  ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "15150": {
+      "restless-sl": 1,
+      "restless-np": 1,
+      "restless-gb": 2,
+      "restless-za": 1,
+      "restless-in": 1,
+      "restless-zm": 1,
+      "restless-zw": 1,
+      "restless-tz": 1,
+      "restless-ug": 1
+    },
+    "13040": {
+      "restless-sl": 1,
+      "restless-np": 1,
+      "restless-gb": 2,
+      "restless-za": 1,
+      "restless-in": 1,
+      "restless-zm": 1,
+      "restless-zw": 1,
+      "restless-tz": 1,
+      "restless-ug": 1
+    },
+    "11230": {
+      "restless-sl": 1,
+      "restless-np": 1,
+      "restless-gb": 2,
+      "restless-za": 1,
+      "restless-in": 1,
+      "restless-zm": 1,
+      "restless-zw": 1,
+      "restless-tz": 1,
+      "restless-ug": 1
+    }
+  },
+  ".//transaction/aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "C01": {
+      "restless-sl": 24,
+      "restless-np": 15,
+      "restless-gb": 63,
+      "restless-za": 20,
+      "restless-in": 20,
+      "restless-zm": 25,
+      "restless-zw": 28,
+      "restless-tz": 13,
+      "restless-ug": 24
+    }
+  },
+  ".//transaction/disbursement-channel/@code": {
+    "2": {
+      "restless-in": 16
+    },
+    "3": {
+      "restless-in": 1
+    }
+  },
+  ".//transaction/finance-type/@code": {
+    "110": {
+      "restless-in": 17
+    }
+  },
+  ".//transaction/flow-type/@code": {
+    "30": {
+      "restless-sl": 24,
+      "restless-np": 15,
+      "restless-gb": 63,
+      "restless-za": 20,
+      "restless-in": 20,
+      "restless-zm": 25,
+      "restless-zw": 28,
+      "restless-tz": 13,
+      "restless-ug": 24
+    }
+  },
+  ".//transaction/tied-status/@code": {
+    "5": {
+      "restless-in": 6
+    },
+    "4": {
+      "restless-in": 10
+    },
+    "3": {
+      "restless-in": 1
+    }
+  },
+  ".//transaction/transaction-type/@code": {
+    "1": {
+      "restless-sl": 146,
+      "restless-np": 96,
+      "restless-gb": 178,
+      "restless-za": 82,
+      "restless-in": 111,
+      "restless-zm": 132,
+      "restless-zw": 150,
+      "restless-tz": 120,
+      "restless-ug": 147
+    },
+    "4": {
+      "restless-sl": 130,
+      "restless-np": 131,
+      "restless-gb": 215,
+      "restless-za": 102,
+      "restless-in": 124,
+      "restless-zm": 124,
+      "restless-zw": 127,
+      "restless-tz": 134,
+      "restless-ug": 131
+    },
+    "3": {
+      "restless-gb": 14
+    }
+  },
+  ".//transaction/value/@currency": {
+    "SLL": {
+      "restless-sl": 212
+    },
+    "NPR": {
+      "restless-np": 159
+    },
+    "GBP": {
+      "restless-gb": 291,
+      "restless-za": 7
+    },
+    "ZAR": {
+      "restless-za": 130
+    },
+    "INR": {
+      "restless-in": 165
+    },
+    "ZMK": {
+      "restless-zm": 184,
+      "restless-zw": 2
+    },
+    "USD": {
+      "restless-zw": 185
+    },
+    "TZS": {
+      "restless-tz": 172
+    },
+    "UGX": {
+      "restless-ug": 239
+    }
+  }
+}

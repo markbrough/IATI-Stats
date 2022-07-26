@@ -1,0 +1,91 @@
+{
+  ".//@default-currency": {
+    "USD": 6
+  },
+  ".//@xml:lang": {
+    "en": 18,
+    "sv": 8
+  },
+  ".//activity-date/@type": {
+    "2": 6,
+    "4": 6
+  },
+  ".//activity-status/@code": {
+    "4": 6
+  },
+  ".//collaboration-type/@code": {
+    "1": 6
+  },
+  ".//country-budget-items/@vocabulary": {
+    "1": 6
+  },
+  ".//country-budget-items/budget-item[../@vocabulary = '1']/@code": {
+    "2.2.3": 1,
+    "3.1.3": 2,
+    "3.1.6": 1,
+    "3.2.1": 2
+  },
+  ".//crs-add/other-flags/@code": {
+    "1": 6,
+    "2": 6,
+    "3": 6
+  },
+  ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "C01": 6
+  },
+  ".//default-finance-type/@code": {
+    "110": 6
+  },
+  ".//default-flow-type/@code": {
+    "10": 6
+  },
+  ".//description/@type": {
+    "1": 6
+  },
+  ".//participating-org/@role": {
+    "1": 6,
+    "2": 6,
+    "3": 6,
+    "4": 6
+  },
+  ".//participating-org/@type": {
+    "10": 18
+  },
+  ".//policy-marker/@significance": {
+    "1": 8,
+    "0": 35,
+    "2": 5
+  },
+  ".//policy-marker/@vocabulary": {
+    "1": 48
+  },
+  ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "1": 6,
+    "2": 6,
+    "3": 6,
+    "4": 6,
+    "5": 6,
+    "6": 6,
+    "7": 6,
+    "8": 6
+  },
+  ".//recipient-country/@code": {
+    "SI": 6
+  },
+  ".//reporting-org/@type": {
+    "10": 6
+  },
+  ".//sector/@vocabulary": {
+    "1": 6
+  },
+  ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "15250": 1,
+    "25010": 2,
+    "16020": 1,
+    "15140": 2
+  },
+  ".//transaction/transaction-type/@code": {
+    "2": 4,
+    "3": 6
+  }
+}

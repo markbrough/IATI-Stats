@@ -1,0 +1,285 @@
+{
+  ".//@default-currency": {
+    "USD": 30
+  },
+  ".//@xml:lang": {
+    "en": 9268
+  },
+  ".//activity-date/@type": {
+    "1": 30,
+    "2": 30,
+    "3": 30,
+    "4": 30
+  },
+  ".//activity-scope/@code": {
+    "": 30
+  },
+  ".//activity-status/@code": {
+    "3": 10,
+    "2": 16,
+    "1": 4
+  },
+  ".//budget/@status": {
+    "": 271
+  },
+  ".//budget/@type": {
+    "2": 271
+  },
+  ".//budget/value/@currency": {
+    "USD": 268,
+    "": 3
+  },
+  ".//collaboration-type/@code": {
+    "4": 30
+  },
+  ".//conditions/condition/@type": {
+    "1": 30
+  },
+  ".//contact-info/@type": {
+    "1": 30
+  },
+  ".//country-budget-items/@vocabulary": {
+    "1": 30
+  },
+  ".//country-budget-items/budget-item[../@vocabulary = '1']/@code": {
+    "1.3.11": 2,
+    "5.4.11": 3,
+    "5.4.8": 1,
+    "5.4.5": 5,
+    "1.7.1": 1,
+    "5.1.1": 6,
+    "5.4.1": 7,
+    "3.10.1": 2,
+    "2.1.5": 3,
+    "2.1.1": 2,
+    "1.1.1": 6,
+    "1.7.4": 3,
+    "6.1.1": 2,
+    "1.3.3": 1
+  },
+  ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "B03": 30
+  },
+  ".//default-finance-type/@code": {
+    "110": 30
+  },
+  ".//default-flow-type/@code": {
+    "10": 30
+  },
+  ".//default-tied-status/@code": {
+    "5": 30
+  },
+  ".//description/@type": {
+    "1": 30,
+    "2": 30
+  },
+  ".//document-link/@format": {
+    "application/pdf": 150,
+    ".html": 330
+  },
+  ".//document-link/category/@code": {
+    "A12": 30,
+    "A08": 30,
+    "A07": 30,
+    "A05": 30,
+    "A02": 30,
+    "A01": 30,
+    "A04": 120,
+    "A06": 30,
+    "A09": 30,
+    "A11": 30,
+    "A10": 90
+  },
+  ".//document-link/language/@code": {
+    "en": 480
+  },
+  ".//humanitarian-scope/@type": {
+    "": 30
+  },
+  ".//humanitarian-scope/@vocabulary": {
+    "": 30
+  },
+  ".//location/administrative/@vocabulary": {
+    "G1": 30
+  },
+  ".//location/exactness/@code": {
+    "1": 30
+  },
+  ".//location/feature-designation/@code": {
+    "": 30
+  },
+  ".//location/location-class/@code": {
+    "": 30
+  },
+  ".//location/location-id/@vocabulary": {
+    "": 30
+  },
+  ".//location/location-reach/@code": {
+    "1": 30
+  },
+  ".//other-identifier/@type": {
+    "40": 30
+  },
+  ".//participating-org/@role": {
+    "1": 107,
+    "4": 30,
+    "3": 28
+  },
+  ".//participating-org/@type": {
+    "40": 114,
+    "10": 39,
+    "30": 11,
+    "60": 1
+  },
+  ".//planned-disbursement/@type": {
+    "2": 271
+  },
+  ".//planned-disbursement/provider-org/@type": {
+    "": 271
+  },
+  ".//planned-disbursement/receiver-org/@type": {
+    "": 271
+  },
+  ".//planned-disbursement/value/@currency": {
+    "USD": 268,
+    "": 3
+  },
+  ".//policy-marker/@significance": {
+    "2": 14,
+    "1": 12,
+    "0": 4
+  },
+  ".//policy-marker/@vocabulary": {
+    "1": 30
+  },
+  ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "1": 30
+  },
+  ".//recipient-country/@code": {
+    "KZ": 30,
+    "": 1001
+  },
+  ".//recipient-region/@vocabulary": {
+    "": 30,
+    "100": 590,
+    "99810": 411
+  },
+  ".//related-activity/@type": {
+    "1": 30
+  },
+  ".//reporting-org/@type": {
+    "40": 30
+  },
+  ".//result/@type": {
+    "1": 172
+  },
+  ".//result/indicator/@measure": {
+    "": 172
+  },
+  ".//result/indicator/reference/@vocabulary": {
+    "1": 172
+  },
+  ".//sector/@vocabulary": {
+    "99": 677,
+    "7": 29,
+    "1": 432
+  },
+  ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "15112": 1,
+    "16062": 3,
+    "74010": 3,
+    "": 385,
+    "12110": 4,
+    "16010": 12,
+    "22010": 2,
+    "13040": 2,
+    "15162": 1,
+    "15160": 7,
+    "15130": 2,
+    "43010": 6,
+    "43030": 1,
+    "15110": 1,
+    "13020": 1,
+    "11240": 1
+  },
+  ".//sector[@vocabulary = '7']/@code": {
+    "6": 3,
+    "17": 8,
+    "4": 2,
+    "3": 5,
+    "16": 10,
+    "1": 1
+  },
+  ".//transaction/aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "": 1001
+  },
+  ".//transaction/disbursement-channel/@code": {
+    "2": 1001
+  },
+  ".//transaction/finance-type/@code": {
+    "": 1001
+  },
+  ".//transaction/flow-type/@code": {
+    "": 1001
+  },
+  ".//transaction/provider-org/@type": {
+    "": 1001
+  },
+  ".//transaction/receiver-org/@type": {
+    "2390/A0/04/001/006": 52,
+    "": 415,
+    "2390/A0/05/881/005": 20,
+    "2390/A0/04/001/007": 22,
+    "2390/A0/05/881/006": 18,
+    "2390/A0/04/002/004": 70,
+    "2390/A0/05/882/001": 18,
+    "2390/A0/04/002/005": 78,
+    "2390/A0/05/882/002": 12,
+    "2390/A0/04/002/006": 18,
+    "2390/A0/05/882/003": 18,
+    "2390/A0/04/004/001": 2,
+    "2390/A0/05/882/004": 18,
+    "2390/A0/04/006/002": 4,
+    "2390/A0/05/882/005": 18,
+    "2390/A0/04/007/002": 22,
+    "2390/A0/05/882/006": 10,
+    "2390/A0/04/007/003": 22,
+    "2390/A0/04/800/888": 2,
+    "2390/A0/05/883/001": 14,
+    "2390/A0/05/883/002": 2,
+    "2390/A0/05/880/001": 8,
+    "2390/A0/05/883/003": 16,
+    "2390/A0/05/880/003": 14,
+    "2390/A0/05/883/004": 20,
+    "2390/A0/05/881/001": 30,
+    "2390/A0/05/881/002": 4,
+    "2390/A0/05/881/003": 36,
+    "2390/A0/05/881/004": 18
+  },
+  ".//transaction/recipient-country/@code": {
+    "": 1001
+  },
+  ".//transaction/recipient-region/@vocabulary": {
+    "100": 590,
+    "99810": 411
+  },
+  ".//transaction/sector/@vocabulary": {
+    "99": 616,
+    "1": 385
+  },
+  ".//transaction/sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "": 385
+  },
+  ".//transaction/tied-status/@code": {
+    "": 1001
+  },
+  ".//transaction/transaction-type/@code": {
+    "1": 295,
+    "2": 295,
+    "3": 30,
+    "4": 381
+  },
+  ".//transaction/value/@currency": {
+    "USD": 1001
+  }
+}
