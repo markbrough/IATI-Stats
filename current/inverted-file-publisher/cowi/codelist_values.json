@@ -1,0 +1,337 @@
+{
+  ".//@default-currency": {
+    "GBP": {
+      "cowi-activities": 1
+    },
+    "EUR": {
+      "cowi-act": 1
+    }
+  },
+  ".//@xml:lang": {
+    "en": {
+      "cowi-activities": 121
+    },
+    "fr": {
+      "cowi-act": 1
+    }
+  },
+  ".//activity-date/@type": {
+    "2": {
+      "cowi-activities": 1,
+      "cowi-act": 1
+    },
+    "3": {
+      "cowi-activities": 1,
+      "cowi-act": 1
+    },
+    "1": {
+      "cowi-act": 1
+    }
+  },
+  ".//activity-status/@code": {
+    "2": {
+      "cowi-activities": 1,
+      "cowi-act": 1
+    }
+  },
+  ".//budget/@status": {
+    "2": {
+      "cowi-activities": 6
+    }
+  },
+  ".//budget/@type": {
+    "1": {
+      "cowi-activities": 6
+    }
+  },
+  ".//budget/value/@currency": {
+    "EUR": {
+      "cowi-activities": 6
+    }
+  },
+  ".//contact-info/@type": {
+    "2": {
+      "cowi-act": 3
+    }
+  },
+  ".//default-aid-type/@vocabulary": {
+    "1": {
+      "cowi-activities": 1,
+      "cowi-act": 1
+    }
+  },
+  ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "C01": {
+      "cowi-activities": 1
+    },
+    "D02": {
+      "cowi-act": 1
+    }
+  },
+  ".//default-finance-type/@code": {
+    "110": {
+      "cowi-activities": 1,
+      "cowi-act": 1
+    }
+  },
+  ".//default-flow-type/@code": {
+    "10": {
+      "cowi-activities": 1,
+      "cowi-act": 1
+    }
+  },
+  ".//default-tied-status/@code": {
+    "5": {
+      "cowi-activities": 1,
+      "cowi-act": 1
+    }
+  },
+  ".//description/@type": {
+    "1": {
+      "cowi-activities": 1,
+      "cowi-act": 6
+    },
+    "2": {
+      "cowi-act": 1
+    },
+    "3": {
+      "cowi-act": 1
+    }
+  },
+  ".//document-link/@format": {
+    "image/jpeg": {
+      "cowi-act": 1
+    },
+    "application/http": {
+      "cowi-act": 70
+    },
+    "application/pdf": {
+      "cowi-act": 14
+    },
+    "application/vnd.ms-excel.sheet.macroEnabled.12": {
+      "cowi-act": 1
+    }
+  },
+  ".//document-link/category/@code": {
+    "A12": {
+      "cowi-act": 71
+    },
+    "A08": {
+      "cowi-act": 7
+    },
+    "B01": {
+      "cowi-act": 3
+    },
+    "A07": {
+      "cowi-act": 1
+    },
+    "A06": {
+      "cowi-act": 1
+    },
+    "A11": {
+      "cowi-act": 1
+    },
+    "A09": {
+      "cowi-act": 2
+    }
+  },
+  ".//document-link/language/@code": {
+    "fr": {
+      "cowi-act": 65
+    },
+    "en": {
+      "cowi-act": 1
+    }
+  },
+  ".//other-identifier/@type": {
+    "B9": {
+      "cowi-act": 1
+    }
+  },
+  ".//participating-org/@role": {
+    "1": {
+      "cowi-activities": 1,
+      "cowi-act": 1
+    },
+    "2": {
+      "cowi-act": 1
+    },
+    "4": {
+      "cowi-act": 2
+    }
+  },
+  ".//participating-org/@type": {
+    "10": {
+      "cowi-activities": 1,
+      "cowi-act": 1
+    },
+    "70": {
+      "cowi-act": 2
+    },
+    "21": {
+      "cowi-act": 1
+    }
+  },
+  ".//planned-disbursement/provider-org/@type": {
+    "10": {
+      "cowi-act": 1
+    }
+  },
+  ".//planned-disbursement/receiver-org/@type": {
+    "70": {
+      "cowi-act": 15
+    }
+  },
+  ".//policy-marker/@significance": {
+    "1": {
+      "cowi-act": 2
+    }
+  },
+  ".//policy-marker/@vocabulary": {
+    "1": {
+      "cowi-act": 2
+    }
+  },
+  ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "3": {
+      "cowi-act": 1
+    },
+    "1": {
+      "cowi-act": 1
+    }
+  },
+  ".//recipient-country/@code": {
+    "AO": {
+      "cowi-activities": 1
+    },
+    "BW": {
+      "cowi-activities": 1
+    },
+    "CD": {
+      "cowi-activities": 1
+    },
+    "LS": {
+      "cowi-activities": 1
+    },
+    "MW": {
+      "cowi-activities": 1
+    },
+    "MZ": {
+      "cowi-activities": 1
+    },
+    "NA": {
+      "cowi-activities": 1
+    },
+    "ZA": {
+      "cowi-activities": 1
+    },
+    "SZ": {
+      "cowi-activities": 1
+    },
+    "TZ": {
+      "cowi-activities": 1
+    },
+    "ZM": {
+      "cowi-activities": 1
+    },
+    "ZW": {
+      "cowi-activities": 1
+    },
+    "BJ": {
+      "cowi-act": 1
+    }
+  },
+  ".//recipient-region/@vocabulary": {
+    "1": {
+      "cowi-activities": 1
+    }
+  },
+  ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "289": {
+      "cowi-activities": 1
+    }
+  },
+  ".//related-activity/@type": {
+    "3": {
+      "cowi-act": 3
+    },
+    "1": {
+      "cowi-act": 1
+    }
+  },
+  ".//reporting-org/@type": {
+    "70": {
+      "cowi-activities": 1,
+      "cowi-act": 1
+    }
+  },
+  ".//result/@type": {
+    "1": {
+      "cowi-act": 3
+    },
+    "2": {
+      "cowi-act": 3
+    }
+  },
+  ".//result/indicator/@measure": {
+    "1": {
+      "cowi-act": 7
+    },
+    "2": {
+      "cowi-act": 2
+    }
+  },
+  ".//sector/@vocabulary": {
+    "1": {
+      "cowi-activities": 3,
+      "cowi-act": 1
+    }
+  },
+  ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "41010": {
+      "cowi-activities": 1
+    },
+    "14040": {
+      "cowi-activities": 1
+    },
+    "14010": {
+      "cowi-activities": 1
+    },
+    "14030": {
+      "cowi-act": 1
+    }
+  },
+  ".//transaction/provider-org/@type": {
+    "70": {
+      "cowi-activities": 92,
+      "cowi-act": 16
+    },
+    "10": {
+      "cowi-activities": 5,
+      "cowi-act": 10
+    }
+  },
+  ".//transaction/receiver-org/@type": {
+    "70": {
+      "cowi-activities": 94,
+      "cowi-act": 10
+    }
+  },
+  ".//transaction/transaction-type/@code": {
+    "4": {
+      "cowi-activities": 96,
+      "cowi-act": 19
+    },
+    "2": {
+      "cowi-activities": 1
+    },
+    "1": {
+      "cowi-act": 9
+    }
+  },
+  ".//transaction/value/@currency": {
+    "EUR": {
+      "cowi-activities": 97
+    }
+  }
+}

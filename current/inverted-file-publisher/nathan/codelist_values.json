@@ -1,0 +1,259 @@
+{
+  ".//@default-currency": {
+    "GBP": {
+      "nathan-bd": 4,
+      "nathan-sl": 2,
+      "nathan-gh": 3,
+      "nathan-zm": 2,
+      "nathan-998": 1
+    }
+  },
+  ".//@xml:lang": {
+    "en": {
+      "nathan-bd": 36,
+      "nathan-sl": 82,
+      "nathan-gh": 97,
+      "nathan-zm": 33,
+      "nathan-998": 11
+    }
+  },
+  ".//activity-date/@type": {
+    "1": {
+      "nathan-bd": 1
+    },
+    "2": {
+      "nathan-bd": 3,
+      "nathan-sl": 2,
+      "nathan-gh": 3,
+      "nathan-zm": 2,
+      "nathan-998": 1
+    },
+    "3": {
+      "nathan-bd": 1,
+      "nathan-sl": 2
+    },
+    "4": {
+      "nathan-zm": 1,
+      "nathan-998": 1
+    }
+  },
+  ".//activity-status/@code": {
+    "2": {
+      "nathan-bd": 4,
+      "nathan-sl": 2,
+      "nathan-gh": 3,
+      "nathan-zm": 2,
+      "nathan-998": 1
+    }
+  },
+  ".//budget/@status": {
+    "2": {
+      "nathan-bd": 28,
+      "nathan-gh": 18,
+      "nathan-zm": 5
+    },
+    "1": {
+      "nathan-sl": 2,
+      "nathan-zm": 1
+    }
+  },
+  ".//budget/@type": {
+    "1": {
+      "nathan-bd": 28,
+      "nathan-sl": 2,
+      "nathan-gh": 16,
+      "nathan-zm": 6
+    }
+  },
+  ".//budget/value/@currency": {
+    "GBP": {
+      "nathan-bd": 28,
+      "nathan-sl": 2,
+      "nathan-gh": 17,
+      "nathan-zm": 5
+    }
+  },
+  ".//description/@type": {
+    "1": {
+      "nathan-bd": 4,
+      "nathan-sl": 2,
+      "nathan-gh": 3,
+      "nathan-zm": 2,
+      "nathan-998": 1
+    }
+  },
+  ".//document-link/@format": {
+    "application/pdf": {
+      "nathan-bd": 10,
+      "nathan-gh": 17,
+      "nathan-zm": 10,
+      "nathan-998": 5
+    },
+    "application/vnd.fsc.weblaunch": {
+      "nathan-sl": 2
+    },
+    "application/vnd.cups-pdf": {
+      "nathan-gh": 1
+    }
+  },
+  ".//document-link/category/@code": {
+    "A06": {
+      "nathan-bd": 1
+    },
+    "A08": {
+      "nathan-bd": 7,
+      "nathan-gh": 14
+    },
+    "A02": {
+      "nathan-bd": 2,
+      "nathan-sl": 2,
+      "nathan-gh": 4,
+      "nathan-zm": 10,
+      "nathan-998": 5
+    }
+  },
+  ".//document-link/language/@code": {
+    "en": {
+      "nathan-bd": 10,
+      "nathan-sl": 2,
+      "nathan-gh": 18,
+      "nathan-zm": 5
+    }
+  },
+  ".//participating-org/@role": {
+    "1": {
+      "nathan-bd": 4,
+      "nathan-sl": 2,
+      "nathan-zm": 2,
+      "nathan-998": 1
+    },
+    "4": {
+      "nathan-bd": 2,
+      "nathan-sl": 4,
+      "nathan-gh": 3,
+      "nathan-zm": 2,
+      "nathan-998": 1
+    },
+    "2": {
+      "nathan-gh": 3
+    }
+  },
+  ".//participating-org/@type": {
+    "70": {
+      "nathan-bd": 5,
+      "nathan-sl": 2,
+      "nathan-gh": 6,
+      "nathan-zm": 4,
+      "nathan-998": 2
+    },
+    "10": {
+      "nathan-bd": 1,
+      "nathan-sl": 2
+    },
+    "21": {
+      "nathan-sl": 2
+    }
+  },
+  ".//recipient-country/@code": {
+    "BD": {
+      "nathan-bd": 4
+    },
+    "SL": {
+      "nathan-sl": 2
+    },
+    "GH": {
+      "nathan-gh": 3
+    },
+    "ZM": {
+      "nathan-zm": 2,
+      "nathan-998": 6
+    }
+  },
+  ".//reporting-org/@type": {
+    "70": {
+      "nathan-bd": 4,
+      "nathan-sl": 2,
+      "nathan-gh": 3,
+      "nathan-zm": 2,
+      "nathan-998": 1
+    }
+  },
+  ".//sector/@vocabulary": {
+    "1": {
+      "nathan-bd": 3
+    },
+    "99": {
+      "nathan-bd": 1,
+      "nathan-sl": 2,
+      "nathan-gh": 3,
+      "nathan-zm": 2,
+      "nathan-998": 6
+    }
+  },
+  ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "32130": {
+      "nathan-bd": 3
+    }
+  },
+  ".//transaction/disbursement-channel/@code": {
+    "2": {
+      "nathan-bd": 12
+    }
+  },
+  ".//transaction/provider-org/@type": {
+    "70": {
+      "nathan-bd": 22,
+      "nathan-sl": 20,
+      "nathan-gh": 37,
+      "nathan-zm": 23,
+      "nathan-998": 6
+    },
+    "10": {
+      "nathan-bd": 19,
+      "nathan-sl": 6
+    }
+  },
+  ".//transaction/receiver-org/@type": {
+    "70": {
+      "nathan-bd": 41,
+      "nathan-sl": 25,
+      "nathan-gh": 39,
+      "nathan-zm": 19,
+      "nathan-998": 6
+    }
+  },
+  ".//transaction/recipient-country/@code": {
+    "ZM": {
+      "nathan-998": 6
+    }
+  },
+  ".//transaction/sector/@vocabulary": {
+    "99": {
+      "nathan-998": 6
+    }
+  },
+  ".//transaction/transaction-type/@code": {
+    "1": {
+      "nathan-bd": 38,
+      "nathan-sl": 7,
+      "nathan-gh": 24,
+      "nathan-zm": 12,
+      "nathan-998": 6
+    },
+    "3": {
+      "nathan-bd": 18,
+      "nathan-sl": 19,
+      "nathan-gh": 16,
+      "nathan-zm": 12
+    }
+  },
+  ".//transaction/value/@currency": {
+    "GBP": {
+      "nathan-bd": 47,
+      "nathan-sl": 26,
+      "nathan-gh": 36,
+      "nathan-zm": 23,
+      "nathan-998": 6
+    }
+  }
+}

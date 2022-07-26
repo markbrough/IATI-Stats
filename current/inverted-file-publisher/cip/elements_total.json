@@ -1,0 +1,590 @@
+{
+  "iati-activity": {
+    "cip-activities": 1
+  },
+  "iati-activity/@default-currency": {
+    "cip-activities": 1
+  },
+  "iati-activity/@hierarchy": {
+    "cip-activities": 1
+  },
+  "iati-activity/@humanitarian": {
+    "cip-activities": 1
+  },
+  "iati-activity/@last-updated-datetime": {
+    "cip-activities": 1
+  },
+  "iati-activity/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "cip-activities": 1
+  },
+  "iati-activity/activity-date": {
+    "cip-activities": 2
+  },
+  "iati-activity/activity-date/@iso-date": {
+    "cip-activities": 2
+  },
+  "iati-activity/activity-date/@type": {
+    "cip-activities": 2
+  },
+  "iati-activity/activity-status": {
+    "cip-activities": 1
+  },
+  "iati-activity/activity-status/@code": {
+    "cip-activities": 1
+  },
+  "iati-activity/budget": {
+    "cip-activities": 3
+  },
+  "iati-activity/budget/@status": {
+    "cip-activities": 3
+  },
+  "iati-activity/budget/@type": {
+    "cip-activities": 3
+  },
+  "iati-activity/budget/period-end": {
+    "cip-activities": 3
+  },
+  "iati-activity/budget/period-end/@iso-date": {
+    "cip-activities": 3
+  },
+  "iati-activity/budget/period-start": {
+    "cip-activities": 3
+  },
+  "iati-activity/budget/period-start/@iso-date": {
+    "cip-activities": 3
+  },
+  "iati-activity/budget/value": {
+    "cip-activities": 3
+  },
+  "iati-activity/budget/value/@currency": {
+    "cip-activities": 3
+  },
+  "iati-activity/budget/value/@value-date": {
+    "cip-activities": 3
+  },
+  "iati-activity/conditions": {
+    "cip-activities": 1
+  },
+  "iati-activity/conditions/@attached": {
+    "cip-activities": 1
+  },
+  "iati-activity/conditions/condition": {
+    "cip-activities": 1
+  },
+  "iati-activity/conditions/condition/@type": {
+    "cip-activities": 1
+  },
+  "iati-activity/conditions/condition/narrative": {
+    "cip-activities": 1
+  },
+  "iati-activity/conditions/condition/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "cip-activities": 1
+  },
+  "iati-activity/contact-info": {
+    "cip-activities": 1
+  },
+  "iati-activity/contact-info/@type": {
+    "cip-activities": 1
+  },
+  "iati-activity/contact-info/department": {
+    "cip-activities": 1
+  },
+  "iati-activity/contact-info/department/narrative": {
+    "cip-activities": 1
+  },
+  "iati-activity/contact-info/department/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "cip-activities": 1
+  },
+  "iati-activity/contact-info/email": {
+    "cip-activities": 1
+  },
+  "iati-activity/contact-info/job-title": {
+    "cip-activities": 1
+  },
+  "iati-activity/contact-info/job-title/narrative": {
+    "cip-activities": 1
+  },
+  "iati-activity/contact-info/job-title/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "cip-activities": 1
+  },
+  "iati-activity/contact-info/organisation": {
+    "cip-activities": 1
+  },
+  "iati-activity/contact-info/organisation/narrative": {
+    "cip-activities": 1
+  },
+  "iati-activity/contact-info/organisation/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "cip-activities": 1
+  },
+  "iati-activity/contact-info/person-name": {
+    "cip-activities": 1
+  },
+  "iati-activity/contact-info/person-name/narrative": {
+    "cip-activities": 1
+  },
+  "iati-activity/contact-info/person-name/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "cip-activities": 1
+  },
+  "iati-activity/contact-info/telephone": {
+    "cip-activities": 1
+  },
+  "iati-activity/default-aid-type": {
+    "cip-activities": 1
+  },
+  "iati-activity/default-aid-type/@code": {
+    "cip-activities": 1
+  },
+  "iati-activity/default-aid-type/@vocabulary": {
+    "cip-activities": 1
+  },
+  "iati-activity/default-finance-type": {
+    "cip-activities": 1
+  },
+  "iati-activity/default-finance-type/@code": {
+    "cip-activities": 1
+  },
+  "iati-activity/default-flow-type": {
+    "cip-activities": 1
+  },
+  "iati-activity/default-flow-type/@code": {
+    "cip-activities": 1
+  },
+  "iati-activity/default-tied-status": {
+    "cip-activities": 1
+  },
+  "iati-activity/default-tied-status/@code": {
+    "cip-activities": 1
+  },
+  "iati-activity/description": {
+    "cip-activities": 1
+  },
+  "iati-activity/description/@type": {
+    "cip-activities": 1
+  },
+  "iati-activity/description/narrative": {
+    "cip-activities": 1
+  },
+  "iati-activity/description/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "cip-activities": 1
+  },
+  "iati-activity/document-link": {
+    "cip-activities": 1
+  },
+  "iati-activity/document-link/@format": {
+    "cip-activities": 1
+  },
+  "iati-activity/document-link/@url": {
+    "cip-activities": 1
+  },
+  "iati-activity/document-link/category": {
+    "cip-activities": 1
+  },
+  "iati-activity/document-link/category/@code": {
+    "cip-activities": 1
+  },
+  "iati-activity/document-link/document-date": {
+    "cip-activities": 1
+  },
+  "iati-activity/document-link/document-date/@iso-date": {
+    "cip-activities": 1
+  },
+  "iati-activity/document-link/language": {
+    "cip-activities": 1
+  },
+  "iati-activity/document-link/language/@code": {
+    "cip-activities": 1
+  },
+  "iati-activity/document-link/title": {
+    "cip-activities": 1
+  },
+  "iati-activity/document-link/title/narrative": {
+    "cip-activities": 1
+  },
+  "iati-activity/document-link/title/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "cip-activities": 1
+  },
+  "iati-activity/iati-identifier": {
+    "cip-activities": 1
+  },
+  "iati-activity/participating-org": {
+    "cip-activities": 12
+  },
+  "iati-activity/participating-org/@activity-id": {
+    "cip-activities": 12
+  },
+  "iati-activity/participating-org/@ref": {
+    "cip-activities": 3
+  },
+  "iati-activity/participating-org/@role": {
+    "cip-activities": 12
+  },
+  "iati-activity/participating-org/@type": {
+    "cip-activities": 12
+  },
+  "iati-activity/participating-org/narrative": {
+    "cip-activities": 12
+  },
+  "iati-activity/participating-org/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "cip-activities": 3
+  },
+  "iati-activity/policy-marker": {
+    "cip-activities": 1
+  },
+  "iati-activity/policy-marker/@code": {
+    "cip-activities": 1
+  },
+  "iati-activity/policy-marker/@significance": {
+    "cip-activities": 1
+  },
+  "iati-activity/policy-marker/@vocabulary": {
+    "cip-activities": 1
+  },
+  "iati-activity/recipient-country": {
+    "cip-activities": 5
+  },
+  "iati-activity/recipient-country/@code": {
+    "cip-activities": 5
+  },
+  "iati-activity/recipient-country/@percentage": {
+    "cip-activities": 5
+  },
+  "iati-activity/reporting-org": {
+    "cip-activities": 1
+  },
+  "iati-activity/reporting-org/@ref": {
+    "cip-activities": 1
+  },
+  "iati-activity/reporting-org/@secondary-reporter": {
+    "cip-activities": 1
+  },
+  "iati-activity/reporting-org/@type": {
+    "cip-activities": 1
+  },
+  "iati-activity/reporting-org/narrative": {
+    "cip-activities": 1
+  },
+  "iati-activity/reporting-org/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "cip-activities": 1
+  },
+  "iati-activity/result": {
+    "cip-activities": 7
+  },
+  "iati-activity/result/@aggregation-status": {
+    "cip-activities": 7
+  },
+  "iati-activity/result/@type": {
+    "cip-activities": 7
+  },
+  "iati-activity/result/description": {
+    "cip-activities": 1
+  },
+  "iati-activity/result/description/narrative": {
+    "cip-activities": 1
+  },
+  "iati-activity/result/description/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "cip-activities": 1
+  },
+  "iati-activity/result/indicator": {
+    "cip-activities": 16
+  },
+  "iati-activity/result/indicator/@aggregation-status": {
+    "cip-activities": 16
+  },
+  "iati-activity/result/indicator/@ascending": {
+    "cip-activities": 16
+  },
+  "iati-activity/result/indicator/@measure": {
+    "cip-activities": 16
+  },
+  "iati-activity/result/indicator/baseline": {
+    "cip-activities": 7
+  },
+  "iati-activity/result/indicator/baseline/@iso-date": {
+    "cip-activities": 7
+  },
+  "iati-activity/result/indicator/baseline/@value": {
+    "cip-activities": 7
+  },
+  "iati-activity/result/indicator/baseline/@year": {
+    "cip-activities": 7
+  },
+  "iati-activity/result/indicator/baseline/comment": {
+    "cip-activities": 1
+  },
+  "iati-activity/result/indicator/baseline/comment/narrative": {
+    "cip-activities": 1
+  },
+  "iati-activity/result/indicator/baseline/comment/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "cip-activities": 1
+  },
+  "iati-activity/result/indicator/period": {
+    "cip-activities": 57
+  },
+  "iati-activity/result/indicator/period/actual": {
+    "cip-activities": 10
+  },
+  "iati-activity/result/indicator/period/actual/@value": {
+    "cip-activities": 7
+  },
+  "iati-activity/result/indicator/period/actual/comment": {
+    "cip-activities": 7
+  },
+  "iati-activity/result/indicator/period/actual/comment/narrative": {
+    "cip-activities": 7
+  },
+  "iati-activity/result/indicator/period/actual/comment/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "cip-activities": 7
+  },
+  "iati-activity/result/indicator/period/period-end": {
+    "cip-activities": 57
+  },
+  "iati-activity/result/indicator/period/period-end/@iso-date": {
+    "cip-activities": 57
+  },
+  "iati-activity/result/indicator/period/period-start": {
+    "cip-activities": 57
+  },
+  "iati-activity/result/indicator/period/period-start/@iso-date": {
+    "cip-activities": 57
+  },
+  "iati-activity/result/indicator/period/target": {
+    "cip-activities": 57
+  },
+  "iati-activity/result/indicator/period/target/@value": {
+    "cip-activities": 57
+  },
+  "iati-activity/result/indicator/period/target/comment": {
+    "cip-activities": 16
+  },
+  "iati-activity/result/indicator/period/target/comment/narrative": {
+    "cip-activities": 16
+  },
+  "iati-activity/result/indicator/period/target/comment/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "cip-activities": 16
+  },
+  "iati-activity/result/indicator/title": {
+    "cip-activities": 16
+  },
+  "iati-activity/result/indicator/title/narrative": {
+    "cip-activities": 16
+  },
+  "iati-activity/result/indicator/title/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "cip-activities": 16
+  },
+  "iati-activity/result/title": {
+    "cip-activities": 7
+  },
+  "iati-activity/result/title/narrative": {
+    "cip-activities": 7
+  },
+  "iati-activity/result/title/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "cip-activities": 7
+  },
+  "iati-activity/sector": {
+    "cip-activities": 3
+  },
+  "iati-activity/sector/@code": {
+    "cip-activities": 3
+  },
+  "iati-activity/sector/@percentage": {
+    "cip-activities": 3
+  },
+  "iati-activity/sector/@vocabulary": {
+    "cip-activities": 3
+  },
+  "iati-activity/title": {
+    "cip-activities": 1
+  },
+  "iati-activity/title/narrative": {
+    "cip-activities": 1
+  },
+  "iati-activity/title/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "cip-activities": 1
+  },
+  "iati-activity/transaction": {
+    "cip-activities": 29
+  },
+  "iati-activity/transaction/@humanitarian": {
+    "cip-activities": 29
+  },
+  "iati-activity/transaction/@ref": {
+    "cip-activities": 25
+  },
+  "iati-activity/transaction/description": {
+    "cip-activities": 20
+  },
+  "iati-activity/transaction/description/narrative": {
+    "cip-activities": 20
+  },
+  "iati-activity/transaction/description/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "cip-activities": 20
+  },
+  "iati-activity/transaction/finance-type": {
+    "cip-activities": 6
+  },
+  "iati-activity/transaction/finance-type/@code": {
+    "cip-activities": 6
+  },
+  "iati-activity/transaction/provider-org": {
+    "cip-activities": 29
+  },
+  "iati-activity/transaction/provider-org/@provider-activity-id": {
+    "cip-activities": 29
+  },
+  "iati-activity/transaction/provider-org/@ref": {
+    "cip-activities": 29
+  },
+  "iati-activity/transaction/provider-org/@type": {
+    "cip-activities": 28
+  },
+  "iati-activity/transaction/provider-org/narrative": {
+    "cip-activities": 29
+  },
+  "iati-activity/transaction/provider-org/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "cip-activities": 29
+  },
+  "iati-activity/transaction/receiver-org": {
+    "cip-activities": 25
+  },
+  "iati-activity/transaction/receiver-org/@receiver-activity-id": {
+    "cip-activities": 24
+  },
+  "iati-activity/transaction/receiver-org/@ref": {
+    "cip-activities": 4
+  },
+  "iati-activity/transaction/receiver-org/@type": {
+    "cip-activities": 25
+  },
+  "iati-activity/transaction/receiver-org/narrative": {
+    "cip-activities": 25
+  },
+  "iati-activity/transaction/receiver-org/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "cip-activities": 25
+  },
+  "iati-activity/transaction/transaction-date": {
+    "cip-activities": 29
+  },
+  "iati-activity/transaction/transaction-date/@iso-date": {
+    "cip-activities": 29
+  },
+  "iati-activity/transaction/transaction-type": {
+    "cip-activities": 29
+  },
+  "iati-activity/transaction/transaction-type/@code": {
+    "cip-activities": 29
+  },
+  "iati-activity/transaction/value": {
+    "cip-activities": 29
+  },
+  "iati-activity/transaction/value/@currency": {
+    "cip-activities": 29
+  },
+  "iati-activity/transaction/value/@value-date": {
+    "cip-activities": 29
+  },
+  "iati-organisation": {
+    "cip-org": 1
+  },
+  "iati-organisation/@default-currency": {
+    "cip-org": 1
+  },
+  "iati-organisation/@last-updated-datetime": {
+    "cip-org": 1
+  },
+  "iati-organisation/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "cip-org": 1
+  },
+  "iati-organisation/document-link": {
+    "cip-org": 6
+  },
+  "iati-organisation/document-link/@format": {
+    "cip-org": 6
+  },
+  "iati-organisation/document-link/@url": {
+    "cip-org": 6
+  },
+  "iati-organisation/document-link/category": {
+    "cip-org": 6
+  },
+  "iati-organisation/document-link/category/@code": {
+    "cip-org": 6
+  },
+  "iati-organisation/document-link/document-date": {
+    "cip-org": 6
+  },
+  "iati-organisation/document-link/document-date/@iso-date": {
+    "cip-org": 6
+  },
+  "iati-organisation/document-link/language": {
+    "cip-org": 6
+  },
+  "iati-organisation/document-link/language/@code": {
+    "cip-org": 6
+  },
+  "iati-organisation/document-link/title": {
+    "cip-org": 6
+  },
+  "iati-organisation/document-link/title/narrative": {
+    "cip-org": 6
+  },
+  "iati-organisation/document-link/title/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "cip-org": 6
+  },
+  "iati-organisation/name": {
+    "cip-org": 1
+  },
+  "iati-organisation/name/narrative": {
+    "cip-org": 1
+  },
+  "iati-organisation/name/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "cip-org": 1
+  },
+  "iati-organisation/organisation-identifier": {
+    "cip-org": 1
+  },
+  "iati-organisation/reporting-org": {
+    "cip-org": 1
+  },
+  "iati-organisation/reporting-org/@ref": {
+    "cip-org": 1
+  },
+  "iati-organisation/reporting-org/@secondary-reporter": {
+    "cip-org": 1
+  },
+  "iati-organisation/reporting-org/@type": {
+    "cip-org": 1
+  },
+  "iati-organisation/reporting-org/narrative": {
+    "cip-org": 1
+  },
+  "iati-organisation/reporting-org/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "cip-org": 1
+  },
+  "iati-organisation/total-budget": {
+    "cip-org": 2
+  },
+  "iati-organisation/total-budget/@status": {
+    "cip-org": 2
+  },
+  "iati-organisation/total-budget/period-end": {
+    "cip-org": 2
+  },
+  "iati-organisation/total-budget/period-end/@iso-date": {
+    "cip-org": 2
+  },
+  "iati-organisation/total-budget/period-start": {
+    "cip-org": 2
+  },
+  "iati-organisation/total-budget/period-start/@iso-date": {
+    "cip-org": 2
+  },
+  "iati-organisation/total-budget/value": {
+    "cip-org": 2
+  },
+  "iati-organisation/total-budget/value/@currency": {
+    "cip-org": 2
+  },
+  "iati-organisation/total-budget/value/@value-date": {
+    "cip-org": 2
+  }
+}

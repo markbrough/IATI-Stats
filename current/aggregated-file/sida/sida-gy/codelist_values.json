@@ -1,0 +1,88 @@
+{
+  ".//@default-currency": {
+    "USD": 10
+  },
+  ".//@xml:lang": {
+    "en": 10,
+    "sv": 20
+  },
+  ".//activity-date/@type": {
+    "4": 10,
+    "2": 10
+  },
+  ".//activity-status/@code": {
+    "4": 10
+  },
+  ".//collaboration-type/@code": {
+    "1": 10
+  },
+  ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "C01": 10
+  },
+  ".//default-finance-type/@code": {
+    "110": 10
+  },
+  ".//default-flow-type/@code": {
+    "10": 10
+  },
+  ".//description/@type": {
+    "1": 10
+  },
+  ".//participating-org/@role": {
+    "1": 10,
+    "2": 10,
+    "3": 10,
+    "4": 10
+  },
+  ".//participating-org/@type": {
+    "10": 20,
+    "40": 1,
+    "22": 9
+  },
+  ".//policy-marker/@significance": {
+    "0": 63,
+    "1": 18,
+    "2": 9
+  },
+  ".//policy-marker/@vocabulary": {
+    "1": 90
+  },
+  ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "1": 10,
+    "2": 10,
+    "3": 10,
+    "4": 10,
+    "5": 10,
+    "6": 10,
+    "7": 10,
+    "8": 10,
+    "9": 10
+  },
+  ".//recipient-country/@code": {
+    "GY": 10
+  },
+  ".//reporting-org/@type": {
+    "10": 10
+  },
+  ".//sector/@vocabulary": {
+    "1": 10,
+    "2": 10
+  },
+  ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "15151": 1,
+    "15150": 1,
+    "99820": 1,
+    "72010": 1,
+    "15160": 5,
+    "15110": 1
+  },
+  ".//sector[@vocabulary = '2']/@code": {
+    "151": 8,
+    "998": 1,
+    "720": 1
+  },
+  ".//transaction/transaction-type/@code": {
+    "2": 8,
+    "3": 14
+  }
+}

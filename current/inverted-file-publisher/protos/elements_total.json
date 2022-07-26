@@ -1,0 +1,701 @@
+{
+  "iati-activity": {
+    "protos-activities": 13
+  },
+  "iati-activity/@default-currency": {
+    "protos-activities": 13
+  },
+  "iati-activity/@hierarchy": {
+    "protos-activities": 13
+  },
+  "iati-activity/@humanitarian": {
+    "protos-activities": 13
+  },
+  "iati-activity/@last-updated-datetime": {
+    "protos-activities": 13
+  },
+  "iati-activity/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "protos-activities": 13
+  },
+  "iati-activity/activity-date": {
+    "protos-activities": 39
+  },
+  "iati-activity/activity-date/@iso-date": {
+    "protos-activities": 39
+  },
+  "iati-activity/activity-date/@type": {
+    "protos-activities": 39
+  },
+  "iati-activity/activity-status": {
+    "protos-activities": 13
+  },
+  "iati-activity/activity-status/@code": {
+    "protos-activities": 13
+  },
+  "iati-activity/budget": {
+    "protos-activities": 52
+  },
+  "iati-activity/budget/@status": {
+    "protos-activities": 52
+  },
+  "iati-activity/budget/@type": {
+    "protos-activities": 51
+  },
+  "iati-activity/budget/period-end": {
+    "protos-activities": 52
+  },
+  "iati-activity/budget/period-end/@iso-date": {
+    "protos-activities": 52
+  },
+  "iati-activity/budget/period-start": {
+    "protos-activities": 52
+  },
+  "iati-activity/budget/period-start/@iso-date": {
+    "protos-activities": 52
+  },
+  "iati-activity/budget/value": {
+    "protos-activities": 52
+  },
+  "iati-activity/budget/value/@currency": {
+    "protos-activities": 49
+  },
+  "iati-activity/budget/value/@value-date": {
+    "protos-activities": 52
+  },
+  "iati-activity/collaboration-type": {
+    "protos-activities": 13
+  },
+  "iati-activity/collaboration-type/@code": {
+    "protos-activities": 13
+  },
+  "iati-activity/conditions": {
+    "protos-activities": 11
+  },
+  "iati-activity/conditions/@attached": {
+    "protos-activities": 11
+  },
+  "iati-activity/contact-info": {
+    "protos-activities": 13
+  },
+  "iati-activity/contact-info/@type": {
+    "protos-activities": 13
+  },
+  "iati-activity/contact-info/department": {
+    "protos-activities": 13
+  },
+  "iati-activity/contact-info/department/narrative": {
+    "protos-activities": 14
+  },
+  "iati-activity/contact-info/department/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "protos-activities": 6
+  },
+  "iati-activity/contact-info/email": {
+    "protos-activities": 13
+  },
+  "iati-activity/contact-info/job-title": {
+    "protos-activities": 13
+  },
+  "iati-activity/contact-info/job-title/narrative": {
+    "protos-activities": 14
+  },
+  "iati-activity/contact-info/job-title/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "protos-activities": 6
+  },
+  "iati-activity/contact-info/mailing-address": {
+    "protos-activities": 13
+  },
+  "iati-activity/contact-info/mailing-address/narrative": {
+    "protos-activities": 13
+  },
+  "iati-activity/contact-info/mailing-address/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "protos-activities": 5
+  },
+  "iati-activity/contact-info/organisation": {
+    "protos-activities": 13
+  },
+  "iati-activity/contact-info/organisation/narrative": {
+    "protos-activities": 13
+  },
+  "iati-activity/contact-info/organisation/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "protos-activities": 5
+  },
+  "iati-activity/contact-info/person-name": {
+    "protos-activities": 13
+  },
+  "iati-activity/contact-info/person-name/narrative": {
+    "protos-activities": 13
+  },
+  "iati-activity/contact-info/person-name/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "protos-activities": 5
+  },
+  "iati-activity/contact-info/telephone": {
+    "protos-activities": 13
+  },
+  "iati-activity/contact-info/website": {
+    "protos-activities": 13
+  },
+  "iati-activity/default-aid-type": {
+    "protos-activities": 13
+  },
+  "iati-activity/default-aid-type/@code": {
+    "protos-activities": 13
+  },
+  "iati-activity/default-aid-type/@vocabulary": {
+    "protos-activities": 13
+  },
+  "iati-activity/default-finance-type": {
+    "protos-activities": 13
+  },
+  "iati-activity/default-finance-type/@code": {
+    "protos-activities": 13
+  },
+  "iati-activity/default-flow-type": {
+    "protos-activities": 13
+  },
+  "iati-activity/default-flow-type/@code": {
+    "protos-activities": 13
+  },
+  "iati-activity/default-tied-status": {
+    "protos-activities": 13
+  },
+  "iati-activity/default-tied-status/@code": {
+    "protos-activities": 13
+  },
+  "iati-activity/description": {
+    "protos-activities": 13
+  },
+  "iati-activity/description/@type": {
+    "protos-activities": 13
+  },
+  "iati-activity/description/narrative": {
+    "protos-activities": 14
+  },
+  "iati-activity/description/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "protos-activities": 8
+  },
+  "iati-activity/document-link": {
+    "protos-activities": 14
+  },
+  "iati-activity/document-link/@format": {
+    "protos-activities": 14
+  },
+  "iati-activity/document-link/@url": {
+    "protos-activities": 14
+  },
+  "iati-activity/document-link/category": {
+    "protos-activities": 58
+  },
+  "iati-activity/document-link/category/@code": {
+    "protos-activities": 58
+  },
+  "iati-activity/document-link/document-date": {
+    "protos-activities": 14
+  },
+  "iati-activity/document-link/document-date/@iso-date": {
+    "protos-activities": 14
+  },
+  "iati-activity/document-link/language": {
+    "protos-activities": 14
+  },
+  "iati-activity/document-link/language/@code": {
+    "protos-activities": 14
+  },
+  "iati-activity/document-link/title": {
+    "protos-activities": 14
+  },
+  "iati-activity/document-link/title/narrative": {
+    "protos-activities": 14
+  },
+  "iati-activity/document-link/title/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "protos-activities": 7
+  },
+  "iati-activity/iati-identifier": {
+    "protos-activities": 13
+  },
+  "iati-activity/location": {
+    "protos-activities": 29
+  },
+  "iati-activity/location/administrative": {
+    "protos-activities": 9
+  },
+  "iati-activity/location/administrative/@code": {
+    "protos-activities": 9
+  },
+  "iati-activity/location/administrative/@vocabulary": {
+    "protos-activities": 9
+  },
+  "iati-activity/location/exactness": {
+    "protos-activities": 27
+  },
+  "iati-activity/location/exactness/@code": {
+    "protos-activities": 27
+  },
+  "iati-activity/location/feature-designation": {
+    "protos-activities": 9
+  },
+  "iati-activity/location/feature-designation/@code": {
+    "protos-activities": 9
+  },
+  "iati-activity/location/location-class": {
+    "protos-activities": 27
+  },
+  "iati-activity/location/location-class/@code": {
+    "protos-activities": 27
+  },
+  "iati-activity/location/location-id": {
+    "protos-activities": 9
+  },
+  "iati-activity/location/location-id/@code": {
+    "protos-activities": 9
+  },
+  "iati-activity/location/location-id/@vocabulary": {
+    "protos-activities": 9
+  },
+  "iati-activity/location/location-reach": {
+    "protos-activities": 19
+  },
+  "iati-activity/location/location-reach/@code": {
+    "protos-activities": 19
+  },
+  "iati-activity/location/name": {
+    "protos-activities": 29
+  },
+  "iati-activity/location/name/narrative": {
+    "protos-activities": 29
+  },
+  "iati-activity/location/name/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "protos-activities": 10
+  },
+  "iati-activity/location/point": {
+    "protos-activities": 29
+  },
+  "iati-activity/location/point/@srsName": {
+    "protos-activities": 29
+  },
+  "iati-activity/location/point/pos": {
+    "protos-activities": 29
+  },
+  "iati-activity/other-identifier": {
+    "protos-activities": 1
+  },
+  "iati-activity/other-identifier/@ref": {
+    "protos-activities": 1
+  },
+  "iati-activity/other-identifier/@type": {
+    "protos-activities": 1
+  },
+  "iati-activity/participating-org": {
+    "protos-activities": 81
+  },
+  "iati-activity/participating-org/@activity-id": {
+    "protos-activities": 25
+  },
+  "iati-activity/participating-org/@ref": {
+    "protos-activities": 49
+  },
+  "iati-activity/participating-org/@role": {
+    "protos-activities": 81
+  },
+  "iati-activity/participating-org/@type": {
+    "protos-activities": 81
+  },
+  "iati-activity/participating-org/narrative": {
+    "protos-activities": 81
+  },
+  "iati-activity/participating-org/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "protos-activities": 50
+  },
+  "iati-activity/policy-marker": {
+    "protos-activities": 87
+  },
+  "iati-activity/policy-marker/@code": {
+    "protos-activities": 87
+  },
+  "iati-activity/policy-marker/@significance": {
+    "protos-activities": 87
+  },
+  "iati-activity/policy-marker/@vocabulary": {
+    "protos-activities": 84
+  },
+  "iati-activity/recipient-country": {
+    "protos-activities": 11
+  },
+  "iati-activity/recipient-country/@code": {
+    "protos-activities": 11
+  },
+  "iati-activity/recipient-country/@percentage": {
+    "protos-activities": 2
+  },
+  "iati-activity/recipient-region": {
+    "protos-activities": 2
+  },
+  "iati-activity/recipient-region/@code": {
+    "protos-activities": 2
+  },
+  "iati-activity/recipient-region/@vocabulary": {
+    "protos-activities": 2
+  },
+  "iati-activity/related-activity": {
+    "protos-activities": 31
+  },
+  "iati-activity/related-activity/@ref": {
+    "protos-activities": 31
+  },
+  "iati-activity/related-activity/@type": {
+    "protos-activities": 31
+  },
+  "iati-activity/reporting-org": {
+    "protos-activities": 13
+  },
+  "iati-activity/reporting-org/@ref": {
+    "protos-activities": 13
+  },
+  "iati-activity/reporting-org/@secondary-reporter": {
+    "protos-activities": 13
+  },
+  "iati-activity/reporting-org/@type": {
+    "protos-activities": 13
+  },
+  "iati-activity/reporting-org/narrative": {
+    "protos-activities": 13
+  },
+  "iati-activity/reporting-org/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "protos-activities": 13
+  },
+  "iati-activity/result": {
+    "protos-activities": 18
+  },
+  "iati-activity/result/@aggregation-status": {
+    "protos-activities": 16
+  },
+  "iati-activity/result/@type": {
+    "protos-activities": 18
+  },
+  "iati-activity/result/description": {
+    "protos-activities": 3
+  },
+  "iati-activity/result/description/narrative": {
+    "protos-activities": 3
+  },
+  "iati-activity/result/description/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "protos-activities": 3
+  },
+  "iati-activity/result/indicator": {
+    "protos-activities": 51
+  },
+  "iati-activity/result/indicator/@aggregation-status": {
+    "protos-activities": 19
+  },
+  "iati-activity/result/indicator/@ascending": {
+    "protos-activities": 51
+  },
+  "iati-activity/result/indicator/@measure": {
+    "protos-activities": 51
+  },
+  "iati-activity/result/indicator/baseline": {
+    "protos-activities": 51
+  },
+  "iati-activity/result/indicator/baseline/@iso-date": {
+    "protos-activities": 1
+  },
+  "iati-activity/result/indicator/baseline/@value": {
+    "protos-activities": 51
+  },
+  "iati-activity/result/indicator/baseline/@year": {
+    "protos-activities": 51
+  },
+  "iati-activity/result/indicator/baseline/comment": {
+    "protos-activities": 14
+  },
+  "iati-activity/result/indicator/baseline/comment/narrative": {
+    "protos-activities": 14
+  },
+  "iati-activity/result/indicator/baseline/comment/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "protos-activities": 5
+  },
+  "iati-activity/result/indicator/description": {
+    "protos-activities": 27
+  },
+  "iati-activity/result/indicator/description/narrative": {
+    "protos-activities": 29
+  },
+  "iati-activity/result/indicator/description/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "protos-activities": 14
+  },
+  "iati-activity/result/indicator/period": {
+    "protos-activities": 134
+  },
+  "iati-activity/result/indicator/period/actual": {
+    "protos-activities": 79
+  },
+  "iati-activity/result/indicator/period/actual/@value": {
+    "protos-activities": 79
+  },
+  "iati-activity/result/indicator/period/actual/comment": {
+    "protos-activities": 11
+  },
+  "iati-activity/result/indicator/period/actual/comment/narrative": {
+    "protos-activities": 11
+  },
+  "iati-activity/result/indicator/period/actual/comment/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "protos-activities": 4
+  },
+  "iati-activity/result/indicator/period/actual/dimension": {
+    "protos-activities": 26
+  },
+  "iati-activity/result/indicator/period/actual/dimension/@name": {
+    "protos-activities": 26
+  },
+  "iati-activity/result/indicator/period/actual/dimension/@value": {
+    "protos-activities": 26
+  },
+  "iati-activity/result/indicator/period/period-end": {
+    "protos-activities": 134
+  },
+  "iati-activity/result/indicator/period/period-end/@iso-date": {
+    "protos-activities": 134
+  },
+  "iati-activity/result/indicator/period/period-start": {
+    "protos-activities": 134
+  },
+  "iati-activity/result/indicator/period/period-start/@iso-date": {
+    "protos-activities": 134
+  },
+  "iati-activity/result/indicator/period/target": {
+    "protos-activities": 134
+  },
+  "iati-activity/result/indicator/period/target/@value": {
+    "protos-activities": 134
+  },
+  "iati-activity/result/indicator/period/target/comment": {
+    "protos-activities": 27
+  },
+  "iati-activity/result/indicator/period/target/comment/narrative": {
+    "protos-activities": 27
+  },
+  "iati-activity/result/indicator/period/target/comment/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "protos-activities": 5
+  },
+  "iati-activity/result/indicator/period/target/dimension": {
+    "protos-activities": 32
+  },
+  "iati-activity/result/indicator/period/target/dimension/@name": {
+    "protos-activities": 32
+  },
+  "iati-activity/result/indicator/period/target/dimension/@value": {
+    "protos-activities": 32
+  },
+  "iati-activity/result/indicator/title": {
+    "protos-activities": 51
+  },
+  "iati-activity/result/indicator/title/narrative": {
+    "protos-activities": 53
+  },
+  "iati-activity/result/indicator/title/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "protos-activities": 26
+  },
+  "iati-activity/result/title": {
+    "protos-activities": 18
+  },
+  "iati-activity/result/title/narrative": {
+    "protos-activities": 18
+  },
+  "iati-activity/result/title/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "protos-activities": 12
+  },
+  "iati-activity/sector": {
+    "protos-activities": 13
+  },
+  "iati-activity/sector/@code": {
+    "protos-activities": 13
+  },
+  "iati-activity/sector/@percentage": {
+    "protos-activities": 3
+  },
+  "iati-activity/sector/@vocabulary": {
+    "protos-activities": 13
+  },
+  "iati-activity/title": {
+    "protos-activities": 13
+  },
+  "iati-activity/title/narrative": {
+    "protos-activities": 15
+  },
+  "iati-activity/title/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "protos-activities": 10
+  },
+  "iati-activity/transaction": {
+    "protos-activities": 273
+  },
+  "iati-activity/transaction/@ref": {
+    "protos-activities": 152
+  },
+  "iati-activity/transaction/aid-type": {
+    "protos-activities": 14
+  },
+  "iati-activity/transaction/aid-type/@code": {
+    "protos-activities": 14
+  },
+  "iati-activity/transaction/aid-type/@vocabulary": {
+    "protos-activities": 14
+  },
+  "iati-activity/transaction/description": {
+    "protos-activities": 273
+  },
+  "iati-activity/transaction/description/narrative": {
+    "protos-activities": 273
+  },
+  "iati-activity/transaction/description/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "protos-activities": 228
+  },
+  "iati-activity/transaction/provider-org": {
+    "protos-activities": 273
+  },
+  "iati-activity/transaction/provider-org/@provider-activity-id": {
+    "protos-activities": 260
+  },
+  "iati-activity/transaction/provider-org/@ref": {
+    "protos-activities": 273
+  },
+  "iati-activity/transaction/provider-org/@type": {
+    "protos-activities": 267
+  },
+  "iati-activity/transaction/provider-org/narrative": {
+    "protos-activities": 273
+  },
+  "iati-activity/transaction/provider-org/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "protos-activities": 229
+  },
+  "iati-activity/transaction/receiver-org": {
+    "protos-activities": 232
+  },
+  "iati-activity/transaction/receiver-org/@receiver-activity-id": {
+    "protos-activities": 30
+  },
+  "iati-activity/transaction/receiver-org/@ref": {
+    "protos-activities": 46
+  },
+  "iati-activity/transaction/receiver-org/@type": {
+    "protos-activities": 232
+  },
+  "iati-activity/transaction/receiver-org/narrative": {
+    "protos-activities": 232
+  },
+  "iati-activity/transaction/receiver-org/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "protos-activities": 198
+  },
+  "iati-activity/transaction/transaction-date": {
+    "protos-activities": 273
+  },
+  "iati-activity/transaction/transaction-date/@iso-date": {
+    "protos-activities": 273
+  },
+  "iati-activity/transaction/transaction-type": {
+    "protos-activities": 273
+  },
+  "iati-activity/transaction/transaction-type/@code": {
+    "protos-activities": 273
+  },
+  "iati-activity/transaction/value": {
+    "protos-activities": 273
+  },
+  "iati-activity/transaction/value/@currency": {
+    "protos-activities": 241
+  },
+  "iati-activity/transaction/value/@value-date": {
+    "protos-activities": 273
+  },
+  "iati-organisation": {
+    "protos-org": 1
+  },
+  "iati-organisation/@default-currency": {
+    "protos-org": 1
+  },
+  "iati-organisation/@last-updated-datetime": {
+    "protos-org": 1
+  },
+  "iati-organisation/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "protos-org": 1
+  },
+  "iati-organisation/name": {
+    "protos-org": 1
+  },
+  "iati-organisation/name/narrative": {
+    "protos-org": 1
+  },
+  "iati-organisation/name/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "protos-org": 1
+  },
+  "iati-organisation/organisation-identifier": {
+    "protos-org": 1
+  },
+  "iati-organisation/reporting-org": {
+    "protos-org": 1
+  },
+  "iati-organisation/reporting-org/@ref": {
+    "protos-org": 1
+  },
+  "iati-organisation/reporting-org/@secondary-reporter": {
+    "protos-org": 1
+  },
+  "iati-organisation/reporting-org/@type": {
+    "protos-org": 1
+  },
+  "iati-organisation/reporting-org/narrative": {
+    "protos-org": 1
+  },
+  "iati-organisation/reporting-org/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "protos-org": 1
+  },
+  "iati-organisation/total-budget": {
+    "protos-org": 4
+  },
+  "iati-organisation/total-budget/@status": {
+    "protos-org": 4
+  },
+  "iati-organisation/total-budget/period-end": {
+    "protos-org": 4
+  },
+  "iati-organisation/total-budget/period-end/@iso-date": {
+    "protos-org": 4
+  },
+  "iati-organisation/total-budget/period-start": {
+    "protos-org": 4
+  },
+  "iati-organisation/total-budget/period-start/@iso-date": {
+    "protos-org": 4
+  },
+  "iati-organisation/total-budget/value": {
+    "protos-org": 4
+  },
+  "iati-organisation/total-budget/value/@currency": {
+    "protos-org": 3
+  },
+  "iati-organisation/total-budget/value/@value-date": {
+    "protos-org": 4
+  },
+  "iati-organisation/total-expenditure": {
+    "protos-org": 3
+  },
+  "iati-organisation/total-expenditure/period-end": {
+    "protos-org": 3
+  },
+  "iati-organisation/total-expenditure/period-end/@iso-date": {
+    "protos-org": 3
+  },
+  "iati-organisation/total-expenditure/period-start": {
+    "protos-org": 3
+  },
+  "iati-organisation/total-expenditure/period-start/@iso-date": {
+    "protos-org": 3
+  },
+  "iati-organisation/total-expenditure/value": {
+    "protos-org": 3
+  },
+  "iati-organisation/total-expenditure/value/@currency": {
+    "protos-org": 1
+  },
+  "iati-organisation/total-expenditure/value/@value-date": {
+    "protos-org": 3
+  }
+}

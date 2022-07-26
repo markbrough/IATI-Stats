@@ -1,0 +1,243 @@
+{
+  ".//@default-currency": {
+    "BAM": 3,
+    "GBP": 5
+  },
+  ".//@xml:lang": {
+    "en": 420
+  },
+  ".//activity-date/@type": {
+    "2": 8,
+    "3": 8,
+    "1": 1
+  },
+  ".//activity-scope/@code": {
+    "4": 5,
+    "6": 2,
+    "3": 1
+  },
+  ".//activity-status/@code": {
+    "2": 8
+  },
+  ".//budget/@status": {
+    "2": 16
+  },
+  ".//budget/@type": {
+    "1": 16
+  },
+  ".//budget/value/@currency": {
+    "USD": 2,
+    "GBP": 12,
+    "BAM": 2
+  },
+  ".//collaboration-type/@code": {
+    "1": 4,
+    "2": 3,
+    "4": 1
+  },
+  ".//conditions/condition/@type": {
+    "2": 3
+  },
+  ".//contact-info/@type": {
+    "2": 3,
+    "4": 1,
+    "1": 6,
+    "3": 2
+  },
+  ".//default-aid-type/@vocabulary": {
+    "1": 6
+  },
+  ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "B03": 8
+  },
+  ".//default-finance-type/@code": {
+    "110": 8
+  },
+  ".//default-flow-type/@code": {
+    "10": 8
+  },
+  ".//default-tied-status/@code": {
+    "3": 1,
+    "4": 7
+  },
+  ".//description/@type": {
+    "1": 6,
+    "2": 6,
+    "3": 4,
+    "4": 1
+  },
+  ".//document-link/@format": {
+    "application/link-format": 21,
+    "application/pdf": 12,
+    "application/A2L": 1
+  },
+  ".//document-link/category/@code": {
+    "A08": 23,
+    "A01": 11
+  },
+  ".//location/administrative/@vocabulary": {
+    "A3": 1,
+    "G2": 1,
+    "G1": 2
+  },
+  ".//location/exactness/@code": {
+    "2": 4,
+    "1": 1
+  },
+  ".//location/feature-designation/@code": {
+    "BLDG": 1,
+    "AREA": 2,
+    "RGN": 2
+  },
+  ".//location/location-class/@code": {
+    "1": 5
+  },
+  ".//location/location-id/@vocabulary": {
+    "G2": 2,
+    "G1": 2
+  },
+  ".//location/location-reach/@code": {
+    "1": 5
+  },
+  ".//other-identifier/@type": {
+    "A3": 1
+  },
+  ".//participating-org/@crs-channel-code": {
+    "11000": 1,
+    "21000": 2
+  },
+  ".//participating-org/@role": {
+    "4": 7,
+    "1": 5,
+    "2": 5
+  },
+  ".//participating-org/@type": {
+    "21": 9,
+    "10": 1,
+    "22": 3,
+    "70": 4
+  },
+  ".//planned-disbursement/@type": {
+    "1": 4
+  },
+  ".//planned-disbursement/provider-org/@type": {
+    "GRANT": 1,
+    "10": 1,
+    "Grant": 2
+  },
+  ".//planned-disbursement/receiver-org/@type": {
+    "GRANT": 1,
+    "21": 1,
+    "Grant": 2
+  },
+  ".//planned-disbursement/value/@currency": {
+    "USD": 2,
+    "BAM": 2
+  },
+  ".//policy-marker/@significance": {
+    "1": 4,
+    "0": 1
+  },
+  ".//policy-marker/@vocabulary": {
+    "99": 1,
+    "1": 4
+  },
+  ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "3": 3,
+    "10": 1
+  },
+  ".//recipient-country/@code": {
+    "IQ": 2,
+    "VN": 2,
+    "BA": 2,
+    "LA": 2,
+    "LB": 2
+  },
+  ".//recipient-region/@vocabulary": {
+    "1": 2,
+    "99": 2
+  },
+  ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "589": 2
+  },
+  ".//reporting-org/@type": {
+    "21": 8
+  },
+  ".//result/@type": {
+    "2": 23,
+    "1": 48,
+    "3": 2
+  },
+  ".//result/document-link/@format": {
+    "application/link-format": 21,
+    "application/pdf": 12,
+    "application/A2L": 1
+  },
+  ".//result/document-link/category/@code": {
+    "A08": 23,
+    "A01": 11
+  },
+  ".//result/indicator/@measure": {
+    "1": 87,
+    "2": 45
+  },
+  ".//result/indicator/reference/@vocabulary": {
+    "99": 123
+  },
+  ".//result/reference/@vocabulary": {
+    "99": 33
+  },
+  ".//sector/@vocabulary": {
+    "1": 58
+  },
+  ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "15180": 13,
+    "16010": 1,
+    "15250": 44
+  },
+  ".//transaction/aid-type/@vocabulary": {
+    "1": 2
+  },
+  ".//transaction/aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "B01": 2,
+    "B03": 2
+  },
+  ".//transaction/disbursement-channel/@code": {
+    "1": 32,
+    "2": 47
+  },
+  ".//transaction/finance-type/@code": {
+    "110": 9
+  },
+  ".//transaction/flow-type/@code": {
+    "10": 2
+  },
+  ".//transaction/provider-org/@type": {
+    "10": 2,
+    "21": 35
+  },
+  ".//transaction/receiver-org/@type": {
+    "21": 37
+  },
+  ".//transaction/sector/@vocabulary": {
+    "1": 53
+  },
+  ".//transaction/sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "15180": 13,
+    "15250": 40
+  },
+  ".//transaction/tied-status/@code": {
+    "3": 2,
+    "4": 36
+  },
+  ".//transaction/transaction-type/@code": {
+    "4": 71,
+    "1": 9,
+    "2": 1
+  },
+  ".//transaction/value/@currency": {
+    "USD": 24,
+    "GBP": 36,
+    "BAM": 20
+  }
+}

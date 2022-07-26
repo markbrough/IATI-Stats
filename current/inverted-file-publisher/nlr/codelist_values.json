@@ -1,0 +1,280 @@
+{
+  ".//@default-currency": {
+    "EUR": {
+      "nlr-activity": 1,
+      "nlr-activities": 1
+    }
+  },
+  ".//@xml:lang": {
+    "en": {
+      "nlr-activity": 8,
+      "nlr-activities": 3
+    }
+  },
+  ".//activity-date/@type": {
+    "1": {
+      "nlr-activity": 1
+    },
+    "2": {
+      "nlr-activity": 1,
+      "nlr-activities": 1
+    },
+    "3": {
+      "nlr-activity": 1
+    },
+    "4": {
+      "nlr-activity": 1
+    }
+  },
+  ".//activity-scope/@code": {
+    "5": {
+      "nlr-activity": 1
+    }
+  },
+  ".//activity-status/@code": {
+    "2": {
+      "nlr-activity": 1,
+      "nlr-activities": 1
+    }
+  },
+  ".//budget/@type": {
+    "1": {
+      "nlr-activity": 1
+    }
+  },
+  ".//budget/value/@currency": {
+    "EUR": {
+      "nlr-activity": 1
+    }
+  },
+  ".//contact-info/@type": {
+    "1": {
+      "nlr-activity": 1
+    }
+  },
+  ".//default-aid-type/@vocabulary": {
+    "1": {
+      "nlr-activity": 1
+    }
+  },
+  ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "C01": {
+      "nlr-activity": 1
+    }
+  },
+  ".//default-finance-type/@code": {
+    "110": {
+      "nlr-activity": 1
+    }
+  },
+  ".//default-flow-type/@code": {
+    "10": {
+      "nlr-activity": 1
+    }
+  },
+  ".//default-tied-status/@code": {
+    "4": {
+      "nlr-activity": 1
+    }
+  },
+  ".//description/@type": {
+    "1": {
+      "nlr-activity": 6,
+      "nlr-activities": 1
+    },
+    "2": {
+      "nlr-activity": 1
+    },
+    "3": {
+      "nlr-activity": 1
+    }
+  },
+  ".//document-link/@format": {
+    "image/jpeg": {
+      "nlr-activity": 1
+    },
+    "application/pdf": {
+      "nlr-activity": 7
+    },
+    "application/http": {
+      "nlr-activity": 4
+    }
+  },
+  ".//document-link/category/@code": {
+    "A12": {
+      "nlr-activity": 5
+    },
+    "A08": {
+      "nlr-activity": 4
+    },
+    "B01": {
+      "nlr-activity": 3
+    }
+  },
+  ".//document-link/language/@code": {
+    "en": {
+      "nlr-activity": 11
+    }
+  },
+  ".//other-identifier/@type": {
+    "B9": {
+      "nlr-activity": 1
+    }
+  },
+  ".//participating-org/@role": {
+    "1": {
+      "nlr-activity": 1,
+      "nlr-activities": 1
+    },
+    "2": {
+      "nlr-activity": 1
+    },
+    "4": {
+      "nlr-activity": 1
+    }
+  },
+  ".//participating-org/@type": {
+    "10": {
+      "nlr-activity": 1,
+      "nlr-activities": 1
+    },
+    "22": {
+      "nlr-activity": 2
+    }
+  },
+  ".//policy-marker/@significance": {
+    "1": {
+      "nlr-activity": 1
+    },
+    "2": {
+      "nlr-activity": 1
+    }
+  },
+  ".//policy-marker/@vocabulary": {
+    "1": {
+      "nlr-activity": 2
+    }
+  },
+  ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "1": {
+      "nlr-activity": 1
+    },
+    "3": {
+      "nlr-activity": 1
+    }
+  },
+  ".//recipient-country/@code": {
+    "ID": {
+      "nlr-activity": 3,
+      "nlr-activities": 3
+    },
+    "NL": {
+      "nlr-activities": 4
+    }
+  },
+  ".//reporting-org/@type": {
+    "22": {
+      "nlr-activity": 1
+    },
+    "21": {
+      "nlr-activities": 1
+    }
+  },
+  ".//result/@type": {
+    "2": {
+      "nlr-activity": 3
+    },
+    "1": {
+      "nlr-activity": 12
+    }
+  },
+  ".//result/indicator/@measure": {
+    "5": {
+      "nlr-activity": 1
+    },
+    "1": {
+      "nlr-activity": 28
+    },
+    "2": {
+      "nlr-activity": 2
+    }
+  },
+  ".//sector/@vocabulary": {
+    "1": {
+      "nlr-activity": 2
+    },
+    "7": {
+      "nlr-activities": 1
+    }
+  },
+  ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "15150": {
+      "nlr-activity": 1
+    },
+    "16020": {
+      "nlr-activity": 1
+    }
+  },
+  ".//sector[@vocabulary = '7']/@code": {
+    "8": {
+      "nlr-activities": 1
+    }
+  },
+  ".//transaction/finance-type/@code": {
+    "110": {
+      "nlr-activity": 2
+    }
+  },
+  ".//transaction/flow-type/@code": {
+    "10": {
+      "nlr-activity": 2
+    }
+  },
+  ".//transaction/provider-org/@type": {
+    "10": {
+      "nlr-activity": 2,
+      "nlr-activities": 4
+    },
+    "21": {
+      "nlr-activities": 3
+    }
+  },
+  ".//transaction/receiver-org/@type": {
+    "22": {
+      "nlr-activity": 2,
+      "nlr-activities": 3
+    }
+  },
+  ".//transaction/recipient-country/@code": {
+    "ID": {
+      "nlr-activity": 2,
+      "nlr-activities": 3
+    },
+    "NL": {
+      "nlr-activities": 4
+    }
+  },
+  ".//transaction/tied-status/@code": {
+    "5": {
+      "nlr-activity": 2
+    }
+  },
+  ".//transaction/transaction-type/@code": {
+    "1": {
+      "nlr-activity": 2,
+      "nlr-activities": 3
+    },
+    "3": {
+      "nlr-activities": 3
+    },
+    "11": {
+      "nlr-activities": 1
+    }
+  },
+  ".//transaction/value/@currency": {
+    "EUR": {
+      "nlr-activity": 2,
+      "nlr-activities": 7
+    }
+  }
+}

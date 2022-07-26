@@ -1,0 +1,633 @@
+{
+  ".//@default-currency": {
+    "DKK": {
+      "aadk-ng": 1,
+      "aadk-ug": 1,
+      "aadk-998": 3,
+      "aadk-589": 1,
+      "aadk-ke": 1,
+      "aadk-tz": 1,
+      "aadk-zw": 1,
+      "aadk-ps": 1,
+      "aadk-zm": 1,
+      "aadk-mm": 1,
+      "aadk-bd": 1,
+      "aadk-mz": 1
+    }
+  },
+  ".//@xml:lang": {
+    "en": {
+      "aadk-ng": 4,
+      "aadk-ug": 4,
+      "aadk-998": 22,
+      "aadk-589": 4,
+      "aadk-ke": 4,
+      "aadk-tz": 4,
+      "aadk-zw": 4,
+      "aadk-ps": 4,
+      "aadk-zm": 4,
+      "aadk-mm": 4,
+      "aadk-bd": 4,
+      "aadk-mz": 4
+    }
+  },
+  ".//activity-date/@type": {
+    "1": {
+      "aadk-ng": 1,
+      "aadk-ug": 1,
+      "aadk-998": 2,
+      "aadk-589": 1,
+      "aadk-ke": 1,
+      "aadk-tz": 1,
+      "aadk-zw": 1,
+      "aadk-ps": 1,
+      "aadk-zm": 1,
+      "aadk-mm": 1,
+      "aadk-bd": 1,
+      "aadk-mz": 1
+    },
+    "3": {
+      "aadk-ng": 1,
+      "aadk-ug": 1,
+      "aadk-998": 3,
+      "aadk-589": 1,
+      "aadk-ke": 1,
+      "aadk-tz": 1,
+      "aadk-zw": 1,
+      "aadk-ps": 1,
+      "aadk-zm": 1,
+      "aadk-mm": 1,
+      "aadk-bd": 1,
+      "aadk-mz": 1
+    },
+    "2": {
+      "aadk-998": 1
+    }
+  },
+  ".//activity-status/@code": {
+    "2": {
+      "aadk-ng": 1,
+      "aadk-ug": 1,
+      "aadk-998": 3,
+      "aadk-589": 1,
+      "aadk-ke": 1,
+      "aadk-tz": 1,
+      "aadk-zw": 1,
+      "aadk-ps": 1,
+      "aadk-zm": 1,
+      "aadk-mm": 1,
+      "aadk-bd": 1,
+      "aadk-mz": 1
+    }
+  },
+  ".//budget/@status": {
+    "2": {
+      "aadk-ng": 2,
+      "aadk-ug": 2,
+      "aadk-589": 2,
+      "aadk-ke": 1,
+      "aadk-tz": 2,
+      "aadk-ps": 2,
+      "aadk-zm": 2,
+      "aadk-mm": 2,
+      "aadk-bd": 2,
+      "aadk-mz": 2
+    },
+    "1": {
+      "aadk-ng": 1,
+      "aadk-ug": 1,
+      "aadk-998": 4,
+      "aadk-589": 1,
+      "aadk-ke": 2,
+      "aadk-tz": 1,
+      "aadk-zw": 3,
+      "aadk-ps": 1,
+      "aadk-zm": 1,
+      "aadk-mm": 1,
+      "aadk-bd": 1,
+      "aadk-mz": 1
+    }
+  },
+  ".//budget/@type": {
+    "1": {
+      "aadk-ng": 3,
+      "aadk-ug": 3,
+      "aadk-998": 4,
+      "aadk-589": 3,
+      "aadk-ke": 3,
+      "aadk-tz": 3,
+      "aadk-zw": 3,
+      "aadk-ps": 3,
+      "aadk-zm": 3,
+      "aadk-mm": 3,
+      "aadk-bd": 3,
+      "aadk-mz": 3
+    }
+  },
+  ".//budget/value/@currency": {
+    "DKK": {
+      "aadk-ng": 3,
+      "aadk-ug": 3,
+      "aadk-998": 4,
+      "aadk-589": 3,
+      "aadk-ke": 3,
+      "aadk-tz": 3,
+      "aadk-zw": 3,
+      "aadk-ps": 3,
+      "aadk-zm": 3,
+      "aadk-mm": 3,
+      "aadk-bd": 3,
+      "aadk-mz": 3
+    }
+  },
+  ".//contact-info/@type": {
+    "2": {
+      "aadk-ng": 1,
+      "aadk-ug": 1,
+      "aadk-589": 1,
+      "aadk-ke": 1,
+      "aadk-tz": 1,
+      "aadk-ps": 1,
+      "aadk-mm": 1,
+      "aadk-bd": 1
+    },
+    "1": {
+      "aadk-998": 2
+    }
+  },
+  ".//default-aid-type/@vocabulary": {
+    "1": {
+      "aadk-ng": 1,
+      "aadk-ug": 1,
+      "aadk-998": 3,
+      "aadk-589": 1,
+      "aadk-ke": 1,
+      "aadk-tz": 1,
+      "aadk-zw": 1,
+      "aadk-ps": 1,
+      "aadk-zm": 1,
+      "aadk-mm": 1,
+      "aadk-bd": 1,
+      "aadk-mz": 1
+    }
+  },
+  ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "B03": {
+      "aadk-ng": 1,
+      "aadk-ug": 1,
+      "aadk-998": 3,
+      "aadk-589": 1,
+      "aadk-ke": 1,
+      "aadk-tz": 1,
+      "aadk-zw": 1,
+      "aadk-ps": 1,
+      "aadk-zm": 1,
+      "aadk-mm": 1,
+      "aadk-bd": 1
+    },
+    "B01": {
+      "aadk-mz": 1
+    }
+  },
+  ".//default-finance-type/@code": {
+    "110": {
+      "aadk-ng": 1,
+      "aadk-ug": 1,
+      "aadk-998": 3,
+      "aadk-589": 1,
+      "aadk-ke": 1,
+      "aadk-tz": 1,
+      "aadk-zw": 1,
+      "aadk-ps": 1,
+      "aadk-zm": 1,
+      "aadk-mm": 1,
+      "aadk-bd": 1,
+      "aadk-mz": 1
+    }
+  },
+  ".//default-flow-type/@code": {
+    "10": {
+      "aadk-ng": 1,
+      "aadk-ug": 1,
+      "aadk-998": 3,
+      "aadk-589": 1,
+      "aadk-ke": 1,
+      "aadk-tz": 1,
+      "aadk-zw": 1,
+      "aadk-ps": 1,
+      "aadk-zm": 1,
+      "aadk-mm": 1,
+      "aadk-bd": 1,
+      "aadk-mz": 1
+    }
+  },
+  ".//default-tied-status/@code": {
+    "5": {
+      "aadk-ng": 1,
+      "aadk-ug": 1,
+      "aadk-998": 3,
+      "aadk-589": 1,
+      "aadk-ke": 1,
+      "aadk-tz": 1,
+      "aadk-zw": 1,
+      "aadk-ps": 1,
+      "aadk-zm": 1,
+      "aadk-mm": 1,
+      "aadk-bd": 1,
+      "aadk-mz": 1
+    }
+  },
+  ".//description/@type": {
+    "2": {
+      "aadk-ng": 1,
+      "aadk-ug": 1,
+      "aadk-998": 3,
+      "aadk-589": 1,
+      "aadk-ke": 1,
+      "aadk-tz": 1,
+      "aadk-zw": 1,
+      "aadk-ps": 1,
+      "aadk-zm": 1,
+      "aadk-mm": 1,
+      "aadk-bd": 1,
+      "aadk-mz": 1
+    }
+  },
+  ".//document-link/@format": {
+    "application/pdf": {
+      "aadk-998": 4
+    }
+  },
+  ".//document-link/category/@code": {
+    "A06": {
+      "aadk-998": 4
+    }
+  },
+  ".//document-link/language/@code": {
+    "da": {
+      "aadk-998": 4
+    }
+  },
+  ".//participating-org/@role": {
+    "1": {
+      "aadk-ng": 1,
+      "aadk-ug": 1,
+      "aadk-998": 3,
+      "aadk-589": 1,
+      "aadk-ke": 1,
+      "aadk-tz": 1,
+      "aadk-zw": 1,
+      "aadk-ps": 1,
+      "aadk-zm": 1,
+      "aadk-mm": 1,
+      "aadk-bd": 1,
+      "aadk-mz": 1
+    },
+    "2": {
+      "aadk-ng": 1,
+      "aadk-ug": 1,
+      "aadk-998": 3,
+      "aadk-589": 1,
+      "aadk-ke": 1,
+      "aadk-tz": 1,
+      "aadk-zw": 1,
+      "aadk-ps": 1,
+      "aadk-zm": 1,
+      "aadk-mm": 1,
+      "aadk-bd": 1,
+      "aadk-mz": 1
+    },
+    "4": {
+      "aadk-ng": 1,
+      "aadk-ug": 1,
+      "aadk-998": 3,
+      "aadk-589": 1,
+      "aadk-ke": 1,
+      "aadk-tz": 1,
+      "aadk-zw": 1,
+      "aadk-ps": 1,
+      "aadk-zm": 1,
+      "aadk-mm": 1,
+      "aadk-bd": 1,
+      "aadk-mz": 1
+    }
+  },
+  ".//participating-org/@type": {
+    "21": {
+      "aadk-ng": 3,
+      "aadk-ug": 3,
+      "aadk-998": 7,
+      "aadk-589": 3,
+      "aadk-ke": 3,
+      "aadk-tz": 3,
+      "aadk-zw": 3,
+      "aadk-ps": 3,
+      "aadk-zm": 3,
+      "aadk-mm": 3,
+      "aadk-bd": 3,
+      "aadk-mz": 2
+    },
+    "10": {
+      "aadk-998": 2
+    },
+    "22": {
+      "aadk-mz": 1
+    }
+  },
+  ".//recipient-country/@code": {
+    "NG": {
+      "aadk-ng": 1
+    },
+    "UG": {
+      "aadk-ug": 1
+    },
+    "DK": {
+      "aadk-998": 29
+    },
+    "KE": {
+      "aadk-ke": 1
+    },
+    "TZ": {
+      "aadk-tz": 1
+    },
+    "ZW": {
+      "aadk-zw": 1
+    },
+    "PS": {
+      "aadk-ps": 1
+    },
+    "ZM": {
+      "aadk-zm": 1
+    },
+    "MM": {
+      "aadk-mm": 1
+    },
+    "BD": {
+      "aadk-bd": 1
+    },
+    "MZ": {
+      "aadk-mz": 1
+    }
+  },
+  ".//recipient-region/@vocabulary": {
+    "1": {
+      "aadk-998": 2,
+      "aadk-589": 1
+    }
+  },
+  ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "89": {
+      "aadk-998": 29
+    },
+    "589": {
+      "aadk-998": 1,
+      "aadk-589": 1
+    },
+    "998": {
+      "aadk-998": 1
+    }
+  },
+  ".//related-activity/@type": {
+    "1": {
+      "aadk-ng": 1,
+      "aadk-ug": 1,
+      "aadk-589": 1,
+      "aadk-ke": 1,
+      "aadk-tz": 1,
+      "aadk-zw": 1,
+      "aadk-ps": 1,
+      "aadk-zm": 1,
+      "aadk-mm": 1,
+      "aadk-bd": 1,
+      "aadk-mz": 1
+    },
+    "2": {
+      "aadk-998": 33
+    }
+  },
+  ".//reporting-org/@type": {
+    "21": {
+      "aadk-ng": 1,
+      "aadk-ug": 1,
+      "aadk-998": 3,
+      "aadk-589": 1,
+      "aadk-ke": 1,
+      "aadk-tz": 1,
+      "aadk-zw": 1,
+      "aadk-ps": 1,
+      "aadk-zm": 1,
+      "aadk-mm": 1,
+      "aadk-bd": 1,
+      "aadk-mz": 1
+    }
+  },
+  ".//sector/@vocabulary": {
+    "1": {
+      "aadk-ng": 1,
+      "aadk-ug": 1,
+      "aadk-998": 3,
+      "aadk-589": 1,
+      "aadk-ke": 1,
+      "aadk-tz": 1,
+      "aadk-zw": 1,
+      "aadk-ps": 1,
+      "aadk-zm": 1,
+      "aadk-mm": 1,
+      "aadk-bd": 1,
+      "aadk-mz": 1
+    }
+  },
+  ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "15123": {
+      "aadk-ng": 1,
+      "aadk-ug": 1,
+      "aadk-998": 3,
+      "aadk-589": 1,
+      "aadk-ke": 1,
+      "aadk-tz": 1,
+      "aadk-zw": 1,
+      "aadk-ps": 1,
+      "aadk-zm": 1,
+      "aadk-mm": 1,
+      "aadk-bd": 1,
+      "aadk-mz": 1
+    }
+  },
+  ".//transaction/aid-type/@vocabulary": {
+    "1": {
+      "aadk-ng": 12,
+      "aadk-ug": 11,
+      "aadk-998": 54,
+      "aadk-589": 11,
+      "aadk-ke": 15,
+      "aadk-tz": 14,
+      "aadk-zw": 16,
+      "aadk-ps": 14,
+      "aadk-zm": 12,
+      "aadk-mm": 15,
+      "aadk-bd": 14,
+      "aadk-mz": 13
+    }
+  },
+  ".//transaction/aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "B03": {
+      "aadk-ng": 12,
+      "aadk-ug": 11,
+      "aadk-998": 54,
+      "aadk-589": 11,
+      "aadk-ke": 15,
+      "aadk-tz": 14,
+      "aadk-zw": 16,
+      "aadk-ps": 14,
+      "aadk-zm": 12,
+      "aadk-mm": 15,
+      "aadk-bd": 14,
+      "aadk-mz": 13
+    }
+  },
+  ".//transaction/finance-type/@code": {
+    "110": {
+      "aadk-ng": 12,
+      "aadk-ug": 11,
+      "aadk-998": 54,
+      "aadk-589": 11,
+      "aadk-ke": 15,
+      "aadk-tz": 13,
+      "aadk-zw": 16,
+      "aadk-ps": 14,
+      "aadk-zm": 12,
+      "aadk-mm": 15,
+      "aadk-bd": 14,
+      "aadk-mz": 13
+    }
+  },
+  ".//transaction/flow-type/@code": {
+    "10": {
+      "aadk-ng": 12,
+      "aadk-ug": 11,
+      "aadk-998": 54,
+      "aadk-589": 11,
+      "aadk-ke": 15,
+      "aadk-tz": 13,
+      "aadk-zw": 16,
+      "aadk-ps": 14,
+      "aadk-zm": 12,
+      "aadk-mm": 15,
+      "aadk-bd": 14,
+      "aadk-mz": 13
+    }
+  },
+  ".//transaction/provider-org/@type": {
+    "21": {
+      "aadk-ng": 12,
+      "aadk-ug": 10,
+      "aadk-998": 24,
+      "aadk-589": 11,
+      "aadk-ke": 14,
+      "aadk-tz": 13,
+      "aadk-zw": 15,
+      "aadk-ps": 14,
+      "aadk-zm": 12,
+      "aadk-mm": 10,
+      "aadk-bd": 12,
+      "aadk-mz": 10
+    },
+    "10": {
+      "aadk-998": 28
+    },
+    "11": {
+      "aadk-998": 1
+    },
+    "15": {
+      "aadk-mz": 1
+    }
+  },
+  ".//transaction/receiver-org/@type": {
+    "21": {
+      "aadk-998": 29,
+      "aadk-ke": 14,
+      "aadk-tz": 1,
+      "aadk-mz": 1
+    }
+  },
+  ".//transaction/recipient-country/@code": {
+    "DK": {
+      "aadk-998": 29
+    }
+  },
+  ".//transaction/recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "89": {
+      "aadk-998": 29
+    }
+  },
+  ".//transaction/tied-status/@code": {
+    "5": {
+      "aadk-ng": 12,
+      "aadk-ug": 11,
+      "aadk-998": 54,
+      "aadk-589": 11,
+      "aadk-ke": 15,
+      "aadk-tz": 14,
+      "aadk-zw": 16,
+      "aadk-ps": 14,
+      "aadk-zm": 12,
+      "aadk-mm": 15,
+      "aadk-bd": 14,
+      "aadk-mz": 13
+    }
+  },
+  ".//transaction/transaction-type/@code": {
+    "2": {
+      "aadk-ng": 4,
+      "aadk-ug": 3,
+      "aadk-589": 3,
+      "aadk-ke": 4,
+      "aadk-tz": 4,
+      "aadk-zw": 4,
+      "aadk-ps": 4,
+      "aadk-zm": 3,
+      "aadk-mm": 5,
+      "aadk-bd": 5,
+      "aadk-mz": 3
+    },
+    "3": {
+      "aadk-ng": 8,
+      "aadk-ug": 8,
+      "aadk-998": 25,
+      "aadk-589": 8,
+      "aadk-ke": 11,
+      "aadk-tz": 10,
+      "aadk-zw": 12,
+      "aadk-ps": 10,
+      "aadk-zm": 9,
+      "aadk-mm": 10,
+      "aadk-bd": 9,
+      "aadk-mz": 10
+    },
+    "1": {
+      "aadk-998": 14
+    },
+    "11": {
+      "aadk-998": 8
+    },
+    "13": {
+      "aadk-998": 7
+    }
+  },
+  ".//transaction/value/@currency": {
+    "DKK": {
+      "aadk-ng": 6,
+      "aadk-ug": 7,
+      "aadk-998": 33,
+      "aadk-589": 7,
+      "aadk-ke": 9,
+      "aadk-tz": 8,
+      "aadk-zw": 9,
+      "aadk-ps": 8,
+      "aadk-zm": 8,
+      "aadk-mm": 10,
+      "aadk-bd": 8,
+      "aadk-mz": 8
+    }
+  }
+}

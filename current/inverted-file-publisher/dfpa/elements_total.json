@@ -1,0 +1,398 @@
+{
+  "iati-activity": {
+    "dfpa-activities": 10
+  },
+  "iati-activity/@default-currency": {
+    "dfpa-activities": 10
+  },
+  "iati-activity/@hierarchy": {
+    "dfpa-activities": 10
+  },
+  "iati-activity/@humanitarian": {
+    "dfpa-activities": 10
+  },
+  "iati-activity/@last-updated-datetime": {
+    "dfpa-activities": 10
+  },
+  "iati-activity/@linked-data-uri": {
+    "dfpa-activities": 10
+  },
+  "iati-activity/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "dfpa-activities": 10
+  },
+  "iati-activity/activity-date": {
+    "dfpa-activities": 20
+  },
+  "iati-activity/activity-date/@iso-date": {
+    "dfpa-activities": 20
+  },
+  "iati-activity/activity-date/@type": {
+    "dfpa-activities": 20
+  },
+  "iati-activity/activity-status": {
+    "dfpa-activities": 10
+  },
+  "iati-activity/activity-status/@code": {
+    "dfpa-activities": 10
+  },
+  "iati-activity/budget": {
+    "dfpa-activities": 40
+  },
+  "iati-activity/budget/@status": {
+    "dfpa-activities": 40
+  },
+  "iati-activity/budget/@type": {
+    "dfpa-activities": 40
+  },
+  "iati-activity/budget/period-end": {
+    "dfpa-activities": 40
+  },
+  "iati-activity/budget/period-end/@iso-date": {
+    "dfpa-activities": 40
+  },
+  "iati-activity/budget/period-start": {
+    "dfpa-activities": 40
+  },
+  "iati-activity/budget/period-start/@iso-date": {
+    "dfpa-activities": 40
+  },
+  "iati-activity/budget/value": {
+    "dfpa-activities": 40
+  },
+  "iati-activity/budget/value/@currency": {
+    "dfpa-activities": 39
+  },
+  "iati-activity/budget/value/@value-date": {
+    "dfpa-activities": 40
+  },
+  "iati-activity/description": {
+    "dfpa-activities": 10
+  },
+  "iati-activity/description/@type": {
+    "dfpa-activities": 10
+  },
+  "iati-activity/description/narrative": {
+    "dfpa-activities": 10
+  },
+  "iati-activity/description/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "dfpa-activities": 7
+  },
+  "iati-activity/iati-identifier": {
+    "dfpa-activities": 10
+  },
+  "iati-activity/participating-org": {
+    "dfpa-activities": 11
+  },
+  "iati-activity/participating-org/@activity-id": {
+    "dfpa-activities": 11
+  },
+  "iati-activity/participating-org/@crs-channel-code": {
+    "dfpa-activities": 2
+  },
+  "iati-activity/participating-org/@ref": {
+    "dfpa-activities": 11
+  },
+  "iati-activity/participating-org/@role": {
+    "dfpa-activities": 11
+  },
+  "iati-activity/participating-org/@type": {
+    "dfpa-activities": 11
+  },
+  "iati-activity/participating-org/narrative": {
+    "dfpa-activities": 11
+  },
+  "iati-activity/participating-org/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "dfpa-activities": 10
+  },
+  "iati-activity/recipient-country": {
+    "dfpa-activities": 6
+  },
+  "iati-activity/recipient-country/@code": {
+    "dfpa-activities": 6
+  },
+  "iati-activity/recipient-country/@percentage": {
+    "dfpa-activities": 3
+  },
+  "iati-activity/recipient-region": {
+    "dfpa-activities": 2
+  },
+  "iati-activity/recipient-region/@code": {
+    "dfpa-activities": 2
+  },
+  "iati-activity/recipient-region/@vocabulary": {
+    "dfpa-activities": 2
+  },
+  "iati-activity/reporting-org": {
+    "dfpa-activities": 10
+  },
+  "iati-activity/reporting-org/@ref": {
+    "dfpa-activities": 10
+  },
+  "iati-activity/reporting-org/@secondary-reporter": {
+    "dfpa-activities": 10
+  },
+  "iati-activity/reporting-org/@type": {
+    "dfpa-activities": 10
+  },
+  "iati-activity/reporting-org/narrative": {
+    "dfpa-activities": 10
+  },
+  "iati-activity/reporting-org/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "dfpa-activities": 10
+  },
+  "iati-activity/sector": {
+    "dfpa-activities": 10
+  },
+  "iati-activity/sector/@code": {
+    "dfpa-activities": 10
+  },
+  "iati-activity/sector/@vocabulary": {
+    "dfpa-activities": 10
+  },
+  "iati-activity/title": {
+    "dfpa-activities": 10
+  },
+  "iati-activity/title/narrative": {
+    "dfpa-activities": 10
+  },
+  "iati-activity/title/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "dfpa-activities": 8
+  },
+  "iati-activity/transaction": {
+    "dfpa-activities": 6
+  },
+  "iati-activity/transaction/@humanitarian": {
+    "dfpa-activities": 6
+  },
+  "iati-activity/transaction/@ref": {
+    "dfpa-activities": 6
+  },
+  "iati-activity/transaction/description": {
+    "dfpa-activities": 5
+  },
+  "iati-activity/transaction/description/narrative": {
+    "dfpa-activities": 5
+  },
+  "iati-activity/transaction/description/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "dfpa-activities": 5
+  },
+  "iati-activity/transaction/provider-org": {
+    "dfpa-activities": 5
+  },
+  "iati-activity/transaction/provider-org/@provider-activity-id": {
+    "dfpa-activities": 5
+  },
+  "iati-activity/transaction/provider-org/@ref": {
+    "dfpa-activities": 5
+  },
+  "iati-activity/transaction/provider-org/@type": {
+    "dfpa-activities": 5
+  },
+  "iati-activity/transaction/receiver-org": {
+    "dfpa-activities": 5
+  },
+  "iati-activity/transaction/receiver-org/@receiver-activity-id": {
+    "dfpa-activities": 5
+  },
+  "iati-activity/transaction/receiver-org/@ref": {
+    "dfpa-activities": 5
+  },
+  "iati-activity/transaction/receiver-org/@type": {
+    "dfpa-activities": 5
+  },
+  "iati-activity/transaction/transaction-date": {
+    "dfpa-activities": 6
+  },
+  "iati-activity/transaction/transaction-date/@iso-date": {
+    "dfpa-activities": 6
+  },
+  "iati-activity/transaction/transaction-type": {
+    "dfpa-activities": 6
+  },
+  "iati-activity/transaction/transaction-type/@code": {
+    "dfpa-activities": 6
+  },
+  "iati-activity/transaction/value": {
+    "dfpa-activities": 6
+  },
+  "iati-activity/transaction/value/@currency": {
+    "dfpa-activities": 5
+  },
+  "iati-activity/transaction/value/@value-date": {
+    "dfpa-activities": 6
+  },
+  "iati-organisation": {
+    "dfpa-org": 1
+  },
+  "iati-organisation/@default-currency": {
+    "dfpa-org": 1
+  },
+  "iati-organisation/@last-updated-datetime": {
+    "dfpa-org": 1
+  },
+  "iati-organisation/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "dfpa-org": 1
+  },
+  "iati-organisation/document-link": {
+    "dfpa-org": 4
+  },
+  "iati-organisation/document-link/@format": {
+    "dfpa-org": 4
+  },
+  "iati-organisation/document-link/@url": {
+    "dfpa-org": 4
+  },
+  "iati-organisation/document-link/category": {
+    "dfpa-org": 4
+  },
+  "iati-organisation/document-link/category/@code": {
+    "dfpa-org": 4
+  },
+  "iati-organisation/document-link/title": {
+    "dfpa-org": 4
+  },
+  "iati-organisation/document-link/title/narrative": {
+    "dfpa-org": 4
+  },
+  "iati-organisation/document-link/title/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "dfpa-org": 4
+  },
+  "iati-organisation/name": {
+    "dfpa-org": 1
+  },
+  "iati-organisation/name/narrative": {
+    "dfpa-org": 1
+  },
+  "iati-organisation/organisation-identifier": {
+    "dfpa-org": 1
+  },
+  "iati-organisation/recipient-country-budget": {
+    "dfpa-org": 15
+  },
+  "iati-organisation/recipient-country-budget/period-end": {
+    "dfpa-org": 15
+  },
+  "iati-organisation/recipient-country-budget/period-end/@iso-date": {
+    "dfpa-org": 15
+  },
+  "iati-organisation/recipient-country-budget/period-start": {
+    "dfpa-org": 15
+  },
+  "iati-organisation/recipient-country-budget/period-start/@iso-date": {
+    "dfpa-org": 15
+  },
+  "iati-organisation/recipient-country-budget/recipient-country": {
+    "dfpa-org": 15
+  },
+  "iati-organisation/recipient-country-budget/recipient-country/@code": {
+    "dfpa-org": 15
+  },
+  "iati-organisation/recipient-country-budget/value": {
+    "dfpa-org": 15
+  },
+  "iati-organisation/recipient-country-budget/value/@currency": {
+    "dfpa-org": 15
+  },
+  "iati-organisation/recipient-country-budget/value/@value-date": {
+    "dfpa-org": 15
+  },
+  "iati-organisation/recipient-region-budget": {
+    "dfpa-org": 9
+  },
+  "iati-organisation/recipient-region-budget/@status": {
+    "dfpa-org": 7
+  },
+  "iati-organisation/recipient-region-budget/period-end": {
+    "dfpa-org": 9
+  },
+  "iati-organisation/recipient-region-budget/period-end/@iso-date": {
+    "dfpa-org": 9
+  },
+  "iati-organisation/recipient-region-budget/period-start": {
+    "dfpa-org": 9
+  },
+  "iati-organisation/recipient-region-budget/period-start/@iso-date": {
+    "dfpa-org": 9
+  },
+  "iati-organisation/recipient-region-budget/recipient-region": {
+    "dfpa-org": 9
+  },
+  "iati-organisation/recipient-region-budget/recipient-region/@code": {
+    "dfpa-org": 9
+  },
+  "iati-organisation/recipient-region-budget/recipient-region/@vocabulary": {
+    "dfpa-org": 9
+  },
+  "iati-organisation/recipient-region-budget/value": {
+    "dfpa-org": 9
+  },
+  "iati-organisation/recipient-region-budget/value/@currency": {
+    "dfpa-org": 9
+  },
+  "iati-organisation/recipient-region-budget/value/@value-date": {
+    "dfpa-org": 9
+  },
+  "iati-organisation/reporting-org": {
+    "dfpa-org": 1
+  },
+  "iati-organisation/reporting-org/@ref": {
+    "dfpa-org": 1
+  },
+  "iati-organisation/reporting-org/@type": {
+    "dfpa-org": 1
+  },
+  "iati-organisation/reporting-org/narrative": {
+    "dfpa-org": 1
+  },
+  "iati-organisation/total-budget": {
+    "dfpa-org": 3
+  },
+  "iati-organisation/total-budget/@status": {
+    "dfpa-org": 2
+  },
+  "iati-organisation/total-budget/period-end": {
+    "dfpa-org": 3
+  },
+  "iati-organisation/total-budget/period-end/@iso-date": {
+    "dfpa-org": 3
+  },
+  "iati-organisation/total-budget/period-start": {
+    "dfpa-org": 3
+  },
+  "iati-organisation/total-budget/period-start/@iso-date": {
+    "dfpa-org": 3
+  },
+  "iati-organisation/total-budget/value": {
+    "dfpa-org": 3
+  },
+  "iati-organisation/total-budget/value/@currency": {
+    "dfpa-org": 3
+  },
+  "iati-organisation/total-budget/value/@value-date": {
+    "dfpa-org": 3
+  },
+  "iati-organisation/total-expenditure": {
+    "dfpa-org": 3
+  },
+  "iati-organisation/total-expenditure/period-end": {
+    "dfpa-org": 3
+  },
+  "iati-organisation/total-expenditure/period-end/@iso-date": {
+    "dfpa-org": 3
+  },
+  "iati-organisation/total-expenditure/period-start": {
+    "dfpa-org": 3
+  },
+  "iati-organisation/total-expenditure/period-start/@iso-date": {
+    "dfpa-org": 3
+  },
+  "iati-organisation/total-expenditure/value": {
+    "dfpa-org": 3
+  },
+  "iati-organisation/total-expenditure/value/@currency": {
+    "dfpa-org": 3
+  },
+  "iati-organisation/total-expenditure/value/@value-date": {
+    "dfpa-org": 3
+  }
+}

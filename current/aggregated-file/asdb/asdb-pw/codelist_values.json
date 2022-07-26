@@ -1,0 +1,133 @@
+{
+  ".//@default-currency": {
+    "USD": 8
+  },
+  ".//@xml:lang": {
+    "en": 8
+  },
+  ".//activity-date/@type": {
+    "1": 8,
+    "2": 8,
+    "3": 8,
+    "4": 4
+  },
+  ".//activity-scope/@code": {
+    "1": 8
+  },
+  ".//activity-status/@code": {
+    "4": 4,
+    "2": 4
+  },
+  ".//budget/value/@currency": {
+    "USD": 172
+  },
+  ".//collaboration-type/@code": {
+    "2": 8
+  },
+  ".//conditions/condition/@type": {
+    "1": 4,
+    "2": 8,
+    "3": 8
+  },
+  ".//country-budget-items/@vocabulary": {
+    "1": 8
+  },
+  ".//country-budget-items/budget-item[../@vocabulary = '1']/@code": {
+    "3.1.1": 1,
+    "5.4.1": 3,
+    "3.10.2": 2,
+    "4.1.9": 2
+  },
+  ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "A01": 4,
+    "C01": 4
+  },
+  ".//default-finance-type/@code": {
+    "421": 8
+  },
+  ".//default-flow-type/@code": {
+    "21": 4,
+    "10": 4
+  },
+  ".//default-tied-status/@code": {
+    "5": 8
+  },
+  ".//document-link/@format": {
+    "application/pdf": 60
+  },
+  ".//document-link/category/@code": {
+    "A09": 8,
+    "A04": 8,
+    "A01": 8,
+    "A02": 8,
+    "A03": 8,
+    "A05": 8,
+    "A08": 16,
+    "A11": 8,
+    "A10": 8,
+    "A07": 12
+  },
+  ".//document-link/language/@code": {
+    "en": 60
+  },
+  ".//location/location-id/@vocabulary": {
+    "G1": 20
+  },
+  ".//participating-org/@role": {
+    "1": 8,
+    "2": 15,
+    "4": 15
+  },
+  ".//participating-org/@type": {
+    "40": 8,
+    "10": 30
+  },
+  ".//policy-marker/@vocabulary": {
+    "99": 35
+  },
+  ".//recipient-country/@code": {
+    "PW": 8
+  },
+  ".//related-activity/@type": {
+    "3": 6
+  },
+  ".//reporting-org/@type": {
+    "40": 8
+  },
+  ".//result/@type": {
+    "output": 8
+  },
+  ".//result/document-link/@format": {
+    "application/pdf": 14
+  },
+  ".//result/document-link/category/@code": {
+    "A08": 8,
+    "A07": 6
+  },
+  ".//result/document-link/language/@code": {
+    "en": 14
+  },
+  ".//result/indicator/@measure": {
+    "2": 11,
+    "1": 16
+  },
+  ".//sector/@vocabulary": {
+    "1": 8
+  },
+  ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "15111": 1,
+    "16011": 1,
+    "43032": 2,
+    "22020": 2,
+    "14022": 2
+  },
+  ".//transaction/transaction-type/@code": {
+    "2": 8,
+    "3": 260,
+    "5": 348,
+    "6": 108
+  },
+  ".//transaction/value/@currency": {
+    "USD": 724
+  }
+}

@@ -1,0 +1,100 @@
+{
+  ".//@default-currency": {
+    "USD": {
+      "aphrc-activities": 1
+    }
+  },
+  ".//@xml:lang": {
+    "en": {
+      "aphrc-activities": 10
+    }
+  },
+  ".//activity-date/@type": {
+    "1": {
+      "aphrc-activities": 1
+    }
+  },
+  ".//activity-status/@code": {
+    "2": {
+      "aphrc-activities": 1
+    }
+  },
+  ".//budget/@status": {
+    "2": {
+      "aphrc-activities": 1
+    }
+  },
+  ".//budget/@type": {
+    "1": {
+      "aphrc-activities": 1
+    }
+  },
+  ".//budget/value/@currency": {
+    "USD": {
+      "aphrc-activities": 1
+    }
+  },
+  ".//description/@type": {
+    "1": {
+      "aphrc-activities": 1
+    }
+  },
+  ".//participating-org/@role": {
+    "1": {
+      "aphrc-activities": 1
+    }
+  },
+  ".//participating-org/@type": {
+    "21": {
+      "aphrc-activities": 1
+    }
+  },
+  ".//recipient-country/@code": {
+    "KE": {
+      "aphrc-activities": 1
+    }
+  },
+  ".//reporting-org/@type": {
+    "21": {
+      "aphrc-activities": 1
+    }
+  },
+  ".//sector/@vocabulary": {
+    "1": {
+      "aphrc-activities": 1
+    }
+  },
+  ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "13020": {
+      "aphrc-activities": 1
+    }
+  },
+  ".//transaction/disbursement-channel/@code": {
+    "2": {
+      "aphrc-activities": 1
+    }
+  },
+  ".//transaction/provider-org/@type": {
+    "80": {
+      "aphrc-activities": 2
+    }
+  },
+  ".//transaction/receiver-org/@type": {
+    "21": {
+      "aphrc-activities": 2
+    }
+  },
+  ".//transaction/transaction-type/@code": {
+    "2": {
+      "aphrc-activities": 1
+    },
+    "4": {
+      "aphrc-activities": 1
+    }
+  },
+  ".//transaction/value/@currency": {
+    "USD": {
+      "aphrc-activities": 2
+    }
+  }
+}

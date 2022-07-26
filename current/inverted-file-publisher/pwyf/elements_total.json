@@ -1,0 +1,516 @@
+{
+  "iati-activity": {
+    "pwyf-gb": 3,
+    "pwyf-998": 4
+  },
+  "iati-activity/@default-currency": {
+    "pwyf-gb": 3,
+    "pwyf-998": 4
+  },
+  "iati-activity/@hierarchy": {
+    "pwyf-gb": 3
+  },
+  "iati-activity/@humanitarian": {
+    "pwyf-gb": 3
+  },
+  "iati-activity/@last-updated-datetime": {
+    "pwyf-gb": 3,
+    "pwyf-998": 4
+  },
+  "iati-activity/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "pwyf-gb": 3
+  },
+  "iati-activity/activity-date": {
+    "pwyf-gb": 7,
+    "pwyf-998": 8
+  },
+  "iati-activity/activity-date/@iso-date": {
+    "pwyf-gb": 7,
+    "pwyf-998": 8
+  },
+  "iati-activity/activity-date/@type": {
+    "pwyf-gb": 7,
+    "pwyf-998": 8
+  },
+  "iati-activity/activity-status": {
+    "pwyf-gb": 3,
+    "pwyf-998": 4
+  },
+  "iati-activity/activity-status/@code": {
+    "pwyf-gb": 3,
+    "pwyf-998": 4
+  },
+  "iati-activity/budget": {
+    "pwyf-gb": 7
+  },
+  "iati-activity/budget/@status": {
+    "pwyf-gb": 7
+  },
+  "iati-activity/budget/@type": {
+    "pwyf-gb": 7
+  },
+  "iati-activity/budget/period-end": {
+    "pwyf-gb": 7
+  },
+  "iati-activity/budget/period-end/@iso-date": {
+    "pwyf-gb": 7
+  },
+  "iati-activity/budget/period-start": {
+    "pwyf-gb": 7
+  },
+  "iati-activity/budget/period-start/@iso-date": {
+    "pwyf-gb": 7
+  },
+  "iati-activity/budget/value": {
+    "pwyf-gb": 7
+  },
+  "iati-activity/budget/value/@currency": {
+    "pwyf-gb": 6
+  },
+  "iati-activity/budget/value/@value-date": {
+    "pwyf-gb": 7
+  },
+  "iati-activity/contact-info": {
+    "pwyf-gb": 3,
+    "pwyf-998": 4
+  },
+  "iati-activity/contact-info/@type": {
+    "pwyf-gb": 3
+  },
+  "iati-activity/contact-info/email": {
+    "pwyf-gb": 3,
+    "pwyf-998": 4
+  },
+  "iati-activity/contact-info/job-title": {
+    "pwyf-gb": 3
+  },
+  "iati-activity/contact-info/job-title/narrative": {
+    "pwyf-gb": 3
+  },
+  "iati-activity/contact-info/mailing-address": {
+    "pwyf-998": 4
+  },
+  "iati-activity/contact-info/mailing-address/narrative": {
+    "pwyf-998": 4
+  },
+  "iati-activity/contact-info/organisation": {
+    "pwyf-gb": 3,
+    "pwyf-998": 4
+  },
+  "iati-activity/contact-info/organisation/narrative": {
+    "pwyf-gb": 3,
+    "pwyf-998": 4
+  },
+  "iati-activity/contact-info/person-name": {
+    "pwyf-gb": 3,
+    "pwyf-998": 4
+  },
+  "iati-activity/contact-info/person-name/narrative": {
+    "pwyf-gb": 3,
+    "pwyf-998": 4
+  },
+  "iati-activity/contact-info/telephone": {
+    "pwyf-gb": 3,
+    "pwyf-998": 4
+  },
+  "iati-activity/contact-info/website": {
+    "pwyf-gb": 3,
+    "pwyf-998": 4
+  },
+  "iati-activity/default-aid-type": {
+    "pwyf-998": 4
+  },
+  "iati-activity/default-aid-type/@code": {
+    "pwyf-998": 4
+  },
+  "iati-activity/default-flow-type": {
+    "pwyf-998": 4
+  },
+  "iati-activity/default-flow-type/@code": {
+    "pwyf-998": 4
+  },
+  "iati-activity/description": {
+    "pwyf-gb": 8,
+    "pwyf-998": 4
+  },
+  "iati-activity/description/@type": {
+    "pwyf-gb": 8
+  },
+  "iati-activity/description/narrative": {
+    "pwyf-gb": 8,
+    "pwyf-998": 4
+  },
+  "iati-activity/description/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "pwyf-gb": 8
+  },
+  "iati-activity/iati-identifier": {
+    "pwyf-gb": 3,
+    "pwyf-998": 4
+  },
+  "iati-activity/participating-org": {
+    "pwyf-gb": 6,
+    "pwyf-998": 24
+  },
+  "iati-activity/participating-org/@ref": {
+    "pwyf-gb": 4,
+    "pwyf-998": 24
+  },
+  "iati-activity/participating-org/@role": {
+    "pwyf-gb": 6,
+    "pwyf-998": 24
+  },
+  "iati-activity/participating-org/@type": {
+    "pwyf-gb": 6,
+    "pwyf-998": 24
+  },
+  "iati-activity/participating-org/narrative": {
+    "pwyf-gb": 6,
+    "pwyf-998": 24
+  },
+  "iati-activity/participating-org/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "pwyf-gb": 4
+  },
+  "iati-activity/recipient-country": {
+    "pwyf-gb": 3
+  },
+  "iati-activity/recipient-country/@code": {
+    "pwyf-gb": 3
+  },
+  "iati-activity/recipient-country/@percentage": {
+    "pwyf-gb": 3
+  },
+  "iati-activity/recipient-region": {
+    "pwyf-998": 4
+  },
+  "iati-activity/recipient-region/@code": {
+    "pwyf-998": 4
+  },
+  "iati-activity/reporting-org": {
+    "pwyf-gb": 3,
+    "pwyf-998": 4
+  },
+  "iati-activity/reporting-org/@ref": {
+    "pwyf-gb": 3,
+    "pwyf-998": 4
+  },
+  "iati-activity/reporting-org/@type": {
+    "pwyf-gb": 3,
+    "pwyf-998": 4
+  },
+  "iati-activity/reporting-org/narrative": {
+    "pwyf-gb": 3,
+    "pwyf-998": 4
+  },
+  "iati-activity/result": {
+    "pwyf-998": 5
+  },
+  "iati-activity/result/@type": {
+    "pwyf-998": 5
+  },
+  "iati-activity/result/description": {
+    "pwyf-998": 4
+  },
+  "iati-activity/result/description/narrative": {
+    "pwyf-998": 4
+  },
+  "iati-activity/result/indicator": {
+    "pwyf-998": 2
+  },
+  "iati-activity/result/indicator/@measure": {
+    "pwyf-998": 2
+  },
+  "iati-activity/result/indicator/baseline": {
+    "pwyf-998": 2
+  },
+  "iati-activity/result/indicator/baseline/@value": {
+    "pwyf-998": 2
+  },
+  "iati-activity/result/indicator/baseline/@year": {
+    "pwyf-998": 2
+  },
+  "iati-activity/result/indicator/baseline/comment": {
+    "pwyf-998": 1
+  },
+  "iati-activity/result/indicator/baseline/comment/narrative": {
+    "pwyf-998": 1
+  },
+  "iati-activity/result/indicator/description": {
+    "pwyf-998": 1
+  },
+  "iati-activity/result/indicator/description/narrative": {
+    "pwyf-998": 1
+  },
+  "iati-activity/result/indicator/period": {
+    "pwyf-998": 4
+  },
+  "iati-activity/result/indicator/period/actual": {
+    "pwyf-998": 4
+  },
+  "iati-activity/result/indicator/period/actual/@value": {
+    "pwyf-998": 2
+  },
+  "iati-activity/result/indicator/period/actual/comment": {
+    "pwyf-998": 1
+  },
+  "iati-activity/result/indicator/period/actual/comment/narrative": {
+    "pwyf-998": 1
+  },
+  "iati-activity/result/indicator/period/period-end": {
+    "pwyf-998": 4
+  },
+  "iati-activity/result/indicator/period/period-end/@iso-date": {
+    "pwyf-998": 4
+  },
+  "iati-activity/result/indicator/period/period-start": {
+    "pwyf-998": 4
+  },
+  "iati-activity/result/indicator/period/period-start/@iso-date": {
+    "pwyf-998": 4
+  },
+  "iati-activity/result/indicator/period/target": {
+    "pwyf-998": 4
+  },
+  "iati-activity/result/indicator/period/target/@value": {
+    "pwyf-998": 4
+  },
+  "iati-activity/result/indicator/period/target/comment": {
+    "pwyf-998": 1
+  },
+  "iati-activity/result/indicator/period/target/comment/narrative": {
+    "pwyf-998": 1
+  },
+  "iati-activity/result/indicator/title": {
+    "pwyf-998": 2
+  },
+  "iati-activity/result/indicator/title/narrative": {
+    "pwyf-998": 2
+  },
+  "iati-activity/result/title": {
+    "pwyf-998": 5
+  },
+  "iati-activity/result/title/narrative": {
+    "pwyf-998": 5
+  },
+  "iati-activity/sector": {
+    "pwyf-gb": 3,
+    "pwyf-998": 4
+  },
+  "iati-activity/sector/@code": {
+    "pwyf-gb": 3,
+    "pwyf-998": 4
+  },
+  "iati-activity/sector/@vocabulary": {
+    "pwyf-gb": 3,
+    "pwyf-998": 4
+  },
+  "iati-activity/title": {
+    "pwyf-gb": 3,
+    "pwyf-998": 4
+  },
+  "iati-activity/title/narrative": {
+    "pwyf-gb": 3,
+    "pwyf-998": 4
+  },
+  "iati-activity/title/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "pwyf-gb": 1
+  },
+  "iati-activity/transaction": {
+    "pwyf-gb": 367,
+    "pwyf-998": 7075
+  },
+  "iati-activity/transaction/@humanitarian": {
+    "pwyf-gb": 213
+  },
+  "iati-activity/transaction/@ref": {
+    "pwyf-gb": 261,
+    "pwyf-998": 7075
+  },
+  "iati-activity/transaction/description": {
+    "pwyf-gb": 367,
+    "pwyf-998": 7075
+  },
+  "iati-activity/transaction/description/narrative": {
+    "pwyf-gb": 367,
+    "pwyf-998": 7075
+  },
+  "iati-activity/transaction/provider-org": {
+    "pwyf-gb": 1
+  },
+  "iati-activity/transaction/provider-org/@ref": {
+    "pwyf-gb": 1
+  },
+  "iati-activity/transaction/sector": {
+    "pwyf-998": 7075
+  },
+  "iati-activity/transaction/sector/@code": {
+    "pwyf-998": 7075
+  },
+  "iati-activity/transaction/sector/@vocabulary": {
+    "pwyf-998": 7075
+  },
+  "iati-activity/transaction/sector/narrative": {
+    "pwyf-998": 7075
+  },
+  "iati-activity/transaction/transaction-date": {
+    "pwyf-gb": 367,
+    "pwyf-998": 7075
+  },
+  "iati-activity/transaction/transaction-date/@iso-date": {
+    "pwyf-gb": 367,
+    "pwyf-998": 7075
+  },
+  "iati-activity/transaction/transaction-type": {
+    "pwyf-gb": 367,
+    "pwyf-998": 7075
+  },
+  "iati-activity/transaction/transaction-type/@code": {
+    "pwyf-gb": 367,
+    "pwyf-998": 7075
+  },
+  "iati-activity/transaction/value": {
+    "pwyf-gb": 367,
+    "pwyf-998": 7075
+  },
+  "iati-activity/transaction/value/@currency": {
+    "pwyf-gb": 213
+  },
+  "iati-activity/transaction/value/@value-date": {
+    "pwyf-gb": 367,
+    "pwyf-998": 7075
+  },
+  "iati-organisation": {
+    "pwyf-org": 1
+  },
+  "iati-organisation/@default-currency": {
+    "pwyf-org": 1
+  },
+  "iati-organisation/@last-updated-datetime": {
+    "pwyf-org": 1
+  },
+  "iati-organisation/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "pwyf-org": 1
+  },
+  "iati-organisation/document-link": {
+    "pwyf-org": 15
+  },
+  "iati-organisation/document-link/@format": {
+    "pwyf-org": 15
+  },
+  "iati-organisation/document-link/@url": {
+    "pwyf-org": 15
+  },
+  "iati-organisation/document-link/category": {
+    "pwyf-org": 15
+  },
+  "iati-organisation/document-link/category/@code": {
+    "pwyf-org": 15
+  },
+  "iati-organisation/document-link/document-date": {
+    "pwyf-org": 14
+  },
+  "iati-organisation/document-link/document-date/@iso-date": {
+    "pwyf-org": 14
+  },
+  "iati-organisation/document-link/title": {
+    "pwyf-org": 15
+  },
+  "iati-organisation/document-link/title/narrative": {
+    "pwyf-org": 15
+  },
+  "iati-organisation/name": {
+    "pwyf-org": 1
+  },
+  "iati-organisation/name/narrative": {
+    "pwyf-org": 1
+  },
+  "iati-organisation/organisation-identifier": {
+    "pwyf-org": 1
+  },
+  "iati-organisation/reporting-org": {
+    "pwyf-org": 1
+  },
+  "iati-organisation/reporting-org/@ref": {
+    "pwyf-org": 1
+  },
+  "iati-organisation/reporting-org/@type": {
+    "pwyf-org": 1
+  },
+  "iati-organisation/reporting-org/narrative": {
+    "pwyf-org": 1
+  },
+  "iati-organisation/total-budget": {
+    "pwyf-org": 8
+  },
+  "iati-organisation/total-budget/@status": {
+    "pwyf-org": 8
+  },
+  "iati-organisation/total-budget/budget-line": {
+    "pwyf-org": 17
+  },
+  "iati-organisation/total-budget/budget-line/@ref": {
+    "pwyf-org": 17
+  },
+  "iati-organisation/total-budget/budget-line/narrative": {
+    "pwyf-org": 17
+  },
+  "iati-organisation/total-budget/budget-line/value": {
+    "pwyf-org": 17
+  },
+  "iati-organisation/total-budget/budget-line/value/@value-date": {
+    "pwyf-org": 17
+  },
+  "iati-organisation/total-budget/period-end": {
+    "pwyf-org": 8
+  },
+  "iati-organisation/total-budget/period-end/@iso-date": {
+    "pwyf-org": 8
+  },
+  "iati-organisation/total-budget/period-start": {
+    "pwyf-org": 8
+  },
+  "iati-organisation/total-budget/period-start/@iso-date": {
+    "pwyf-org": 8
+  },
+  "iati-organisation/total-budget/value": {
+    "pwyf-org": 8
+  },
+  "iati-organisation/total-budget/value/@value-date": {
+    "pwyf-org": 8
+  },
+  "iati-organisation/total-expenditure": {
+    "pwyf-org": 3
+  },
+  "iati-organisation/total-expenditure/expense-line": {
+    "pwyf-org": 6
+  },
+  "iati-organisation/total-expenditure/expense-line/@ref": {
+    "pwyf-org": 6
+  },
+  "iati-organisation/total-expenditure/expense-line/narrative": {
+    "pwyf-org": 6
+  },
+  "iati-organisation/total-expenditure/expense-line/value": {
+    "pwyf-org": 6
+  },
+  "iati-organisation/total-expenditure/expense-line/value/@value-date": {
+    "pwyf-org": 6
+  },
+  "iati-organisation/total-expenditure/period-end": {
+    "pwyf-org": 3
+  },
+  "iati-organisation/total-expenditure/period-end/@iso-date": {
+    "pwyf-org": 3
+  },
+  "iati-organisation/total-expenditure/period-start": {
+    "pwyf-org": 3
+  },
+  "iati-organisation/total-expenditure/period-start/@iso-date": {
+    "pwyf-org": 3
+  },
+  "iati-organisation/total-expenditure/value": {
+    "pwyf-org": 3
+  },
+  "iati-organisation/total-expenditure/value/@value-date": {
+    "pwyf-org": 3
+  }
+}

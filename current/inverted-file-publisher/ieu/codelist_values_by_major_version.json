@@ -1,0 +1,921 @@
+{
+  "2": {
+    ".//@default-currency": {
+      "ieu-289": {
+        "GBP": 1
+      },
+      "ieu-mm": {
+        "GBP": 1
+      },
+      "ieu-4105": {
+        "GBP": 1
+      },
+      "ieu-798": {
+        "GBP": 1
+      },
+      "ieu-cd": {
+        "GBP": 1
+      },
+      "ieu-ke": {
+        "GBP": 1
+      },
+      "ieu-998": {
+        "GBP": 1
+      },
+      "ieu-th": {
+        "GBP": 1
+      },
+      "ieu-298": {
+        "GBP": 1
+      }
+    },
+    ".//activity-date/@type": {
+      "ieu-289": {
+        "2": 1,
+        "3": 1,
+        "4": 1
+      },
+      "ieu-mm": {
+        "1": 1,
+        "3": 1
+      },
+      "ieu-4105": {
+        "2": 1,
+        "3": 1
+      },
+      "ieu-798": {
+        "2": 1,
+        "3": 1
+      },
+      "ieu-cd": {
+        "2": 1
+      },
+      "ieu-ke": {
+        "2": 1
+      },
+      "ieu-998": {
+        "2": 1,
+        "3": 1
+      },
+      "ieu-th": {
+        "1": 1,
+        "4": 1
+      },
+      "ieu-298": {
+        "2": 1,
+        "4": 1
+      }
+    },
+    ".//activity-status/@code": {
+      "ieu-289": {
+        "4": 1
+      },
+      "ieu-mm": {
+        "2": 1
+      },
+      "ieu-4105": {
+        "2": 1
+      },
+      "ieu-798": {
+        "2": 1
+      },
+      "ieu-cd": {
+        "2": 1
+      },
+      "ieu-ke": {
+        "2": 1
+      },
+      "ieu-998": {
+        "2": 1
+      },
+      "ieu-th": {
+        "4": 1
+      },
+      "ieu-298": {
+        "4": 1
+      }
+    },
+    ".//budget/@status": {
+      "ieu-289": {
+        "2": 1
+      },
+      "ieu-mm": {
+        "2": 1
+      },
+      "ieu-4105": {
+        "2": 2
+      },
+      "ieu-798": {
+        "1": 1
+      },
+      "ieu-cd": {
+        "2": 1
+      },
+      "ieu-ke": {
+        "2": 1
+      },
+      "ieu-998": {
+        "2": 2
+      },
+      "ieu-th": {
+        "2": 1
+      },
+      "ieu-298": {
+        "2": 1
+      }
+    },
+    ".//budget/@type": {
+      "ieu-289": {
+        "1": 1
+      },
+      "ieu-mm": {
+        "1": 1
+      },
+      "ieu-4105": {
+        "1": 2
+      },
+      "ieu-798": {
+        "1": 1
+      },
+      "ieu-cd": {
+        "1": 1
+      },
+      "ieu-ke": {
+        "2": 1
+      },
+      "ieu-998": {
+        "1": 2
+      },
+      "ieu-th": {
+        "2": 1
+      },
+      "ieu-298": {
+        "1": 1
+      }
+    },
+    ".//budget/value/@currency": {
+      "ieu-289": {
+        "GBP": 1
+      },
+      "ieu-mm": {
+        "GBP": 1
+      },
+      "ieu-4105": {
+        "EUR": 2
+      },
+      "ieu-798": {
+        "EUR": 1
+      },
+      "ieu-cd": {
+        "GBP": 1
+      },
+      "ieu-ke": {
+        "GBP": 1
+      },
+      "ieu-998": {
+        "EUR": 2
+      },
+      "ieu-th": {
+        "GBP": 1
+      },
+      "ieu-298": {
+        "USD": 1
+      }
+    },
+    ".//contact-info/@type": {
+      "ieu-289": {
+        "1": 1
+      },
+      "ieu-mm": {
+        "3": 1
+      },
+      "ieu-4105": {
+        "1": 1
+      },
+      "ieu-798": {
+        "1": 1,
+        "2": 1
+      },
+      "ieu-ke": {
+        "2": 1
+      },
+      "ieu-998": {
+        "1": 1
+      },
+      "ieu-th": {
+        "1": 1
+      }
+    },
+    ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "ieu-289": {
+        "C01": 1
+      },
+      "ieu-mm": {
+        "C01": 1
+      },
+      "ieu-4105": {
+        "C01": 1
+      },
+      "ieu-798": {
+        "C01": 1
+      },
+      "ieu-cd": {
+        "C01": 1
+      },
+      "ieu-ke": {
+        "C01": 1
+      },
+      "ieu-998": {
+        "C01": 1
+      },
+      "ieu-th": {
+        "C01": 1
+      },
+      "ieu-298": {
+        "C01": 1
+      }
+    },
+    ".//default-finance-type/@code": {
+      "ieu-289": {
+        "110": 1
+      },
+      "ieu-mm": {
+        "110": 1
+      },
+      "ieu-4105": {
+        "110": 1
+      },
+      "ieu-798": {
+        "110": 1
+      },
+      "ieu-cd": {
+        "110": 1
+      },
+      "ieu-ke": {
+        "110": 1
+      },
+      "ieu-998": {
+        "110": 1
+      },
+      "ieu-th": {
+        "110": 1
+      },
+      "ieu-298": {
+        "110": 1
+      }
+    },
+    ".//default-flow-type/@code": {
+      "ieu-289": {
+        "30": 1
+      },
+      "ieu-mm": {
+        "30": 1
+      },
+      "ieu-4105": {
+        "30": 1
+      },
+      "ieu-798": {
+        "10": 1
+      },
+      "ieu-cd": {
+        "30": 1
+      },
+      "ieu-ke": {
+        "30": 1
+      },
+      "ieu-998": {
+        "30": 1
+      },
+      "ieu-th": {
+        "30": 1
+      },
+      "ieu-298": {
+        "30": 1
+      }
+    },
+    ".//default-tied-status/@code": {
+      "ieu-289": {
+        "5": 1
+      },
+      "ieu-mm": {
+        "5": 1
+      },
+      "ieu-4105": {
+        "5": 1
+      },
+      "ieu-798": {
+        "5": 1
+      },
+      "ieu-cd": {
+        "5": 1
+      },
+      "ieu-ke": {
+        "5": 1
+      },
+      "ieu-998": {
+        "5": 1
+      },
+      "ieu-th": {
+        "5": 1
+      },
+      "ieu-298": {
+        "5": 1
+      }
+    },
+    ".//description/@type": {
+      "ieu-289": {
+        "1": 1
+      },
+      "ieu-mm": {
+        "1": 1
+      },
+      "ieu-4105": {
+        "1": 1
+      },
+      "ieu-798": {
+        "1": 1,
+        "2": 1,
+        "3": 1
+      },
+      "ieu-cd": {
+        "2": 1
+      },
+      "ieu-ke": {
+        "1": 1
+      },
+      "ieu-998": {
+        "1": 1
+      },
+      "ieu-th": {
+        "1": 1,
+        "2": 1
+      },
+      "ieu-298": {
+        "1": 1
+      }
+    },
+    ".//participating-org/@role": {
+      "ieu-289": {
+        "1": 1
+      },
+      "ieu-mm": {
+        "1": 1
+      },
+      "ieu-4105": {
+        "1": 1,
+        "2": 1
+      },
+      "ieu-798": {
+        "1": 1,
+        "2": 1,
+        "4": 1
+      },
+      "ieu-cd": {
+        "4": 3
+      },
+      "ieu-ke": {
+        "1": 1
+      },
+      "ieu-998": {
+        "1": 1,
+        "2": 1
+      },
+      "ieu-th": {
+        "1": 1,
+        "2": 1,
+        "4": 1
+      },
+      "ieu-298": {
+        "4": 1
+      }
+    },
+    ".//participating-org/@type": {
+      "ieu-289": {
+        "21": 1
+      },
+      "ieu-mm": {
+        "21": 1
+      },
+      "ieu-4105": {
+        "10": 1,
+        "21": 1
+      },
+      "ieu-798": {
+        "10": 1,
+        "21": 1,
+        "24": 1
+      },
+      "ieu-cd": {
+        "22": 2,
+        "21": 1
+      },
+      "ieu-ke": {
+        "21": 1
+      },
+      "ieu-998": {
+        "10": 1,
+        "21": 1
+      },
+      "ieu-th": {
+        "10": 1,
+        "21": 2
+      },
+      "ieu-298": {
+        "21": 1
+      }
+    },
+    ".//planned-disbursement/@type": {
+      "ieu-289": {
+        "1": 1
+      },
+      "ieu-mm": {
+        "1": 1
+      },
+      "ieu-4105": {
+        "1": 2
+      },
+      "ieu-798": {
+        "1": 3
+      },
+      "ieu-cd": {
+        "1": 1
+      },
+      "ieu-998": {
+        "1": 2
+      },
+      "ieu-th": {
+        "2": 1
+      }
+    },
+    ".//planned-disbursement/value/@currency": {
+      "ieu-289": {
+        "GBP": 1
+      },
+      "ieu-mm": {
+        "GBP": 1
+      },
+      "ieu-4105": {
+        "EUR": 2
+      },
+      "ieu-798": {
+        "EUR": 1
+      },
+      "ieu-cd": {
+        "GBP": 3
+      },
+      "ieu-998": {
+        "EUR": 2
+      },
+      "ieu-th": {
+        "GBP": 1
+      }
+    },
+    ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "ieu-289": {
+        "3": 1
+      },
+      "ieu-4105": {
+        "3": 1
+      },
+      "ieu-998": {
+        "3": 1
+      },
+      "ieu-298": {
+        "3": 1
+      }
+    },
+    ".//policy-marker/@vocabulary": {
+      "ieu-289": {
+        "1": 1
+      },
+      "ieu-mm": {
+        "99": 1
+      },
+      "ieu-4105": {
+        "1": 1
+      },
+      "ieu-998": {
+        "1": 1
+      },
+      "ieu-298": {
+        "1": 1
+      }
+    },
+    ".//recipient-country/@code": {
+      "ieu-289": {
+        "ML": 1,
+        "NE": 1
+      },
+      "ieu-mm": {
+        "MM": 1
+      },
+      "ieu-798": {
+        "AF": 1
+      },
+      "ieu-cd": {
+        "CD": 1
+      },
+      "ieu-ke": {
+        "KE": 1,
+        "MM": 1
+      },
+      "ieu-th": {
+        "TH": 1
+      },
+      "ieu-298": {
+        "SS": 1
+      }
+    },
+    ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "ieu-289": {
+        "289": 1
+      },
+      "ieu-4105": {
+        "998": 1
+      },
+      "ieu-798": {
+        "798": 1
+      },
+      "ieu-998": {
+        "998": 1
+      },
+      "ieu-298": {
+        "298": 1
+      }
+    },
+    ".//recipient-region/@vocabulary": {
+      "ieu-289": {
+        "1": 1
+      },
+      "ieu-4105": {
+        "1": 1
+      },
+      "ieu-798": {
+        "1": 1
+      },
+      "ieu-998": {
+        "1": 1
+      },
+      "ieu-298": {
+        "1": 1
+      }
+    },
+    ".//reporting-org/@type": {
+      "ieu-289": {
+        "21": 1
+      },
+      "ieu-mm": {
+        "21": 1
+      },
+      "ieu-4105": {
+        "21": 1
+      },
+      "ieu-798": {
+        "21": 1
+      },
+      "ieu-cd": {
+        "21": 1
+      },
+      "ieu-ke": {
+        "21": 1
+      },
+      "ieu-998": {
+        "21": 1
+      },
+      "ieu-th": {
+        "21": 1
+      },
+      "ieu-298": {
+        "21": 1
+      }
+    },
+    ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "ieu-289": {
+        "15153": 1
+      },
+      "ieu-mm": {
+        "15153": 1
+      },
+      "ieu-4105": {
+        "22040": 2,
+        "15153": 4,
+        "15220": 1,
+        "15160": 1,
+        "15164": 1
+      },
+      "ieu-798": {
+        "15153": 1
+      },
+      "ieu-cd": {
+        "15220": 1
+      },
+      "ieu-ke": {
+        "15153": 5
+      },
+      "ieu-998": {
+        "22040": 2,
+        "15153": 4,
+        "15220": 1,
+        "15160": 1,
+        "15164": 1
+      },
+      "ieu-th": {
+        "15153": 1
+      },
+      "ieu-298": {
+        "15153": 1
+      }
+    },
+    ".//sector/@vocabulary": {
+      "ieu-289": {
+        "1": 1
+      },
+      "ieu-mm": {
+        "1": 1
+      },
+      "ieu-4105": {
+        "1": 9
+      },
+      "ieu-798": {
+        "1": 1
+      },
+      "ieu-cd": {
+        "1": 1
+      },
+      "ieu-ke": {
+        "1": 5
+      },
+      "ieu-998": {
+        "1": 9
+      },
+      "ieu-th": {
+        "1": 1
+      },
+      "ieu-298": {
+        "1": 1
+      }
+    },
+    ".//transaction/transaction-type/@code": {
+      "ieu-289": {
+        "4": 11
+      },
+      "ieu-mm": {
+        "4": 53
+      },
+      "ieu-4105": {
+        "4": 12,
+        "1": 2,
+        "2": 1
+      },
+      "ieu-798": {
+        "4": 5
+      },
+      "ieu-ke": {
+        "4": 5
+      },
+      "ieu-998": {
+        "4": 12,
+        "1": 2,
+        "2": 1
+      },
+      "ieu-th": {
+        "1": 1,
+        "4": 1
+      },
+      "ieu-298": {
+        "4": 58
+      }
+    },
+    ".//transaction/value/@currency": {
+      "ieu-289": {
+        "GBP": 11
+      },
+      "ieu-mm": {
+        "GBP": 53
+      },
+      "ieu-4105": {
+        "GBP": 12,
+        "EUR": 3
+      },
+      "ieu-798": {
+        "EUR": 5
+      },
+      "ieu-ke": {
+        "GBP": 5
+      },
+      "ieu-998": {
+        "GBP": 12,
+        "EUR": 3
+      },
+      "ieu-th": {
+        "GBP": 2
+      },
+      "ieu-298": {
+        "USD": 58
+      }
+    },
+    ".//@xml:lang": {
+      "ieu-289": {
+        "en": 5
+      },
+      "ieu-mm": {
+        "en": 5
+      },
+      "ieu-4105": {
+        "en": 198
+      },
+      "ieu-798": {
+        "en": 55
+      },
+      "ieu-cd": {
+        "en": 10
+      },
+      "ieu-ke": {
+        "en": 19
+      },
+      "ieu-998": {
+        "en": 198
+      },
+      "ieu-th": {
+        "en": 27
+      },
+      "ieu-298": {
+        "en": 9
+      }
+    },
+    ".//policy-marker/@significance": {
+      "ieu-mm": {
+        "3": 1
+      }
+    },
+    ".//result/@type": {
+      "ieu-4105": {
+        "1": 69,
+        "2": 18,
+        "3": 1
+      },
+      "ieu-798": {
+        "1": 7,
+        "2": 4,
+        "9": 1
+      },
+      "ieu-998": {
+        "1": 69,
+        "2": 18,
+        "3": 1
+      },
+      "ieu-th": {
+        "1": 5
+      }
+    },
+    ".//result/indicator/@measure": {
+      "ieu-4105": {
+        "1": 81,
+        "2": 7
+      },
+      "ieu-798": {
+        "1": 5,
+        "2": 6,
+        "5": 1
+      },
+      "ieu-998": {
+        "1": 81,
+        "2": 7
+      },
+      "ieu-th": {
+        "5": 1,
+        "1": 3,
+        "2": 1
+      }
+    },
+    ".//result/indicator/reference/@vocabulary": {
+      "ieu-4105": {
+        "99": 88
+      },
+      "ieu-998": {
+        "99": 88
+      }
+    },
+    ".//default-aid-type/@vocabulary": {
+      "ieu-798": {
+        "1": 1
+      },
+      "ieu-cd": {
+        "1": 1
+      },
+      "ieu-ke": {
+        "1": 1
+      },
+      "ieu-th": {
+        "1": 1
+      }
+    },
+    ".//document-link/@format": {
+      "ieu-798": {
+        "application/rtf": 4,
+        "application/pdf": 23,
+        "application/vnd.sealed.xls": 1
+      },
+      "ieu-th": {
+        "application/vnd.sealed.xls": 1,
+        "application/pdf": 1,
+        "application/vnd.sealed.doc": 1,
+        "application/vnd.truedoc": 4
+      }
+    },
+    ".//document-link/category/@code": {
+      "ieu-798": {
+        "A08": 24,
+        "B01": 3,
+        "A03": 1
+      },
+      "ieu-th": {
+        "B01": 2,
+        "A08": 5
+      }
+    },
+    ".//document-link/language/@code": {
+      "ieu-798": {
+        "en": 20
+      },
+      "ieu-th": {
+        "en": 2
+      }
+    },
+    ".//participating-org/@crs-channel-code": {
+      "ieu-798": {
+        "11000": 1,
+        "20000": 2
+      },
+      "ieu-ke": {
+        "21000": 1
+      }
+    },
+    ".//planned-disbursement/provider-org/@type": {
+      "ieu-798": {
+        "10": 3
+      },
+      "ieu-cd": {
+        "10": 1,
+        "21": 2
+      }
+    },
+    ".//planned-disbursement/receiver-org/@type": {
+      "ieu-798": {
+        "21": 3
+      },
+      "ieu-cd": {
+        "21": 1,
+        "22": 2
+      }
+    },
+    ".//result/document-link/@format": {
+      "ieu-798": {
+        "application/pdf": 8
+      },
+      "ieu-th": {
+        "application/vnd.sealed.doc": 1,
+        "application/vnd.truedoc": 4
+      }
+    },
+    ".//result/document-link/category/@code": {
+      "ieu-798": {
+        "A08": 8
+      },
+      "ieu-th": {
+        "A08": 5
+      }
+    },
+    ".//transaction/provider-org/@type": {
+      "ieu-798": {
+        "21": 1
+      },
+      "ieu-ke": {
+        "21": 5
+      },
+      "ieu-th": {
+        "21": 2
+      }
+    },
+    ".//transaction/disbursement-channel/@code": {
+      "ieu-ke": {
+        "2": 5
+      }
+    },
+    ".//transaction/sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "ieu-ke": {
+        "15153": 5
+      }
+    },
+    ".//transaction/sector/@vocabulary": {
+      "ieu-ke": {
+        "1": 5
+      }
+    },
+    ".//transaction/receiver-org/@type": {
+      "ieu-th": {
+        "21": 2
+      }
+    }
+  }
+}

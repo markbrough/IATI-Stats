@@ -1,0 +1,57 @@
+{
+  ".//@default-currency": {
+    "GBP": 4
+  },
+  ".//activity-date/@type": {
+    "2": 4,
+    "3": 4
+  },
+  ".//activity-status/@code": {
+    "2": 4
+  },
+  ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "C01": 4
+  },
+  ".//default-flow-type/@code": {
+    "30": 4
+  },
+  ".//participating-org/@role": {
+    "1": 16,
+    "4": 4,
+    "3": 4
+  },
+  ".//participating-org/@type": {
+    "60": 6,
+    "21": 11,
+    "10": 3,
+    "Foundation": 4
+  },
+  ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "998": 4
+  },
+  ".//reporting-org/@type": {
+    "21": 4
+  },
+  ".//result/@type": {
+    "2": 1,
+    "1": 4
+  },
+  ".//result/indicator/@measure": {
+    "1": 2
+  },
+  ".//sector/@vocabulary": {
+    "1": 4,
+    "99": 7075
+  },
+  ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "15163": 3,
+    "15170": 1
+  },
+  ".//transaction/sector/@vocabulary": {
+    "99": 7075
+  },
+  ".//transaction/transaction-type/@code": {
+    "1": 361,
+    "4": 6714
+  }
+}

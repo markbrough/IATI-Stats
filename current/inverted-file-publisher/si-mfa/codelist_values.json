@@ -1,0 +1,707 @@
+{
+  ".//@default-currency": {
+    "EUR": {
+      "si-mfa-998": 2,
+      "si-mfa-rs": 1,
+      "si-mfa-ye": 3,
+      "si-mfa-sy": 1,
+      "si-mfa-ps": 3,
+      "si-mfa-jo": 1,
+      "si-mfa-ug": 1,
+      "si-mfa-iq": 1,
+      "si-mfa-me": 1,
+      "si-mfa-br": 1,
+      "si-mfa-cd": 1,
+      "si-mfa-mk": 1,
+      "si-mfa-ba": 2,
+      "si-mfa-lb": 2,
+      "si-mfa-ua": 1,
+      "si-mfa-cn": 1
+    }
+  },
+  ".//@xml:lang": {
+    "en": {
+      "si-mfa-998": 7,
+      "si-mfa-rs": 3,
+      "si-mfa-ye": 13,
+      "si-mfa-sy": 3,
+      "si-mfa-ps": 13,
+      "si-mfa-jo": 4,
+      "si-mfa-ug": 3,
+      "si-mfa-iq": 5,
+      "si-mfa-me": 3,
+      "si-mfa-br": 6,
+      "si-mfa-cd": 5,
+      "si-mfa-mk": 3,
+      "si-mfa-ba": 7,
+      "si-mfa-lb": 6,
+      "si-mfa-ua": 3,
+      "si-mfa-cn": 3
+    },
+    "sl": {
+      "si-mfa-998": 4,
+      "si-mfa-rs": 2,
+      "si-mfa-ye": 4,
+      "si-mfa-sy": 2,
+      "si-mfa-ps": 6,
+      "si-mfa-jo": 1,
+      "si-mfa-ug": 2,
+      "si-mfa-iq": 2,
+      "si-mfa-me": 1,
+      "si-mfa-br": 1,
+      "si-mfa-cd": 2,
+      "si-mfa-mk": 2,
+      "si-mfa-ba": 4,
+      "si-mfa-lb": 4,
+      "si-mfa-ua": 2,
+      "si-mfa-cn": 2
+    },
+    "fr": {
+      "si-mfa-998": 1
+    }
+  },
+  ".//activity-date/@type": {
+    "2": {
+      "si-mfa-998": 2,
+      "si-mfa-ye": 2,
+      "si-mfa-sy": 1,
+      "si-mfa-ps": 3,
+      "si-mfa-jo": 1,
+      "si-mfa-ug": 1,
+      "si-mfa-iq": 1,
+      "si-mfa-me": 1,
+      "si-mfa-cd": 1,
+      "si-mfa-ba": 1,
+      "si-mfa-lb": 2,
+      "si-mfa-ua": 1,
+      "si-mfa-cn": 1
+    },
+    "3": {
+      "si-mfa-998": 2,
+      "si-mfa-rs": 1,
+      "si-mfa-ye": 3,
+      "si-mfa-sy": 1,
+      "si-mfa-ps": 2,
+      "si-mfa-jo": 1,
+      "si-mfa-ug": 1,
+      "si-mfa-iq": 1,
+      "si-mfa-me": 1,
+      "si-mfa-br": 1,
+      "si-mfa-cd": 1,
+      "si-mfa-mk": 1,
+      "si-mfa-ba": 2,
+      "si-mfa-lb": 2,
+      "si-mfa-ua": 1
+    },
+    "1": {
+      "si-mfa-rs": 1,
+      "si-mfa-ye": 1,
+      "si-mfa-br": 1,
+      "si-mfa-mk": 1,
+      "si-mfa-ba": 1
+    },
+    "4": {
+      "si-mfa-ps": 1,
+      "si-mfa-cn": 1
+    }
+  },
+  ".//activity-status/@code": {
+    "2": {
+      "si-mfa-998": 2,
+      "si-mfa-ye": 3,
+      "si-mfa-ps": 2,
+      "si-mfa-jo": 1,
+      "si-mfa-ug": 1,
+      "si-mfa-iq": 1,
+      "si-mfa-me": 1,
+      "si-mfa-br": 1,
+      "si-mfa-cd": 1,
+      "si-mfa-ba": 1,
+      "si-mfa-lb": 2,
+      "si-mfa-ua": 1
+    },
+    "3": {
+      "si-mfa-rs": 1,
+      "si-mfa-sy": 1,
+      "si-mfa-mk": 1,
+      "si-mfa-ba": 1,
+      "si-mfa-cn": 1
+    },
+    "4": {
+      "si-mfa-ps": 1
+    }
+  },
+  ".//budget/@status": {
+    "2": {
+      "si-mfa-998": 2,
+      "si-mfa-rs": 1,
+      "si-mfa-ye": 10,
+      "si-mfa-sy": 1,
+      "si-mfa-ps": 7,
+      "si-mfa-jo": 2,
+      "si-mfa-ug": 3,
+      "si-mfa-iq": 3,
+      "si-mfa-me": 2,
+      "si-mfa-br": 1,
+      "si-mfa-cd": 3,
+      "si-mfa-mk": 1,
+      "si-mfa-ba": 3,
+      "si-mfa-lb": 6,
+      "si-mfa-ua": 2,
+      "si-mfa-cn": 1
+    }
+  },
+  ".//budget/@type": {
+    "1": {
+      "si-mfa-998": 2,
+      "si-mfa-rs": 1,
+      "si-mfa-ye": 10,
+      "si-mfa-sy": 1,
+      "si-mfa-ps": 7,
+      "si-mfa-jo": 2,
+      "si-mfa-ug": 3,
+      "si-mfa-iq": 3,
+      "si-mfa-me": 2,
+      "si-mfa-br": 1,
+      "si-mfa-cd": 3,
+      "si-mfa-mk": 1,
+      "si-mfa-ba": 3,
+      "si-mfa-lb": 6,
+      "si-mfa-ua": 2,
+      "si-mfa-cn": 1
+    }
+  },
+  ".//budget/value/@currency": {
+    "EUR": {
+      "si-mfa-998": 2,
+      "si-mfa-rs": 1,
+      "si-mfa-ye": 10,
+      "si-mfa-sy": 1,
+      "si-mfa-ps": 7,
+      "si-mfa-jo": 2,
+      "si-mfa-ug": 3,
+      "si-mfa-iq": 3,
+      "si-mfa-me": 1,
+      "si-mfa-br": 1,
+      "si-mfa-cd": 3,
+      "si-mfa-mk": 1,
+      "si-mfa-ba": 3,
+      "si-mfa-lb": 6,
+      "si-mfa-ua": 2,
+      "si-mfa-cn": 1
+    }
+  },
+  ".//default-flow-type/@code": {
+    "10": {
+      "si-mfa-998": 1,
+      "si-mfa-ye": 1,
+      "si-mfa-ps": 1,
+      "si-mfa-br": 1,
+      "si-mfa-cd": 1
+    }
+  },
+  ".//description/@type": {
+    "1": {
+      "si-mfa-998": 2,
+      "si-mfa-rs": 1,
+      "si-mfa-ye": 3,
+      "si-mfa-sy": 1,
+      "si-mfa-ps": 3,
+      "si-mfa-jo": 1,
+      "si-mfa-ug": 1,
+      "si-mfa-iq": 1,
+      "si-mfa-me": 1,
+      "si-mfa-br": 1,
+      "si-mfa-cd": 1,
+      "si-mfa-mk": 1,
+      "si-mfa-ba": 2,
+      "si-mfa-lb": 2,
+      "si-mfa-ua": 1,
+      "si-mfa-cn": 1
+    }
+  },
+  ".//humanitarian-scope/@type": {
+    "1": {
+      "si-mfa-998": 1,
+      "si-mfa-ye": 1,
+      "si-mfa-br": 1
+    },
+    "2": {
+      "si-mfa-998": 1,
+      "si-mfa-ye": 1,
+      "si-mfa-br": 1
+    }
+  },
+  ".//humanitarian-scope/@vocabulary": {
+    "1-2": {
+      "si-mfa-998": 1,
+      "si-mfa-ye": 1,
+      "si-mfa-br": 1
+    },
+    "2-1": {
+      "si-mfa-998": 1,
+      "si-mfa-ye": 1,
+      "si-mfa-br": 1
+    }
+  },
+  ".//humanitarian-scope[@vocabulary = '1-2']/@code": {
+    "EP-2020-000012-001": {
+      "si-mfa-998": 1,
+      "si-mfa-ye": 1,
+      "si-mfa-br": 1
+    }
+  },
+  ".//humanitarian-scope[@vocabulary = '2-1']/@code": {
+    "HCOVD20": {
+      "si-mfa-998": 1,
+      "si-mfa-ye": 1,
+      "si-mfa-br": 1
+    }
+  },
+  ".//participating-org/@crs-channel-code": {
+    "41143": {
+      "si-mfa-998": 1
+    },
+    "22000": {
+      "si-mfa-998": 1,
+      "si-mfa-ug": 1,
+      "si-mfa-me": 1,
+      "si-mfa-lb": 1
+    },
+    "11000": {
+      "si-mfa-rs": 1,
+      "si-mfa-jo": 1,
+      "si-mfa-mk": 2,
+      "si-mfa-ba": 2,
+      "si-mfa-cn": 1
+    },
+    "41140": {
+      "si-mfa-ye": 1
+    },
+    "41122": {
+      "si-mfa-ye": 1
+    },
+    "21027": {
+      "si-mfa-sy": 1,
+      "si-mfa-ps": 1,
+      "si-mfa-ba": 1,
+      "si-mfa-ua": 1
+    },
+    "41130": {
+      "si-mfa-ps": 1
+    },
+    "21016": {
+      "si-mfa-iq": 1
+    },
+    "11001": {
+      "si-mfa-cn": 1
+    }
+  },
+  ".//participating-org/@role": {
+    "4": {
+      "si-mfa-998": 2,
+      "si-mfa-rs": 1,
+      "si-mfa-ye": 3,
+      "si-mfa-sy": 1,
+      "si-mfa-ps": 2,
+      "si-mfa-jo": 1,
+      "si-mfa-ug": 1,
+      "si-mfa-iq": 1,
+      "si-mfa-me": 1,
+      "si-mfa-br": 1,
+      "si-mfa-cd": 1,
+      "si-mfa-mk": 1,
+      "si-mfa-ba": 2,
+      "si-mfa-lb": 2,
+      "si-mfa-ua": 1,
+      "si-mfa-cn": 1
+    },
+    "1": {
+      "si-mfa-rs": 1,
+      "si-mfa-ps": 1,
+      "si-mfa-jo": 1,
+      "si-mfa-mk": 1,
+      "si-mfa-ba": 1,
+      "si-mfa-cn": 1
+    }
+  },
+  ".//participating-org/@type": {
+    "40": {
+      "si-mfa-998": 1,
+      "si-mfa-ye": 3,
+      "si-mfa-ps": 1,
+      "si-mfa-iq": 1,
+      "si-mfa-br": 1,
+      "si-mfa-cd": 1
+    },
+    "22": {
+      "si-mfa-998": 1,
+      "si-mfa-sy": 1,
+      "si-mfa-ps": 1,
+      "si-mfa-jo": 1,
+      "si-mfa-ug": 1,
+      "si-mfa-me": 1,
+      "si-mfa-ba": 1,
+      "si-mfa-lb": 2,
+      "si-mfa-ua": 1
+    },
+    "10": {
+      "si-mfa-rs": 2,
+      "si-mfa-ps": 1,
+      "si-mfa-jo": 1,
+      "si-mfa-mk": 2,
+      "si-mfa-ba": 2,
+      "si-mfa-cn": 2
+    }
+  },
+  ".//policy-marker/@significance": {
+    "2": {
+      "si-mfa-cd": 1
+    },
+    "1": {
+      "si-mfa-cd": 1
+    }
+  },
+  ".//policy-marker/@vocabulary": {
+    "1": {
+      "si-mfa-cd": 2
+    }
+  },
+  ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "1": {
+      "si-mfa-cd": 1
+    },
+    "10": {
+      "si-mfa-cd": 1
+    }
+  },
+  ".//recipient-country/@code": {
+    "RS": {
+      "si-mfa-rs": 1
+    },
+    "YE": {
+      "si-mfa-ye": 3
+    },
+    "SY": {
+      "si-mfa-sy": 1
+    },
+    "PS": {
+      "si-mfa-ps": 3
+    },
+    "JO": {
+      "si-mfa-jo": 1
+    },
+    "UG": {
+      "si-mfa-ug": 1
+    },
+    "IQ": {
+      "si-mfa-iq": 1
+    },
+    "ME": {
+      "si-mfa-me": 1
+    },
+    "BR": {
+      "si-mfa-br": 1
+    },
+    "CD": {
+      "si-mfa-cd": 1
+    },
+    "MK": {
+      "si-mfa-mk": 1
+    },
+    "BA": {
+      "si-mfa-ba": 2
+    },
+    "LB": {
+      "si-mfa-lb": 2
+    },
+    "UA": {
+      "si-mfa-ua": 1
+    },
+    "CN": {
+      "si-mfa-cn": 1
+    }
+  },
+  ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "998": {
+      "si-mfa-998": 1
+    },
+    "289": {
+      "si-mfa-998": 1
+    }
+  },
+  ".//reporting-org/@type": {
+    "10": {
+      "si-mfa-998": 2,
+      "si-mfa-rs": 1,
+      "si-mfa-ye": 3,
+      "si-mfa-sy": 1,
+      "si-mfa-ps": 3,
+      "si-mfa-jo": 1,
+      "si-mfa-ug": 1,
+      "si-mfa-iq": 1,
+      "si-mfa-me": 1,
+      "si-mfa-br": 1,
+      "si-mfa-cd": 1,
+      "si-mfa-mk": 1,
+      "si-mfa-ba": 2,
+      "si-mfa-lb": 2,
+      "si-mfa-ua": 1,
+      "si-mfa-cn": 1
+    }
+  },
+  ".//sector/@vocabulary": {
+    "1": {
+      "si-mfa-998": 2,
+      "si-mfa-rs": 1,
+      "si-mfa-ye": 3,
+      "si-mfa-sy": 1,
+      "si-mfa-ps": 3,
+      "si-mfa-jo": 1,
+      "si-mfa-ug": 1,
+      "si-mfa-iq": 1,
+      "si-mfa-me": 1,
+      "si-mfa-br": 1,
+      "si-mfa-cd": 1,
+      "si-mfa-mk": 1,
+      "si-mfa-ba": 2,
+      "si-mfa-lb": 2,
+      "si-mfa-ua": 1,
+      "si-mfa-cn": 1
+    }
+  },
+  ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "74010": {
+      "si-mfa-998": 2
+    },
+    "72010": {
+      "si-mfa-rs": 1,
+      "si-mfa-ye": 2,
+      "si-mfa-ps": 1,
+      "si-mfa-iq": 1,
+      "si-mfa-br": 1,
+      "si-mfa-mk": 1,
+      "si-mfa-ba": 1,
+      "si-mfa-cn": 1
+    },
+    "72040": {
+      "si-mfa-ye": 1
+    },
+    "15250": {
+      "si-mfa-sy": 1,
+      "si-mfa-jo": 1,
+      "si-mfa-ba": 1
+    },
+    "73010": {
+      "si-mfa-ps": 1,
+      "si-mfa-cd": 1,
+      "si-mfa-ua": 1
+    },
+    "12181": {
+      "si-mfa-ps": 1
+    },
+    "43072": {
+      "si-mfa-ug": 1
+    },
+    "74020": {
+      "si-mfa-me": 1
+    },
+    "15180": {
+      "si-mfa-lb": 2
+    }
+  },
+  ".//transaction/aid-type/@vocabulary": {
+    "2": {
+      "si-mfa-998": 1,
+      "si-mfa-ye": 7,
+      "si-mfa-ps": 3,
+      "si-mfa-iq": 3
+    },
+    "1": {
+      "si-mfa-998": 1,
+      "si-mfa-rs": 1,
+      "si-mfa-sy": 2,
+      "si-mfa-ps": 9,
+      "si-mfa-jo": 3,
+      "si-mfa-ug": 1,
+      "si-mfa-me": 1,
+      "si-mfa-cd": 1,
+      "si-mfa-mk": 1,
+      "si-mfa-ba": 3,
+      "si-mfa-lb": 2,
+      "si-mfa-ua": 3,
+      "si-mfa-cn": 1
+    }
+  },
+  ".//transaction/aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "C01": {
+      "si-mfa-998": 1,
+      "si-mfa-rs": 1,
+      "si-mfa-sy": 2,
+      "si-mfa-ps": 8,
+      "si-mfa-jo": 3,
+      "si-mfa-ug": 1,
+      "si-mfa-mk": 1,
+      "si-mfa-ba": 1,
+      "si-mfa-lb": 2,
+      "si-mfa-ua": 3,
+      "si-mfa-cn": 1
+    },
+    "B03": {
+      "si-mfa-ps": 1,
+      "si-mfa-cd": 1
+    },
+    "D01": {
+      "si-mfa-me": 1
+    },
+    "B01": {
+      "si-mfa-ba": 2
+    }
+  },
+  ".//transaction/aid-type[@vocabulary = '2']/@code": {
+    "2": {
+      "si-mfa-998": 1,
+      "si-mfa-ye": 7,
+      "si-mfa-iq": 3
+    },
+    "1": {
+      "si-mfa-ps": 2
+    },
+    "3": {
+      "si-mfa-ps": 1
+    }
+  },
+  ".//transaction/disbursement-channel/@code": {
+    "2": {
+      "si-mfa-998": 2,
+      "si-mfa-ye": 7,
+      "si-mfa-sy": 2,
+      "si-mfa-ps": 9,
+      "si-mfa-jo": 2,
+      "si-mfa-ug": 1,
+      "si-mfa-iq": 3,
+      "si-mfa-me": 1,
+      "si-mfa-cd": 1,
+      "si-mfa-ba": 2,
+      "si-mfa-lb": 2,
+      "si-mfa-ua": 3
+    },
+    "4": {
+      "si-mfa-rs": 1,
+      "si-mfa-mk": 1,
+      "si-mfa-ba": 1,
+      "si-mfa-cn": 1
+    }
+  },
+  ".//transaction/finance-type/@code": {
+    "110": {
+      "si-mfa-998": 2,
+      "si-mfa-rs": 1,
+      "si-mfa-ye": 7,
+      "si-mfa-sy": 2,
+      "si-mfa-ps": 12,
+      "si-mfa-jo": 3,
+      "si-mfa-ug": 1,
+      "si-mfa-iq": 3,
+      "si-mfa-me": 1,
+      "si-mfa-cd": 1,
+      "si-mfa-mk": 1,
+      "si-mfa-ba": 3,
+      "si-mfa-lb": 2,
+      "si-mfa-ua": 3,
+      "si-mfa-cn": 1
+    }
+  },
+  ".//transaction/flow-type/@code": {
+    "10": {
+      "si-mfa-998": 2,
+      "si-mfa-rs": 1,
+      "si-mfa-ye": 7,
+      "si-mfa-sy": 2,
+      "si-mfa-ps": 12,
+      "si-mfa-jo": 3,
+      "si-mfa-ug": 1,
+      "si-mfa-iq": 3,
+      "si-mfa-me": 1,
+      "si-mfa-cd": 1,
+      "si-mfa-mk": 1,
+      "si-mfa-ba": 3,
+      "si-mfa-lb": 2,
+      "si-mfa-ua": 3,
+      "si-mfa-cn": 1
+    }
+  },
+  ".//transaction/provider-org/@type": {
+    "10": {
+      "si-mfa-me": 1,
+      "si-mfa-mk": 1
+    }
+  },
+  ".//transaction/receiver-org/@type": {
+    "22": {
+      "si-mfa-ps": 2,
+      "si-mfa-me": 1
+    }
+  },
+  ".//transaction/recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "998": {
+      "si-mfa-998": 1
+    },
+    "289": {
+      "si-mfa-998": 1
+    }
+  },
+  ".//transaction/tied-status/@code": {
+    "5": {
+      "si-mfa-998": 1,
+      "si-mfa-ye": 7,
+      "si-mfa-ps": 6,
+      "si-mfa-iq": 3,
+      "si-mfa-cd": 1
+    },
+    "4": {
+      "si-mfa-ba": 1,
+      "si-mfa-cn": 1
+    }
+  },
+  ".//transaction/transaction-type/@code": {
+    "3": {
+      "si-mfa-998": 2,
+      "si-mfa-ye": 7,
+      "si-mfa-sy": 2,
+      "si-mfa-ps": 12,
+      "si-mfa-jo": 3,
+      "si-mfa-ug": 1,
+      "si-mfa-iq": 3,
+      "si-mfa-me": 1,
+      "si-mfa-cd": 1,
+      "si-mfa-ba": 2,
+      "si-mfa-lb": 2,
+      "si-mfa-ua": 3
+    },
+    "4": {
+      "si-mfa-rs": 1,
+      "si-mfa-mk": 1,
+      "si-mfa-ba": 1,
+      "si-mfa-cn": 1
+    }
+  },
+  ".//transaction/value/@currency": {
+    "EUR": {
+      "si-mfa-998": 2,
+      "si-mfa-rs": 1,
+      "si-mfa-ye": 7,
+      "si-mfa-sy": 2,
+      "si-mfa-ps": 12,
+      "si-mfa-jo": 3,
+      "si-mfa-ug": 1,
+      "si-mfa-iq": 3,
+      "si-mfa-me": 1,
+      "si-mfa-mk": 1,
+      "si-mfa-ba": 3,
+      "si-mfa-lb": 2,
+      "si-mfa-ua": 3,
+      "si-mfa-cn": 1
+    }
+  }
+}

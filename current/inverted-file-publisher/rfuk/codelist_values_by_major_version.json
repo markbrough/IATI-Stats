@@ -1,0 +1,326 @@
+{
+  "2": {
+    ".//@default-currency": {
+      "rfuk-998": {
+        "GBP": 1
+      },
+      "rfuk-ga": {
+        "GBP": 1
+      },
+      "rfuk-cd": {
+        "GBP": 1
+      }
+    },
+    ".//activity-date/@type": {
+      "rfuk-998": {
+        "2": 1,
+        "3": 1
+      },
+      "rfuk-ga": {
+        "2": 1,
+        "4": 1
+      },
+      "rfuk-cd": {
+        "2": 1,
+        "3": 1
+      }
+    },
+    ".//activity-status/@code": {
+      "rfuk-998": {
+        "2": 1
+      },
+      "rfuk-ga": {
+        "3": 1
+      },
+      "rfuk-cd": {
+        "2": 1
+      }
+    },
+    ".//budget/@status": {
+      "rfuk-998": {
+        "2": 2,
+        "1": 1
+      },
+      "rfuk-cd": {
+        "1": 1
+      }
+    },
+    ".//budget/@type": {
+      "rfuk-998": {
+        "2": 3
+      },
+      "rfuk-ga": {
+        "1": 1
+      },
+      "rfuk-cd": {
+        "1": 1
+      }
+    },
+    ".//budget/value/@currency": {
+      "rfuk-998": {
+        "GBP": 3
+      },
+      "rfuk-ga": {
+        "GBP": 1
+      },
+      "rfuk-cd": {
+        "GBP": 1
+      }
+    },
+    ".//contact-info/@type": {
+      "rfuk-998": {
+        "1": 1
+      },
+      "rfuk-cd": {
+        "1": 1
+      }
+    },
+    ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "rfuk-998": {
+        "C01": 1
+      },
+      "rfuk-ga": {
+        "C01": 1
+      },
+      "rfuk-cd": {
+        "C01": 1
+      }
+    },
+    ".//default-aid-type/@vocabulary": {
+      "rfuk-998": {
+        "1": 1
+      },
+      "rfuk-cd": {
+        "1": 1
+      }
+    },
+    ".//default-finance-type/@code": {
+      "rfuk-998": {
+        "110": 1
+      },
+      "rfuk-ga": {
+        "110": 1
+      },
+      "rfuk-cd": {
+        "110": 1
+      }
+    },
+    ".//default-flow-type/@code": {
+      "rfuk-998": {
+        "10": 1
+      },
+      "rfuk-ga": {
+        "30": 1
+      },
+      "rfuk-cd": {
+        "30": 1
+      }
+    },
+    ".//description/@type": {
+      "rfuk-998": {
+        "1": 1
+      },
+      "rfuk-cd": {
+        "1": 1
+      }
+    },
+    ".//participating-org/@role": {
+      "rfuk-998": {
+        "1": 1,
+        "4": 4,
+        "2": 1
+      },
+      "rfuk-ga": {
+        "1": 1,
+        "4": 2
+      },
+      "rfuk-cd": {
+        "1": 1,
+        "4": 2
+      }
+    },
+    ".//participating-org/@type": {
+      "rfuk-998": {
+        "10": 1,
+        "22": 4,
+        "70": 1
+      },
+      "rfuk-cd": {
+        "10": 1,
+        "22": 2
+      }
+    },
+    ".//recipient-country/@code": {
+      "rfuk-998": {
+        "GB": 17,
+        "CD": 7,
+        "CM": 6,
+        "GH": 6,
+        "CG": 3
+      },
+      "rfuk-ga": {
+        "GA": 1,
+        "CF": 1
+      },
+      "rfuk-cd": {
+        "CD": 1
+      }
+    },
+    ".//reporting-org/@type": {
+      "rfuk-998": {
+        "21": 1
+      },
+      "rfuk-ga": {
+        "21": 1
+      },
+      "rfuk-cd": {
+        "21": 1
+      }
+    },
+    ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "rfuk-998": {
+        "31210": 1
+      },
+      "rfuk-ga": {
+        "11430": 1,
+        "15130": 1,
+        "15150": 1,
+        "15162": 1,
+        "31210": 1,
+        "31281": 1,
+        "92010": 1,
+        "92030": 1
+      },
+      "rfuk-cd": {
+        "31210": 1
+      }
+    },
+    ".//sector/@vocabulary": {
+      "rfuk-998": {
+        "1": 1
+      },
+      "rfuk-ga": {
+        "1": 8
+      },
+      "rfuk-cd": {
+        "1": 1
+      }
+    },
+    ".//transaction/recipient-country/@code": {
+      "rfuk-998": {
+        "GB": 17,
+        "CD": 7,
+        "CM": 6,
+        "GH": 6,
+        "CG": 3
+      }
+    },
+    ".//transaction/provider-org/@type": {
+      "rfuk-998": {
+        "70": 9,
+        "21": 22
+      }
+    },
+    ".//transaction/receiver-org/@type": {
+      "rfuk-998": {
+        "21": 9,
+        "24": 22
+      }
+    },
+    ".//transaction/transaction-type/@code": {
+      "rfuk-998": {
+        "1": 9,
+        "3": 22,
+        "4": 8
+      },
+      "rfuk-ga": {
+        "3": 68,
+        "4": 11,
+        "1": 13
+      },
+      "rfuk-cd": {
+        "4": 68,
+        "1": 13,
+        "3": 39
+      }
+    },
+    ".//transaction/value/@currency": {
+      "rfuk-998": {
+        "GBP": 39
+      },
+      "rfuk-ga": {
+        "GBP": 83
+      },
+      "rfuk-cd": {
+        "GBP": 120
+      }
+    },
+    ".//@xml:lang": {
+      "rfuk-998": {
+        "en": 8
+      },
+      "rfuk-ga": {
+        "en": 87,
+        "fr": 3
+      },
+      "rfuk-cd": {
+        "en": 7
+      }
+    },
+    ".//document-link/@format": {
+      "rfuk-ga": {
+        "text/html": 5
+      }
+    },
+    ".//document-link/category/@code": {
+      "rfuk-ga": {
+        "B01": 1,
+        "A02": 2,
+        "A12": 2
+      }
+    },
+    ".//document-link/language/@code": {
+      "rfuk-ga": {
+        "en": 4,
+        "fr": 1
+      }
+    },
+    ".//transaction/aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "rfuk-ga": {
+        "C01": 92
+      }
+    },
+    ".//transaction/disbursement-channel/@code": {
+      "rfuk-ga": {
+        "2": 92
+      },
+      "rfuk-cd": {
+        "2": 110
+      }
+    },
+    ".//transaction/finance-type/@code": {
+      "rfuk-ga": {
+        "110": 92
+      },
+      "rfuk-cd": {
+        "110": 74
+      }
+    },
+    ".//transaction/flow-type/@code": {
+      "rfuk-ga": {
+        "30": 92
+      },
+      "rfuk-cd": {
+        "30": 110
+      }
+    },
+    ".//transaction/tied-status/@code": {
+      "rfuk-ga": {
+        "3": 92
+      },
+      "rfuk-cd": {
+        "3": 110
+      }
+    }
+  }
+}

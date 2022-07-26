@@ -1,0 +1,607 @@
+{
+  ".//@default-currency": {
+    "GBP": {
+      "ciuk-fcdoactive": 15,
+      "ciuk-privatesector": 10,
+      "ciuk-fcdogec": 9,
+      "ciuk-fcdoclosed": 67,
+      "ciuk-newfunding": 22,
+      "ciuk-startfunding": 64,
+      "ciuk-dec": 24
+    },
+    "EUR": {
+      "ciuk-ec_echo": 15
+    },
+    "USD": {
+      "ciuk-newfunding": 3
+    }
+  },
+  ".//activity-date/@type": {
+    "2": {
+      "ciuk-fcdoactive": 15,
+      "ciuk-privatesector": 10,
+      "ciuk-fcdogec": 9,
+      "ciuk-fcdoclosed": 67,
+      "ciuk-ec_echo": 15,
+      "ciuk-newfunding": 25,
+      "ciuk-startfunding": 64,
+      "ciuk-dec": 24
+    },
+    "3": {
+      "ciuk-fcdoactive": 15,
+      "ciuk-privatesector": 5,
+      "ciuk-fcdogec": 5,
+      "ciuk-ec_echo": 2,
+      "ciuk-newfunding": 12,
+      "ciuk-startfunding": 2,
+      "ciuk-dec": 3
+    },
+    "4": {
+      "ciuk-privatesector": 5,
+      "ciuk-fcdogec": 4,
+      "ciuk-fcdoclosed": 67,
+      "ciuk-ec_echo": 13,
+      "ciuk-newfunding": 13,
+      "ciuk-startfunding": 62,
+      "ciuk-dec": 21
+    }
+  },
+  ".//activity-status/@code": {
+    "2": {
+      "ciuk-fcdoactive": 15,
+      "ciuk-fcdogec": 5,
+      "ciuk-ec_echo": 1,
+      "ciuk-newfunding": 12,
+      "ciuk-startfunding": 2
+    },
+    "4": {
+      "ciuk-privatesector": 10,
+      "ciuk-fcdogec": 4,
+      "ciuk-fcdoclosed": 67,
+      "ciuk-ec_echo": 14,
+      "ciuk-startfunding": 62,
+      "ciuk-dec": 21
+    },
+    "3": {
+      "ciuk-newfunding": 13,
+      "ciuk-dec": 3
+    }
+  },
+  ".//budget/@status": {
+    "2": {
+      "ciuk-fcdoactive": 15,
+      "ciuk-privatesector": 10,
+      "ciuk-fcdogec": 9,
+      "ciuk-fcdoclosed": 67,
+      "ciuk-ec_echo": 15,
+      "ciuk-newfunding": 25,
+      "ciuk-startfunding": 64,
+      "ciuk-dec": 24
+    }
+  },
+  ".//budget/@type": {
+    "1": {
+      "ciuk-fcdoactive": 15,
+      "ciuk-privatesector": 10,
+      "ciuk-fcdogec": 9,
+      "ciuk-fcdoclosed": 67,
+      "ciuk-ec_echo": 15,
+      "ciuk-newfunding": 25,
+      "ciuk-startfunding": 64,
+      "ciuk-dec": 24
+    }
+  },
+  ".//budget/value/@currency": {
+    "GBP": {
+      "ciuk-fcdoactive": 15,
+      "ciuk-privatesector": 10,
+      "ciuk-fcdogec": 9,
+      "ciuk-fcdoclosed": 67,
+      "ciuk-newfunding": 22,
+      "ciuk-startfunding": 64,
+      "ciuk-dec": 24
+    },
+    "EUR": {
+      "ciuk-ec_echo": 15
+    },
+    "USD": {
+      "ciuk-newfunding": 3
+    }
+  },
+  ".//collaboration-type/@code": {
+    "4": {
+      "ciuk-fcdoactive": 15,
+      "ciuk-privatesector": 10,
+      "ciuk-fcdogec": 9,
+      "ciuk-fcdoclosed": 67,
+      "ciuk-ec_echo": 15,
+      "ciuk-newfunding": 25,
+      "ciuk-startfunding": 64,
+      "ciuk-dec": 24
+    }
+  },
+  ".//contact-info/@type": {
+    "1": {
+      "ciuk-fcdoactive": 15,
+      "ciuk-privatesector": 10,
+      "ciuk-fcdogec": 9,
+      "ciuk-fcdoclosed": 67,
+      "ciuk-ec_echo": 15,
+      "ciuk-newfunding": 25,
+      "ciuk-startfunding": 64,
+      "ciuk-dec": 24
+    }
+  },
+  ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "B03": {
+      "ciuk-fcdoactive": 15,
+      "ciuk-privatesector": 10,
+      "ciuk-fcdogec": 9,
+      "ciuk-fcdoclosed": 67,
+      "ciuk-ec_echo": 15,
+      "ciuk-newfunding": 25,
+      "ciuk-startfunding": 64,
+      "ciuk-dec": 24
+    }
+  },
+  ".//default-finance-type/@code": {
+    "110": {
+      "ciuk-fcdoactive": 15,
+      "ciuk-privatesector": 10,
+      "ciuk-fcdogec": 9,
+      "ciuk-fcdoclosed": 67,
+      "ciuk-ec_echo": 15,
+      "ciuk-newfunding": 25,
+      "ciuk-startfunding": 64,
+      "ciuk-dec": 24
+    }
+  },
+  ".//default-flow-type/@code": {
+    "10": {
+      "ciuk-fcdoactive": 15,
+      "ciuk-privatesector": 10,
+      "ciuk-fcdogec": 9,
+      "ciuk-fcdoclosed": 67,
+      "ciuk-ec_echo": 15,
+      "ciuk-newfunding": 25,
+      "ciuk-startfunding": 64,
+      "ciuk-dec": 24
+    }
+  },
+  ".//default-tied-status/@code": {
+    "4": {
+      "ciuk-fcdoactive": 15,
+      "ciuk-privatesector": 10,
+      "ciuk-fcdogec": 9,
+      "ciuk-fcdoclosed": 67,
+      "ciuk-ec_echo": 15,
+      "ciuk-newfunding": 25,
+      "ciuk-startfunding": 64,
+      "ciuk-dec": 24
+    }
+  },
+  ".//participating-org/@role": {
+    "1": {
+      "ciuk-fcdoactive": 15,
+      "ciuk-privatesector": 11,
+      "ciuk-fcdogec": 9,
+      "ciuk-fcdoclosed": 67,
+      "ciuk-ec_echo": 15,
+      "ciuk-newfunding": 25,
+      "ciuk-startfunding": 64,
+      "ciuk-dec": 24
+    },
+    "2": {
+      "ciuk-fcdoactive": 16,
+      "ciuk-privatesector": 10,
+      "ciuk-fcdogec": 9,
+      "ciuk-fcdoclosed": 67,
+      "ciuk-ec_echo": 15,
+      "ciuk-newfunding": 25,
+      "ciuk-startfunding": 16,
+      "ciuk-dec": 24
+    },
+    "4": {
+      "ciuk-fcdoactive": 47,
+      "ciuk-privatesector": 24,
+      "ciuk-fcdogec": 27,
+      "ciuk-fcdoclosed": 146,
+      "ciuk-ec_echo": 36,
+      "ciuk-newfunding": 45,
+      "ciuk-startfunding": 134,
+      "ciuk-dec": 48
+    },
+    "3": {
+      "ciuk-startfunding": 50
+    }
+  },
+  ".//participating-org/@type": {
+    "10": {
+      "ciuk-fcdoactive": 15,
+      "ciuk-privatesector": 1,
+      "ciuk-fcdogec": 9,
+      "ciuk-fcdoclosed": 67,
+      "ciuk-newfunding": 7,
+      "ciuk-startfunding": 64
+    },
+    "21": {
+      "ciuk-fcdoactive": 37,
+      "ciuk-privatesector": 20,
+      "ciuk-fcdogec": 20,
+      "ciuk-fcdoclosed": 139,
+      "ciuk-ec_echo": 37,
+      "ciuk-newfunding": 50,
+      "ciuk-startfunding": 136,
+      "ciuk-dec": 48
+    },
+    "22": {
+      "ciuk-fcdoactive": 21,
+      "ciuk-privatesector": 14,
+      "ciuk-fcdogec": 16,
+      "ciuk-fcdoclosed": 74,
+      "ciuk-ec_echo": 14,
+      "ciuk-newfunding": 20,
+      "ciuk-startfunding": 64,
+      "ciuk-dec": 24
+    },
+    "70": {
+      "ciuk-fcdoactive": 5,
+      "ciuk-privatesector": 10
+    },
+    "15": {
+      "ciuk-ec_echo": 15,
+      "ciuk-newfunding": 6,
+      "ciuk-dec": 24
+    },
+    "60": {
+      "ciuk-newfunding": 9
+    },
+    "40": {
+      "ciuk-newfunding": 2
+    },
+    "80": {
+      "ciuk-newfunding": 1
+    }
+  },
+  ".//recipient-country/@code": {
+    "SO": {
+      "ciuk-fcdoactive": 1,
+      "ciuk-fcdogec": 3,
+      "ciuk-fcdoclosed": 2,
+      "ciuk-startfunding": 1,
+      "ciuk-dec": 1
+    },
+    "SY": {
+      "ciuk-fcdoactive": 1,
+      "ciuk-fcdoclosed": 1,
+      "ciuk-ec_echo": 1,
+      "ciuk-startfunding": 1,
+      "ciuk-dec": 1
+    },
+    "GB": {
+      "ciuk-fcdoactive": 1,
+      "ciuk-privatesector": 3,
+      "ciuk-fcdoclosed": 7,
+      "ciuk-newfunding": 9,
+      "ciuk-startfunding": 1
+    },
+    "NP": {
+      "ciuk-fcdoactive": 3,
+      "ciuk-privatesector": 2,
+      "ciuk-fcdoclosed": 6,
+      "ciuk-startfunding": 1,
+      "ciuk-dec": 2
+    },
+    "KE": {
+      "ciuk-fcdoactive": 2,
+      "ciuk-fcdoclosed": 5
+    },
+    "TZ": {
+      "ciuk-fcdoactive": 2
+    },
+    "ET": {
+      "ciuk-fcdoactive": 1,
+      "ciuk-fcdogec": 1,
+      "ciuk-fcdoclosed": 1,
+      "ciuk-ec_echo": 1,
+      "ciuk-startfunding": 2
+    },
+    "MW": {
+      "ciuk-fcdoactive": 1,
+      "ciuk-fcdoclosed": 1,
+      "ciuk-ec_echo": 1,
+      "ciuk-startfunding": 1
+    },
+    "ML": {
+      "ciuk-fcdoactive": 1,
+      "ciuk-fcdoclosed": 1,
+      "ciuk-startfunding": 1
+    },
+    "YE": {
+      "ciuk-fcdoactive": 1,
+      "ciuk-fcdoclosed": 3,
+      "ciuk-newfunding": 4,
+      "ciuk-startfunding": 3,
+      "ciuk-dec": 2
+    },
+    "AF": {
+      "ciuk-fcdoactive": 1,
+      "ciuk-fcdogec": 3,
+      "ciuk-ec_echo": 1,
+      "ciuk-startfunding": 1
+    },
+    "LK": {
+      "ciuk-privatesector": 1,
+      "ciuk-startfunding": 1
+    },
+    "ZM": {
+      "ciuk-privatesector": 2,
+      "ciuk-fcdoclosed": 2,
+      "ciuk-newfunding": 2
+    },
+    "BD": {
+      "ciuk-privatesector": 2,
+      "ciuk-fcdoclosed": 8,
+      "ciuk-ec_echo": 1,
+      "ciuk-newfunding": 2,
+      "ciuk-startfunding": 4,
+      "ciuk-dec": 2
+    },
+    "ZW": {
+      "ciuk-fcdogec": 2,
+      "ciuk-fcdoclosed": 2
+    },
+    "BJ": {
+      "ciuk-fcdoclosed": 1
+    },
+    "IN": {
+      "ciuk-fcdoclosed": 3,
+      "ciuk-newfunding": 1,
+      "ciuk-startfunding": 6
+    },
+    "UG": {
+      "ciuk-fcdoclosed": 1,
+      "ciuk-ec_echo": 2,
+      "ciuk-startfunding": 1
+    },
+    "SL": {
+      "ciuk-fcdoclosed": 2,
+      "ciuk-startfunding": 2,
+      "ciuk-dec": 2
+    },
+    "RW": {
+      "ciuk-fcdoclosed": 2,
+      "ciuk-newfunding": 1
+    },
+    "JO": {
+      "ciuk-fcdoclosed": 5,
+      "ciuk-dec": 2
+    },
+    "PH": {
+      "ciuk-fcdoclosed": 2,
+      "ciuk-startfunding": 3,
+      "ciuk-dec": 2
+    },
+    "PS": {
+      "ciuk-fcdoclosed": 2,
+      "ciuk-newfunding": 1,
+      "ciuk-dec": 2
+    },
+    "HT": {
+      "ciuk-fcdoclosed": 2,
+      "ciuk-dec": 1
+    },
+    "NE": {
+      "ciuk-fcdoclosed": 1,
+      "ciuk-startfunding": 1
+    },
+    "VU": {
+      "ciuk-fcdoclosed": 1,
+      "ciuk-startfunding": 1
+    },
+    "CD": {
+      "ciuk-fcdoclosed": 1,
+      "ciuk-startfunding": 2
+    },
+    "MZ": {
+      "ciuk-fcdoclosed": 4,
+      "ciuk-newfunding": 1,
+      "ciuk-dec": 2
+    },
+    "RS": {
+      "ciuk-fcdoclosed": 1,
+      "ciuk-startfunding": 2
+    },
+    "TR": {
+      "ciuk-ec_echo": 2
+    },
+    "PK": {
+      "ciuk-ec_echo": 2,
+      "ciuk-startfunding": 1,
+      "ciuk-dec": 1
+    },
+    "SD": {
+      "ciuk-ec_echo": 2,
+      "ciuk-startfunding": 2
+    },
+    "SS": {
+      "ciuk-ec_echo": 1,
+      "ciuk-dec": 2
+    },
+    "TO": {
+      "ciuk-ec_echo": 1,
+      "ciuk-startfunding": 2
+    },
+    "GH": {
+      "ciuk-newfunding": 1
+    },
+    "GT": {
+      "ciuk-newfunding": 1,
+      "ciuk-startfunding": 1
+    },
+    "ID": {
+      "ciuk-newfunding": 1,
+      "ciuk-dec": 2
+    },
+    "CI": {
+      "ciuk-newfunding": 1
+    },
+    "CM": {
+      "ciuk-startfunding": 2
+    },
+    "BI": {
+      "ciuk-startfunding": 2
+    },
+    "MM": {
+      "ciuk-startfunding": 1
+    },
+    "HR": {
+      "ciuk-startfunding": 1
+    },
+    "EC": {
+      "ciuk-startfunding": 2
+    },
+    "TD": {
+      "ciuk-startfunding": 3
+    },
+    "PE": {
+      "ciuk-startfunding": 3
+    },
+    "TL": {
+      "ciuk-startfunding": 2
+    },
+    "VN": {
+      "ciuk-startfunding": 1
+    },
+    "HN": {
+      "ciuk-startfunding": 2
+    },
+    "NG": {
+      "ciuk-startfunding": 1
+    },
+    "IQ": {
+      "ciuk-startfunding": 1
+    },
+    "LA": {
+      "ciuk-startfunding": 1
+    },
+    "TG": {
+      "ciuk-startfunding": 1
+    }
+  },
+  ".//reporting-org/@type": {
+    "21": {
+      "ciuk-fcdoactive": 15,
+      "ciuk-privatesector": 10,
+      "ciuk-fcdogec": 9,
+      "ciuk-fcdoclosed": 67,
+      "ciuk-ec_echo": 15,
+      "ciuk-newfunding": 25,
+      "ciuk-startfunding": 64,
+      "ciuk-dec": 24
+    }
+  },
+  ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "15170": {
+      "ciuk-fcdoactive": 3,
+      "ciuk-privatesector": 3,
+      "ciuk-fcdoclosed": 2,
+      "ciuk-newfunding": 3
+    },
+    "72050": {
+      "ciuk-fcdoactive": 5,
+      "ciuk-fcdoclosed": 29,
+      "ciuk-ec_echo": 6,
+      "ciuk-newfunding": 8,
+      "ciuk-startfunding": 64,
+      "ciuk-dec": 24
+    },
+    "14020": {
+      "ciuk-fcdoactive": 1,
+      "ciuk-privatesector": 1,
+      "ciuk-fcdoclosed": 2,
+      "ciuk-ec_echo": 1,
+      "ciuk-newfunding": 3
+    },
+    "52010": {
+      "ciuk-fcdoactive": 4,
+      "ciuk-fcdoclosed": 12,
+      "ciuk-ec_echo": 3,
+      "ciuk-newfunding": 2
+    },
+    "13020": {
+      "ciuk-fcdoactive": 1,
+      "ciuk-fcdoclosed": 6,
+      "ciuk-newfunding": 1
+    },
+    "15150": {
+      "ciuk-fcdoactive": 1,
+      "ciuk-privatesector": 1,
+      "ciuk-fcdoclosed": 9,
+      "ciuk-ec_echo": 1,
+      "ciuk-newfunding": 6
+    },
+    "12220": {
+      "ciuk-privatesector": 2
+    },
+    "72010": {
+      "ciuk-privatesector": 3,
+      "ciuk-fcdoclosed": 2,
+      "ciuk-ec_echo": 1
+    },
+    "11120": {
+      "ciuk-fcdogec": 9,
+      "ciuk-fcdoclosed": 1
+    },
+    "74010": {
+      "ciuk-fcdoclosed": 2,
+      "ciuk-ec_echo": 2
+    },
+    "15180": {
+      "ciuk-fcdoclosed": 2,
+      "ciuk-ec_echo": 1,
+      "ciuk-newfunding": 1
+    },
+    "43010": {
+      "ciuk-newfunding": 1
+    }
+  },
+  ".//transaction/transaction-type/@code": {
+    "1": {
+      "ciuk-fcdoactive": 120,
+      "ciuk-fcdogec": 87,
+      "ciuk-fcdoclosed": 196,
+      "ciuk-ec_echo": 43,
+      "ciuk-newfunding": 53,
+      "ciuk-startfunding": 72,
+      "ciuk-dec": 20
+    },
+    "3": {
+      "ciuk-fcdoactive": 161,
+      "ciuk-privatesector": 38,
+      "ciuk-fcdogec": 95,
+      "ciuk-fcdoclosed": 311,
+      "ciuk-ec_echo": 104,
+      "ciuk-newfunding": 64,
+      "ciuk-startfunding": 74,
+      "ciuk-dec": 20
+    }
+  },
+  ".//transaction/value/@currency": {
+    "GBP": {
+      "ciuk-fcdoactive": 281,
+      "ciuk-privatesector": 38,
+      "ciuk-fcdogec": 182,
+      "ciuk-fcdoclosed": 507,
+      "ciuk-newfunding": 104,
+      "ciuk-startfunding": 146,
+      "ciuk-dec": 40
+    },
+    "EUR": {
+      "ciuk-ec_echo": 147
+    },
+    "USD": {
+      "ciuk-newfunding": 13
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  ".//@default-currency": {
+    "GBP": 5
+  },
+  ".//activity-date/@type": {
+    "start-actual": 3,
+    "end-planned": 5
+  },
+  ".//activity-status/@code": {
+    "2": 5
+  },
+  ".//budget/@type": {
+    "1": 13
+  },
+  ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "B01": 5
+  },
+  ".//default-flow-type/@code": {
+    "30": 5
+  },
+  ".//document-link/@format": {
+    "application/pdf": 5
+  },
+  ".//document-link/category/@code": {
+    "A09": 1
+  },
+  ".//recipient-country/@code": {
+    "IN": 4
+  },
+  ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "679": 5
+  },
+  ".//transaction/aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "B01": 5,
+    "C01": 10
+  },
+  ".//transaction/flow-type/@code": {
+    "30": 15
+  },
+  ".//transaction/transaction-type/@code": {
+    "C": 4,
+    "D": 9
+  }
+}

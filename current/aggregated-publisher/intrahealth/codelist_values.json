@@ -1,0 +1,112 @@
+{
+  ".//@default-currency": {
+    "USD": 1
+  },
+  ".//@xml:lang": {
+    "fr": 1
+  },
+  ".//activity-date/@type": {
+    "1": 1,
+    "2": 1,
+    "3": 1,
+    "4": 1
+  },
+  ".//activity-status/@code": {
+    "2": 1
+  },
+  ".//contact-info/@type": {
+    "2": 2
+  },
+  ".//default-aid-type/@vocabulary": {
+    "1": 1
+  },
+  ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "B03": 1
+  },
+  ".//default-finance-type/@code": {
+    "110": 1
+  },
+  ".//default-flow-type/@code": {
+    "50": 1
+  },
+  ".//default-tied-status/@code": {
+    "5": 1
+  },
+  ".//description/@type": {
+    "1": 5,
+    "2": 1,
+    "3": 1
+  },
+  ".//document-link/@format": {
+    "image/jpeg": 1,
+    "application/http": 9,
+    "application/pdf": 20,
+    "application/zip": 1
+  },
+  ".//document-link/category/@code": {
+    "A12": 10,
+    "A07": 1,
+    "B01": 4,
+    "A08": 16
+  },
+  ".//document-link/language/@code": {
+    "fr": 8
+  },
+  ".//other-identifier/@type": {
+    "B9": 1
+  },
+  ".//participating-org/@role": {
+    "1": 1,
+    "4": 1
+  },
+  ".//participating-org/@type": {
+    "10": 1,
+    "21": 1
+  },
+  ".//policy-marker/@significance": {
+    "2": 1
+  },
+  ".//policy-marker/@vocabulary": {
+    "1": 1
+  },
+  ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "9": 1
+  },
+  ".//recipient-country/@code": {
+    "CI": 1,
+    "ML": 1,
+    "MR": 1,
+    "NE": 1
+  },
+  ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "289": 1
+  },
+  ".//related-activity/@type": {
+    "1": 1
+  },
+  ".//reporting-org/@type": {
+    "21": 1
+  },
+  ".//result/@type": {
+    "1": 4
+  },
+  ".//result/indicator/@measure": {
+    "1": 20
+  },
+  ".//sector/@vocabulary": {
+    "7": 1
+  },
+  ".//sector[@vocabulary = '7']/@code": {
+    "5": 1
+  },
+  ".//transaction/provider-org/@type": {
+    "10": 4
+  },
+  ".//transaction/receiver-org/@type": {
+    "21": 4
+  },
+  ".//transaction/transaction-type/@code": {
+    "11": 2,
+    "1": 2
+  }
+}

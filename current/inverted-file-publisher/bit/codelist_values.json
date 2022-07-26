@@ -1,0 +1,100 @@
+{
+  ".//@default-currency": {
+    "GBP": {
+      "bit-activities": 1
+    }
+  },
+  ".//@xml:lang": {
+    "en": {
+      "bit-activities": 2
+    }
+  },
+  ".//activity-date/@type": {
+    "2": {
+      "bit-activities": 1
+    },
+    "4": {
+      "bit-activities": 1
+    }
+  },
+  ".//activity-status/@code": {
+    "2": {
+      "bit-activities": 1
+    }
+  },
+  ".//budget/@status": {
+    "2": {
+      "bit-activities": 3
+    }
+  },
+  ".//budget/@type": {
+    "1": {
+      "bit-activities": 3
+    }
+  },
+  ".//budget/value/@currency": {
+    "GBP": {
+      "bit-activities": 3
+    }
+  },
+  ".//description/@type": {
+    "1": {
+      "bit-activities": 1
+    }
+  },
+  ".//participating-org/@role": {
+    "1": {
+      "bit-activities": 1
+    },
+    "4": {
+      "bit-activities": 2
+    }
+  },
+  ".//participating-org/@type": {
+    "10": {
+      "bit-activities": 1
+    },
+    "70": {
+      "bit-activities": 1
+    },
+    "21": {
+      "bit-activities": 1
+    }
+  },
+  ".//recipient-country/@code": {
+    "MM": {
+      "bit-activities": 1
+    },
+    "NG": {
+      "bit-activities": 1
+    }
+  },
+  ".//reporting-org/@type": {
+    "70": {
+      "bit-activities": 1
+    }
+  },
+  ".//sector/@vocabulary": {
+    "1": {
+      "bit-activities": 1
+    }
+  },
+  ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "15220": {
+      "bit-activities": 1
+    }
+  },
+  ".//transaction/transaction-type/@code": {
+    "3": {
+      "bit-activities": 6
+    },
+    "4": {
+      "bit-activities": 6
+    }
+  },
+  ".//transaction/value/@currency": {
+    "GBP": {
+      "bit-activities": 11
+    }
+  }
+}

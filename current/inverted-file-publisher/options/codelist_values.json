@@ -1,0 +1,611 @@
+{
+  ".//@default-currency": {
+    "GBP": {
+      "options-bd": 1,
+      "options-ke": 4,
+      "options-in": 1,
+      "options-bf": 1,
+      "options-gh": 1,
+      "options-ng": 2,
+      "options-np": 2,
+      "options-sl": 2,
+      "options-et": 1,
+      "options-mw": 2
+    }
+  },
+  ".//@xml:lang": {
+    "en": {
+      "options-bd": 5,
+      "options-ke": 25,
+      "options-in": 7,
+      "options-bf": 5,
+      "options-gh": 5,
+      "options-ng": 10,
+      "options-np": 16,
+      "options-sl": 12,
+      "options-et": 6,
+      "options-mw": 10
+    }
+  },
+  ".//activity-date/@type": {
+    "2": {
+      "options-bd": 1,
+      "options-ke": 4,
+      "options-in": 1,
+      "options-bf": 1,
+      "options-gh": 1,
+      "options-ng": 2,
+      "options-np": 2,
+      "options-sl": 2,
+      "options-et": 1,
+      "options-mw": 2
+    },
+    "4": {
+      "options-bd": 1,
+      "options-ke": 2,
+      "options-in": 1,
+      "options-np": 1,
+      "options-sl": 2,
+      "options-mw": 1
+    },
+    "3": {
+      "options-ke": 2,
+      "options-bf": 1,
+      "options-gh": 1,
+      "options-ng": 2,
+      "options-np": 1,
+      "options-et": 1,
+      "options-mw": 1
+    }
+  },
+  ".//activity-status/@code": {
+    "4": {
+      "options-bd": 1,
+      "options-ke": 2,
+      "options-in": 1,
+      "options-np": 1,
+      "options-sl": 2,
+      "options-mw": 1
+    },
+    "2": {
+      "options-ke": 2,
+      "options-bf": 1,
+      "options-gh": 1,
+      "options-ng": 1,
+      "options-np": 1,
+      "options-et": 1,
+      "options-mw": 1
+    },
+    "3": {
+      "options-ng": 1
+    }
+  },
+  ".//budget/@status": {
+    "2": {
+      "options-bd": 4,
+      "options-ke": 11,
+      "options-in": 1,
+      "options-bf": 4,
+      "options-ng": 15,
+      "options-np": 13,
+      "options-sl": 12,
+      "options-et": 2,
+      "options-mw": 9
+    },
+    "1": {
+      "options-ke": 11,
+      "options-gh": 5
+    }
+  },
+  ".//budget/@type": {
+    "1": {
+      "options-bd": 4,
+      "options-ke": 19,
+      "options-in": 1,
+      "options-bf": 4,
+      "options-gh": 5,
+      "options-ng": 9,
+      "options-np": 6,
+      "options-sl": 5,
+      "options-et": 2,
+      "options-mw": 9
+    },
+    "2": {
+      "options-ke": 3,
+      "options-ng": 6,
+      "options-np": 7,
+      "options-sl": 7
+    }
+  },
+  ".//budget/value/@currency": {
+    "GBP": {
+      "options-in": 1
+    }
+  },
+  ".//contact-info/@type": {
+    "1": {
+      "options-ke": 1
+    }
+  },
+  ".//default-aid-type/@vocabulary": {
+    "1": {
+      "options-bd": 1,
+      "options-ke": 4,
+      "options-in": 1,
+      "options-bf": 1,
+      "options-gh": 1,
+      "options-ng": 2,
+      "options-np": 2,
+      "options-sl": 2,
+      "options-et": 1,
+      "options-mw": 2
+    }
+  },
+  ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "D02": {
+      "options-bd": 1,
+      "options-ke": 2,
+      "options-in": 1,
+      "options-ng": 1,
+      "options-np": 1,
+      "options-sl": 1,
+      "options-mw": 1
+    },
+    "C01": {
+      "options-ke": 2,
+      "options-bf": 1,
+      "options-ng": 1,
+      "options-sl": 1,
+      "options-et": 1,
+      "options-mw": 1
+    },
+    "A02": {
+      "options-gh": 1,
+      "options-np": 1
+    }
+  },
+  ".//default-finance-type/@code": {
+    "110": {
+      "options-bd": 1,
+      "options-ke": 4,
+      "options-in": 1,
+      "options-bf": 1,
+      "options-gh": 1,
+      "options-ng": 2,
+      "options-np": 2,
+      "options-sl": 2,
+      "options-et": 1,
+      "options-mw": 2
+    }
+  },
+  ".//default-flow-type/@code": {
+    "30": {
+      "options-bd": 1,
+      "options-ke": 4,
+      "options-in": 1,
+      "options-bf": 1,
+      "options-gh": 1,
+      "options-ng": 2,
+      "options-np": 2,
+      "options-sl": 2,
+      "options-et": 1,
+      "options-mw": 2
+    }
+  },
+  ".//default-tied-status/@code": {
+    "5": {
+      "options-bd": 1,
+      "options-ke": 4,
+      "options-in": 1,
+      "options-bf": 1,
+      "options-gh": 1,
+      "options-ng": 2,
+      "options-np": 2,
+      "options-sl": 2,
+      "options-et": 1,
+      "options-mw": 2
+    }
+  },
+  ".//description/@type": {
+    "2": {
+      "options-bd": 1,
+      "options-ke": 3,
+      "options-gh": 1,
+      "options-ng": 1,
+      "options-sl": 1
+    },
+    "1": {
+      "options-ke": 1,
+      "options-in": 1,
+      "options-bf": 1,
+      "options-ng": 1,
+      "options-np": 1,
+      "options-sl": 1,
+      "options-et": 1,
+      "options-mw": 2
+    },
+    "3": {
+      "options-np": 1
+    }
+  },
+  ".//location/administrative/@vocabulary": {
+    "G2": {
+      "options-ke": 1
+    },
+    "A4": {
+      "options-np": 1
+    }
+  },
+  ".//location/administrative[@vocabulary = 'A4']/@code": {
+    "NP": {
+      "options-np": 1
+    }
+  },
+  ".//location/exactness/@code": {
+    "2": {
+      "options-ke": 1
+    }
+  },
+  ".//location/feature-designation/@code": {
+    "PPLX": {
+      "options-ke": 1
+    }
+  },
+  ".//location/location-class/@code": {
+    "2": {
+      "options-ke": 1
+    }
+  },
+  ".//location/location-id/@vocabulary": {
+    "G2": {
+      "options-ke": 1
+    },
+    "A4": {
+      "options-np": 1
+    }
+  },
+  ".//location/location-reach/@code": {
+    "1": {
+      "options-ke": 1,
+      "options-np": 1
+    }
+  },
+  ".//participating-org/@role": {
+    "1": {
+      "options-bd": 1,
+      "options-ke": 4,
+      "options-in": 1,
+      "options-bf": 1,
+      "options-gh": 1,
+      "options-ng": 2,
+      "options-np": 2,
+      "options-sl": 2,
+      "options-et": 1,
+      "options-mw": 2
+    },
+    "2": {
+      "options-bd": 1,
+      "options-ke": 4,
+      "options-in": 1,
+      "options-bf": 1,
+      "options-gh": 1,
+      "options-ng": 2,
+      "options-np": 2,
+      "options-sl": 2,
+      "options-et": 1,
+      "options-mw": 2
+    },
+    "4": {
+      "options-bd": 1,
+      "options-ke": 11,
+      "options-in": 3,
+      "options-bf": 1,
+      "options-gh": 5,
+      "options-ng": 2,
+      "options-np": 11,
+      "options-sl": 2,
+      "options-et": 2,
+      "options-mw": 5
+    }
+  },
+  ".//participating-org/@type": {
+    "10": {
+      "options-bd": 1,
+      "options-ke": 1,
+      "options-in": 1,
+      "options-gh": 1,
+      "options-np": 2,
+      "options-sl": 2,
+      "options-et": 1,
+      "options-mw": 1
+    },
+    "70": {
+      "options-bd": 2,
+      "options-ke": 11,
+      "options-in": 3,
+      "options-bf": 2,
+      "options-gh": 3,
+      "options-ng": 6,
+      "options-np": 5,
+      "options-sl": 4,
+      "options-et": 3,
+      "options-mw": 4
+    },
+    "60": {
+      "options-ke": 1
+    },
+    "21": {
+      "options-ke": 5,
+      "options-bf": 1,
+      "options-gh": 1,
+      "options-np": 2,
+      "options-mw": 1
+    },
+    "22": {
+      "options-ke": 1,
+      "options-in": 1,
+      "options-gh": 1,
+      "options-mw": 1
+    },
+    "80": {
+      "options-gh": 1,
+      "options-np": 1
+    },
+    "72": {
+      "options-np": 4,
+      "options-mw": 2
+    },
+    "71": {
+      "options-np": 1
+    }
+  },
+  ".//policy-marker/@significance": {
+    "1": {
+      "options-bd": 1,
+      "options-ke": 2,
+      "options-gh": 1,
+      "options-np": 1,
+      "options-et": 1,
+      "options-mw": 2
+    },
+    "2": {
+      "options-ke": 1,
+      "options-in": 1,
+      "options-sl": 1
+    },
+    "4": {
+      "options-ke": 1,
+      "options-bf": 1,
+      "options-ng": 1,
+      "options-np": 1
+    },
+    "0": {
+      "options-sl": 1
+    }
+  },
+  ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "9": {
+      "options-bd": 1,
+      "options-ke": 3,
+      "options-in": 1,
+      "options-bf": 1,
+      "options-ng": 2,
+      "options-np": 2,
+      "options-sl": 2,
+      "options-mw": 2
+    },
+    "1": {
+      "options-ke": 1,
+      "options-gh": 1
+    },
+    "3": {
+      "options-et": 1
+    }
+  },
+  ".//recipient-country/@code": {
+    "BD": {
+      "options-bd": 1,
+      "options-mw": 1
+    },
+    "KE": {
+      "options-ke": 4
+    },
+    "NG": {
+      "options-ke": 1,
+      "options-bf": 1,
+      "options-ng": 2,
+      "options-et": 1
+    },
+    "BF": {
+      "options-ke": 1,
+      "options-bf": 1
+    },
+    "SD": {
+      "options-ke": 1
+    },
+    "ET": {
+      "options-ke": 1,
+      "options-et": 1
+    },
+    "SO": {
+      "options-ke": 1
+    },
+    "SN": {
+      "options-ke": 1
+    },
+    "GM": {
+      "options-ke": 1
+    },
+    "EG": {
+      "options-ke": 1
+    },
+    "ML": {
+      "options-ke": 1
+    },
+    "IN": {
+      "options-in": 1
+    },
+    "CD": {
+      "options-bf": 1
+    },
+    "GH": {
+      "options-gh": 1
+    },
+    "NP": {
+      "options-np": 2
+    },
+    "SL": {
+      "options-sl": 2
+    },
+    "SS": {
+      "options-et": 1
+    },
+    "MW": {
+      "options-mw": 2
+    },
+    "MG": {
+      "options-mw": 1
+    },
+    "ZM": {
+      "options-mw": 1
+    },
+    "UG": {
+      "options-mw": 1
+    },
+    "TZ": {
+      "options-mw": 1
+    },
+    "PK": {
+      "options-mw": 1
+    }
+  },
+  ".//reporting-org/@type": {
+    "70": {
+      "options-bd": 1,
+      "options-ke": 4,
+      "options-in": 1,
+      "options-bf": 1,
+      "options-gh": 1,
+      "options-ng": 2,
+      "options-np": 2,
+      "options-sl": 2,
+      "options-et": 1,
+      "options-mw": 2
+    }
+  },
+  ".//sector/@vocabulary": {
+    "1": {
+      "options-bd": 1,
+      "options-ke": 8,
+      "options-in": 1,
+      "options-bf": 2,
+      "options-gh": 2,
+      "options-ng": 4,
+      "options-np": 6,
+      "options-sl": 2,
+      "options-et": 1,
+      "options-mw": 3
+    }
+  },
+  ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "13020": {
+      "options-bd": 1,
+      "options-ke": 1,
+      "options-in": 1,
+      "options-bf": 1,
+      "options-ng": 1,
+      "options-np": 1,
+      "options-sl": 2,
+      "options-mw": 1
+    },
+    "12261": {
+      "options-ke": 1
+    },
+    "23230": {
+      "options-ke": 1
+    },
+    "15185": {
+      "options-ke": 1
+    },
+    "12191": {
+      "options-ke": 1
+    },
+    "12220": {
+      "options-ke": 1,
+      "options-ng": 1,
+      "options-np": 1
+    },
+    "12110": {
+      "options-ke": 1,
+      "options-ng": 1,
+      "options-np": 2,
+      "options-mw": 1
+    },
+    "13030": {
+      "options-ke": 1,
+      "options-ng": 1,
+      "options-mw": 1
+    },
+    "13010": {
+      "options-bf": 1
+    },
+    "12340": {
+      "options-gh": 1
+    },
+    "99810": {
+      "options-gh": 1
+    },
+    "12230": {
+      "options-np": 2
+    },
+    "43010": {
+      "options-et": 1
+    }
+  },
+  ".//transaction/provider-org/@type": {
+    "70": {
+      "options-np": 4
+    },
+    "10": {
+      "options-np": 1
+    }
+  },
+  ".//transaction/receiver-org/@type": {
+    "70": {
+      "options-np": 1
+    }
+  },
+  ".//transaction/transaction-type/@code": {
+    "1": {
+      "options-bd": 1,
+      "options-ke": 14,
+      "options-in": 1,
+      "options-bf": 7,
+      "options-gh": 2,
+      "options-ng": 8,
+      "options-np": 10,
+      "options-sl": 2,
+      "options-et": 3,
+      "options-mw": 8
+    },
+    "4": {
+      "options-bd": 1,
+      "options-ke": 18,
+      "options-in": 1,
+      "options-bf": 8,
+      "options-gh": 3,
+      "options-ng": 9,
+      "options-np": 9,
+      "options-sl": 2,
+      "options-et": 3,
+      "options-mw": 9
+    },
+    "3": {
+      "options-ke": 12,
+      "options-in": 2,
+      "options-np": 38,
+      "options-et": 3,
+      "options-mw": 3
+    }
+  }
+}

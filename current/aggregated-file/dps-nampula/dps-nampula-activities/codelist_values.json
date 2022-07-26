@@ -1,0 +1,67 @@
+{
+  ".//@default-currency": {
+    "MZN": 10
+  },
+  ".//@xml:lang": {
+    "pt": 20
+  },
+  ".//activity-date/@type": {
+    "2": 10,
+    "4": 10
+  },
+  ".//activity-status/@code": {
+    "2": 2,
+    "4": 4,
+    "3": 4
+  },
+  ".//budget/@status": {
+    "2": 10
+  },
+  ".//budget/@type": {
+    "1": 10
+  },
+  ".//budget/value/@currency": {
+    "MZN": 9
+  },
+  ".//description/@type": {
+    "1": 10,
+    "2": 10,
+    "3": 9
+  },
+  ".//document-link/@format": {
+    "application/pdf": 15
+  },
+  ".//document-link/category/@code": {
+    "A08": 10,
+    "B01": 5
+  },
+  ".//participating-org/@role": {
+    "1": 10,
+    "4": 10
+  },
+  ".//participating-org/@type": {
+    "21": 8,
+    "11": 6,
+    "10": 5
+  },
+  ".//recipient-country/@code": {
+    "MZ": 10
+  },
+  ".//reporting-org/@type": {
+    "10": 10
+  },
+  ".//sector/@vocabulary": {
+    "1": 10
+  },
+  ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "12220": 10
+  },
+  ".//transaction/transaction-type/@code": {
+    "3": 7,
+    "4": 26,
+    "1": 1
+  },
+  ".//transaction/value/@currency": {
+    "MZN": 29
+  }
+}

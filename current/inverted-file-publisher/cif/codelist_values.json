@@ -1,0 +1,676 @@
+{
+  ".//@default-currency": {
+    "USD": {
+      "cif-bd": 10,
+      "cif-hn": 10,
+      "cif-ph": 6,
+      "cif-ua": 9,
+      "cif-ml": 4,
+      "cif-et": 2,
+      "cif-to": 1,
+      "cif-rw": 1,
+      "cif-ne": 5,
+      "cif-ws": 2,
+      "cif-in": 10,
+      "cif-vc": 1,
+      "cif-ht": 8,
+      "cif-gd": 1,
+      "cif-mx": 15,
+      "cif-ng": 1,
+      "cif-ci": 3,
+      "cif-ke": 4,
+      "cif-pg": 2,
+      "cif-ls": 1,
+      "cif-dm": 2,
+      "cif-pe": 3,
+      "cif-mz": 9,
+      "cif-kz": 7,
+      "cif-bo": 3,
+      "cif-mn": 3,
+      "cif-cl": 5,
+      "cif-tr": 10,
+      "cif-gh": 5,
+      "cif-za": 7,
+      "cif-np": 6,
+      "cif-vu": 2,
+      "cif-br": 11,
+      "cif-tj": 5,
+      "cif-kh": 10,
+      "cif-vn": 6,
+      "cif-ma": 2,
+      "cif-eg": 1,
+      "cif-zm": 3,
+      "cif-la": 3,
+      "cif-gt": 3,
+      "cif-am": 2,
+      "cif-tz": 2,
+      "cif-ni": 2,
+      "cif-co": 10,
+      "cif-jm": 4,
+      "cif-id": 9,
+      "cif-lc": 3,
+      "cif-mv": 2,
+      "cif-lr": 2,
+      "cif-th": 2,
+      "cif-bf": 4,
+      "cif-sb": 2
+    }
+  },
+  ".//@xml:lang": {
+    "en": {
+      "cif-bd": 70,
+      "cif-hn": 70,
+      "cif-ph": 42,
+      "cif-ua": 63,
+      "cif-ml": 28,
+      "cif-et": 14,
+      "cif-to": 7,
+      "cif-rw": 7,
+      "cif-ne": 35,
+      "cif-ws": 14,
+      "cif-in": 70,
+      "cif-vc": 7,
+      "cif-ht": 56,
+      "cif-gd": 7,
+      "cif-mx": 105,
+      "cif-ng": 7,
+      "cif-ci": 21,
+      "cif-ke": 28,
+      "cif-pg": 14,
+      "cif-ls": 7,
+      "cif-dm": 14,
+      "cif-pe": 21,
+      "cif-mz": 63,
+      "cif-kz": 49,
+      "cif-bo": 21,
+      "cif-mn": 21,
+      "cif-cl": 35,
+      "cif-tr": 70,
+      "cif-gh": 35,
+      "cif-za": 49,
+      "cif-np": 42,
+      "cif-vu": 14,
+      "cif-br": 77,
+      "cif-tj": 35,
+      "cif-kh": 70,
+      "cif-vn": 42,
+      "cif-ma": 14,
+      "cif-eg": 7,
+      "cif-zm": 21,
+      "cif-la": 21,
+      "cif-gt": 21,
+      "cif-am": 14,
+      "cif-tz": 14,
+      "cif-ni": 14,
+      "cif-co": 70,
+      "cif-jm": 28,
+      "cif-id": 63,
+      "cif-lc": 21,
+      "cif-mv": 14,
+      "cif-lr": 14,
+      "cif-th": 14,
+      "cif-bf": 28,
+      "cif-sb": 14
+    }
+  },
+  ".//activity-date/@type": {
+    "1": {
+      "cif-bd": 10,
+      "cif-hn": 10,
+      "cif-ph": 6,
+      "cif-ua": 9,
+      "cif-ml": 4,
+      "cif-et": 2,
+      "cif-to": 1,
+      "cif-rw": 1,
+      "cif-ne": 5,
+      "cif-ws": 2,
+      "cif-in": 10,
+      "cif-vc": 1,
+      "cif-ht": 8,
+      "cif-gd": 1,
+      "cif-mx": 15,
+      "cif-ng": 1,
+      "cif-ci": 3,
+      "cif-ke": 4,
+      "cif-pg": 2,
+      "cif-ls": 1,
+      "cif-dm": 2,
+      "cif-pe": 3,
+      "cif-mz": 9,
+      "cif-kz": 7,
+      "cif-bo": 3,
+      "cif-mn": 3,
+      "cif-cl": 5,
+      "cif-tr": 10,
+      "cif-gh": 5,
+      "cif-za": 7,
+      "cif-np": 6,
+      "cif-vu": 2,
+      "cif-br": 11,
+      "cif-tj": 5,
+      "cif-kh": 10,
+      "cif-vn": 6,
+      "cif-ma": 2,
+      "cif-eg": 1,
+      "cif-zm": 3,
+      "cif-la": 3,
+      "cif-gt": 3,
+      "cif-am": 2,
+      "cif-tz": 2,
+      "cif-ni": 2,
+      "cif-co": 10,
+      "cif-jm": 4,
+      "cif-id": 9,
+      "cif-lc": 3,
+      "cif-mv": 2,
+      "cif-lr": 2,
+      "cif-th": 2,
+      "cif-bf": 4,
+      "cif-sb": 2
+    }
+  },
+  ".//activity-status/@code": {
+    "2": {
+      "cif-bd": 10,
+      "cif-hn": 10,
+      "cif-ph": 6,
+      "cif-ua": 9,
+      "cif-ml": 4,
+      "cif-et": 2,
+      "cif-to": 1,
+      "cif-rw": 1,
+      "cif-ne": 5,
+      "cif-ws": 2,
+      "cif-in": 10,
+      "cif-vc": 1,
+      "cif-ht": 8,
+      "cif-gd": 1,
+      "cif-mx": 15,
+      "cif-ng": 1,
+      "cif-ci": 3,
+      "cif-ke": 4,
+      "cif-pg": 2,
+      "cif-ls": 1,
+      "cif-dm": 2,
+      "cif-pe": 3,
+      "cif-mz": 9,
+      "cif-kz": 7,
+      "cif-bo": 3,
+      "cif-mn": 3,
+      "cif-cl": 5,
+      "cif-tr": 10,
+      "cif-gh": 5,
+      "cif-za": 7,
+      "cif-np": 6,
+      "cif-vu": 2,
+      "cif-br": 11,
+      "cif-tj": 5,
+      "cif-kh": 10,
+      "cif-vn": 6,
+      "cif-ma": 2,
+      "cif-eg": 1,
+      "cif-zm": 3,
+      "cif-la": 3,
+      "cif-gt": 3,
+      "cif-am": 2,
+      "cif-tz": 2,
+      "cif-ni": 2,
+      "cif-co": 10,
+      "cif-jm": 4,
+      "cif-id": 9,
+      "cif-lc": 3,
+      "cif-mv": 2,
+      "cif-lr": 2,
+      "cif-th": 2,
+      "cif-bf": 4,
+      "cif-sb": 2
+    }
+  },
+  ".//collaboration-type/@code": {
+    "2": {
+      "cif-bd": 10,
+      "cif-hn": 10,
+      "cif-ph": 6,
+      "cif-ua": 9,
+      "cif-ml": 4,
+      "cif-et": 2,
+      "cif-to": 1,
+      "cif-rw": 1,
+      "cif-ne": 5,
+      "cif-ws": 2,
+      "cif-in": 10,
+      "cif-vc": 1,
+      "cif-ht": 8,
+      "cif-gd": 1,
+      "cif-mx": 15,
+      "cif-ng": 1,
+      "cif-ci": 3,
+      "cif-ke": 4,
+      "cif-pg": 2,
+      "cif-ls": 1,
+      "cif-dm": 2,
+      "cif-pe": 3,
+      "cif-mz": 9,
+      "cif-kz": 7,
+      "cif-bo": 3,
+      "cif-mn": 3,
+      "cif-cl": 5,
+      "cif-tr": 10,
+      "cif-gh": 5,
+      "cif-za": 7,
+      "cif-np": 6,
+      "cif-vu": 2,
+      "cif-br": 11,
+      "cif-tj": 5,
+      "cif-kh": 10,
+      "cif-vn": 6,
+      "cif-ma": 2,
+      "cif-eg": 1,
+      "cif-zm": 3,
+      "cif-la": 3,
+      "cif-gt": 3,
+      "cif-am": 2,
+      "cif-tz": 2,
+      "cif-ni": 2,
+      "cif-co": 10,
+      "cif-jm": 4,
+      "cif-id": 9,
+      "cif-lc": 3,
+      "cif-mv": 2,
+      "cif-lr": 2,
+      "cif-th": 2,
+      "cif-bf": 4,
+      "cif-sb": 2
+    }
+  },
+  ".//description/@type": {
+    "1": {
+      "cif-bd": 10,
+      "cif-hn": 10,
+      "cif-ph": 6,
+      "cif-ua": 9,
+      "cif-ml": 4,
+      "cif-et": 2,
+      "cif-to": 1,
+      "cif-rw": 1,
+      "cif-ne": 5,
+      "cif-ws": 2,
+      "cif-in": 10,
+      "cif-vc": 1,
+      "cif-ht": 8,
+      "cif-gd": 1,
+      "cif-mx": 15,
+      "cif-ng": 1,
+      "cif-ci": 3,
+      "cif-ke": 4,
+      "cif-pg": 2,
+      "cif-ls": 1,
+      "cif-dm": 2,
+      "cif-pe": 3,
+      "cif-mz": 9,
+      "cif-kz": 7,
+      "cif-bo": 3,
+      "cif-mn": 3,
+      "cif-cl": 5,
+      "cif-tr": 10,
+      "cif-gh": 5,
+      "cif-za": 7,
+      "cif-np": 6,
+      "cif-vu": 2,
+      "cif-br": 11,
+      "cif-tj": 5,
+      "cif-kh": 10,
+      "cif-vn": 6,
+      "cif-ma": 2,
+      "cif-eg": 1,
+      "cif-zm": 3,
+      "cif-la": 3,
+      "cif-gt": 3,
+      "cif-am": 2,
+      "cif-tz": 2,
+      "cif-ni": 2,
+      "cif-co": 10,
+      "cif-jm": 4,
+      "cif-id": 9,
+      "cif-lc": 3,
+      "cif-mv": 2,
+      "cif-lr": 2,
+      "cif-th": 2,
+      "cif-bf": 4,
+      "cif-sb": 2
+    }
+  },
+  ".//participating-org/@role": {
+    "4": {
+      "cif-bd": 10,
+      "cif-hn": 10,
+      "cif-ph": 6,
+      "cif-ua": 9,
+      "cif-ml": 4,
+      "cif-et": 2,
+      "cif-to": 1,
+      "cif-rw": 1,
+      "cif-ne": 5,
+      "cif-ws": 2,
+      "cif-in": 10,
+      "cif-vc": 1,
+      "cif-ht": 8,
+      "cif-gd": 1,
+      "cif-mx": 15,
+      "cif-ng": 1,
+      "cif-ci": 3,
+      "cif-ke": 4,
+      "cif-pg": 2,
+      "cif-ls": 1,
+      "cif-dm": 2,
+      "cif-pe": 3,
+      "cif-mz": 9,
+      "cif-kz": 7,
+      "cif-bo": 3,
+      "cif-mn": 3,
+      "cif-cl": 5,
+      "cif-tr": 10,
+      "cif-gh": 5,
+      "cif-za": 7,
+      "cif-np": 6,
+      "cif-vu": 2,
+      "cif-br": 11,
+      "cif-tj": 5,
+      "cif-kh": 10,
+      "cif-vn": 6,
+      "cif-ma": 2,
+      "cif-eg": 1,
+      "cif-zm": 3,
+      "cif-la": 3,
+      "cif-gt": 3,
+      "cif-am": 2,
+      "cif-tz": 2,
+      "cif-ni": 2,
+      "cif-co": 10,
+      "cif-jm": 4,
+      "cif-id": 9,
+      "cif-lc": 3,
+      "cif-mv": 2,
+      "cif-lr": 2,
+      "cif-th": 2,
+      "cif-bf": 4,
+      "cif-sb": 2
+    }
+  },
+  ".//participating-org/@type": {
+    "40": {
+      "cif-bd": 10,
+      "cif-hn": 10,
+      "cif-ph": 6,
+      "cif-ua": 9,
+      "cif-ml": 4,
+      "cif-et": 2,
+      "cif-to": 1,
+      "cif-rw": 1,
+      "cif-ne": 5,
+      "cif-ws": 2,
+      "cif-in": 10,
+      "cif-vc": 1,
+      "cif-ht": 8,
+      "cif-gd": 1,
+      "cif-mx": 15,
+      "cif-ng": 1,
+      "cif-ci": 3,
+      "cif-ke": 4,
+      "cif-pg": 2,
+      "cif-ls": 1,
+      "cif-dm": 2,
+      "cif-pe": 3,
+      "cif-mz": 9,
+      "cif-kz": 7,
+      "cif-bo": 3,
+      "cif-mn": 3,
+      "cif-cl": 5,
+      "cif-tr": 10,
+      "cif-gh": 5,
+      "cif-za": 7,
+      "cif-np": 6,
+      "cif-vu": 2,
+      "cif-br": 11,
+      "cif-tj": 5,
+      "cif-kh": 10,
+      "cif-vn": 6,
+      "cif-ma": 2,
+      "cif-eg": 1,
+      "cif-zm": 3,
+      "cif-la": 3,
+      "cif-gt": 3,
+      "cif-am": 2,
+      "cif-tz": 2,
+      "cif-ni": 2,
+      "cif-co": 10,
+      "cif-jm": 4,
+      "cif-id": 9,
+      "cif-lc": 3,
+      "cif-mv": 2,
+      "cif-lr": 2,
+      "cif-th": 2,
+      "cif-bf": 4,
+      "cif-sb": 2
+    }
+  },
+  ".//recipient-country/@code": {
+    "BD": {
+      "cif-bd": 10
+    },
+    "HN": {
+      "cif-hn": 10
+    },
+    "PH": {
+      "cif-ph": 6
+    },
+    "UA": {
+      "cif-ua": 9
+    },
+    "ML": {
+      "cif-ml": 4
+    },
+    "ET": {
+      "cif-et": 2
+    },
+    "TO": {
+      "cif-to": 1
+    },
+    "RW": {
+      "cif-rw": 1
+    },
+    "NE": {
+      "cif-ne": 5
+    },
+    "WS": {
+      "cif-ws": 2
+    },
+    "IN": {
+      "cif-in": 10
+    },
+    "VC": {
+      "cif-vc": 1
+    },
+    "HT": {
+      "cif-ht": 8
+    },
+    "GD": {
+      "cif-gd": 1
+    },
+    "MX": {
+      "cif-mx": 15
+    },
+    "NG": {
+      "cif-ng": 1
+    },
+    "CI": {
+      "cif-ci": 3
+    },
+    "KE": {
+      "cif-ke": 4
+    },
+    "PG": {
+      "cif-pg": 2
+    },
+    "LS": {
+      "cif-ls": 1
+    },
+    "DM": {
+      "cif-dm": 2
+    },
+    "PE": {
+      "cif-pe": 3
+    },
+    "MZ": {
+      "cif-mz": 9
+    },
+    "KZ": {
+      "cif-kz": 7
+    },
+    "BO": {
+      "cif-bo": 3
+    },
+    "MN": {
+      "cif-mn": 3
+    },
+    "CL": {
+      "cif-cl": 5
+    },
+    "TR": {
+      "cif-tr": 10
+    },
+    "GH": {
+      "cif-gh": 5
+    },
+    "ZA": {
+      "cif-za": 7
+    },
+    "NP": {
+      "cif-np": 6
+    },
+    "VU": {
+      "cif-vu": 2
+    },
+    "BR": {
+      "cif-br": 11
+    },
+    "TJ": {
+      "cif-tj": 5
+    },
+    "KH": {
+      "cif-kh": 10
+    },
+    "VN": {
+      "cif-vn": 6
+    },
+    "MA": {
+      "cif-ma": 2
+    },
+    "EG": {
+      "cif-eg": 1
+    },
+    "ZM": {
+      "cif-zm": 3
+    },
+    "LA": {
+      "cif-la": 3
+    },
+    "GT": {
+      "cif-gt": 3
+    },
+    "AM": {
+      "cif-am": 2
+    },
+    "TZ": {
+      "cif-tz": 2
+    },
+    "NI": {
+      "cif-ni": 2
+    },
+    "CO": {
+      "cif-co": 10
+    },
+    "JM": {
+      "cif-jm": 4
+    },
+    "ID": {
+      "cif-id": 9
+    },
+    "LC": {
+      "cif-lc": 3
+    },
+    "MV": {
+      "cif-mv": 2
+    },
+    "LR": {
+      "cif-lr": 2
+    },
+    "TH": {
+      "cif-th": 2
+    },
+    "BF": {
+      "cif-bf": 4
+    },
+    "SB": {
+      "cif-sb": 2
+    }
+  },
+  ".//reporting-org/@type": {
+    "40": {
+      "cif-bd": 10,
+      "cif-hn": 10,
+      "cif-ph": 6,
+      "cif-ua": 9,
+      "cif-ml": 4,
+      "cif-et": 2,
+      "cif-to": 1,
+      "cif-rw": 1,
+      "cif-ne": 5,
+      "cif-ws": 2,
+      "cif-in": 10,
+      "cif-vc": 1,
+      "cif-ht": 8,
+      "cif-gd": 1,
+      "cif-mx": 15,
+      "cif-ng": 1,
+      "cif-ci": 3,
+      "cif-ke": 4,
+      "cif-pg": 2,
+      "cif-ls": 1,
+      "cif-dm": 2,
+      "cif-pe": 3,
+      "cif-mz": 9,
+      "cif-kz": 7,
+      "cif-bo": 3,
+      "cif-mn": 3,
+      "cif-cl": 5,
+      "cif-tr": 10,
+      "cif-gh": 5,
+      "cif-za": 7,
+      "cif-np": 6,
+      "cif-vu": 2,
+      "cif-br": 11,
+      "cif-tj": 5,
+      "cif-kh": 10,
+      "cif-vn": 6,
+      "cif-ma": 2,
+      "cif-eg": 1,
+      "cif-zm": 3,
+      "cif-la": 3,
+      "cif-gt": 3,
+      "cif-am": 2,
+      "cif-tz": 2,
+      "cif-ni": 2,
+      "cif-co": 10,
+      "cif-jm": 4,
+      "cif-id": 9,
+      "cif-lc": 3,
+      "cif-mv": 2,
+      "cif-lr": 2,
+      "cif-th": 2,
+      "cif-bf": 4,
+      "cif-sb": 2
+    }
+  }
+}

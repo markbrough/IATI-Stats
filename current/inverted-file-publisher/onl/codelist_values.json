@@ -1,0 +1,785 @@
+{
+  ".//@default-currency": {
+    "EUR": {
+      "onl-activity-old": 3048,
+      "onl-activity": 2674
+    }
+  },
+  ".//@xml:lang": {
+    "en": {
+      "onl-activity-old": 3048,
+      "onl-activity": 2674
+    }
+  },
+  ".//activity-date/@type": {
+    "2": {
+      "onl-activity-old": 3048,
+      "onl-activity": 2674
+    },
+    "1": {
+      "onl-activity-old": 3030,
+      "onl-activity": 2653
+    },
+    "3": {
+      "onl-activity-old": 3030,
+      "onl-activity": 2653
+    },
+    "4": {
+      "onl-activity-old": 3030,
+      "onl-activity": 2018
+    }
+  },
+  ".//activity-status/@code": {
+    "2": {
+      "onl-activity-old": 1191,
+      "onl-activity": 2427
+    },
+    "3": {
+      "onl-activity-old": 1280,
+      "onl-activity": 236
+    },
+    "4": {
+      "onl-activity-old": 566,
+      "onl-activity": 3
+    },
+    "1": {
+      "onl-activity-old": 10,
+      "onl-activity": 8
+    },
+    "5": {
+      "onl-activity-old": 1
+    }
+  },
+  ".//budget/@type": {
+    "2": {
+      "onl-activity-old": 3030,
+      "onl-activity": 2653
+    }
+  },
+  ".//budget/value/@currency": {
+    "EUR": {
+      "onl-activity-old": 3030,
+      "onl-activity": 2653
+    }
+  },
+  ".//contact-info/@type": {
+    "1": {
+      "onl-activity-old": 3048,
+      "onl-activity": 2674
+    }
+  },
+  ".//default-aid-type/@vocabulary": {
+    "1": {
+      "onl-activity-old": 3048,
+      "onl-activity": 2674
+    },
+    "4": {
+      "onl-activity": 26
+    }
+  },
+  ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "C01": {
+      "onl-activity-old": 3048,
+      "onl-activity": 2674
+    }
+  },
+  ".//default-aid-type[@vocabulary = '4']/@code": {
+    "1": {
+      "onl-activity": 14
+    },
+    "2": {
+      "onl-activity": 12
+    }
+  },
+  ".//default-finance-type/@code": {
+    "110": {
+      "onl-activity-old": 3048,
+      "onl-activity": 2674
+    }
+  },
+  ".//default-flow-type/@code": {
+    "30": {
+      "onl-activity-old": 3048,
+      "onl-activity": 2674
+    }
+  },
+  ".//default-tied-status/@code": {
+    "5": {
+      "onl-activity-old": 3048,
+      "onl-activity": 2674
+    }
+  },
+  ".//description/@type": {
+    "1": {
+      "onl-activity-old": 3048,
+      "onl-activity": 2674
+    }
+  },
+  ".//document-link/@format": {
+    "application/http": {
+      "onl-activity-old": 3048,
+      "onl-activity": 2674
+    }
+  },
+  ".//document-link/category/@code": {
+    "A12": {
+      "onl-activity-old": 3048,
+      "onl-activity": 2674
+    }
+  },
+  ".//document-link/language/@code": {
+    "en": {
+      "onl-activity-old": 3048,
+      "onl-activity": 2674
+    }
+  },
+  ".//humanitarian-scope/@type": {
+    "1": {
+      "onl-activity": 96
+    }
+  },
+  ".//humanitarian-scope/@vocabulary": {
+    "1-2": {
+      "onl-activity": 96
+    }
+  },
+  ".//humanitarian-scope[@vocabulary = '1-2']/@code": {
+    "DR-2015-000134-SOM": {
+      "onl-activity": 4
+    },
+    "EP-2020-000012-001": {
+      "onl-activity": 53
+    },
+    "DR-2018-000052-AFG": {
+      "onl-activity": 2
+    },
+    "TC-2019-000021-MOZ": {
+      "onl-activity": 31
+    },
+    "EP-2013-000175-COD": {
+      "onl-activity": 2
+    },
+    "TC-2020-000136-MMR": {
+      "onl-activity": 1
+    },
+    "CE-2015-000183-SSD": {
+      "onl-activity": 3
+    }
+  },
+  ".//location/exactness/@code": {
+    "2": {
+      "onl-activity-old": 66,
+      "onl-activity": 631
+    }
+  },
+  ".//location/location-reach/@code": {
+    "1": {
+      "onl-activity-old": 66,
+      "onl-activity": 631
+    }
+  },
+  ".//participating-org/@role": {
+    "4": {
+      "onl-activity-old": 3048,
+      "onl-activity": 2674
+    },
+    "2": {
+      "onl-activity-old": 3030,
+      "onl-activity": 2653
+    },
+    "1": {
+      "onl-activity-old": 3030,
+      "onl-activity": 2653
+    },
+    "3": {
+      "onl-activity-old": 1184,
+      "onl-activity": 2177
+    }
+  },
+  ".//participating-org/@type": {
+    "21": {
+      "onl-activity-old": 7145,
+      "onl-activity": 6357
+    },
+    "10": {
+      "onl-activity-old": 1187,
+      "onl-activity": 2197
+    },
+    "24": {
+      "onl-activity-old": 1277,
+      "onl-activity": 802
+    },
+    "23": {
+      "onl-activity-old": 102,
+      "onl-activity": 42
+    },
+    "90": {
+      "onl-activity-old": 539,
+      "onl-activity": 661
+    },
+    "80": {
+      "onl-activity-old": 31,
+      "onl-activity": 36
+    },
+    "72": {
+      "onl-activity-old": 7,
+      "onl-activity": 9
+    },
+    "11": {
+      "onl-activity-old": 4,
+      "onl-activity": 49
+    },
+    "71": {
+      "onl-activity": 4
+    }
+  },
+  ".//planned-disbursement/@type": {
+    "1": {
+      "onl-activity-old": 80,
+      "onl-activity": 1379
+    }
+  },
+  ".//planned-disbursement/value/@currency": {
+    "EUR": {
+      "onl-activity-old": 80,
+      "onl-activity": 1379
+    }
+  },
+  ".//policy-marker/@significance": {
+    "0": {
+      "onl-activity-old": 3552,
+      "onl-activity": 2801
+    }
+  },
+  ".//policy-marker/@vocabulary": {
+    "1": {
+      "onl-activity-old": 3552,
+      "onl-activity": 2801
+    }
+  },
+  ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "1": {
+      "onl-activity-old": 553,
+      "onl-activity": 198
+    },
+    "3": {
+      "onl-activity-old": 2175,
+      "onl-activity": 2132
+    },
+    "4": {
+      "onl-activity-old": 634,
+      "onl-activity": 235
+    },
+    "9": {
+      "onl-activity-old": 100,
+      "onl-activity": 54
+    },
+    "5": {
+      "onl-activity-old": 43,
+      "onl-activity": 66
+    },
+    "7": {
+      "onl-activity-old": 47,
+      "onl-activity": 116
+    }
+  },
+  ".//recipient-country/@code": {
+    "NL": {
+      "onl-activity-old": 370,
+      "onl-activity": 297
+    },
+    "NG": {
+      "onl-activity-old": 134,
+      "onl-activity": 130
+    },
+    "NE": {
+      "onl-activity-old": 130,
+      "onl-activity": 156
+    },
+    "BD": {
+      "onl-activity-old": 77,
+      "onl-activity": 41
+    },
+    "PK": {
+      "onl-activity-old": 221,
+      "onl-activity": 31
+    },
+    "MM": {
+      "onl-activity-old": 65,
+      "onl-activity": 27
+    },
+    "KH": {
+      "onl-activity-old": 113,
+      "onl-activity": 177
+    },
+    "LA": {
+      "onl-activity-old": 99,
+      "onl-activity": 44
+    },
+    "VN": {
+      "onl-activity-old": 122,
+      "onl-activity": 233
+    },
+    "AO": {
+      "onl-activity-old": 25
+    },
+    "MZ": {
+      "onl-activity-old": 230,
+      "onl-activity": 181
+    },
+    "ZW": {
+      "onl-activity-old": 50,
+      "onl-activity": 9
+    },
+    "AF": {
+      "onl-activity-old": 127,
+      "onl-activity": 113
+    },
+    "KE": {
+      "onl-activity-old": 41,
+      "onl-activity": 71
+    },
+    "SN": {
+      "onl-activity-old": 94,
+      "onl-activity": 15
+    },
+    "RW": {
+      "onl-activity-old": 39
+    },
+    "PS": {
+      "onl-activity-old": 125,
+      "onl-activity": 195
+    },
+    "BR": {
+      "onl-activity-old": 14,
+      "onl-activity": 7
+    },
+    "MA": {
+      "onl-activity-old": 38,
+      "onl-activity": 5
+    },
+    "CD": {
+      "onl-activity-old": 112,
+      "onl-activity": 9
+    },
+    "UG": {
+      "onl-activity-old": 187,
+      "onl-activity": 296
+    },
+    "SO": {
+      "onl-activity-old": 112,
+      "onl-activity": 116
+    },
+    "SD": {
+      "onl-activity-old": 28
+    },
+    "ID": {
+      "onl-activity-old": 14,
+      "onl-activity": 69
+    },
+    "SS": {
+      "onl-activity-old": 58,
+      "onl-activity": 7
+    },
+    "ML": {
+      "onl-activity-old": 83,
+      "onl-activity": 53
+    },
+    "GH": {
+      "onl-activity-old": 2,
+      "onl-activity": 4
+    },
+    "ET": {
+      "onl-activity-old": 3,
+      "onl-activity": 6
+    },
+    "YE": {
+      "onl-activity-old": 33,
+      "onl-activity": 7
+    },
+    "IN": {
+      "onl-activity-old": 9,
+      "onl-activity": 14
+    },
+    "MX": {
+      "onl-activity-old": 9,
+      "onl-activity": 5
+    },
+    "TN": {
+      "onl-activity-old": 86,
+      "onl-activity": 59
+    },
+    "LB": {
+      "onl-activity-old": 21,
+      "onl-activity": 7
+    },
+    "NP": {
+      "onl-activity-old": 11,
+      "onl-activity": 8
+    },
+    "BI": {
+      "onl-activity-old": 65,
+      "onl-activity": 65
+    },
+    "ZA": {
+      "onl-activity-old": 5,
+      "onl-activity": 8
+    },
+    "CM": {
+      "onl-activity-old": 4,
+      "onl-activity": 2
+    },
+    "MW": {
+      "onl-activity-old": 2
+    },
+    "TR": {
+      "onl-activity-old": 5,
+      "onl-activity": 12
+    },
+    "LY": {
+      "onl-activity-old": 1
+    },
+    "BN": {
+      "onl-activity-old": 1
+    },
+    "LK": {
+      "onl-activity-old": 2
+    },
+    "NO": {
+      "onl-activity-old": 1,
+      "onl-activity": 2
+    },
+    "CN": {
+      "onl-activity-old": 1
+    },
+    "PH": {
+      "onl-activity-old": 2,
+      "onl-activity": 49
+    },
+    "EG": {
+      "onl-activity-old": 1,
+      "onl-activity": 2
+    },
+    "MY": {
+      "onl-activity-old": 3
+    },
+    "ZM": {
+      "onl-activity-old": 1,
+      "onl-activity": 4
+    },
+    "TZ": {
+      "onl-activity-old": 2,
+      "onl-activity": 39
+    },
+    "IQ": {
+      "onl-activity-old": 5,
+      "onl-activity": 2
+    },
+    "GW": {
+      "onl-activity-old": 1
+    },
+    "LR": {
+      "onl-activity-old": 5,
+      "onl-activity": 1
+    },
+    "SL": {
+      "onl-activity-old": 2
+    },
+    "GN": {
+      "onl-activity-old": 2
+    },
+    "CF": {
+      "onl-activity-old": 4,
+      "onl-activity": 1
+    },
+    "CO": {
+      "onl-activity-old": 2,
+      "onl-activity": 1
+    },
+    "ES": {
+      "onl-activity-old": 1
+    },
+    "BF": {
+      "onl-activity-old": 1,
+      "onl-activity": 3
+    },
+    "GB": {
+      "onl-activity-old": 2,
+      "onl-activity": 4
+    },
+    "GR": {
+      "onl-activity-old": 19,
+      "onl-activity": 17
+    },
+    "DZ": {
+      "onl-activity-old": 1
+    },
+    "RS": {
+      "onl-activity-old": 1
+    },
+    "TH": {
+      "onl-activity-old": 1,
+      "onl-activity": 15
+    },
+    "SY": {
+      "onl-activity-old": 3,
+      "onl-activity": 4
+    },
+    "FR": {
+      "onl-activity-old": 2,
+      "onl-activity": 2
+    },
+    "BE": {
+      "onl-activity": 3
+    },
+    "IT": {
+      "onl-activity": 2
+    },
+    "DE": {
+      "onl-activity": 3
+    },
+    "JP": {
+      "onl-activity": 2
+    },
+    "SE": {
+      "onl-activity": 2
+    },
+    "BO": {
+      "onl-activity": 1
+    },
+    "IE": {
+      "onl-activity": 1
+    },
+    "TD": {
+      "onl-activity": 2
+    },
+    "EH": {
+      "onl-activity": 1
+    },
+    "GT": {
+      "onl-activity": 2
+    },
+    "PE": {
+      "onl-activity": 1
+    },
+    "HK": {
+      "onl-activity": 1
+    },
+    "BJ": {
+      "onl-activity": 2
+    },
+    "US": {
+      "onl-activity": 2
+    },
+    "IL": {
+      "onl-activity": 2
+    },
+    "CA": {
+      "onl-activity": 1
+    }
+  },
+  ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "998": {
+      "onl-activity-old": 18,
+      "onl-activity": 21
+    }
+  },
+  ".//related-activity/@type": {
+    "1": {
+      "onl-activity-old": 403,
+      "onl-activity": 1098
+    }
+  },
+  ".//reporting-org/@type": {
+    "21": {
+      "onl-activity-old": 3048,
+      "onl-activity": 2674
+    }
+  },
+  ".//result/@type": {
+    "1": {
+      "onl-activity-old": 4648,
+      "onl-activity": 4696
+    },
+    "2": {
+      "onl-activity-old": 4646,
+      "onl-activity": 4575
+    }
+  },
+  ".//result/indicator/@measure": {
+    "1": {
+      "onl-activity-old": 18139,
+      "onl-activity": 16682
+    }
+  },
+  ".//result/indicator/reference/@vocabulary": {
+    "99": {
+      "onl-activity-old": 18139,
+      "onl-activity": 16682
+    }
+  },
+  ".//sector/@vocabulary": {
+    "99": {
+      "onl-activity-old": 3461,
+      "onl-activity": 2809
+    },
+    "1": {
+      "onl-activity-old": 3568,
+      "onl-activity": 2936
+    },
+    "10": {
+      "onl-activity": 274
+    }
+  },
+  ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "15150": {
+      "onl-activity-old": 1590,
+      "onl-activity": 1434
+    },
+    "12110": {
+      "onl-activity-old": 111,
+      "onl-activity": 23
+    },
+    "16010": {
+      "onl-activity-old": 94,
+      "onl-activity": 48
+    },
+    "24040": {
+      "onl-activity-old": 94,
+      "onl-activity": 112
+    },
+    "32110": {
+      "onl-activity-old": 6,
+      "onl-activity": 12
+    },
+    "31110": {
+      "onl-activity-old": 514,
+      "onl-activity": 353
+    },
+    "31210": {
+      "onl-activity-old": 38,
+      "onl-activity": 3
+    },
+    "31310": {
+      "onl-activity-old": 42,
+      "onl-activity": 36
+    },
+    "11110": {
+      "onl-activity-old": 269,
+      "onl-activity": 115
+    },
+    "14030": {
+      "onl-activity-old": 49,
+      "onl-activity": 148
+    },
+    "72010": {
+      "onl-activity-old": 591,
+      "onl-activity": 213
+    },
+    "33110": {
+      "onl-activity-old": 167,
+      "onl-activity": 129
+    },
+    "72040": {
+      "onl-activity-old": 1,
+      "onl-activity": 89
+    },
+    "72050": {
+      "onl-activity-old": 1,
+      "onl-activity": 51
+    },
+    "74010": {
+      "onl-activity-old": 1,
+      "onl-activity": 137
+    },
+    "23010": {
+      "onl-activity": 20
+    },
+    "73010": {
+      "onl-activity": 13
+    }
+  },
+  ".//sector[@vocabulary = '10']/@code": {
+    "10": {
+      "onl-activity": 33
+    },
+    "5404": {
+      "onl-activity": 10
+    },
+    "4": {
+      "onl-activity": 49
+    },
+    "6": {
+      "onl-activity": 60
+    },
+    "7": {
+      "onl-activity": 12
+    },
+    "9": {
+      "onl-activity": 2
+    },
+    "11": {
+      "onl-activity": 102
+    },
+    "2": {
+      "onl-activity": 5
+    },
+    "5403": {
+      "onl-activity": 1
+    }
+  },
+  ".//tag/@vocabulary": {
+    "2": {
+      "onl-activity-old": 637,
+      "onl-activity": 2784
+    }
+  },
+  ".//tag[@vocabulary = '2']/@code": {
+    "16": {
+      "onl-activity-old": 118,
+      "onl-activity": 886
+    },
+    "10": {
+      "onl-activity-old": 70,
+      "onl-activity": 336
+    },
+    "8": {
+      "onl-activity-old": 57,
+      "onl-activity": 216
+    },
+    "5": {
+      "onl-activity-old": 76,
+      "onl-activity": 250
+    },
+    "1": {
+      "onl-activity-old": 268,
+      "onl-activity": 837
+    },
+    "2": {
+      "onl-activity-old": 32,
+      "onl-activity": 79
+    },
+    "15": {
+      "onl-activity-old": 3,
+      "onl-activity": 66
+    },
+    "13": {
+      "onl-activity-old": 13,
+      "onl-activity": 114
+    }
+  },
+  ".//transaction/transaction-type/@code": {
+    "1": {
+      "onl-activity-old": 20169,
+      "onl-activity": 27750
+    },
+    "4": {
+      "onl-activity-old": 14848,
+      "onl-activity": 26371
+    },
+    "3": {
+      "onl-activity-old": 8437,
+      "onl-activity": 5695
+    }
+  }
+}

@@ -1,0 +1,205 @@
+{
+  ".//@default-currency": {
+    "GBP": {
+      "m2m_sa-za": 1,
+      "m2m_sa-mz": 1
+    }
+  },
+  ".//@xml:lang": {
+    "en": {
+      "m2m_sa-za": 2,
+      "m2m_sa-mz": 2
+    }
+  },
+  ".//activity-date/@type": {
+    "start-actual": {
+      "m2m_sa-za": 1
+    },
+    "2": {
+      "m2m_sa-mz": 1
+    }
+  },
+  ".//activity-status/@code": {
+    "2": {
+      "m2m_sa-za": 1
+    },
+    "3": {
+      "m2m_sa-mz": 1
+    }
+  },
+  ".//budget/@type": {
+    "2": {
+      "m2m_sa-za": 3,
+      "m2m_sa-mz": 3
+    }
+  },
+  ".//default-aid-type/@code": {
+    "B01": {
+      "m2m_sa-za": 1
+    }
+  },
+  ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "B01": {
+      "m2m_sa-mz": 1
+    }
+  },
+  ".//default-flow-type/@code": {
+    "30": {
+      "m2m_sa-za": 1,
+      "m2m_sa-mz": 1
+    }
+  },
+  ".//document-link/@format": {
+    "application/vnd.ms-excel": {
+      "m2m_sa-za": 3,
+      "m2m_sa-mz": 4
+    },
+    "text/html": {
+      "m2m_sa-mz": 1
+    },
+    "application/pdf": {
+      "m2m_sa-mz": 1
+    }
+  },
+  ".//document-link/category/@code": {
+    "A08": {
+      "m2m_sa-za": 3,
+      "m2m_sa-mz": 5
+    },
+    "A12": {
+      "m2m_sa-mz": 1
+    }
+  },
+  ".//document-link/language/@code": {
+    "en": {
+      "m2m_sa-mz": 5
+    }
+  },
+  ".//participating-org/@role": {
+    "Funding": {
+      "m2m_sa-za": 1
+    },
+    "1": {
+      "m2m_sa-mz": 1
+    }
+  },
+  ".//participating-org/@type": {
+    "10": {
+      "m2m_sa-za": 1,
+      "m2m_sa-mz": 1
+    }
+  },
+  ".//recipient-country/@code": {
+    "ZA": {
+      "m2m_sa-za": 1,
+      "m2m_sa-mz": 1
+    },
+    "KE": {
+      "m2m_sa-za": 1,
+      "m2m_sa-mz": 1
+    },
+    "MW": {
+      "m2m_sa-za": 1,
+      "m2m_sa-mz": 1
+    },
+    "UG": {
+      "m2m_sa-za": 1,
+      "m2m_sa-mz": 1
+    },
+    "MZ": {
+      "m2m_sa-mz": 1
+    }
+  },
+  ".//reporting-org/@type": {
+    "21": {
+      "m2m_sa-za": 1,
+      "m2m_sa-mz": 1
+    }
+  },
+  ".//sector/@vocabulary": {
+    "1": {
+      "m2m_sa-mz": 4
+    }
+  },
+  ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "12110": {
+      "m2m_sa-mz": 1
+    },
+    "12220": {
+      "m2m_sa-mz": 1
+    },
+    "13040": {
+      "m2m_sa-mz": 1
+    },
+    "15110": {
+      "m2m_sa-mz": 1
+    }
+  },
+  ".//transaction/aid-type/@code": {
+    "B01": {
+      "m2m_sa-za": 15
+    }
+  },
+  ".//transaction/aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "B01": {
+      "m2m_sa-mz": 15
+    }
+  },
+  ".//transaction/disbursement-channel/@code": {
+    "2": {
+      "m2m_sa-za": 15,
+      "m2m_sa-mz": 18
+    }
+  },
+  ".//transaction/finance-type/@code": {
+    "110": {
+      "m2m_sa-za": 14,
+      "m2m_sa-mz": 14
+    }
+  },
+  ".//transaction/flow-type/@code": {
+    "30": {
+      "m2m_sa-za": 12,
+      "m2m_sa-mz": 12
+    },
+    "10": {
+      "m2m_sa-za": 3,
+      "m2m_sa-mz": 3
+    }
+  },
+  ".//transaction/tied-status/@code": {
+    "5": {
+      "m2m_sa-za": 12,
+      "m2m_sa-mz": 12
+    },
+    "3": {
+      "m2m_sa-za": 3,
+      "m2m_sa-mz": 3
+    }
+  },
+  ".//transaction/transaction-type/@code": {
+    "IF": {
+      "m2m_sa-za": 10
+    },
+    "E": {
+      "m2m_sa-za": 3
+    },
+    "C": {
+      "m2m_sa-za": 2
+    },
+    "1": {
+      "m2m_sa-mz": 12
+    },
+    "4": {
+      "m2m_sa-mz": 6
+    },
+    "2": {
+      "m2m_sa-mz": 2
+    }
+  },
+  ".//transaction/value/@currency": {
+    "GBP": {
+      "m2m_sa-mz": 3
+    }
+  }
+}

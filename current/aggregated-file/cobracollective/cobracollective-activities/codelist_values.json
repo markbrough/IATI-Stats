@@ -1,0 +1,45 @@
+{
+  ".//@default-currency": {
+    "GBP": 1
+  },
+  ".//@xml:lang": {
+    "en": 3
+  },
+  ".//activity-date/@type": {
+    "2": 1
+  },
+  ".//activity-status/@code": {
+    "2": 1
+  },
+  ".//budget/@status": {
+    "2": 1
+  },
+  ".//description/@type": {
+    "1": 1
+  },
+  ".//participating-org/@role": {
+    "1": 1,
+    "2": 1
+  },
+  ".//participating-org/@type": {
+    "40": 1,
+    "80": 1
+  },
+  ".//recipient-country/@code": {
+    "CM": 1,
+    "JO": 1,
+    "IN": 1,
+    "MX": 1,
+    "CL": 1,
+    "AU": 1
+  },
+  ".//reporting-org/@type": {
+    "21": 1
+  },
+  ".//sector/@vocabulary": {
+    "1": 1
+  },
+  ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "11230": 1
+  }
+}

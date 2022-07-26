@@ -1,0 +1,49 @@
+{
+  ".//@default-currency": {
+    "USD": 1
+  },
+  ".//@xml:lang": {
+    "en": 2
+  },
+  ".//activity-date/@type": {
+    "2": 1
+  },
+  ".//activity-status/@code": {
+    "2": 1
+  },
+  ".//description/@type": {
+    "1": 1
+  },
+  ".//participating-org/@role": {
+    "4": 1
+  },
+  ".//participating-org/@type": {
+    "22": 1
+  },
+  ".//recipient-country/@code": {
+    "CO": 1
+  },
+  ".//reporting-org/@type": {
+    "22": 1
+  },
+  ".//sector/@vocabulary": {
+    "1": 1
+  },
+  ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "12191": 1
+  },
+  ".//transaction/provider-org/@type": {
+    "80": 3
+  },
+  ".//transaction/receiver-org/@type": {
+    "22": 1
+  },
+  ".//transaction/transaction-type/@code": {
+    "1": 1,
+    "2": 1,
+    "4": 1
+  },
+  ".//transaction/value/@currency": {
+    "USD": 2
+  }
+}

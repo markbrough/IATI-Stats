@@ -1,0 +1,808 @@
+{
+  ".//@default-currency": {
+    "EUR": {
+      "snv-world": 53,
+      "snv-org": 53
+    },
+    "GBP": {
+      "snv-world": 1,
+      "snv-org": 1
+    },
+    "XOF": {
+      "snv-world": 1,
+      "snv-org": 1
+    }
+  },
+  ".//@xml:lang": {
+    "en": {
+      "snv-world": 45,
+      "snv-org": 45
+    },
+    "fr": {
+      "snv-world": 11,
+      "snv-org": 11
+    }
+  },
+  ".//activity-date/@type": {
+    "1": {
+      "snv-world": 45,
+      "snv-org": 45
+    },
+    "2": {
+      "snv-world": 38,
+      "snv-org": 38
+    },
+    "3": {
+      "snv-world": 54,
+      "snv-org": 54
+    },
+    "4": {
+      "snv-world": 1,
+      "snv-org": 1
+    }
+  },
+  ".//activity-scope/@code": {
+    "4": {
+      "snv-world": 4,
+      "snv-org": 4
+    },
+    "3": {
+      "snv-world": 1,
+      "snv-org": 1
+    },
+    "1": {
+      "snv-world": 1,
+      "snv-org": 1
+    }
+  },
+  ".//activity-status/@code": {
+    "2": {
+      "snv-world": 52,
+      "snv-org": 52
+    },
+    "3": {
+      "snv-world": 3,
+      "snv-org": 3
+    }
+  },
+  ".//budget/@status": {
+    "2": {
+      "snv-world": 1,
+      "snv-org": 1
+    }
+  },
+  ".//budget/@type": {
+    "2": {
+      "snv-world": 5,
+      "snv-org": 5
+    }
+  },
+  ".//budget/value/@currency": {
+    "EUR": {
+      "snv-world": 9,
+      "snv-org": 9
+    },
+    "GBP": {
+      "snv-world": 1,
+      "snv-org": 1
+    }
+  },
+  ".//collaboration-type/@code": {
+    "1": {
+      "snv-world": 1,
+      "snv-org": 1
+    }
+  },
+  ".//conditions/condition/@type": {
+    "2": {
+      "snv-world": 3,
+      "snv-org": 3
+    }
+  },
+  ".//contact-info/@type": {
+    "2": {
+      "snv-world": 18,
+      "snv-org": 18
+    },
+    "4": {
+      "snv-world": 1,
+      "snv-org": 1
+    },
+    "1": {
+      "snv-world": 12,
+      "snv-org": 12
+    }
+  },
+  ".//default-aid-type/@vocabulary": {
+    "1": {
+      "snv-world": 54,
+      "snv-org": 54
+    }
+  },
+  ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "C01": {
+      "snv-world": 48,
+      "snv-org": 48
+    },
+    "B03": {
+      "snv-world": 3,
+      "snv-org": 3
+    },
+    "B04": {
+      "snv-world": 1,
+      "snv-org": 1
+    },
+    "B01": {
+      "snv-world": 1,
+      "snv-org": 1
+    },
+    "H01": {
+      "snv-world": 1,
+      "snv-org": 1
+    }
+  },
+  ".//default-finance-type/@code": {
+    "110": {
+      "snv-world": 54,
+      "snv-org": 54
+    }
+  },
+  ".//default-flow-type/@code": {
+    "10": {
+      "snv-world": 52,
+      "snv-org": 52
+    },
+    "50": {
+      "snv-world": 1,
+      "snv-org": 1
+    },
+    "20": {
+      "snv-world": 1,
+      "snv-org": 1
+    }
+  },
+  ".//default-tied-status/@code": {
+    "5": {
+      "snv-world": 52,
+      "snv-org": 52
+    },
+    "3": {
+      "snv-world": 1,
+      "snv-org": 1
+    },
+    "4": {
+      "snv-world": 1,
+      "snv-org": 1
+    }
+  },
+  ".//description/@type": {
+    "1": {
+      "snv-world": 148,
+      "snv-org": 148
+    },
+    "2": {
+      "snv-world": 49,
+      "snv-org": 49
+    },
+    "3": {
+      "snv-world": 19,
+      "snv-org": 19
+    }
+  },
+  ".//document-link/@format": {
+    "image/jpeg": {
+      "snv-world": 56,
+      "snv-org": 56
+    },
+    "application/pdf": {
+      "snv-world": 62,
+      "snv-org": 62
+    },
+    "application/msword": {
+      "snv-world": 3,
+      "snv-org": 3
+    },
+    "application/http": {
+      "snv-world": 123,
+      "snv-org": 123
+    },
+    "application/eshop": {
+      "snv-world": 1,
+      "snv-org": 1
+    },
+    "application/vnd.ms-excel": {
+      "snv-world": 1,
+      "snv-org": 1
+    }
+  },
+  ".//document-link/category/@code": {
+    "A12": {
+      "snv-world": 178,
+      "snv-org": 178
+    },
+    "A05": {
+      "snv-world": 2,
+      "snv-org": 2
+    },
+    "A08": {
+      "snv-world": 26,
+      "snv-org": 26
+    },
+    "A02": {
+      "snv-world": 11,
+      "snv-org": 11
+    },
+    "B07": {
+      "snv-world": 1,
+      "snv-org": 1
+    },
+    "A07": {
+      "snv-world": 8,
+      "snv-org": 8
+    },
+    "A03": {
+      "snv-world": 8,
+      "snv-org": 8
+    },
+    "B01": {
+      "snv-world": 27,
+      "snv-org": 27
+    },
+    "A06": {
+      "snv-world": 1,
+      "snv-org": 1
+    }
+  },
+  ".//document-link/language/@code": {
+    "en": {
+      "snv-world": 102,
+      "snv-org": 102
+    },
+    "fr": {
+      "snv-world": 7,
+      "snv-org": 7
+    }
+  },
+  ".//location/administrative/@vocabulary": {
+    "G2": {
+      "snv-world": 4,
+      "snv-org": 4
+    }
+  },
+  ".//location/location-reach/@code": {
+    "1": {
+      "snv-world": 1,
+      "snv-org": 1
+    }
+  },
+  ".//other-identifier/@type": {
+    "B9": {
+      "snv-world": 55,
+      "snv-org": 55
+    }
+  },
+  ".//participating-org/@role": {
+    "1": {
+      "snv-world": 52,
+      "snv-org": 52
+    },
+    "4": {
+      "snv-world": 109,
+      "snv-org": 109
+    },
+    "2": {
+      "snv-world": 26,
+      "snv-org": 26
+    }
+  },
+  ".//participating-org/@type": {
+    "10": {
+      "snv-world": 22,
+      "snv-org": 22
+    },
+    "21": {
+      "snv-world": 62,
+      "snv-org": 62
+    },
+    "40": {
+      "snv-world": 1,
+      "snv-org": 1
+    },
+    "60": {
+      "snv-world": 2,
+      "snv-org": 2
+    },
+    "15": {
+      "snv-world": 7,
+      "snv-org": 7
+    },
+    "70": {
+      "snv-world": 8,
+      "snv-org": 8
+    },
+    "22": {
+      "snv-world": 61,
+      "snv-org": 61
+    },
+    "80": {
+      "snv-world": 23,
+      "snv-org": 23
+    },
+    "23": {
+      "snv-world": 1,
+      "snv-org": 1
+    }
+  },
+  ".//planned-disbursement/@type": {
+    "2": {
+      "snv-world": 4,
+      "snv-org": 4
+    }
+  },
+  ".//planned-disbursement/provider-org/@type": {
+    "21": {
+      "snv-world": 8,
+      "snv-org": 8
+    },
+    "10": {
+      "snv-world": 6,
+      "snv-org": 6
+    },
+    "23": {
+      "snv-world": 29,
+      "snv-org": 29
+    }
+  },
+  ".//planned-disbursement/receiver-org/@type": {
+    "21": {
+      "snv-world": 11,
+      "snv-org": 11
+    },
+    "70": {
+      "snv-world": 12,
+      "snv-org": 12
+    },
+    "30": {
+      "snv-world": 1,
+      "snv-org": 1
+    },
+    "22": {
+      "snv-world": 5,
+      "snv-org": 5
+    },
+    "80": {
+      "snv-world": 11,
+      "snv-org": 11
+    },
+    "60": {
+      "snv-world": 4,
+      "snv-org": 4
+    }
+  },
+  ".//planned-disbursement/value/@currency": {
+    "EUR": {
+      "snv-world": 5,
+      "snv-org": 5
+    }
+  },
+  ".//policy-marker/@significance": {
+    "1": {
+      "snv-world": 65,
+      "snv-org": 65
+    },
+    "2": {
+      "snv-world": 19,
+      "snv-org": 19
+    },
+    "0": {
+      "snv-world": 2,
+      "snv-org": 2
+    }
+  },
+  ".//policy-marker/@vocabulary": {
+    "1": {
+      "snv-world": 86,
+      "snv-org": 86
+    }
+  },
+  ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "4": {
+      "snv-world": 8,
+      "snv-org": 8
+    },
+    "7": {
+      "snv-world": 13,
+      "snv-org": 13
+    },
+    "1": {
+      "snv-world": 21,
+      "snv-org": 21
+    },
+    "2": {
+      "snv-world": 3,
+      "snv-org": 3
+    },
+    "3": {
+      "snv-world": 33,
+      "snv-org": 33
+    },
+    "6": {
+      "snv-world": 7,
+      "snv-org": 7
+    },
+    "9": {
+      "snv-world": 1,
+      "snv-org": 1
+    }
+  },
+  ".//recipient-country/@code": {
+    "BF": {
+      "snv-world": 6,
+      "snv-org": 6
+    },
+    "BI": {
+      "snv-world": 1,
+      "snv-org": 1
+    },
+    "ET": {
+      "snv-world": 4,
+      "snv-org": 4
+    },
+    "KE": {
+      "snv-world": 9,
+      "snv-org": 9
+    },
+    "ML": {
+      "snv-world": 3,
+      "snv-org": 3
+    },
+    "MZ": {
+      "snv-world": 3,
+      "snv-org": 3
+    },
+    "RW": {
+      "snv-world": 3,
+      "snv-org": 3
+    },
+    "TZ": {
+      "snv-world": 2,
+      "snv-org": 2
+    },
+    "UG": {
+      "snv-world": 1,
+      "snv-org": 1
+    },
+    "NE": {
+      "snv-world": 1,
+      "snv-org": 1
+    },
+    "BJ": {
+      "snv-world": 6,
+      "snv-org": 6
+    },
+    "ID": {
+      "snv-world": 4,
+      "snv-org": 4
+    },
+    "NP": {
+      "snv-world": 1,
+      "snv-org": 1
+    },
+    "ZM": {
+      "snv-world": 1,
+      "snv-org": 1
+    },
+    "BD": {
+      "snv-world": 2,
+      "snv-org": 2
+    },
+    "GH": {
+      "snv-world": 6,
+      "snv-org": 6
+    },
+    "HN": {
+      "snv-world": 3,
+      "snv-org": 3
+    },
+    "VN": {
+      "snv-world": 2,
+      "snv-org": 2
+    },
+    "NL": {
+      "snv-world": 1,
+      "snv-org": 1
+    }
+  },
+  ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "289": {
+      "snv-world": 1,
+      "snv-org": 1
+    },
+    "679": {
+      "snv-world": 1,
+      "snv-org": 1
+    },
+    "389": {
+      "snv-world": 1,
+      "snv-org": 1
+    }
+  },
+  ".//related-activity/@type": {
+    "3": {
+      "snv-world": 38,
+      "snv-org": 38
+    },
+    "1": {
+      "snv-world": 35,
+      "snv-org": 35
+    },
+    "2": {
+      "snv-world": 40,
+      "snv-org": 40
+    }
+  },
+  ".//reporting-org/@type": {
+    "21": {
+      "snv-world": 55,
+      "snv-org": 55
+    }
+  },
+  ".//result/@type": {
+    "2": {
+      "snv-world": 378,
+      "snv-org": 378
+    },
+    "3": {
+      "snv-world": 34,
+      "snv-org": 34
+    },
+    "1": {
+      "snv-world": 189,
+      "snv-org": 189
+    }
+  },
+  ".//result/indicator/@measure": {
+    "5": {
+      "snv-world": 40,
+      "snv-org": 40
+    },
+    "2": {
+      "snv-world": 194,
+      "snv-org": 194
+    },
+    "1": {
+      "snv-world": 1111,
+      "snv-org": 1111
+    }
+  },
+  ".//sector/@vocabulary": {
+    "1": {
+      "snv-world": 49,
+      "snv-org": 49
+    },
+    "2": {
+      "snv-world": 3,
+      "snv-org": 3
+    },
+    "99": {
+      "snv-world": 1,
+      "snv-org": 1
+    },
+    "7": {
+      "snv-world": 3,
+      "snv-org": 3
+    },
+    "8": {
+      "snv-world": 6,
+      "snv-org": 6
+    }
+  },
+  ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "31120": {
+      "snv-world": 4,
+      "snv-org": 4
+    },
+    "11231": {
+      "snv-world": 2,
+      "snv-org": 2
+    },
+    "25010": {
+      "snv-world": 2,
+      "snv-org": 2
+    },
+    "31110": {
+      "snv-world": 12,
+      "snv-org": 12
+    },
+    "31166": {
+      "snv-world": 1,
+      "snv-org": 1
+    },
+    "14010": {
+      "snv-world": 5,
+      "snv-org": 5
+    },
+    "32130": {
+      "snv-world": 5,
+      "snv-org": 5
+    },
+    "12240": {
+      "snv-world": 1,
+      "snv-org": 1
+    },
+    "31161": {
+      "snv-world": 1,
+      "snv-org": 1
+    },
+    "31191": {
+      "snv-world": 1,
+      "snv-org": 1
+    },
+    "14031": {
+      "snv-world": 1,
+      "snv-org": 1
+    },
+    "14030": {
+      "snv-world": 4,
+      "snv-org": 4
+    },
+    "14040": {
+      "snv-world": 1,
+      "snv-org": 1
+    },
+    "23010": {
+      "snv-world": 6,
+      "snv-org": 6
+    },
+    "15164": {
+      "snv-world": 3,
+      "snv-org": 3
+    }
+  },
+  ".//sector[@vocabulary = '2']/@code": {
+    "311": {
+      "snv-world": 2,
+      "snv-org": 2
+    },
+    "130": {
+      "snv-world": 1,
+      "snv-org": 1
+    }
+  },
+  ".//sector[@vocabulary = '7']/@code": {
+    "23110": {
+      "snv-world": 1,
+      "snv-org": 1
+    },
+    "15112": {
+      "snv-world": 1,
+      "snv-org": 1
+    },
+    "31163": {
+      "snv-world": 1,
+      "snv-org": 1
+    }
+  },
+  ".//sector[@vocabulary = '8']/@code": {
+    "14032": {
+      "snv-world": 6,
+      "snv-org": 6
+    }
+  },
+  ".//transaction/aid-type/@vocabulary": {
+    "1": {
+      "snv-world": 4,
+      "snv-org": 4
+    }
+  },
+  ".//transaction/aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "C01": {
+      "snv-world": 4,
+      "snv-org": 4
+    }
+  },
+  ".//transaction/disbursement-channel/@code": {
+    "3": {
+      "snv-world": 3,
+      "snv-org": 3
+    }
+  },
+  ".//transaction/finance-type/@code": {
+    "110": {
+      "snv-world": 3,
+      "snv-org": 3
+    }
+  },
+  ".//transaction/flow-type/@code": {
+    "10": {
+      "snv-world": 3,
+      "snv-org": 3
+    }
+  },
+  ".//transaction/provider-org/@type": {
+    "10": {
+      "snv-world": 38,
+      "snv-org": 38
+    },
+    "21": {
+      "snv-world": 175,
+      "snv-org": 175
+    },
+    "22": {
+      "snv-world": 8,
+      "snv-org": 8
+    },
+    "70": {
+      "snv-world": 1,
+      "snv-org": 1
+    }
+  },
+  ".//transaction/receiver-org/@type": {
+    "22": {
+      "snv-world": 55,
+      "snv-org": 55
+    },
+    "21": {
+      "snv-world": 52,
+      "snv-org": 52
+    },
+    "10": {
+      "snv-world": 13,
+      "snv-org": 13
+    },
+    "80": {
+      "snv-world": 6,
+      "snv-org": 6
+    },
+    "70": {
+      "snv-world": 2,
+      "snv-org": 2
+    },
+    "30": {
+      "snv-world": 2,
+      "snv-org": 2
+    },
+    "23": {
+      "snv-world": 3,
+      "snv-org": 3
+    },
+    "15": {
+      "snv-world": 3,
+      "snv-org": 3
+    }
+  },
+  ".//transaction/tied-status/@code": {
+    "5": {
+      "snv-world": 3,
+      "snv-org": 3
+    }
+  },
+  ".//transaction/transaction-type/@code": {
+    "2": {
+      "snv-world": 2,
+      "snv-org": 2
+    },
+    "4": {
+      "snv-world": 52,
+      "snv-org": 52
+    },
+    "11": {
+      "snv-world": 14,
+      "snv-org": 14
+    },
+    "1": {
+      "snv-world": 102,
+      "snv-org": 102
+    },
+    "3": {
+      "snv-world": 76,
+      "snv-org": 76
+    }
+  },
+  ".//transaction/value/@currency": {
+    "EUR": {
+      "snv-world": 11,
+      "snv-org": 11
+    }
+  }
+}

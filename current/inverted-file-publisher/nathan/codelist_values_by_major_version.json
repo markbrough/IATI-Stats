@@ -1,0 +1,377 @@
+{
+  "2": {
+    ".//@default-currency": {
+      "nathan-bd": {
+        "GBP": 4
+      },
+      "nathan-sl": {
+        "GBP": 2
+      },
+      "nathan-gh": {
+        "GBP": 3
+      },
+      "nathan-zm": {
+        "GBP": 2
+      },
+      "nathan-998": {
+        "GBP": 1
+      }
+    },
+    ".//activity-date/@type": {
+      "nathan-bd": {
+        "1": 1,
+        "2": 3,
+        "3": 1
+      },
+      "nathan-sl": {
+        "2": 2,
+        "3": 2
+      },
+      "nathan-gh": {
+        "2": 3
+      },
+      "nathan-zm": {
+        "2": 2,
+        "4": 1
+      },
+      "nathan-998": {
+        "2": 1,
+        "4": 1
+      }
+    },
+    ".//activity-status/@code": {
+      "nathan-bd": {
+        "2": 4
+      },
+      "nathan-sl": {
+        "2": 2
+      },
+      "nathan-gh": {
+        "2": 3
+      },
+      "nathan-zm": {
+        "2": 2
+      },
+      "nathan-998": {
+        "2": 1
+      }
+    },
+    ".//budget/@status": {
+      "nathan-bd": {
+        "2": 28
+      },
+      "nathan-sl": {
+        "1": 2
+      },
+      "nathan-gh": {
+        "2": 18
+      },
+      "nathan-zm": {
+        "2": 5,
+        "1": 1
+      }
+    },
+    ".//budget/@type": {
+      "nathan-bd": {
+        "1": 28
+      },
+      "nathan-sl": {
+        "1": 2
+      },
+      "nathan-gh": {
+        "1": 16
+      },
+      "nathan-zm": {
+        "1": 6
+      }
+    },
+    ".//budget/value/@currency": {
+      "nathan-bd": {
+        "GBP": 28
+      },
+      "nathan-sl": {
+        "GBP": 2
+      },
+      "nathan-gh": {
+        "GBP": 17
+      },
+      "nathan-zm": {
+        "GBP": 5
+      }
+    },
+    ".//description/@type": {
+      "nathan-bd": {
+        "1": 4
+      },
+      "nathan-sl": {
+        "1": 2
+      },
+      "nathan-gh": {
+        "1": 3
+      },
+      "nathan-zm": {
+        "1": 2
+      },
+      "nathan-998": {
+        "1": 1
+      }
+    },
+    ".//document-link/@format": {
+      "nathan-bd": {
+        "application/pdf": 10
+      },
+      "nathan-sl": {
+        "application/vnd.fsc.weblaunch": 2
+      },
+      "nathan-gh": {
+        "application/pdf": 17,
+        "application/vnd.cups-pdf": 1
+      },
+      "nathan-zm": {
+        "application/pdf": 10
+      },
+      "nathan-998": {
+        "application/pdf": 5
+      }
+    },
+    ".//document-link/category/@code": {
+      "nathan-bd": {
+        "A06": 1,
+        "A08": 7,
+        "A02": 2
+      },
+      "nathan-sl": {
+        "A02": 2
+      },
+      "nathan-gh": {
+        "A02": 4,
+        "A08": 14
+      },
+      "nathan-zm": {
+        "A02": 10
+      },
+      "nathan-998": {
+        "A02": 5
+      }
+    },
+    ".//document-link/language/@code": {
+      "nathan-bd": {
+        "en": 10
+      },
+      "nathan-sl": {
+        "en": 2
+      },
+      "nathan-gh": {
+        "en": 18
+      },
+      "nathan-zm": {
+        "en": 5
+      }
+    },
+    ".//participating-org/@role": {
+      "nathan-bd": {
+        "1": 4,
+        "4": 2
+      },
+      "nathan-sl": {
+        "1": 2,
+        "4": 4
+      },
+      "nathan-gh": {
+        "4": 3,
+        "2": 3
+      },
+      "nathan-zm": {
+        "1": 2,
+        "4": 2
+      },
+      "nathan-998": {
+        "1": 1,
+        "4": 1
+      }
+    },
+    ".//participating-org/@type": {
+      "nathan-bd": {
+        "70": 5,
+        "10": 1
+      },
+      "nathan-sl": {
+        "10": 2,
+        "70": 2,
+        "21": 2
+      },
+      "nathan-gh": {
+        "70": 6
+      },
+      "nathan-zm": {
+        "70": 4
+      },
+      "nathan-998": {
+        "70": 2
+      }
+    },
+    ".//recipient-country/@code": {
+      "nathan-bd": {
+        "BD": 4
+      },
+      "nathan-sl": {
+        "SL": 2
+      },
+      "nathan-gh": {
+        "GH": 3
+      },
+      "nathan-zm": {
+        "ZM": 2
+      },
+      "nathan-998": {
+        "ZM": 6
+      }
+    },
+    ".//reporting-org/@type": {
+      "nathan-bd": {
+        "70": 4
+      },
+      "nathan-sl": {
+        "70": 2
+      },
+      "nathan-gh": {
+        "70": 3
+      },
+      "nathan-zm": {
+        "70": 2
+      },
+      "nathan-998": {
+        "70": 1
+      }
+    },
+    ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "nathan-bd": {
+        "32130": 3
+      }
+    },
+    ".//sector/@vocabulary": {
+      "nathan-bd": {
+        "1": 3,
+        "99": 1
+      },
+      "nathan-sl": {
+        "99": 2
+      },
+      "nathan-gh": {
+        "99": 3
+      },
+      "nathan-zm": {
+        "99": 2
+      },
+      "nathan-998": {
+        "99": 6
+      }
+    },
+    ".//transaction/disbursement-channel/@code": {
+      "nathan-bd": {
+        "2": 12
+      }
+    },
+    ".//transaction/provider-org/@type": {
+      "nathan-bd": {
+        "70": 22,
+        "10": 19
+      },
+      "nathan-sl": {
+        "70": 20,
+        "10": 6
+      },
+      "nathan-gh": {
+        "70": 37
+      },
+      "nathan-zm": {
+        "70": 23
+      },
+      "nathan-998": {
+        "70": 6
+      }
+    },
+    ".//transaction/receiver-org/@type": {
+      "nathan-bd": {
+        "70": 41
+      },
+      "nathan-sl": {
+        "70": 25
+      },
+      "nathan-gh": {
+        "70": 39
+      },
+      "nathan-zm": {
+        "70": 19
+      },
+      "nathan-998": {
+        "70": 6
+      }
+    },
+    ".//transaction/transaction-type/@code": {
+      "nathan-bd": {
+        "1": 38,
+        "3": 18
+      },
+      "nathan-sl": {
+        "3": 19,
+        "1": 7
+      },
+      "nathan-gh": {
+        "1": 24,
+        "3": 16
+      },
+      "nathan-zm": {
+        "1": 12,
+        "3": 12
+      },
+      "nathan-998": {
+        "1": 6
+      }
+    },
+    ".//transaction/value/@currency": {
+      "nathan-bd": {
+        "GBP": 47
+      },
+      "nathan-sl": {
+        "GBP": 26
+      },
+      "nathan-gh": {
+        "GBP": 36
+      },
+      "nathan-zm": {
+        "GBP": 23
+      },
+      "nathan-998": {
+        "GBP": 6
+      }
+    },
+    ".//@xml:lang": {
+      "nathan-bd": {
+        "en": 36
+      },
+      "nathan-sl": {
+        "en": 82
+      },
+      "nathan-gh": {
+        "en": 97
+      },
+      "nathan-zm": {
+        "en": 33
+      },
+      "nathan-998": {
+        "en": 11
+      }
+    },
+    ".//transaction/recipient-country/@code": {
+      "nathan-998": {
+        "ZM": 6
+      }
+    },
+    ".//transaction/sector/@vocabulary": {
+      "nathan-998": {
+        "99": 6
+      }
+    }
+  }
+}

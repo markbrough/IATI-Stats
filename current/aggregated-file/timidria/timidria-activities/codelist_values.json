@@ -1,0 +1,60 @@
+{
+  ".//@default-currency": {
+    "XOF": 1
+  },
+  ".//@xml:lang": {
+    "fr": 1,
+    "en": 1
+  },
+  ".//activity-date/@type": {
+    "2": 1,
+    "4": 1
+  },
+  ".//activity-status/@code": {
+    "2": 1
+  },
+  ".//budget/@status": {
+    "2": 6
+  },
+  ".//budget/@type": {
+    "1": 6
+  },
+  ".//budget/value/@currency": {
+    "GBP": 6
+  },
+  ".//description/@type": {
+    "1": 1
+  },
+  ".//participating-org/@role": {
+    "4": 1
+  },
+  ".//participating-org/@type": {
+    "22": 1
+  },
+  ".//recipient-country/@code": {
+    "NE": 1
+  },
+  ".//reporting-org/@type": {
+    "22": 1
+  },
+  ".//sector/@vocabulary": {
+    "1": 8
+  },
+  ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "11120": 1,
+    "11130": 1,
+    "11220": 1,
+    "11320": 1,
+    "15150": 1,
+    "31120": 1,
+    "31195": 1,
+    "92030": 1
+  },
+  ".//transaction/transaction-type/@code": {
+    "4": 4,
+    "1": 9
+  },
+  ".//transaction/value/@currency": {
+    "XOF": 13
+  }
+}

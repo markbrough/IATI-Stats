@@ -1,0 +1,869 @@
+{
+  "1": {
+    ".//@default-currency": {
+      "unops-cg": {
+        "USD": 1
+      },
+      "unops-sc": {
+        "USD": 1
+      }
+    },
+    ".//activity-status/@code": {
+      "unops-cg": {
+        "2": 1
+      },
+      "unops-sc": {
+        "2": 1
+      }
+    },
+    ".//budget/@type": {
+      "unops-cg": {
+        "Original": 2
+      },
+      "unops-sc": {
+        "Original": 6
+      }
+    },
+    ".//budget/value/@currency": {
+      "unops-cg": {
+        "USD": 2
+      },
+      "unops-sc": {
+        "USD": 6
+      }
+    },
+    ".//collaboration-type/@code": {
+      "unops-cg": {
+        "2": 1
+      },
+      "unops-sc": {
+        "2": 1
+      }
+    },
+    ".//default-aid-type/@code": {
+      "unops-cg": {
+        "C01": 1
+      },
+      "unops-sc": {
+        "C01": 1
+      }
+    },
+    ".//default-finance-type/@code": {
+      "unops-cg": {
+        "110": 1
+      },
+      "unops-sc": {
+        "110": 1
+      }
+    },
+    ".//default-flow-type/@code": {
+      "unops-cg": {
+        "20": 1
+      },
+      "unops-sc": {
+        "20": 1
+      }
+    },
+    ".//default-tied-status/@code": {
+      "unops-cg": {
+        "5": 1
+      },
+      "unops-sc": {
+        "5": 1
+      }
+    },
+    ".//description/@type": {
+      "unops-cg": {
+        "1": 1
+      },
+      "unops-sc": {
+        "1": 1
+      }
+    },
+    ".//participating-org/@role": {
+      "unops-cg": {
+        "Implementing": 1,
+        "Accountable": 1
+      },
+      "unops-sc": {
+        "Implementing": 1,
+        "Accountable": 1,
+        "Funding": 1
+      }
+    },
+    ".//participating-org/@type": {
+      "unops-cg": {
+        "40": 2
+      },
+      "unops-sc": {
+        "40": 2
+      }
+    },
+    ".//recipient-country/@code": {
+      "unops-cg": {
+        "CG": 1
+      },
+      "unops-sc": {
+        "SC": 1
+      }
+    },
+    ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "unops-cg": {
+        "298": 1
+      },
+      "unops-sc": {
+        "998": 1
+      }
+    },
+    ".//reporting-org/@type": {
+      "unops-cg": {
+        "40": 1
+      },
+      "unops-sc": {
+        "40": 1
+      }
+    },
+    ".//transaction/disbursement-channel/@code": {
+      "unops-cg": {
+        "2": 11
+      },
+      "unops-sc": {
+        "2": 7
+      }
+    },
+    ".//transaction/transaction-type/@code": {
+      "unops-cg": {
+        "C": 1,
+        "E": 10
+      },
+      "unops-sc": {
+        "C": 1,
+        "E": 6
+      }
+    },
+    ".//transaction/value/@currency": {
+      "unops-cg": {
+        "USD": 11
+      },
+      "unops-sc": {
+        "USD": 7
+      }
+    },
+    ".//@xml:lang": {
+      "unops-cg": {
+        "en": 1
+      },
+      "unops-sc": {
+        "en": 1
+      }
+    },
+    ".//activity-date/@type": {
+      "unops-sc": {
+        "start-actual": 1,
+        "end-actual": 1
+      }
+    },
+    ".//location/administrative/@country": {
+      "unops-sc": {
+        "MU": 1,
+        "SC": 1,
+        "SO": 4
+      }
+    },
+    ".//location/coordinates/@precision": {
+      "unops-sc": {
+        "1": 4,
+        "2": 1,
+        "5": 1
+      }
+    },
+    ".//location/location-type/@code": {
+      "unops-sc": {
+        "PPL": 5,
+        "ADM1": 1
+      }
+    },
+    ".//sector[@vocabulary = 'DAC' or not(@vocabulary)]/@code": {
+      "unops-sc": {
+        "15130": 1
+      }
+    },
+    ".//sector/@vocabulary": {
+      "unops-sc": {
+        "DAC": 1
+      }
+    }
+  },
+  "2": {
+    ".//@default-currency": {
+      "unops-kw": {
+        "USD": 1
+      },
+      "unops-jm": {
+        "USD": 1
+      },
+      "unops-mw": {
+        "USD": 1
+      },
+      "unops-hr": {
+        "USD": 1
+      },
+      "unops-cw": {
+        "USD": 1
+      },
+      "unops-tt": {
+        "USD": 1
+      },
+      "unops-kp": {
+        "USD": 1
+      },
+      "unops-mu": {
+        "USD": 1
+      },
+      "unops-ci": {
+        "USD": 1
+      }
+    },
+    ".//activity-date/@type": {
+      "unops-kw": {
+        "start-actual": 1
+      },
+      "unops-jm": {
+        "start-actual": 1
+      },
+      "unops-mw": {
+        "start-actual": 1
+      },
+      "unops-hr": {
+        "start-actual": 1
+      },
+      "unops-cw": {
+        "start-actual": 1
+      },
+      "unops-tt": {
+        "2": 1
+      },
+      "unops-kp": {
+        "start-actual": 1
+      },
+      "unops-mu": {
+        "start-actual": 1
+      },
+      "unops-ci": {
+        "start-actual": 1
+      }
+    },
+    ".//activity-status/@code": {
+      "unops-kw": {
+        "2": 1
+      },
+      "unops-jm": {
+        "2": 1
+      },
+      "unops-mw": {
+        "2": 1
+      },
+      "unops-hr": {
+        "2": 1
+      },
+      "unops-cw": {
+        "2": 1
+      },
+      "unops-tt": {
+        "2": 1
+      },
+      "unops-kp": {
+        "2": 1
+      },
+      "unops-mu": {
+        "2": 1
+      },
+      "unops-ci": {
+        "2": 1
+      }
+    },
+    ".//budget/@type": {
+      "unops-kw": {
+        "Original": 1
+      },
+      "unops-jm": {
+        "Original": 1
+      },
+      "unops-mw": {
+        "Original": 1
+      },
+      "unops-hr": {
+        "Original": 1
+      },
+      "unops-cw": {
+        "Original": 1
+      },
+      "unops-tt": {
+        "1": 1
+      },
+      "unops-kp": {
+        "Original": 1
+      },
+      "unops-mu": {
+        "Original": 1
+      },
+      "unops-ci": {
+        "Original": 1
+      }
+    },
+    ".//collaboration-type/@code": {
+      "unops-kw": {
+        "2": 1
+      },
+      "unops-jm": {
+        "2": 1
+      },
+      "unops-mw": {
+        "2": 1
+      },
+      "unops-hr": {
+        "2": 1
+      },
+      "unops-cw": {
+        "2": 1
+      },
+      "unops-tt": {
+        "2": 1
+      },
+      "unops-kp": {
+        "2": 1
+      },
+      "unops-mu": {
+        "2": 1
+      },
+      "unops-ci": {
+        "2": 1
+      }
+    },
+    ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "unops-kw": {
+        "C01": 1
+      },
+      "unops-jm": {
+        "C01": 1
+      },
+      "unops-mw": {
+        "C01": 1
+      },
+      "unops-hr": {
+        "C01": 1
+      },
+      "unops-cw": {
+        "C01": 1
+      },
+      "unops-tt": {
+        "C01": 1
+      },
+      "unops-kp": {
+        "C01": 1
+      },
+      "unops-mu": {
+        "C01": 1
+      },
+      "unops-ci": {
+        "C01": 1
+      }
+    },
+    ".//default-finance-type/@code": {
+      "unops-kw": {
+        "110": 1
+      },
+      "unops-jm": {
+        "110": 1
+      },
+      "unops-mw": {
+        "110": 1
+      },
+      "unops-hr": {
+        "110": 1
+      },
+      "unops-cw": {
+        "110": 1
+      },
+      "unops-tt": {
+        "110": 1
+      },
+      "unops-kp": {
+        "110": 1
+      },
+      "unops-mu": {
+        "110": 1
+      },
+      "unops-ci": {
+        "110": 1
+      }
+    },
+    ".//default-flow-type/@code": {
+      "unops-kw": {
+        "20": 1
+      },
+      "unops-jm": {
+        "20": 1
+      },
+      "unops-mw": {
+        "20": 1
+      },
+      "unops-hr": {
+        "20": 1
+      },
+      "unops-cw": {
+        "20": 1
+      },
+      "unops-tt": {
+        "20": 1
+      },
+      "unops-kp": {
+        "20": 1
+      },
+      "unops-mu": {
+        "20": 1
+      },
+      "unops-ci": {
+        "20": 1
+      }
+    },
+    ".//default-tied-status/@code": {
+      "unops-kw": {
+        "5": 1
+      },
+      "unops-jm": {
+        "5": 1
+      },
+      "unops-mw": {
+        "5": 1
+      },
+      "unops-hr": {
+        "5": 1
+      },
+      "unops-cw": {
+        "5": 1
+      },
+      "unops-tt": {
+        "5": 1
+      },
+      "unops-kp": {
+        "5": 1
+      },
+      "unops-mu": {
+        "5": 1
+      },
+      "unops-ci": {
+        "5": 1
+      }
+    },
+    ".//description/@type": {
+      "unops-kw": {
+        "1": 1
+      },
+      "unops-jm": {
+        "1": 1
+      },
+      "unops-mw": {
+        "1": 1
+      },
+      "unops-hr": {
+        "1": 1
+      },
+      "unops-cw": {
+        "1": 1
+      },
+      "unops-tt": {
+        "1": 1
+      },
+      "unops-kp": {
+        "1": 1
+      },
+      "unops-mu": {
+        "1": 1
+      },
+      "unops-ci": {
+        "1": 1
+      }
+    },
+    ".//document-link/@format": {
+      "unops-kw": {
+        "text/html": 1
+      },
+      "unops-jm": {
+        "text/html": 1
+      },
+      "unops-mw": {
+        "text/html": 1
+      },
+      "unops-hr": {
+        "text/html": 1
+      },
+      "unops-cw": {
+        "text/html": 1
+      },
+      "unops-tt": {
+        "text/html": 1
+      },
+      "unops-kp": {
+        "text/html": 1
+      },
+      "unops-mu": {
+        "text/html": 1
+      },
+      "unops-ci": {
+        "text/html": 1
+      }
+    },
+    ".//document-link/category/@code": {
+      "unops-kw": {
+        "A12": 1
+      },
+      "unops-jm": {
+        "A12": 1
+      },
+      "unops-mw": {
+        "A12": 1
+      },
+      "unops-hr": {
+        "A12": 1
+      },
+      "unops-cw": {
+        "A12": 1
+      },
+      "unops-tt": {
+        "A12": 1
+      },
+      "unops-kp": {
+        "A12": 1
+      },
+      "unops-mu": {
+        "A12": 1
+      },
+      "unops-ci": {
+        "A12": 1
+      }
+    },
+    ".//document-link/language/@code": {
+      "unops-kw": {
+        "en": 1
+      },
+      "unops-jm": {
+        "en": 1
+      },
+      "unops-mw": {
+        "en": 1
+      },
+      "unops-hr": {
+        "en": 1
+      },
+      "unops-cw": {
+        "en": 1
+      },
+      "unops-tt": {
+        "en": 1
+      },
+      "unops-kp": {
+        "en": 1
+      },
+      "unops-mu": {
+        "en": 1
+      },
+      "unops-ci": {
+        "en": 1
+      }
+    },
+    ".//location/location-class/@code": {
+      "unops-kw": {
+        "1": 1
+      },
+      "unops-jm": {
+        "1": 1
+      },
+      "unops-mw": {
+        "4": 1
+      },
+      "unops-cw": {
+        "4": 1
+      },
+      "unops-tt": {
+        "1": 2
+      },
+      "unops-kp": {
+        "4": 1
+      },
+      "unops-mu": {
+        "4": 6
+      },
+      "unops-ci": {
+        "1": 5
+      }
+    },
+    ".//participating-org/@role": {
+      "unops-kw": {
+        "Implementing": 1,
+        "Accountable": 1
+      },
+      "unops-jm": {
+        "Implementing": 1,
+        "Accountable": 1
+      },
+      "unops-mw": {
+        "Implementing": 1,
+        "Accountable": 1
+      },
+      "unops-hr": {
+        "Implementing": 1,
+        "Accountable": 1
+      },
+      "unops-cw": {
+        "Implementing": 1,
+        "Accountable": 1
+      },
+      "unops-tt": {
+        "4": 1,
+        "2": 1
+      },
+      "unops-kp": {
+        "Implementing": 1,
+        "Accountable": 1
+      },
+      "unops-mu": {
+        "Implementing": 1,
+        "Accountable": 1,
+        "Funding": 1
+      },
+      "unops-ci": {
+        "Implementing": 1,
+        "Accountable": 1
+      }
+    },
+    ".//participating-org/@type": {
+      "unops-kw": {
+        "40": 2
+      },
+      "unops-jm": {
+        "40": 2
+      },
+      "unops-mw": {
+        "40": 2
+      },
+      "unops-hr": {
+        "40": 2
+      },
+      "unops-cw": {
+        "40": 2
+      },
+      "unops-tt": {
+        "40": 2
+      },
+      "unops-kp": {
+        "40": 2
+      },
+      "unops-mu": {
+        "40": 2
+      },
+      "unops-ci": {
+        "40": 2
+      }
+    },
+    ".//recipient-country/@code": {
+      "unops-kw": {
+        "KW": 1
+      },
+      "unops-jm": {
+        "JM": 1
+      },
+      "unops-mw": {
+        "MW": 1
+      },
+      "unops-hr": {
+        "HR": 1
+      },
+      "unops-cw": {
+        "CW": 1
+      },
+      "unops-tt": {
+        "TT": 1
+      },
+      "unops-kp": {
+        "KP": 1
+      },
+      "unops-mu": {
+        "MU": 1
+      },
+      "unops-ci": {
+        "CI": 1
+      }
+    },
+    ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "unops-kw": {
+        "589": 1
+      },
+      "unops-cw": {
+        "998": 1
+      },
+      "unops-mu": {
+        "998": 1
+      }
+    },
+    ".//reporting-org/@type": {
+      "unops-kw": {
+        "40": 1
+      },
+      "unops-jm": {
+        "40": 1
+      },
+      "unops-mw": {
+        "40": 1
+      },
+      "unops-hr": {
+        "40": 1
+      },
+      "unops-cw": {
+        "40": 1
+      },
+      "unops-tt": {
+        "40": 1
+      },
+      "unops-kp": {
+        "40": 1
+      },
+      "unops-mu": {
+        "40": 1
+      },
+      "unops-ci": {
+        "40": 1
+      }
+    },
+    ".//transaction/disbursement-channel/@code": {
+      "unops-kw": {
+        "2": 4
+      },
+      "unops-jm": {
+        "2": 8
+      },
+      "unops-mw": {
+        "2": 2
+      },
+      "unops-hr": {
+        "2": 5
+      },
+      "unops-cw": {
+        "2": 14
+      },
+      "unops-tt": {
+        "2": 11
+      },
+      "unops-kp": {
+        "2": 4
+      },
+      "unops-mu": {
+        "2": 9
+      },
+      "unops-ci": {
+        "2": 6
+      }
+    },
+    ".//transaction/transaction-type/@code": {
+      "unops-kw": {
+        "C": 1,
+        "E": 3
+      },
+      "unops-jm": {
+        "C": 1,
+        "E": 7
+      },
+      "unops-mw": {
+        "C": 1,
+        "E": 1
+      },
+      "unops-hr": {
+        "C": 1,
+        "E": 4
+      },
+      "unops-cw": {
+        "C": 1,
+        "E": 13
+      },
+      "unops-tt": {
+        "2": 1,
+        "4": 10
+      },
+      "unops-kp": {
+        "C": 1,
+        "E": 3
+      },
+      "unops-mu": {
+        "C": 1,
+        "E": 8
+      },
+      "unops-ci": {
+        "C": 1,
+        "E": 5
+      }
+    },
+    ".//transaction/value/@currency": {
+      "unops-kw": {
+        "USD": 4
+      },
+      "unops-jm": {
+        "USD": 8
+      },
+      "unops-mw": {
+        "USD": 2
+      },
+      "unops-hr": {
+        "USD": 5
+      },
+      "unops-cw": {
+        "USD": 14
+      },
+      "unops-tt": {
+        "USD": 11
+      },
+      "unops-kp": {
+        "USD": 4
+      },
+      "unops-mu": {
+        "USD": 9
+      },
+      "unops-ci": {
+        "USD": 6
+      }
+    },
+    ".//@xml:lang": {
+      "unops-kw": {
+        "en": 1
+      },
+      "unops-jm": {
+        "en": 1
+      },
+      "unops-mw": {
+        "en": 1
+      },
+      "unops-hr": {
+        "en": 1
+      },
+      "unops-cw": {
+        "en": 1
+      },
+      "unops-tt": {
+        "en": 1
+      },
+      "unops-kp": {
+        "en": 1
+      },
+      "unops-mu": {
+        "en": 1
+      },
+      "unops-ci": {
+        "en": 1
+      }
+    },
+    ".//sector/@vocabulary": {
+      "unops-mu": {
+        "DAC": 1
+      }
+    }
+  }
+}

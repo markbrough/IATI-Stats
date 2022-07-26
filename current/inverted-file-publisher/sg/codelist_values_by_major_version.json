@@ -1,0 +1,297 @@
+{
+  "2": {
+    ".//@default-currency": {
+      "sg-be": {
+        "EUR": 2
+      },
+      "sg-89": {
+        "EUR": 1
+      }
+    },
+    ".//activity-date/@type": {
+      "sg-be": {
+        "1": 2,
+        "2": 2,
+        "3": 2
+      },
+      "sg-89": {
+        "1": 1,
+        "2": 1,
+        "3": 1
+      }
+    },
+    ".//activity-status/@code": {
+      "sg-be": {
+        "2": 2
+      },
+      "sg-89": {
+        "2": 1
+      }
+    },
+    ".//budget/@status": {
+      "sg-be": {
+        "2": 5
+      },
+      "sg-89": {
+        "2": 5
+      }
+    },
+    ".//budget/@type": {
+      "sg-be": {
+        "2": 5
+      },
+      "sg-89": {
+        "1": 5
+      }
+    },
+    ".//budget/value/@currency": {
+      "sg-be": {
+        "EUR": 5
+      },
+      "sg-89": {
+        "EUR": 5
+      }
+    },
+    ".//collaboration-type/@code": {
+      "sg-be": {
+        "1": 2
+      },
+      "sg-89": {
+        "1": 1
+      }
+    },
+    ".//contact-info/@type": {
+      "sg-be": {
+        "1": 2
+      },
+      "sg-89": {
+        "1": 1
+      }
+    },
+    ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "sg-be": {
+        "H01": 1,
+        "G01": 1
+      },
+      "sg-89": {
+        "G01": 1
+      }
+    },
+    ".//default-aid-type/@vocabulary": {
+      "sg-be": {
+        "1": 2
+      },
+      "sg-89": {
+        "1": 1
+      }
+    },
+    ".//default-finance-type/@code": {
+      "sg-be": {
+        "110": 2
+      },
+      "sg-89": {
+        "110": 1
+      }
+    },
+    ".//default-flow-type/@code": {
+      "sg-be": {
+        "30": 2
+      },
+      "sg-89": {
+        "30": 1
+      }
+    },
+    ".//default-tied-status/@code": {
+      "sg-be": {
+        "5": 2
+      },
+      "sg-89": {
+        "5": 1
+      }
+    },
+    ".//description/@type": {
+      "sg-be": {
+        "1": 2,
+        "2": 1
+      },
+      "sg-89": {
+        "1": 1
+      }
+    },
+    ".//document-link/@format": {
+      "sg-be": {
+        "application/pdf": 1
+      }
+    },
+    ".//document-link/category/@code": {
+      "sg-be": {
+        "A02": 1,
+        "A03": 1,
+        "A05": 1,
+        "A08": 1
+      }
+    },
+    ".//document-link/language/@code": {
+      "sg-be": {
+        "nl": 1
+      }
+    },
+    ".//location/location-class/@code": {
+      "sg-be": {
+        "1": 2
+      }
+    },
+    ".//location/exactness/@code": {
+      "sg-be": {
+        "2": 2
+      }
+    },
+    ".//other-identifier/@type": {
+      "sg-be": {
+        "A9": 1
+      }
+    },
+    ".//participating-org/@role": {
+      "sg-be": {
+        "1": 6,
+        "2": 4,
+        "4": 4
+      },
+      "sg-89": {
+        "1": 1,
+        "2": 1,
+        "4": 1
+      }
+    },
+    ".//participating-org/@type": {
+      "sg-be": {
+        "10": 2,
+        "22": 12
+      },
+      "sg-89": {
+        "10": 1,
+        "22": 2
+      }
+    },
+    ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "sg-be": {
+        "1": 1,
+        "2": 1,
+        "3": 1,
+        "6": 1,
+        "7": 1,
+        "8": 1
+      }
+    },
+    ".//policy-marker/@significance": {
+      "sg-be": {
+        "1": 2,
+        "0": 4
+      }
+    },
+    ".//policy-marker/@vocabulary": {
+      "sg-be": {
+        "1": 6
+      }
+    },
+    ".//recipient-country/@code": {
+      "sg-be": {
+        "BE": 2
+      }
+    },
+    ".//related-activity/@type": {
+      "sg-be": {
+        "1": 1
+      },
+      "sg-89": {
+        "1": 1
+      }
+    },
+    ".//reporting-org/@type": {
+      "sg-be": {
+        "22": 2
+      },
+      "sg-89": {
+        "22": 1
+      }
+    },
+    ".//result/@type": {
+      "sg-be": {
+        "2": 1
+      }
+    },
+    ".//result/indicator/@measure": {
+      "sg-be": {
+        "1": 3
+      }
+    },
+    ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "sg-be": {
+        "99820": 2
+      },
+      "sg-89": {
+        "91010": 1
+      }
+    },
+    ".//sector/@vocabulary": {
+      "sg-be": {
+        "1": 2
+      },
+      "sg-89": {
+        "1": 1
+      }
+    },
+    ".//transaction/provider-org/@type": {
+      "sg-be": {
+        "22": 11,
+        "10": 8
+      },
+      "sg-89": {
+        "22": 3
+      }
+    },
+    ".//transaction/receiver-org/@type": {
+      "sg-be": {
+        "22": 16
+      }
+    },
+    ".//transaction/transaction-type/@code": {
+      "sg-be": {
+        "4": 3,
+        "1": 6,
+        "11": 10
+      },
+      "sg-89": {
+        "4": 3
+      }
+    },
+    ".//transaction/value/@currency": {
+      "sg-be": {
+        "EUR": 19
+      },
+      "sg-89": {
+        "EUR": 3
+      }
+    },
+    ".//@xml:lang": {
+      "sg-be": {
+        "nl": 16,
+        "fr": 12
+      },
+      "sg-89": {
+        "nl": 4,
+        "fr": 2
+      }
+    },
+    ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "sg-89": {
+        "89": 1
+      }
+    },
+    ".//recipient-region/@vocabulary": {
+      "sg-89": {
+        "1": 1
+      }
+    }
+  }
+}

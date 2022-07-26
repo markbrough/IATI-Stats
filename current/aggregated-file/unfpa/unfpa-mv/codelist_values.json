@@ -1,0 +1,135 @@
+{
+  ".//@default-currency": {
+    "USD": 10
+  },
+  ".//activity-date/@type": {
+    "1": 10,
+    "2": 10,
+    "3": 10,
+    "4": 10
+  },
+  ".//activity-scope/@code": {
+    "4": 10
+  },
+  ".//activity-status/@code": {
+    "2": 10
+  },
+  ".//budget/@type": {
+    "1": 6
+  },
+  ".//budget/value/@currency": {
+    "USD": 6
+  },
+  ".//collaboration-type/@code": {
+    "4": 6
+  },
+  ".//contact-info/@type": {
+    "1": 10
+  },
+  ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "C01": 6
+  },
+  ".//default-finance-type/@code": {
+    "110": 6
+  },
+  ".//default-flow-type/@code": {
+    "20": 6
+  },
+  ".//default-tied-status/@code": {
+    "5": 6
+  },
+  ".//description/@type": {
+    "1": 10,
+    "2": 10
+  },
+  ".//document-link/@format": {
+    "application/pdf": 18
+  },
+  ".//document-link/category/@code": {
+    "A02": 6,
+    "A09": 6,
+    "A01": 12,
+    "A03": 12,
+    "A04": 12,
+    "A05": 12,
+    "A06": 12,
+    "A07": 12,
+    "A10": 12,
+    "All": 12
+  },
+  ".//document-link/language/@code": {
+    "en": 18
+  },
+  ".//location/location-class/@code": {
+    "1": 10
+  },
+  ".//location/location-id/@vocabulary": {
+    "A4": 10
+  },
+  ".//location/location-reach/@code": {
+    "1": 10
+  },
+  ".//participating-org/@role": {
+    "1": 10,
+    "2": 10,
+    "3": 10
+  },
+  ".//participating-org/@type": {
+    "40": 30
+  },
+  ".//planned-disbursement/@type": {
+    "1": 6
+  },
+  ".//planned-disbursement/value/@currency": {
+    "USD": 6
+  },
+  ".//recipient-country/@code": {
+    "MV": 18
+  },
+  ".//related-activity/@type": {
+    "1": 1
+  },
+  ".//reporting-org/@type": {
+    "40": 10
+  },
+  ".//sector/@vocabulary": {
+    "1": 15
+  },
+  ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "13010": 7,
+    "16062": 2,
+    "11230": 6
+  },
+  ".//transaction/aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "C01": 8
+  },
+  ".//transaction/disbursement-channel/@code": {
+    "1": 8
+  },
+  ".//transaction/finance-type/@code": {
+    "110": 8
+  },
+  ".//transaction/flow-type/@code": {
+    "20": 8
+  },
+  ".//transaction/recipient-country/@code": {
+    "MV": 8
+  },
+  ".//transaction/sector/@vocabulary": {
+    "1": 8
+  },
+  ".//transaction/sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "13010": 4,
+    "16062": 1,
+    "11230": 3
+  },
+  ".//transaction/tied-status/@code": {
+    "5": 8
+  },
+  ".//transaction/transaction-type/@code": {
+    "2": 8
+  },
+  ".//transaction/value/@currency": {
+    "USD": 8
+  }
+}

@@ -1,0 +1,312 @@
+{
+  ".//@default-currency": {
+    "GBP": {
+      "rfuk-998": 1,
+      "rfuk-ga": 1,
+      "rfuk-cd": 1
+    }
+  },
+  ".//@xml:lang": {
+    "en": {
+      "rfuk-998": 8,
+      "rfuk-ga": 87,
+      "rfuk-cd": 7
+    },
+    "fr": {
+      "rfuk-ga": 3
+    }
+  },
+  ".//activity-date/@type": {
+    "2": {
+      "rfuk-998": 1,
+      "rfuk-ga": 1,
+      "rfuk-cd": 1
+    },
+    "3": {
+      "rfuk-998": 1,
+      "rfuk-cd": 1
+    },
+    "4": {
+      "rfuk-ga": 1
+    }
+  },
+  ".//activity-status/@code": {
+    "2": {
+      "rfuk-998": 1,
+      "rfuk-cd": 1
+    },
+    "3": {
+      "rfuk-ga": 1
+    }
+  },
+  ".//budget/@status": {
+    "2": {
+      "rfuk-998": 2
+    },
+    "1": {
+      "rfuk-998": 1,
+      "rfuk-cd": 1
+    }
+  },
+  ".//budget/@type": {
+    "2": {
+      "rfuk-998": 3
+    },
+    "1": {
+      "rfuk-ga": 1,
+      "rfuk-cd": 1
+    }
+  },
+  ".//budget/value/@currency": {
+    "GBP": {
+      "rfuk-998": 3,
+      "rfuk-ga": 1,
+      "rfuk-cd": 1
+    }
+  },
+  ".//contact-info/@type": {
+    "1": {
+      "rfuk-998": 1,
+      "rfuk-cd": 1
+    }
+  },
+  ".//default-aid-type/@vocabulary": {
+    "1": {
+      "rfuk-998": 1,
+      "rfuk-cd": 1
+    }
+  },
+  ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "C01": {
+      "rfuk-998": 1,
+      "rfuk-ga": 1,
+      "rfuk-cd": 1
+    }
+  },
+  ".//default-finance-type/@code": {
+    "110": {
+      "rfuk-998": 1,
+      "rfuk-ga": 1,
+      "rfuk-cd": 1
+    }
+  },
+  ".//default-flow-type/@code": {
+    "10": {
+      "rfuk-998": 1
+    },
+    "30": {
+      "rfuk-ga": 1,
+      "rfuk-cd": 1
+    }
+  },
+  ".//description/@type": {
+    "1": {
+      "rfuk-998": 1,
+      "rfuk-cd": 1
+    }
+  },
+  ".//document-link/@format": {
+    "text/html": {
+      "rfuk-ga": 5
+    }
+  },
+  ".//document-link/category/@code": {
+    "B01": {
+      "rfuk-ga": 1
+    },
+    "A02": {
+      "rfuk-ga": 2
+    },
+    "A12": {
+      "rfuk-ga": 2
+    }
+  },
+  ".//document-link/language/@code": {
+    "en": {
+      "rfuk-ga": 4
+    },
+    "fr": {
+      "rfuk-ga": 1
+    }
+  },
+  ".//participating-org/@role": {
+    "1": {
+      "rfuk-998": 1,
+      "rfuk-ga": 1,
+      "rfuk-cd": 1
+    },
+    "4": {
+      "rfuk-998": 4,
+      "rfuk-ga": 2,
+      "rfuk-cd": 2
+    },
+    "2": {
+      "rfuk-998": 1
+    }
+  },
+  ".//participating-org/@type": {
+    "10": {
+      "rfuk-998": 1,
+      "rfuk-cd": 1
+    },
+    "22": {
+      "rfuk-998": 4,
+      "rfuk-cd": 2
+    },
+    "70": {
+      "rfuk-998": 1
+    }
+  },
+  ".//recipient-country/@code": {
+    "GB": {
+      "rfuk-998": 17
+    },
+    "CD": {
+      "rfuk-998": 7,
+      "rfuk-cd": 1
+    },
+    "CM": {
+      "rfuk-998": 6
+    },
+    "GH": {
+      "rfuk-998": 6
+    },
+    "CG": {
+      "rfuk-998": 3
+    },
+    "GA": {
+      "rfuk-ga": 1
+    },
+    "CF": {
+      "rfuk-ga": 1
+    }
+  },
+  ".//reporting-org/@type": {
+    "21": {
+      "rfuk-998": 1,
+      "rfuk-ga": 1,
+      "rfuk-cd": 1
+    }
+  },
+  ".//sector/@vocabulary": {
+    "1": {
+      "rfuk-998": 1,
+      "rfuk-ga": 8,
+      "rfuk-cd": 1
+    }
+  },
+  ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "31210": {
+      "rfuk-998": 1,
+      "rfuk-ga": 1,
+      "rfuk-cd": 1
+    },
+    "11430": {
+      "rfuk-ga": 1
+    },
+    "15130": {
+      "rfuk-ga": 1
+    },
+    "15150": {
+      "rfuk-ga": 1
+    },
+    "15162": {
+      "rfuk-ga": 1
+    },
+    "31281": {
+      "rfuk-ga": 1
+    },
+    "92010": {
+      "rfuk-ga": 1
+    },
+    "92030": {
+      "rfuk-ga": 1
+    }
+  },
+  ".//transaction/aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "C01": {
+      "rfuk-ga": 92
+    }
+  },
+  ".//transaction/disbursement-channel/@code": {
+    "2": {
+      "rfuk-ga": 92,
+      "rfuk-cd": 110
+    }
+  },
+  ".//transaction/finance-type/@code": {
+    "110": {
+      "rfuk-ga": 92,
+      "rfuk-cd": 74
+    }
+  },
+  ".//transaction/flow-type/@code": {
+    "30": {
+      "rfuk-ga": 92,
+      "rfuk-cd": 110
+    }
+  },
+  ".//transaction/provider-org/@type": {
+    "70": {
+      "rfuk-998": 9
+    },
+    "21": {
+      "rfuk-998": 22
+    }
+  },
+  ".//transaction/receiver-org/@type": {
+    "21": {
+      "rfuk-998": 9
+    },
+    "24": {
+      "rfuk-998": 22
+    }
+  },
+  ".//transaction/recipient-country/@code": {
+    "GB": {
+      "rfuk-998": 17
+    },
+    "CD": {
+      "rfuk-998": 7
+    },
+    "CM": {
+      "rfuk-998": 6
+    },
+    "GH": {
+      "rfuk-998": 6
+    },
+    "CG": {
+      "rfuk-998": 3
+    }
+  },
+  ".//transaction/tied-status/@code": {
+    "3": {
+      "rfuk-ga": 92,
+      "rfuk-cd": 110
+    }
+  },
+  ".//transaction/transaction-type/@code": {
+    "1": {
+      "rfuk-998": 9,
+      "rfuk-ga": 13,
+      "rfuk-cd": 13
+    },
+    "3": {
+      "rfuk-998": 22,
+      "rfuk-ga": 68,
+      "rfuk-cd": 39
+    },
+    "4": {
+      "rfuk-998": 8,
+      "rfuk-ga": 11,
+      "rfuk-cd": 68
+    }
+  },
+  ".//transaction/value/@currency": {
+    "GBP": {
+      "rfuk-998": 39,
+      "rfuk-ga": 83,
+      "rfuk-cd": 120
+    }
+  }
+}

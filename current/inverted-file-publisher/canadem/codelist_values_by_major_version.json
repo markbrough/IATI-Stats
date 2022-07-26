@@ -1,0 +1,598 @@
+{
+  "2": {
+    ".//@default-currency": {
+      "canadem-679": {
+        "CAD": 1
+      },
+      "canadem-298": {
+        "CAD": 2
+      },
+      "canadem-998": {
+        "CAD": 8
+      },
+      "canadem-mz": {
+        "CAD": 1
+      },
+      "canadem-589": {
+        "CAD": 2
+      }
+    },
+    ".//activity-date/@type": {
+      "canadem-679": {
+        "2": 1,
+        "4": 1
+      },
+      "canadem-298": {
+        "2": 2,
+        "4": 2
+      },
+      "canadem-998": {
+        "2": 8,
+        "4": 7,
+        "3": 1
+      },
+      "canadem-mz": {
+        "2": 1,
+        "3": 1
+      },
+      "canadem-589": {
+        "2": 2,
+        "4": 2
+      }
+    },
+    ".//activity-status/@code": {
+      "canadem-679": {
+        "4": 1
+      },
+      "canadem-298": {
+        "4": 2
+      },
+      "canadem-998": {
+        "4": 7,
+        "2": 1
+      },
+      "canadem-mz": {
+        "2": 1
+      },
+      "canadem-589": {
+        "4": 2
+      }
+    },
+    ".//budget/@status": {
+      "canadem-679": {
+        "2": 2
+      },
+      "canadem-298": {
+        "2": 4
+      },
+      "canadem-998": {
+        "2": 26
+      },
+      "canadem-589": {
+        "2": 4
+      }
+    },
+    ".//budget/@type": {
+      "canadem-679": {
+        "1": 2
+      },
+      "canadem-298": {
+        "1": 4
+      },
+      "canadem-998": {
+        "1": 19,
+        "2": 7
+      },
+      "canadem-589": {
+        "1": 4
+      }
+    },
+    ".//budget/value/@currency": {
+      "canadem-679": {
+        "CAD": 2
+      },
+      "canadem-298": {
+        "CAD": 4
+      },
+      "canadem-998": {
+        "GBP": 4,
+        "CAD": 22
+      },
+      "canadem-589": {
+        "GBP": 2,
+        "CAD": 2
+      }
+    },
+    ".//contact-info/@type": {
+      "canadem-679": {
+        "1": 1
+      },
+      "canadem-298": {
+        "1": 1
+      },
+      "canadem-998": {
+        "1": 5
+      },
+      "canadem-mz": {
+        "1": 1
+      },
+      "canadem-589": {
+        "1": 1
+      }
+    },
+    ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "canadem-679": {
+        "D02": 1
+      },
+      "canadem-298": {
+        "D02": 2
+      },
+      "canadem-998": {
+        "D02": 8
+      },
+      "canadem-mz": {
+        "D02": 1
+      },
+      "canadem-589": {
+        "D02": 2
+      }
+    },
+    ".//default-aid-type/@vocabulary": {
+      "canadem-679": {
+        "1": 1
+      },
+      "canadem-298": {
+        "1": 2
+      },
+      "canadem-998": {
+        "1": 8
+      },
+      "canadem-mz": {
+        "1": 1
+      },
+      "canadem-589": {
+        "1": 2
+      }
+    },
+    ".//default-finance-type/@code": {
+      "canadem-679": {
+        "110": 1
+      },
+      "canadem-298": {
+        "110": 2
+      },
+      "canadem-998": {
+        "110": 8
+      },
+      "canadem-mz": {
+        "110": 1
+      },
+      "canadem-589": {
+        "110": 2
+      }
+    },
+    ".//default-flow-type/@code": {
+      "canadem-679": {
+        "10": 1
+      },
+      "canadem-298": {
+        "10": 2
+      },
+      "canadem-998": {
+        "10": 8
+      },
+      "canadem-mz": {
+        "10": 1
+      },
+      "canadem-589": {
+        "10": 2
+      }
+    },
+    ".//default-tied-status/@code": {
+      "canadem-679": {
+        "5": 1
+      },
+      "canadem-298": {
+        "5": 2
+      },
+      "canadem-998": {
+        "5": 8
+      },
+      "canadem-mz": {
+        "5": 1
+      },
+      "canadem-589": {
+        "5": 2
+      }
+    },
+    ".//description/@type": {
+      "canadem-679": {
+        "1": 1
+      },
+      "canadem-298": {
+        "1": 2,
+        "2": 1
+      },
+      "canadem-998": {
+        "1": 8
+      },
+      "canadem-mz": {
+        "1": 1
+      },
+      "canadem-589": {
+        "1": 2
+      }
+    },
+    ".//participating-org/@role": {
+      "canadem-679": {
+        "1": 1,
+        "4": 1
+      },
+      "canadem-298": {
+        "1": 2,
+        "4": 2
+      },
+      "canadem-998": {
+        "4": 8,
+        "1": 8
+      },
+      "canadem-mz": {
+        "1": 1,
+        "4": 1
+      },
+      "canadem-589": {
+        "1": 2,
+        "4": 2
+      }
+    },
+    ".//participating-org/@type": {
+      "canadem-679": {
+        "10": 1,
+        "21": 1
+      },
+      "canadem-298": {
+        "10": 2,
+        "21": 2
+      },
+      "canadem-998": {
+        "21": 8,
+        "10": 8
+      },
+      "canadem-mz": {
+        "10": 1,
+        "21": 1
+      },
+      "canadem-589": {
+        "10": 2,
+        "21": 2
+      }
+    },
+    ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "canadem-679": {
+        "2": 1
+      },
+      "canadem-298": {
+        "2": 1
+      },
+      "canadem-998": {
+        "1": 1,
+        "12": 3,
+        "9": 1,
+        "2": 5,
+        "3": 3,
+        "10": 2
+      },
+      "canadem-589": {
+        "2": 2
+      }
+    },
+    ".//policy-marker/@significance": {
+      "canadem-679": {
+        "2": 1
+      },
+      "canadem-298": {
+        "2": 1
+      },
+      "canadem-998": {
+        "2": 9,
+        "4": 1,
+        "1": 5
+      },
+      "canadem-589": {
+        "2": 2
+      }
+    },
+    ".//policy-marker/@vocabulary": {
+      "canadem-679": {
+        "1": 1
+      },
+      "canadem-298": {
+        "1": 1
+      },
+      "canadem-998": {
+        "1": 13
+      },
+      "canadem-589": {
+        "1": 2
+      }
+    },
+    ".//recipient-country/@code": {
+      "canadem-679": {
+        "PK": 1
+      },
+      "canadem-298": {
+        "SS": 1,
+        "GN": 1,
+        "SL": 1,
+        "LR": 1,
+        "CH": 1
+      },
+      "canadem-998": {
+        "AF": 2,
+        "BD": 3,
+        "BB": 2,
+        "BR": 2,
+        "BI": 4,
+        "CM": 1,
+        "CF": 5,
+        "TD": 4,
+        "HR": 1,
+        "CD": 6,
+        "ET": 4,
+        "HT": 4,
+        "IQ": 4,
+        "IT": 1,
+        "JO": 5,
+        "KE": 6,
+        "KG": 2,
+        "LB": 1,
+        "LR": 3,
+        "MK": 1,
+        "MW": 2,
+        "MZ": 2,
+        "MM": 2,
+        "NP": 1,
+        "NE": 2,
+        "NG": 4,
+        "PE": 2,
+        "SN": 2,
+        "RS": 2,
+        "SL": 2,
+        "SO": 4,
+        "SS": 4,
+        "SD": 6,
+        "CH": 2,
+        "SY": 2,
+        "TN": 2,
+        "TR": 4,
+        "UA": 3,
+        "US": 1,
+        "VU": 2,
+        "YE": 4,
+        "EC": 2,
+        "UG": 2,
+        "AO": 1,
+        "PK": 5,
+        "CI": 1,
+        "GH": 1,
+        "KM": 1,
+        "DJ": 2,
+        "EG": 1,
+        "LY": 2,
+        "ML": 2,
+        "MR": 1,
+        "PH": 2,
+        "KH": 1,
+        "GE": 1,
+        "MG": 1,
+        "NA": 1,
+        "PS": 1,
+        "LK": 1,
+        "ZW": 2,
+        "AL": 1,
+        "AM": 1,
+        "BF": 1,
+        "DO": 1,
+        "ID": 1,
+        "IR": 1,
+        "PA": 1,
+        "PG": 1,
+        "RW": 1,
+        "WS": 1,
+        "ZA": 1,
+        "TZ": 1,
+        "VE": 1,
+        "ZM": 1
+      },
+      "canadem-mz": {
+        "MZ": 1,
+        "ZW": 1,
+        "CM": 1,
+        "BF": 1,
+        "SD": 1,
+        "CD": 1,
+        "VE": 1,
+        "UG": 1,
+        "TR": 1,
+        "ET": 1,
+        "BD": 1
+      },
+      "canadem-589": {
+        "JO": 2,
+        "IQ": 1,
+        "LB": 1,
+        "SY": 1,
+        "TR": 1
+      }
+    },
+    ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "canadem-679": {
+        "679": 1
+      },
+      "canadem-298": {
+        "298": 2
+      },
+      "canadem-998": {
+        "998": 8
+      },
+      "canadem-589": {
+        "589": 2
+      }
+    },
+    ".//recipient-region/@vocabulary": {
+      "canadem-679": {
+        "1": 1
+      },
+      "canadem-298": {
+        "1": 2
+      },
+      "canadem-998": {
+        "1": 8
+      },
+      "canadem-589": {
+        "1": 2
+      }
+    },
+    ".//reporting-org/@type": {
+      "canadem-679": {
+        "21": 1
+      },
+      "canadem-298": {
+        "21": 2
+      },
+      "canadem-998": {
+        "21": 8
+      },
+      "canadem-mz": {
+        "21": 1
+      },
+      "canadem-589": {
+        "21": 2
+      }
+    },
+    ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "canadem-679": {
+        "72050": 1,
+        "73010": 1
+      },
+      "canadem-298": {
+        "15210": 1,
+        "12250": 1,
+        "22013": 1,
+        "72050": 2
+      },
+      "canadem-998": {
+        "72050": 8
+      },
+      "canadem-mz": {
+        "72050": 1
+      },
+      "canadem-589": {
+        "72050": 2
+      }
+    },
+    ".//sector/@vocabulary": {
+      "canadem-679": {
+        "1": 2
+      },
+      "canadem-298": {
+        "1": 5
+      },
+      "canadem-998": {
+        "1": 8
+      },
+      "canadem-mz": {
+        "1": 1
+      },
+      "canadem-589": {
+        "1": 2
+      }
+    },
+    ".//@xml:lang": {
+      "canadem-679": {
+        "en": 4
+      },
+      "canadem-298": {
+        "en": 8
+      },
+      "canadem-998": {
+        "en": 35
+      },
+      "canadem-mz": {
+        "en": 4
+      },
+      "canadem-589": {
+        "en": 8
+      }
+    },
+    ".//participating-org/@crs-channel-code": {
+      "canadem-998": {
+        "11000": 1
+      }
+    },
+    ".//transaction/disbursement-channel/@code": {
+      "canadem-998": {
+        "2": 12
+      },
+      "canadem-mz": {
+        "2": 6
+      }
+    },
+    ".//transaction/finance-type/@code": {
+      "canadem-998": {
+        "110": 12
+      },
+      "canadem-mz": {
+        "110": 6
+      }
+    },
+    ".//transaction/flow-type/@code": {
+      "canadem-998": {
+        "10": 12
+      },
+      "canadem-mz": {
+        "10": 6
+      }
+    },
+    ".//transaction/provider-org/@type": {
+      "canadem-998": {
+        "10": 10
+      },
+      "canadem-mz": {
+        "10": 4
+      }
+    },
+    ".//transaction/receiver-org/@type": {
+      "canadem-998": {
+        "21": 10
+      },
+      "canadem-mz": {
+        "21": 4
+      }
+    },
+    ".//transaction/tied-status/@code": {
+      "canadem-998": {
+        "5": 12
+      },
+      "canadem-mz": {
+        "5": 6
+      }
+    },
+    ".//transaction/transaction-type/@code": {
+      "canadem-998": {
+        "4": 12
+      },
+      "canadem-mz": {
+        "4": 6
+      }
+    },
+    ".//transaction/value/@currency": {
+      "canadem-998": {
+        "CAD": 9
+      },
+      "canadem-mz": {
+        "CAD": 5
+      }
+    }
+  }
+}

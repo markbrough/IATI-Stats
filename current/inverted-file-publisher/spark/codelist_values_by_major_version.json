@@ -1,0 +1,392 @@
+{
+  "1": {
+    ".//@default-currency": {
+      "spark-20170501": {
+        "EUR": 114,
+        "USD": 1
+      }
+    },
+    ".//activity-date/@type": {
+      "spark-20170501": {
+        "start-planned": 113,
+        "start-actual": 109,
+        "end-planned": 112,
+        "end-actual": 99
+      }
+    },
+    ".//activity-status/@code": {
+      "spark-20170501": {
+        "2": 21,
+        "": 94
+      }
+    },
+    ".//budget/value/@currency": {
+      "spark-20170501": {
+        "EUR": 114,
+        "USD": 1
+      }
+    },
+    ".//collaboration-type/@code": {
+      "spark-20170501": {
+        "1": 112
+      }
+    },
+    ".//default-aid-type/@code": {
+      "spark-20170501": {
+        "B03": 112
+      }
+    },
+    ".//default-finance-type/@code": {
+      "spark-20170501": {
+        "110": 101,
+        "410": 11
+      }
+    },
+    ".//default-flow-type/@code": {
+      "spark-20170501": {
+        "10": 112
+      }
+    },
+    ".//default-tied-status/@code": {
+      "spark-20170501": {
+        "5": 111,
+        "4": 1
+      }
+    },
+    ".//description/@type": {
+      "spark-20170501": {
+        "1": 105,
+        "2": 114,
+        "3": 114
+      }
+    },
+    ".//recipient-country/@code": {
+      "spark-20170501": {
+        "XK": 32,
+        "PS": 21,
+        "RW": 23,
+        "LR": 6,
+        "BI": 20,
+        "SS": 5,
+        "YE": 1,
+        "TN": 2,
+        "SO": 2,
+        "LY": 2
+      }
+    },
+    ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "spark-20170501": {
+        "89": 29,
+        "589": 20,
+        "298": 47,
+        "798": 1,
+        "498": 1
+      }
+    },
+    ".//reporting-org/@type": {
+      "spark-20170501": {
+        "60": 115
+      }
+    },
+    ".//@xml:lang": {
+      "spark-20170501": {
+        "en": 1998
+      }
+    }
+  },
+  "2": {
+    ".//@default-currency": {
+      "spark-activities": {
+        "EUR": 7
+      }
+    },
+    ".//activity-date/@type": {
+      "spark-activities": {
+        "2": 6,
+        "3": 7,
+        "1": 6,
+        "4": 1
+      }
+    },
+    ".//activity-status/@code": {
+      "spark-activities": {
+        "2": 4,
+        "4": 3
+      }
+    },
+    ".//activity-scope/@code": {
+      "spark-activities": {
+        "4": 3,
+        "3": 4
+      }
+    },
+    ".//budget/@status": {
+      "spark-activities": {
+        "1": 4,
+        "2": 13
+      }
+    },
+    ".//budget/@type": {
+      "spark-activities": {
+        "2": 10,
+        "1": 7
+      }
+    },
+    ".//budget/value/@currency": {
+      "spark-activities": {
+        "EUR": 15
+      }
+    },
+    ".//collaboration-type/@code": {
+      "spark-activities": {
+        "2": 7
+      }
+    },
+    ".//contact-info/@type": {
+      "spark-activities": {
+        "1": 1
+      }
+    },
+    ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "spark-activities": {
+        "C01": 7
+      }
+    },
+    ".//default-aid-type/@vocabulary": {
+      "spark-activities": {
+        "1": 7
+      }
+    },
+    ".//default-finance-type/@code": {
+      "spark-activities": {
+        "110": 7
+      }
+    },
+    ".//default-flow-type/@code": {
+      "spark-activities": {
+        "10": 7
+      }
+    },
+    ".//default-tied-status/@code": {
+      "spark-activities": {
+        "5": 7
+      }
+    },
+    ".//description/@type": {
+      "spark-activities": {
+        "2": 5,
+        "1": 5,
+        "3": 3
+      }
+    },
+    ".//document-link/@format": {
+      "spark-activities": {
+        "application/pdf": 5,
+        "application/vnd.sealed.xls": 1,
+        "application/http": 1
+      }
+    },
+    ".//document-link/category/@code": {
+      "spark-activities": {
+        "B01": 2,
+        "B12": 1,
+        "A04": 2,
+        "A02": 1,
+        "B16": 1
+      }
+    },
+    ".//document-link/language/@code": {
+      "spark-activities": {
+        "en": 7
+      }
+    },
+    ".//participating-org/@crs-channel-code": {
+      "spark-activities": {
+        "11000": 2,
+        "21000": 4,
+        "12001": 1,
+        "11001": 1
+      }
+    },
+    ".//participating-org/@role": {
+      "spark-activities": {
+        "1": 7,
+        "2": 6,
+        "4": 1
+      }
+    },
+    ".//participating-org/@type": {
+      "spark-activities": {
+        "10": 7,
+        "21": 7
+      }
+    },
+    ".//planned-disbursement/@type": {
+      "spark-activities": {
+        "1": 1
+      }
+    },
+    ".//planned-disbursement/provider-org/@type": {
+      "spark-activities": {
+        "10": 1
+      }
+    },
+    ".//planned-disbursement/receiver-org/@type": {
+      "spark-activities": {
+        "21": 1
+      }
+    },
+    ".//planned-disbursement/value/@currency": {
+      "spark-activities": {
+        "EUR": 1
+      }
+    },
+    ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "spark-activities": {
+        "4": 4,
+        "1": 5,
+        "3": 1
+      }
+    },
+    ".//policy-marker/@significance": {
+      "spark-activities": {
+        "2": 4,
+        "1": 5,
+        "4": 1
+      }
+    },
+    ".//policy-marker/@vocabulary": {
+      "spark-activities": {
+        "1": 10
+      }
+    },
+    ".//recipient-country/@code": {
+      "spark-activities": {
+        "JO": 3,
+        "SS": 1,
+        "IQ": 3,
+        "TN": 2,
+        "SO": 2,
+        "LY": 1,
+        "LB": 1
+      }
+    },
+    ".//related-activity/@type": {
+      "spark-activities": {
+        "1": 1
+      }
+    },
+    ".//reporting-org/@type": {
+      "spark-activities": {
+        "21": 7
+      }
+    },
+    ".//result/@type": {
+      "spark-activities": {
+        "1": 167,
+        "2": 21
+      }
+    },
+    ".//result/indicator/@measure": {
+      "spark-activities": {
+        "1": 191,
+        "2": 9,
+        "5": 1
+      }
+    },
+    ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "spark-activities": {
+        "16020": 10,
+        "11420": 3,
+        "32130": 3,
+        "31120": 1,
+        "25010": 1,
+        "31161": 1,
+        "24040": 1,
+        "31320": 1,
+        "11330": 1
+      }
+    },
+    ".//sector/@vocabulary": {
+      "spark-activities": {
+        "1": 22
+      }
+    },
+    ".//transaction/aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "spark-activities": {
+        "B03": 1
+      }
+    },
+    ".//transaction/aid-type/@vocabulary": {
+      "spark-activities": {
+        "1": 1
+      }
+    },
+    ".//transaction/disbursement-channel/@code": {
+      "spark-activities": {
+        "2": 4,
+        "1": 2
+      }
+    },
+    ".//transaction/finance-type/@code": {
+      "spark-activities": {
+        "110": 1,
+        "422": 1
+      }
+    },
+    ".//transaction/flow-type/@code": {
+      "spark-activities": {
+        "10": 2
+      }
+    },
+    ".//transaction/provider-org/@type": {
+      "spark-activities": {
+        "10": 8,
+        "21": 7
+      }
+    },
+    ".//transaction/receiver-org/@type": {
+      "spark-activities": {
+        "21": 8,
+        "22": 3
+      }
+    },
+    ".//transaction/sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "spark-activities": {
+        "16020": 8
+      }
+    },
+    ".//transaction/sector/@vocabulary": {
+      "spark-activities": {
+        "1": 8
+      }
+    },
+    ".//transaction/tied-status/@code": {
+      "spark-activities": {
+        "5": 1,
+        "4": 1
+      }
+    },
+    ".//transaction/transaction-type/@code": {
+      "spark-activities": {
+        "1": 7,
+        "2": 11,
+        "4": 1431,
+        "3": 84,
+        "11": 5
+      }
+    },
+    ".//transaction/value/@currency": {
+      "spark-activities": {
+        "EUR": 1530,
+        "JOD": 8
+      }
+    },
+    ".//@xml:lang": {
+      "spark-activities": {
+        "en": 310,
+        "nl": 1
+      }
+    }
+  }
+}

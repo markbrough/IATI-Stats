@@ -1,0 +1,314 @@
+{
+  "2": {
+    ".//@default-currency": {
+      "oecd-global_forum": {
+        "EUR": 1
+      },
+      "oecd-development_taxation": {
+        "EUR": 1
+      },
+      "oecd-beps": {
+        "EUR": 1
+      }
+    },
+    ".//activity-date/@type": {
+      "oecd-global_forum": {
+        "2": 1,
+        "4": 1
+      },
+      "oecd-development_taxation": {
+        "2": 1,
+        "4": 1
+      },
+      "oecd-beps": {
+        "2": 1,
+        "4": 1
+      }
+    },
+    ".//activity-status/@code": {
+      "oecd-global_forum": {
+        "2": 1
+      },
+      "oecd-development_taxation": {
+        "2": 1
+      },
+      "oecd-beps": {
+        "2": 1
+      }
+    },
+    ".//collaboration-type/@code": {
+      "oecd-global_forum": {
+        "4": 1
+      },
+      "oecd-development_taxation": {
+        "4": 1
+      },
+      "oecd-beps": {
+        "4": 1
+      }
+    },
+    ".//contact-info/@type": {
+      "oecd-global_forum": {
+        "1": 1
+      },
+      "oecd-development_taxation": {
+        "1": 1
+      },
+      "oecd-beps": {
+        "1": 1
+      }
+    },
+    ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "oecd-global_forum": {
+        "B03": 1
+      },
+      "oecd-development_taxation": {
+        "B03": 1
+      },
+      "oecd-beps": {
+        "B03": 1
+      }
+    },
+    ".//default-finance-type/@code": {
+      "oecd-global_forum": {
+        "110": 1
+      },
+      "oecd-development_taxation": {
+        "110": 1
+      },
+      "oecd-beps": {
+        "110": 1
+      }
+    },
+    ".//default-flow-type/@code": {
+      "oecd-global_forum": {
+        "10": 1
+      },
+      "oecd-development_taxation": {
+        "10": 1
+      },
+      "oecd-beps": {
+        "10": 1
+      }
+    },
+    ".//default-tied-status/@code": {
+      "oecd-global_forum": {
+        "5": 1
+      },
+      "oecd-development_taxation": {
+        "5": 1
+      },
+      "oecd-beps": {
+        "5": 1
+      }
+    },
+    ".//document-link/@format": {
+      "oecd-global_forum": {
+        "application/pdf": 2
+      },
+      "oecd-development_taxation": {
+        "application/pdf": 1,
+        "text/html": 3
+      },
+      "oecd-beps": {
+        "text/html": 3,
+        "application/pdf": 1
+      }
+    },
+    ".//document-link/category/@code": {
+      "oecd-global_forum": {
+        "B01": 1,
+        "A02": 1
+      },
+      "oecd-development_taxation": {
+        "A02": 4
+      },
+      "oecd-beps": {
+        "B01": 1,
+        "A07": 1,
+        "A12": 1,
+        "A02": 1
+      }
+    },
+    ".//document-link/language/@code": {
+      "oecd-global_forum": {
+        "en": 2
+      },
+      "oecd-development_taxation": {
+        "en": 4
+      },
+      "oecd-beps": {
+        "en": 4
+      }
+    },
+    ".//other-identifier/@type": {
+      "oecd-global_forum": {
+        "A1": 1
+      },
+      "oecd-development_taxation": {
+        "A1": 1
+      },
+      "oecd-beps": {
+        "A1": 1
+      }
+    },
+    ".//participating-org/@role": {
+      "oecd-global_forum": {
+        "1": 1,
+        "2": 1,
+        "3": 1,
+        "4": 1
+      },
+      "oecd-development_taxation": {
+        "1": 2,
+        "2": 1,
+        "3": 1,
+        "4": 1
+      },
+      "oecd-beps": {
+        "1": 2,
+        "2": 1,
+        "3": 1,
+        "4": 1
+      }
+    },
+    ".//participating-org/@type": {
+      "oecd-global_forum": {
+        "10": 1,
+        "40": 3
+      },
+      "oecd-development_taxation": {
+        "10": 2,
+        "40": 3
+      },
+      "oecd-beps": {
+        "10": 2,
+        "40": 3
+      }
+    },
+    ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "oecd-global_forum": {
+        "3": 1
+      },
+      "oecd-development_taxation": {
+        "3": 1
+      },
+      "oecd-beps": {
+        "3": 1
+      }
+    },
+    ".//policy-marker/@significance": {
+      "oecd-global_forum": {
+        "1": 1
+      },
+      "oecd-development_taxation": {
+        "1": 1
+      },
+      "oecd-beps": {
+        "1": 1
+      }
+    },
+    ".//policy-marker/@vocabulary": {
+      "oecd-global_forum": {
+        "1": 1
+      },
+      "oecd-development_taxation": {
+        "1": 1
+      },
+      "oecd-beps": {
+        "1": 1
+      }
+    },
+    ".//recipient-country/@code": {
+      "oecd-global_forum": {
+        "998": 1
+      },
+      "oecd-development_taxation": {
+        "998": 1
+      },
+      "oecd-beps": {
+        "998": 1
+      }
+    },
+    ".//reporting-org/@type": {
+      "oecd-global_forum": {
+        "40": 1
+      },
+      "oecd-development_taxation": {
+        "40": 1
+      },
+      "oecd-beps": {
+        "40": 1
+      }
+    },
+    ".//result/@type": {
+      "oecd-global_forum": {
+        "9": 12
+      },
+      "oecd-development_taxation": {
+        "9": 14
+      },
+      "oecd-beps": {
+        "9": 17
+      }
+    },
+    ".//result/indicator/@measure": {
+      "oecd-global_forum": {
+        "1": 12
+      },
+      "oecd-development_taxation": {
+        "1": 14
+      },
+      "oecd-beps": {
+        "1": 21
+      }
+    },
+    ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "oecd-global_forum": {
+        "15114": 1
+      },
+      "oecd-development_taxation": {
+        "15114": 1
+      },
+      "oecd-beps": {
+        "15114": 1
+      }
+    },
+    ".//sector/@vocabulary": {
+      "oecd-global_forum": {
+        "1": 1
+      },
+      "oecd-development_taxation": {
+        "1": 1
+      },
+      "oecd-beps": {
+        "1": 1
+      }
+    },
+    ".//transaction/transaction-type/@code": {
+      "oecd-global_forum": {
+        "1": 1,
+        "4": 1
+      },
+      "oecd-development_taxation": {
+        "1": 2,
+        "4": 1
+      },
+      "oecd-beps": {
+        "1": 4,
+        "4": 3
+      }
+    },
+    ".//@xml:lang": {
+      "oecd-global_forum": {
+        "en": 27
+      },
+      "oecd-development_taxation": {
+        "en": 33
+      },
+      "oecd-beps": {
+        "en": 43
+      }
+    }
+  }
+}

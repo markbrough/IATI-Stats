@@ -1,0 +1,577 @@
+{
+  ".//@default-currency": {
+    "EUR": {
+      "st_vluchteling-activities": 50
+    }
+  },
+  ".//@xml:lang": {
+    "en": {
+      "st_vluchteling-activities": 184
+    },
+    "nl": {
+      "st_vluchteling-activities": 58
+    }
+  },
+  ".//activity-date/@type": {
+    "2": {
+      "st_vluchteling-activities": 50
+    },
+    "3": {
+      "st_vluchteling-activities": 27
+    },
+    "4": {
+      "st_vluchteling-activities": 28
+    },
+    "1": {
+      "st_vluchteling-activities": 1
+    }
+  },
+  ".//activity-status/@code": {
+    "4": {
+      "st_vluchteling-activities": 10
+    },
+    "3": {
+      "st_vluchteling-activities": 24
+    },
+    "2": {
+      "st_vluchteling-activities": 16
+    }
+  },
+  ".//budget/@status": {
+    "2": {
+      "st_vluchteling-activities": 62
+    },
+    "1": {
+      "st_vluchteling-activities": 4
+    }
+  },
+  ".//budget/@type": {
+    "1": {
+      "st_vluchteling-activities": 44
+    },
+    "2": {
+      "st_vluchteling-activities": 17
+    }
+  },
+  ".//budget/value/@currency": {
+    "EUR": {
+      "st_vluchteling-activities": 52
+    }
+  },
+  ".//collaboration-type/@code": {
+    "1": {
+      "st_vluchteling-activities": 50
+    }
+  },
+  ".//contact-info/@type": {
+    "1": {
+      "st_vluchteling-activities": 24
+    },
+    "2": {
+      "st_vluchteling-activities": 8
+    }
+  },
+  ".//default-aid-type/@vocabulary": {
+    "1": {
+      "st_vluchteling-activities": 21
+    }
+  },
+  ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "B03": {
+      "st_vluchteling-activities": 10
+    },
+    "C01": {
+      "st_vluchteling-activities": 40
+    }
+  },
+  ".//default-finance-type/@code": {
+    "110": {
+      "st_vluchteling-activities": 50
+    }
+  },
+  ".//default-flow-type/@code": {
+    "20": {
+      "st_vluchteling-activities": 10
+    },
+    "30": {
+      "st_vluchteling-activities": 40
+    }
+  },
+  ".//default-tied-status/@code": {
+    "5": {
+      "st_vluchteling-activities": 50
+    }
+  },
+  ".//description/@type": {
+    "1": {
+      "st_vluchteling-activities": 48
+    },
+    "2": {
+      "st_vluchteling-activities": 35
+    },
+    "3": {
+      "st_vluchteling-activities": 12
+    },
+    "4": {
+      "st_vluchteling-activities": 1
+    }
+  },
+  ".//document-link/@format": {
+    "application/pdf": {
+      "st_vluchteling-activities": 6
+    },
+    "application/http": {
+      "st_vluchteling-activities": 1
+    }
+  },
+  ".//document-link/category/@code": {
+    "B01": {
+      "st_vluchteling-activities": 2
+    },
+    "A07": {
+      "st_vluchteling-activities": 4
+    },
+    "A08": {
+      "st_vluchteling-activities": 1
+    }
+  },
+  ".//document-link/language/@code": {
+    "en": {
+      "st_vluchteling-activities": 3
+    }
+  },
+  ".//humanitarian-scope/@type": {
+    "2": {
+      "st_vluchteling-activities": 7
+    },
+    "1": {
+      "st_vluchteling-activities": 7
+    }
+  },
+  ".//humanitarian-scope/@vocabulary": {
+    "2-1": {
+      "st_vluchteling-activities": 8
+    },
+    "1-2": {
+      "st_vluchteling-activities": 5
+    },
+    "99": {
+      "st_vluchteling-activities": 1
+    }
+  },
+  ".//humanitarian-scope[@vocabulary = '1-2']/@code": {
+    "OT-2014-000001-SSD": {
+      "st_vluchteling-activities": 1
+    },
+    "OT-2008-000196-SOM": {
+      "st_vluchteling-activities": 1
+    },
+    "OT-2011-000025-SYR": {
+      "st_vluchteling-activities": 1
+    },
+    "OT-2016-000069-IRQ": {
+      "st_vluchteling-activities": 1
+    },
+    "DR-2018-000052-AFG": {
+      "st_vluchteling-activities": 1
+    }
+  },
+  ".//humanitarian-scope[@vocabulary = '2-1']/@code": {
+    "HNGA15": {
+      "st_vluchteling-activities": 1
+    },
+    "HNGA16": {
+      "st_vluchteling-activities": 1
+    },
+    "FAFG16": {
+      "st_vluchteling-activities": 1
+    },
+    "HNGA17": {
+      "st_vluchteling-activities": 1
+    },
+    "HAFG17": {
+      "st_vluchteling-activities": 1
+    },
+    "HRP 2018": {
+      "st_vluchteling-activities": 1
+    },
+    "HRP 2019": {
+      "st_vluchteling-activities": 1
+    },
+    "HRP 2020": {
+      "st_vluchteling-activities": 1
+    }
+  },
+  ".//location/administrative/@vocabulary": {
+    "G1": {
+      "st_vluchteling-activities": 6
+    }
+  },
+  ".//location/exactness/@code": {
+    "2": {
+      "st_vluchteling-activities": 14
+    }
+  },
+  ".//location/feature-designation/@code": {
+    "ADM1H": {
+      "st_vluchteling-activities": 2
+    },
+    "ADM1": {
+      "st_vluchteling-activities": 1
+    }
+  },
+  ".//location/location-class/@code": {
+    "1": {
+      "st_vluchteling-activities": 8
+    }
+  },
+  ".//location/location-id/@vocabulary": {
+    "A4": {
+      "st_vluchteling-activities": 1
+    },
+    "A1": {
+      "st_vluchteling-activities": 2
+    },
+    "G1": {
+      "st_vluchteling-activities": 10
+    }
+  },
+  ".//location/location-reach/@code": {
+    "1": {
+      "st_vluchteling-activities": 12
+    },
+    "2": {
+      "st_vluchteling-activities": 1
+    }
+  },
+  ".//participating-org/@role": {
+    "1": {
+      "st_vluchteling-activities": 52
+    },
+    "4": {
+      "st_vluchteling-activities": 51
+    },
+    "2": {
+      "st_vluchteling-activities": 50
+    }
+  },
+  ".//participating-org/@type": {
+    "21": {
+      "st_vluchteling-activities": 142
+    },
+    "10": {
+      "st_vluchteling-activities": 2
+    },
+    "22": {
+      "st_vluchteling-activities": 4
+    },
+    "15": {
+      "st_vluchteling-activities": 1
+    },
+    "60": {
+      "st_vluchteling-activities": 2
+    }
+  },
+  ".//policy-marker/@significance": {
+    "0": {
+      "st_vluchteling-activities": 6
+    },
+    "1": {
+      "st_vluchteling-activities": 3
+    }
+  },
+  ".//policy-marker/@vocabulary": {
+    "1": {
+      "st_vluchteling-activities": 14
+    }
+  },
+  ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "1": {
+      "st_vluchteling-activities": 13
+    },
+    "9": {
+      "st_vluchteling-activities": 3
+    }
+  },
+  ".//recipient-country/@code": {
+    "CF": {
+      "st_vluchteling-activities": 6
+    },
+    "ET": {
+      "st_vluchteling-activities": 3
+    },
+    "SS": {
+      "st_vluchteling-activities": 4
+    },
+    "IQ": {
+      "st_vluchteling-activities": 3
+    },
+    "SY": {
+      "st_vluchteling-activities": 6
+    },
+    "NG": {
+      "st_vluchteling-activities": 3
+    },
+    "YE": {
+      "st_vluchteling-activities": 7
+    },
+    "AF": {
+      "st_vluchteling-activities": 5
+    },
+    "ZW": {
+      "st_vluchteling-activities": 1
+    },
+    "SO": {
+      "st_vluchteling-activities": 2
+    },
+    "JO": {
+      "st_vluchteling-activities": 1
+    },
+    "NL": {
+      "st_vluchteling-activities": 1
+    },
+    "CD": {
+      "st_vluchteling-activities": 2
+    },
+    "CM": {
+      "st_vluchteling-activities": 2
+    },
+    "BF": {
+      "st_vluchteling-activities": 1
+    },
+    "LB": {
+      "st_vluchteling-activities": 2
+    }
+  },
+  ".//recipient-region/@vocabulary": {
+    "1": {
+      "st_vluchteling-activities": 1
+    }
+  },
+  ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "998": {
+      "st_vluchteling-activities": 1
+    }
+  },
+  ".//related-activity/@type": {
+    "1": {
+      "st_vluchteling-activities": 9
+    },
+    "2": {
+      "st_vluchteling-activities": 3
+    }
+  },
+  ".//reporting-org/@type": {
+    "21": {
+      "st_vluchteling-activities": 50
+    }
+  },
+  ".//result/@type": {
+    "1": {
+      "st_vluchteling-activities": 188
+    },
+    "2": {
+      "st_vluchteling-activities": 3
+    }
+  },
+  ".//result/document-link/@format": {
+    "application/pdf": {
+      "st_vluchteling-activities": 3
+    },
+    "application/http": {
+      "st_vluchteling-activities": 1
+    }
+  },
+  ".//result/document-link/category/@code": {
+    "A07": {
+      "st_vluchteling-activities": 3
+    },
+    "A08": {
+      "st_vluchteling-activities": 1
+    }
+  },
+  ".//result/indicator/@measure": {
+    "1": {
+      "st_vluchteling-activities": 345
+    },
+    "2": {
+      "st_vluchteling-activities": 25
+    }
+  },
+  ".//result/indicator/reference/@vocabulary": {
+    "99": {
+      "st_vluchteling-activities": 251
+    }
+  },
+  ".//result/reference/@vocabulary": {
+    "99": {
+      "st_vluchteling-activities": 28
+    }
+  },
+  ".//sector/@vocabulary": {
+    "10": {
+      "st_vluchteling-activities": 62
+    },
+    "1": {
+      "st_vluchteling-activities": 74
+    }
+  },
+  ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "72010": {
+      "st_vluchteling-activities": 41
+    },
+    "72050": {
+      "st_vluchteling-activities": 17
+    },
+    "72040": {
+      "st_vluchteling-activities": 8
+    },
+    "15131": {
+      "st_vluchteling-activities": 1
+    },
+    "32130": {
+      "st_vluchteling-activities": 1
+    },
+    "99820": {
+      "st_vluchteling-activities": 1
+    },
+    "73010": {
+      "st_vluchteling-activities": 1
+    },
+    "12220": {
+      "st_vluchteling-activities": 1
+    },
+    "72011": {
+      "st_vluchteling-activities": 1
+    },
+    "13020": {
+      "st_vluchteling-activities": 1
+    },
+    "99810": {
+      "st_vluchteling-activities": 1
+    }
+  },
+  ".//sector[@vocabulary = '10']/@code": {
+    "PRO": {
+      "st_vluchteling-activities": 7
+    },
+    "FSC": {
+      "st_vluchteling-activities": 9
+    },
+    "WSH": {
+      "st_vluchteling-activities": 8
+    },
+    "Food Security and Livelihood": {
+      "st_vluchteling-activities": 1
+    },
+    "HEA": {
+      "st_vluchteling-activities": 14
+    },
+    "WASH": {
+      "st_vluchteling-activities": 1
+    },
+    "NUT": {
+      "st_vluchteling-activities": 2
+    },
+    "EDU": {
+      "st_vluchteling-activities": 1
+    },
+    "PRO-CPN": {
+      "st_vluchteling-activities": 2
+    },
+    "HEALTH": {
+      "st_vluchteling-activities": 1
+    },
+    "SHL": {
+      "st_vluchteling-activities": 2
+    },
+    "Food Security and Agriculture": {
+      "st_vluchteling-activities": 2
+    },
+    "6. Food Security": {
+      "st_vluchteling-activities": 1
+    },
+    "10. Protection": {
+      "st_vluchteling-activities": 1
+    },
+    "6 Food Security": {
+      "st_vluchteling-activities": 1
+    },
+    "11 Water Sanitation Hygiene": {
+      "st_vluchteling-activities": 1
+    },
+    "4 Emergency Shelter and NFI": {
+      "st_vluchteling-activities": 1
+    },
+    "Water and Sanitation, Hygiene": {
+      "st_vluchteling-activities": 1
+    },
+    "Shelter & NFIs": {
+      "st_vluchteling-activities": 1
+    },
+    "Multi-purpose Cash": {
+      "st_vluchteling-activities": 3
+    },
+    "Health": {
+      "st_vluchteling-activities": 1
+    },
+    "Protection": {
+      "st_vluchteling-activities": 1
+    }
+  },
+  ".//transaction/disbursement-channel/@code": {
+    "2": {
+      "st_vluchteling-activities": 6
+    }
+  },
+  ".//transaction/provider-org/@type": {
+    "21": {
+      "st_vluchteling-activities": 300
+    },
+    "10": {
+      "st_vluchteling-activities": 5
+    },
+    "22": {
+      "st_vluchteling-activities": 22
+    },
+    "11": {
+      "st_vluchteling-activities": 1
+    },
+    "15": {
+      "st_vluchteling-activities": 2
+    },
+    "60": {
+      "st_vluchteling-activities": 4
+    }
+  },
+  ".//transaction/receiver-org/@type": {
+    "21": {
+      "st_vluchteling-activities": 329
+    }
+  },
+  ".//transaction/transaction-type/@code": {
+    "1": {
+      "st_vluchteling-activities": 114
+    },
+    "4": {
+      "st_vluchteling-activities": 22
+    },
+    "3": {
+      "st_vluchteling-activities": 136
+    },
+    "11": {
+      "st_vluchteling-activities": 65
+    },
+    "2": {
+      "st_vluchteling-activities": 68
+    },
+    "7": {
+      "st_vluchteling-activities": 4
+    }
+  },
+  ".//transaction/value/@currency": {
+    "EUR": {
+      "st_vluchteling-activities": 320
+    }
+  }
+}

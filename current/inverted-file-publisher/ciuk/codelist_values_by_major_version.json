@@ -1,0 +1,709 @@
+{
+  "2": {
+    ".//@default-currency": {
+      "ciuk-fcdoactive": {
+        "GBP": 15
+      },
+      "ciuk-privatesector": {
+        "GBP": 10
+      },
+      "ciuk-fcdogec": {
+        "GBP": 9
+      },
+      "ciuk-fcdoclosed": {
+        "GBP": 67
+      },
+      "ciuk-ec_echo": {
+        "EUR": 15
+      },
+      "ciuk-newfunding": {
+        "GBP": 22,
+        "USD": 3
+      },
+      "ciuk-startfunding": {
+        "GBP": 64
+      },
+      "ciuk-dec": {
+        "GBP": 24
+      }
+    },
+    ".//activity-date/@type": {
+      "ciuk-fcdoactive": {
+        "2": 15,
+        "3": 15
+      },
+      "ciuk-privatesector": {
+        "2": 10,
+        "3": 5,
+        "4": 5
+      },
+      "ciuk-fcdogec": {
+        "2": 9,
+        "4": 4,
+        "3": 5
+      },
+      "ciuk-fcdoclosed": {
+        "2": 67,
+        "4": 67
+      },
+      "ciuk-ec_echo": {
+        "2": 15,
+        "4": 13,
+        "3": 2
+      },
+      "ciuk-newfunding": {
+        "2": 25,
+        "4": 13,
+        "3": 12
+      },
+      "ciuk-startfunding": {
+        "2": 64,
+        "4": 62,
+        "3": 2
+      },
+      "ciuk-dec": {
+        "2": 24,
+        "4": 21,
+        "3": 3
+      }
+    },
+    ".//activity-status/@code": {
+      "ciuk-fcdoactive": {
+        "2": 15
+      },
+      "ciuk-privatesector": {
+        "4": 10
+      },
+      "ciuk-fcdogec": {
+        "4": 4,
+        "2": 5
+      },
+      "ciuk-fcdoclosed": {
+        "4": 67
+      },
+      "ciuk-ec_echo": {
+        "4": 14,
+        "2": 1
+      },
+      "ciuk-newfunding": {
+        "3": 13,
+        "2": 12
+      },
+      "ciuk-startfunding": {
+        "4": 62,
+        "2": 2
+      },
+      "ciuk-dec": {
+        "4": 21,
+        "3": 3
+      }
+    },
+    ".//budget/@status": {
+      "ciuk-fcdoactive": {
+        "2": 15
+      },
+      "ciuk-privatesector": {
+        "2": 10
+      },
+      "ciuk-fcdogec": {
+        "2": 9
+      },
+      "ciuk-fcdoclosed": {
+        "2": 67
+      },
+      "ciuk-ec_echo": {
+        "2": 15
+      },
+      "ciuk-newfunding": {
+        "2": 25
+      },
+      "ciuk-startfunding": {
+        "2": 64
+      },
+      "ciuk-dec": {
+        "2": 24
+      }
+    },
+    ".//budget/@type": {
+      "ciuk-fcdoactive": {
+        "1": 15
+      },
+      "ciuk-privatesector": {
+        "1": 10
+      },
+      "ciuk-fcdogec": {
+        "1": 9
+      },
+      "ciuk-fcdoclosed": {
+        "1": 67
+      },
+      "ciuk-ec_echo": {
+        "1": 15
+      },
+      "ciuk-newfunding": {
+        "1": 25
+      },
+      "ciuk-startfunding": {
+        "1": 64
+      },
+      "ciuk-dec": {
+        "1": 24
+      }
+    },
+    ".//budget/value/@currency": {
+      "ciuk-fcdoactive": {
+        "GBP": 15
+      },
+      "ciuk-privatesector": {
+        "GBP": 10
+      },
+      "ciuk-fcdogec": {
+        "GBP": 9
+      },
+      "ciuk-fcdoclosed": {
+        "GBP": 67
+      },
+      "ciuk-ec_echo": {
+        "EUR": 15
+      },
+      "ciuk-newfunding": {
+        "GBP": 22,
+        "USD": 3
+      },
+      "ciuk-startfunding": {
+        "GBP": 64
+      },
+      "ciuk-dec": {
+        "GBP": 24
+      }
+    },
+    ".//collaboration-type/@code": {
+      "ciuk-fcdoactive": {
+        "4": 15
+      },
+      "ciuk-privatesector": {
+        "4": 10
+      },
+      "ciuk-fcdogec": {
+        "4": 9
+      },
+      "ciuk-fcdoclosed": {
+        "4": 67
+      },
+      "ciuk-ec_echo": {
+        "4": 15
+      },
+      "ciuk-newfunding": {
+        "4": 25
+      },
+      "ciuk-startfunding": {
+        "4": 64
+      },
+      "ciuk-dec": {
+        "4": 24
+      }
+    },
+    ".//contact-info/@type": {
+      "ciuk-fcdoactive": {
+        "1": 15
+      },
+      "ciuk-privatesector": {
+        "1": 10
+      },
+      "ciuk-fcdogec": {
+        "1": 9
+      },
+      "ciuk-fcdoclosed": {
+        "1": 67
+      },
+      "ciuk-ec_echo": {
+        "1": 15
+      },
+      "ciuk-newfunding": {
+        "1": 25
+      },
+      "ciuk-startfunding": {
+        "1": 64
+      },
+      "ciuk-dec": {
+        "1": 24
+      }
+    },
+    ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "ciuk-fcdoactive": {
+        "B03": 15
+      },
+      "ciuk-privatesector": {
+        "B03": 10
+      },
+      "ciuk-fcdogec": {
+        "B03": 9
+      },
+      "ciuk-fcdoclosed": {
+        "B03": 67
+      },
+      "ciuk-ec_echo": {
+        "B03": 15
+      },
+      "ciuk-newfunding": {
+        "B03": 25
+      },
+      "ciuk-startfunding": {
+        "B03": 64
+      },
+      "ciuk-dec": {
+        "B03": 24
+      }
+    },
+    ".//default-finance-type/@code": {
+      "ciuk-fcdoactive": {
+        "110": 15
+      },
+      "ciuk-privatesector": {
+        "110": 10
+      },
+      "ciuk-fcdogec": {
+        "110": 9
+      },
+      "ciuk-fcdoclosed": {
+        "110": 67
+      },
+      "ciuk-ec_echo": {
+        "110": 15
+      },
+      "ciuk-newfunding": {
+        "110": 25
+      },
+      "ciuk-startfunding": {
+        "110": 64
+      },
+      "ciuk-dec": {
+        "110": 24
+      }
+    },
+    ".//default-flow-type/@code": {
+      "ciuk-fcdoactive": {
+        "10": 15
+      },
+      "ciuk-privatesector": {
+        "10": 10
+      },
+      "ciuk-fcdogec": {
+        "10": 9
+      },
+      "ciuk-fcdoclosed": {
+        "10": 67
+      },
+      "ciuk-ec_echo": {
+        "10": 15
+      },
+      "ciuk-newfunding": {
+        "10": 25
+      },
+      "ciuk-startfunding": {
+        "10": 64
+      },
+      "ciuk-dec": {
+        "10": 24
+      }
+    },
+    ".//default-tied-status/@code": {
+      "ciuk-fcdoactive": {
+        "4": 15
+      },
+      "ciuk-privatesector": {
+        "4": 10
+      },
+      "ciuk-fcdogec": {
+        "4": 9
+      },
+      "ciuk-fcdoclosed": {
+        "4": 67
+      },
+      "ciuk-ec_echo": {
+        "4": 15
+      },
+      "ciuk-newfunding": {
+        "4": 25
+      },
+      "ciuk-startfunding": {
+        "4": 64
+      },
+      "ciuk-dec": {
+        "4": 24
+      }
+    },
+    ".//participating-org/@role": {
+      "ciuk-fcdoactive": {
+        "1": 15,
+        "2": 16,
+        "4": 47
+      },
+      "ciuk-privatesector": {
+        "1": 11,
+        "2": 10,
+        "4": 24
+      },
+      "ciuk-fcdogec": {
+        "1": 9,
+        "2": 9,
+        "4": 27
+      },
+      "ciuk-fcdoclosed": {
+        "1": 67,
+        "2": 67,
+        "4": 146
+      },
+      "ciuk-ec_echo": {
+        "1": 15,
+        "2": 15,
+        "4": 36
+      },
+      "ciuk-newfunding": {
+        "1": 25,
+        "2": 25,
+        "4": 45
+      },
+      "ciuk-startfunding": {
+        "1": 64,
+        "3": 50,
+        "4": 134,
+        "2": 16
+      },
+      "ciuk-dec": {
+        "1": 24,
+        "2": 24,
+        "4": 48
+      }
+    },
+    ".//participating-org/@type": {
+      "ciuk-fcdoactive": {
+        "10": 15,
+        "21": 37,
+        "22": 21,
+        "70": 5
+      },
+      "ciuk-privatesector": {
+        "70": 10,
+        "21": 20,
+        "22": 14,
+        "10": 1
+      },
+      "ciuk-fcdogec": {
+        "10": 9,
+        "21": 20,
+        "22": 16
+      },
+      "ciuk-fcdoclosed": {
+        "10": 67,
+        "21": 139,
+        "22": 74
+      },
+      "ciuk-ec_echo": {
+        "15": 15,
+        "21": 37,
+        "22": 14
+      },
+      "ciuk-newfunding": {
+        "60": 9,
+        "21": 50,
+        "22": 20,
+        "10": 7,
+        "15": 6,
+        "40": 2,
+        "80": 1
+      },
+      "ciuk-startfunding": {
+        "10": 64,
+        "21": 136,
+        "22": 64
+      },
+      "ciuk-dec": {
+        "15": 24,
+        "21": 48,
+        "22": 24
+      }
+    },
+    ".//recipient-country/@code": {
+      "ciuk-fcdoactive": {
+        "SO": 1,
+        "SY": 1,
+        "GB": 1,
+        "NP": 3,
+        "KE": 2,
+        "TZ": 2,
+        "ET": 1,
+        "MW": 1,
+        "ML": 1,
+        "YE": 1,
+        "AF": 1
+      },
+      "ciuk-privatesector": {
+        "GB": 3,
+        "NP": 2,
+        "LK": 1,
+        "ZM": 2,
+        "BD": 2
+      },
+      "ciuk-fcdogec": {
+        "ZW": 2,
+        "AF": 3,
+        "SO": 3,
+        "ET": 1
+      },
+      "ciuk-fcdoclosed": {
+        "BJ": 1,
+        "NP": 6,
+        "IN": 3,
+        "GB": 7,
+        "KE": 5,
+        "YE": 3,
+        "ZM": 2,
+        "UG": 1,
+        "SL": 2,
+        "RW": 2,
+        "BD": 8,
+        "ML": 1,
+        "SY": 1,
+        "JO": 5,
+        "PH": 2,
+        "PS": 2,
+        "HT": 2,
+        "NE": 1,
+        "VU": 1,
+        "ZW": 2,
+        "CD": 1,
+        "MZ": 4,
+        "MW": 1,
+        "ET": 1,
+        "SO": 2,
+        "RS": 1
+      },
+      "ciuk-ec_echo": {
+        "TR": 2,
+        "AF": 1,
+        "ET": 1,
+        "BD": 1,
+        "PK": 2,
+        "SY": 1,
+        "SD": 2,
+        "UG": 2,
+        "MW": 1,
+        "SS": 1,
+        "TO": 1
+      },
+      "ciuk-newfunding": {
+        "ZM": 2,
+        "GH": 1,
+        "YE": 4,
+        "GT": 1,
+        "RW": 1,
+        "ID": 1,
+        "CI": 1,
+        "GB": 9,
+        "MZ": 1,
+        "PS": 1,
+        "IN": 1,
+        "BD": 2
+      },
+      "ciuk-startfunding": {
+        "BD": 4,
+        "LK": 1,
+        "CM": 2,
+        "BI": 2,
+        "ML": 1,
+        "IN": 6,
+        "MM": 1,
+        "HR": 1,
+        "SY": 1,
+        "SO": 1,
+        "MW": 1,
+        "EC": 2,
+        "NE": 1,
+        "TD": 3,
+        "GB": 1,
+        "AF": 1,
+        "RS": 2,
+        "PE": 3,
+        "TL": 2,
+        "SL": 2,
+        "VN": 1,
+        "TO": 2,
+        "ET": 2,
+        "SD": 2,
+        "UG": 1,
+        "HN": 2,
+        "PH": 3,
+        "YE": 3,
+        "NG": 1,
+        "IQ": 1,
+        "VU": 1,
+        "LA": 1,
+        "CD": 2,
+        "TG": 1,
+        "NP": 1,
+        "GT": 1,
+        "PK": 1
+      },
+      "ciuk-dec": {
+        "HT": 1,
+        "PK": 1,
+        "JO": 2,
+        "PH": 2,
+        "PS": 2,
+        "SL": 2,
+        "NP": 2,
+        "SO": 1,
+        "YE": 2,
+        "SS": 2,
+        "BD": 2,
+        "ID": 2,
+        "MZ": 2,
+        "SY": 1
+      }
+    },
+    ".//reporting-org/@type": {
+      "ciuk-fcdoactive": {
+        "21": 15
+      },
+      "ciuk-privatesector": {
+        "21": 10
+      },
+      "ciuk-fcdogec": {
+        "21": 9
+      },
+      "ciuk-fcdoclosed": {
+        "21": 67
+      },
+      "ciuk-ec_echo": {
+        "21": 15
+      },
+      "ciuk-newfunding": {
+        "21": 25
+      },
+      "ciuk-startfunding": {
+        "21": 64
+      },
+      "ciuk-dec": {
+        "21": 24
+      }
+    },
+    ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "ciuk-fcdoactive": {
+        "15170": 3,
+        "72050": 5,
+        "14020": 1,
+        "52010": 4,
+        "13020": 1,
+        "15150": 1
+      },
+      "ciuk-privatesector": {
+        "12220": 2,
+        "15150": 1,
+        "15170": 3,
+        "72010": 3,
+        "14020": 1
+      },
+      "ciuk-fcdogec": {
+        "11120": 9
+      },
+      "ciuk-fcdoclosed": {
+        "72050": 29,
+        "15150": 9,
+        "13020": 6,
+        "52010": 12,
+        "72010": 2,
+        "15170": 2,
+        "11120": 1,
+        "74010": 2,
+        "15180": 2,
+        "14020": 2
+      },
+      "ciuk-ec_echo": {
+        "72050": 6,
+        "15150": 1,
+        "52010": 3,
+        "74010": 2,
+        "72010": 1,
+        "14020": 1,
+        "15180": 1
+      },
+      "ciuk-newfunding": {
+        "14020": 3,
+        "15170": 3,
+        "13020": 1,
+        "15180": 1,
+        "15150": 6,
+        "72050": 8,
+        "43010": 1,
+        "52010": 2
+      },
+      "ciuk-startfunding": {
+        "72050": 64
+      },
+      "ciuk-dec": {
+        "72050": 24
+      }
+    },
+    ".//transaction/transaction-type/@code": {
+      "ciuk-fcdoactive": {
+        "1": 120,
+        "3": 161
+      },
+      "ciuk-privatesector": {
+        "3": 38
+      },
+      "ciuk-fcdogec": {
+        "1": 87,
+        "3": 95
+      },
+      "ciuk-fcdoclosed": {
+        "1": 196,
+        "3": 311
+      },
+      "ciuk-ec_echo": {
+        "1": 43,
+        "3": 104
+      },
+      "ciuk-newfunding": {
+        "1": 53,
+        "3": 64
+      },
+      "ciuk-startfunding": {
+        "3": 74,
+        "1": 72
+      },
+      "ciuk-dec": {
+        "1": 20,
+        "3": 20
+      }
+    },
+    ".//transaction/value/@currency": {
+      "ciuk-fcdoactive": {
+        "GBP": 281
+      },
+      "ciuk-privatesector": {
+        "GBP": 38
+      },
+      "ciuk-fcdogec": {
+        "GBP": 182
+      },
+      "ciuk-fcdoclosed": {
+        "GBP": 507
+      },
+      "ciuk-ec_echo": {
+        "EUR": 147
+      },
+      "ciuk-newfunding": {
+        "GBP": 104,
+        "USD": 13
+      },
+      "ciuk-startfunding": {
+        "GBP": 146
+      },
+      "ciuk-dec": {
+        "GBP": 40
+      }
+    }
+  }
+}
