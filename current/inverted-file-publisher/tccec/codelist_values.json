@@ -1,0 +1,113 @@
+{
+  ".//@default-currency": {
+    "GBP": {
+      "tccec-activities": 1
+    }
+  },
+  ".//@xml:lang": {
+    "en": {
+      "tccec-activities": 2
+    }
+  },
+  ".//activity-date/@type": {
+    "start-actual": {
+      "tccec-activities": 1
+    },
+    "end-planned": {
+      "tccec-activities": 1
+    }
+  },
+  ".//activity-status/@code": {
+    "2": {
+      "tccec-activities": 1
+    }
+  },
+  ".//budget/@type": {
+    "1": {
+      "tccec-activities": 3
+    }
+  },
+  ".//default-aid-type/@code": {
+    "C01": {
+      "tccec-activities": 1
+    }
+  },
+  ".//default-finance-type/@code": {
+    "110": {
+      "tccec-activities": 1
+    }
+  },
+  ".//default-flow-type/@code": {
+    "10": {
+      "tccec-activities": 1
+    }
+  },
+  ".//default-tied-status/@code": {
+    "5": {
+      "tccec-activities": 1
+    }
+  },
+  ".//description/@type": {
+    "1": {
+      "tccec-activities": 1
+    }
+  },
+  ".//participating-org/@role": {
+    "Funding": {
+      "tccec-activities": 1
+    },
+    "Accountable": {
+      "tccec-activities": 1
+    },
+    "Implementing": {
+      "tccec-activities": 2
+    }
+  },
+  ".//participating-org/@type": {
+    "10": {
+      "tccec-activities": 1
+    },
+    "70": {
+      "tccec-activities": 2
+    },
+    "21": {
+      "tccec-activities": 1
+    }
+  },
+  ".//recipient-country/@code": {
+    "NG": {
+      "tccec-activities": 1
+    }
+  },
+  ".//reporting-org/@type": {
+    "70": {
+      "tccec-activities": 1
+    }
+  },
+  ".//sector/@vocabulary": {
+    "DAC": {
+      "tccec-activities": 1
+    }
+  },
+  ".//sector[@vocabulary = 'DAC' or not(@vocabulary)]/@code": {
+    "11330": {
+      "tccec-activities": 1
+    }
+  },
+  ".//transaction/disbursement-channel/@code": {
+    "2": {
+      "tccec-activities": 3
+    }
+  },
+  ".//transaction/transaction-type/@code": {
+    "D": {
+      "tccec-activities": 4
+    },
+    "C": {
+      "tccec-activities": 1
+    },
+    "IF": {
+      "tccec-activities": 2
+    }
+  }
+}

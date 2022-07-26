@@ -1,0 +1,56 @@
+{
+  ".//@default-currency": {
+    "AUD": 4
+  },
+  ".//@xml:lang": {
+    "en": 5
+  },
+  ".//activity-date/@type": {
+    "start-planned": 4,
+    "end-planned": 4,
+    "start-actual": 4,
+    "end-actual": 3
+  },
+  ".//activity-status/@code": {
+    "2": 2,
+    "3": 2
+  },
+  ".//budget/@type": {
+    "1": 1
+  },
+  ".//budget/value/@currency": {
+    "AUD": 1
+  },
+  ".//collaboration-type/@code": {
+    "1": 4
+  },
+  ".//default-aid-type/@code": {
+    "A02": 4
+  },
+  ".//default-finance-type/@code": {
+    "110": 4
+  },
+  ".//default-flow-type/@code": {
+    "10": 4
+  },
+  ".//description/@type": {
+    "2": 4
+  },
+  ".//recipient-country/@code": {
+    "GE": 4
+  },
+  ".//reporting-org/@type": {
+    "10": 4
+  },
+  ".//sector[@vocabulary = 'DAC' or not(@vocabulary)]/@code": {
+    "11220": 1,
+    "43010": 3
+  },
+  ".//transaction/flow-type/@code": {
+    "10": 8
+  },
+  ".//transaction/transaction-type/@code": {
+    "E": 4,
+    "2": 4
+  }
+}

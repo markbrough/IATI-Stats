@@ -1,0 +1,81 @@
+{
+  ".//@default-currency": {
+    "USD": 1
+  },
+  ".//@xml:lang": {
+    "en": 13
+  },
+  ".//activity-date/@type": {
+    "start-actual": 1,
+    "end-planned": 2
+  },
+  ".//activity-status/@code": {
+    "4": 1
+  },
+  ".//budget/@type": {
+    "2": 1
+  },
+  ".//budget/value/@currency": {
+    "USD": 1
+  },
+  ".//collaboration-type/@code": {
+    "1": 1
+  },
+  ".//default-aid-type/@code": {
+    "B03": 1
+  },
+  ".//default-finance-type/@code": {
+    "110": 1
+  },
+  ".//default-flow-type/@code": {
+    "10": 1
+  },
+  ".//default-tied-status/@code": {
+    "3": 1
+  },
+  ".//description/@type": {
+    "1": 1
+  },
+  ".//participating-org/@role": {
+    "Funding": 1,
+    "Accountable": 1,
+    "Implementing": 1
+  },
+  ".//participating-org/@type": {
+    "10": 2,
+    "21": 1
+  },
+  ".//recipient-country/@code": {
+    "GH": 1
+  },
+  ".//reporting-org/@type": {
+    "21": 1
+  },
+  ".//sector/@vocabulary": {
+    "DAC": 1
+  },
+  ".//sector[@vocabulary = 'DAC' or not(@vocabulary)]/@code": {
+    "11220": 1
+  },
+  ".//transaction/aid-type/@code": {
+    "B03": 1
+  },
+  ".//transaction/disbursement-channel/@code": {
+    "1": 1
+  },
+  ".//transaction/finance-type/@code": {
+    "110": 1
+  },
+  ".//transaction/flow-type/@code": {
+    "10": 1
+  },
+  ".//transaction/tied-status/@code": {
+    "3": 1
+  },
+  ".//transaction/transaction-type/@code": {
+    "IF": 1
+  },
+  ".//transaction/value/@currency": {
+    "USD": 1
+  }
+}

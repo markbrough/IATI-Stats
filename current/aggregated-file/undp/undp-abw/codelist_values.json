@@ -1,0 +1,116 @@
+{
+  ".//@default-currency": {
+    "USD": 4
+  },
+  ".//@xml:lang": {
+    "es": 4
+  },
+  ".//activity-date/@type": {
+    "1": 4,
+    "2": 4,
+    "3": 4
+  },
+  ".//activity-status/@code": {
+    "2": 4
+  },
+  ".//budget/@status": {
+    "2": 4
+  },
+  ".//budget/@type": {
+    "2": 4
+  },
+  ".//budget/value/@currency": {
+    "USD": 4
+  },
+  ".//collaboration-type/@code": {
+    "4": 4
+  },
+  ".//contact-info/@type": {
+    "1": 4
+  },
+  ".//country-budget-items/@vocabulary": {
+    "1": 2
+  },
+  ".//country-budget-items/budget-item[../@vocabulary = '1']/@code": {
+    "2.1.8": 1,
+    "5.4.11": 1
+  },
+  ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "C01": 4
+  },
+  ".//default-finance-type/@code": {
+    "110": 4
+  },
+  ".//default-flow-type/@code": {
+    "10": 4
+  },
+  ".//default-tied-status/@code": {
+    "3": 4
+  },
+  ".//description/@type": {
+    "1": 4
+  },
+  ".//document-link/@format": {
+    "text/html": 6
+  },
+  ".//document-link/category/@code": {
+    "A10": 2,
+    "A11": 2,
+    "A12": 4
+  },
+  ".//document-link/language/@code": {
+    "en": 4
+  },
+  ".//participating-org/@role": {
+    "4": 2,
+    "2": 2,
+    "1": 4
+  },
+  ".//participating-org/@type": {
+    "40": 7,
+    "10": 1
+  },
+  ".//policy-marker/@significance": {
+    "0": 2
+  },
+  ".//policy-marker/@vocabulary": {
+    "1": 2
+  },
+  ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "1": 2
+  },
+  ".//recipient-country/@code": {
+    "AW": 4
+  },
+  ".//related-activity/@type": {
+    "2": 2,
+    "1": 2
+  },
+  ".//reporting-org/@type": {
+    "40": 4
+  },
+  ".//sector/@vocabulary": {
+    "1": 4,
+    "99": 2
+  },
+  ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "15113": 2,
+    "74010": 2
+  },
+  ".//transaction/disbursement-channel/@code": {
+    "2": 8
+  },
+  ".//transaction/provider-org/@type": {
+    "40": 4
+  },
+  ".//transaction/receiver-org/@type": {
+    "40": 4
+  },
+  ".//transaction/transaction-type/@code": {
+    "4": 4,
+    "11": 4
+  },
+  ".//transaction/value/@currency": {
+    "USD": 8
+  }
+}

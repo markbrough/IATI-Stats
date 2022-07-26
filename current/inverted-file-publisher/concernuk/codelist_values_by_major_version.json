@@ -1,0 +1,780 @@
+{
+  "2": {
+    ".//@default-currency": {
+      "concernuk-zm": {
+        "GBP": 1
+      },
+      "concernuk-998": {
+        "GBP": 2
+      },
+      "concernuk-pk": {
+        "GBP": 1
+      },
+      "concernuk-et": {
+        "GBP": 1
+      },
+      "concernuk-tz": {
+        "GBP": 1
+      },
+      "concernuk-np": {
+        "GBP": 1
+      },
+      "concernuk-sl": {
+        "GBP": 2
+      }
+    },
+    ".//activity-date/@type": {
+      "concernuk-zm": {
+        "2": 1,
+        "3": 1
+      },
+      "concernuk-998": {
+        "2": 2,
+        "3": 2
+      },
+      "concernuk-pk": {
+        "2": 1
+      },
+      "concernuk-et": {
+        "2": 1
+      },
+      "concernuk-tz": {
+        "2": 1
+      },
+      "concernuk-np": {
+        "2": 1,
+        "3": 1
+      },
+      "concernuk-sl": {
+        "2": 2,
+        "3": 2
+      }
+    },
+    ".//activity-status/@code": {
+      "concernuk-zm": {
+        "2": 1
+      },
+      "concernuk-998": {
+        "2": 2
+      },
+      "concernuk-pk": {
+        "2": 1
+      },
+      "concernuk-et": {
+        "2": 1
+      },
+      "concernuk-tz": {
+        "2": 1
+      },
+      "concernuk-np": {
+        "2": 1
+      },
+      "concernuk-sl": {
+        "2": 2
+      }
+    },
+    ".//budget/@type": {
+      "concernuk-zm": {
+        "1": 1
+      },
+      "concernuk-998": {
+        "1": 4
+      },
+      "concernuk-pk": {
+        "1": 1
+      },
+      "concernuk-et": {
+        "2": 1
+      },
+      "concernuk-tz": {
+        "2": 4
+      },
+      "concernuk-np": {
+        "1": 1
+      },
+      "concernuk-sl": {
+        "1": 4
+      }
+    },
+    ".//collaboration-type/@code": {
+      "concernuk-zm": {
+        "2": 1
+      },
+      "concernuk-998": {
+        "2": 1
+      },
+      "concernuk-pk": {
+        "2": 1
+      },
+      "concernuk-et": {
+        "2": 1
+      },
+      "concernuk-tz": {
+        "2": 1
+      },
+      "concernuk-np": {
+        "2": 1
+      },
+      "concernuk-sl": {
+        "2": 1
+      }
+    },
+    ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "concernuk-zm": {
+        "C01": 1
+      },
+      "concernuk-998": {
+        "C01": 1
+      },
+      "concernuk-pk": {
+        "C01": 1
+      },
+      "concernuk-et": {
+        "C01": 1
+      },
+      "concernuk-tz": {
+        "C01": 1
+      },
+      "concernuk-np": {
+        "C01": 1
+      },
+      "concernuk-sl": {
+        "C01": 1
+      }
+    },
+    ".//default-finance-type/@code": {
+      "concernuk-zm": {
+        "110": 1
+      },
+      "concernuk-998": {
+        "110": 1
+      },
+      "concernuk-pk": {
+        "110": 1
+      },
+      "concernuk-et": {
+        "110": 1
+      },
+      "concernuk-tz": {
+        "110": 1
+      },
+      "concernuk-np": {
+        "110": 1
+      },
+      "concernuk-sl": {
+        "110": 1
+      }
+    },
+    ".//default-flow-type/@code": {
+      "concernuk-zm": {
+        "50": 1
+      },
+      "concernuk-998": {
+        "50": 1
+      },
+      "concernuk-pk": {
+        "50": 1
+      },
+      "concernuk-et": {
+        "50": 1
+      },
+      "concernuk-tz": {
+        "50": 1
+      },
+      "concernuk-np": {
+        "50": 1
+      },
+      "concernuk-sl": {
+        "50": 1
+      }
+    },
+    ".//default-tied-status/@code": {
+      "concernuk-zm": {
+        "3": 1
+      },
+      "concernuk-998": {
+        "3": 1
+      },
+      "concernuk-pk": {
+        "3": 1
+      },
+      "concernuk-et": {
+        "3": 1
+      },
+      "concernuk-tz": {
+        "3": 1
+      },
+      "concernuk-np": {
+        "3": 1
+      },
+      "concernuk-sl": {
+        "3": 1
+      }
+    },
+    ".//description/@type": {
+      "concernuk-zm": {
+        "1": 1
+      },
+      "concernuk-998": {
+        "1": 2
+      },
+      "concernuk-pk": {
+        "1": 1
+      },
+      "concernuk-et": {
+        "1": 1
+      },
+      "concernuk-tz": {
+        "1": 1
+      },
+      "concernuk-np": {
+        "1": 1
+      },
+      "concernuk-sl": {
+        "1": 2
+      }
+    },
+    ".//document-link/@format": {
+      "concernuk-zm": {
+        "application/msword": 1,
+        "application/vnd.ms-excel": 2,
+        "text/html": 1
+      },
+      "concernuk-998": {
+        "application/msword": 1,
+        "application/mbms-reception-report+xml": 1
+      },
+      "concernuk-pk": {
+        "application/msword": 3,
+        "application/vnd.ms-excel": 3,
+        "text/html": 1
+      },
+      "concernuk-et": {
+        "application/rtf": 4,
+        "text/html": 1
+      },
+      "concernuk-tz": {
+        "application/msword": 3,
+        "text/html": 1,
+        "application/vnd.oma.poc.final-report+xml": 4
+      },
+      "concernuk-sl": {
+        "application/msword": 1,
+        "application/mbms-reception-report+xml": 1
+      }
+    },
+    ".//document-link/category/@code": {
+      "concernuk-zm": {
+        "A02": 1,
+        "A08": 1,
+        "A05": 1,
+        "A12": 1
+      },
+      "concernuk-998": {
+        "A02": 2
+      },
+      "concernuk-pk": {
+        "B01": 1,
+        "A02": 4,
+        "A05": 1,
+        "A12": 1
+      },
+      "concernuk-et": {
+        "B01": 3,
+        "A02": 1,
+        "A12": 1
+      },
+      "concernuk-tz": {
+        "A02": 2,
+        "B01": 2,
+        "A12": 1,
+        "A01": 1,
+        "A08": 1,
+        "A05": 1
+      },
+      "concernuk-sl": {
+        "A02": 2
+      }
+    },
+    ".//document-link/language/@code": {
+      "concernuk-zm": {
+        "en": 4
+      },
+      "concernuk-998": {
+        "en": 1
+      },
+      "concernuk-pk": {
+        "en": 7
+      },
+      "concernuk-et": {
+        "en": 5
+      },
+      "concernuk-tz": {
+        "en": 5
+      },
+      "concernuk-sl": {
+        "en": 1
+      }
+    },
+    ".//location/administrative/@vocabulary": {
+      "concernuk-zm": {
+        "A4": 1
+      },
+      "concernuk-998": {
+        "A4": 1
+      },
+      "concernuk-pk": {
+        "A4": 1
+      },
+      "concernuk-tz": {
+        "A4": 1
+      },
+      "concernuk-sl": {
+        "A4": 1
+      }
+    },
+    ".//location/administrative[@vocabulary = 'A4']/@code": {
+      "concernuk-zm": {
+        "ISO 3166-2:ZM": 1
+      },
+      "concernuk-998": {
+        "ISO 3166-2:SL": 1
+      },
+      "concernuk-pk": {
+        "ISO 3166-2:PK": 1
+      },
+      "concernuk-tz": {
+        "ISO 3166-2:TZ": 1
+      },
+      "concernuk-sl": {
+        "ISO 3166-2:SL": 1
+      }
+    },
+    ".//location/feature-designation/@code": {
+      "concernuk-zm": {
+        "ADMD": 1
+      },
+      "concernuk-998": {
+        "ADMD": 1
+      },
+      "concernuk-pk": {
+        "ADMD": 1
+      },
+      "concernuk-tz": {
+        "ADMD": 1
+      },
+      "concernuk-sl": {
+        "ADMD": 1
+      }
+    },
+    ".//location/location-class/@code": {
+      "concernuk-zm": {
+        "1": 1
+      },
+      "concernuk-998": {
+        "1": 1
+      },
+      "concernuk-pk": {
+        "1": 1
+      },
+      "concernuk-tz": {
+        "1": 1
+      },
+      "concernuk-sl": {
+        "1": 1
+      }
+    },
+    ".//location/location-id/@vocabulary": {
+      "concernuk-zm": {
+        "A4": 1
+      },
+      "concernuk-998": {
+        "A4": 1
+      },
+      "concernuk-pk": {
+        "A4": 1
+      },
+      "concernuk-tz": {
+        "A4": 1
+      },
+      "concernuk-np": {
+        "A4": 1
+      },
+      "concernuk-sl": {
+        "A4": 1
+      }
+    },
+    ".//location/location-reach/@code": {
+      "concernuk-zm": {
+        "2": 1
+      },
+      "concernuk-998": {
+        "1": 1
+      },
+      "concernuk-pk": {
+        "2": 1
+      },
+      "concernuk-tz": {
+        "2": 1
+      },
+      "concernuk-np": {
+        "2": 1
+      },
+      "concernuk-sl": {
+        "1": 1
+      }
+    },
+    ".//location/exactness/@code": {
+      "concernuk-zm": {
+        "2": 1
+      },
+      "concernuk-998": {
+        "2": 1
+      },
+      "concernuk-pk": {
+        "2": 1
+      },
+      "concernuk-tz": {
+        "2": 1
+      },
+      "concernuk-sl": {
+        "2": 1
+      }
+    },
+    ".//participating-org/@role": {
+      "concernuk-zm": {
+        "4": 3,
+        "2": 1,
+        "1": 1
+      },
+      "concernuk-998": {
+        "4": 2,
+        "2": 2,
+        "1": 2
+      },
+      "concernuk-pk": {
+        "4": 2,
+        "2": 1,
+        "1": 1
+      },
+      "concernuk-et": {
+        "2": 1,
+        "4": 1,
+        "1": 1
+      },
+      "concernuk-tz": {
+        "2": 1,
+        "4": 3,
+        "1": 1
+      },
+      "concernuk-np": {
+        "4": 1
+      },
+      "concernuk-sl": {
+        "4": 2,
+        "2": 2,
+        "1": 2
+      }
+    },
+    ".//participating-org/@type": {
+      "concernuk-zm": {
+        "21": 1,
+        "10": 1
+      },
+      "concernuk-998": {
+        "21": 4,
+        "10": 2
+      },
+      "concernuk-pk": {
+        "21": 1,
+        "10": 1
+      },
+      "concernuk-et": {
+        "21": 1,
+        "22": 1,
+        "10": 1
+      },
+      "concernuk-tz": {
+        "21": 1,
+        "10": 1
+      },
+      "concernuk-np": {
+        "21": 1
+      },
+      "concernuk-sl": {
+        "21": 4,
+        "10": 2
+      }
+    },
+    ".//recipient-country/@code": {
+      "concernuk-zm": {
+        "ZM": 1
+      },
+      "concernuk-998": {
+        "SL": 2
+      },
+      "concernuk-pk": {
+        "PK": 1
+      },
+      "concernuk-et": {
+        "ET": 1
+      },
+      "concernuk-tz": {
+        "TZ": 1
+      },
+      "concernuk-np": {
+        "NP": 1
+      },
+      "concernuk-sl": {
+        "SL": 2
+      }
+    },
+    ".//reporting-org/@type": {
+      "concernuk-zm": {
+        "21": 1
+      },
+      "concernuk-998": {
+        "21": 2
+      },
+      "concernuk-pk": {
+        "21": 1
+      },
+      "concernuk-et": {
+        "21": 1
+      },
+      "concernuk-tz": {
+        "21": 1
+      },
+      "concernuk-np": {
+        "21": 1
+      },
+      "concernuk-sl": {
+        "21": 2
+      }
+    },
+    ".//sector/@vocabulary": {
+      "concernuk-zm": {
+        "99": 1
+      },
+      "concernuk-998": {
+        "99": 1,
+        "1": 1
+      },
+      "concernuk-pk": {
+        "99": 1
+      },
+      "concernuk-tz": {
+        "1": 1
+      },
+      "concernuk-np": {
+        "99": 1
+      },
+      "concernuk-sl": {
+        "99": 1,
+        "1": 1
+      }
+    },
+    ".//transaction/transaction-type/@code": {
+      "concernuk-zm": {
+        "4": 6,
+        "3": 6,
+        "1": 7
+      },
+      "concernuk-998": {
+        "4": 7,
+        "1": 7
+      },
+      "concernuk-pk": {
+        "1": 13,
+        "4": 4,
+        "3": 3
+      },
+      "concernuk-et": {
+        "1": 13
+      },
+      "concernuk-tz": {
+        "1": 12,
+        "3": 6,
+        "4": 3
+      },
+      "concernuk-np": {
+        "1": 2
+      },
+      "concernuk-sl": {
+        "4": 7,
+        "1": 7
+      }
+    },
+    ".//transaction/value/@currency": {
+      "concernuk-zm": {
+        "GBP": 19
+      },
+      "concernuk-998": {
+        "GBP": 14
+      },
+      "concernuk-pk": {
+        "GBP": 13
+      },
+      "concernuk-tz": {
+        "GBP": 12
+      },
+      "concernuk-np": {
+        "GBP": 2
+      },
+      "concernuk-sl": {
+        "GBP": 14
+      }
+    },
+    ".//@xml:lang": {
+      "concernuk-zm": {
+        "en": 48
+      },
+      "concernuk-998": {
+        "en": 50
+      },
+      "concernuk-pk": {
+        "en": 22
+      },
+      "concernuk-et": {
+        "en": 10,
+        "am": 1
+      },
+      "concernuk-tz": {
+        "en": 24
+      },
+      "concernuk-np": {
+        "en": 14
+      },
+      "concernuk-sl": {
+        "en": 50
+      }
+    },
+    ".//budget/value/@currency": {
+      "concernuk-998": {
+        "GBP": 2
+      },
+      "concernuk-pk": {
+        "GBP": 1
+      },
+      "concernuk-et": {
+        "GBP": 1
+      },
+      "concernuk-tz": {
+        "GBP": 1
+      },
+      "concernuk-np": {
+        "GBP": 1
+      },
+      "concernuk-sl": {
+        "GBP": 2
+      }
+    },
+    ".//contact-info/@type": {
+      "concernuk-998": {
+        "1": 2
+      },
+      "concernuk-pk": {
+        "1": 1
+      },
+      "concernuk-np": {
+        "1": 1
+      },
+      "concernuk-sl": {
+        "1": 2
+      }
+    },
+    ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "concernuk-998": {
+        "31120": 1
+      },
+      "concernuk-et": {
+        "44": 1
+      },
+      "concernuk-tz": {
+        "31120": 1
+      },
+      "concernuk-sl": {
+        "31120": 1
+      }
+    },
+    ".//conditions/condition/@type": {
+      "concernuk-et": {
+        "1": 1
+      },
+      "concernuk-tz": {
+        "2": 1
+      }
+    },
+    ".//other-identifier/@type": {
+      "concernuk-et": {
+        "A1": 1
+      }
+    },
+    ".//planned-disbursement/value/@currency": {
+      "concernuk-et": {
+        "GBP": 1
+      },
+      "concernuk-tz": {
+        "GBP": 1
+      }
+    },
+    ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "concernuk-et": {
+        "1": 1
+      }
+    },
+    ".//policy-marker/@significance": {
+      "concernuk-et": {
+        "0": 1
+      },
+      "concernuk-tz": {
+        "3": 1
+      }
+    },
+    ".//policy-marker/@vocabulary": {
+      "concernuk-tz": {
+        "99": 1
+      }
+    },
+    ".//related-activity/@type": {
+      "concernuk-tz": {
+        "1": 1
+      }
+    },
+    ".//result/@type": {
+      "concernuk-tz": {
+        "2": 1
+      }
+    },
+    ".//result/indicator/@measure": {
+      "concernuk-tz": {
+        "2": 1
+      }
+    },
+    ".//transaction/aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "concernuk-tz": {
+        "B03": 1
+      }
+    },
+    ".//transaction/disbursement-channel/@code": {
+      "concernuk-tz": {
+        "1": 1
+      }
+    },
+    ".//transaction/finance-type/@code": {
+      "concernuk-tz": {
+        "110": 1
+      }
+    },
+    ".//transaction/flow-type/@code": {
+      "concernuk-tz": {
+        "50": 1
+      }
+    },
+    ".//transaction/tied-status/@code": {
+      "concernuk-tz": {
+        "4": 1
+      }
+    }
+  }
+}

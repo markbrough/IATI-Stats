@@ -1,0 +1,516 @@
+{
+  ".//@default-currency": {
+    "GBP": {
+      "mce-lb": 3,
+      "mce-et": 2,
+      "mce-activities": 17,
+      "mce-cd": 1,
+      "mcs-iq": 1
+    },
+    "EUR": {
+      "mce-activities": 1
+    }
+  },
+  ".//@xml:lang": {
+    "en": {
+      "mce-lb": 53,
+      "mce-et": 15,
+      "mce-activities": 395,
+      "mce-cd": 10,
+      "mcs-iq": 2
+    },
+    "ne": {
+      "mce-activities": 2
+    }
+  },
+  ".//activity-date/@type": {
+    "1": {
+      "mce-lb": 1,
+      "mce-et": 2,
+      "mce-activities": 8
+    },
+    "3": {
+      "mce-lb": 3,
+      "mce-et": 1,
+      "mce-activities": 14
+    },
+    "2": {
+      "mce-lb": 2,
+      "mce-activities": 10,
+      "mce-cd": 1
+    },
+    "4": {
+      "mce-et": 1,
+      "mce-activities": 4,
+      "mce-cd": 1
+    },
+    "start-actual": {
+      "mcs-iq": 1
+    },
+    "end-planned": {
+      "mcs-iq": 1
+    }
+  },
+  ".//activity-status/@code": {
+    "2": {
+      "mce-lb": 2,
+      "mce-activities": 9,
+      "mcs-iq": 1
+    },
+    "3": {
+      "mce-lb": 1,
+      "mce-et": 2,
+      "mce-activities": 9,
+      "mce-cd": 1
+    }
+  },
+  ".//budget/@status": {
+    "2": {
+      "mce-lb": 3,
+      "mce-et": 2,
+      "mce-activities": 19
+    },
+    "1": {
+      "mce-lb": 5,
+      "mce-et": 1,
+      "mce-activities": 20
+    }
+  },
+  ".//budget/@type": {
+    "1": {
+      "mce-lb": 7,
+      "mce-et": 3,
+      "mce-activities": 25
+    },
+    "2": {
+      "mce-activities": 12,
+      "mce-cd": 1,
+      "mcs-iq": 1
+    }
+  },
+  ".//budget/value/@currency": {
+    "GBP": {
+      "mce-lb": 5,
+      "mce-et": 3,
+      "mce-activities": 27,
+      "mce-cd": 1
+    },
+    "EUR": {
+      "mce-lb": 3,
+      "mce-activities": 6
+    }
+  },
+  ".//contact-info/@type": {
+    "2": {
+      "mce-lb": 2,
+      "mce-et": 1,
+      "mce-activities": 13,
+      "mce-cd": 1
+    },
+    "1": {
+      "mce-lb": 1,
+      "mce-activities": 1
+    },
+    "PROGRAMMES": {
+      "mcs-iq": 1
+    }
+  },
+  ".//default-aid-type/@code": {
+    "C01": {
+      "mcs-iq": 1
+    }
+  },
+  ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "C01": {
+      "mce-lb": 3,
+      "mce-et": 2,
+      "mce-activities": 18,
+      "mce-cd": 1
+    }
+  },
+  ".//default-finance-type/@code": {
+    "110": {
+      "mce-lb": 3,
+      "mce-et": 2,
+      "mce-activities": 13,
+      "mcs-iq": 1
+    }
+  },
+  ".//default-flow-type/@code": {
+    "10": {
+      "mce-lb": 3,
+      "mce-et": 2,
+      "mce-activities": 17,
+      "mce-cd": 1,
+      "mcs-iq": 1
+    },
+    "50": {
+      "mce-activities": 1
+    }
+  },
+  ".//default-tied-status/@code": {
+    "5": {
+      "mce-lb": 3,
+      "mce-et": 2,
+      "mce-activities": 13,
+      "mcs-iq": 1
+    }
+  },
+  ".//description/@type": {
+    "1": {
+      "mce-lb": 3,
+      "mce-et": 2,
+      "mce-activities": 18,
+      "mce-cd": 1,
+      "mcs-iq": 1
+    },
+    "2": {
+      "mce-lb": 2,
+      "mce-et": 2,
+      "mce-activities": 10
+    }
+  },
+  ".//document-link/@format": {
+    "application/pdf": {
+      "mce-lb": 2,
+      "mce-et": 3,
+      "mce-activities": 22,
+      "mce-cd": 2
+    }
+  },
+  ".//document-link/category/@code": {
+    "B01": {
+      "mce-lb": 2,
+      "mce-et": 3,
+      "mce-activities": 22,
+      "mce-cd": 2
+    }
+  },
+  ".//document-link/language/@code": {
+    "en": {
+      "mce-lb": 2,
+      "mce-et": 3,
+      "mce-activities": 14
+    }
+  },
+  ".//location/location-id/@vocabulary": {
+    "A3": {
+      "mce-activities": 1
+    }
+  },
+  ".//location/location-reach/@code": {
+    "1": {
+      "mce-activities": 1
+    }
+  },
+  ".//participating-org/@role": {
+    "4": {
+      "mce-lb": 20,
+      "mce-et": 5,
+      "mce-activities": 61,
+      "mce-cd": 2
+    },
+    "1": {
+      "mce-lb": 3,
+      "mce-et": 2,
+      "mce-activities": 18,
+      "mce-cd": 1
+    },
+    "2": {
+      "mce-lb": 1,
+      "mce-activities": 9,
+      "mce-cd": 1
+    },
+    "Implementing": {
+      "mcs-iq": 1
+    },
+    "Accountable": {
+      "mcs-iq": 1
+    },
+    "Funding": {
+      "mcs-iq": 1
+    }
+  },
+  ".//participating-org/@type": {
+    "21": {
+      "mce-lb": 4,
+      "mce-et": 3,
+      "mce-activities": 35,
+      "mce-cd": 2,
+      "mcs-iq": 2
+    },
+    "10": {
+      "mce-lb": 3,
+      "mce-et": 3,
+      "mce-activities": 18,
+      "mce-cd": 1,
+      "mcs-iq": 1
+    },
+    "22": {
+      "mce-lb": 4,
+      "mce-et": 1,
+      "mce-activities": 18,
+      "mce-cd": 1
+    },
+    "23": {
+      "mce-lb": 5,
+      "mce-activities": 6
+    },
+    "70": {
+      "mce-activities": 2
+    }
+  },
+  ".//policy-marker/@significance": {
+    "1": {
+      "mce-activities": 1
+    }
+  },
+  ".//policy-marker/@vocabulary": {
+    "99": {
+      "mce-activities": 1
+    }
+  },
+  ".//recipient-country/@code": {
+    "LB": {
+      "mce-lb": 3,
+      "mce-activities": 4
+    },
+    "ET": {
+      "mce-et": 2,
+      "mce-activities": 2
+    },
+    "SD": {
+      "mce-et": 1,
+      "mce-activities": 1
+    },
+    "ZW": {
+      "mce-et": 1,
+      "mce-activities": 1
+    },
+    "SO": {
+      "mce-et": 1,
+      "mce-activities": 1
+    },
+    "UG": {
+      "mce-et": 1,
+      "mce-activities": 1
+    },
+    "KE": {
+      "mce-et": 1,
+      "mce-activities": 1
+    },
+    "SS": {
+      "mce-et": 1,
+      "mce-activities": 1
+    },
+    "NP": {
+      "mce-activities": 3
+    },
+    "CF": {
+      "mce-activities": 1
+    },
+    "CD": {
+      "mce-activities": 1,
+      "mce-cd": 1
+    },
+    "NG": {
+      "mce-activities": 2
+    },
+    "TR": {
+      "mce-activities": 1
+    },
+    "IQ": {
+      "mce-activities": 3,
+      "mcs-iq": 1
+    },
+    "JO": {
+      "mce-activities": 3
+    }
+  },
+  ".//recipient-region/@vocabulary": {
+    "1": {
+      "mce-activities": 1
+    }
+  },
+  ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "589": {
+      "mce-activities": 1
+    }
+  },
+  ".//reporting-org/@type": {
+    "21": {
+      "mce-lb": 3,
+      "mce-et": 2,
+      "mce-activities": 18,
+      "mce-cd": 1,
+      "mcs-iq": 1
+    }
+  },
+  ".//result/@type": {
+    "1": {
+      "mce-lb": 9,
+      "mce-activities": 3
+    },
+    "2": {
+      "mce-lb": 13,
+      "mce-activities": 57
+    },
+    "3": {
+      "mce-activities": 4
+    }
+  },
+  ".//result/indicator/@measure": {
+    "1": {
+      "mce-lb": 70,
+      "mce-activities": 67
+    },
+    "2": {
+      "mce-lb": 25,
+      "mce-activities": 15
+    }
+  },
+  ".//result/indicator/reference/@vocabulary": {
+    "99": {
+      "mce-lb": 95,
+      "mce-activities": 81
+    }
+  },
+  ".//sector/@vocabulary": {
+    "99": {
+      "mce-lb": 3,
+      "mce-et": 3,
+      "mce-activities": 24,
+      "mce-cd": 1
+    },
+    "1": {
+      "mce-lb": 1,
+      "mce-activities": 1
+    },
+    "RO": {
+      "mcs-iq": 1
+    }
+  },
+  ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "32130": {
+      "mce-lb": 1,
+      "mce-activities": 1
+    },
+    "31": {
+      "mce-activities": 2
+    },
+    "35": {
+      "mce-activities": 2
+    }
+  },
+  ".//transaction/aid-type/@code": {
+    "C01": {
+      "mcs-iq": 4
+    }
+  },
+  ".//transaction/aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "C01": {
+      "mce-activities": 55,
+      "mce-cd": 11
+    }
+  },
+  ".//transaction/disbursement-channel/@code": {
+    "3": {
+      "mce-activities": 54,
+      "mce-cd": 11,
+      "mcs-iq": 4
+    },
+    "4": {
+      "mce-activities": 1
+    }
+  },
+  ".//transaction/finance-type/@code": {
+    "110": {
+      "mce-activities": 54,
+      "mce-cd": 10,
+      "mcs-iq": 4
+    }
+  },
+  ".//transaction/flow-type/@code": {
+    "10": {
+      "mce-activities": 53,
+      "mce-cd": 10,
+      "mcs-iq": 4
+    },
+    "30": {
+      "mce-activities": 2,
+      "mce-cd": 1
+    }
+  },
+  ".//transaction/provider-org/@type": {
+    "21": {
+      "mce-lb": 17,
+      "mce-activities": 49
+    },
+    "10": {
+      "mce-lb": 1,
+      "mce-activities": 9
+    }
+  },
+  ".//transaction/receiver-org/@type": {
+    "21": {
+      "mce-lb": 1,
+      "mce-activities": 10
+    },
+    "22": {
+      "mce-activities": 2
+    }
+  },
+  ".//transaction/tied-status/@code": {
+    "5": {
+      "mce-activities": 55,
+      "mce-cd": 11,
+      "mcs-iq": 4
+    }
+  },
+  ".//transaction/transaction-type/@code": {
+    "2": {
+      "mce-lb": 2,
+      "mce-et": 2,
+      "mce-activities": 14,
+      "mce-cd": 1
+    },
+    "1": {
+      "mce-lb": 5,
+      "mce-et": 4,
+      "mce-activities": 48,
+      "mce-cd": 1
+    },
+    "3": {
+      "mce-lb": 30,
+      "mce-et": 2,
+      "mce-activities": 106,
+      "mce-cd": 1
+    },
+    "4": {
+      "mce-lb": 7,
+      "mce-et": 5,
+      "mce-activities": 104,
+      "mce-cd": 10
+    },
+    "IF": {
+      "mcs-iq": 1
+    },
+    "E": {
+      "mcs-iq": 4
+    },
+    "C": {
+      "mcs-iq": 1
+    }
+  },
+  ".//transaction/value/@currency": {
+    "GBP": {
+      "mce-lb": 35,
+      "mce-et": 8,
+      "mce-activities": 152,
+      "mce-cd": 10
+    },
+    "EUR": {
+      "mce-activities": 6
+    }
+  }
+}

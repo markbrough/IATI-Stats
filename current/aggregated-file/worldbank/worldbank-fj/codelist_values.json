@@ -1,0 +1,113 @@
+{
+  ".//@default-currency": {
+    "USD": 3
+  },
+  ".//@xml:lang": {
+    "en": 99
+  },
+  ".//activity-date/@type": {
+    "start-planned": 3,
+    "start-actual": 3,
+    "end-planned": 3,
+    "end-actual": 3
+  },
+  ".//activity-status/@code": {
+    "2": 3
+  },
+  ".//budget/@type": {
+    "1": 133,
+    "2": 133
+  },
+  ".//budget/value/@currency": {
+    "USD": 266
+  },
+  ".//collaboration-type/@code": {
+    "2": 3
+  },
+  ".//default-aid-type/@code": {
+    "C01": 2,
+    "A02": 1
+  },
+  ".//default-tied-status/@code": {
+    "5": 3
+  },
+  ".//description/@type": {
+    "1": 3
+  },
+  ".//document-link/@format": {
+    "application/pdf": 1,
+    "text/html": 6
+  },
+  ".//document-link/category/@code": {
+    "A02": 1,
+    "A03": 1,
+    "A05": 1,
+    "A11": 3,
+    "A10": 3
+  },
+  ".//location/administrative/@country": {
+    "FJ": 30
+  },
+  ".//location/coordinates/@precision": {
+    "2": 30
+  },
+  ".//location/gazetteer-entry/@gazetteer-ref": {
+    "GEO": 30
+  },
+  ".//location/location-type/@code": {
+    "H": 9,
+    "T": 5,
+    "P": 10,
+    "": 3,
+    "S": 2,
+    "A": 1
+  },
+  ".//participating-org/@role": {
+    "Funding": 3,
+    "Accountable": 3,
+    "Extending": 3,
+    "Implementing": 3
+  },
+  ".//participating-org/@type": {
+    "40": 6
+  },
+  ".//recipient-country/@code": {
+    "FJ": 3
+  },
+  ".//reporting-org/@type": {
+    "40": 3
+  },
+  ".//result/@type": {
+    "1": 9,
+    "2": 11
+  },
+  ".//result/indicator/@measure": {
+    "1": 18,
+    "2": 2
+  },
+  ".//sector/@vocabulary": {
+    "DAC": 7,
+    "WBSector": 3,
+    "WBTheme": 9
+  },
+  ".//sector[@vocabulary = 'DAC' or not(@vocabulary)]/@code": {
+    "21010": 1,
+    "43040": 1,
+    "74010": 1,
+    "22040": 1,
+    "22020": 1,
+    "73010": 1,
+    "16010": 1
+  },
+  ".//transaction/finance-type/@code": {
+    "410": 10
+  },
+  ".//transaction/flow-type/@code": {
+    "20": 10
+  },
+  ".//transaction/transaction-type/@code": {
+    "C": 3,
+    "D": 3,
+    "IR": 4
+  }
+}

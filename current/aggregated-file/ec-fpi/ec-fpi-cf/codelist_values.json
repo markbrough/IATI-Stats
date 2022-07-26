@@ -1,0 +1,87 @@
+{
+  ".//@default-currency": {
+    "EUR": 32
+  },
+  ".//@xml:lang": {
+    "en": 32
+  },
+  ".//activity-date/@type": {
+    "start-planned": 32,
+    "start-actual": 32,
+    "end-planned": 25,
+    "end-actual": 5
+  },
+  ".//activity-status/@code": {
+    "2": 27,
+    "3": 5
+  },
+  ".//collaboration-type/@code": {
+    "1": 32
+  },
+  ".//default-aid-type/@code": {
+    "C01": 29,
+    "B03": 2,
+    "D02": 1
+  },
+  ".//default-finance-type/@code": {
+    "110": 32
+  },
+  ".//default-flow-type/@code": {
+    "10": 31,
+    "20": 1
+  },
+  ".//default-tied-status/@code": {
+    "4": 6,
+    "3": 2,
+    "5": 15
+  },
+  ".//description/@type": {
+    "1": 24
+  },
+  ".//participating-org/@role": {
+    "Funding": 32,
+    "Extending": 32,
+    "Accountable": 32,
+    "Implementing": 28
+  },
+  ".//participating-org/@type": {
+    "15": 64
+  },
+  ".//policy-marker/@significance": {
+    "0": 212,
+    "2": 34,
+    "1": 10
+  },
+  ".//policy-marker/@vocabulary": {
+    "DAC": 256
+  },
+  ".//recipient-country/@code": {
+    "CF": 32
+  },
+  ".//related-activity/@type": {
+    "1": 25,
+    "2": 20
+  },
+  ".//reporting-org/@type": {
+    "15": 32
+  },
+  ".//sector/@vocabulary": {
+    "DAC": 32
+  },
+  ".//sector[@vocabulary = 'DAC' or not(@vocabulary)]/@code": {
+    "15210": 12,
+    "15153": 3,
+    "15130": 1,
+    "15220": 9,
+    "15160": 1,
+    "15150": 2,
+    "15110": 2,
+    "15151": 1,
+    "15230": 1
+  },
+  ".//transaction/transaction-type/@code": {
+    "D": 29,
+    "E": 6,
+    "C": 10
+  }
+}

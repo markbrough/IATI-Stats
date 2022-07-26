@@ -1,0 +1,126 @@
+{
+  ".//@default-currency": {
+    "GBP": {
+      "peas-activities": 1
+    }
+  },
+  ".//@xml:lang": {
+    "en": {
+      "peas-activities": 2
+    }
+  },
+  ".//activity-date/@type": {
+    "start-actual": {
+      "peas-activities": 1
+    },
+    "end-planned": {
+      "peas-activities": 1
+    }
+  },
+  ".//activity-status/@code": {
+    "2": {
+      "peas-activities": 1
+    }
+  },
+  ".//budget/@type": {
+    "1": {
+      "peas-activities": 3
+    }
+  },
+  ".//description/@type": {
+    "1": {
+      "peas-activities": 1
+    }
+  },
+  ".//document-link/@format": {
+    "application/vnd.ms-excel": {
+      "peas-activities": 1
+    }
+  },
+  ".//document-link/category/@code": {
+    "A08": {
+      "peas-activities": 1
+    },
+    "A02": {
+      "peas-activities": 1
+    }
+  },
+  ".//location/administrative/@country": {
+    "UG": {
+      "peas-activities": 5
+    }
+  },
+  ".//location/coordinates/@precision": {
+    "3": {
+      "peas-activities": 5
+    }
+  },
+  ".//location/gazetteer-entry/@gazetteer-ref": {
+    "GEO": {
+      "peas-activities": 5
+    }
+  },
+  ".//location/location-type/@code": {
+    "ADM2": {
+      "peas-activities": 3
+    },
+    "ADM1": {
+      "peas-activities": 2
+    }
+  },
+  ".//participating-org/@role": {
+    "Funding": {
+      "peas-activities": 1
+    },
+    "Implementing": {
+      "peas-activities": 1
+    },
+    "Accountable": {
+      "peas-activities": 1
+    }
+  },
+  ".//participating-org/@type": {
+    "21": {
+      "peas-activities": 2
+    }
+  },
+  ".//recipient-country/@code": {
+    "UG": {
+      "peas-activities": 1
+    }
+  },
+  ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "289": {
+      "peas-activities": 1
+    }
+  },
+  ".//reporting-org/@type": {
+    "21": {
+      "peas-activities": 1
+    }
+  },
+  ".//sector/@vocabulary": {
+    "DAC": {
+      "peas-activities": 1
+    }
+  },
+  ".//sector[@vocabulary = 'DAC' or not(@vocabulary)]/@code": {
+    "11320": {
+      "peas-activities": 1
+    }
+  },
+  ".//transaction/transaction-type/@code": {
+    "C": {
+      "peas-activities": 1
+    },
+    "IF": {
+      "peas-activities": 5
+    },
+    "E": {
+      "peas-activities": 4
+    },
+    "D": {
+      "peas-activities": 6
+    }
+  }
+}

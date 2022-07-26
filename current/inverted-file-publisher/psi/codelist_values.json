@@ -1,0 +1,554 @@
+{
+  ".//@default-currency": {
+    "USD": {
+      "psi-mz": 1,
+      "psi-all": 306
+    }
+  },
+  ".//@xml:lang": {
+    "en": {
+      "psi-mz": 106,
+      "psi-all": 306
+    }
+  },
+  ".//activity-date/@type": {
+    "1": {
+      "psi-mz": 1
+    },
+    "2": {
+      "psi-mz": 1
+    },
+    "start-actual": {
+      "psi-all": 306
+    },
+    "end-planned": {
+      "psi-all": 306
+    }
+  },
+  ".//activity-status/@code": {
+    "3": {
+      "psi-mz": 1,
+      "psi-all": 158
+    },
+    "2": {
+      "psi-all": 143
+    },
+    "4": {
+      "psi-all": 5
+    }
+  },
+  ".//budget/@status": {
+    "2": {
+      "psi-mz": 2
+    }
+  },
+  ".//budget/@type": {
+    "1": {
+      "psi-mz": 2,
+      "psi-all": 306
+    }
+  },
+  ".//budget/value/@currency": {
+    "EUR": {
+      "psi-mz": 2,
+      "psi-all": 21
+    },
+    "USD": {
+      "psi-all": 214
+    },
+    "XOF": {
+      "psi-all": 12
+    },
+    "UGX": {
+      "psi-all": 7
+    },
+    "MGA": {
+      "psi-all": 1
+    },
+    "ZAR": {
+      "psi-all": 5
+    },
+    "VND": {
+      "psi-all": 1
+    },
+    "AUD": {
+      "psi-all": 3
+    },
+    "MWK": {
+      "psi-all": 4
+    },
+    "SEK": {
+      "psi-all": 3
+    },
+    "SZL": {
+      "psi-all": 1
+    },
+    "CAD": {
+      "psi-all": 1
+    },
+    "GBP": {
+      "psi-all": 12
+    },
+    "INR": {
+      "psi-all": 13
+    },
+    "TTD": {
+      "psi-all": 1
+    },
+    "CHF": {
+      "psi-all": 1
+    },
+    "JMD": {
+      "psi-all": 1
+    },
+    "LSL": {
+      "psi-all": 2
+    },
+    "BWP": {
+      "psi-all": 1
+    },
+    "KES": {
+      "psi-all": 1
+    },
+    "NPR": {
+      "psi-all": 1
+    }
+  },
+  ".//contact-info/@type": {
+    "1": {
+      "psi-mz": 1
+    }
+  },
+  ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "C01": {
+      "psi-mz": 1
+    }
+  },
+  ".//default-finance-type/@code": {
+    "110": {
+      "psi-mz": 1
+    }
+  },
+  ".//default-flow-type/@code": {
+    "10": {
+      "psi-mz": 1
+    }
+  },
+  ".//default-tied-status/@code": {
+    "5": {
+      "psi-mz": 1
+    }
+  },
+  ".//description/@type": {
+    "1": {
+      "psi-mz": 1,
+      "psi-all": 306
+    }
+  },
+  ".//participating-org/@role": {
+    "4": {
+      "psi-mz": 2
+    },
+    "1": {
+      "psi-mz": 1
+    },
+    "Funding": {
+      "psi-all": 306
+    },
+    "Implementing": {
+      "psi-all": 306
+    }
+  },
+  ".//participating-org/@type": {
+    "21": {
+      "psi-mz": 2
+    },
+    "10": {
+      "psi-mz": 1
+    }
+  },
+  ".//policy-marker/@significance": {
+    "3": {
+      "psi-mz": 1
+    }
+  },
+  ".//policy-marker/@vocabulary": {
+    "1": {
+      "psi-mz": 1
+    }
+  },
+  ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "9": {
+      "psi-mz": 1
+    }
+  },
+  ".//recipient-country/@code": {
+    "MZ": {
+      "psi-mz": 1,
+      "psi-all": 3
+    },
+    "HT": {
+      "psi-mz": 1,
+      "psi-all": 9
+    },
+    "NL": {
+      "psi-mz": 1
+    },
+    "US": {
+      "psi-mz": 1,
+      "psi-all": 20
+    },
+    "CD": {
+      "psi-mz": 1,
+      "psi-all": 8
+    },
+    "CI": {
+      "psi-mz": 1,
+      "psi-all": 3
+    },
+    "IN": {
+      "psi-mz": 1,
+      "psi-all": 27
+    },
+    "KE": {
+      "psi-mz": 1,
+      "psi-all": 17
+    },
+    "MG": {
+      "psi-all": 9
+    },
+    "MM": {
+      "psi-all": 24
+    },
+    "LA": {
+      "psi-all": 9
+    },
+    "ZA": {
+      "psi-all": 14
+    },
+    "LS": {
+      "psi-all": 10
+    },
+    "SS": {
+      "psi-all": 5
+    },
+    "BJ": {
+      "psi-all": 9
+    },
+    "ET": {
+      "psi-all": 14
+    },
+    "UG": {
+      "psi-all": 22
+    },
+    "TH": {
+      "psi-all": 1
+    },
+    "BI": {
+      "psi-all": 6
+    },
+    "TT": {
+      "psi-all": 2
+    },
+    "KH": {
+      "psi-all": 3
+    },
+    "NE": {
+      "psi-all": 9
+    },
+    "AO": {
+      "psi-all": 6
+    },
+    "CM": {
+      "psi-all": 8
+    },
+    "GT": {
+      "psi-all": 3
+    },
+    "ML": {
+      "psi-all": 7
+    },
+    "NG": {
+      "psi-all": 5
+    },
+    "NI": {
+      "psi-all": 3
+    },
+    "NP": {
+      "psi-all": 4
+    },
+    "SV": {
+      "psi-all": 3
+    },
+    "TZ": {
+      "psi-all": 9
+    },
+    "VN": {
+      "psi-all": 18
+    },
+    "PG": {
+      "psi-all": 7
+    },
+    "MW": {
+      "psi-all": 11
+    },
+    "SZ": {
+      "psi-all": 4
+    },
+    "LR": {
+      "psi-all": 6
+    },
+    "BZ": {
+      "psi-all": 3
+    },
+    "KG": {
+      "psi-all": 1
+    },
+    "KZ": {
+      "psi-all": 1
+    },
+    "TJ": {
+      "psi-all": 1
+    },
+    "TM": {
+      "psi-all": 1
+    },
+    "UZ": {
+      "psi-all": 1
+    },
+    "": {
+      "psi-all": 8
+    },
+    "DO": {
+      "psi-all": 4
+    },
+    "ZW": {
+      "psi-all": 5
+    },
+    "ZM": {
+      "psi-all": 7
+    },
+    "SN": {
+      "psi-all": 2
+    },
+    "ID": {
+      "psi-all": 1
+    },
+    "PK": {
+      "psi-all": 1
+    },
+    "HN": {
+      "psi-all": 5
+    },
+    "GN": {
+      "psi-all": 4
+    },
+    "AF": {
+      "psi-all": 1
+    },
+    "MX": {
+      "psi-all": 1
+    },
+    "PH": {
+      "psi-all": 1
+    },
+    "SO": {
+      "psi-all": 3
+    },
+    "BW": {
+      "psi-all": 1
+    },
+    "BF": {
+      "psi-all": 1
+    },
+    "RU": {
+      "psi-all": 1
+    }
+  },
+  ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "289": {
+      "psi-all": 180
+    },
+    "998": {
+      "psi-all": 92
+    },
+    "389": {
+      "psi-all": 22
+    },
+    "498": {
+      "psi-all": 36
+    }
+  },
+  ".//reporting-org/@type": {
+    "21": {
+      "psi-mz": 1,
+      "psi-all": 306
+    }
+  },
+  ".//result/@type": {
+    "1": {
+      "psi-mz": 19
+    },
+    "2": {
+      "psi-mz": 1
+    }
+  },
+  ".//result/indicator/@measure": {
+    "1": {
+      "psi-mz": 20
+    }
+  },
+  ".//result/indicator/reference/@vocabulary": {
+    "99": {
+      "psi-mz": 1
+    }
+  },
+  ".//sector/@vocabulary": {
+    "1": {
+      "psi-mz": 1
+    }
+  },
+  ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "13020": {
+      "psi-mz": 1
+    }
+  },
+  ".//sector[@vocabulary = 'DAC' or not(@vocabulary)]/@code": {
+    "12262": {
+      "psi-all": 42
+    },
+    "13040": {
+      "psi-all": 94
+    },
+    "12240": {
+      "psi-all": 16
+    },
+    "12250": {
+      "psi-all": 25
+    },
+    "13020": {
+      "psi-all": 23
+    },
+    "13030": {
+      "psi-all": 58
+    },
+    "99810": {
+      "psi-all": 77
+    },
+    "12263": {
+      "psi-all": 11
+    }
+  },
+  ".//transaction/aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "B03": {
+      "psi-mz": 1
+    },
+    "B01": {
+      "psi-mz": 1
+    }
+  },
+  ".//transaction/disbursement-channel/@code": {
+    "2": {
+      "psi-mz": 2
+    }
+  },
+  ".//transaction/finance-type/@code": {
+    "110": {
+      "psi-mz": 2
+    }
+  },
+  ".//transaction/flow-type/@code": {
+    "10": {
+      "psi-mz": 2
+    }
+  },
+  ".//transaction/provider-org/@type": {
+    "10": {
+      "psi-mz": 2
+    }
+  },
+  ".//transaction/receiver-org/@type": {
+    "21": {
+      "psi-mz": 2
+    }
+  },
+  ".//transaction/tied-status/@code": {
+    "5": {
+      "psi-mz": 2
+    }
+  },
+  ".//transaction/transaction-type/@code": {
+    "1": {
+      "psi-mz": 2
+    },
+    "E": {
+      "psi-all": 306
+    }
+  },
+  ".//transaction/value/@currency": {
+    "EUR": {
+      "psi-mz": 2,
+      "psi-all": 21
+    },
+    "USD": {
+      "psi-all": 214
+    },
+    "XOF": {
+      "psi-all": 12
+    },
+    "UGX": {
+      "psi-all": 7
+    },
+    "MGA": {
+      "psi-all": 1
+    },
+    "ZAR": {
+      "psi-all": 5
+    },
+    "VND": {
+      "psi-all": 1
+    },
+    "AUD": {
+      "psi-all": 3
+    },
+    "MWK": {
+      "psi-all": 4
+    },
+    "SEK": {
+      "psi-all": 3
+    },
+    "SZL": {
+      "psi-all": 1
+    },
+    "CAD": {
+      "psi-all": 1
+    },
+    "GBP": {
+      "psi-all": 12
+    },
+    "INR": {
+      "psi-all": 13
+    },
+    "TTD": {
+      "psi-all": 1
+    },
+    "CHF": {
+      "psi-all": 1
+    },
+    "JMD": {
+      "psi-all": 1
+    },
+    "LSL": {
+      "psi-all": 2
+    },
+    "BWP": {
+      "psi-all": 1
+    },
+    "KES": {
+      "psi-all": 1
+    },
+    "NPR": {
+      "psi-all": 1
+    }
+  }
+}

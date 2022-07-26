@@ -1,0 +1,57 @@
+{
+  ".//@default-currency": {
+    "GBP": 8
+  },
+  ".//@xml:lang": {
+    "EN": 8
+  },
+  ".//activity-date/@type": {
+    "end-planned": 8,
+    "start-planned": 8
+  },
+  ".//activity-status/@code": {
+    "3": 7,
+    "2": 1
+  },
+  ".//participating-org/@role": {
+    "Funding": 8,
+    "Extending": 8,
+    "Implementing": 8
+  },
+  ".//recipient-country/@code": {
+    "KE": 1,
+    "PK": 1,
+    "SY": 3,
+    "PH": 1,
+    "GB": 2
+  },
+  ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "289": 1,
+    "689": 1,
+    "589": 3,
+    "789": 1,
+    "89": 2
+  },
+  ".//reporting-org/@type": {
+    "21": 8
+  },
+  ".//sector[@vocabulary = 'DAC' or not(@vocabulary)]/@code": {
+    "72010": 8
+  },
+  ".//transaction/disbursement-channel/@code": {
+    "2": 8
+  },
+  ".//transaction/finance-type/@code": {
+    "110": 8
+  },
+  ".//transaction/tied-status/@code": {
+    "4": 6,
+    "5": 2
+  },
+  ".//transaction/transaction-type/@code": {
+    "IF": 8
+  },
+  ".//transaction/value/@currency": {
+    "GBP": 8
+  }
+}

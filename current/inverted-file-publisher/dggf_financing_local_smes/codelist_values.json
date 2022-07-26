@@ -1,0 +1,572 @@
+{
+  ".//@default-currency": {
+    "USD": {
+      "dggf_financing_local_smes-3": 6,
+      "dggf_financing_local_smes-3a": 8,
+      "dggf_financing_local_smes-2015q2": 4,
+      "dggf_financing_local_smes-8": 17,
+      "dggf_financing_local_smes-2015q3": 6
+    },
+    "usd": {
+      "dggf_financing_local_smes-6": 13,
+      "dggf_financing_local_smes-5": 13,
+      "dggf_financing_local_smes-7": 16
+    }
+  },
+  ".//@xml:lang": {
+    "en": {
+      "dggf_financing_local_smes-3": 6,
+      "dggf_financing_local_smes-3a": 8,
+      "dggf_financing_local_smes-6": 13,
+      "dggf_financing_local_smes-2015q2": 4,
+      "dggf_financing_local_smes-5": 13,
+      "dggf_financing_local_smes-8": 17,
+      "dggf_financing_local_smes-7": 16,
+      "dggf_financing_local_smes-2015q3": 6
+    }
+  },
+  ".//activity-date/@type": {
+    "end-planned": {
+      "dggf_financing_local_smes-3": 6,
+      "dggf_financing_local_smes-3a": 8,
+      "dggf_financing_local_smes-6": 13,
+      "dggf_financing_local_smes-2015q2": 4,
+      "dggf_financing_local_smes-5": 13,
+      "dggf_financing_local_smes-8": 17,
+      "dggf_financing_local_smes-7": 16,
+      "dggf_financing_local_smes-2015q3": 6
+    },
+    "start-planned": {
+      "dggf_financing_local_smes-3": 6,
+      "dggf_financing_local_smes-3a": 8,
+      "dggf_financing_local_smes-6": 13,
+      "dggf_financing_local_smes-2015q2": 4,
+      "dggf_financing_local_smes-5": 13,
+      "dggf_financing_local_smes-8": 17,
+      "dggf_financing_local_smes-7": 16,
+      "dggf_financing_local_smes-2015q3": 6
+    }
+  },
+  ".//activity-status/@code": {
+    "2": {
+      "dggf_financing_local_smes-3": 6,
+      "dggf_financing_local_smes-3a": 8,
+      "dggf_financing_local_smes-6": 13,
+      "dggf_financing_local_smes-2015q2": 4,
+      "dggf_financing_local_smes-5": 13,
+      "dggf_financing_local_smes-8": 17,
+      "dggf_financing_local_smes-7": 15,
+      "dggf_financing_local_smes-2015q3": 6
+    }
+  },
+  ".//participating-org/@role": {
+    "Funding": {
+      "dggf_financing_local_smes-3": 6,
+      "dggf_financing_local_smes-3a": 8,
+      "dggf_financing_local_smes-6": 13,
+      "dggf_financing_local_smes-2015q2": 4,
+      "dggf_financing_local_smes-5": 13,
+      "dggf_financing_local_smes-8": 17,
+      "dggf_financing_local_smes-7": 16,
+      "dggf_financing_local_smes-2015q3": 6
+    },
+    "Extending": {
+      "dggf_financing_local_smes-3": 6,
+      "dggf_financing_local_smes-3a": 8,
+      "dggf_financing_local_smes-6": 13,
+      "dggf_financing_local_smes-2015q2": 4,
+      "dggf_financing_local_smes-5": 13,
+      "dggf_financing_local_smes-8": 17,
+      "dggf_financing_local_smes-7": 16,
+      "dggf_financing_local_smes-2015q3": 6
+    },
+    "Implementing": {
+      "dggf_financing_local_smes-3": 6,
+      "dggf_financing_local_smes-3a": 8,
+      "dggf_financing_local_smes-6": 13,
+      "dggf_financing_local_smes-2015q2": 4,
+      "dggf_financing_local_smes-5": 13,
+      "dggf_financing_local_smes-8": 17,
+      "dggf_financing_local_smes-7": 16,
+      "dggf_financing_local_smes-2015q3": 6
+    }
+  },
+  ".//recipient-country/@code": {
+    "KE": {
+      "dggf_financing_local_smes-3": 4,
+      "dggf_financing_local_smes-3a": 4,
+      "dggf_financing_local_smes-6": 4,
+      "dggf_financing_local_smes-2015q2": 4,
+      "dggf_financing_local_smes-5": 4,
+      "dggf_financing_local_smes-8": 4,
+      "dggf_financing_local_smes-7": 4,
+      "dggf_financing_local_smes-2015q3": 4
+    },
+    "ET": {
+      "dggf_financing_local_smes-3": 2,
+      "dggf_financing_local_smes-3a": 2,
+      "dggf_financing_local_smes-6": 2,
+      "dggf_financing_local_smes-2015q2": 2,
+      "dggf_financing_local_smes-5": 2,
+      "dggf_financing_local_smes-8": 2,
+      "dggf_financing_local_smes-7": 2,
+      "dggf_financing_local_smes-2015q3": 2
+    },
+    "TZ": {
+      "dggf_financing_local_smes-3": 3,
+      "dggf_financing_local_smes-3a": 3,
+      "dggf_financing_local_smes-6": 3,
+      "dggf_financing_local_smes-2015q2": 3,
+      "dggf_financing_local_smes-5": 3,
+      "dggf_financing_local_smes-8": 3,
+      "dggf_financing_local_smes-7": 3,
+      "dggf_financing_local_smes-2015q3": 3
+    },
+    "NG": {
+      "dggf_financing_local_smes-3": 2,
+      "dggf_financing_local_smes-3a": 2,
+      "dggf_financing_local_smes-6": 2,
+      "dggf_financing_local_smes-2015q2": 2,
+      "dggf_financing_local_smes-5": 2,
+      "dggf_financing_local_smes-8": 2,
+      "dggf_financing_local_smes-7": 2,
+      "dggf_financing_local_smes-2015q3": 2
+    },
+    "GH": {
+      "dggf_financing_local_smes-3": 2,
+      "dggf_financing_local_smes-3a": 2,
+      "dggf_financing_local_smes-6": 2,
+      "dggf_financing_local_smes-2015q2": 2,
+      "dggf_financing_local_smes-5": 2,
+      "dggf_financing_local_smes-8": 3,
+      "dggf_financing_local_smes-7": 3,
+      "dggf_financing_local_smes-2015q3": 2
+    },
+    "SN": {
+      "dggf_financing_local_smes-3": 1,
+      "dggf_financing_local_smes-3a": 1,
+      "dggf_financing_local_smes-6": 1,
+      "dggf_financing_local_smes-2015q2": 1,
+      "dggf_financing_local_smes-5": 1,
+      "dggf_financing_local_smes-8": 1,
+      "dggf_financing_local_smes-7": 1,
+      "dggf_financing_local_smes-2015q3": 1
+    },
+    "ZA": {
+      "dggf_financing_local_smes-3": 2,
+      "dggf_financing_local_smes-3a": 2,
+      "dggf_financing_local_smes-6": 2,
+      "dggf_financing_local_smes-2015q2": 2,
+      "dggf_financing_local_smes-5": 2,
+      "dggf_financing_local_smes-8": 2,
+      "dggf_financing_local_smes-7": 2,
+      "dggf_financing_local_smes-2015q3": 2
+    },
+    "UG": {
+      "dggf_financing_local_smes-3": 3,
+      "dggf_financing_local_smes-3a": 4,
+      "dggf_financing_local_smes-6": 4,
+      "dggf_financing_local_smes-2015q2": 3,
+      "dggf_financing_local_smes-5": 4,
+      "dggf_financing_local_smes-8": 4,
+      "dggf_financing_local_smes-7": 4,
+      "dggf_financing_local_smes-2015q3": 3
+    },
+    "EG ": {
+      "dggf_financing_local_smes-3": 1,
+      "dggf_financing_local_smes-3a": 1,
+      "dggf_financing_local_smes-6": 1,
+      "dggf_financing_local_smes-2015q2": 1,
+      "dggf_financing_local_smes-5": 1,
+      "dggf_financing_local_smes-8": 1,
+      "dggf_financing_local_smes-7": 1,
+      "dggf_financing_local_smes-2015q3": 1
+    },
+    "RW": {
+      "dggf_financing_local_smes-3": 2,
+      "dggf_financing_local_smes-3a": 2,
+      "dggf_financing_local_smes-6": 2,
+      "dggf_financing_local_smes-2015q2": 2,
+      "dggf_financing_local_smes-5": 2,
+      "dggf_financing_local_smes-8": 2,
+      "dggf_financing_local_smes-7": 2,
+      "dggf_financing_local_smes-2015q3": 2
+    },
+    "ZM": {
+      "dggf_financing_local_smes-3": 1,
+      "dggf_financing_local_smes-3a": 1,
+      "dggf_financing_local_smes-6": 1,
+      "dggf_financing_local_smes-2015q2": 1,
+      "dggf_financing_local_smes-5": 1,
+      "dggf_financing_local_smes-8": 1,
+      "dggf_financing_local_smes-7": 1,
+      "dggf_financing_local_smes-2015q3": 1
+    },
+    "NP": {
+      "dggf_financing_local_smes-3": 1,
+      "dggf_financing_local_smes-3a": 1,
+      "dggf_financing_local_smes-6": 1,
+      "dggf_financing_local_smes-5": 1,
+      "dggf_financing_local_smes-8": 1,
+      "dggf_financing_local_smes-7": 1,
+      "dggf_financing_local_smes-2015q3": 1
+    },
+    "ID": {
+      "dggf_financing_local_smes-3": 1,
+      "dggf_financing_local_smes-3a": 1,
+      "dggf_financing_local_smes-6": 1,
+      "dggf_financing_local_smes-2015q2": 1,
+      "dggf_financing_local_smes-5": 1,
+      "dggf_financing_local_smes-8": 1,
+      "dggf_financing_local_smes-7": 1,
+      "dggf_financing_local_smes-2015q3": 1
+    },
+    "BD": {
+      "dggf_financing_local_smes-3": 1,
+      "dggf_financing_local_smes-3a": 1,
+      "dggf_financing_local_smes-6": 1,
+      "dggf_financing_local_smes-2015q2": 1,
+      "dggf_financing_local_smes-5": 1,
+      "dggf_financing_local_smes-8": 1,
+      "dggf_financing_local_smes-7": 1,
+      "dggf_financing_local_smes-2015q3": 1
+    },
+    "LK": {
+      "dggf_financing_local_smes-3": 1,
+      "dggf_financing_local_smes-3a": 1,
+      "dggf_financing_local_smes-6": 1,
+      "dggf_financing_local_smes-2015q2": 1,
+      "dggf_financing_local_smes-5": 1,
+      "dggf_financing_local_smes-8": 1,
+      "dggf_financing_local_smes-7": 1,
+      "dggf_financing_local_smes-2015q3": 1
+    },
+    "PK": {
+      "dggf_financing_local_smes-3": 1,
+      "dggf_financing_local_smes-3a": 1,
+      "dggf_financing_local_smes-6": 1,
+      "dggf_financing_local_smes-2015q2": 1,
+      "dggf_financing_local_smes-5": 1,
+      "dggf_financing_local_smes-8": 1,
+      "dggf_financing_local_smes-7": 1,
+      "dggf_financing_local_smes-2015q3": 1
+    },
+    "BI": {
+      "dggf_financing_local_smes-3": 1,
+      "dggf_financing_local_smes-3a": 2,
+      "dggf_financing_local_smes-6": 2,
+      "dggf_financing_local_smes-2015q2": 1,
+      "dggf_financing_local_smes-5": 2,
+      "dggf_financing_local_smes-8": 2,
+      "dggf_financing_local_smes-7": 2,
+      "dggf_financing_local_smes-2015q3": 1
+    },
+    "GE": {
+      "dggf_financing_local_smes-3": 1,
+      "dggf_financing_local_smes-3a": 1,
+      "dggf_financing_local_smes-6": 1,
+      "dggf_financing_local_smes-5": 1,
+      "dggf_financing_local_smes-8": 2,
+      "dggf_financing_local_smes-7": 1,
+      "dggf_financing_local_smes-2015q3": 1
+    },
+    "CG": {
+      "dggf_financing_local_smes-3a": 1,
+      "dggf_financing_local_smes-6": 1,
+      "dggf_financing_local_smes-5": 1,
+      "dggf_financing_local_smes-8": 1,
+      "dggf_financing_local_smes-7": 1
+    },
+    "CD": {
+      "dggf_financing_local_smes-3a": 1,
+      "dggf_financing_local_smes-6": 1,
+      "dggf_financing_local_smes-5": 1,
+      "dggf_financing_local_smes-8": 1,
+      "dggf_financing_local_smes-7": 1
+    },
+    "CF": {
+      "dggf_financing_local_smes-3a": 1,
+      "dggf_financing_local_smes-6": 1,
+      "dggf_financing_local_smes-5": 1,
+      "dggf_financing_local_smes-8": 1,
+      "dggf_financing_local_smes-7": 1
+    },
+    "KH": {
+      "dggf_financing_local_smes-3a": 1,
+      "dggf_financing_local_smes-6": 1,
+      "dggf_financing_local_smes-5": 1,
+      "dggf_financing_local_smes-8": 1,
+      "dggf_financing_local_smes-7": 1
+    },
+    "LA": {
+      "dggf_financing_local_smes-3a": 1,
+      "dggf_financing_local_smes-6": 1,
+      "dggf_financing_local_smes-5": 1,
+      "dggf_financing_local_smes-8": 1,
+      "dggf_financing_local_smes-7": 1
+    },
+    "MM": {
+      "dggf_financing_local_smes-3a": 1,
+      "dggf_financing_local_smes-6": 1,
+      "dggf_financing_local_smes-5": 1,
+      "dggf_financing_local_smes-8": 1,
+      "dggf_financing_local_smes-7": 1
+    },
+    "BO": {
+      "dggf_financing_local_smes-6": 1,
+      "dggf_financing_local_smes-5": 1,
+      "dggf_financing_local_smes-8": 1,
+      "dggf_financing_local_smes-7": 1
+    },
+    "MD": {
+      "dggf_financing_local_smes-6": 1,
+      "dggf_financing_local_smes-5": 1,
+      "dggf_financing_local_smes-8": 1,
+      "dggf_financing_local_smes-7": 1
+    },
+    "JO": {
+      "dggf_financing_local_smes-6": 1,
+      "dggf_financing_local_smes-5": 1,
+      "dggf_financing_local_smes-8": 1,
+      "dggf_financing_local_smes-7": 1
+    },
+    "AM": {
+      "dggf_financing_local_smes-6": 1,
+      "dggf_financing_local_smes-5": 1,
+      "dggf_financing_local_smes-8": 2,
+      "dggf_financing_local_smes-7": 1
+    },
+    "SS": {
+      "dggf_financing_local_smes-6": 1,
+      "dggf_financing_local_smes-5": 1,
+      "dggf_financing_local_smes-8": 1,
+      "dggf_financing_local_smes-7": 1
+    },
+    "AF": {
+      "dggf_financing_local_smes-8": 1,
+      "dggf_financing_local_smes-7": 1
+    },
+    "CI": {
+      "dggf_financing_local_smes-8": 1,
+      "dggf_financing_local_smes-7": 1
+    },
+    "LR": {
+      "dggf_financing_local_smes-8": 1
+    }
+  },
+  ".//reporting-org/@type": {
+    "60": {
+      "dggf_financing_local_smes-3": 6,
+      "dggf_financing_local_smes-3a": 8,
+      "dggf_financing_local_smes-6": 13,
+      "dggf_financing_local_smes-5": 13,
+      "dggf_financing_local_smes-8": 17,
+      "dggf_financing_local_smes-7": 16
+    },
+    "70": {
+      "dggf_financing_local_smes-2015q2": 4,
+      "dggf_financing_local_smes-2015q3": 6
+    }
+  },
+  ".//sector[@vocabulary = 'DAC' or not(@vocabulary)]/@code": {
+    " ": {
+      "dggf_financing_local_smes-3": 1,
+      "dggf_financing_local_smes-6": 1,
+      "dggf_financing_local_smes-5": 1,
+      "dggf_financing_local_smes-8": 1,
+      "dggf_financing_local_smes-7": 1
+    },
+    "121": {
+      "dggf_financing_local_smes-3": 4,
+      "dggf_financing_local_smes-6": 8,
+      "dggf_financing_local_smes-5": 8,
+      "dggf_financing_local_smes-8": 11,
+      "dggf_financing_local_smes-7": 10
+    },
+    "311": {
+      "dggf_financing_local_smes-3": 5,
+      "dggf_financing_local_smes-6": 9,
+      "dggf_financing_local_smes-5": 9,
+      "dggf_financing_local_smes-8": 10,
+      "dggf_financing_local_smes-7": 9
+    },
+    "111": {
+      "dggf_financing_local_smes-3": 4,
+      "dggf_financing_local_smes-6": 5,
+      "dggf_financing_local_smes-5": 5,
+      "dggf_financing_local_smes-8": 7,
+      "dggf_financing_local_smes-7": 6
+    },
+    "230": {
+      "dggf_financing_local_smes-3": 3,
+      "dggf_financing_local_smes-6": 3,
+      "dggf_financing_local_smes-5": 3,
+      "dggf_financing_local_smes-8": 4,
+      "dggf_financing_local_smes-7": 4
+    },
+    "250": {
+      "dggf_financing_local_smes-3": 4,
+      "dggf_financing_local_smes-6": 7,
+      "dggf_financing_local_smes-5": 7,
+      "dggf_financing_local_smes-8": 9,
+      "dggf_financing_local_smes-7": 8
+    },
+    "321": {
+      "dggf_financing_local_smes-3": 2,
+      "dggf_financing_local_smes-6": 4,
+      "dggf_financing_local_smes-5": 4,
+      "dggf_financing_local_smes-8": 6,
+      "dggf_financing_local_smes-7": 4
+    },
+    "332": {
+      "dggf_financing_local_smes-3": 2,
+      "dggf_financing_local_smes-6": 3,
+      "dggf_financing_local_smes-5": 3,
+      "dggf_financing_local_smes-8": 5,
+      "dggf_financing_local_smes-7": 4
+    },
+    "240": {
+      "dggf_financing_local_smes-3": 1,
+      "dggf_financing_local_smes-6": 4,
+      "dggf_financing_local_smes-5": 4,
+      "dggf_financing_local_smes-8": 7,
+      "dggf_financing_local_smes-7": 6
+    },
+    "140": {
+      "dggf_financing_local_smes-3": 2,
+      "dggf_financing_local_smes-6": 2,
+      "dggf_financing_local_smes-5": 2,
+      "dggf_financing_local_smes-8": 2,
+      "dggf_financing_local_smes-7": 2
+    },
+    "220": {
+      "dggf_financing_local_smes-3": 2,
+      "dggf_financing_local_smes-6": 2,
+      "dggf_financing_local_smes-5": 2,
+      "dggf_financing_local_smes-8": 3,
+      "dggf_financing_local_smes-7": 3
+    },
+    "520": {
+      "dggf_financing_local_smes-6": 1,
+      "dggf_financing_local_smes-5": 1,
+      "dggf_financing_local_smes-8": 2,
+      "dggf_financing_local_smes-7": 2
+    },
+    "350": {
+      "dggf_financing_local_smes-6": 1,
+      "dggf_financing_local_smes-5": 1,
+      "dggf_financing_local_smes-8": 1,
+      "dggf_financing_local_smes-7": 1
+    },
+    "323": {
+      "dggf_financing_local_smes-6": 1,
+      "dggf_financing_local_smes-5": 1,
+      "dggf_financing_local_smes-8": 2,
+      "dggf_financing_local_smes-7": 2
+    },
+    "210": {
+      "dggf_financing_local_smes-6": 1,
+      "dggf_financing_local_smes-5": 1,
+      "dggf_financing_local_smes-8": 1,
+      "dggf_financing_local_smes-7": 1
+    }
+  },
+  ".//transaction/finance-type/@code": {
+    "500": {
+      "dggf_financing_local_smes-3": 5,
+      "dggf_financing_local_smes-3a": 7,
+      "dggf_financing_local_smes-6": 7,
+      "dggf_financing_local_smes-2015q2": 4,
+      "dggf_financing_local_smes-5": 7,
+      "dggf_financing_local_smes-8": 10,
+      "dggf_financing_local_smes-7": 9,
+      "dggf_financing_local_smes-2015q3": 5
+    },
+    "400": {
+      "dggf_financing_local_smes-3": 1,
+      "dggf_financing_local_smes-3a": 1,
+      "dggf_financing_local_smes-6": 6,
+      "dggf_financing_local_smes-5": 6,
+      "dggf_financing_local_smes-8": 9,
+      "dggf_financing_local_smes-7": 8,
+      "dggf_financing_local_smes-2015q3": 1
+    }
+  },
+  ".//transaction/transaction-type/@code": {
+    "$12.000.000": {
+      "dggf_financing_local_smes-3": 1,
+      "dggf_financing_local_smes-6": 1,
+      "dggf_financing_local_smes-5": 1,
+      "dggf_financing_local_smes-8": 1,
+      "dggf_financing_local_smes-7": 1
+    },
+    "$15.000.000": {
+      "dggf_financing_local_smes-3": 1,
+      "dggf_financing_local_smes-6": 1,
+      "dggf_financing_local_smes-5": 1,
+      "dggf_financing_local_smes-8": 1,
+      "dggf_financing_local_smes-7": 1
+    },
+    "$5.000.000": {
+      "dggf_financing_local_smes-3": 2,
+      "dggf_financing_local_smes-6": 3,
+      "dggf_financing_local_smes-5": 3,
+      "dggf_financing_local_smes-8": 4,
+      "dggf_financing_local_smes-7": 4
+    },
+    "$11.050.000": {
+      "dggf_financing_local_smes-3": 1,
+      "dggf_financing_local_smes-6": 1,
+      "dggf_financing_local_smes-5": 1,
+      "dggf_financing_local_smes-8": 1,
+      "dggf_financing_local_smes-7": 1
+    },
+    "$8.000.000": {
+      "dggf_financing_local_smes-3": 1,
+      "dggf_financing_local_smes-6": 2,
+      "dggf_financing_local_smes-5": 2,
+      "dggf_financing_local_smes-8": 3,
+      "dggf_financing_local_smes-7": 2
+    },
+    " 5.000.000": {
+      "dggf_financing_local_smes-6": 1,
+      "dggf_financing_local_smes-5": 1
+    },
+    "$3.000.000": {
+      "dggf_financing_local_smes-6": 1,
+      "dggf_financing_local_smes-5": 1,
+      "dggf_financing_local_smes-8": 1,
+      "dggf_financing_local_smes-7": 1
+    },
+    "$4.000.000": {
+      "dggf_financing_local_smes-6": 1,
+      "dggf_financing_local_smes-5": 1,
+      "dggf_financing_local_smes-8": 2,
+      "dggf_financing_local_smes-7": 1
+    },
+    "$1.000.000": {
+      "dggf_financing_local_smes-6": 1,
+      "dggf_financing_local_smes-5": 1,
+      "dggf_financing_local_smes-8": 1,
+      "dggf_financing_local_smes-7": 1
+    },
+    "$10.000.000": {
+      "dggf_financing_local_smes-6": 1,
+      "dggf_financing_local_smes-5": 1,
+      "dggf_financing_local_smes-8": 1,
+      "dggf_financing_local_smes-7": 1
+    },
+    "C": {
+      "dggf_financing_local_smes-2015q2": 4,
+      "dggf_financing_local_smes-2015q3": 6
+    },
+    "$7.000.000": {
+      "dggf_financing_local_smes-8": 1,
+      "dggf_financing_local_smes-7": 1
+    },
+    "\u0080 5.000.000": {
+      "dggf_financing_local_smes-8": 1,
+      "dggf_financing_local_smes-7": 1
+    }
+  }
+}

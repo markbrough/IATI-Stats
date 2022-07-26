@@ -1,0 +1,418 @@
+{
+  "1": {
+    ".//@default-currency": {
+      "hi-998": {
+        "GBP": 6
+      }
+    },
+    ".//activity-date/@type": {
+      "hi-998": {
+        "end-actual": 6
+      }
+    },
+    ".//activity-status/@code": {
+      "hi-998": {
+        "2": 6
+      }
+    },
+    ".//default-aid-type/@code": {
+      "hi-998": {
+        "C01": 6
+      }
+    },
+    ".//default-flow-type/@code": {
+      "hi-998": {
+        "30": 6
+      }
+    },
+    ".//description/@type": {
+      "hi-998": {
+        "1": 5
+      }
+    },
+    ".//participating-org/@role": {
+      "hi-998": {
+        "Implementing": 5,
+        "Funding": 1
+      }
+    },
+    ".//participating-org/@type": {
+      "hi-998": {
+        "21": 5
+      }
+    },
+    ".//reporting-org/@type": {
+      "hi-998": {
+        "21": 6
+      }
+    },
+    ".//sector[@vocabulary = 'DAC' or not(@vocabulary)]/@code": {
+      "hi-998": {
+        "15150": 1
+      }
+    },
+    ".//sector/@vocabulary": {
+      "hi-998": {
+        "DAC": 1
+      }
+    },
+    ".//transaction/aid-type/@code": {
+      "hi-998": {
+        "C01": 2
+      }
+    },
+    ".//transaction/disbursement-channel/@code": {
+      "hi-998": {
+        "3": 2
+      }
+    },
+    ".//transaction/flow-type/@code": {
+      "hi-998": {
+        "30": 3
+      }
+    },
+    ".//transaction/transaction-type/@code": {
+      "hi-998": {
+        "IF": 4,
+        "E": 2
+      }
+    },
+    ".//transaction/value/@currency": {
+      "hi-998": {
+        "GBP": 6
+      }
+    },
+    ".//@xml:lang": {
+      "hi-998": {
+        "en": 30
+      }
+    }
+  },
+  "2": {
+    ".//@default-currency": {
+      "hi-ao": {
+        "GBP": 1
+      },
+      "hi-tz": {
+        "GBP": 1
+      },
+      "hi-lk": {
+        "GBP": 1
+      },
+      "hi-ke": {
+        "GBP": 1
+      }
+    },
+    ".//activity-date/@type": {
+      "hi-ao": {
+        "2": 1,
+        "3": 1
+      },
+      "hi-tz": {
+        "2": 1,
+        "3": 1
+      },
+      "hi-lk": {
+        "2": 1,
+        "4": 1
+      },
+      "hi-ke": {
+        "2": 1,
+        "3": 1,
+        "4": 1
+      }
+    },
+    ".//activity-status/@code": {
+      "hi-ao": {
+        "4": 1
+      },
+      "hi-tz": {
+        "2": 1
+      },
+      "hi-lk": {
+        "4": 1
+      },
+      "hi-ke": {
+        "4": 1
+      }
+    },
+    ".//budget/@type": {
+      "hi-ao": {
+        "2": 1
+      },
+      "hi-tz": {
+        "1": 3,
+        "2": 1
+      },
+      "hi-lk": {
+        "2": 1
+      },
+      "hi-ke": {
+        "2": 4
+      }
+    },
+    ".//budget/value/@currency": {
+      "hi-ao": {
+        "GBP": 1
+      },
+      "hi-tz": {
+        "GBP": 1
+      },
+      "hi-lk": {
+        "GBP": 1
+      },
+      "hi-ke": {
+        "GBP": 1
+      }
+    },
+    ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "hi-ao": {
+        "C01": 1
+      },
+      "hi-tz": {
+        "C01": 1
+      },
+      "hi-lk": {
+        "C01": 1
+      },
+      "hi-ke": {
+        "C01": 1
+      }
+    },
+    ".//default-flow-type/@code": {
+      "hi-ao": {
+        "30": 1
+      },
+      "hi-tz": {
+        "30": 1
+      },
+      "hi-lk": {
+        "30": 1
+      },
+      "hi-ke": {
+        "30": 1
+      }
+    },
+    ".//description/@type": {
+      "hi-ao": {
+        "1": 1
+      },
+      "hi-tz": {
+        "1": 1
+      },
+      "hi-lk": {
+        "1": 1
+      }
+    },
+    ".//participating-org/@role": {
+      "hi-ao": {
+        "4": 2
+      },
+      "hi-tz": {
+        "4": 3
+      },
+      "hi-lk": {
+        "4": 1
+      },
+      "hi-ke": {
+        "4": 2
+      }
+    },
+    ".//participating-org/@type": {
+      "hi-ao": {
+        "21": 1,
+        "22": 1
+      },
+      "hi-tz": {
+        "21": 1,
+        "22": 2
+      },
+      "hi-lk": {
+        "21": 1
+      },
+      "hi-ke": {
+        "22": 1
+      }
+    },
+    ".//recipient-country/@code": {
+      "hi-ao": {
+        "AO": 1
+      },
+      "hi-tz": {
+        "TZ": 1,
+        "ZW": 1
+      },
+      "hi-lk": {
+        "LK": 1
+      },
+      "hi-ke": {
+        "KE": 1
+      }
+    },
+    ".//reporting-org/@type": {
+      "hi-ao": {
+        "21": 1
+      },
+      "hi-tz": {
+        "21": 1
+      },
+      "hi-lk": {
+        "21": 1
+      },
+      "hi-ke": {
+        "21": 1
+      }
+    },
+    ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "hi-ao": {
+        "15150": 1
+      },
+      "hi-tz": {
+        "14030": 1
+      },
+      "hi-lk": {
+        "15150": 1,
+        "text": 7
+      },
+      "hi-ke": {
+        "14030": 1
+      }
+    },
+    ".//sector/@vocabulary": {
+      "hi-ao": {
+        "1": 1
+      },
+      "hi-tz": {
+        "1": 1
+      },
+      "hi-lk": {
+        "1": 1
+      },
+      "hi-ke": {
+        "1": 1
+      }
+    },
+    ".//transaction/aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "hi-ao": {
+        "C01": 1
+      },
+      "hi-tz": {
+        "C01": 4,
+        "G01": 4
+      },
+      "hi-lk": {
+        "C01": 1
+      },
+      "hi-ke": {
+        "C01": 3
+      }
+    },
+    ".//transaction/disbursement-channel/@code": {
+      "hi-ao": {
+        "3": 1
+      },
+      "hi-tz": {
+        "3": 24,
+        "2": 15
+      },
+      "hi-lk": {
+        "3": 5,
+        "2": 2
+      },
+      "hi-ke": {
+        "3": 18,
+        "2": 11
+      }
+    },
+    ".//transaction/tied-status/@code": {
+      "hi-ao": {
+        "5": 1
+      },
+      "hi-tz": {
+        "5": 8
+      },
+      "hi-ke": {
+        "5": 3
+      }
+    },
+    ".//transaction/transaction-type/@code": {
+      "hi-ao": {
+        "2": 1,
+        "1": 2,
+        "3": 2,
+        "4": 1
+      },
+      "hi-tz": {
+        "1": 14,
+        "3": 15,
+        "2": 2,
+        "4": 8
+      },
+      "hi-lk": {
+        "1": 2,
+        "4": 1,
+        "3": 2,
+        "2": 2
+      },
+      "hi-ke": {
+        "2": 2,
+        "1": 12,
+        "3": 11,
+        "4": 4
+      }
+    },
+    ".//transaction/value/@currency": {
+      "hi-ao": {
+        "GBP": 5
+      },
+      "hi-tz": {
+        "GBP": 19
+      },
+      "hi-lk": {
+        "GBP": 5
+      },
+      "hi-ke": {
+        "GBP": 8
+      }
+    },
+    ".//@xml:lang": {
+      "hi-ao": {
+        "en": 9
+      },
+      "hi-tz": {
+        "en": 38
+      },
+      "hi-lk": {
+        "en": 7
+      },
+      "hi-ke": {
+        "en": 10
+      }
+    },
+    ".//transaction/finance-type/@code": {
+      "hi-tz": {
+        "110": 8
+      },
+      "hi-ke": {
+        "110": 3
+      }
+    },
+    ".//transaction/flow-type/@code": {
+      "hi-tz": {
+        "30": 4,
+        "35": 4
+      },
+      "hi-lk": {
+        "30": 1
+      },
+      "hi-ke": {
+        "30": 3
+      }
+    },
+    ".//transaction/sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "hi-lk": {
+        "text": 7
+      }
+    }
+  }
+}

@@ -1,0 +1,282 @@
+{
+  ".//@default-currency": {
+    "GBP": {
+      "hi-ao": 1,
+      "hi-tz": 1,
+      "hi-lk": 1,
+      "hi-998": 6,
+      "hi-ke": 1
+    }
+  },
+  ".//@xml:lang": {
+    "en": {
+      "hi-ao": 9,
+      "hi-tz": 38,
+      "hi-lk": 7,
+      "hi-998": 30,
+      "hi-ke": 10
+    }
+  },
+  ".//activity-date/@type": {
+    "2": {
+      "hi-ao": 1,
+      "hi-tz": 1,
+      "hi-lk": 1,
+      "hi-ke": 1
+    },
+    "3": {
+      "hi-ao": 1,
+      "hi-tz": 1,
+      "hi-ke": 1
+    },
+    "4": {
+      "hi-lk": 1,
+      "hi-ke": 1
+    },
+    "end-actual": {
+      "hi-998": 6
+    }
+  },
+  ".//activity-status/@code": {
+    "4": {
+      "hi-ao": 1,
+      "hi-lk": 1,
+      "hi-ke": 1
+    },
+    "2": {
+      "hi-tz": 1,
+      "hi-998": 6
+    }
+  },
+  ".//budget/@type": {
+    "2": {
+      "hi-ao": 1,
+      "hi-tz": 1,
+      "hi-lk": 1,
+      "hi-ke": 4
+    },
+    "1": {
+      "hi-tz": 3
+    }
+  },
+  ".//budget/value/@currency": {
+    "GBP": {
+      "hi-ao": 1,
+      "hi-tz": 1,
+      "hi-lk": 1,
+      "hi-ke": 1
+    }
+  },
+  ".//default-aid-type/@code": {
+    "C01": {
+      "hi-998": 6
+    }
+  },
+  ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "C01": {
+      "hi-ao": 1,
+      "hi-tz": 1,
+      "hi-lk": 1,
+      "hi-ke": 1
+    }
+  },
+  ".//default-flow-type/@code": {
+    "30": {
+      "hi-ao": 1,
+      "hi-tz": 1,
+      "hi-lk": 1,
+      "hi-998": 6,
+      "hi-ke": 1
+    }
+  },
+  ".//description/@type": {
+    "1": {
+      "hi-ao": 1,
+      "hi-tz": 1,
+      "hi-lk": 1,
+      "hi-998": 5
+    }
+  },
+  ".//participating-org/@role": {
+    "4": {
+      "hi-ao": 2,
+      "hi-tz": 3,
+      "hi-lk": 1,
+      "hi-ke": 2
+    },
+    "Implementing": {
+      "hi-998": 5
+    },
+    "Funding": {
+      "hi-998": 1
+    }
+  },
+  ".//participating-org/@type": {
+    "21": {
+      "hi-ao": 1,
+      "hi-tz": 1,
+      "hi-lk": 1,
+      "hi-998": 5
+    },
+    "22": {
+      "hi-ao": 1,
+      "hi-tz": 2,
+      "hi-ke": 1
+    }
+  },
+  ".//recipient-country/@code": {
+    "AO": {
+      "hi-ao": 1
+    },
+    "TZ": {
+      "hi-tz": 1
+    },
+    "ZW": {
+      "hi-tz": 1
+    },
+    "LK": {
+      "hi-lk": 1
+    },
+    "KE": {
+      "hi-ke": 1
+    }
+  },
+  ".//reporting-org/@type": {
+    "21": {
+      "hi-ao": 1,
+      "hi-tz": 1,
+      "hi-lk": 1,
+      "hi-998": 6,
+      "hi-ke": 1
+    }
+  },
+  ".//sector/@vocabulary": {
+    "1": {
+      "hi-ao": 1,
+      "hi-tz": 1,
+      "hi-lk": 1,
+      "hi-ke": 1
+    },
+    "DAC": {
+      "hi-998": 1
+    }
+  },
+  ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "15150": {
+      "hi-ao": 1,
+      "hi-lk": 1
+    },
+    "14030": {
+      "hi-tz": 1,
+      "hi-ke": 1
+    },
+    "text": {
+      "hi-lk": 7
+    }
+  },
+  ".//sector[@vocabulary = 'DAC' or not(@vocabulary)]/@code": {
+    "15150": {
+      "hi-998": 1
+    }
+  },
+  ".//transaction/aid-type/@code": {
+    "C01": {
+      "hi-998": 2
+    }
+  },
+  ".//transaction/aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "C01": {
+      "hi-ao": 1,
+      "hi-tz": 4,
+      "hi-lk": 1,
+      "hi-ke": 3
+    },
+    "G01": {
+      "hi-tz": 4
+    }
+  },
+  ".//transaction/disbursement-channel/@code": {
+    "3": {
+      "hi-ao": 1,
+      "hi-tz": 24,
+      "hi-lk": 5,
+      "hi-998": 2,
+      "hi-ke": 18
+    },
+    "2": {
+      "hi-tz": 15,
+      "hi-lk": 2,
+      "hi-ke": 11
+    }
+  },
+  ".//transaction/finance-type/@code": {
+    "110": {
+      "hi-tz": 8,
+      "hi-ke": 3
+    }
+  },
+  ".//transaction/flow-type/@code": {
+    "30": {
+      "hi-tz": 4,
+      "hi-lk": 1,
+      "hi-998": 3,
+      "hi-ke": 3
+    },
+    "35": {
+      "hi-tz": 4
+    }
+  },
+  ".//transaction/sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "text": {
+      "hi-lk": 7
+    }
+  },
+  ".//transaction/tied-status/@code": {
+    "5": {
+      "hi-ao": 1,
+      "hi-tz": 8,
+      "hi-ke": 3
+    }
+  },
+  ".//transaction/transaction-type/@code": {
+    "2": {
+      "hi-ao": 1,
+      "hi-tz": 2,
+      "hi-lk": 2,
+      "hi-ke": 2
+    },
+    "1": {
+      "hi-ao": 2,
+      "hi-tz": 14,
+      "hi-lk": 2,
+      "hi-ke": 12
+    },
+    "3": {
+      "hi-ao": 2,
+      "hi-tz": 15,
+      "hi-lk": 2,
+      "hi-ke": 11
+    },
+    "4": {
+      "hi-ao": 1,
+      "hi-tz": 8,
+      "hi-lk": 1,
+      "hi-ke": 4
+    },
+    "IF": {
+      "hi-998": 4
+    },
+    "E": {
+      "hi-998": 2
+    }
+  },
+  ".//transaction/value/@currency": {
+    "GBP": {
+      "hi-ao": 5,
+      "hi-tz": 19,
+      "hi-lk": 5,
+      "hi-998": 6,
+      "hi-ke": 8
+    }
+  }
+}

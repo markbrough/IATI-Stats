@@ -1,0 +1,629 @@
+{
+  ".//@default-currency": {
+    "EUR": {
+      "hai-ug": 1,
+      "hai-nl": 2,
+      "hai-298": 1,
+      "hai-998": 1,
+      "hai-zm": 1,
+      "hai-ke": 2
+    }
+  },
+  ".//@xml:lang": {
+    "en": {
+      "hai-ug": 40,
+      "hai-nl": 16,
+      "hai-298": 6,
+      "hai-998": 4,
+      "hai-zm": 36,
+      "hai-ke": 272
+    },
+    "nl": {
+      "hai-ug": 1,
+      "hai-nl": 2,
+      "hai-298": 1,
+      "hai-998": 1,
+      "hai-zm": 1,
+      "hai-ke": 2
+    }
+  },
+  ".//activity-date/@type": {
+    "2": {
+      "hai-ug": 1,
+      "hai-nl": 2,
+      "hai-298": 1,
+      "hai-zm": 1,
+      "hai-ke": 1
+    },
+    "3": {
+      "hai-ug": 1,
+      "hai-nl": 2,
+      "hai-298": 1,
+      "hai-998": 1,
+      "hai-zm": 1,
+      "hai-ke": 2
+    },
+    "1": {
+      "hai-998": 1,
+      "hai-ke": 1
+    }
+  },
+  ".//activity-status/@code": {
+    "2": {
+      "hai-ug": 1,
+      "hai-nl": 1,
+      "hai-298": 1,
+      "hai-zm": 1,
+      "hai-ke": 2
+    },
+    "1": {
+      "hai-nl": 1,
+      "hai-998": 1
+    }
+  },
+  ".//budget/@status": {
+    "1": {
+      "hai-ug": 1,
+      "hai-298": 1,
+      "hai-998": 1,
+      "hai-zm": 1,
+      "hai-ke": 1
+    },
+    "2": {
+      "hai-nl": 1,
+      "hai-ke": 2
+    }
+  },
+  ".//budget/@type": {
+    "2": {
+      "hai-ug": 1
+    },
+    "1": {
+      "hai-nl": 1,
+      "hai-298": 1,
+      "hai-998": 1,
+      "hai-zm": 1,
+      "hai-ke": 3
+    }
+  },
+  ".//budget/value/@currency": {
+    "EUR": {
+      "hai-ug": 1,
+      "hai-nl": 1,
+      "hai-298": 1,
+      "hai-998": 1,
+      "hai-zm": 1,
+      "hai-ke": 3
+    }
+  },
+  ".//collaboration-type/@code": {
+    "1": {
+      "hai-nl": 1,
+      "hai-ke": 1
+    }
+  },
+  ".//contact-info/@type": {
+    "1": {
+      "hai-ug": 1,
+      "hai-nl": 1,
+      "hai-298": 1,
+      "hai-998": 1,
+      "hai-zm": 1,
+      "hai-ke": 1
+    },
+    "2": {
+      "hai-ke": 1
+    }
+  },
+  ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "C01": {
+      "hai-ug": 1,
+      "hai-nl": 2,
+      "hai-298": 1,
+      "hai-998": 1,
+      "hai-zm": 1,
+      "hai-ke": 2
+    }
+  },
+  ".//default-finance-type/@code": {
+    "110": {
+      "hai-ug": 1,
+      "hai-nl": 2,
+      "hai-298": 1,
+      "hai-998": 1,
+      "hai-zm": 1,
+      "hai-ke": 2
+    }
+  },
+  ".//default-flow-type/@code": {
+    "30": {
+      "hai-ug": 1,
+      "hai-nl": 2,
+      "hai-298": 1,
+      "hai-998": 1,
+      "hai-zm": 1,
+      "hai-ke": 2
+    }
+  },
+  ".//default-tied-status/@code": {
+    "5": {
+      "hai-ug": 1,
+      "hai-nl": 2,
+      "hai-298": 1,
+      "hai-998": 1,
+      "hai-zm": 1,
+      "hai-ke": 2
+    }
+  },
+  ".//description/@type": {
+    "1": {
+      "hai-ug": 1,
+      "hai-nl": 2,
+      "hai-298": 1,
+      "hai-998": 1,
+      "hai-zm": 1,
+      "hai-ke": 2
+    }
+  },
+  ".//document-link/@format": {
+    "application/msword": {
+      "hai-ug": 2,
+      "hai-nl": 4,
+      "hai-298": 2,
+      "hai-998": 1,
+      "hai-zm": 2,
+      "hai-ke": 3
+    },
+    "application/pdf": {
+      "hai-ug": 1,
+      "hai-zm": 1,
+      "hai-ke": 2
+    },
+    "application/activemessage": {
+      "hai-nl": 2
+    },
+    "multipart/report": {
+      "hai-nl": 1
+    }
+  },
+  ".//document-link/category/@code": {
+    "A08": {
+      "hai-ug": 2,
+      "hai-nl": 2,
+      "hai-zm": 1,
+      "hai-ke": 3
+    },
+    "B03": {
+      "hai-ug": 1,
+      "hai-zm": 1,
+      "hai-ke": 1
+    },
+    "A02": {
+      "hai-nl": 2,
+      "hai-298": 2,
+      "hai-998": 1
+    },
+    "A07": {
+      "hai-nl": 1
+    },
+    "B09": {
+      "hai-nl": 1
+    },
+    "B01": {
+      "hai-nl": 1,
+      "hai-zm": 1,
+      "hai-ke": 1
+    }
+  },
+  ".//document-link/language/@code": {
+    "en": {
+      "hai-nl": 3,
+      "hai-298": 2,
+      "hai-998": 1,
+      "hai-ke": 2
+    }
+  },
+  ".//location/exactness/@code": {
+    "1": {
+      "hai-zm": 1
+    },
+    "2": {
+      "hai-zm": 19
+    }
+  },
+  ".//location/location-class/@code": {
+    "2": {
+      "hai-zm": 20
+    }
+  },
+  ".//location/location-reach/@code": {
+    "1": {
+      "hai-zm": 20
+    }
+  },
+  ".//participating-org/@role": {
+    "1": {
+      "hai-ug": 1,
+      "hai-nl": 2,
+      "hai-298": 1,
+      "hai-998": 1,
+      "hai-zm": 1,
+      "hai-ke": 2
+    },
+    "2": {
+      "hai-ug": 1,
+      "hai-nl": 1,
+      "hai-298": 1,
+      "hai-998": 1,
+      "hai-zm": 1,
+      "hai-ke": 2
+    },
+    "4": {
+      "hai-ug": 3,
+      "hai-nl": 4,
+      "hai-298": 3,
+      "hai-998": 1,
+      "hai-zm": 2,
+      "hai-ke": 2
+    },
+    "3": {
+      "hai-ug": 1
+    }
+  },
+  ".//participating-org/@type": {
+    "21": {
+      "hai-ug": 3,
+      "hai-nl": 3,
+      "hai-998": 3,
+      "hai-zm": 3,
+      "hai-ke": 6
+    },
+    "22": {
+      "hai-ug": 3,
+      "hai-nl": 1,
+      "hai-298": 3
+    },
+    "30": {
+      "hai-nl": 1,
+      "hai-298": 1,
+      "hai-zm": 1
+    }
+  },
+  ".//planned-disbursement/@type": {
+    "1": {
+      "hai-ug": 1,
+      "hai-298": 1,
+      "hai-998": 1,
+      "hai-zm": 1,
+      "hai-ke": 1
+    }
+  },
+  ".//planned-disbursement/provider-org/@type": {
+    "Funding": {
+      "hai-ug": 1,
+      "hai-zm": 1
+    }
+  },
+  ".//planned-disbursement/receiver-org/@type": {
+    "via Amref": {
+      "hai-ug": 1,
+      "hai-298": 1,
+      "hai-998": 1,
+      "hai-zm": 1
+    }
+  },
+  ".//planned-disbursement/value/@currency": {
+    "USD": {
+      "hai-ug": 1
+    },
+    "EUR": {
+      "hai-zm": 1,
+      "hai-ke": 1
+    }
+  },
+  ".//policy-marker/@significance": {
+    "1": {
+      "hai-ug": 2,
+      "hai-nl": 3,
+      "hai-298": 1,
+      "hai-998": 2,
+      "hai-zm": 2,
+      "hai-ke": 3
+    },
+    "2": {
+      "hai-ug": 1,
+      "hai-nl": 2,
+      "hai-298": 1,
+      "hai-998": 1,
+      "hai-zm": 1,
+      "hai-ke": 2
+    },
+    "4": {
+      "hai-ke": 1
+    }
+  },
+  ".//policy-marker/@vocabulary": {
+    "1": {
+      "hai-ug": 2,
+      "hai-nl": 4,
+      "hai-298": 1,
+      "hai-998": 2,
+      "hai-zm": 2,
+      "hai-ke": 6
+    }
+  },
+  ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "3": {
+      "hai-ug": 1,
+      "hai-nl": 2,
+      "hai-298": 1,
+      "hai-998": 1,
+      "hai-zm": 1,
+      "hai-ke": 2
+    },
+    "9": {
+      "hai-ug": 1,
+      "hai-nl": 2,
+      "hai-298": 1,
+      "hai-998": 1,
+      "hai-zm": 1,
+      "hai-ke": 1
+    },
+    "1": {
+      "hai-ug": 1,
+      "hai-nl": 1,
+      "hai-998": 1,
+      "hai-zm": 1,
+      "hai-ke": 2
+    },
+    "2": {
+      "hai-ke": 1
+    }
+  },
+  ".//recipient-country/@code": {
+    "UG": {
+      "hai-ug": 1,
+      "hai-nl": 1,
+      "hai-ke": 1
+    },
+    "NL": {
+      "hai-nl": 2
+    },
+    "ZM": {
+      "hai-nl": 1,
+      "hai-zm": 1,
+      "hai-ke": 1
+    },
+    "KE": {
+      "hai-nl": 1,
+      "hai-ke": 2
+    }
+  },
+  ".//recipient-region/@vocabulary": {
+    "1": {
+      "hai-nl": 1,
+      "hai-298": 1,
+      "hai-998": 1,
+      "hai-ke": 1
+    }
+  },
+  ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "998": {
+      "hai-nl": 1
+    },
+    "298": {
+      "hai-298": 1,
+      "hai-998": 1
+    },
+    "289": {
+      "hai-ke": 1
+    }
+  },
+  ".//related-activity/@type": {
+    "1": {
+      "hai-ug": 1,
+      "hai-298": 1,
+      "hai-998": 1,
+      "hai-zm": 1,
+      "hai-ke": 1
+    },
+    "3": {
+      "hai-ug": 4,
+      "hai-298": 4,
+      "hai-998": 4,
+      "hai-zm": 4,
+      "hai-ke": 4
+    },
+    "2": {
+      "hai-nl": 5
+    },
+    "4": {
+      "hai-ke": 1
+    }
+  },
+  ".//reporting-org/@type": {
+    "21": {
+      "hai-ug": 1,
+      "hai-nl": 2,
+      "hai-998": 1,
+      "hai-zm": 1,
+      "hai-ke": 2
+    },
+    "22": {
+      "hai-298": 1
+    }
+  },
+  ".//result/@type": {
+    "1": {
+      "hai-ug": 16,
+      "hai-zm": 15,
+      "hai-ke": 26
+    },
+    "2": {
+      "hai-ke": 10
+    }
+  },
+  ".//result/indicator/@measure": {
+    "1": {
+      "hai-ug": 16,
+      "hai-zm": 14,
+      "hai-ke": 76
+    },
+    "2": {
+      "hai-zm": 1,
+      "hai-ke": 14
+    }
+  },
+  ".//result/indicator/reference/@vocabulary": {
+    "99": {
+      "hai-ug": 16,
+      "hai-zm": 15,
+      "hai-ke": 90
+    }
+  },
+  ".//sector/@vocabulary": {
+    "1": {
+      "hai-ug": 1,
+      "hai-nl": 2,
+      "hai-298": 1,
+      "hai-998": 1,
+      "hai-zm": 1,
+      "hai-ke": 5
+    }
+  },
+  ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "15110": {
+      "hai-ug": 1,
+      "hai-ke": 1
+    },
+    "15150": {
+      "hai-nl": 2,
+      "hai-298": 1,
+      "hai-998": 1,
+      "hai-zm": 1,
+      "hai-ke": 1
+    },
+    "12110": {
+      "hai-ke": 1
+    },
+    "12220": {
+      "hai-ke": 1
+    },
+    "12261": {
+      "hai-ke": 1
+    }
+  },
+  ".//transaction/aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "C01": {
+      "hai-ug": 8,
+      "hai-nl": 6,
+      "hai-ke": 11
+    },
+    "B03": {
+      "hai-298": 1,
+      "hai-998": 1
+    }
+  },
+  ".//transaction/disbursement-channel/@code": {
+    "2": {
+      "hai-ug": 6,
+      "hai-nl": 5,
+      "hai-298": 1,
+      "hai-998": 1,
+      "hai-ke": 6
+    }
+  },
+  ".//transaction/finance-type/@code": {
+    "110": {
+      "hai-ug": 8,
+      "hai-nl": 6,
+      "hai-298": 1,
+      "hai-998": 1,
+      "hai-ke": 11
+    }
+  },
+  ".//transaction/flow-type/@code": {
+    "30": {
+      "hai-ug": 5,
+      "hai-nl": 6,
+      "hai-ke": 7
+    },
+    "10": {
+      "hai-ug": 3,
+      "hai-298": 1,
+      "hai-998": 1,
+      "hai-ke": 4
+    }
+  },
+  ".//transaction/provider-org/@type": {
+    "21": {
+      "hai-nl": 3,
+      "hai-ke": 2
+    }
+  },
+  ".//transaction/receiver-org/@type": {
+    "22": {
+      "hai-ug": 6,
+      "hai-zm": 5,
+      "hai-ke": 5
+    },
+    "21": {
+      "hai-nl": 3,
+      "hai-ke": 2
+    },
+    "via Amref": {
+      "hai-298": 1,
+      "hai-998": 1
+    }
+  },
+  ".//transaction/tied-status/@code": {
+    "5": {
+      "hai-ug": 8,
+      "hai-nl": 6,
+      "hai-298": 1,
+      "hai-998": 1,
+      "hai-ke": 11
+    }
+  },
+  ".//transaction/transaction-type/@code": {
+    "4": {
+      "hai-ug": 5,
+      "hai-nl": 5,
+      "hai-zm": 5,
+      "hai-ke": 6
+    },
+    "3": {
+      "hai-ug": 5,
+      "hai-nl": 12,
+      "hai-zm": 5,
+      "hai-ke": 5
+    },
+    "2": {
+      "hai-ug": 1,
+      "hai-nl": 4,
+      "hai-298": 1,
+      "hai-998": 1,
+      "hai-zm": 1,
+      "hai-ke": 1
+    },
+    "1": {
+      "hai-nl": 6,
+      "hai-zm": 3,
+      "hai-ke": 1
+    },
+    "11": {
+      "hai-nl": 1,
+      "hai-ke": 1
+    }
+  },
+  ".//transaction/value/@currency": {
+    "EUR": {
+      "hai-ug": 10,
+      "hai-nl": 22,
+      "hai-298": 1,
+      "hai-998": 1,
+      "hai-zm": 13,
+      "hai-ke": 12
+    }
+  }
+}
