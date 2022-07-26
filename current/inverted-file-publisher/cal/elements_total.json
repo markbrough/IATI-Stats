@@ -1,0 +1,756 @@
+{
+  "iati-activity": {
+    "cal-ss": 1,
+    "cal-np": 5,
+    "cal-ke": 1,
+    "cal-mm": 1,
+    "cal-zw": 2,
+    "cal-ng": 1
+  },
+  "iati-activity/@default-currency": {
+    "cal-ss": 1,
+    "cal-np": 5,
+    "cal-ke": 1,
+    "cal-mm": 1,
+    "cal-zw": 2,
+    "cal-ng": 1
+  },
+  "iati-activity/@hierarchy": {
+    "cal-ss": 1,
+    "cal-np": 5,
+    "cal-ke": 1,
+    "cal-mm": 1,
+    "cal-zw": 2,
+    "cal-ng": 1
+  },
+  "iati-activity/@humanitarian": {
+    "cal-ss": 1,
+    "cal-np": 5,
+    "cal-ke": 1,
+    "cal-mm": 1,
+    "cal-zw": 2,
+    "cal-ng": 1
+  },
+  "iati-activity/@last-updated-datetime": {
+    "cal-ss": 1,
+    "cal-np": 5,
+    "cal-ke": 1,
+    "cal-mm": 1,
+    "cal-zw": 2,
+    "cal-ng": 1
+  },
+  "iati-activity/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "cal-ss": 1,
+    "cal-np": 5,
+    "cal-ke": 1,
+    "cal-mm": 1,
+    "cal-zw": 2,
+    "cal-ng": 1
+  },
+  "iati-activity/activity-date": {
+    "cal-ss": 2,
+    "cal-np": 10,
+    "cal-ke": 2,
+    "cal-mm": 2,
+    "cal-zw": 4,
+    "cal-ng": 2
+  },
+  "iati-activity/activity-date/@iso-date": {
+    "cal-ss": 2,
+    "cal-np": 10,
+    "cal-ke": 2,
+    "cal-mm": 2,
+    "cal-zw": 4,
+    "cal-ng": 2
+  },
+  "iati-activity/activity-date/@type": {
+    "cal-ss": 2,
+    "cal-np": 10,
+    "cal-ke": 2,
+    "cal-mm": 2,
+    "cal-zw": 4,
+    "cal-ng": 2
+  },
+  "iati-activity/activity-date/narrative": {
+    "cal-mm": 1,
+    "cal-ng": 1
+  },
+  "iati-activity/activity-date/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "cal-mm": 1,
+    "cal-ng": 1
+  },
+  "iati-activity/activity-status": {
+    "cal-ss": 1,
+    "cal-np": 5,
+    "cal-ke": 1,
+    "cal-mm": 1,
+    "cal-zw": 2,
+    "cal-ng": 1
+  },
+  "iati-activity/activity-status/@code": {
+    "cal-ss": 1,
+    "cal-np": 5,
+    "cal-ke": 1,
+    "cal-mm": 1,
+    "cal-zw": 2,
+    "cal-ng": 1
+  },
+  "iati-activity/budget": {
+    "cal-ss": 9,
+    "cal-np": 40,
+    "cal-ke": 1,
+    "cal-mm": 13,
+    "cal-zw": 3,
+    "cal-ng": 1
+  },
+  "iati-activity/budget/@status": {
+    "cal-ss": 9,
+    "cal-np": 40,
+    "cal-ke": 1,
+    "cal-mm": 13,
+    "cal-zw": 3,
+    "cal-ng": 1
+  },
+  "iati-activity/budget/@type": {
+    "cal-ss": 2,
+    "cal-np": 40,
+    "cal-ke": 1,
+    "cal-mm": 13,
+    "cal-zw": 3,
+    "cal-ng": 1
+  },
+  "iati-activity/budget/period-end": {
+    "cal-ss": 9,
+    "cal-np": 40,
+    "cal-ke": 1,
+    "cal-mm": 13,
+    "cal-zw": 3,
+    "cal-ng": 1
+  },
+  "iati-activity/budget/period-end/@iso-date": {
+    "cal-ss": 9,
+    "cal-np": 40,
+    "cal-ke": 1,
+    "cal-mm": 13,
+    "cal-zw": 3,
+    "cal-ng": 1
+  },
+  "iati-activity/budget/period-start": {
+    "cal-ss": 9,
+    "cal-np": 40,
+    "cal-ke": 1,
+    "cal-mm": 13,
+    "cal-zw": 3,
+    "cal-ng": 1
+  },
+  "iati-activity/budget/period-start/@iso-date": {
+    "cal-ss": 9,
+    "cal-np": 40,
+    "cal-ke": 1,
+    "cal-mm": 13,
+    "cal-zw": 3,
+    "cal-ng": 1
+  },
+  "iati-activity/budget/value": {
+    "cal-ss": 9,
+    "cal-np": 40,
+    "cal-ke": 1,
+    "cal-mm": 13,
+    "cal-zw": 3,
+    "cal-ng": 1
+  },
+  "iati-activity/budget/value/@currency": {
+    "cal-ss": 9,
+    "cal-np": 40,
+    "cal-ke": 1,
+    "cal-mm": 11,
+    "cal-zw": 3,
+    "cal-ng": 1
+  },
+  "iati-activity/budget/value/@value-date": {
+    "cal-ss": 9,
+    "cal-np": 40,
+    "cal-ke": 1,
+    "cal-mm": 13,
+    "cal-zw": 3,
+    "cal-ng": 1
+  },
+  "iati-activity/contact-info": {
+    "cal-ss": 1,
+    "cal-np": 5,
+    "cal-ke": 1,
+    "cal-mm": 1,
+    "cal-zw": 2,
+    "cal-ng": 1
+  },
+  "iati-activity/contact-info/@type": {
+    "cal-ss": 1,
+    "cal-np": 4,
+    "cal-ke": 1,
+    "cal-mm": 1,
+    "cal-zw": 2,
+    "cal-ng": 1
+  },
+  "iati-activity/contact-info/email": {
+    "cal-np": 5,
+    "cal-ke": 1,
+    "cal-mm": 1,
+    "cal-zw": 2,
+    "cal-ng": 1
+  },
+  "iati-activity/contact-info/mailing-address": {
+    "cal-np": 1,
+    "cal-ng": 1
+  },
+  "iati-activity/contact-info/mailing-address/narrative": {
+    "cal-np": 1,
+    "cal-ng": 1
+  },
+  "iati-activity/contact-info/organisation": {
+    "cal-ss": 1,
+    "cal-np": 5,
+    "cal-ke": 1,
+    "cal-mm": 1,
+    "cal-zw": 2,
+    "cal-ng": 1
+  },
+  "iati-activity/contact-info/organisation/narrative": {
+    "cal-ss": 1,
+    "cal-np": 5,
+    "cal-ke": 1,
+    "cal-mm": 1,
+    "cal-zw": 2,
+    "cal-ng": 1
+  },
+  "iati-activity/contact-info/organisation/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "cal-ss": 1,
+    "cal-np": 1,
+    "cal-mm": 1,
+    "cal-zw": 2,
+    "cal-ng": 1
+  },
+  "iati-activity/contact-info/telephone": {
+    "cal-np": 4,
+    "cal-mm": 1,
+    "cal-zw": 2,
+    "cal-ng": 1
+  },
+  "iati-activity/contact-info/website": {
+    "cal-np": 5,
+    "cal-ke": 1,
+    "cal-mm": 1,
+    "cal-zw": 2,
+    "cal-ng": 1
+  },
+  "iati-activity/description": {
+    "cal-ss": 1,
+    "cal-np": 5,
+    "cal-ke": 1,
+    "cal-mm": 1,
+    "cal-zw": 2,
+    "cal-ng": 1
+  },
+  "iati-activity/description/@type": {
+    "cal-ss": 1,
+    "cal-np": 5,
+    "cal-ke": 1,
+    "cal-mm": 1,
+    "cal-zw": 2,
+    "cal-ng": 1
+  },
+  "iati-activity/description/narrative": {
+    "cal-ss": 1,
+    "cal-np": 5,
+    "cal-ke": 1,
+    "cal-mm": 1,
+    "cal-zw": 2,
+    "cal-ng": 1
+  },
+  "iati-activity/description/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "cal-ss": 1,
+    "cal-np": 1,
+    "cal-mm": 1,
+    "cal-zw": 1,
+    "cal-ng": 1
+  },
+  "iati-activity/document-link": {
+    "cal-ss": 1,
+    "cal-np": 4,
+    "cal-ke": 1,
+    "cal-mm": 1,
+    "cal-zw": 2,
+    "cal-ng": 1
+  },
+  "iati-activity/document-link/@format": {
+    "cal-ss": 1,
+    "cal-np": 4,
+    "cal-ke": 1,
+    "cal-mm": 1,
+    "cal-zw": 2,
+    "cal-ng": 1
+  },
+  "iati-activity/document-link/@url": {
+    "cal-ss": 1,
+    "cal-np": 4,
+    "cal-ke": 1,
+    "cal-mm": 1,
+    "cal-zw": 2,
+    "cal-ng": 1
+  },
+  "iati-activity/document-link/category": {
+    "cal-ss": 1,
+    "cal-np": 4,
+    "cal-ke": 1,
+    "cal-mm": 1,
+    "cal-zw": 2,
+    "cal-ng": 1
+  },
+  "iati-activity/document-link/category/@code": {
+    "cal-ss": 1,
+    "cal-np": 4,
+    "cal-ke": 1,
+    "cal-mm": 1,
+    "cal-zw": 2,
+    "cal-ng": 1
+  },
+  "iati-activity/document-link/document-date": {
+    "cal-ss": 1,
+    "cal-np": 1
+  },
+  "iati-activity/document-link/document-date/@iso-date": {
+    "cal-ss": 1,
+    "cal-np": 1
+  },
+  "iati-activity/document-link/language": {
+    "cal-ss": 1,
+    "cal-np": 1,
+    "cal-mm": 1,
+    "cal-ng": 1
+  },
+  "iati-activity/document-link/language/@code": {
+    "cal-ss": 1,
+    "cal-np": 1,
+    "cal-mm": 1,
+    "cal-ng": 1
+  },
+  "iati-activity/document-link/title": {
+    "cal-ss": 1,
+    "cal-np": 4,
+    "cal-ke": 1,
+    "cal-mm": 1,
+    "cal-zw": 2,
+    "cal-ng": 1
+  },
+  "iati-activity/document-link/title/narrative": {
+    "cal-ss": 1,
+    "cal-np": 4,
+    "cal-ke": 1,
+    "cal-mm": 1,
+    "cal-zw": 2,
+    "cal-ng": 1
+  },
+  "iati-activity/document-link/title/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "cal-mm": 1,
+    "cal-zw": 2
+  },
+  "iati-activity/iati-identifier": {
+    "cal-ss": 1,
+    "cal-np": 5,
+    "cal-ke": 1,
+    "cal-mm": 1,
+    "cal-zw": 2,
+    "cal-ng": 1
+  },
+  "iati-activity/participating-org": {
+    "cal-ss": 5,
+    "cal-np": 11,
+    "cal-ke": 1,
+    "cal-mm": 7,
+    "cal-zw": 6,
+    "cal-ng": 2
+  },
+  "iati-activity/participating-org/@activity-id": {
+    "cal-ss": 3,
+    "cal-np": 6,
+    "cal-ke": 1
+  },
+  "iati-activity/participating-org/@ref": {
+    "cal-ss": 3,
+    "cal-np": 10,
+    "cal-ke": 1,
+    "cal-mm": 5,
+    "cal-zw": 4,
+    "cal-ng": 2
+  },
+  "iati-activity/participating-org/@role": {
+    "cal-ss": 5,
+    "cal-np": 11,
+    "cal-ke": 1,
+    "cal-mm": 7,
+    "cal-zw": 6,
+    "cal-ng": 2
+  },
+  "iati-activity/participating-org/@type": {
+    "cal-ss": 5,
+    "cal-np": 11,
+    "cal-ke": 1,
+    "cal-mm": 7,
+    "cal-zw": 6,
+    "cal-ng": 2
+  },
+  "iati-activity/participating-org/narrative": {
+    "cal-ss": 5,
+    "cal-np": 11,
+    "cal-ke": 1,
+    "cal-mm": 7,
+    "cal-zw": 6,
+    "cal-ng": 2
+  },
+  "iati-activity/participating-org/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "cal-ss": 3,
+    "cal-np": 7,
+    "cal-ke": 1,
+    "cal-mm": 4,
+    "cal-zw": 1
+  },
+  "iati-activity/recipient-country": {
+    "cal-ss": 1,
+    "cal-np": 5,
+    "cal-ke": 1,
+    "cal-mm": 1,
+    "cal-zw": 2,
+    "cal-ng": 1
+  },
+  "iati-activity/recipient-country/@code": {
+    "cal-ss": 1,
+    "cal-np": 5,
+    "cal-ke": 1,
+    "cal-mm": 1,
+    "cal-zw": 2,
+    "cal-ng": 1
+  },
+  "iati-activity/recipient-country/@percentage": {
+    "cal-np": 2,
+    "cal-mm": 1,
+    "cal-zw": 1,
+    "cal-ng": 1
+  },
+  "iati-activity/reporting-org": {
+    "cal-ss": 1,
+    "cal-np": 5,
+    "cal-ke": 1,
+    "cal-mm": 1,
+    "cal-zw": 2,
+    "cal-ng": 1
+  },
+  "iati-activity/reporting-org/@ref": {
+    "cal-ss": 1,
+    "cal-np": 5,
+    "cal-ke": 1,
+    "cal-mm": 1,
+    "cal-zw": 2,
+    "cal-ng": 1
+  },
+  "iati-activity/reporting-org/@type": {
+    "cal-ss": 1,
+    "cal-np": 5,
+    "cal-ke": 1,
+    "cal-mm": 1,
+    "cal-zw": 2,
+    "cal-ng": 1
+  },
+  "iati-activity/reporting-org/narrative": {
+    "cal-ss": 1,
+    "cal-np": 5,
+    "cal-ke": 1,
+    "cal-mm": 1,
+    "cal-zw": 2,
+    "cal-ng": 1
+  },
+  "iati-activity/reporting-org/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "cal-ss": 1,
+    "cal-np": 5,
+    "cal-ke": 1,
+    "cal-mm": 1,
+    "cal-zw": 2,
+    "cal-ng": 1
+  },
+  "iati-activity/sector": {
+    "cal-ss": 1,
+    "cal-np": 5,
+    "cal-ke": 1,
+    "cal-mm": 1,
+    "cal-zw": 2,
+    "cal-ng": 1
+  },
+  "iati-activity/sector/@code": {
+    "cal-ss": 1,
+    "cal-np": 5,
+    "cal-ke": 1,
+    "cal-mm": 1,
+    "cal-zw": 2,
+    "cal-ng": 1
+  },
+  "iati-activity/sector/@percentage": {
+    "cal-mm": 1
+  },
+  "iati-activity/sector/@vocabulary": {
+    "cal-ss": 1,
+    "cal-np": 5,
+    "cal-ke": 1,
+    "cal-mm": 1,
+    "cal-zw": 2,
+    "cal-ng": 1
+  },
+  "iati-activity/sector/narrative": {
+    "cal-mm": 1,
+    "cal-zw": 1
+  },
+  "iati-activity/title": {
+    "cal-ss": 1,
+    "cal-np": 5,
+    "cal-ke": 1,
+    "cal-mm": 1,
+    "cal-zw": 2,
+    "cal-ng": 1
+  },
+  "iati-activity/title/narrative": {
+    "cal-ss": 1,
+    "cal-np": 5,
+    "cal-ke": 1,
+    "cal-mm": 1,
+    "cal-zw": 2,
+    "cal-ng": 1
+  },
+  "iati-activity/title/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "cal-ss": 1,
+    "cal-np": 4,
+    "cal-mm": 1,
+    "cal-zw": 1,
+    "cal-ng": 1
+  },
+  "iati-activity/transaction": {
+    "cal-ss": 16,
+    "cal-np": 56,
+    "cal-ke": 13,
+    "cal-mm": 60,
+    "cal-zw": 22,
+    "cal-ng": 9
+  },
+  "iati-activity/transaction/@humanitarian": {
+    "cal-np": 11,
+    "cal-ke": 6,
+    "cal-mm": 1,
+    "cal-zw": 1
+  },
+  "iati-activity/transaction/@ref": {
+    "cal-ss": 1,
+    "cal-np": 9,
+    "cal-ke": 1
+  },
+  "iati-activity/transaction/description": {
+    "cal-ss": 16,
+    "cal-np": 56,
+    "cal-ke": 13,
+    "cal-mm": 38,
+    "cal-zw": 21,
+    "cal-ng": 9
+  },
+  "iati-activity/transaction/description/narrative": {
+    "cal-ss": 16,
+    "cal-np": 56,
+    "cal-ke": 13,
+    "cal-mm": 38,
+    "cal-zw": 21,
+    "cal-ng": 9
+  },
+  "iati-activity/transaction/description/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "cal-np": 40,
+    "cal-ke": 3,
+    "cal-mm": 5,
+    "cal-zw": 3,
+    "cal-ng": 7
+  },
+  "iati-activity/transaction/disbursement-channel": {
+    "cal-ke": 2
+  },
+  "iati-activity/transaction/disbursement-channel/@code": {
+    "cal-ke": 2
+  },
+  "iati-activity/transaction/provider-org": {
+    "cal-ss": 16,
+    "cal-np": 53,
+    "cal-ke": 13,
+    "cal-mm": 60,
+    "cal-zw": 20,
+    "cal-ng": 9
+  },
+  "iati-activity/transaction/provider-org/@provider-activity-id": {
+    "cal-ss": 16,
+    "cal-np": 43,
+    "cal-ke": 8,
+    "cal-mm": 60,
+    "cal-zw": 18,
+    "cal-ng": 9
+  },
+  "iati-activity/transaction/provider-org/@ref": {
+    "cal-ss": 16,
+    "cal-np": 50,
+    "cal-ke": 12,
+    "cal-mm": 60,
+    "cal-zw": 18,
+    "cal-ng": 9
+  },
+  "iati-activity/transaction/provider-org/@type": {
+    "cal-ss": 16,
+    "cal-np": 47,
+    "cal-ke": 6,
+    "cal-mm": 46,
+    "cal-zw": 5
+  },
+  "iati-activity/transaction/provider-org/narrative": {
+    "cal-ss": 16,
+    "cal-np": 53,
+    "cal-ke": 3,
+    "cal-mm": 59,
+    "cal-zw": 18,
+    "cal-ng": 9
+  },
+  "iati-activity/transaction/provider-org/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "cal-np": 35,
+    "cal-mm": 14,
+    "cal-zw": 2
+  },
+  "iati-activity/transaction/receiver-org": {
+    "cal-ss": 16,
+    "cal-np": 36,
+    "cal-ke": 6,
+    "cal-mm": 50,
+    "cal-zw": 16,
+    "cal-ng": 5
+  },
+  "iati-activity/transaction/receiver-org/@receiver-activity-id": {
+    "cal-ss": 6,
+    "cal-np": 18,
+    "cal-ke": 4,
+    "cal-mm": 9,
+    "cal-zw": 9,
+    "cal-ng": 5
+  },
+  "iati-activity/transaction/receiver-org/@ref": {
+    "cal-ss": 1,
+    "cal-np": 25,
+    "cal-ke": 6,
+    "cal-mm": 35,
+    "cal-zw": 11,
+    "cal-ng": 5
+  },
+  "iati-activity/transaction/receiver-org/@type": {
+    "cal-ss": 15,
+    "cal-np": 19,
+    "cal-ke": 2,
+    "cal-mm": 40,
+    "cal-zw": 3
+  },
+  "iati-activity/transaction/receiver-org/narrative": {
+    "cal-ss": 16,
+    "cal-np": 35,
+    "cal-ke": 1,
+    "cal-mm": 50,
+    "cal-zw": 13,
+    "cal-ng": 5
+  },
+  "iati-activity/transaction/receiver-org/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "cal-np": 27,
+    "cal-mm": 13
+  },
+  "iati-activity/transaction/tied-status": {
+    "cal-ke": 2
+  },
+  "iati-activity/transaction/tied-status/@code": {
+    "cal-ke": 2
+  },
+  "iati-activity/transaction/transaction-date": {
+    "cal-ss": 16,
+    "cal-np": 56,
+    "cal-ke": 13,
+    "cal-mm": 60,
+    "cal-zw": 22,
+    "cal-ng": 9
+  },
+  "iati-activity/transaction/transaction-date/@iso-date": {
+    "cal-ss": 16,
+    "cal-np": 56,
+    "cal-ke": 13,
+    "cal-mm": 60,
+    "cal-zw": 22,
+    "cal-ng": 9
+  },
+  "iati-activity/transaction/transaction-type": {
+    "cal-ss": 16,
+    "cal-np": 56,
+    "cal-ke": 13,
+    "cal-mm": 60,
+    "cal-zw": 22,
+    "cal-ng": 9
+  },
+  "iati-activity/transaction/transaction-type/@code": {
+    "cal-ss": 16,
+    "cal-np": 56,
+    "cal-ke": 13,
+    "cal-mm": 60,
+    "cal-zw": 22,
+    "cal-ng": 9
+  },
+  "iati-activity/transaction/value": {
+    "cal-ss": 16,
+    "cal-np": 56,
+    "cal-ke": 13,
+    "cal-mm": 60,
+    "cal-zw": 22,
+    "cal-ng": 9
+  },
+  "iati-activity/transaction/value/@currency": {
+    "cal-ss": 16,
+    "cal-np": 56,
+    "cal-ke": 13,
+    "cal-mm": 59,
+    "cal-zw": 22,
+    "cal-ng": 8
+  },
+  "iati-activity/transaction/value/@value-date": {
+    "cal-ss": 16,
+    "cal-np": 56,
+    "cal-ke": 13,
+    "cal-mm": 60,
+    "cal-zw": 22,
+    "cal-ng": 9
+  },
+  "iati-organisation": {
+    "cal-org": 1
+  },
+  "iati-organisation/@default-currency": {
+    "cal-org": 1
+  },
+  "iati-organisation/@last-updated-datetime": {
+    "cal-org": 1
+  },
+  "iati-organisation/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "cal-org": 1
+  },
+  "iati-organisation/iati-identifier": {
+    "cal-org": 1
+  },
+  "iati-organisation/reporting-org": {
+    "cal-org": 1
+  },
+  "iati-organisation/reporting-org/@ref": {
+    "cal-org": 1
+  },
+  "iati-organisation/reporting-org/@type": {
+    "cal-org": 1
+  },
+  "iati-organisation/reporting-org/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "cal-org": 1
+  }
+}

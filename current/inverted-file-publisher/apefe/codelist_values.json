@@ -1,0 +1,808 @@
+{
+  ".//@default-currency": {
+    "EUR": {
+      "apefe-ht": 2,
+      "apefe-be": 3,
+      "apefe-bj": 1,
+      "apefe-ma": 1,
+      "apefe-rw": 1,
+      "apefe-bi": 1,
+      "apefe-sn": 3,
+      "apefe-ps": 1,
+      "apefe-cd": 2,
+      "apefe-998": 1,
+      "apefe-bf": 2
+    }
+  },
+  ".//@xml:lang": {
+    "fr": {
+      "apefe-ht": 4,
+      "apefe-be": 6,
+      "apefe-bj": 2,
+      "apefe-ma": 2,
+      "apefe-rw": 2,
+      "apefe-bi": 2,
+      "apefe-sn": 6,
+      "apefe-ps": 2,
+      "apefe-cd": 4,
+      "apefe-998": 2,
+      "apefe-bf": 4
+    },
+    "en": {
+      "apefe-998": 2
+    }
+  },
+  ".//activity-date/@type": {
+    "1": {
+      "apefe-ht": 2,
+      "apefe-be": 3,
+      "apefe-bj": 1,
+      "apefe-ma": 1,
+      "apefe-rw": 1,
+      "apefe-bi": 1,
+      "apefe-sn": 3,
+      "apefe-ps": 1,
+      "apefe-cd": 2,
+      "apefe-998": 1,
+      "apefe-bf": 2
+    },
+    "3": {
+      "apefe-ht": 2,
+      "apefe-be": 3,
+      "apefe-bj": 1,
+      "apefe-ma": 1,
+      "apefe-rw": 1,
+      "apefe-bi": 1,
+      "apefe-sn": 3,
+      "apefe-ps": 1,
+      "apefe-cd": 2,
+      "apefe-998": 1,
+      "apefe-bf": 2
+    },
+    "2": {
+      "apefe-ht": 2,
+      "apefe-be": 3,
+      "apefe-bj": 1,
+      "apefe-ma": 1,
+      "apefe-rw": 1,
+      "apefe-bi": 1,
+      "apefe-sn": 3,
+      "apefe-ps": 1,
+      "apefe-cd": 2,
+      "apefe-998": 1,
+      "apefe-bf": 2
+    }
+  },
+  ".//activity-status/@code": {
+    "2": {
+      "apefe-ht": 2,
+      "apefe-be": 3,
+      "apefe-bj": 1,
+      "apefe-ma": 1,
+      "apefe-rw": 1,
+      "apefe-bi": 1,
+      "apefe-sn": 3,
+      "apefe-ps": 1,
+      "apefe-cd": 2,
+      "apefe-998": 1,
+      "apefe-bf": 2
+    }
+  },
+  ".//budget/@status": {
+    "2": {
+      "apefe-ht": 10,
+      "apefe-be": 15,
+      "apefe-bj": 5,
+      "apefe-ma": 5,
+      "apefe-rw": 5,
+      "apefe-bi": 5,
+      "apefe-sn": 12,
+      "apefe-ps": 5,
+      "apefe-cd": 10,
+      "apefe-bf": 10
+    }
+  },
+  ".//budget/@type": {
+    "1": {
+      "apefe-ht": 10,
+      "apefe-be": 15,
+      "apefe-bj": 5,
+      "apefe-ma": 5,
+      "apefe-rw": 5,
+      "apefe-bi": 5,
+      "apefe-sn": 12,
+      "apefe-ps": 5,
+      "apefe-cd": 10,
+      "apefe-bf": 10
+    }
+  },
+  ".//collaboration-type/@code": {
+    "1": {
+      "apefe-ht": 2,
+      "apefe-be": 3,
+      "apefe-bj": 1,
+      "apefe-ma": 1,
+      "apefe-rw": 1,
+      "apefe-bi": 1,
+      "apefe-sn": 3,
+      "apefe-ps": 1,
+      "apefe-cd": 2,
+      "apefe-998": 1,
+      "apefe-bf": 2
+    }
+  },
+  ".//contact-info/@type": {
+    "2": {
+      "apefe-ht": 2,
+      "apefe-be": 1,
+      "apefe-bj": 1,
+      "apefe-ma": 1,
+      "apefe-rw": 1,
+      "apefe-bi": 1,
+      "apefe-sn": 3,
+      "apefe-ps": 1,
+      "apefe-cd": 2,
+      "apefe-bf": 2
+    },
+    "1": {
+      "apefe-998": 1
+    }
+  },
+  ".//default-aid-type/@vocabulary": {
+    "1": {
+      "apefe-ht": 2,
+      "apefe-be": 3,
+      "apefe-bj": 1,
+      "apefe-ma": 1,
+      "apefe-rw": 1,
+      "apefe-bi": 1,
+      "apefe-sn": 3,
+      "apefe-ps": 1,
+      "apefe-cd": 2,
+      "apefe-998": 1,
+      "apefe-bf": 2
+    }
+  },
+  ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "C01": {
+      "apefe-ht": 2,
+      "apefe-be": 1,
+      "apefe-bj": 1,
+      "apefe-ma": 1,
+      "apefe-rw": 1,
+      "apefe-bi": 1,
+      "apefe-sn": 3,
+      "apefe-ps": 1,
+      "apefe-cd": 2,
+      "apefe-998": 1,
+      "apefe-bf": 2
+    },
+    "H01": {
+      "apefe-be": 1
+    },
+    "G01": {
+      "apefe-be": 1
+    }
+  },
+  ".//default-finance-type/@code": {
+    "110": {
+      "apefe-ht": 2,
+      "apefe-be": 3,
+      "apefe-bj": 1,
+      "apefe-ma": 1,
+      "apefe-rw": 1,
+      "apefe-bi": 1,
+      "apefe-sn": 3,
+      "apefe-ps": 1,
+      "apefe-cd": 2,
+      "apefe-998": 1,
+      "apefe-bf": 2
+    }
+  },
+  ".//default-flow-type/@code": {
+    "30": {
+      "apefe-ht": 2,
+      "apefe-be": 3,
+      "apefe-bj": 1,
+      "apefe-ma": 1,
+      "apefe-rw": 1,
+      "apefe-bi": 1,
+      "apefe-sn": 3,
+      "apefe-ps": 1,
+      "apefe-cd": 2,
+      "apefe-998": 1,
+      "apefe-bf": 2
+    }
+  },
+  ".//default-tied-status/@code": {
+    "5": {
+      "apefe-ht": 2,
+      "apefe-be": 3,
+      "apefe-bj": 1,
+      "apefe-ma": 1,
+      "apefe-rw": 1,
+      "apefe-bi": 1,
+      "apefe-sn": 3,
+      "apefe-ps": 1,
+      "apefe-cd": 2,
+      "apefe-998": 1,
+      "apefe-bf": 2
+    }
+  },
+  ".//description/@type": {
+    "1": {
+      "apefe-ht": 2,
+      "apefe-be": 3,
+      "apefe-bj": 1,
+      "apefe-ma": 1,
+      "apefe-rw": 1,
+      "apefe-bi": 1,
+      "apefe-sn": 2,
+      "apefe-ps": 1,
+      "apefe-cd": 2,
+      "apefe-998": 1,
+      "apefe-bf": 2
+    },
+    "2": {
+      "apefe-sn": 1
+    }
+  },
+  ".//location/exactness/@code": {
+    "2": {
+      "apefe-ht": 12,
+      "apefe-bj": 8,
+      "apefe-ma": 8,
+      "apefe-rw": 9,
+      "apefe-sn": 9,
+      "apefe-ps": 2,
+      "apefe-cd": 8
+    },
+    "1": {
+      "apefe-ht": 1,
+      "apefe-be": 1,
+      "apefe-rw": 2,
+      "apefe-bi": 11,
+      "apefe-sn": 3,
+      "apefe-cd": 1,
+      "apefe-bf": 9
+    }
+  },
+  ".//location/location-class/@code": {
+    "1": {
+      "apefe-ht": 12,
+      "apefe-rw": 8,
+      "apefe-bi": 1,
+      "apefe-sn": 3,
+      "apefe-cd": 2
+    },
+    "3": {
+      "apefe-ht": 1,
+      "apefe-be": 1,
+      "apefe-bj": 2,
+      "apefe-ma": 5,
+      "apefe-rw": 2,
+      "apefe-bi": 10,
+      "apefe-sn": 7,
+      "apefe-cd": 7,
+      "apefe-bf": 8
+    },
+    "2": {
+      "apefe-rw": 1,
+      "apefe-bf": 1
+    },
+    "4": {
+      "apefe-sn": 2,
+      "apefe-ps": 2
+    }
+  },
+  ".//location/location-reach/@code": {
+    "2": {
+      "apefe-bj": 3
+    },
+    "1": {
+      "apefe-bj": 5
+    }
+  },
+  ".//other-identifier/@type": {
+    "A9": {
+      "apefe-998": 1
+    }
+  },
+  ".//participating-org/@role": {
+    "1": {
+      "apefe-ht": 2,
+      "apefe-be": 3,
+      "apefe-bj": 1,
+      "apefe-ma": 1,
+      "apefe-rw": 1,
+      "apefe-bi": 1,
+      "apefe-sn": 3,
+      "apefe-ps": 1,
+      "apefe-cd": 2,
+      "apefe-998": 1,
+      "apefe-bf": 2
+    },
+    "2": {
+      "apefe-ht": 2,
+      "apefe-be": 3,
+      "apefe-bj": 1,
+      "apefe-ma": 1,
+      "apefe-rw": 1,
+      "apefe-bi": 1,
+      "apefe-sn": 3,
+      "apefe-ps": 1,
+      "apefe-cd": 2,
+      "apefe-998": 1,
+      "apefe-bf": 2
+    },
+    "4": {
+      "apefe-ht": 5,
+      "apefe-be": 4,
+      "apefe-bj": 4,
+      "apefe-ma": 9,
+      "apefe-rw": 3,
+      "apefe-bi": 2,
+      "apefe-sn": 8,
+      "apefe-ps": 2,
+      "apefe-cd": 11,
+      "apefe-998": 1,
+      "apefe-bf": 4
+    }
+  },
+  ".//participating-org/@type": {
+    "10": {
+      "apefe-ht": 5,
+      "apefe-be": 3,
+      "apefe-bj": 4,
+      "apefe-ma": 2,
+      "apefe-rw": 2,
+      "apefe-bi": 1,
+      "apefe-sn": 7,
+      "apefe-ps": 1,
+      "apefe-cd": 9,
+      "apefe-998": 1,
+      "apefe-bf": 4
+    },
+    "15": {
+      "apefe-ht": 4,
+      "apefe-be": 7,
+      "apefe-bj": 2,
+      "apefe-ma": 4,
+      "apefe-rw": 2,
+      "apefe-bi": 2,
+      "apefe-sn": 6,
+      "apefe-ps": 2,
+      "apefe-cd": 4,
+      "apefe-998": 2,
+      "apefe-bf": 4
+    },
+    "70": {
+      "apefe-ma": 2,
+      "apefe-rw": 1
+    },
+    "23": {
+      "apefe-ma": 3,
+      "apefe-bi": 1,
+      "apefe-ps": 1
+    },
+    "40": {
+      "apefe-sn": 1,
+      "apefe-cd": 2
+    }
+  },
+  ".//policy-marker/@significance": {
+    "1": {
+      "apefe-ht": 7,
+      "apefe-be": 3,
+      "apefe-bj": 2,
+      "apefe-ma": 2,
+      "apefe-rw": 4,
+      "apefe-bi": 4,
+      "apefe-sn": 7,
+      "apefe-ps": 3,
+      "apefe-cd": 4,
+      "apefe-bf": 6
+    },
+    "2": {
+      "apefe-ht": 1,
+      "apefe-bj": 1,
+      "apefe-ma": 2,
+      "apefe-rw": 1,
+      "apefe-bi": 1,
+      "apefe-sn": 6,
+      "apefe-cd": 1,
+      "apefe-bf": 6
+    },
+    "0": {
+      "apefe-ht": 10,
+      "apefe-be": 6,
+      "apefe-bj": 6,
+      "apefe-ma": 5,
+      "apefe-rw": 4,
+      "apefe-bi": 4,
+      "apefe-sn": 14,
+      "apefe-ps": 6,
+      "apefe-cd": 13,
+      "apefe-bf": 6
+    }
+  },
+  ".//policy-marker/@vocabulary": {
+    "1": {
+      "apefe-cd": 9
+    }
+  },
+  ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "1": {
+      "apefe-ht": 2,
+      "apefe-be": 1,
+      "apefe-bj": 1,
+      "apefe-ma": 1,
+      "apefe-rw": 1,
+      "apefe-bi": 1,
+      "apefe-sn": 3,
+      "apefe-ps": 1,
+      "apefe-cd": 2,
+      "apefe-bf": 2
+    },
+    "2": {
+      "apefe-ht": 2,
+      "apefe-be": 1,
+      "apefe-bj": 1,
+      "apefe-ma": 1,
+      "apefe-rw": 1,
+      "apefe-bi": 1,
+      "apefe-sn": 3,
+      "apefe-ps": 1,
+      "apefe-cd": 2,
+      "apefe-bf": 2
+    },
+    "3": {
+      "apefe-ht": 2,
+      "apefe-be": 1,
+      "apefe-bj": 1,
+      "apefe-ma": 1,
+      "apefe-rw": 1,
+      "apefe-bi": 1,
+      "apefe-sn": 3,
+      "apefe-ps": 1,
+      "apefe-cd": 2,
+      "apefe-bf": 2
+    },
+    "4": {
+      "apefe-ht": 2,
+      "apefe-be": 1,
+      "apefe-bj": 1,
+      "apefe-ma": 1,
+      "apefe-rw": 1,
+      "apefe-bi": 1,
+      "apefe-sn": 3,
+      "apefe-ps": 1,
+      "apefe-cd": 2,
+      "apefe-bf": 2
+    },
+    "5": {
+      "apefe-ht": 2,
+      "apefe-be": 1,
+      "apefe-bj": 1,
+      "apefe-ma": 1,
+      "apefe-rw": 1,
+      "apefe-bi": 1,
+      "apefe-sn": 3,
+      "apefe-ps": 1,
+      "apefe-cd": 2,
+      "apefe-bf": 2
+    },
+    "6": {
+      "apefe-ht": 2,
+      "apefe-be": 1,
+      "apefe-bj": 1,
+      "apefe-ma": 1,
+      "apefe-rw": 1,
+      "apefe-bi": 1,
+      "apefe-sn": 3,
+      "apefe-ps": 1,
+      "apefe-cd": 2,
+      "apefe-bf": 2
+    },
+    "7": {
+      "apefe-ht": 2,
+      "apefe-be": 1,
+      "apefe-bj": 1,
+      "apefe-ma": 1,
+      "apefe-rw": 1,
+      "apefe-bi": 1,
+      "apefe-sn": 3,
+      "apefe-ps": 1,
+      "apefe-cd": 2,
+      "apefe-bf": 2
+    },
+    "8": {
+      "apefe-ht": 2,
+      "apefe-be": 1,
+      "apefe-bj": 1,
+      "apefe-ma": 1,
+      "apefe-rw": 1,
+      "apefe-bi": 1,
+      "apefe-sn": 3,
+      "apefe-ps": 1,
+      "apefe-cd": 2,
+      "apefe-bf": 2
+    },
+    "9": {
+      "apefe-ht": 2,
+      "apefe-be": 1,
+      "apefe-bj": 1,
+      "apefe-ma": 1,
+      "apefe-rw": 1,
+      "apefe-bi": 1,
+      "apefe-sn": 3,
+      "apefe-ps": 1,
+      "apefe-cd": 2,
+      "apefe-bf": 2
+    }
+  },
+  ".//recipient-country/@code": {
+    "HT": {
+      "apefe-ht": 2
+    },
+    "BE": {
+      "apefe-be": 3
+    },
+    "BJ": {
+      "apefe-be": 1,
+      "apefe-bj": 1
+    },
+    "BF": {
+      "apefe-be": 1,
+      "apefe-bf": 2
+    },
+    "BI": {
+      "apefe-be": 1,
+      "apefe-bi": 1
+    },
+    "CD": {
+      "apefe-be": 1,
+      "apefe-cd": 2
+    },
+    "RW": {
+      "apefe-be": 1,
+      "apefe-rw": 1
+    },
+    "MA": {
+      "apefe-ma": 1
+    },
+    "SN": {
+      "apefe-sn": 3
+    },
+    "PS": {
+      "apefe-ps": 1
+    }
+  },
+  ".//recipient-region/@vocabulary": {
+    "1": {
+      "apefe-998": 1
+    }
+  },
+  ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "998": {
+      "apefe-998": 1
+    }
+  },
+  ".//related-activity/@type": {
+    "1": {
+      "apefe-ht": 2,
+      "apefe-be": 3,
+      "apefe-bj": 1,
+      "apefe-ma": 1,
+      "apefe-rw": 1,
+      "apefe-bi": 1,
+      "apefe-sn": 3,
+      "apefe-ps": 1,
+      "apefe-cd": 2,
+      "apefe-bf": 2
+    }
+  },
+  ".//reporting-org/@type": {
+    "15": {
+      "apefe-ht": 2,
+      "apefe-be": 3,
+      "apefe-bj": 1,
+      "apefe-ma": 1,
+      "apefe-rw": 1,
+      "apefe-bi": 1,
+      "apefe-sn": 3,
+      "apefe-ps": 1,
+      "apefe-cd": 2,
+      "apefe-998": 1,
+      "apefe-bf": 2
+    }
+  },
+  ".//result/@type": {
+    "2": {
+      "apefe-ht": 2,
+      "apefe-be": 1,
+      "apefe-bj": 1,
+      "apefe-ma": 1,
+      "apefe-rw": 1,
+      "apefe-bi": 1,
+      "apefe-sn": 2,
+      "apefe-ps": 1,
+      "apefe-cd": 2,
+      "apefe-bf": 2
+    }
+  },
+  ".//result/indicator/@measure": {
+    "2": {
+      "apefe-ht": 4,
+      "apefe-be": 1,
+      "apefe-bj": 1,
+      "apefe-ma": 1,
+      "apefe-bi": 4,
+      "apefe-sn": 4,
+      "apefe-cd": 3,
+      "apefe-bf": 6
+    },
+    "1": {
+      "apefe-ht": 2,
+      "apefe-be": 1,
+      "apefe-bj": 7,
+      "apefe-ma": 3,
+      "apefe-rw": 2,
+      "apefe-bi": 2,
+      "apefe-sn": 1,
+      "apefe-ps": 4,
+      "apefe-cd": 1,
+      "apefe-bf": 3
+    }
+  },
+  ".//sector/@vocabulary": {
+    "1": {
+      "apefe-ht": 2,
+      "apefe-be": 2,
+      "apefe-bj": 1,
+      "apefe-ma": 1,
+      "apefe-rw": 1,
+      "apefe-bi": 1,
+      "apefe-sn": 3,
+      "apefe-ps": 1,
+      "apefe-cd": 2,
+      "apefe-998": 1,
+      "apefe-bf": 2
+    },
+    "2": {
+      "apefe-be": 1
+    }
+  },
+  ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "11330": {
+      "apefe-ht": 2,
+      "apefe-bj": 1,
+      "apefe-rw": 1,
+      "apefe-sn": 1
+    },
+    "99810": {
+      "apefe-be": 1,
+      "apefe-998": 1
+    },
+    "91010": {
+      "apefe-be": 1
+    },
+    "15170": {
+      "apefe-ma": 1,
+      "apefe-sn": 1
+    },
+    "12181": {
+      "apefe-bi": 1,
+      "apefe-bf": 1
+    },
+    "11130": {
+      "apefe-sn": 1,
+      "apefe-cd": 1
+    },
+    "16010": {
+      "apefe-ps": 1
+    },
+    "31120": {
+      "apefe-cd": 1
+    },
+    "41010": {
+      "apefe-bf": 1
+    }
+  },
+  ".//sector[@vocabulary = '2']/@code": {
+    "111": {
+      "apefe-be": 1
+    }
+  },
+  ".//transaction/provider-org/@type": {
+    "10": {
+      "apefe-ht": 14,
+      "apefe-be": 21,
+      "apefe-bj": 7,
+      "apefe-ma": 8,
+      "apefe-rw": 7,
+      "apefe-bi": 7,
+      "apefe-sn": 18,
+      "apefe-ps": 7,
+      "apefe-cd": 13,
+      "apefe-998": 7,
+      "apefe-bf": 14
+    },
+    "15": {
+      "apefe-ht": 2,
+      "apefe-be": 3,
+      "apefe-bj": 1,
+      "apefe-rw": 1,
+      "apefe-bi": 1,
+      "apefe-sn": 3,
+      "apefe-ps": 3,
+      "apefe-cd": 2,
+      "apefe-bf": 2
+    }
+  },
+  ".//transaction/receiver-org/@type": {
+    "15": {
+      "apefe-ht": 13,
+      "apefe-be": 21,
+      "apefe-bj": 5,
+      "apefe-ma": 6,
+      "apefe-rw": 7,
+      "apefe-bi": 7,
+      "apefe-sn": 18,
+      "apefe-ps": 8,
+      "apefe-cd": 14,
+      "apefe-998": 6,
+      "apefe-bf": 14
+    },
+    "23": {
+      "apefe-ps": 2
+    }
+  },
+  ".//transaction/transaction-type/@code": {
+    "11": {
+      "apefe-ht": 10,
+      "apefe-be": 15,
+      "apefe-bj": 5,
+      "apefe-ma": 5,
+      "apefe-rw": 5,
+      "apefe-bi": 5,
+      "apefe-sn": 12,
+      "apefe-ps": 5,
+      "apefe-cd": 10,
+      "apefe-998": 5,
+      "apefe-bf": 10
+    },
+    "1": {
+      "apefe-ht": 8,
+      "apefe-be": 9,
+      "apefe-bj": 4,
+      "apefe-ma": 4,
+      "apefe-rw": 4,
+      "apefe-bi": 4,
+      "apefe-sn": 11,
+      "apefe-ps": 4,
+      "apefe-cd": 8,
+      "apefe-998": 2,
+      "apefe-bf": 8
+    },
+    "4": {
+      "apefe-ht": 4,
+      "apefe-be": 6,
+      "apefe-bj": 2,
+      "apefe-ma": 2,
+      "apefe-rw": 2,
+      "apefe-bi": 2,
+      "apefe-sn": 6,
+      "apefe-ps": 2,
+      "apefe-cd": 4,
+      "apefe-998": 2,
+      "apefe-bf": 4
+    },
+    "3": {
+      "apefe-ps": 1
+    },
+    "2": {
+      "apefe-ps": 1
+    }
+  }
+}

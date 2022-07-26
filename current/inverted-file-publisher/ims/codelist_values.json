@@ -1,0 +1,121 @@
+{
+  ".//@default-currency": {
+    "DKK": {
+      "ims-activities": 1
+    }
+  },
+  ".//@xml:lang": {
+    "en": {
+      "ims-activities": 2
+    }
+  },
+  ".//activity-date/@type": {
+    "2": {
+      "ims-activities": 1
+    },
+    "4": {
+      "ims-activities": 1
+    }
+  },
+  ".//activity-status/@code": {
+    "2": {
+      "ims-activities": 1
+    }
+  },
+  ".//budget/@status": {
+    "2": {
+      "ims-activities": 2
+    }
+  },
+  ".//budget/@type": {
+    "1": {
+      "ims-activities": 2
+    }
+  },
+  ".//budget/value/@currency": {
+    "DKK": {
+      "ims-activities": 2
+    }
+  },
+  ".//description/@type": {
+    "1": {
+      "ims-activities": 1
+    }
+  },
+  ".//participating-org/@role": {
+    "1": {
+      "ims-activities": 1
+    },
+    "4": {
+      "ims-activities": 1
+    }
+  },
+  ".//participating-org/@type": {
+    "10": {
+      "ims-activities": 1
+    },
+    "21": {
+      "ims-activities": 1
+    }
+  },
+  ".//recipient-country/@code": {
+    "BF": {
+      "ims-activities": 1
+    },
+    "ML": {
+      "ims-activities": 1
+    },
+    "SO": {
+      "ims-activities": 1
+    },
+    "NE": {
+      "ims-activities": 1
+    },
+    "MM": {
+      "ims-activities": 1
+    },
+    "PK": {
+      "ims-activities": 1
+    }
+  },
+  ".//reporting-org/@type": {
+    "21": {
+      "ims-activities": 1
+    }
+  },
+  ".//sector/@vocabulary": {
+    "1": {
+      "ims-activities": 1
+    }
+  },
+  ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "15153": {
+      "ims-activities": 1
+    }
+  },
+  ".//transaction/aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "B03": {
+      "ims-activities": 3
+    }
+  },
+  ".//transaction/provider-org/@type": {
+    "10": {
+      "ims-activities": 2
+    }
+  },
+  ".//transaction/receiver-org/@type": {
+    "21": {
+      "ims-activities": 1
+    }
+  },
+  ".//transaction/transaction-type/@code": {
+    "1": {
+      "ims-activities": 3
+    }
+  },
+  ".//transaction/value/@currency": {
+    "DKK": {
+      "ims-activities": 3
+    }
+  }
+}

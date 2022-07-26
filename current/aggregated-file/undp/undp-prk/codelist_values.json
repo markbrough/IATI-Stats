@@ -1,0 +1,162 @@
+{
+  ".//@default-currency": {
+    "USD": 8
+  },
+  ".//@xml:lang": {
+    "en": 8
+  },
+  ".//activity-date/@type": {
+    "1": 8,
+    "2": 8,
+    "3": 8
+  },
+  ".//activity-scope/@code": {
+    "5": 3
+  },
+  ".//activity-status/@code": {
+    "2": 8
+  },
+  ".//budget/@status": {
+    "2": 24
+  },
+  ".//budget/@type": {
+    "2": 24
+  },
+  ".//budget/value/@currency": {
+    "USD": 24
+  },
+  ".//collaboration-type/@code": {
+    "4": 8
+  },
+  ".//contact-info/@type": {
+    "1": 8
+  },
+  ".//country-budget-items/@vocabulary": {
+    "1": 4
+  },
+  ".//country-budget-items/budget-item[../@vocabulary = '1']/@code": {
+    "5.4.11": 2,
+    "3.1.1": 1,
+    "3.6.6": 1
+  },
+  ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "C01": 8
+  },
+  ".//default-finance-type/@code": {
+    "110": 8
+  },
+  ".//default-flow-type/@code": {
+    "10": 8
+  },
+  ".//default-tied-status/@code": {
+    "3": 4,
+    "5": 4
+  },
+  ".//description/@type": {
+    "1": 8
+  },
+  ".//document-link/@format": {
+    "application/pdf": 10,
+    "text/html": 30,
+    "image/jpeg": 1
+  },
+  ".//document-link/category/@code": {
+    "A01": 6,
+    "A02": 4,
+    "A03": 5,
+    "A04": 4,
+    "A05": 8,
+    "A08": 4,
+    "A07": 6,
+    "A10": 16,
+    "A11": 4,
+    "A12": 8
+  },
+  ".//document-link/language/@code": {
+    "en": 37
+  },
+  ".//location/administrative/@vocabulary": {
+    "G1": 7
+  },
+  ".//location/exactness/@code": {
+    "1": 7
+  },
+  ".//location/feature-designation/@code": {
+    "ADM1": 7
+  },
+  ".//location/location-class/@code": {
+    "1": 7
+  },
+  ".//location/location-id/@vocabulary": {
+    "G1": 7
+  },
+  ".//location/location-reach/@code": {
+    "2": 7
+  },
+  ".//participating-org/@role": {
+    "4": 8,
+    "2": 4,
+    "1": 8
+  },
+  ".//participating-org/@type": {
+    "40": 20
+  },
+  ".//policy-marker/@significance": {
+    "0": 4
+  },
+  ".//policy-marker/@vocabulary": {
+    "1": 4
+  },
+  ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "1": 4
+  },
+  ".//recipient-country/@code": {
+    "KP": 8
+  },
+  ".//related-activity/@type": {
+    "2": 4,
+    "1": 4
+  },
+  ".//reporting-org/@type": {
+    "40": 8
+  },
+  ".//result/@type": {
+    "1": 7
+  },
+  ".//result/indicator/@measure": {
+    "1": 37
+  },
+  ".//sector/@vocabulary": {
+    "1": 8,
+    "8": 8,
+    "99": 4
+  },
+  ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "74010": 4,
+    "15110": 2,
+    "23030": 2
+  },
+  ".//sector[@vocabulary = '8']/@code": {
+    "13.a": 4,
+    "1.1": 2,
+    "7.1": 2
+  },
+  ".//transaction/disbursement-channel/@code": {
+    "2": 101
+  },
+  ".//transaction/provider-org/@type": {
+    "40": 101
+  },
+  ".//transaction/receiver-org/@type": {
+    "40": 26
+  },
+  ".//transaction/transaction-type/@code": {
+    "4": 71,
+    "11": 23,
+    "2": 4,
+    "3": 3
+  },
+  ".//transaction/value/@currency": {
+    "USD": 101
+  }
+}

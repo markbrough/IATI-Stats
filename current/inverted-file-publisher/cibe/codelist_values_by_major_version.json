@@ -1,0 +1,578 @@
+{
+  "2": {
+    ".//@default-currency": {
+      "cibe-mijndataset": {
+        "EUR": 5
+      },
+      "cibe-activities": {
+        "EUR": 9
+      },
+      "cibe-rw": {
+        "EUR": 1
+      },
+      "cibe-test3": {
+        "EUR": 5
+      },
+      "cibe-01": {
+        "EUR": 5
+      }
+    },
+    ".//activity-date/@type": {
+      "cibe-mijndataset": {
+        "1": 5,
+        "3": 5
+      },
+      "cibe-activities": {
+        "1": 9,
+        "2": 9,
+        "3": 9
+      },
+      "cibe-rw": {
+        "1": 1,
+        "2": 1,
+        "3": 1
+      },
+      "cibe-test3": {
+        "1": 5,
+        "3": 5
+      },
+      "cibe-01": {
+        "1": 5,
+        "3": 5
+      }
+    },
+    ".//activity-status/@code": {
+      "cibe-mijndataset": {
+        "1": 5
+      },
+      "cibe-activities": {
+        "2": 9
+      },
+      "cibe-rw": {
+        "2": 1
+      },
+      "cibe-test3": {
+        "1": 5
+      },
+      "cibe-01": {
+        "1": 5
+      }
+    },
+    ".//budget/@type": {
+      "cibe-mijndataset": {
+        "1": 5
+      },
+      "cibe-activities": {
+        "2": 39,
+        "1": 1
+      },
+      "cibe-rw": {
+        "1": 5
+      },
+      "cibe-test3": {
+        "1": 5
+      },
+      "cibe-01": {
+        "1": 5
+      }
+    },
+    ".//budget/value/@currency": {
+      "cibe-mijndataset": {
+        "EUR": 5
+      },
+      "cibe-test3": {
+        "EUR": 5
+      },
+      "cibe-01": {
+        "EUR": 5
+      }
+    },
+    ".//collaboration-type/@code": {
+      "cibe-mijndataset": {
+        "1": 5
+      },
+      "cibe-activities": {
+        "1": 9
+      },
+      "cibe-rw": {
+        "1": 1
+      },
+      "cibe-test3": {
+        "1": 5
+      },
+      "cibe-01": {
+        "1": 5
+      }
+    },
+    ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "cibe-mijndataset": {
+        "C01": 5
+      },
+      "cibe-activities": {
+        "C01": 7,
+        "G01": 1,
+        "H01": 1
+      },
+      "cibe-rw": {
+        "C01": 1
+      },
+      "cibe-test3": {
+        "C01": 5
+      },
+      "cibe-01": {
+        "C01": 5
+      }
+    },
+    ".//default-aid-type/@vocabulary": {
+      "cibe-mijndataset": {
+        "1": 5
+      },
+      "cibe-activities": {
+        "1": 9
+      },
+      "cibe-test3": {
+        "1": 5
+      },
+      "cibe-01": {
+        "1": 5
+      }
+    },
+    ".//default-flow-type/@code": {
+      "cibe-mijndataset": {
+        "30": 5
+      },
+      "cibe-activities": {
+        "30": 9
+      },
+      "cibe-rw": {
+        "30": 1
+      },
+      "cibe-test3": {
+        "30": 5
+      },
+      "cibe-01": {
+        "30": 5
+      }
+    },
+    ".//default-tied-status/@code": {
+      "cibe-mijndataset": {
+        "5": 5
+      },
+      "cibe-activities": {
+        "5": 9
+      },
+      "cibe-rw": {
+        "5": 1
+      },
+      "cibe-test3": {
+        "5": 5
+      },
+      "cibe-01": {
+        "5": 5
+      }
+    },
+    ".//description/@type": {
+      "cibe-mijndataset": {
+        "1": 5
+      },
+      "cibe-activities": {
+        "1": 9
+      },
+      "cibe-rw": {
+        "1": 1
+      },
+      "cibe-test3": {
+        "1": 5
+      },
+      "cibe-01": {
+        "1": 5
+      }
+    },
+    ".//participating-org/@role": {
+      "cibe-mijndataset": {
+        "2": 5,
+        "4": 8
+      },
+      "cibe-activities": {
+        "1": 18,
+        "2": 11,
+        "4": 20
+      },
+      "cibe-rw": {
+        "1": 2,
+        "2": 1,
+        "4": 3
+      },
+      "cibe-test3": {
+        "2": 5,
+        "4": 8
+      },
+      "cibe-01": {
+        "2": 5,
+        "4": 8
+      }
+    },
+    ".//participating-org/@type": {
+      "cibe-mijndataset": {
+        "": 5
+      },
+      "cibe-activities": {
+        "10": 9,
+        "22": 24,
+        "24": 16
+      },
+      "cibe-rw": {
+        "10": 1,
+        "22": 5
+      },
+      "cibe-test3": {
+        "": 5
+      },
+      "cibe-01": {
+        "": 5
+      }
+    },
+    ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "cibe-mijndataset": {
+        "3": 5
+      },
+      "cibe-activities": {
+        "2": 7,
+        "5": 7,
+        "7": 7,
+        "6": 7,
+        "1": 7,
+        "3": 7,
+        "9": 7,
+        "4": 7,
+        "8": 6
+      },
+      "cibe-rw": {
+        "2": 1,
+        "5": 1,
+        "7": 1,
+        "6": 1,
+        "1": 1,
+        "3": 1,
+        "9": 1,
+        "4": 1,
+        "8": 1
+      },
+      "cibe-test3": {
+        "3": 5
+      },
+      "cibe-01": {
+        "3": 5
+      }
+    },
+    ".//policy-marker/@significance": {
+      "cibe-mijndataset": {
+        "1": 5
+      },
+      "cibe-activities": {
+        "1": 51,
+        "0": 10,
+        "2": 1
+      },
+      "cibe-rw": {
+        "1": 8,
+        "0": 1
+      },
+      "cibe-test3": {
+        "1": 5
+      },
+      "cibe-01": {
+        "1": 5
+      }
+    },
+    ".//policy-marker/@vocabulary": {
+      "cibe-mijndataset": {
+        "1": 5
+      },
+      "cibe-activities": {
+        "1": 62
+      },
+      "cibe-rw": {
+        "1": 9
+      },
+      "cibe-test3": {
+        "1": 5
+      },
+      "cibe-01": {
+        "1": 5
+      }
+    },
+    ".//reporting-org/@type": {
+      "cibe-mijndataset": {
+        "21": 5
+      },
+      "cibe-activities": {
+        "22": 9
+      },
+      "cibe-rw": {
+        "22": 1
+      },
+      "cibe-test3": {
+        "21": 5
+      },
+      "cibe-01": {
+        "21": 5
+      }
+    },
+    ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "cibe-mijndataset": {
+        "16010": 4,
+        "43042": 2,
+        "74010": 1
+      },
+      "cibe-activities": {
+        "99810": 1,
+        "31120": 6,
+        "91010": 1,
+        "99820": 1
+      },
+      "cibe-rw": {
+        "31120": 1
+      },
+      "cibe-test3": {
+        "16010": 4,
+        "43042": 2,
+        "74010": 1
+      },
+      "cibe-01": {
+        "16010": 4,
+        "43042": 2,
+        "74010": 1
+      }
+    },
+    ".//sector[@vocabulary = '2']/@code": {
+      "cibe-mijndataset": {
+        "160": 1,
+        "720": 1,
+        "151": 1,
+        "112": 1
+      },
+      "cibe-test3": {
+        "160": 1,
+        "720": 1,
+        "151": 1,
+        "112": 1
+      },
+      "cibe-01": {
+        "160": 1,
+        "720": 1,
+        "151": 1,
+        "112": 1
+      }
+    },
+    ".//sector/@vocabulary": {
+      "cibe-mijndataset": {
+        "98": 11,
+        "1": 7,
+        "2": 4
+      },
+      "cibe-activities": {
+        "1": 9
+      },
+      "cibe-rw": {
+        "1": 1
+      },
+      "cibe-test3": {
+        "98": 11,
+        "1": 7,
+        "2": 4
+      },
+      "cibe-01": {
+        "98": 11,
+        "1": 7,
+        "2": 4
+      }
+    },
+    ".//@xml:lang": {
+      "cibe-mijndataset": {
+        "en": 5
+      },
+      "cibe-activities": {
+        "fr": 11,
+        "en": 65
+      },
+      "cibe-rw": {
+        "fr": 1,
+        "en": 4
+      },
+      "cibe-test3": {
+        "en": 5
+      },
+      "cibe-01": {
+        "en": 5
+      }
+    },
+    ".//activity-scope/@code": {
+      "cibe-activities": {
+        "3": 1,
+        "5": 6,
+        "4": 1
+      },
+      "cibe-rw": {
+        "5": 1
+      }
+    },
+    ".//budget/@status": {
+      "cibe-activities": {
+        "2": 40
+      },
+      "cibe-rw": {
+        "2": 5
+      }
+    },
+    ".//contact-info/@type": {
+      "cibe-activities": {
+        "2": 8,
+        "3": 1
+      },
+      "cibe-rw": {
+        "2": 1
+      }
+    },
+    ".//default-finance-type/@code": {
+      "cibe-activities": {
+        "110": 9
+      },
+      "cibe-rw": {
+        "110": 1
+      }
+    },
+    ".//document-link/@format": {
+      "cibe-activities": {
+        "application/pdf": 8
+      },
+      "cibe-rw": {
+        "application/pdf": 1
+      }
+    },
+    ".//document-link/category/@code": {
+      "cibe-activities": {
+        "A02": 8
+      },
+      "cibe-rw": {
+        "A02": 1
+      }
+    },
+    ".//document-link/language/@code": {
+      "cibe-activities": {
+        "fr": 2,
+        "en": 1
+      }
+    },
+    ".//location/location-class/@code": {
+      "cibe-activities": {
+        "1": 17
+      },
+      "cibe-rw": {
+        "1": 2
+      }
+    },
+    ".//location/exactness/@code": {
+      "cibe-activities": {
+        "2": 17
+      },
+      "cibe-rw": {
+        "2": 2
+      }
+    },
+    ".//other-identifier/@type": {
+      "cibe-activities": {
+        "A9": 1
+      }
+    },
+    ".//recipient-country/@code": {
+      "cibe-activities": {
+        "CD": 1,
+        "BE": 1,
+        "RW": 1,
+        "NE": 1,
+        "HT": 1,
+        "ET": 1,
+        "BI": 1
+      },
+      "cibe-rw": {
+        "RW": 1
+      }
+    },
+    ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "cibe-activities": {
+        "998": 1,
+        "89": 1
+      }
+    },
+    ".//recipient-region/@vocabulary": {
+      "cibe-activities": {
+        "1": 2
+      }
+    },
+    ".//related-activity/@type": {
+      "cibe-activities": {
+        "2": 8,
+        "1": 8
+      },
+      "cibe-rw": {
+        "1": 1
+      }
+    },
+    ".//result/@type": {
+      "cibe-activities": {
+        "2": 7
+      },
+      "cibe-rw": {
+        "2": 1
+      }
+    },
+    ".//result/indicator/@measure": {
+      "cibe-activities": {
+        "2": 21,
+        "1": 11
+      },
+      "cibe-rw": {
+        "2": 1,
+        "1": 7
+      }
+    },
+    ".//transaction/provider-org/@type": {
+      "cibe-activities": {
+        "22": 118,
+        "10": 13
+      },
+      "cibe-rw": {
+        "22": 19
+      }
+    },
+    ".//transaction/receiver-org/@type": {
+      "cibe-activities": {
+        "22": 27,
+        "24": 88
+      },
+      "cibe-rw": {
+        "22": 18
+      }
+    },
+    ".//transaction/transaction-type/@code": {
+      "cibe-activities": {
+        "11": 18,
+        "1": 9,
+        "2": 62,
+        "3": 26,
+        "4": 16
+      },
+      "cibe-rw": {
+        "2": 15,
+        "3": 3,
+        "4": 1
+      }
+    },
+    ".//transaction/value/@currency": {
+      "cibe-activities": {
+        "EUR": 1
+      }
+    }
+  }
+}

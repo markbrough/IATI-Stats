@@ -1,0 +1,678 @@
+{
+  "iati-activity": {
+    "cowi-activities": 1,
+    "cowi-act": 2
+  },
+  "iati-activity/@default-currency": {
+    "cowi-activities": 1,
+    "cowi-act": 2
+  },
+  "iati-activity/@hierarchy": {
+    "cowi-activities": 1
+  },
+  "iati-activity/@humanitarian": {
+    "cowi-activities": 1
+  },
+  "iati-activity/@last-updated-datetime": {
+    "cowi-activities": 1,
+    "cowi-act": 2
+  },
+  "iati-activity/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "cowi-activities": 1,
+    "cowi-act": 2
+  },
+  "iati-activity/activity-date": {
+    "cowi-activities": 2,
+    "cowi-act": 8
+  },
+  "iati-activity/activity-date/@iso-date": {
+    "cowi-activities": 2,
+    "cowi-act": 8
+  },
+  "iati-activity/activity-date/@type": {
+    "cowi-activities": 2,
+    "cowi-act": 8
+  },
+  "iati-activity/activity-status": {
+    "cowi-activities": 1,
+    "cowi-act": 2
+  },
+  "iati-activity/activity-status/@code": {
+    "cowi-activities": 1,
+    "cowi-act": 2
+  },
+  "iati-activity/budget": {
+    "cowi-activities": 4,
+    "cowi-act": 2
+  },
+  "iati-activity/budget/@status": {
+    "cowi-activities": 4
+  },
+  "iati-activity/budget/@type": {
+    "cowi-activities": 4
+  },
+  "iati-activity/budget/period-end": {
+    "cowi-activities": 4,
+    "cowi-act": 2
+  },
+  "iati-activity/budget/period-end/@iso-date": {
+    "cowi-activities": 4,
+    "cowi-act": 2
+  },
+  "iati-activity/budget/period-start": {
+    "cowi-activities": 4,
+    "cowi-act": 2
+  },
+  "iati-activity/budget/period-start/@iso-date": {
+    "cowi-activities": 4,
+    "cowi-act": 2
+  },
+  "iati-activity/budget/value": {
+    "cowi-activities": 4,
+    "cowi-act": 2
+  },
+  "iati-activity/budget/value/@currency": {
+    "cowi-activities": 4
+  },
+  "iati-activity/budget/value/@value-date": {
+    "cowi-activities": 4,
+    "cowi-act": 2
+  },
+  "iati-activity/budget/value/@{http://akvo.org/iati-activities}label": {
+    "cowi-act": 2
+  },
+  "iati-activity/conditions": {
+    "cowi-act": 2
+  },
+  "iati-activity/conditions/@attached": {
+    "cowi-act": 2
+  },
+  "iati-activity/contact-info": {
+    "cowi-activities": 1,
+    "cowi-act": 9
+  },
+  "iati-activity/contact-info/@type": {
+    "cowi-act": 9
+  },
+  "iati-activity/contact-info/department": {
+    "cowi-activities": 1,
+    "cowi-act": 9
+  },
+  "iati-activity/contact-info/department/narrative": {
+    "cowi-activities": 1,
+    "cowi-act": 9
+  },
+  "iati-activity/contact-info/department/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "cowi-activities": 1
+  },
+  "iati-activity/contact-info/email": {
+    "cowi-activities": 1,
+    "cowi-act": 9
+  },
+  "iati-activity/contact-info/job-title": {
+    "cowi-activities": 1,
+    "cowi-act": 9
+  },
+  "iati-activity/contact-info/job-title/narrative": {
+    "cowi-activities": 1,
+    "cowi-act": 9
+  },
+  "iati-activity/contact-info/mailing-address": {
+    "cowi-act": 9
+  },
+  "iati-activity/contact-info/mailing-address/narrative": {
+    "cowi-act": 9
+  },
+  "iati-activity/contact-info/organisation": {
+    "cowi-activities": 1,
+    "cowi-act": 9
+  },
+  "iati-activity/contact-info/organisation/narrative": {
+    "cowi-activities": 1,
+    "cowi-act": 9
+  },
+  "iati-activity/contact-info/organisation/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "cowi-activities": 1
+  },
+  "iati-activity/contact-info/person-name": {
+    "cowi-activities": 1,
+    "cowi-act": 9
+  },
+  "iati-activity/contact-info/person-name/narrative": {
+    "cowi-activities": 1,
+    "cowi-act": 9
+  },
+  "iati-activity/contact-info/person-name/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "cowi-activities": 1
+  },
+  "iati-activity/contact-info/telephone": {
+    "cowi-activities": 1,
+    "cowi-act": 7
+  },
+  "iati-activity/contact-info/website": {
+    "cowi-activities": 1
+  },
+  "iati-activity/default-aid-type": {
+    "cowi-activities": 1,
+    "cowi-act": 2
+  },
+  "iati-activity/default-aid-type/@code": {
+    "cowi-activities": 1,
+    "cowi-act": 2
+  },
+  "iati-activity/default-aid-type/@vocabulary": {
+    "cowi-activities": 1,
+    "cowi-act": 2
+  },
+  "iati-activity/default-finance-type": {
+    "cowi-activities": 1,
+    "cowi-act": 2
+  },
+  "iati-activity/default-finance-type/@code": {
+    "cowi-activities": 1,
+    "cowi-act": 2
+  },
+  "iati-activity/default-flow-type": {
+    "cowi-activities": 1,
+    "cowi-act": 2
+  },
+  "iati-activity/default-flow-type/@code": {
+    "cowi-activities": 1,
+    "cowi-act": 2
+  },
+  "iati-activity/default-tied-status": {
+    "cowi-activities": 1,
+    "cowi-act": 2
+  },
+  "iati-activity/default-tied-status/@code": {
+    "cowi-activities": 1,
+    "cowi-act": 2
+  },
+  "iati-activity/description": {
+    "cowi-activities": 1,
+    "cowi-act": 12
+  },
+  "iati-activity/description/@type": {
+    "cowi-activities": 1,
+    "cowi-act": 12
+  },
+  "iati-activity/description/@{http://akvo.org/iati-activities}type": {
+    "cowi-act": 12
+  },
+  "iati-activity/description/narrative": {
+    "cowi-activities": 1,
+    "cowi-act": 12
+  },
+  "iati-activity/description/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "cowi-activities": 1
+  },
+  "iati-activity/document-link": {
+    "cowi-act": 49
+  },
+  "iati-activity/document-link/@format": {
+    "cowi-act": 49
+  },
+  "iati-activity/document-link/@url": {
+    "cowi-act": 49
+  },
+  "iati-activity/document-link/category": {
+    "cowi-act": 49
+  },
+  "iati-activity/document-link/category/@code": {
+    "cowi-act": 49
+  },
+  "iati-activity/document-link/language": {
+    "cowi-act": 22
+  },
+  "iati-activity/document-link/language/@code": {
+    "cowi-act": 22
+  },
+  "iati-activity/document-link/title": {
+    "cowi-act": 49
+  },
+  "iati-activity/document-link/title/narrative": {
+    "cowi-act": 49
+  },
+  "iati-activity/iati-identifier": {
+    "cowi-activities": 1,
+    "cowi-act": 2
+  },
+  "iati-activity/location": {
+    "cowi-act": 2
+  },
+  "iati-activity/location/point": {
+    "cowi-act": 2
+  },
+  "iati-activity/location/point/@srsName": {
+    "cowi-act": 2
+  },
+  "iati-activity/location/point/pos": {
+    "cowi-act": 2
+  },
+  "iati-activity/other-identifier": {
+    "cowi-act": 2
+  },
+  "iati-activity/other-identifier/@ref": {
+    "cowi-act": 2
+  },
+  "iati-activity/other-identifier/@type": {
+    "cowi-act": 2
+  },
+  "iati-activity/other-identifier/owner-org": {
+    "cowi-act": 2
+  },
+  "iati-activity/other-identifier/owner-org/@ref": {
+    "cowi-act": 2
+  },
+  "iati-activity/other-identifier/owner-org/narrative": {
+    "cowi-act": 2
+  },
+  "iati-activity/participating-org": {
+    "cowi-activities": 1,
+    "cowi-act": 8
+  },
+  "iati-activity/participating-org/@activity-id": {
+    "cowi-act": 6
+  },
+  "iati-activity/participating-org/@ref": {
+    "cowi-activities": 1,
+    "cowi-act": 6
+  },
+  "iati-activity/participating-org/@role": {
+    "cowi-activities": 1,
+    "cowi-act": 8
+  },
+  "iati-activity/participating-org/@type": {
+    "cowi-activities": 1,
+    "cowi-act": 8
+  },
+  "iati-activity/participating-org/narrative": {
+    "cowi-activities": 1,
+    "cowi-act": 8
+  },
+  "iati-activity/participating-org/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "cowi-activities": 1
+  },
+  "iati-activity/planned-disbursement": {
+    "cowi-act": 28
+  },
+  "iati-activity/planned-disbursement/period-end": {
+    "cowi-act": 28
+  },
+  "iati-activity/planned-disbursement/period-end/@iso-date": {
+    "cowi-act": 28
+  },
+  "iati-activity/planned-disbursement/period-start": {
+    "cowi-act": 28
+  },
+  "iati-activity/planned-disbursement/period-start/@iso-date": {
+    "cowi-act": 28
+  },
+  "iati-activity/planned-disbursement/provider-org": {
+    "cowi-act": 1
+  },
+  "iati-activity/planned-disbursement/provider-org/@provider-activity-id": {
+    "cowi-act": 1
+  },
+  "iati-activity/planned-disbursement/provider-org/@type": {
+    "cowi-act": 1
+  },
+  "iati-activity/planned-disbursement/provider-org/narrative": {
+    "cowi-act": 1
+  },
+  "iati-activity/planned-disbursement/receiver-org": {
+    "cowi-act": 28
+  },
+  "iati-activity/planned-disbursement/receiver-org/@receiver-activity-id": {
+    "cowi-act": 28
+  },
+  "iati-activity/planned-disbursement/receiver-org/@ref": {
+    "cowi-act": 28
+  },
+  "iati-activity/planned-disbursement/receiver-org/@type": {
+    "cowi-act": 28
+  },
+  "iati-activity/planned-disbursement/receiver-org/narrative": {
+    "cowi-act": 28
+  },
+  "iati-activity/planned-disbursement/value": {
+    "cowi-act": 28
+  },
+  "iati-activity/planned-disbursement/value/@value-date": {
+    "cowi-act": 28
+  },
+  "iati-activity/policy-marker": {
+    "cowi-act": 4
+  },
+  "iati-activity/policy-marker/@code": {
+    "cowi-act": 4
+  },
+  "iati-activity/policy-marker/@significance": {
+    "cowi-act": 4
+  },
+  "iati-activity/policy-marker/@vocabulary": {
+    "cowi-act": 4
+  },
+  "iati-activity/recipient-country": {
+    "cowi-activities": 12,
+    "cowi-act": 2
+  },
+  "iati-activity/recipient-country/@code": {
+    "cowi-activities": 12,
+    "cowi-act": 2
+  },
+  "iati-activity/recipient-country/@percentage": {
+    "cowi-activities": 12,
+    "cowi-act": 2
+  },
+  "iati-activity/recipient-country/narrative": {
+    "cowi-activities": 12
+  },
+  "iati-activity/recipient-region": {
+    "cowi-activities": 1
+  },
+  "iati-activity/recipient-region/@code": {
+    "cowi-activities": 1
+  },
+  "iati-activity/recipient-region/@percentage": {
+    "cowi-activities": 1
+  },
+  "iati-activity/recipient-region/@vocabulary": {
+    "cowi-activities": 1
+  },
+  "iati-activity/related-activity": {
+    "cowi-act": 8
+  },
+  "iati-activity/related-activity/@ref": {
+    "cowi-act": 8
+  },
+  "iati-activity/related-activity/@type": {
+    "cowi-act": 8
+  },
+  "iati-activity/reporting-org": {
+    "cowi-activities": 1,
+    "cowi-act": 2
+  },
+  "iati-activity/reporting-org/@ref": {
+    "cowi-activities": 1,
+    "cowi-act": 2
+  },
+  "iati-activity/reporting-org/@secondary-reporter": {
+    "cowi-act": 2
+  },
+  "iati-activity/reporting-org/@type": {
+    "cowi-activities": 1,
+    "cowi-act": 2
+  },
+  "iati-activity/reporting-org/narrative": {
+    "cowi-activities": 1,
+    "cowi-act": 2
+  },
+  "iati-activity/reporting-org/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "cowi-activities": 1
+  },
+  "iati-activity/result": {
+    "cowi-act": 11
+  },
+  "iati-activity/result/@aggregation-status": {
+    "cowi-act": 11
+  },
+  "iati-activity/result/@type": {
+    "cowi-act": 11
+  },
+  "iati-activity/result/description": {
+    "cowi-act": 10
+  },
+  "iati-activity/result/description/narrative": {
+    "cowi-act": 10
+  },
+  "iati-activity/result/indicator": {
+    "cowi-act": 15
+  },
+  "iati-activity/result/indicator/@ascending": {
+    "cowi-act": 14
+  },
+  "iati-activity/result/indicator/@measure": {
+    "cowi-act": 15
+  },
+  "iati-activity/result/indicator/baseline": {
+    "cowi-act": 15
+  },
+  "iati-activity/result/indicator/baseline/@value": {
+    "cowi-act": 15
+  },
+  "iati-activity/result/indicator/baseline/@year": {
+    "cowi-act": 15
+  },
+  "iati-activity/result/indicator/baseline/comment": {
+    "cowi-act": 8
+  },
+  "iati-activity/result/indicator/baseline/comment/narrative": {
+    "cowi-act": 8
+  },
+  "iati-activity/result/indicator/description": {
+    "cowi-act": 15
+  },
+  "iati-activity/result/indicator/description/narrative": {
+    "cowi-act": 15
+  },
+  "iati-activity/result/indicator/period": {
+    "cowi-act": 71
+  },
+  "iati-activity/result/indicator/period/actual": {
+    "cowi-act": 71
+  },
+  "iati-activity/result/indicator/period/actual/@value": {
+    "cowi-act": 71
+  },
+  "iati-activity/result/indicator/period/actual/comment": {
+    "cowi-act": 25
+  },
+  "iati-activity/result/indicator/period/actual/comment/narrative": {
+    "cowi-act": 25
+  },
+  "iati-activity/result/indicator/period/period-end": {
+    "cowi-act": 71
+  },
+  "iati-activity/result/indicator/period/period-end/@iso-date": {
+    "cowi-act": 71
+  },
+  "iati-activity/result/indicator/period/period-start": {
+    "cowi-act": 71
+  },
+  "iati-activity/result/indicator/period/period-start/@iso-date": {
+    "cowi-act": 71
+  },
+  "iati-activity/result/indicator/period/target": {
+    "cowi-act": 71
+  },
+  "iati-activity/result/indicator/period/target/@value": {
+    "cowi-act": 71
+  },
+  "iati-activity/result/indicator/period/target/comment": {
+    "cowi-act": 26
+  },
+  "iati-activity/result/indicator/period/target/comment/narrative": {
+    "cowi-act": 26
+  },
+  "iati-activity/result/indicator/title": {
+    "cowi-act": 15
+  },
+  "iati-activity/result/indicator/title/narrative": {
+    "cowi-act": 15
+  },
+  "iati-activity/result/title": {
+    "cowi-act": 11
+  },
+  "iati-activity/result/title/narrative": {
+    "cowi-act": 11
+  },
+  "iati-activity/sector": {
+    "cowi-activities": 3,
+    "cowi-act": 2
+  },
+  "iati-activity/sector/@code": {
+    "cowi-activities": 3,
+    "cowi-act": 2
+  },
+  "iati-activity/sector/@percentage": {
+    "cowi-activities": 3,
+    "cowi-act": 2
+  },
+  "iati-activity/sector/@vocabulary": {
+    "cowi-activities": 3,
+    "cowi-act": 2
+  },
+  "iati-activity/sector/@vocabulary-uri": {
+    "cowi-activities": 3
+  },
+  "iati-activity/title": {
+    "cowi-activities": 1,
+    "cowi-act": 2
+  },
+  "iati-activity/title/narrative": {
+    "cowi-activities": 1,
+    "cowi-act": 2
+  },
+  "iati-activity/title/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "cowi-activities": 1
+  },
+  "iati-activity/transaction": {
+    "cowi-activities": 48,
+    "cowi-act": 8
+  },
+  "iati-activity/transaction/@humanitarian": {
+    "cowi-activities": 48
+  },
+  "iati-activity/transaction/description": {
+    "cowi-activities": 48,
+    "cowi-act": 7
+  },
+  "iati-activity/transaction/description/narrative": {
+    "cowi-activities": 48,
+    "cowi-act": 7
+  },
+  "iati-activity/transaction/provider-org": {
+    "cowi-activities": 48,
+    "cowi-act": 2
+  },
+  "iati-activity/transaction/provider-org/@provider-activity-id": {
+    "cowi-activities": 48,
+    "cowi-act": 2
+  },
+  "iati-activity/transaction/provider-org/@ref": {
+    "cowi-activities": 48
+  },
+  "iati-activity/transaction/provider-org/@type": {
+    "cowi-activities": 48,
+    "cowi-act": 2
+  },
+  "iati-activity/transaction/provider-org/narrative": {
+    "cowi-activities": 48,
+    "cowi-act": 2
+  },
+  "iati-activity/transaction/receiver-org": {
+    "cowi-activities": 48,
+    "cowi-act": 8
+  },
+  "iati-activity/transaction/receiver-org/@receiver-activity-id": {
+    "cowi-activities": 5,
+    "cowi-act": 8
+  },
+  "iati-activity/transaction/receiver-org/@ref": {
+    "cowi-activities": 5,
+    "cowi-act": 4
+  },
+  "iati-activity/transaction/receiver-org/@type": {
+    "cowi-activities": 48,
+    "cowi-act": 8
+  },
+  "iati-activity/transaction/receiver-org/narrative": {
+    "cowi-activities": 48,
+    "cowi-act": 8
+  },
+  "iati-activity/transaction/transaction-date": {
+    "cowi-activities": 48,
+    "cowi-act": 8
+  },
+  "iati-activity/transaction/transaction-date/@iso-date": {
+    "cowi-activities": 48,
+    "cowi-act": 8
+  },
+  "iati-activity/transaction/transaction-type": {
+    "cowi-activities": 48,
+    "cowi-act": 8
+  },
+  "iati-activity/transaction/transaction-type/@code": {
+    "cowi-activities": 48,
+    "cowi-act": 8
+  },
+  "iati-activity/transaction/value": {
+    "cowi-activities": 48,
+    "cowi-act": 8
+  },
+  "iati-activity/transaction/value/@currency": {
+    "cowi-activities": 48
+  },
+  "iati-activity/transaction/value/@value-date": {
+    "cowi-activities": 48,
+    "cowi-act": 8
+  },
+  "iati-organisation": {
+    "cowi-org": 1
+  },
+  "iati-organisation/@default-currency": {
+    "cowi-org": 1
+  },
+  "iati-organisation/@last-updated-datetime": {
+    "cowi-org": 1
+  },
+  "iati-organisation/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "cowi-org": 1
+  },
+  "iati-organisation/document-link": {
+    "cowi-org": 1
+  },
+  "iati-organisation/document-link/@format": {
+    "cowi-org": 1
+  },
+  "iati-organisation/document-link/@url": {
+    "cowi-org": 1
+  },
+  "iati-organisation/document-link/category": {
+    "cowi-org": 1
+  },
+  "iati-organisation/document-link/category/@code": {
+    "cowi-org": 1
+  },
+  "iati-organisation/document-link/title": {
+    "cowi-org": 1
+  },
+  "iati-organisation/document-link/title/narrative": {
+    "cowi-org": 1
+  },
+  "iati-organisation/name": {
+    "cowi-org": 1
+  },
+  "iati-organisation/name/narrative": {
+    "cowi-org": 1
+  },
+  "iati-organisation/organisation-identifier": {
+    "cowi-org": 1
+  },
+  "iati-organisation/reporting-org": {
+    "cowi-org": 1
+  },
+  "iati-organisation/reporting-org/@ref": {
+    "cowi-org": 1
+  },
+  "iati-organisation/reporting-org/@secondary-reporter": {
+    "cowi-org": 1
+  },
+  "iati-organisation/reporting-org/@type": {
+    "cowi-org": 1
+  },
+  "iati-organisation/reporting-org/narrative": {
+    "cowi-org": 1
+  }
+}

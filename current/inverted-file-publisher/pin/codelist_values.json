@@ -1,0 +1,534 @@
+{
+  ".//@default-currency": {
+    "GBP": {
+      "pin-activities": 8,
+      "pin-org": 5,
+      "pin-dataset-20180930": 7,
+      "pin-dataset-20181231": 8
+    },
+    "EUR": {
+      "pin-org": 41,
+      "pin-dataset-20180930": 44,
+      "pin-dataset-20181231": 49
+    },
+    "USD": {
+      "pin-org": 33,
+      "pin-dataset-20180930": 43,
+      "pin-dataset-20181231": 50
+    },
+    "CZK": {
+      "pin-org": 35,
+      "pin-dataset-20180930": 37,
+      "pin-dataset-20181231": 37
+    },
+    "AON": {
+      "pin-org": 7,
+      "pin-dataset-20180930": 7,
+      "pin-dataset-20181231": 9
+    },
+    "KHR": {
+      "pin-org": 2,
+      "pin-dataset-20180930": 2,
+      "pin-dataset-20181231": 2
+    },
+    "CHF": {
+      "pin-org": 1,
+      "pin-dataset-20180930": 1,
+      "pin-dataset-20181231": 1
+    },
+    "UAH": {
+      "pin-org": 1,
+      "pin-dataset-20180930": 1,
+      "pin-dataset-20181231": 1
+    },
+    "CAD": {
+      "pin-org": 1,
+      "pin-dataset-20180930": 1,
+      "pin-dataset-20181231": 1
+    },
+    "NZD": {
+      "pin-dataset-20180930": 1,
+      "pin-dataset-20181231": 1
+    }
+  },
+  ".//@xml:lang": {
+    "en": {
+      "pin-activities": 16,
+      "pin-org": 1064,
+      "pin-dataset-20180930": 1199,
+      "pin-dataset-20181231": 1308
+    }
+  },
+  ".//activity-date/@type": {
+    "2": {
+      "pin-activities": 8,
+      "pin-org": 126,
+      "pin-dataset-20180930": 144,
+      "pin-dataset-20181231": 159
+    },
+    "3": {
+      "pin-activities": 3,
+      "pin-org": 93,
+      "pin-dataset-20180930": 144,
+      "pin-dataset-20181231": 159
+    },
+    "4": {
+      "pin-activities": 5,
+      "pin-org": 33
+    }
+  },
+  ".//activity-status/@code": {
+    "2": {
+      "pin-activities": 3,
+      "pin-org": 93,
+      "pin-dataset-20180930": 144,
+      "pin-dataset-20181231": 159
+    },
+    "3": {
+      "pin-activities": 5,
+      "pin-org": 33
+    }
+  },
+  ".//budget/@status": {
+    "2": {
+      "pin-activities": 8,
+      "pin-org": 126,
+      "pin-dataset-20180930": 144,
+      "pin-dataset-20181231": 159
+    }
+  },
+  ".//budget/value/@currency": {
+    "GBP": {
+      "pin-activities": 8,
+      "pin-org": 5,
+      "pin-dataset-20180930": 7,
+      "pin-dataset-20181231": 8
+    },
+    "EUR": {
+      "pin-org": 41,
+      "pin-dataset-20180930": 44,
+      "pin-dataset-20181231": 49
+    },
+    "USD": {
+      "pin-org": 33,
+      "pin-dataset-20180930": 43,
+      "pin-dataset-20181231": 50
+    },
+    "CZK": {
+      "pin-org": 35,
+      "pin-dataset-20180930": 37,
+      "pin-dataset-20181231": 37
+    },
+    "AON": {
+      "pin-org": 7,
+      "pin-dataset-20180930": 7,
+      "pin-dataset-20181231": 9
+    },
+    "KHR": {
+      "pin-org": 2,
+      "pin-dataset-20180930": 2,
+      "pin-dataset-20181231": 2
+    },
+    "CHF": {
+      "pin-org": 1,
+      "pin-dataset-20180930": 1,
+      "pin-dataset-20181231": 1
+    },
+    "UAH": {
+      "pin-org": 1,
+      "pin-dataset-20180930": 1,
+      "pin-dataset-20181231": 1
+    },
+    "CAD": {
+      "pin-org": 1,
+      "pin-dataset-20180930": 1,
+      "pin-dataset-20181231": 1
+    },
+    "NZD": {
+      "pin-dataset-20180930": 1,
+      "pin-dataset-20181231": 1
+    }
+  },
+  ".//description/@type": {
+    "1": {
+      "pin-activities": 8,
+      "pin-org": 126,
+      "pin-dataset-20180930": 144,
+      "pin-dataset-20181231": 159
+    }
+  },
+  ".//participating-org/@role": {
+    "1": {
+      "pin-activities": 8,
+      "pin-org": 126,
+      "pin-dataset-20180930": 144,
+      "pin-dataset-20181231": 159
+    },
+    "4": {
+      "pin-activities": 8,
+      "pin-org": 168,
+      "pin-dataset-20180930": 195,
+      "pin-dataset-20181231": 220
+    },
+    "2": {
+      "pin-org": 51,
+      "pin-dataset-20180930": 58,
+      "pin-dataset-20181231": 65
+    },
+    "3": {
+      "pin-org": 7,
+      "pin-dataset-20180930": 7,
+      "pin-dataset-20181231": 7
+    }
+  },
+  ".//participating-org/@type": {
+    "15": {
+      "pin-org": 56,
+      "pin-dataset-20180930": 39,
+      "pin-dataset-20181231": 42
+    },
+    "21": {
+      "pin-org": 189,
+      "pin-dataset-20180930": 214,
+      "pin-dataset-20181231": 241
+    },
+    "10": {
+      "pin-org": 68,
+      "pin-dataset-20180930": 77,
+      "pin-dataset-20181231": 83
+    },
+    "60": {
+      "pin-org": 6,
+      "pin-dataset-20180930": 5,
+      "pin-dataset-20181231": 3
+    },
+    "22": {
+      "pin-org": 23,
+      "pin-dataset-20180930": 27,
+      "pin-dataset-20181231": 39
+    },
+    "70": {
+      "pin-org": 5,
+      "pin-dataset-20180930": 5,
+      "pin-dataset-20181231": 4
+    },
+    "90": {
+      "pin-org": 1,
+      "pin-dataset-20180930": 1
+    },
+    "80": {
+      "pin-org": 3,
+      "pin-dataset-20180930": 5,
+      "pin-dataset-20181231": 5
+    },
+    "11": {
+      "pin-org": 1,
+      "pin-dataset-20180930": 2,
+      "pin-dataset-20181231": 1
+    },
+    "40": {
+      "pin-dataset-20180930": 25,
+      "pin-dataset-20181231": 30
+    },
+    "": {
+      "pin-dataset-20180930": 4,
+      "pin-dataset-20181231": 2
+    },
+    "72": {
+      "pin-dataset-20181231": 1
+    }
+  },
+  ".//recipient-country/@code": {
+    "UA": {
+      "pin-activities": 1,
+      "pin-org": 9,
+      "pin-dataset-20180930": 10,
+      "pin-dataset-20181231": 11
+    },
+    "NP": {
+      "pin-activities": 2,
+      "pin-org": 4,
+      "pin-dataset-20180930": 4,
+      "pin-dataset-20181231": 5
+    },
+    "SY": {
+      "pin-activities": 5,
+      "pin-org": 13,
+      "pin-dataset-20180930": 15,
+      "pin-dataset-20181231": 16
+    },
+    "AF": {
+      "pin-org": 6,
+      "pin-dataset-20180930": 7,
+      "pin-dataset-20181231": 8
+    },
+    "AO": {
+      "pin-org": 9,
+      "pin-dataset-20180930": 9,
+      "pin-dataset-20181231": 12
+    },
+    "CG": {
+      "pin-org": 2,
+      "pin-dataset-20180930": 3,
+      "pin-dataset-20181231": 4
+    },
+    "MD": {
+      "pin-org": 9,
+      "pin-dataset-20180930": 9,
+      "pin-dataset-20181231": 10
+    },
+    "AM": {
+      "pin-org": 5,
+      "pin-dataset-20180930": 5,
+      "pin-dataset-20181231": 5
+    },
+    "GE": {
+      "pin-org": 7,
+      "pin-dataset-20180930": 7,
+      "pin-dataset-20181231": 8
+    },
+    "MN": {
+      "pin-org": 5,
+      "pin-dataset-20180930": 5,
+      "pin-dataset-20181231": 6
+    },
+    "CZ": {
+      "pin-org": 4,
+      "pin-dataset-20180930": 4,
+      "pin-dataset-20181231": 4
+    },
+    "RS": {
+      "pin-org": 1,
+      "pin-dataset-20180930": 1,
+      "pin-dataset-20181231": 1
+    },
+    "XK": {
+      "pin-org": 1,
+      "pin-dataset-20180930": 1,
+      "pin-dataset-20181231": 1
+    },
+    "BA": {
+      "pin-org": 2,
+      "pin-dataset-20180930": 2,
+      "pin-dataset-20181231": 2
+    },
+    "RO": {
+      "pin-org": 1,
+      "pin-dataset-20180930": 1,
+      "pin-dataset-20181231": 1
+    },
+    "ET": {
+      "pin-org": 14,
+      "pin-dataset-20180930": 17,
+      "pin-dataset-20181231": 17
+    },
+    "IQ": {
+      "pin-org": 15,
+      "pin-dataset-20180930": 18,
+      "pin-dataset-20181231": 19
+    },
+    "KH": {
+      "pin-org": 12,
+      "pin-dataset-20180930": 17,
+      "pin-dataset-20181231": 16
+    },
+    "MM": {
+      "pin-org": 4,
+      "pin-dataset-20180930": 4,
+      "pin-dataset-20181231": 7
+    },
+    "PH": {
+      "pin-org": 2,
+      "pin-dataset-20180930": 3,
+      "pin-dataset-20181231": 4
+    },
+    "ZM": {
+      "pin-org": 1,
+      "pin-dataset-20180930": 1,
+      "pin-dataset-20181231": 1
+    },
+    "BD": {
+      "pin-dataset-20180930": 1,
+      "pin-dataset-20181231": 1
+    }
+  },
+  ".//reporting-org/@type": {
+    "21": {
+      "pin-activities": 8,
+      "pin-org": 126,
+      "pin-dataset-20180930": 144,
+      "pin-dataset-20181231": 159
+    }
+  },
+  ".//sector/@vocabulary": {
+    "99": {
+      "pin-activities": 13
+    },
+    "2": {
+      "pin-org": 208,
+      "pin-dataset-20180930": 219,
+      "pin-dataset-20181231": 221
+    }
+  },
+  ".//sector[@vocabulary = '2']/@code": {
+    "111": {
+      "pin-org": 29,
+      "pin-dataset-20180930": 29,
+      "pin-dataset-20181231": 30
+    },
+    "311": {
+      "pin-org": 32,
+      "pin-dataset-20180930": 33,
+      "pin-dataset-20181231": 33
+    },
+    "720": {
+      "pin-org": 42,
+      "pin-dataset-20180930": 43,
+      "pin-dataset-20181231": 42
+    },
+    "122": {
+      "pin-org": 2,
+      "pin-dataset-20180930": 2,
+      "pin-dataset-20181231": 2
+    },
+    "140": {
+      "pin-org": 24,
+      "pin-dataset-20180930": 26,
+      "pin-dataset-20181231": 26
+    },
+    "151": {
+      "pin-org": 18,
+      "pin-dataset-20180930": 18,
+      "pin-dataset-20181231": 19
+    },
+    "520": {
+      "pin-org": 7,
+      "pin-dataset-20180930": 7,
+      "pin-dataset-20181231": 7
+    },
+    "160": {
+      "pin-org": 9,
+      "pin-dataset-20180930": 11,
+      "pin-dataset-20181231": 12
+    },
+    "250": {
+      "pin-org": 10,
+      "pin-dataset-20180930": 12,
+      "pin-dataset-20181231": 12
+    },
+    "232": {
+      "pin-org": 2,
+      "pin-dataset-20180930": 2,
+      "pin-dataset-20181231": 2
+    },
+    "313": {
+      "pin-org": 1,
+      "pin-dataset-20180930": 1,
+      "pin-dataset-20181231": 1
+    },
+    "410": {
+      "pin-org": 1,
+      "pin-dataset-20180930": 1,
+      "pin-dataset-20181231": 1
+    },
+    "113": {
+      "pin-org": 4,
+      "pin-dataset-20180930": 4,
+      "pin-dataset-20181231": 4
+    },
+    "112": {
+      "pin-org": 12,
+      "pin-dataset-20180930": 13,
+      "pin-dataset-20181231": 13
+    },
+    "730": {
+      "pin-org": 9,
+      "pin-dataset-20180930": 10,
+      "pin-dataset-20181231": 10
+    },
+    "740": {
+      "pin-org": 5,
+      "pin-dataset-20180930": 5,
+      "pin-dataset-20181231": 5
+    },
+    "152": {
+      "pin-org": 1,
+      "pin-dataset-20180930": 1,
+      "pin-dataset-20181231": 1
+    },
+    "": {
+      "pin-dataset-20180930": 1,
+      "pin-dataset-20181231": 1
+    }
+  },
+  ".//transaction/transaction-type/@code": {
+    "1": {
+      "pin-activities": 8,
+      "pin-org": 126,
+      "pin-dataset-20180930": 144,
+      "pin-dataset-20181231": 159
+    },
+    "4": {
+      "pin-activities": 8,
+      "pin-org": 126,
+      "pin-dataset-20180930": 144,
+      "pin-dataset-20181231": 159
+    },
+    "2": {
+      "pin-org": 126,
+      "pin-dataset-20180930": 144,
+      "pin-dataset-20181231": 159
+    }
+  },
+  ".//transaction/value/@currency": {
+    "EUR": {
+      "pin-org": 123,
+      "pin-dataset-20180930": 132,
+      "pin-dataset-20181231": 147
+    },
+    "USD": {
+      "pin-org": 99,
+      "pin-dataset-20180930": 129,
+      "pin-dataset-20181231": 150
+    },
+    "CZK": {
+      "pin-org": 105,
+      "pin-dataset-20180930": 111,
+      "pin-dataset-20181231": 111
+    },
+    "AON": {
+      "pin-org": 21,
+      "pin-dataset-20180930": 21,
+      "pin-dataset-20181231": 27
+    },
+    "GBP": {
+      "pin-org": 15,
+      "pin-dataset-20180930": 21,
+      "pin-dataset-20181231": 24
+    },
+    "KHR": {
+      "pin-org": 6,
+      "pin-dataset-20180930": 6,
+      "pin-dataset-20181231": 6
+    },
+    "CHF": {
+      "pin-org": 3,
+      "pin-dataset-20180930": 3,
+      "pin-dataset-20181231": 3
+    },
+    "UAH": {
+      "pin-org": 3,
+      "pin-dataset-20180930": 3,
+      "pin-dataset-20181231": 3
+    },
+    "CAD": {
+      "pin-org": 3,
+      "pin-dataset-20180930": 3,
+      "pin-dataset-20181231": 3
+    },
+    "NZD": {
+      "pin-dataset-20180930": 3,
+      "pin-dataset-20181231": 3
+    }
+  }
+}

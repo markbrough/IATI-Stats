@@ -1,0 +1,453 @@
+{
+  ".//@default-currency": {
+    "CHF": {
+      "dcaf-mk": 1,
+      "dcaf-998": 2,
+      "dcaf-tn": 1,
+      "dcaf-289": 1
+    }
+  },
+  ".//@xml:lang": {
+    "en": {
+      "dcaf-mk": 33,
+      "dcaf-998": 101,
+      "dcaf-tn": 66,
+      "dcaf-289": 6
+    }
+  },
+  ".//activity-date/@type": {
+    "1": {
+      "dcaf-mk": 1,
+      "dcaf-289": 1
+    },
+    "2": {
+      "dcaf-mk": 1,
+      "dcaf-998": 2,
+      "dcaf-tn": 1,
+      "dcaf-289": 1
+    },
+    "3": {
+      "dcaf-mk": 1,
+      "dcaf-289": 1
+    }
+  },
+  ".//activity-scope/@code": {
+    "4": {
+      "dcaf-289": 1
+    }
+  },
+  ".//activity-status/@code": {
+    "2": {
+      "dcaf-mk": 1,
+      "dcaf-998": 2,
+      "dcaf-tn": 1,
+      "dcaf-289": 1
+    }
+  },
+  ".//budget/@status": {
+    "2": {
+      "dcaf-mk": 2,
+      "dcaf-998": 1,
+      "dcaf-289": 4
+    },
+    "1": {
+      "dcaf-998": 1,
+      "dcaf-tn": 1,
+      "dcaf-289": 3
+    }
+  },
+  ".//budget/@type": {
+    "1": {
+      "dcaf-mk": 2,
+      "dcaf-998": 2,
+      "dcaf-tn": 1,
+      "dcaf-289": 4
+    },
+    "2": {
+      "dcaf-289": 3
+    }
+  },
+  ".//budget/value/@currency": {
+    "CHF": {
+      "dcaf-mk": 2,
+      "dcaf-998": 1,
+      "dcaf-tn": 1,
+      "dcaf-289": 4
+    },
+    "GBP": {
+      "dcaf-998": 1
+    }
+  },
+  ".//collaboration-type/@code": {
+    "1": {
+      "dcaf-289": 1
+    }
+  },
+  ".//contact-info/@type": {
+    "1": {
+      "dcaf-289": 1
+    }
+  },
+  ".//description/@type": {
+    "1": {
+      "dcaf-mk": 1,
+      "dcaf-998": 1,
+      "dcaf-tn": 1,
+      "dcaf-289": 1
+    },
+    "2": {
+      "dcaf-mk": 1,
+      "dcaf-998": 1,
+      "dcaf-tn": 1
+    },
+    "3": {
+      "dcaf-mk": 1,
+      "dcaf-998": 2,
+      "dcaf-tn": 1
+    },
+    "4": {
+      "dcaf-mk": 1,
+      "dcaf-998": 1,
+      "dcaf-tn": 1
+    }
+  },
+  ".//document-link/@format": {
+    "application/pdf": {
+      "dcaf-mk": 5,
+      "dcaf-998": 6,
+      "dcaf-tn": 20,
+      "dcaf-289": 2
+    },
+    "text/html": {
+      "dcaf-998": 1,
+      "dcaf-tn": 8
+    }
+  },
+  ".//document-link/category/@code": {
+    "A02": {
+      "dcaf-mk": 1,
+      "dcaf-tn": 1,
+      "dcaf-289": 1
+    },
+    "B08": {
+      "dcaf-mk": 1
+    },
+    "A08": {
+      "dcaf-mk": 3,
+      "dcaf-998": 1,
+      "dcaf-tn": 18
+    },
+    "B01": {
+      "dcaf-998": 3
+    },
+    "A12": {
+      "dcaf-998": 1,
+      "dcaf-tn": 8
+    },
+    "B02": {
+      "dcaf-998": 1
+    },
+    "B09": {
+      "dcaf-998": 1
+    },
+    "B15": {
+      "dcaf-tn": 1
+    },
+    "A10": {
+      "dcaf-289": 1
+    }
+  },
+  ".//document-link/language/@code": {
+    "en": {
+      "dcaf-mk": 5,
+      "dcaf-998": 5,
+      "dcaf-tn": 24
+    },
+    "fr": {
+      "dcaf-tn": 4
+    }
+  },
+  ".//location/location-reach/@code": {
+    "1": {
+      "dcaf-289": 1
+    }
+  },
+  ".//participating-org/@role": {
+    "1": {
+      "dcaf-mk": 3,
+      "dcaf-998": 17,
+      "dcaf-tn": 7,
+      "dcaf-289": 1
+    },
+    "2": {
+      "dcaf-mk": 1,
+      "dcaf-998": 2,
+      "dcaf-tn": 1,
+      "dcaf-289": 1
+    },
+    "4": {
+      "dcaf-mk": 1,
+      "dcaf-998": 2,
+      "dcaf-tn": 1,
+      "dcaf-289": 1
+    }
+  },
+  ".//participating-org/@type": {
+    "10": {
+      "dcaf-mk": 3,
+      "dcaf-998": 14,
+      "dcaf-tn": 7,
+      "dcaf-289": 1
+    },
+    "60": {
+      "dcaf-mk": 2,
+      "dcaf-998": 4,
+      "dcaf-tn": 2,
+      "dcaf-289": 2
+    },
+    "40": {
+      "dcaf-998": 2
+    },
+    "15": {
+      "dcaf-998": 1
+    }
+  },
+  ".//policy-marker/@significance": {
+    "4": {
+      "dcaf-289": 1
+    },
+    "1": {
+      "dcaf-289": 1
+    }
+  },
+  ".//policy-marker/@vocabulary": {
+    "1": {
+      "dcaf-289": 2
+    }
+  },
+  ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "3": {
+      "dcaf-289": 1
+    },
+    "1": {
+      "dcaf-289": 1
+    }
+  },
+  ".//recipient-country/@code": {
+    "MK": {
+      "dcaf-mk": 1,
+      "dcaf-998": 6
+    },
+    "EG": {
+      "dcaf-tn": 1
+    },
+    "LY": {
+      "dcaf-tn": 1
+    },
+    "MA": {
+      "dcaf-tn": 1
+    },
+    "TN": {
+      "dcaf-tn": 1
+    },
+    "ML": {
+      "dcaf-289": 1
+    }
+  },
+  ".//recipient-region/@vocabulary": {
+    "1": {
+      "dcaf-289": 1
+    }
+  },
+  ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "998": {
+      "dcaf-998": 16
+    },
+    "289": {
+      "dcaf-289": 1
+    }
+  },
+  ".//reporting-org/@type": {
+    "60": {
+      "dcaf-mk": 1,
+      "dcaf-998": 2,
+      "dcaf-tn": 1,
+      "dcaf-289": 1
+    }
+  },
+  ".//result/@type": {
+    "1": {
+      "dcaf-998": 9,
+      "dcaf-289": 8
+    },
+    "2": {
+      "dcaf-998": 5,
+      "dcaf-289": 3
+    },
+    "3": {
+      "dcaf-289": 1
+    }
+  },
+  ".//result/indicator/@measure": {
+    "1": {
+      "dcaf-998": 9,
+      "dcaf-289": 9
+    },
+    "2": {
+      "dcaf-998": 5,
+      "dcaf-289": 14
+    }
+  },
+  ".//sector/@vocabulary": {
+    "1": {
+      "dcaf-mk": 1,
+      "dcaf-998": 17,
+      "dcaf-tn": 1,
+      "dcaf-289": 1
+    }
+  },
+  ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "15210": {
+      "dcaf-mk": 1,
+      "dcaf-998": 17,
+      "dcaf-tn": 1,
+      "dcaf-289": 1
+    }
+  },
+  ".//transaction/aid-type/@vocabulary": {
+    "1": {
+      "dcaf-mk": 3,
+      "dcaf-998": 4,
+      "dcaf-tn": 13
+    }
+  },
+  ".//transaction/aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "B04": {
+      "dcaf-mk": 2,
+      "dcaf-tn": 12
+    },
+    "C01": {
+      "dcaf-mk": 1,
+      "dcaf-998": 4,
+      "dcaf-289": 5
+    },
+    "D01": {
+      "dcaf-tn": 1
+    }
+  },
+  ".//transaction/disbursement-channel/@code": {
+    "2": {
+      "dcaf-mk": 3,
+      "dcaf-998": 4,
+      "dcaf-tn": 8,
+      "dcaf-289": 3
+    },
+    "4": {
+      "dcaf-tn": 1
+    }
+  },
+  ".//transaction/finance-type/@code": {
+    "110": {
+      "dcaf-mk": 3,
+      "dcaf-998": 3,
+      "dcaf-tn": 8,
+      "dcaf-289": 3
+    }
+  },
+  ".//transaction/flow-type/@code": {
+    "10": {
+      "dcaf-mk": 3,
+      "dcaf-998": 3,
+      "dcaf-tn": 13
+    }
+  },
+  ".//transaction/provider-org/@type": {
+    "10": {
+      "dcaf-mk": 6,
+      "dcaf-998": 20,
+      "dcaf-tn": 9,
+      "dcaf-289": 1
+    },
+    "40": {
+      "dcaf-998": 1
+    }
+  },
+  ".//transaction/receiver-org/@type": {
+    "60": {
+      "dcaf-mk": 3,
+      "dcaf-998": 21,
+      "dcaf-tn": 7,
+      "dcaf-289": 1
+    },
+    "10": {
+      "dcaf-tn": 2
+    }
+  },
+  ".//transaction/recipient-country/@code": {
+    "MK": {
+      "dcaf-998": 6
+    }
+  },
+  ".//transaction/recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "998": {
+      "dcaf-998": 16
+    }
+  },
+  ".//transaction/sector/@vocabulary": {
+    "1": {
+      "dcaf-998": 16
+    }
+  },
+  ".//transaction/sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "15210": {
+      "dcaf-998": 16
+    }
+  },
+  ".//transaction/tied-status/@code": {
+    "5": {
+      "dcaf-mk": 2,
+      "dcaf-tn": 13
+    },
+    "4": {
+      "dcaf-998": 4
+    }
+  },
+  ".//transaction/transaction-type/@code": {
+    "1": {
+      "dcaf-mk": 5,
+      "dcaf-998": 17,
+      "dcaf-tn": 9,
+      "dcaf-289": 3
+    },
+    "4": {
+      "dcaf-mk": 1,
+      "dcaf-998": 3,
+      "dcaf-tn": 4,
+      "dcaf-289": 2
+    },
+    "2": {
+      "dcaf-998": 2
+    }
+  },
+  ".//transaction/value/@currency": {
+    "CHF": {
+      "dcaf-mk": 6,
+      "dcaf-998": 9,
+      "dcaf-tn": 8,
+      "dcaf-289": 1
+    },
+    "SEK": {
+      "dcaf-998": 1
+    },
+    "EUR": {
+      "dcaf-998": 3,
+      "dcaf-tn": 5
+    },
+    "GBP": {
+      "dcaf-998": 8
+    },
+    "CAD": {
+      "dcaf-998": 1
+    }
+  }
+}

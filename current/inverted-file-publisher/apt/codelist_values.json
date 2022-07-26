@@ -1,0 +1,278 @@
+{
+  ".//@default-currency": {
+    "GBP": {
+      "apt-998": 1,
+      "apt-ke": 3,
+      "apt-ug": 1
+    }
+  },
+  ".//@xml:lang": {
+    "en": {
+      "apt-998": 25,
+      "apt-ke": 33,
+      "apt-ug": 9
+    },
+    "bn": {
+      "apt-ke": 3
+    }
+  },
+  ".//activity-date/@type": {
+    "1": {
+      "apt-998": 1
+    },
+    "2": {
+      "apt-998": 1,
+      "apt-ke": 3,
+      "apt-ug": 1
+    },
+    "3": {
+      "apt-998": 1,
+      "apt-ke": 3,
+      "apt-ug": 1
+    }
+  },
+  ".//activity-status/@code": {
+    "2": {
+      "apt-998": 1,
+      "apt-ke": 3
+    },
+    "3": {
+      "apt-ug": 1
+    }
+  },
+  ".//budget/@status": {
+    "2": {
+      "apt-998": 3
+    }
+  },
+  ".//budget/@type": {
+    "1": {
+      "apt-998": 3,
+      "apt-ke": 3,
+      "apt-ug": 2
+    },
+    "2": {
+      "apt-ke": 9,
+      "apt-ug": 2
+    }
+  },
+  ".//budget/value/@currency": {
+    "GBP": {
+      "apt-998": 3,
+      "apt-ke": 12,
+      "apt-ug": 4
+    }
+  },
+  ".//contact-info/@type": {
+    "1": {
+      "apt-998": 1
+    }
+  },
+  ".//description/@type": {
+    "1": {
+      "apt-998": 1,
+      "apt-ke": 3,
+      "apt-ug": 1
+    }
+  },
+  ".//document-link/@format": {
+    "application/msword": {
+      "apt-ke": 3,
+      "apt-ug": 1
+    },
+    "application/vnd.ms-excel": {
+      "apt-ke": 6,
+      "apt-ug": 2
+    }
+  },
+  ".//document-link/category/@code": {
+    "A02": {
+      "apt-ke": 6,
+      "apt-ug": 2
+    },
+    "A05": {
+      "apt-ke": 3,
+      "apt-ug": 1
+    }
+  },
+  ".//participating-org/@role": {
+    "1": {
+      "apt-998": 2,
+      "apt-ke": 6,
+      "apt-ug": 3
+    },
+    "4": {
+      "apt-998": 1,
+      "apt-ke": 3,
+      "apt-ug": 2
+    }
+  },
+  ".//participating-org/@type": {
+    "10": {
+      "apt-998": 1,
+      "apt-ke": 3,
+      "apt-ug": 1
+    },
+    "60": {
+      "apt-998": 1,
+      "apt-ke": 3,
+      "apt-ug": 1
+    },
+    "21": {
+      "apt-998": 1,
+      "apt-ug": 1
+    },
+    "22": {
+      "apt-ke": 3,
+      "apt-ug": 2
+    }
+  },
+  ".//recipient-country/@code": {
+    "SL": {
+      "apt-998": 1
+    },
+    "KE": {
+      "apt-ke": 3
+    },
+    "UG": {
+      "apt-ug": 1
+    }
+  },
+  ".//recipient-region/@vocabulary": {
+    "1": {
+      "apt-998": 1
+    }
+  },
+  ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "998": {
+      "apt-998": 1
+    }
+  },
+  ".//reporting-org/@type": {
+    "21": {
+      "apt-998": 1,
+      "apt-ke": 3,
+      "apt-ug": 1
+    }
+  },
+  ".//sector/@vocabulary": {
+    "7": {
+      "apt-998": 24
+    },
+    "1": {
+      "apt-ke": 9
+    }
+  },
+  ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "43040": {
+      "apt-ke": 3
+    },
+    "31166": {
+      "apt-ke": 3
+    },
+    "11330": {
+      "apt-ke": 3
+    },
+    "168": {
+      "apt-ke": 15,
+      "apt-ug": 3
+    },
+    "105": {
+      "apt-ug": 1
+    },
+    "27": {
+      "apt-ug": 1
+    }
+  },
+  ".//sector[@vocabulary = '7']/@code": {
+    "1": {
+      "apt-998": 24
+    }
+  },
+  ".//transaction/aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "C01": {
+      "apt-998": 24,
+      "apt-ke": 225,
+      "apt-ug": 56
+    }
+  },
+  ".//transaction/disbursement-channel/@code": {
+    "2": {
+      "apt-998": 12,
+      "apt-ke": 258,
+      "apt-ug": 60
+    },
+    "3": {
+      "apt-ug": 2
+    }
+  },
+  ".//transaction/finance-type/@code": {
+    "110": {
+      "apt-998": 24,
+      "apt-ke": 225,
+      "apt-ug": 54
+    }
+  },
+  ".//transaction/flow-type/@code": {
+    "30": {
+      "apt-998": 24,
+      "apt-ke": 225,
+      "apt-ug": 56
+    }
+  },
+  ".//transaction/provider-org/@type": {
+    "21": {
+      "apt-998": 4
+    },
+    "60": {
+      "apt-998": 2
+    }
+  },
+  ".//transaction/sector/@vocabulary": {
+    "7": {
+      "apt-998": 24
+    }
+  },
+  ".//transaction/sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "168": {
+      "apt-ke": 15,
+      "apt-ug": 3
+    }
+  },
+  ".//transaction/sector[@vocabulary = '7']/@code": {
+    "1": {
+      "apt-998": 24
+    }
+  },
+  ".//transaction/tied-status/@code": {
+    "5": {
+      "apt-998": 24,
+      "apt-ke": 225,
+      "apt-ug": 53
+    }
+  },
+  ".//transaction/transaction-type/@code": {
+    "3": {
+      "apt-998": 4,
+      "apt-ke": 60,
+      "apt-ug": 12
+    },
+    "1": {
+      "apt-998": 6,
+      "apt-ke": 84,
+      "apt-ug": 12
+    },
+    "4": {
+      "apt-998": 14,
+      "apt-ke": 114,
+      "apt-ug": 39
+    }
+  },
+  ".//transaction/value/@currency": {
+    "GBP": {
+      "apt-998": 24,
+      "apt-ke": 81,
+      "apt-ug": 20
+    }
+  }
+}

@@ -1,0 +1,380 @@
+{
+  ".//@default-currency": {
+    "GBP": {
+      "options-bd": 1,
+      "options-ke": 2,
+      "options-in": 1,
+      "options-ng": 1,
+      "options-np": 1,
+      "options-sl": 1,
+      "options-mw": 1
+    }
+  },
+  ".//@xml:lang": {
+    "en": {
+      "options-bd": 2,
+      "options-ke": 6,
+      "options-in": 3,
+      "options-ng": 2,
+      "options-np": 4,
+      "options-sl": 6,
+      "options-mw": 3
+    }
+  },
+  ".//activity-date/@type": {
+    "2": {
+      "options-bd": 1,
+      "options-ke": 1,
+      "options-ng": 1
+    },
+    "4": {
+      "options-bd": 1
+    },
+    "1": {
+      "options-ke": 1,
+      "options-in": 1,
+      "options-np": 1,
+      "options-sl": 1,
+      "options-mw": 1
+    },
+    "3": {
+      "options-ke": 2,
+      "options-in": 1,
+      "options-ng": 1,
+      "options-np": 1,
+      "options-mw": 1
+    }
+  },
+  ".//activity-status/@code": {
+    "4": {
+      "options-bd": 1
+    },
+    "3": {
+      "options-ke": 1
+    },
+    "2": {
+      "options-ke": 1,
+      "options-in": 1,
+      "options-ng": 1,
+      "options-np": 1,
+      "options-sl": 1,
+      "options-mw": 1
+    }
+  },
+  ".//budget/@status": {
+    "2": {
+      "options-bd": 4,
+      "options-ke": 10,
+      "options-in": 1,
+      "options-ng": 7,
+      "options-np": 2
+    },
+    "1": {
+      "options-np": 1,
+      "options-sl": 1
+    }
+  },
+  ".//budget/@type": {
+    "1": {
+      "options-bd": 4,
+      "options-ke": 9,
+      "options-in": 1,
+      "options-ng": 1,
+      "options-np": 2,
+      "options-sl": 1
+    },
+    "2": {
+      "options-ng": 6,
+      "options-np": 1
+    }
+  },
+  ".//budget/value/@currency": {
+    "GBP": {
+      "options-ke": 1,
+      "options-in": 1,
+      "options-np": 3,
+      "options-sl": 1
+    }
+  },
+  ".//contact-info/@type": {
+    "1": {
+      "options-ke": 1
+    }
+  },
+  ".//default-aid-type/@vocabulary": {
+    "1": {
+      "options-bd": 1,
+      "options-ke": 1,
+      "options-ng": 1
+    }
+  },
+  ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "D02": {
+      "options-bd": 1,
+      "options-ke": 2,
+      "options-in": 1,
+      "options-ng": 1,
+      "options-np": 1,
+      "options-sl": 1,
+      "options-mw": 1
+    }
+  },
+  ".//default-finance-type/@code": {
+    "110": {
+      "options-bd": 1,
+      "options-ke": 2,
+      "options-in": 1,
+      "options-ng": 1,
+      "options-np": 1,
+      "options-sl": 1,
+      "options-mw": 1
+    }
+  },
+  ".//default-flow-type/@code": {
+    "30": {
+      "options-bd": 1,
+      "options-ke": 2,
+      "options-in": 1,
+      "options-ng": 1,
+      "options-np": 1,
+      "options-sl": 1,
+      "options-mw": 1
+    }
+  },
+  ".//default-tied-status/@code": {
+    "5": {
+      "options-bd": 1,
+      "options-ke": 2,
+      "options-in": 1,
+      "options-ng": 1,
+      "options-np": 1,
+      "options-sl": 1,
+      "options-mw": 1
+    }
+  },
+  ".//description/@type": {
+    "2": {
+      "options-bd": 1,
+      "options-ng": 1
+    },
+    "1": {
+      "options-ke": 2,
+      "options-in": 1,
+      "options-np": 1,
+      "options-sl": 1,
+      "options-mw": 1
+    }
+  },
+  ".//location/administrative/@vocabulary": {
+    "G2": {
+      "options-ke": 1
+    }
+  },
+  ".//location/exactness/@code": {
+    "2": {
+      "options-ke": 1
+    }
+  },
+  ".//location/feature-designation/@code": {
+    "PPLX": {
+      "options-ke": 1
+    }
+  },
+  ".//location/location-class/@code": {
+    "2": {
+      "options-ke": 1
+    }
+  },
+  ".//location/location-id/@vocabulary": {
+    "G2": {
+      "options-ke": 1
+    }
+  },
+  ".//location/location-reach/@code": {
+    "1": {
+      "options-ke": 1
+    }
+  },
+  ".//participating-org/@role": {
+    "1": {
+      "options-bd": 1,
+      "options-ke": 2,
+      "options-ng": 2
+    },
+    "2": {
+      "options-bd": 1,
+      "options-ke": 1,
+      "options-ng": 1
+    },
+    "4": {
+      "options-bd": 1,
+      "options-ke": 16,
+      "options-in": 1,
+      "options-np": 4,
+      "options-sl": 1,
+      "options-mw": 1
+    }
+  },
+  ".//participating-org/@type": {
+    "10": {
+      "options-bd": 1,
+      "options-ke": 1,
+      "options-ng": 1
+    },
+    "70": {
+      "options-bd": 2,
+      "options-ke": 7,
+      "options-ng": 2
+    },
+    "71": {
+      "options-ke": 3
+    },
+    "80": {
+      "options-ke": 1
+    },
+    "22": {
+      "options-ke": 3
+    },
+    "21": {
+      "options-ke": 4
+    }
+  },
+  ".//policy-marker/@significance": {
+    "1": {
+      "options-bd": 1,
+      "options-ke": 1
+    },
+    "4": {
+      "options-ng": 1
+    }
+  },
+  ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "9": {
+      "options-bd": 1,
+      "options-ke": 1,
+      "options-ng": 1
+    }
+  },
+  ".//recipient-country/@code": {
+    "BD": {
+      "options-bd": 1
+    },
+    "KE": {
+      "options-ke": 2
+    },
+    "NG": {
+      "options-ke": 1,
+      "options-ng": 1
+    },
+    "BF": {
+      "options-ke": 1
+    },
+    "SD": {
+      "options-ke": 1
+    },
+    "ET": {
+      "options-ke": 1
+    },
+    "SO": {
+      "options-ke": 1
+    },
+    "SN": {
+      "options-ke": 1
+    },
+    "IN": {
+      "options-in": 1
+    },
+    "NP": {
+      "options-np": 1
+    },
+    "SL": {
+      "options-sl": 1
+    },
+    "MW": {
+      "options-mw": 1
+    }
+  },
+  ".//reporting-org/@type": {
+    "70": {
+      "options-bd": 1,
+      "options-ke": 2,
+      "options-in": 1,
+      "options-ng": 1,
+      "options-np": 1,
+      "options-sl": 1,
+      "options-mw": 1
+    }
+  },
+  ".//sector/@vocabulary": {
+    "1": {
+      "options-bd": 1,
+      "options-ke": 4,
+      "options-in": 1,
+      "options-ng": 1,
+      "options-np": 1,
+      "options-sl": 1,
+      "options-mw": 1
+    }
+  },
+  ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "13020": {
+      "options-bd": 1,
+      "options-ke": 1,
+      "options-in": 1,
+      "options-ng": 1,
+      "options-np": 1,
+      "options-sl": 1,
+      "options-mw": 1
+    },
+    "12110": {
+      "options-ke": 1
+    },
+    "23230": {
+      "options-ke": 1
+    },
+    "15185": {
+      "options-ke": 1
+    }
+  },
+  ".//transaction/transaction-type/@code": {
+    "1": {
+      "options-bd": 1,
+      "options-ke": 2,
+      "options-in": 3,
+      "options-ng": 2,
+      "options-np": 4,
+      "options-sl": 2,
+      "options-mw": 1
+    },
+    "4": {
+      "options-bd": 1,
+      "options-ke": 3,
+      "options-in": 3,
+      "options-ng": 2,
+      "options-np": 4,
+      "options-sl": 2,
+      "options-mw": 1
+    },
+    "3": {
+      "options-ke": 15,
+      "options-in": 3,
+      "options-np": 6
+    },
+    "11": {
+      "options-ke": 2,
+      "options-ng": 1
+    },
+    "2": {
+      "options-ke": 1
+    }
+  },
+  ".//transaction/value/@currency": {
+    "GBP": {
+      "options-ke": 2,
+      "options-in": 3,
+      "options-np": 14,
+      "options-sl": 3,
+      "options-mw": 2
+    }
+  }
+}

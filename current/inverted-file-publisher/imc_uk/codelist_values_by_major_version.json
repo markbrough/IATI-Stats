@@ -1,0 +1,273 @@
+{
+  "1": {
+    ".//@default-currency": {
+      "imc_uk-cf": {
+        "GBP": 1
+      }
+    },
+    ".//activity-date/@type": {
+      "imc_uk-cf": {
+        "start-planned": 1
+      }
+    },
+    ".//activity-status/@code": {
+      "imc_uk-cf": {
+        "2": 1
+      }
+    },
+    ".//budget/@type": {
+      "imc_uk-cf": {
+        "1": 1
+      }
+    },
+    ".//collaboration-type/@code": {
+      "imc_uk-cf": {
+        "3": 1
+      }
+    },
+    ".//default-aid-type/@code": {
+      "imc_uk-cf": {
+        "B03": 1
+      }
+    },
+    ".//default-finance-type/@code": {
+      "imc_uk-cf": {
+        "110": 1
+      }
+    },
+    ".//default-flow-type/@code": {
+      "imc_uk-cf": {
+        "10": 1
+      }
+    },
+    ".//description/@type": {
+      "imc_uk-cf": {
+        "1": 1
+      }
+    },
+    ".//participating-org/@role": {
+      "imc_uk-cf": {
+        "Accountable": 1,
+        "Implementing": 3
+      }
+    },
+    ".//participating-org/@type": {
+      "imc_uk-cf": {
+        "21": 3,
+        "70": 1
+      }
+    },
+    ".//recipient-country/@code": {
+      "imc_uk-cf": {
+        "CF": 1
+      }
+    },
+    ".//reporting-org/@type": {
+      "imc_uk-cf": {
+        "21": 1
+      }
+    },
+    ".//sector/@vocabulary": {
+      "imc_uk-cf": {
+        "RO2": 4
+      }
+    },
+    ".//transaction/transaction-type/@code": {
+      "imc_uk-cf": {
+        "D": 3,
+        "IF": 1
+      }
+    },
+    ".//@xml:lang": {
+      "imc_uk-cf": {
+        "en": 2
+      }
+    }
+  },
+  "2": {
+    ".//@default-currency": {
+      "imc_uk-activities": {
+        "GBP": 2,
+        "USD": 3
+      }
+    },
+    ".//activity-date/@type": {
+      "imc_uk-activities": {
+        "1": 4,
+        "2": 3,
+        "3": 4
+      }
+    },
+    ".//activity-status/@code": {
+      "imc_uk-activities": {
+        "2": 5
+      }
+    },
+    ".//budget/@status": {
+      "imc_uk-activities": {
+        "2": 17
+      }
+    },
+    ".//budget/@type": {
+      "imc_uk-activities": {
+        "1": 9,
+        "2": 9
+      }
+    },
+    ".//budget/value/@currency": {
+      "imc_uk-activities": {
+        "GBP": 16,
+        "EUR": 1
+      }
+    },
+    ".//collaboration-type/@code": {
+      "imc_uk-activities": {
+        "3": 4,
+        "1": 1
+      }
+    },
+    ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "imc_uk-activities": {
+        "B03": 4,
+        "C01": 1
+      }
+    },
+    ".//default-finance-type/@code": {
+      "imc_uk-activities": {
+        "110": 5
+      }
+    },
+    ".//default-flow-type/@code": {
+      "imc_uk-activities": {
+        "10": 4,
+        "20": 1
+      }
+    },
+    ".//description/@type": {
+      "imc_uk-activities": {
+        "1": 5,
+        "2": 4,
+        "3": 2,
+        "4": 1
+      }
+    },
+    ".//participating-org/@role": {
+      "imc_uk-activities": {
+        "2": 3,
+        "4": 7,
+        "1": 3,
+        "3": 1
+      }
+    },
+    ".//participating-org/@type": {
+      "imc_uk-activities": {
+        "21": 9,
+        "70": 2,
+        "10": 3
+      }
+    },
+    ".//recipient-country/@code": {
+      "imc_uk-activities": {
+        "CF": 2,
+        "SS": 1,
+        "JO": 1,
+        "NG": 1
+      }
+    },
+    ".//reporting-org/@type": {
+      "imc_uk-activities": {
+        "21": 5
+      }
+    },
+    ".//result/@type": {
+      "imc_uk-activities": {
+        "1": 10,
+        "9": 3
+      }
+    },
+    ".//result/indicator/@measure": {
+      "imc_uk-activities": {
+        "1": 33,
+        "2": 8
+      }
+    },
+    ".//result/indicator/reference/@vocabulary": {
+      "imc_uk-activities": {
+        "99": 25
+      }
+    },
+    ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "imc_uk-activities": {
+        "15180": 2,
+        "12220": 2,
+        "16015": 1,
+        "12261": 1,
+        "12240": 1
+      }
+    },
+    ".//sector/@vocabulary": {
+      "imc_uk-activities": {
+        "98": 4,
+        "1": 7
+      }
+    },
+    ".//transaction/aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "imc_uk-activities": {
+        "B03": 9,
+        "C01": 2
+      }
+    },
+    ".//transaction/disbursement-channel/@code": {
+      "imc_uk-activities": {
+        "2": 10
+      }
+    },
+    ".//transaction/finance-type/@code": {
+      "imc_uk-activities": {
+        "110": 11
+      }
+    },
+    ".//transaction/flow-type/@code": {
+      "imc_uk-activities": {
+        "10": 9,
+        "20": 2
+      }
+    },
+    ".//transaction/provider-org/@type": {
+      "imc_uk-activities": {
+        "10": 12,
+        "21": 2
+      }
+    },
+    ".//transaction/receiver-org/@type": {
+      "imc_uk-activities": {
+        "21": 14,
+        "22": 1
+      }
+    },
+    ".//transaction/tied-status/@code": {
+      "imc_uk-activities": {
+        "5": 11
+      }
+    },
+    ".//transaction/transaction-type/@code": {
+      "imc_uk-activities": {
+        "3": 8,
+        "1": 11,
+        "4": 11
+      }
+    },
+    ".//transaction/value/@currency": {
+      "imc_uk-activities": {
+        "GBP": 23,
+        "JOD": 1,
+        "EUR": 2
+      }
+    },
+    ".//@xml:lang": {
+      "imc_uk-activities": {
+        "en": 196
+      }
+    }
+  }
+}

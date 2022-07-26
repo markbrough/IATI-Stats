@@ -1,0 +1,664 @@
+{
+  "iati-activity": {
+    "vso-gec": 2,
+    "vso-activities": 15,
+    "vso-activity": 27
+  },
+  "iati-activity/@default-currency": {
+    "vso-gec": 2,
+    "vso-activities": 15,
+    "vso-activity": 27
+  },
+  "iati-activity/@hierarchy": {
+    "vso-activities": 15
+  },
+  "iati-activity/@humanitarian": {
+    "vso-activities": 15
+  },
+  "iati-activity/@last-updated-datetime": {
+    "vso-gec": 2,
+    "vso-activities": 15,
+    "vso-activity": 27
+  },
+  "iati-activity/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "vso-gec": 2,
+    "vso-activities": 15,
+    "vso-activity": 27
+  },
+  "iati-activity/activity-date": {
+    "vso-gec": 2,
+    "vso-activities": 15,
+    "vso-activity": 27
+  },
+  "iati-activity/activity-date/@iso-date": {
+    "vso-gec": 1,
+    "vso-activities": 15,
+    "vso-activity": 27
+  },
+  "iati-activity/activity-date/@type": {
+    "vso-gec": 2,
+    "vso-activities": 15,
+    "vso-activity": 27
+  },
+  "iati-activity/activity-date/narrative": {
+    "vso-activities": 4
+  },
+  "iati-activity/activity-date/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "vso-activities": 4
+  },
+  "iati-activity/activity-status": {
+    "vso-gec": 2,
+    "vso-activities": 15,
+    "vso-activity": 27
+  },
+  "iati-activity/activity-status/@code": {
+    "vso-gec": 2,
+    "vso-activities": 15,
+    "vso-activity": 27
+  },
+  "iati-activity/budget": {
+    "vso-activities": 15
+  },
+  "iati-activity/budget/@status": {
+    "vso-activities": 15
+  },
+  "iati-activity/budget/@type": {
+    "vso-activities": 15
+  },
+  "iati-activity/budget/period-end": {
+    "vso-activities": 15
+  },
+  "iati-activity/budget/period-end/@iso-date": {
+    "vso-activities": 15
+  },
+  "iati-activity/budget/period-start": {
+    "vso-activities": 15
+  },
+  "iati-activity/budget/period-start/@iso-date": {
+    "vso-activities": 15
+  },
+  "iati-activity/budget/value": {
+    "vso-activities": 15
+  },
+  "iati-activity/budget/value/@currency": {
+    "vso-activities": 15
+  },
+  "iati-activity/budget/value/@value-date": {
+    "vso-activities": 15
+  },
+  "iati-activity/default-aid-type": {
+    "vso-gec": 2,
+    "vso-activity": 27
+  },
+  "iati-activity/default-aid-type/@code": {
+    "vso-gec": 2,
+    "vso-activity": 27
+  },
+  "iati-activity/default-flow-type": {
+    "vso-gec": 2,
+    "vso-activity": 27
+  },
+  "iati-activity/default-flow-type/@code": {
+    "vso-gec": 2,
+    "vso-activity": 27
+  },
+  "iati-activity/description": {
+    "vso-activities": 15
+  },
+  "iati-activity/description/@type": {
+    "vso-activities": 15
+  },
+  "iati-activity/description/narrative": {
+    "vso-activities": 15
+  },
+  "iati-activity/description/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "vso-activities": 14
+  },
+  "iati-activity/document-link": {
+    "vso-gec": 2,
+    "vso-activities": 12,
+    "vso-activity": 27
+  },
+  "iati-activity/document-link/@format": {
+    "vso-gec": 2,
+    "vso-activities": 12,
+    "vso-activity": 27
+  },
+  "iati-activity/document-link/@url": {
+    "vso-gec": 2,
+    "vso-activities": 12,
+    "vso-activity": 27
+  },
+  "iati-activity/document-link/category": {
+    "vso-gec": 2,
+    "vso-activities": 12,
+    "vso-activity": 27
+  },
+  "iati-activity/document-link/category/@code": {
+    "vso-gec": 2,
+    "vso-activities": 12,
+    "vso-activity": 27
+  },
+  "iati-activity/document-link/document-date": {
+    "vso-activities": 9
+  },
+  "iati-activity/document-link/document-date/@iso-date": {
+    "vso-activities": 9
+  },
+  "iati-activity/document-link/language": {
+    "vso-gec": 2,
+    "vso-activities": 11,
+    "vso-activity": 27
+  },
+  "iati-activity/document-link/language/@code": {
+    "vso-gec": 2,
+    "vso-activities": 11,
+    "vso-activity": 27
+  },
+  "iati-activity/document-link/title": {
+    "vso-gec": 2,
+    "vso-activities": 12,
+    "vso-activity": 27
+  },
+  "iati-activity/document-link/title/narrative": {
+    "vso-activities": 12
+  },
+  "iati-activity/document-link/title/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "vso-activities": 11
+  },
+  "iati-activity/iati-identifier": {
+    "vso-gec": 1,
+    "vso-activities": 15,
+    "vso-activity": 27
+  },
+  "iati-activity/participating-org": {
+    "vso-gec": 2,
+    "vso-activities": 15,
+    "vso-activity": 27
+  },
+  "iati-activity/participating-org/@activity-id": {
+    "vso-activities": 12
+  },
+  "iati-activity/participating-org/@crs-channel-code": {
+    "vso-activities": 2
+  },
+  "iati-activity/participating-org/@ref": {
+    "vso-gec": 2,
+    "vso-activities": 15,
+    "vso-activity": 27
+  },
+  "iati-activity/participating-org/@role": {
+    "vso-gec": 2,
+    "vso-activities": 15,
+    "vso-activity": 27
+  },
+  "iati-activity/participating-org/@type": {
+    "vso-gec": 2,
+    "vso-activities": 15,
+    "vso-activity": 27
+  },
+  "iati-activity/participating-org/narrative": {
+    "vso-activities": 15
+  },
+  "iati-activity/participating-org/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "vso-activities": 15
+  },
+  "iati-activity/planned-disbursement": {
+    "vso-activities": 2
+  },
+  "iati-activity/planned-disbursement/@type": {
+    "vso-activities": 2
+  },
+  "iati-activity/planned-disbursement/period-end": {
+    "vso-activities": 2
+  },
+  "iati-activity/planned-disbursement/period-end/@iso-date": {
+    "vso-activities": 2
+  },
+  "iati-activity/planned-disbursement/period-start": {
+    "vso-activities": 2
+  },
+  "iati-activity/planned-disbursement/period-start/@iso-date": {
+    "vso-activities": 2
+  },
+  "iati-activity/planned-disbursement/provider-org": {
+    "vso-activities": 2
+  },
+  "iati-activity/planned-disbursement/provider-org/@provider-activity-id": {
+    "vso-activities": 2
+  },
+  "iati-activity/planned-disbursement/provider-org/@ref": {
+    "vso-activities": 2
+  },
+  "iati-activity/planned-disbursement/provider-org/@type": {
+    "vso-activities": 1
+  },
+  "iati-activity/planned-disbursement/provider-org/narrative": {
+    "vso-activities": 1
+  },
+  "iati-activity/planned-disbursement/provider-org/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "vso-activities": 1
+  },
+  "iati-activity/planned-disbursement/value": {
+    "vso-activities": 2
+  },
+  "iati-activity/planned-disbursement/value/@currency": {
+    "vso-activities": 2
+  },
+  "iati-activity/planned-disbursement/value/@value-date": {
+    "vso-activities": 2
+  },
+  "iati-activity/recipient-country": {
+    "vso-gec": 1,
+    "vso-activities": 15,
+    "vso-activity": 27
+  },
+  "iati-activity/recipient-country/@code": {
+    "vso-gec": 1,
+    "vso-activities": 15,
+    "vso-activity": 27
+  },
+  "iati-activity/recipient-country/@percentage": {
+    "vso-activities": 15
+  },
+  "iati-activity/recipient-country/narrative": {
+    "vso-activities": 2
+  },
+  "iati-activity/recipient-country/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "vso-activities": 2
+  },
+  "iati-activity/reporting-org": {
+    "vso-gec": 2,
+    "vso-activities": 15,
+    "vso-activity": 27
+  },
+  "iati-activity/reporting-org/@ref": {
+    "vso-gec": 2,
+    "vso-activities": 15,
+    "vso-activity": 27
+  },
+  "iati-activity/reporting-org/@secondary-reporter": {
+    "vso-activities": 10
+  },
+  "iati-activity/reporting-org/@type": {
+    "vso-gec": 2,
+    "vso-activities": 15,
+    "vso-activity": 27
+  },
+  "iati-activity/reporting-org/narrative": {
+    "vso-activities": 15
+  },
+  "iati-activity/reporting-org/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "vso-activities": 15
+  },
+  "iati-activity/sector": {
+    "vso-gec": 2,
+    "vso-activities": 15,
+    "vso-activity": 27
+  },
+  "iati-activity/sector/@code": {
+    "vso-gec": 2,
+    "vso-activities": 15,
+    "vso-activity": 27
+  },
+  "iati-activity/sector/@percentage": {
+    "vso-activities": 12,
+    "vso-activity": 27
+  },
+  "iati-activity/sector/@vocabulary": {
+    "vso-gec": 2,
+    "vso-activities": 15,
+    "vso-activity": 27
+  },
+  "iati-activity/sector/narrative": {
+    "vso-activities": 1
+  },
+  "iati-activity/sector/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "vso-activities": 1
+  },
+  "iati-activity/title": {
+    "vso-gec": 1,
+    "vso-activities": 15,
+    "vso-activity": 27
+  },
+  "iati-activity/title/narrative": {
+    "vso-activities": 15
+  },
+  "iati-activity/title/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "vso-activities": 15
+  },
+  "iati-activity/transaction": {
+    "vso-gec": 2,
+    "vso-activities": 15,
+    "vso-activity": 27
+  },
+  "iati-activity/transaction/@humanitarian": {
+    "vso-activities": 15
+  },
+  "iati-activity/transaction/@ref": {
+    "vso-activities": 15
+  },
+  "iati-activity/transaction/aid-type": {
+    "vso-activities": 11
+  },
+  "iati-activity/transaction/aid-type/@code": {
+    "vso-activities": 11
+  },
+  "iati-activity/transaction/aid-type/@vocabulary": {
+    "vso-activities": 9
+  },
+  "iati-activity/transaction/description": {
+    "vso-gec": 1,
+    "vso-activities": 14,
+    "vso-activity": 27
+  },
+  "iati-activity/transaction/description/narrative": {
+    "vso-activities": 14
+  },
+  "iati-activity/transaction/description/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "vso-activities": 14
+  },
+  "iati-activity/transaction/disbursement-channel": {
+    "vso-activities": 12
+  },
+  "iati-activity/transaction/disbursement-channel/@code": {
+    "vso-activities": 12
+  },
+  "iati-activity/transaction/finance-type": {
+    "vso-activities": 10
+  },
+  "iati-activity/transaction/finance-type/@code": {
+    "vso-activities": 10
+  },
+  "iati-activity/transaction/flow-type": {
+    "vso-activities": 11
+  },
+  "iati-activity/transaction/flow-type/@code": {
+    "vso-activities": 11
+  },
+  "iati-activity/transaction/provider-org": {
+    "vso-gec": 1,
+    "vso-activities": 8,
+    "vso-activity": 26
+  },
+  "iati-activity/transaction/provider-org/@provider-activity-id": {
+    "vso-gec": 1,
+    "vso-activities": 4,
+    "vso-activity": 26
+  },
+  "iati-activity/transaction/provider-org/@ref": {
+    "vso-gec": 1,
+    "vso-activities": 8,
+    "vso-activity": 24
+  },
+  "iati-activity/transaction/provider-org/@type": {
+    "vso-activities": 8
+  },
+  "iati-activity/transaction/provider-org/narrative": {
+    "vso-activities": 8
+  },
+  "iati-activity/transaction/provider-org/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "vso-activities": 7
+  },
+  "iati-activity/transaction/receiver-org": {
+    "vso-gec": 2,
+    "vso-activities": 11
+  },
+  "iati-activity/transaction/receiver-org/@receiver-activity-id": {
+    "vso-gec": 1,
+    "vso-activities": 11
+  },
+  "iati-activity/transaction/receiver-org/@ref": {
+    "vso-gec": 1,
+    "vso-activities": 11
+  },
+  "iati-activity/transaction/receiver-org/@type": {
+    "vso-activities": 11
+  },
+  "iati-activity/transaction/receiver-org/narrative": {
+    "vso-activities": 11
+  },
+  "iati-activity/transaction/receiver-org/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "vso-activities": 11
+  },
+  "iati-activity/transaction/tied-status": {
+    "vso-activities": 11
+  },
+  "iati-activity/transaction/tied-status/@code": {
+    "vso-activities": 11
+  },
+  "iati-activity/transaction/transaction-date": {
+    "vso-gec": 2,
+    "vso-activities": 15,
+    "vso-activity": 27
+  },
+  "iati-activity/transaction/transaction-date/@iso-date": {
+    "vso-gec": 2,
+    "vso-activities": 15,
+    "vso-activity": 27
+  },
+  "iati-activity/transaction/transaction-type": {
+    "vso-gec": 2,
+    "vso-activities": 15,
+    "vso-activity": 27
+  },
+  "iati-activity/transaction/transaction-type/@code": {
+    "vso-gec": 2,
+    "vso-activities": 15,
+    "vso-activity": 27
+  },
+  "iati-activity/transaction/value": {
+    "vso-gec": 2,
+    "vso-activities": 15,
+    "vso-activity": 27
+  },
+  "iati-activity/transaction/value/@currency": {
+    "vso-activities": 15
+  },
+  "iati-activity/transaction/value/@value-date": {
+    "vso-gec": 2,
+    "vso-activities": 15,
+    "vso-activity": 27
+  },
+  "iati-organisation": {
+    "vso-org": 1
+  },
+  "iati-organisation/@default-currency": {
+    "vso-org": 1
+  },
+  "iati-organisation/@last-updated-datetime": {
+    "vso-org": 1
+  },
+  "iati-organisation/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "vso-org": 1
+  },
+  "iati-organisation/document-link": {
+    "vso-org": 1
+  },
+  "iati-organisation/document-link/@format": {
+    "vso-org": 1
+  },
+  "iati-organisation/document-link/@url": {
+    "vso-org": 1
+  },
+  "iati-organisation/document-link/category": {
+    "vso-org": 1
+  },
+  "iati-organisation/document-link/category/@code": {
+    "vso-org": 1
+  },
+  "iati-organisation/document-link/document-date": {
+    "vso-org": 1
+  },
+  "iati-organisation/document-link/document-date/@iso-date": {
+    "vso-org": 1
+  },
+  "iati-organisation/document-link/language": {
+    "vso-org": 1
+  },
+  "iati-organisation/document-link/language/@code": {
+    "vso-org": 1
+  },
+  "iati-organisation/document-link/title": {
+    "vso-org": 1
+  },
+  "iati-organisation/document-link/title/narrative": {
+    "vso-org": 1
+  },
+  "iati-organisation/document-link/title/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "vso-org": 1
+  },
+  "iati-organisation/name": {
+    "vso-org": 1
+  },
+  "iati-organisation/name/narrative": {
+    "vso-org": 1
+  },
+  "iati-organisation/name/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "vso-org": 1
+  },
+  "iati-organisation/organisation-identifier": {
+    "vso-org": 1
+  },
+  "iati-organisation/recipient-country-budget": {
+    "vso-org": 1
+  },
+  "iati-organisation/recipient-country-budget/period-end": {
+    "vso-org": 1
+  },
+  "iati-organisation/recipient-country-budget/period-end/@iso-date": {
+    "vso-org": 1
+  },
+  "iati-organisation/recipient-country-budget/period-start": {
+    "vso-org": 1
+  },
+  "iati-organisation/recipient-country-budget/period-start/@iso-date": {
+    "vso-org": 1
+  },
+  "iati-organisation/recipient-country-budget/recipient-country": {
+    "vso-org": 1
+  },
+  "iati-organisation/recipient-country-budget/recipient-country/@code": {
+    "vso-org": 1
+  },
+  "iati-organisation/recipient-country-budget/recipient-country/narrative": {
+    "vso-org": 1
+  },
+  "iati-organisation/recipient-country-budget/recipient-country/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "vso-org": 1
+  },
+  "iati-organisation/recipient-country-budget/value": {
+    "vso-org": 1
+  },
+  "iati-organisation/recipient-country-budget/value/@currency": {
+    "vso-org": 1
+  },
+  "iati-organisation/recipient-country-budget/value/@value-date": {
+    "vso-org": 1
+  },
+  "iati-organisation/recipient-org-budget": {
+    "vso-org": 1
+  },
+  "iati-organisation/recipient-org-budget/@status": {
+    "vso-org": 1
+  },
+  "iati-organisation/recipient-org-budget/period-end": {
+    "vso-org": 1
+  },
+  "iati-organisation/recipient-org-budget/period-end/@iso-date": {
+    "vso-org": 1
+  },
+  "iati-organisation/recipient-org-budget/period-start": {
+    "vso-org": 1
+  },
+  "iati-organisation/recipient-org-budget/period-start/@iso-date": {
+    "vso-org": 1
+  },
+  "iati-organisation/recipient-org-budget/recipient-org": {
+    "vso-org": 1
+  },
+  "iati-organisation/recipient-org-budget/recipient-org/@ref": {
+    "vso-org": 1
+  },
+  "iati-organisation/recipient-org-budget/recipient-org/narrative": {
+    "vso-org": 1
+  },
+  "iati-organisation/recipient-org-budget/recipient-org/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "vso-org": 1
+  },
+  "iati-organisation/recipient-org-budget/value": {
+    "vso-org": 1
+  },
+  "iati-organisation/recipient-org-budget/value/@currency": {
+    "vso-org": 1
+  },
+  "iati-organisation/recipient-org-budget/value/@value-date": {
+    "vso-org": 1
+  },
+  "iati-organisation/reporting-org": {
+    "vso-org": 1
+  },
+  "iati-organisation/reporting-org/@ref": {
+    "vso-org": 1
+  },
+  "iati-organisation/reporting-org/@type": {
+    "vso-org": 1
+  },
+  "iati-organisation/reporting-org/narrative": {
+    "vso-org": 1
+  },
+  "iati-organisation/reporting-org/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "vso-org": 1
+  },
+  "iati-organisation/total-budget": {
+    "vso-org": 1
+  },
+  "iati-organisation/total-budget/@status": {
+    "vso-org": 1
+  },
+  "iati-organisation/total-budget/period-end": {
+    "vso-org": 1
+  },
+  "iati-organisation/total-budget/period-end/@iso-date": {
+    "vso-org": 1
+  },
+  "iati-organisation/total-budget/period-start": {
+    "vso-org": 1
+  },
+  "iati-organisation/total-budget/period-start/@iso-date": {
+    "vso-org": 1
+  },
+  "iati-organisation/total-budget/value": {
+    "vso-org": 1
+  },
+  "iati-organisation/total-budget/value/@currency": {
+    "vso-org": 1
+  },
+  "iati-organisation/total-budget/value/@value-date": {
+    "vso-org": 1
+  },
+  "iati-organisation/total-expenditure": {
+    "vso-org": 1
+  },
+  "iati-organisation/total-expenditure/period-end": {
+    "vso-org": 1
+  },
+  "iati-organisation/total-expenditure/period-end/@iso-date": {
+    "vso-org": 1
+  },
+  "iati-organisation/total-expenditure/period-start": {
+    "vso-org": 1
+  },
+  "iati-organisation/total-expenditure/period-start/@iso-date": {
+    "vso-org": 1
+  },
+  "iati-organisation/total-expenditure/value": {
+    "vso-org": 1
+  },
+  "iati-organisation/total-expenditure/value/@currency": {
+    "vso-org": 1
+  },
+  "iati-organisation/total-expenditure/value/@value-date": {
+    "vso-org": 1
+  }
+}

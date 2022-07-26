@@ -1,0 +1,911 @@
+{
+  ".//@default-currency": {
+    "EUR": {
+      "ifsi_isvi-ci": 1,
+      "ifsi_isvi-cu": 1,
+      "ifsi_isvi-89": 1,
+      "ifsi_isvi-rw": 1,
+      "ifsi_isvi-pe": 1,
+      "ifsi_isvi-998": 2,
+      "ifsi_isvi-cd": 1,
+      "ifsi_isvi-bj": 2,
+      "ifsi_isvi-co": 2,
+      "ifsi_isvi-ke": 1,
+      "ifsi_isvi-be": 2,
+      "ifsi_isvi-cr": 1,
+      "ifsi_isvi-id": 1
+    }
+  },
+  ".//@xml:lang": {
+    "en": {
+      "ifsi_isvi-ci": 17,
+      "ifsi_isvi-cu": 1,
+      "ifsi_isvi-89": 2,
+      "ifsi_isvi-rw": 14,
+      "ifsi_isvi-pe": 1,
+      "ifsi_isvi-998": 16,
+      "ifsi_isvi-cd": 1,
+      "ifsi_isvi-bj": 5,
+      "ifsi_isvi-co": 2,
+      "ifsi_isvi-ke": 30,
+      "ifsi_isvi-be": 12,
+      "ifsi_isvi-cr": 1,
+      "ifsi_isvi-id": 23
+    },
+    "fr": {
+      "ifsi_isvi-ci": 12,
+      "ifsi_isvi-cu": 14,
+      "ifsi_isvi-89": 3,
+      "ifsi_isvi-rw": 9,
+      "ifsi_isvi-pe": 8,
+      "ifsi_isvi-998": 44,
+      "ifsi_isvi-cd": 31,
+      "ifsi_isvi-bj": 52,
+      "ifsi_isvi-co": 39,
+      "ifsi_isvi-ke": 4,
+      "ifsi_isvi-be": 41,
+      "ifsi_isvi-cr": 36,
+      "ifsi_isvi-id": 9
+    },
+    "nl": {
+      "ifsi_isvi-ci": 3,
+      "ifsi_isvi-cu": 2,
+      "ifsi_isvi-89": 2,
+      "ifsi_isvi-rw": 3,
+      "ifsi_isvi-pe": 2,
+      "ifsi_isvi-998": 6,
+      "ifsi_isvi-bj": 1,
+      "ifsi_isvi-co": 3,
+      "ifsi_isvi-ke": 5,
+      "ifsi_isvi-be": 2,
+      "ifsi_isvi-cr": 1,
+      "ifsi_isvi-id": 4
+    },
+    "es": {
+      "ifsi_isvi-cu": 25,
+      "ifsi_isvi-pe": 24,
+      "ifsi_isvi-998": 2,
+      "ifsi_isvi-co": 24,
+      "ifsi_isvi-cr": 2
+    }
+  },
+  ".//activity-date/@type": {
+    "1": {
+      "ifsi_isvi-ci": 1,
+      "ifsi_isvi-cu": 1,
+      "ifsi_isvi-89": 1,
+      "ifsi_isvi-rw": 1,
+      "ifsi_isvi-pe": 1,
+      "ifsi_isvi-998": 2,
+      "ifsi_isvi-cd": 1,
+      "ifsi_isvi-bj": 2,
+      "ifsi_isvi-co": 2,
+      "ifsi_isvi-ke": 1,
+      "ifsi_isvi-be": 2,
+      "ifsi_isvi-cr": 1,
+      "ifsi_isvi-id": 1
+    },
+    "3": {
+      "ifsi_isvi-ci": 1,
+      "ifsi_isvi-cu": 1,
+      "ifsi_isvi-89": 1,
+      "ifsi_isvi-rw": 1,
+      "ifsi_isvi-pe": 1,
+      "ifsi_isvi-998": 2,
+      "ifsi_isvi-cd": 1,
+      "ifsi_isvi-bj": 2,
+      "ifsi_isvi-co": 2,
+      "ifsi_isvi-ke": 1,
+      "ifsi_isvi-be": 2,
+      "ifsi_isvi-cr": 1,
+      "ifsi_isvi-id": 1
+    },
+    "2": {
+      "ifsi_isvi-ci": 1,
+      "ifsi_isvi-cu": 1,
+      "ifsi_isvi-89": 1,
+      "ifsi_isvi-rw": 1,
+      "ifsi_isvi-pe": 1,
+      "ifsi_isvi-998": 2,
+      "ifsi_isvi-cd": 1,
+      "ifsi_isvi-bj": 2,
+      "ifsi_isvi-co": 2,
+      "ifsi_isvi-ke": 1,
+      "ifsi_isvi-be": 2,
+      "ifsi_isvi-cr": 1,
+      "ifsi_isvi-id": 1
+    }
+  },
+  ".//activity-status/@code": {
+    "2": {
+      "ifsi_isvi-ci": 1,
+      "ifsi_isvi-cu": 1,
+      "ifsi_isvi-89": 1,
+      "ifsi_isvi-rw": 1,
+      "ifsi_isvi-pe": 1,
+      "ifsi_isvi-998": 2,
+      "ifsi_isvi-cd": 1,
+      "ifsi_isvi-bj": 2,
+      "ifsi_isvi-co": 2,
+      "ifsi_isvi-ke": 1,
+      "ifsi_isvi-be": 2,
+      "ifsi_isvi-cr": 1,
+      "ifsi_isvi-id": 1
+    }
+  },
+  ".//budget/@status": {
+    "2": {
+      "ifsi_isvi-ci": 9,
+      "ifsi_isvi-cu": 9,
+      "ifsi_isvi-89": 9,
+      "ifsi_isvi-rw": 9,
+      "ifsi_isvi-pe": 9,
+      "ifsi_isvi-998": 18,
+      "ifsi_isvi-cd": 9,
+      "ifsi_isvi-bj": 18,
+      "ifsi_isvi-co": 18,
+      "ifsi_isvi-ke": 9,
+      "ifsi_isvi-be": 18,
+      "ifsi_isvi-cr": 9,
+      "ifsi_isvi-id": 9
+    }
+  },
+  ".//budget/@type": {
+    "1": {
+      "ifsi_isvi-ci": 5,
+      "ifsi_isvi-cu": 5,
+      "ifsi_isvi-89": 5,
+      "ifsi_isvi-rw": 5,
+      "ifsi_isvi-pe": 5,
+      "ifsi_isvi-998": 10,
+      "ifsi_isvi-cd": 5,
+      "ifsi_isvi-bj": 10,
+      "ifsi_isvi-co": 10,
+      "ifsi_isvi-ke": 5,
+      "ifsi_isvi-be": 10,
+      "ifsi_isvi-cr": 5,
+      "ifsi_isvi-id": 5
+    },
+    "2": {
+      "ifsi_isvi-ci": 4,
+      "ifsi_isvi-cu": 4,
+      "ifsi_isvi-89": 4,
+      "ifsi_isvi-rw": 4,
+      "ifsi_isvi-pe": 4,
+      "ifsi_isvi-998": 8,
+      "ifsi_isvi-cd": 4,
+      "ifsi_isvi-bj": 8,
+      "ifsi_isvi-co": 8,
+      "ifsi_isvi-ke": 4,
+      "ifsi_isvi-be": 8,
+      "ifsi_isvi-cr": 4,
+      "ifsi_isvi-id": 4
+    }
+  },
+  ".//budget/value/@currency": {
+    "EUR": {
+      "ifsi_isvi-ci": 9,
+      "ifsi_isvi-cu": 9,
+      "ifsi_isvi-89": 9,
+      "ifsi_isvi-rw": 8,
+      "ifsi_isvi-pe": 9,
+      "ifsi_isvi-998": 18,
+      "ifsi_isvi-cd": 9,
+      "ifsi_isvi-bj": 17,
+      "ifsi_isvi-co": 18,
+      "ifsi_isvi-ke": 8,
+      "ifsi_isvi-be": 18,
+      "ifsi_isvi-cr": 9,
+      "ifsi_isvi-id": 9
+    }
+  },
+  ".//collaboration-type/@code": {
+    "1": {
+      "ifsi_isvi-ci": 1,
+      "ifsi_isvi-cu": 1,
+      "ifsi_isvi-89": 1,
+      "ifsi_isvi-rw": 1,
+      "ifsi_isvi-pe": 1,
+      "ifsi_isvi-998": 2,
+      "ifsi_isvi-cd": 1,
+      "ifsi_isvi-bj": 2,
+      "ifsi_isvi-co": 2,
+      "ifsi_isvi-ke": 1,
+      "ifsi_isvi-be": 2,
+      "ifsi_isvi-cr": 1,
+      "ifsi_isvi-id": 1
+    }
+  },
+  ".//contact-info/@type": {
+    "2": {
+      "ifsi_isvi-ci": 1,
+      "ifsi_isvi-cu": 1,
+      "ifsi_isvi-rw": 1,
+      "ifsi_isvi-pe": 1,
+      "ifsi_isvi-998": 1,
+      "ifsi_isvi-cd": 1,
+      "ifsi_isvi-bj": 2,
+      "ifsi_isvi-co": 2,
+      "ifsi_isvi-ke": 1,
+      "ifsi_isvi-be": 2,
+      "ifsi_isvi-cr": 1,
+      "ifsi_isvi-id": 1
+    },
+    "1": {
+      "ifsi_isvi-89": 1,
+      "ifsi_isvi-998": 1
+    }
+  },
+  ".//default-aid-type/@vocabulary": {
+    "1": {
+      "ifsi_isvi-ci": 1,
+      "ifsi_isvi-cu": 1,
+      "ifsi_isvi-89": 1,
+      "ifsi_isvi-rw": 1,
+      "ifsi_isvi-pe": 1,
+      "ifsi_isvi-998": 2,
+      "ifsi_isvi-cd": 1,
+      "ifsi_isvi-bj": 2,
+      "ifsi_isvi-co": 2,
+      "ifsi_isvi-ke": 1,
+      "ifsi_isvi-be": 2,
+      "ifsi_isvi-cr": 1,
+      "ifsi_isvi-id": 1
+    }
+  },
+  ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "C01": {
+      "ifsi_isvi-ci": 1,
+      "ifsi_isvi-cu": 1,
+      "ifsi_isvi-rw": 1,
+      "ifsi_isvi-pe": 1,
+      "ifsi_isvi-998": 2,
+      "ifsi_isvi-cd": 1,
+      "ifsi_isvi-bj": 2,
+      "ifsi_isvi-co": 2,
+      "ifsi_isvi-ke": 1,
+      "ifsi_isvi-cr": 1,
+      "ifsi_isvi-id": 1
+    },
+    "G01": {
+      "ifsi_isvi-89": 1
+    },
+    "H01": {
+      "ifsi_isvi-be": 2
+    }
+  },
+  ".//default-finance-type/@code": {
+    "110": {
+      "ifsi_isvi-ci": 1,
+      "ifsi_isvi-cu": 1,
+      "ifsi_isvi-89": 1,
+      "ifsi_isvi-rw": 1,
+      "ifsi_isvi-pe": 1,
+      "ifsi_isvi-998": 2,
+      "ifsi_isvi-cd": 1,
+      "ifsi_isvi-bj": 2,
+      "ifsi_isvi-co": 2,
+      "ifsi_isvi-ke": 1,
+      "ifsi_isvi-be": 2,
+      "ifsi_isvi-cr": 1,
+      "ifsi_isvi-id": 1
+    }
+  },
+  ".//default-flow-type/@code": {
+    "30": {
+      "ifsi_isvi-ci": 1,
+      "ifsi_isvi-cu": 1,
+      "ifsi_isvi-89": 1,
+      "ifsi_isvi-rw": 1,
+      "ifsi_isvi-pe": 1,
+      "ifsi_isvi-998": 2,
+      "ifsi_isvi-cd": 1,
+      "ifsi_isvi-bj": 2,
+      "ifsi_isvi-co": 2,
+      "ifsi_isvi-ke": 1,
+      "ifsi_isvi-be": 2,
+      "ifsi_isvi-cr": 1,
+      "ifsi_isvi-id": 1
+    }
+  },
+  ".//default-tied-status/@code": {
+    "5": {
+      "ifsi_isvi-ci": 1,
+      "ifsi_isvi-cu": 1,
+      "ifsi_isvi-89": 1,
+      "ifsi_isvi-rw": 1,
+      "ifsi_isvi-pe": 1,
+      "ifsi_isvi-998": 2,
+      "ifsi_isvi-cd": 1,
+      "ifsi_isvi-bj": 2,
+      "ifsi_isvi-co": 2,
+      "ifsi_isvi-ke": 1,
+      "ifsi_isvi-be": 2,
+      "ifsi_isvi-cr": 1,
+      "ifsi_isvi-id": 1
+    }
+  },
+  ".//description/@type": {
+    "1": {
+      "ifsi_isvi-ci": 1,
+      "ifsi_isvi-cu": 1,
+      "ifsi_isvi-89": 1,
+      "ifsi_isvi-rw": 1,
+      "ifsi_isvi-pe": 1,
+      "ifsi_isvi-998": 2,
+      "ifsi_isvi-cd": 1,
+      "ifsi_isvi-bj": 2,
+      "ifsi_isvi-co": 2,
+      "ifsi_isvi-ke": 1,
+      "ifsi_isvi-be": 1,
+      "ifsi_isvi-cr": 1,
+      "ifsi_isvi-id": 1
+    },
+    "2": {
+      "ifsi_isvi-ci": 1,
+      "ifsi_isvi-cu": 1,
+      "ifsi_isvi-rw": 1,
+      "ifsi_isvi-pe": 1,
+      "ifsi_isvi-998": 2,
+      "ifsi_isvi-cd": 1,
+      "ifsi_isvi-bj": 2,
+      "ifsi_isvi-co": 2,
+      "ifsi_isvi-ke": 1,
+      "ifsi_isvi-be": 2,
+      "ifsi_isvi-cr": 1,
+      "ifsi_isvi-id": 1
+    },
+    "4": {
+      "ifsi_isvi-cu": 1,
+      "ifsi_isvi-pe": 1,
+      "ifsi_isvi-998": 1,
+      "ifsi_isvi-co": 1,
+      "ifsi_isvi-be": 2
+    }
+  },
+  ".//document-link/@format": {
+    "application/pdf": {
+      "ifsi_isvi-998": 13
+    }
+  },
+  ".//document-link/category/@code": {
+    "A02": {
+      "ifsi_isvi-998": 12
+    },
+    "A03": {
+      "ifsi_isvi-998": 1
+    }
+  },
+  ".//document-link/language/@code": {
+    "es": {
+      "ifsi_isvi-998": 4
+    },
+    "nl": {
+      "ifsi_isvi-998": 4
+    },
+    "fr": {
+      "ifsi_isvi-998": 5
+    }
+  },
+  ".//location/exactness/@code": {
+    "2": {
+      "ifsi_isvi-ci": 8,
+      "ifsi_isvi-cu": 1,
+      "ifsi_isvi-rw": 4,
+      "ifsi_isvi-pe": 1,
+      "ifsi_isvi-998": 1,
+      "ifsi_isvi-cd": 1,
+      "ifsi_isvi-bj": 7,
+      "ifsi_isvi-co": 6,
+      "ifsi_isvi-ke": 6,
+      "ifsi_isvi-be": 1,
+      "ifsi_isvi-cr": 1,
+      "ifsi_isvi-id": 8
+    }
+  },
+  ".//location/feature-designation/@code": {
+    "ADMD": {
+      "ifsi_isvi-ci": 1,
+      "ifsi_isvi-bj": 1
+    }
+  },
+  ".//location/location-class/@code": {
+    "1": {
+      "ifsi_isvi-ci": 8,
+      "ifsi_isvi-cu": 1,
+      "ifsi_isvi-rw": 4,
+      "ifsi_isvi-pe": 1,
+      "ifsi_isvi-998": 1,
+      "ifsi_isvi-cd": 1,
+      "ifsi_isvi-bj": 7,
+      "ifsi_isvi-co": 6,
+      "ifsi_isvi-ke": 6,
+      "ifsi_isvi-be": 1,
+      "ifsi_isvi-cr": 1,
+      "ifsi_isvi-id": 8
+    }
+  },
+  ".//location/location-reach/@code": {
+    "1": {
+      "ifsi_isvi-ci": 8,
+      "ifsi_isvi-rw": 4,
+      "ifsi_isvi-998": 1,
+      "ifsi_isvi-cd": 1,
+      "ifsi_isvi-bj": 6,
+      "ifsi_isvi-ke": 6
+    }
+  },
+  ".//other-identifier/@type": {
+    "A9": {
+      "ifsi_isvi-998": 1
+    }
+  },
+  ".//participating-org/@crs-channel-code": {
+    "20000": {
+      "ifsi_isvi-ci": 6,
+      "ifsi_isvi-cu": 6,
+      "ifsi_isvi-rw": 8,
+      "ifsi_isvi-pe": 11,
+      "ifsi_isvi-cd": 10,
+      "ifsi_isvi-bj": 25,
+      "ifsi_isvi-co": 18,
+      "ifsi_isvi-cr": 5,
+      "ifsi_isvi-id": 8
+    }
+  },
+  ".//participating-org/@role": {
+    "2": {
+      "ifsi_isvi-ci": 1,
+      "ifsi_isvi-cu": 2,
+      "ifsi_isvi-89": 1,
+      "ifsi_isvi-rw": 1,
+      "ifsi_isvi-pe": 2,
+      "ifsi_isvi-998": 4,
+      "ifsi_isvi-cd": 1,
+      "ifsi_isvi-bj": 2,
+      "ifsi_isvi-co": 4,
+      "ifsi_isvi-ke": 1,
+      "ifsi_isvi-be": 6,
+      "ifsi_isvi-cr": 1,
+      "ifsi_isvi-id": 1
+    },
+    "4": {
+      "ifsi_isvi-ci": 4,
+      "ifsi_isvi-cu": 2,
+      "ifsi_isvi-rw": 5,
+      "ifsi_isvi-pe": 7,
+      "ifsi_isvi-998": 48,
+      "ifsi_isvi-cd": 7,
+      "ifsi_isvi-bj": 25,
+      "ifsi_isvi-co": 10,
+      "ifsi_isvi-ke": 5,
+      "ifsi_isvi-be": 22,
+      "ifsi_isvi-cr": 2,
+      "ifsi_isvi-id": 5
+    },
+    "1": {
+      "ifsi_isvi-ci": 3,
+      "ifsi_isvi-cu": 3,
+      "ifsi_isvi-89": 1,
+      "ifsi_isvi-rw": 3,
+      "ifsi_isvi-pe": 3,
+      "ifsi_isvi-998": 6,
+      "ifsi_isvi-cd": 3,
+      "ifsi_isvi-bj": 6,
+      "ifsi_isvi-co": 6,
+      "ifsi_isvi-ke": 3,
+      "ifsi_isvi-be": 6,
+      "ifsi_isvi-cr": 3,
+      "ifsi_isvi-id": 3
+    }
+  },
+  ".//participating-org/@type": {
+    "22": {
+      "ifsi_isvi-ci": 4,
+      "ifsi_isvi-cu": 5,
+      "ifsi_isvi-89": 1,
+      "ifsi_isvi-rw": 4,
+      "ifsi_isvi-pe": 5,
+      "ifsi_isvi-998": 21,
+      "ifsi_isvi-cd": 4,
+      "ifsi_isvi-bj": 8,
+      "ifsi_isvi-co": 10,
+      "ifsi_isvi-ke": 4,
+      "ifsi_isvi-be": 32,
+      "ifsi_isvi-cr": 4,
+      "ifsi_isvi-id": 4
+    },
+    "10": {
+      "ifsi_isvi-ci": 1,
+      "ifsi_isvi-cu": 1,
+      "ifsi_isvi-89": 1,
+      "ifsi_isvi-rw": 1,
+      "ifsi_isvi-pe": 1,
+      "ifsi_isvi-998": 2,
+      "ifsi_isvi-cd": 1,
+      "ifsi_isvi-bj": 2,
+      "ifsi_isvi-co": 2,
+      "ifsi_isvi-ke": 1,
+      "ifsi_isvi-be": 2,
+      "ifsi_isvi-cr": 1,
+      "ifsi_isvi-id": 1
+    },
+    "23": {
+      "ifsi_isvi-ci": 3,
+      "ifsi_isvi-cu": 1,
+      "ifsi_isvi-rw": 4,
+      "ifsi_isvi-pe": 6,
+      "ifsi_isvi-998": 35,
+      "ifsi_isvi-cd": 6,
+      "ifsi_isvi-bj": 23,
+      "ifsi_isvi-co": 8,
+      "ifsi_isvi-ke": 4,
+      "ifsi_isvi-cr": 1,
+      "ifsi_isvi-id": 4
+    }
+  },
+  ".//planned-disbursement/@type": {
+    "1": {
+      "ifsi_isvi-ci": 1
+    }
+  },
+  ".//planned-disbursement/value/@currency": {
+    "EUR": {
+      "ifsi_isvi-ci": 1
+    }
+  },
+  ".//policy-marker/@significance": {
+    "4": {
+      "ifsi_isvi-ci": 3,
+      "ifsi_isvi-cu": 4,
+      "ifsi_isvi-rw": 2,
+      "ifsi_isvi-pe": 4,
+      "ifsi_isvi-998": 2,
+      "ifsi_isvi-cd": 5,
+      "ifsi_isvi-bj": 5,
+      "ifsi_isvi-co": 5,
+      "ifsi_isvi-ke": 4,
+      "ifsi_isvi-be": 6,
+      "ifsi_isvi-cr": 2,
+      "ifsi_isvi-id": 2
+    }
+  },
+  ".//policy-marker/@vocabulary": {
+    "1": {
+      "ifsi_isvi-ci": 2,
+      "ifsi_isvi-rw": 2,
+      "ifsi_isvi-cd": 5
+    }
+  },
+  ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "1": {
+      "ifsi_isvi-ci": 1,
+      "ifsi_isvi-cu": 1,
+      "ifsi_isvi-rw": 1,
+      "ifsi_isvi-pe": 1,
+      "ifsi_isvi-998": 1,
+      "ifsi_isvi-cd": 1,
+      "ifsi_isvi-bj": 2,
+      "ifsi_isvi-co": 2,
+      "ifsi_isvi-ke": 1,
+      "ifsi_isvi-be": 2,
+      "ifsi_isvi-cr": 1,
+      "ifsi_isvi-id": 1
+    },
+    "3": {
+      "ifsi_isvi-ci": 1,
+      "ifsi_isvi-cu": 1,
+      "ifsi_isvi-pe": 1,
+      "ifsi_isvi-998": 1,
+      "ifsi_isvi-cd": 1,
+      "ifsi_isvi-bj": 2,
+      "ifsi_isvi-co": 2,
+      "ifsi_isvi-ke": 1,
+      "ifsi_isvi-be": 2,
+      "ifsi_isvi-cr": 1,
+      "ifsi_isvi-id": 1
+    },
+    "9": {
+      "ifsi_isvi-ci": 1,
+      "ifsi_isvi-cu": 1,
+      "ifsi_isvi-pe": 1,
+      "ifsi_isvi-cd": 1,
+      "ifsi_isvi-ke": 1
+    },
+    "2": {
+      "ifsi_isvi-cu": 1,
+      "ifsi_isvi-rw": 1,
+      "ifsi_isvi-pe": 1,
+      "ifsi_isvi-cd": 1,
+      "ifsi_isvi-bj": 1,
+      "ifsi_isvi-co": 1,
+      "ifsi_isvi-ke": 1,
+      "ifsi_isvi-be": 2
+    },
+    "4": {
+      "ifsi_isvi-cd": 1
+    }
+  },
+  ".//recipient-country/@code": {
+    "CI": {
+      "ifsi_isvi-ci": 1,
+      "ifsi_isvi-bj": 1
+    },
+    "CU": {
+      "ifsi_isvi-cu": 1,
+      "ifsi_isvi-co": 1
+    },
+    "RW": {
+      "ifsi_isvi-rw": 1,
+      "ifsi_isvi-bj": 1
+    },
+    "PE": {
+      "ifsi_isvi-pe": 1,
+      "ifsi_isvi-co": 1
+    },
+    "CD": {
+      "ifsi_isvi-cd": 1,
+      "ifsi_isvi-bj": 1
+    },
+    "BJ": {
+      "ifsi_isvi-bj": 2
+    },
+    "KE": {
+      "ifsi_isvi-bj": 1,
+      "ifsi_isvi-ke": 1
+    },
+    "CO": {
+      "ifsi_isvi-co": 2
+    },
+    "CR": {
+      "ifsi_isvi-co": 1,
+      "ifsi_isvi-cr": 1
+    },
+    "BE": {
+      "ifsi_isvi-be": 2
+    },
+    "ID": {
+      "ifsi_isvi-id": 1
+    }
+  },
+  ".//recipient-region/@vocabulary": {
+    "1": {
+      "ifsi_isvi-89": 1,
+      "ifsi_isvi-998": 3
+    }
+  },
+  ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "89": {
+      "ifsi_isvi-89": 1,
+      "ifsi_isvi-998": 1
+    },
+    "998": {
+      "ifsi_isvi-998": 2
+    }
+  },
+  ".//related-activity/@type": {
+    "1": {
+      "ifsi_isvi-ci": 1,
+      "ifsi_isvi-cu": 1,
+      "ifsi_isvi-89": 1,
+      "ifsi_isvi-rw": 1,
+      "ifsi_isvi-pe": 1,
+      "ifsi_isvi-998": 1,
+      "ifsi_isvi-cd": 1,
+      "ifsi_isvi-bj": 2,
+      "ifsi_isvi-co": 2,
+      "ifsi_isvi-ke": 1,
+      "ifsi_isvi-be": 2,
+      "ifsi_isvi-cr": 1,
+      "ifsi_isvi-id": 1
+    },
+    "2": {
+      "ifsi_isvi-998": 15
+    }
+  },
+  ".//reporting-org/@type": {
+    "22": {
+      "ifsi_isvi-ci": 1,
+      "ifsi_isvi-cu": 1,
+      "ifsi_isvi-89": 1,
+      "ifsi_isvi-rw": 1,
+      "ifsi_isvi-pe": 1,
+      "ifsi_isvi-998": 2,
+      "ifsi_isvi-cd": 1,
+      "ifsi_isvi-bj": 2,
+      "ifsi_isvi-co": 2,
+      "ifsi_isvi-ke": 1,
+      "ifsi_isvi-be": 2,
+      "ifsi_isvi-cr": 1,
+      "ifsi_isvi-id": 1
+    }
+  },
+  ".//result/@type": {
+    "2": {
+      "ifsi_isvi-ci": 1,
+      "ifsi_isvi-cu": 1,
+      "ifsi_isvi-rw": 1,
+      "ifsi_isvi-pe": 1,
+      "ifsi_isvi-998": 1,
+      "ifsi_isvi-cd": 1,
+      "ifsi_isvi-bj": 2,
+      "ifsi_isvi-co": 2,
+      "ifsi_isvi-ke": 1,
+      "ifsi_isvi-be": 2,
+      "ifsi_isvi-cr": 1,
+      "ifsi_isvi-id": 1
+    }
+  },
+  ".//result/indicator/@measure": {
+    "1": {
+      "ifsi_isvi-ci": 2,
+      "ifsi_isvi-cu": 1,
+      "ifsi_isvi-rw": 1,
+      "ifsi_isvi-pe": 3,
+      "ifsi_isvi-998": 2,
+      "ifsi_isvi-cd": 2,
+      "ifsi_isvi-bj": 3,
+      "ifsi_isvi-co": 4,
+      "ifsi_isvi-ke": 2,
+      "ifsi_isvi-be": 4,
+      "ifsi_isvi-cr": 2,
+      "ifsi_isvi-id": 3
+    },
+    "2": {
+      "ifsi_isvi-ci": 1,
+      "ifsi_isvi-cu": 3,
+      "ifsi_isvi-rw": 1,
+      "ifsi_isvi-pe": 1,
+      "ifsi_isvi-co": 1,
+      "ifsi_isvi-cr": 2
+    },
+    "3": {
+      "ifsi_isvi-bj": 1
+    }
+  },
+  ".//sector/@vocabulary": {
+    "1": {
+      "ifsi_isvi-ci": 1,
+      "ifsi_isvi-cu": 1,
+      "ifsi_isvi-89": 1,
+      "ifsi_isvi-rw": 1,
+      "ifsi_isvi-pe": 1,
+      "ifsi_isvi-998": 2,
+      "ifsi_isvi-cd": 1,
+      "ifsi_isvi-bj": 2,
+      "ifsi_isvi-co": 2,
+      "ifsi_isvi-ke": 1,
+      "ifsi_isvi-be": 2,
+      "ifsi_isvi-cr": 1,
+      "ifsi_isvi-id": 1
+    }
+  },
+  ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "15150": {
+      "ifsi_isvi-ci": 1,
+      "ifsi_isvi-cu": 1,
+      "ifsi_isvi-rw": 1,
+      "ifsi_isvi-pe": 1,
+      "ifsi_isvi-998": 2,
+      "ifsi_isvi-cd": 1,
+      "ifsi_isvi-bj": 2,
+      "ifsi_isvi-co": 2,
+      "ifsi_isvi-ke": 1,
+      "ifsi_isvi-be": 2,
+      "ifsi_isvi-cr": 1,
+      "ifsi_isvi-id": 1
+    },
+    "91010": {
+      "ifsi_isvi-89": 1
+    }
+  },
+  ".//transaction/provider-org/@type": {
+    "22": {
+      "ifsi_isvi-ci": 7,
+      "ifsi_isvi-cu": 7,
+      "ifsi_isvi-rw": 9,
+      "ifsi_isvi-pe": 8,
+      "ifsi_isvi-998": 16,
+      "ifsi_isvi-cd": 6,
+      "ifsi_isvi-bj": 14,
+      "ifsi_isvi-co": 14,
+      "ifsi_isvi-ke": 10,
+      "ifsi_isvi-be": 12,
+      "ifsi_isvi-cr": 6,
+      "ifsi_isvi-id": 7
+    },
+    "10": {
+      "ifsi_isvi-998": 9
+    },
+    "23": {
+      "ifsi_isvi-cd": 1
+    }
+  },
+  ".//transaction/receiver-org/@type": {
+    "23": {
+      "ifsi_isvi-ci": 2,
+      "ifsi_isvi-cu": 2,
+      "ifsi_isvi-rw": 4,
+      "ifsi_isvi-pe": 4,
+      "ifsi_isvi-998": 1,
+      "ifsi_isvi-cd": 1,
+      "ifsi_isvi-bj": 4,
+      "ifsi_isvi-co": 4,
+      "ifsi_isvi-ke": 6,
+      "ifsi_isvi-cr": 1,
+      "ifsi_isvi-id": 2
+    },
+    "22": {
+      "ifsi_isvi-998": 18,
+      "ifsi_isvi-cr": 1
+    },
+    "90": {
+      "ifsi_isvi-998": 1
+    },
+    "24": {
+      "ifsi_isvi-bj": 1
+    }
+  },
+  ".//transaction/transaction-type/@code": {
+    "2": {
+      "ifsi_isvi-ci": 5,
+      "ifsi_isvi-cu": 5,
+      "ifsi_isvi-rw": 6,
+      "ifsi_isvi-pe": 6,
+      "ifsi_isvi-998": 5,
+      "ifsi_isvi-cd": 5,
+      "ifsi_isvi-bj": 10,
+      "ifsi_isvi-co": 10,
+      "ifsi_isvi-ke": 7,
+      "ifsi_isvi-be": 10,
+      "ifsi_isvi-cr": 5,
+      "ifsi_isvi-id": 5
+    },
+    "4": {
+      "ifsi_isvi-ci": 1,
+      "ifsi_isvi-cu": 1,
+      "ifsi_isvi-rw": 2,
+      "ifsi_isvi-pe": 1,
+      "ifsi_isvi-998": 1,
+      "ifsi_isvi-cd": 1,
+      "ifsi_isvi-bj": 2,
+      "ifsi_isvi-co": 2,
+      "ifsi_isvi-ke": 1,
+      "ifsi_isvi-be": 2,
+      "ifsi_isvi-cr": 1,
+      "ifsi_isvi-id": 1
+    },
+    "3": {
+      "ifsi_isvi-ci": 1,
+      "ifsi_isvi-cu": 1,
+      "ifsi_isvi-rw": 2,
+      "ifsi_isvi-pe": 2,
+      "ifsi_isvi-998": 1,
+      "ifsi_isvi-cd": 1,
+      "ifsi_isvi-bj": 2,
+      "ifsi_isvi-co": 2,
+      "ifsi_isvi-ke": 3,
+      "ifsi_isvi-cr": 1,
+      "ifsi_isvi-id": 1
+    },
+    "11": {
+      "ifsi_isvi-998": 18
+    }
+  },
+  ".//transaction/value/@currency": {
+    "EUR": {
+      "ifsi_isvi-ci": 7,
+      "ifsi_isvi-cu": 7,
+      "ifsi_isvi-rw": 10,
+      "ifsi_isvi-pe": 9,
+      "ifsi_isvi-998": 25,
+      "ifsi_isvi-cd": 7,
+      "ifsi_isvi-bj": 14,
+      "ifsi_isvi-co": 14,
+      "ifsi_isvi-ke": 11,
+      "ifsi_isvi-be": 12,
+      "ifsi_isvi-cr": 7,
+      "ifsi_isvi-id": 7
+    }
+  }
+}

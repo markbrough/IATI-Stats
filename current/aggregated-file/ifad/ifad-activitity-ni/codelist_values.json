@@ -1,0 +1,101 @@
+{
+  ".//@default-currency": {
+    "USD": 10
+  },
+  ".//@xml:lang": {
+    "en": 10
+  },
+  ".//activity-date/@type": {
+    "2": 10,
+    "4": 7,
+    "3": 3
+  },
+  ".//activity-status/@code": {
+    "4": 7,
+    "2": 2,
+    "3": 1
+  },
+  ".//collaboration-type/@code": {
+    "2": 10
+  },
+  ".//contact-info/@type": {
+    "1": 10
+  },
+  ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "C01": 10
+  },
+  ".//default-tied-status/@code": {
+    "5": 10
+  },
+  ".//document-link/@format": {
+    "text/html": 20,
+    "application/pdf": 28,
+    "text/plain": 2
+  },
+  ".//document-link/category/@code": {
+    "A12": 20,
+    "A05": 2,
+    "A02": 23,
+    "A07": 28,
+    "A08": 28,
+    "A01": 2,
+    "A03": 1,
+    "A04": 1,
+    "A06": 1
+  },
+  ".//document-link/language/@code": {
+    "en": 50
+  },
+  ".//location/exactness/@code": {
+    "1": 10
+  },
+  ".//location/location-reach/@code": {
+    "1": 10
+  },
+  ".//other-identifier/@type": {
+    "A1": 10
+  },
+  ".//participating-org/@role": {
+    "1": 10
+  },
+  ".//participating-org/@type": {
+    "40": 10
+  },
+  ".//recipient-country/@code": {
+    "NI": 10
+  },
+  ".//reporting-org/@type": {
+    "40": 10
+  },
+  ".//sector/@vocabulary": {
+    "2": 10
+  },
+  ".//sector[@vocabulary = '2']/@code": {
+    "311": 6,
+    "430": 4
+  },
+  ".//transaction/aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "C01": 496
+  },
+  ".//transaction/disbursement-channel/@code": {
+    "1": 496
+  },
+  ".//transaction/finance-type/@code": {
+    "110": 133,
+    "421": 363
+  },
+  ".//transaction/flow-type/@code": {
+    "20": 496
+  },
+  ".//transaction/provider-org/@type": {
+    "40": 496
+  },
+  ".//transaction/transaction-type/@code": {
+    "2": 20,
+    "3": 476
+  },
+  ".//transaction/value/@currency": {
+    "XDR": 491,
+    "USD": 5
+  }
+}

@@ -1,0 +1,214 @@
+{
+  "1": {
+    ".//@default-currency": {
+      "interburns-bd": {
+        "GBP": 1
+      }
+    },
+    ".//activity-date/@type": {
+      "interburns-bd": {
+        "start-actual": 1,
+        "end-planned": 1
+      }
+    },
+    ".//activity-status/@code": {
+      "interburns-bd": {
+        "2": 1
+      }
+    },
+    ".//budget/@type": {
+      "interburns-bd": {
+        "1": 1
+      }
+    },
+    ".//description/@type": {
+      "interburns-bd": {
+        "1": 1
+      }
+    },
+    ".//document-link/@format": {
+      "interburns-bd": {
+        "application/pdf": 1
+      }
+    },
+    ".//document-link/category/@code": {
+      "interburns-bd": {
+        "A02": 1
+      }
+    },
+    ".//participating-org/@role": {
+      "interburns-bd": {
+        "Implementing": 2
+      }
+    },
+    ".//participating-org/@type": {
+      "interburns-bd": {
+        "21": 1,
+        "22": 1
+      }
+    },
+    ".//recipient-country/@code": {
+      "interburns-bd": {
+        "BD": 1,
+        "NP": 1
+      }
+    },
+    ".//reporting-org/@type": {
+      "interburns-bd": {
+        "21": 1
+      }
+    },
+    ".//sector[@vocabulary = 'DAC' or not(@vocabulary)]/@code": {
+      "interburns-bd": {
+        "13": 1
+      }
+    },
+    ".//transaction/transaction-type/@code": {
+      "interburns-bd": {
+        "C": 1,
+        "D": 3,
+        "E": 5,
+        "IF": 6
+      }
+    },
+    ".//@xml:lang": {
+      "interburns-bd": {
+        "en": 2
+      }
+    }
+  },
+  "2": {
+    ".//@default-currency": {
+      "interburns-activities": {
+        "GBP": 2
+      }
+    },
+    ".//activity-date/@type": {
+      "interburns-activities": {
+        "2": 2,
+        "3": 2
+      }
+    },
+    ".//activity-status/@code": {
+      "interburns-activities": {
+        "3": 1,
+        "2": 1
+      }
+    },
+    ".//budget/@status": {
+      "interburns-activities": {
+        "1": 4
+      }
+    },
+    ".//budget/@type": {
+      "interburns-activities": {
+        "1": 1,
+        "2": 3
+      }
+    },
+    ".//budget/value/@currency": {
+      "interburns-activities": {
+        "GBP": 3
+      }
+    },
+    ".//contact-info/@type": {
+      "interburns-activities": {
+        "1": 1
+      }
+    },
+    ".//description/@type": {
+      "interburns-activities": {
+        "1": 2
+      }
+    },
+    ".//document-link/@format": {
+      "interburns-activities": {
+        "application/pdf": 2,
+        "text/html": 1
+      }
+    },
+    ".//document-link/category/@code": {
+      "interburns-activities": {
+        "A02": 1,
+        "A12": 2
+      }
+    },
+    ".//document-link/language/@code": {
+      "interburns-activities": {
+        "en": 3
+      }
+    },
+    ".//participating-org/@role": {
+      "interburns-activities": {
+        "4": 5,
+        "1": 1,
+        "2": 1
+      }
+    },
+    ".//participating-org/@type": {
+      "interburns-activities": {
+        "21": 4,
+        "22": 2,
+        "10": 1
+      }
+    },
+    ".//recipient-country/@code": {
+      "interburns-activities": {
+        "BD": 2,
+        "NP": 2
+      }
+    },
+    ".//reporting-org/@type": {
+      "interburns-activities": {
+        "21": 2
+      }
+    },
+    ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "interburns-activities": {
+        "12181": 2,
+        "12110": 1,
+        "12220": 1
+      }
+    },
+    ".//sector/@vocabulary": {
+      "interburns-activities": {
+        "1": 4
+      }
+    },
+    ".//transaction/disbursement-channel/@code": {
+      "interburns-activities": {
+        "2": 2,
+        "3": 1
+      }
+    },
+    ".//transaction/provider-org/@type": {
+      "interburns-activities": {
+        "10": 3,
+        "21": 1
+      }
+    },
+    ".//transaction/receiver-org/@type": {
+      "interburns-activities": {
+        "21": 3
+      }
+    },
+    ".//transaction/transaction-type/@code": {
+      "interburns-activities": {
+        "1": 17,
+        "2": 2,
+        "3": 6,
+        "4": 18
+      }
+    },
+    ".//transaction/value/@currency": {
+      "interburns-activities": {
+        "GBP": 14
+      }
+    },
+    ".//@xml:lang": {
+      "interburns-activities": {
+        "en": 13
+      }
+    }
+  }
+}

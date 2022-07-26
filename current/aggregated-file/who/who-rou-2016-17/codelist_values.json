@@ -1,0 +1,114 @@
+{
+  ".//@default-currency": {
+    "USD": 25
+  },
+  ".//@xml:lang": {
+    "en": 750
+  },
+  ".//activity-date/@type": {
+    "1": 25,
+    "2": 25,
+    "3": 25,
+    "4": 25
+  },
+  ".//activity-status/@code": {
+    "2": 25
+  },
+  ".//budget/@status": {
+    "2": 25
+  },
+  ".//budget/@type": {
+    "1": 25
+  },
+  ".//budget/value/@currency": {
+    "USD": 25
+  },
+  ".//collaboration-type/@code": {
+    "4": 25
+  },
+  ".//country-budget-items/@vocabulary": {
+    "1": 25
+  },
+  ".//country-budget-items/budget-item[../@vocabulary = '1']/@code": {
+    "5.1.1": 25
+  },
+  ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "B03": 25
+  },
+  ".//default-finance-type/@code": {
+    "110": 25
+  },
+  ".//default-flow-type/@code": {
+    "10": 25
+  },
+  ".//default-tied-status/@code": {
+    "5": 25
+  },
+  ".//description/@type": {
+    "1": 25,
+    "2": 25
+  },
+  ".//participating-org/@role": {
+    "1": 30,
+    "2": 25,
+    "3": 25,
+    "4": 25
+  },
+  ".//participating-org/@type": {
+    "70": 27,
+    "40": 75,
+    "10": 3
+  },
+  ".//recipient-country/@code": {
+    "RO": 25
+  },
+  ".//reporting-org/@type": {
+    "40": 25
+  },
+  ".//sector/@vocabulary": {
+    "1": 80
+  },
+  ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "13040": 4,
+    "12263": 7,
+    "12250": 10,
+    "12191": 6,
+    "12110": 24,
+    "12240": 8,
+    "13020": 8,
+    "12281": 6,
+    "12182": 5,
+    "74010": 2
+  },
+  ".//transaction/flow-type/@code": {
+    "20": 16,
+    "10": 51,
+    "30": 10,
+    "40": 3
+  },
+  ".//transaction/sector/@vocabulary": {
+    "1": 80
+  },
+  ".//transaction/sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "13040": 4,
+    "12263": 7,
+    "12250": 10,
+    "12191": 6,
+    "12110": 24,
+    "12240": 8,
+    "13020": 8,
+    "12281": 6,
+    "12182": 5,
+    "74010": 2
+  },
+  ".//transaction/tied-status/@code": {
+    "5": 80
+  },
+  ".//transaction/transaction-type/@code": {
+    "2": 30,
+    "4": 50
+  },
+  ".//transaction/value/@currency": {
+    "USD": 80
+  }
+}
