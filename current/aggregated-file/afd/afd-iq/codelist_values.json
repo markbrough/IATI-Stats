@@ -1,0 +1,78 @@
+{
+  ".//@default-currency": {
+    "EUR": 4
+  },
+  ".//@xml:lang": {
+    "fr": 40
+  },
+  ".//activity-date/@type": {
+    "1": 4,
+    "2": 4
+  },
+  ".//activity-status/@code": {
+    "2": 4
+  },
+  ".//budget/@status": {
+    "1": 4
+  },
+  ".//budget/@type": {
+    "1": 4
+  },
+  ".//budget/value/@currency": {
+    "EUR": 4
+  },
+  ".//collaboration-type/@code": {
+    "1": 2
+  },
+  ".//default-aid-type/@vocabulary": {
+    "1": 2
+  },
+  ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "C01": 2
+  },
+  ".//default-finance-type/@code": {
+    "110": 2
+  },
+  ".//default-flow-type/@code": {
+    "10": 2
+  },
+  ".//default-tied-status/@code": {
+    "5": 2
+  },
+  ".//document-link/@format": {
+    "text/html": 2
+  },
+  ".//document-link/category/@code": {
+    "A02": 2
+  },
+  ".//participating-org/@role": {
+    "1": 4,
+    "3": 2,
+    "4": 2
+  },
+  ".//participating-org/@type": {
+    "10": 6
+  },
+  ".//recipient-country/@code": {
+    "IQ": 2
+  },
+  ".//related-activity/@type": {
+    "2": 2,
+    "1": 2
+  },
+  ".//reporting-org/@type": {
+    "10": 4
+  },
+  ".//sector/@vocabulary": {
+    "1": 4,
+    "99": 4
+  },
+  ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "14021": 2,
+    "43010": 2
+  },
+  ".//transaction/transaction-type/@code": {
+    "2": 2,
+    "3": 6
+  }
+}

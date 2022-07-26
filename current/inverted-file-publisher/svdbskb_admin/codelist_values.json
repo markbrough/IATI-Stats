@@ -1,0 +1,365 @@
+{
+  ".//@default-currency": {
+    "EUR": {
+      "svdbskb_admin-cd": 2,
+      "svdbskb_admin-bi": 1,
+      "svdbskb_admin-be": 1
+    }
+  },
+  ".//@xml:lang": {
+    "fr": {
+      "svdbskb_admin-cd": 5,
+      "svdbskb_admin-bi": 2,
+      "svdbskb_admin-be": 3
+    },
+    "en": {
+      "svdbskb_admin-cd": 2,
+      "svdbskb_admin-bi": 1,
+      "svdbskb_admin-be": 1
+    }
+  },
+  ".//activity-date/@type": {
+    "1": {
+      "svdbskb_admin-cd": 2,
+      "svdbskb_admin-bi": 1,
+      "svdbskb_admin-be": 1
+    },
+    "2": {
+      "svdbskb_admin-cd": 2,
+      "svdbskb_admin-bi": 1,
+      "svdbskb_admin-be": 1
+    },
+    "3": {
+      "svdbskb_admin-cd": 2,
+      "svdbskb_admin-bi": 1,
+      "svdbskb_admin-be": 1
+    }
+  },
+  ".//activity-scope/@code": {
+    "4": {
+      "svdbskb_admin-be": 1
+    }
+  },
+  ".//activity-status/@code": {
+    "2": {
+      "svdbskb_admin-cd": 2,
+      "svdbskb_admin-bi": 1,
+      "svdbskb_admin-be": 1
+    }
+  },
+  ".//budget/@status": {
+    "2": {
+      "svdbskb_admin-cd": 10,
+      "svdbskb_admin-bi": 5,
+      "svdbskb_admin-be": 5
+    }
+  },
+  ".//budget/@type": {
+    "1": {
+      "svdbskb_admin-cd": 10,
+      "svdbskb_admin-bi": 5,
+      "svdbskb_admin-be": 5
+    }
+  },
+  ".//budget/value/@currency": {
+    "EUR": {
+      "svdbskb_admin-cd": 5,
+      "svdbskb_admin-be": 5
+    }
+  },
+  ".//collaboration-type/@code": {
+    "1": {
+      "svdbskb_admin-cd": 2,
+      "svdbskb_admin-bi": 1,
+      "svdbskb_admin-be": 1
+    }
+  },
+  ".//contact-info/@type": {
+    "1": {
+      "svdbskb_admin-cd": 2,
+      "svdbskb_admin-bi": 1,
+      "svdbskb_admin-be": 1
+    }
+  },
+  ".//default-aid-type/@vocabulary": {
+    "1": {
+      "svdbskb_admin-cd": 2,
+      "svdbskb_admin-bi": 1,
+      "svdbskb_admin-be": 1
+    }
+  },
+  ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "C01": {
+      "svdbskb_admin-cd": 2,
+      "svdbskb_admin-bi": 1
+    },
+    "G01": {
+      "svdbskb_admin-be": 1
+    }
+  },
+  ".//default-finance-type/@code": {
+    "110": {
+      "svdbskb_admin-cd": 2,
+      "svdbskb_admin-bi": 1,
+      "svdbskb_admin-be": 1
+    }
+  },
+  ".//default-flow-type/@code": {
+    "30": {
+      "svdbskb_admin-cd": 2,
+      "svdbskb_admin-bi": 1,
+      "svdbskb_admin-be": 1
+    }
+  },
+  ".//default-tied-status/@code": {
+    "5": {
+      "svdbskb_admin-cd": 2,
+      "svdbskb_admin-bi": 1,
+      "svdbskb_admin-be": 1
+    }
+  },
+  ".//description/@type": {
+    "1": {
+      "svdbskb_admin-cd": 1,
+      "svdbskb_admin-be": 1
+    },
+    "2": {
+      "svdbskb_admin-cd": 1,
+      "svdbskb_admin-bi": 1
+    }
+  },
+  ".//document-link/@format": {
+    "application/pdf": {
+      "svdbskb_admin-cd": 1
+    }
+  },
+  ".//document-link/category/@code": {
+    "A02": {
+      "svdbskb_admin-cd": 1
+    }
+  },
+  ".//location/exactness/@code": {
+    "2": {
+      "svdbskb_admin-cd": 3,
+      "svdbskb_admin-bi": 3
+    }
+  },
+  ".//location/location-class/@code": {
+    "2": {
+      "svdbskb_admin-cd": 3,
+      "svdbskb_admin-bi": 3
+    }
+  },
+  ".//location/location-reach/@code": {
+    "1": {
+      "svdbskb_admin-cd": 3,
+      "svdbskb_admin-bi": 3
+    }
+  },
+  ".//other-identifier/@type": {
+    "A9": {
+      "svdbskb_admin-cd": 1
+    }
+  },
+  ".//participating-org/@role": {
+    "2": {
+      "svdbskb_admin-cd": 2,
+      "svdbskb_admin-bi": 1,
+      "svdbskb_admin-be": 1
+    },
+    "4": {
+      "svdbskb_admin-cd": 3,
+      "svdbskb_admin-bi": 2,
+      "svdbskb_admin-be": 1
+    },
+    "1": {
+      "svdbskb_admin-cd": 4,
+      "svdbskb_admin-bi": 2,
+      "svdbskb_admin-be": 1
+    }
+  },
+  ".//participating-org/@type": {
+    "22": {
+      "svdbskb_admin-cd": 6,
+      "svdbskb_admin-bi": 3,
+      "svdbskb_admin-be": 2
+    },
+    "10": {
+      "svdbskb_admin-cd": 2,
+      "svdbskb_admin-bi": 1,
+      "svdbskb_admin-be": 1
+    },
+    "24": {
+      "svdbskb_admin-cd": 1,
+      "svdbskb_admin-bi": 1
+    }
+  },
+  ".//policy-marker/@significance": {
+    "1": {
+      "svdbskb_admin-cd": 3,
+      "svdbskb_admin-bi": 3
+    },
+    "0": {
+      "svdbskb_admin-cd": 6,
+      "svdbskb_admin-bi": 6
+    }
+  },
+  ".//policy-marker/@vocabulary": {
+    "1": {
+      "svdbskb_admin-cd": 9,
+      "svdbskb_admin-bi": 9
+    }
+  },
+  ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "1": {
+      "svdbskb_admin-cd": 1,
+      "svdbskb_admin-bi": 1
+    },
+    "2": {
+      "svdbskb_admin-cd": 1,
+      "svdbskb_admin-bi": 1
+    },
+    "3": {
+      "svdbskb_admin-cd": 1,
+      "svdbskb_admin-bi": 1
+    },
+    "4": {
+      "svdbskb_admin-cd": 1,
+      "svdbskb_admin-bi": 1
+    },
+    "9": {
+      "svdbskb_admin-cd": 1,
+      "svdbskb_admin-bi": 1
+    },
+    "5": {
+      "svdbskb_admin-cd": 1,
+      "svdbskb_admin-bi": 1
+    },
+    "6": {
+      "svdbskb_admin-cd": 1,
+      "svdbskb_admin-bi": 1
+    },
+    "7": {
+      "svdbskb_admin-cd": 1,
+      "svdbskb_admin-bi": 1
+    },
+    "8": {
+      "svdbskb_admin-cd": 1,
+      "svdbskb_admin-bi": 1
+    }
+  },
+  ".//recipient-country/@code": {
+    "BI": {
+      "svdbskb_admin-cd": 1,
+      "svdbskb_admin-bi": 1
+    },
+    "CD": {
+      "svdbskb_admin-cd": 2
+    },
+    "BE": {
+      "svdbskb_admin-be": 1
+    }
+  },
+  ".//related-activity/@type": {
+    "2": {
+      "svdbskb_admin-cd": 3
+    },
+    "1": {
+      "svdbskb_admin-cd": 1,
+      "svdbskb_admin-bi": 1,
+      "svdbskb_admin-be": 1
+    }
+  },
+  ".//reporting-org/@type": {
+    "22": {
+      "svdbskb_admin-cd": 2,
+      "svdbskb_admin-bi": 1,
+      "svdbskb_admin-be": 1
+    }
+  },
+  ".//result/@type": {
+    "2": {
+      "svdbskb_admin-cd": 1,
+      "svdbskb_admin-bi": 1
+    }
+  },
+  ".//result/indicator/@measure": {
+    "1": {
+      "svdbskb_admin-cd": 2,
+      "svdbskb_admin-bi": 1
+    },
+    "2": {
+      "svdbskb_admin-cd": 1,
+      "svdbskb_admin-bi": 2
+    }
+  },
+  ".//sector/@vocabulary": {
+    "1": {
+      "svdbskb_admin-cd": 3,
+      "svdbskb_admin-bi": 1,
+      "svdbskb_admin-be": 1
+    }
+  },
+  ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "16010": {
+      "svdbskb_admin-cd": 1,
+      "svdbskb_admin-bi": 1
+    },
+    "15162": {
+      "svdbskb_admin-cd": 1
+    },
+    "15160": {
+      "svdbskb_admin-cd": 1
+    },
+    "91010": {
+      "svdbskb_admin-be": 1
+    }
+  },
+  ".//transaction/provider-org/@type": {
+    "22": {
+      "svdbskb_admin-cd": 2,
+      "svdbskb_admin-bi": 4,
+      "svdbskb_admin-be": 1
+    },
+    "10": {
+      "svdbskb_admin-cd": 3
+    }
+  },
+  ".//transaction/receiver-org/@type": {
+    "22": {
+      "svdbskb_admin-cd": 5,
+      "svdbskb_admin-bi": 1,
+      "svdbskb_admin-be": 1
+    },
+    "24": {
+      "svdbskb_admin-bi": 2
+    }
+  },
+  ".//transaction/transaction-type/@code": {
+    "11": {
+      "svdbskb_admin-cd": 10
+    },
+    "1": {
+      "svdbskb_admin-cd": 4
+    },
+    "3": {
+      "svdbskb_admin-cd": 4,
+      "svdbskb_admin-bi": 4
+    },
+    "2": {
+      "svdbskb_admin-cd": 10,
+      "svdbskb_admin-bi": 10
+    },
+    "4": {
+      "svdbskb_admin-cd": 2,
+      "svdbskb_admin-bi": 2,
+      "svdbskb_admin-be": 1
+    }
+  },
+  ".//transaction/value/@currency": {
+    "EUR": {
+      "svdbskb_admin-cd": 13,
+      "svdbskb_admin-bi": 3
+    }
+  }
+}

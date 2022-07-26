@@ -1,0 +1,87 @@
+{
+  ".//@default-currency": {
+    "USD": 10
+  },
+  ".//@xml:lang": {
+    "en": 39,
+    "ar": 21
+  },
+  ".//activity-date/@type": {
+    "2": 10,
+    "4": 10
+  },
+  ".//activity-status/@code": {
+    "4": 10
+  },
+  ".//budget/@status": {
+    "2": 10
+  },
+  ".//budget/@type": {
+    "1": 10
+  },
+  ".//budget/value/@currency": {
+    "USD": 10
+  },
+  ".//description/@type": {
+    "1": 10,
+    "2": 5
+  },
+  ".//participating-org/@crs-channel-code": {
+    "11000": 11,
+    "47066": 1,
+    "41307": 1,
+    "21000": 1,
+    "13000": 1,
+    "40000": 2
+  },
+  ".//participating-org/@role": {
+    "1": 10,
+    "4": 10
+  },
+  ".//participating-org/@type": {
+    "10": 13,
+    "40": 6,
+    "21": 1
+  },
+  ".//recipient-country/@code": {
+    "BD": 10
+  },
+  ".//reporting-org/@type": {
+    "10": 10
+  },
+  ".//sector/@vocabulary": {
+    "1": 9,
+    "2": 1
+  },
+  ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "72010": 3,
+    "43071": 2,
+    "12191": 1,
+    "52010": 3
+  },
+  ".//sector[@vocabulary = '2']/@code": {
+    "121": 1
+  },
+  ".//transaction/aid-type/@vocabulary": {
+    "1": 10
+  },
+  ".//transaction/aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "C01": 9,
+    "A02": 1
+  },
+  ".//transaction/finance-type/@code": {
+    "110": 10
+  },
+  ".//transaction/flow-type/@code": {
+    "10": 10
+  },
+  ".//transaction/tied-status/@code": {
+    "5": 10
+  },
+  ".//transaction/transaction-type/@code": {
+    "3": 10
+  },
+  ".//transaction/value/@currency": {
+    "USD": 10
+  }
+}

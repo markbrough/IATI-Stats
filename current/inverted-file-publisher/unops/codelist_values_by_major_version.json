@@ -1,0 +1,10746 @@
+{
+  "1": {
+    ".//@default-currency": {
+      "unops-cg": {
+        "USD": 1
+      },
+      "unops-sc": {
+        "USD": 1
+      }
+    },
+    ".//activity-status/@code": {
+      "unops-cg": {
+        "2": 1
+      },
+      "unops-sc": {
+        "2": 1
+      }
+    },
+    ".//budget/@type": {
+      "unops-cg": {
+        "Original": 2
+      },
+      "unops-sc": {
+        "Original": 6
+      }
+    },
+    ".//budget/value/@currency": {
+      "unops-cg": {
+        "USD": 2
+      },
+      "unops-sc": {
+        "USD": 6
+      }
+    },
+    ".//collaboration-type/@code": {
+      "unops-cg": {
+        "2": 1
+      },
+      "unops-sc": {
+        "2": 1
+      }
+    },
+    ".//default-aid-type/@code": {
+      "unops-cg": {
+        "C01": 1
+      },
+      "unops-sc": {
+        "C01": 1
+      }
+    },
+    ".//default-finance-type/@code": {
+      "unops-cg": {
+        "110": 1
+      },
+      "unops-sc": {
+        "110": 1
+      }
+    },
+    ".//default-flow-type/@code": {
+      "unops-cg": {
+        "20": 1
+      },
+      "unops-sc": {
+        "20": 1
+      }
+    },
+    ".//default-tied-status/@code": {
+      "unops-cg": {
+        "5": 1
+      },
+      "unops-sc": {
+        "5": 1
+      }
+    },
+    ".//description/@type": {
+      "unops-cg": {
+        "1": 1
+      },
+      "unops-sc": {
+        "1": 1
+      }
+    },
+    ".//participating-org/@role": {
+      "unops-cg": {
+        "Implementing": 1,
+        "Accountable": 1
+      },
+      "unops-sc": {
+        "Implementing": 1,
+        "Accountable": 1,
+        "Funding": 1
+      }
+    },
+    ".//participating-org/@type": {
+      "unops-cg": {
+        "40": 2
+      },
+      "unops-sc": {
+        "40": 2
+      }
+    },
+    ".//recipient-country/@code": {
+      "unops-cg": {
+        "CG": 1
+      },
+      "unops-sc": {
+        "SC": 1
+      }
+    },
+    ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "unops-cg": {
+        "298": 1
+      },
+      "unops-sc": {
+        "998": 1
+      }
+    },
+    ".//reporting-org/@type": {
+      "unops-cg": {
+        "40": 1
+      },
+      "unops-sc": {
+        "40": 1
+      }
+    },
+    ".//transaction/disbursement-channel/@code": {
+      "unops-cg": {
+        "2": 11
+      },
+      "unops-sc": {
+        "2": 7
+      }
+    },
+    ".//transaction/transaction-type/@code": {
+      "unops-cg": {
+        "C": 1,
+        "E": 10
+      },
+      "unops-sc": {
+        "C": 1,
+        "E": 6
+      }
+    },
+    ".//transaction/value/@currency": {
+      "unops-cg": {
+        "USD": 11
+      },
+      "unops-sc": {
+        "USD": 7
+      }
+    },
+    ".//@xml:lang": {
+      "unops-cg": {
+        "en": 1
+      },
+      "unops-sc": {
+        "en": 1
+      }
+    },
+    ".//activity-date/@type": {
+      "unops-sc": {
+        "start-actual": 1,
+        "end-actual": 1
+      }
+    },
+    ".//location/administrative/@country": {
+      "unops-sc": {
+        "MU": 1,
+        "SC": 1,
+        "SO": 4
+      }
+    },
+    ".//location/coordinates/@precision": {
+      "unops-sc": {
+        "1": 4,
+        "2": 1,
+        "5": 1
+      }
+    },
+    ".//location/location-type/@code": {
+      "unops-sc": {
+        "PPL": 5,
+        "ADM1": 1
+      }
+    },
+    ".//sector[@vocabulary = 'DAC' or not(@vocabulary)]/@code": {
+      "unops-sc": {
+        "15130": 1
+      }
+    },
+    ".//sector/@vocabulary": {
+      "unops-sc": {
+        "DAC": 1
+      }
+    }
+  },
+  "2": {
+    ".//@default-currency": {
+      "unops-za": {
+        "USD": 3
+      },
+      "unops-tn": {
+        "USD": 10
+      },
+      "unops-al": {
+        "USD": 1
+      },
+      "unops-dj": {
+        "USD": 4
+      },
+      "unops-fi": {
+        "USD": 1
+      },
+      "unops-gh": {
+        "USD": 3
+      },
+      "unops-ar": {
+        "USD": 11
+      },
+      "unops-de": {
+        "USD": 2
+      },
+      "unops-ls": {
+        "USD": 1
+      },
+      "unops-be": {
+        "USD": 6
+      },
+      "unops-dk": {
+        "USD": 38
+      },
+      "unops-zm": {
+        "USD": 2
+      },
+      "unops-ba": {
+        "USD": 1
+      },
+      "unops-rw": {
+        "USD": 2
+      },
+      "unops-ph": {
+        "USD": 5
+      },
+      "unops-so": {
+        "USD": 32
+      },
+      "unops-ga": {
+        "USD": 2
+      },
+      "unops-ch": {
+        "USD": 91
+      },
+      "unops-kw": {
+        "USD": 1
+      },
+      "unops-kh": {
+        "USD": 13
+      },
+      "unops-ro": {
+        "USD": 1
+      },
+      "unops-gn": {
+        "USD": 4
+      },
+      "unops-ps": {
+        "USD": 27
+      },
+      "unops-ua": {
+        "USD": 29
+      },
+      "unops-nl": {
+        "USD": 4
+      },
+      "unops-mv": {
+        "USD": 2
+      },
+      "unops-na": {
+        "USD": 1
+      },
+      "unops-at": {
+        "USD": 4
+      },
+      "unops-mg": {
+        "USD": 1
+      },
+      "unops-jm": {
+        "USD": 1
+      },
+      "unops-ss": {
+        "USD": 10
+      },
+      "unops-cd": {
+        "USD": 16
+      },
+      "unops-pk": {
+        "USD": 7
+      },
+      "unops-cr": {
+        "USD": 9
+      },
+      "unops-mr": {
+        "USD": 1
+      },
+      "unops-bt": {
+        "USD": 2
+      },
+      "unops-er": {
+        "USD": 1
+      },
+      "unops-rs": {
+        "USD": 9
+      },
+      "unops-tv": {
+        "USD": 1
+      },
+      "unops-ly": {
+        "USD": 9
+      },
+      "unops-bz": {
+        "USD": 2
+      },
+      "unops-ne": {
+        "USD": 4
+      },
+      "unops-pw": {
+        "USD": 1
+      },
+      "unops-la": {
+        "USD": 3
+      },
+      "unops-ao": {
+        "USD": 2
+      },
+      "unops-id": {
+        "USD": 4
+      },
+      "unops-cu": {
+        "USD": 1
+      },
+      "unops-gr": {
+        "USD": 2
+      },
+      "unops-il": {
+        "USD": 1
+      },
+      "unops-it": {
+        "USD": 7
+      },
+      "unops-us": {
+        "USD": 43
+      },
+      "unops-gd": {
+        "USD": 1
+      },
+      "unops-cm": {
+        "USD": 4
+      },
+      "unops-vn": {
+        "USD": 1
+      },
+      "unops-lr": {
+        "USD": 6
+      },
+      "unops-tr": {
+        "USD": 3
+      },
+      "unops-sv": {
+        "USD": 4
+      },
+      "unops-ug": {
+        "USD": 6
+      },
+      "unops-ml": {
+        "USD": 7
+      },
+      "unops-mw": {
+        "USD": 1
+      },
+      "unops-hr": {
+        "USD": 1
+      },
+      "unops-sn": {
+        "USD": 8
+      },
+      "unops-ge": {
+        "USD": 3
+      },
+      "unops-st": {
+        "USD": 1
+      },
+      "unops-jo": {
+        "USD": 24
+      },
+      "unops-np": {
+        "USD": 9
+      },
+      "unops-af": {
+        "USD": 32
+      },
+      "unops-ma": {
+        "USD": 3
+      },
+      "unops-ag": {
+        "USD": 2
+      },
+      "unops-cw": {
+        "USD": 1
+      },
+      "unops-co": {
+        "USD": 10
+      },
+      "unops-dm": {
+        "USD": 2
+      },
+      "unops-eh": {
+        "USD": 5
+      },
+      "unops-gt": {
+        "USD": 2
+      },
+      "unops-bo": {
+        "USD": 1
+      },
+      "unops-ye": {
+        "USD": 15
+      },
+      "unops-my": {
+        "USD": 3
+      },
+      "unops-sd": {
+        "USD": 17
+      },
+      "unops-py": {
+        "USD": 11
+      },
+      "unops-th": {
+        "USD": 11
+      },
+      "unops-td": {
+        "USD": 1
+      },
+      "unops-sb": {
+        "USD": 1
+      },
+      "unops-me": {
+        "USD": 1
+      },
+      "unops-in": {
+        "USD": 1
+      },
+      "unops-mm": {
+        "USD": 22
+      },
+      "unops-hu": {
+        "USD": 4
+      },
+      "unops-et": {
+        "USD": 28
+      },
+      "unops-cn": {
+        "USD": 3
+      },
+      "unops-bd": {
+        "USD": 8
+      },
+      "unops-kr": {
+        "USD": 1
+      },
+      "unops-uy": {
+        "USD": 3
+      },
+      "unops-tt": {
+        "USD": 1
+      },
+      "unops-gm": {
+        "USD": 5
+      },
+      "unops-sr": {
+        "USD": 1
+      },
+      "unops-ir": {
+        "USD": 3
+      },
+      "unops-tj": {
+        "USD": 1
+      },
+      "unops-pe": {
+        "USD": 11
+      },
+      "unops-iq": {
+        "USD": 28
+      },
+      "unops-jp": {
+        "USD": 2
+      },
+      "unops-se": {
+        "USD": 1
+      },
+      "unops-cv": {
+        "USD": 1
+      },
+      "unops-mx": {
+        "USD": 9
+      },
+      "unops-es": {
+        "USD": 5
+      },
+      "unops-sl": {
+        "USD": 7
+      },
+      "unops-kp": {
+        "USD": 1
+      },
+      "unops-dz": {
+        "USD": 2
+      },
+      "unops-bj": {
+        "USD": 3
+      },
+      "unops-tl": {
+        "USD": 1
+      },
+      "unops-fj": {
+        "USD": 1
+      },
+      "unops-xk": {
+        "USD": 2
+      },
+      "unops-ws": {
+        "USD": 1
+      },
+      "unops-lb": {
+        "USD": 7
+      },
+      "unops-kz": {
+        "USD": 1
+      },
+      "unops-sa": {
+        "USD": 2
+      },
+      "unops-tz": {
+        "USD": 4
+      },
+      "unops-ke": {
+        "USD": 31
+      },
+      "unops-mz": {
+        "USD": 1
+      },
+      "unops-kg": {
+        "USD": 1
+      },
+      "unops-mk": {
+        "USD": 4
+      },
+      "unops-eg": {
+        "USD": 2
+      },
+      "unops-tg": {
+        "USD": 2
+      },
+      "unops-bi": {
+        "USD": 2
+      },
+      "unops-zw": {
+        "USD": 3
+      },
+      "unops-mu": {
+        "USD": 1
+      },
+      "unops-ng": {
+        "USD": 2
+      },
+      "unops-gw": {
+        "USD": 3
+      },
+      "unops-pg": {
+        "USD": 2
+      },
+      "unops-mn": {
+        "USD": 1
+      },
+      "unops-fr": {
+        "USD": 2
+      },
+      "unops-hn": {
+        "USD": 8
+      },
+      "unops-bf": {
+        "USD": 7
+      },
+      "unops-cf": {
+        "USD": 12
+      },
+      "unops-bw": {
+        "USD": 1
+      },
+      "unops-lk": {
+        "USD": 5
+      },
+      "unops-br": {
+        "USD": 11
+      },
+      "unops-ht": {
+        "USD": 16
+      },
+      "unops-lc": {
+        "USD": 3
+      },
+      "unops-by": {
+        "USD": 1
+      },
+      "unops-ec": {
+        "USD": 3
+      },
+      "unops-ci": {
+        "USD": 1
+      },
+      "unops-sy": {
+        "USD": 8
+      },
+      "unops-pa": {
+        "USD": 34
+      },
+      "unops-cy": {
+        "USD": 2
+      },
+      "unops-nc": {
+        "USD": 1
+      }
+    },
+    ".//activity-date/@type": {
+      "unops-za": {
+        "start-actual": 3
+      },
+      "unops-tn": {
+        "start-actual": 10
+      },
+      "unops-al": {
+        "start-actual": 1
+      },
+      "unops-dj": {
+        "start-actual": 4
+      },
+      "unops-fi": {
+        "start-actual": 1
+      },
+      "unops-gh": {
+        "start-actual": 3
+      },
+      "unops-ar": {
+        "start-actual": 11
+      },
+      "unops-de": {
+        "start-actual": 2
+      },
+      "unops-ls": {
+        "start-actual": 1
+      },
+      "unops-be": {
+        "start-actual": 6
+      },
+      "unops-dk": {
+        "start-actual": 38
+      },
+      "unops-zm": {
+        "start-actual": 2
+      },
+      "unops-ba": {
+        "start-actual": 1
+      },
+      "unops-rw": {
+        "start-actual": 2
+      },
+      "unops-ph": {
+        "start-actual": 5
+      },
+      "unops-so": {
+        "start-actual": 32
+      },
+      "unops-ga": {
+        "start-actual": 2
+      },
+      "unops-ch": {
+        "start-actual": 91
+      },
+      "unops-kw": {
+        "start-actual": 1
+      },
+      "unops-kh": {
+        "start-actual": 13
+      },
+      "unops-ro": {
+        "start-actual": 1
+      },
+      "unops-gn": {
+        "start-actual": 4
+      },
+      "unops-ps": {
+        "start-actual": 27
+      },
+      "unops-ua": {
+        "start-actual": 29
+      },
+      "unops-nl": {
+        "start-actual": 4
+      },
+      "unops-mv": {
+        "start-actual": 2
+      },
+      "unops-na": {
+        "start-actual": 1
+      },
+      "unops-at": {
+        "start-actual": 4
+      },
+      "unops-mg": {
+        "start-actual": 1
+      },
+      "unops-jm": {
+        "start-actual": 1
+      },
+      "unops-ss": {
+        "start-actual": 10
+      },
+      "unops-cd": {
+        "start-actual": 16
+      },
+      "unops-pk": {
+        "start-actual": 7
+      },
+      "unops-cr": {
+        "start-actual": 9
+      },
+      "unops-mr": {
+        "start-actual": 1
+      },
+      "unops-bt": {
+        "start-actual": 2
+      },
+      "unops-er": {
+        "start-actual": 1
+      },
+      "unops-rs": {
+        "start-actual": 9
+      },
+      "unops-tv": {
+        "start-actual": 1
+      },
+      "unops-ly": {
+        "start-actual": 9
+      },
+      "unops-bz": {
+        "start-actual": 2
+      },
+      "unops-ne": {
+        "start-actual": 4
+      },
+      "unops-pw": {
+        "start-actual": 1
+      },
+      "unops-la": {
+        "start-actual": 3
+      },
+      "unops-ao": {
+        "start-actual": 2
+      },
+      "unops-id": {
+        "start-actual": 4
+      },
+      "unops-cu": {
+        "start-actual": 1
+      },
+      "unops-gr": {
+        "start-actual": 2
+      },
+      "unops-il": {
+        "start-actual": 1
+      },
+      "unops-it": {
+        "start-actual": 7
+      },
+      "unops-us": {
+        "start-actual": 43
+      },
+      "unops-gd": {
+        "start-actual": 1
+      },
+      "unops-cm": {
+        "start-actual": 4
+      },
+      "unops-vn": {
+        "start-actual": 1
+      },
+      "unops-lr": {
+        "start-actual": 6
+      },
+      "unops-tr": {
+        "start-actual": 3
+      },
+      "unops-sv": {
+        "start-actual": 4
+      },
+      "unops-ug": {
+        "start-actual": 6
+      },
+      "unops-ml": {
+        "start-actual": 7
+      },
+      "unops-mw": {
+        "start-actual": 1
+      },
+      "unops-hr": {
+        "start-actual": 1
+      },
+      "unops-sn": {
+        "start-actual": 8
+      },
+      "unops-ge": {
+        "start-actual": 3
+      },
+      "unops-st": {
+        "start-actual": 1
+      },
+      "unops-jo": {
+        "start-actual": 24
+      },
+      "unops-np": {
+        "start-actual": 9
+      },
+      "unops-af": {
+        "start-actual": 32
+      },
+      "unops-ma": {
+        "start-actual": 3
+      },
+      "unops-ag": {
+        "start-actual": 2
+      },
+      "unops-cw": {
+        "start-actual": 1
+      },
+      "unops-co": {
+        "start-actual": 10
+      },
+      "unops-dm": {
+        "start-actual": 2
+      },
+      "unops-eh": {
+        "start-actual": 5
+      },
+      "unops-gt": {
+        "start-actual": 2
+      },
+      "unops-bo": {
+        "start-actual": 1
+      },
+      "unops-ye": {
+        "start-actual": 15
+      },
+      "unops-my": {
+        "start-actual": 3
+      },
+      "unops-sd": {
+        "start-actual": 17
+      },
+      "unops-py": {
+        "start-actual": 11
+      },
+      "unops-th": {
+        "start-actual": 11
+      },
+      "unops-td": {
+        "start-actual": 1
+      },
+      "unops-sb": {
+        "start-actual": 1
+      },
+      "unops-me": {
+        "start-actual": 1
+      },
+      "unops-in": {
+        "start-actual": 1
+      },
+      "unops-mm": {
+        "start-actual": 22
+      },
+      "unops-hu": {
+        "start-actual": 4
+      },
+      "unops-et": {
+        "start-actual": 28
+      },
+      "unops-cn": {
+        "start-actual": 3
+      },
+      "unops-bd": {
+        "start-actual": 8
+      },
+      "unops-kr": {
+        "start-actual": 1
+      },
+      "unops-uy": {
+        "start-actual": 3
+      },
+      "unops-tt": {
+        "start-actual": 1
+      },
+      "unops-gm": {
+        "start-actual": 5
+      },
+      "unops-sr": {
+        "start-actual": 1
+      },
+      "unops-ir": {
+        "start-actual": 3
+      },
+      "unops-tj": {
+        "start-actual": 1
+      },
+      "unops-pe": {
+        "start-actual": 11
+      },
+      "unops-iq": {
+        "start-actual": 28
+      },
+      "unops-jp": {
+        "start-actual": 2
+      },
+      "unops-se": {
+        "start-actual": 1
+      },
+      "unops-cv": {
+        "start-actual": 1
+      },
+      "unops-mx": {
+        "start-actual": 9
+      },
+      "unops-es": {
+        "start-actual": 5
+      },
+      "unops-sl": {
+        "start-actual": 7
+      },
+      "unops-kp": {
+        "start-actual": 1
+      },
+      "unops-dz": {
+        "start-actual": 2
+      },
+      "unops-bj": {
+        "start-actual": 3
+      },
+      "unops-tl": {
+        "start-actual": 1
+      },
+      "unops-fj": {
+        "start-actual": 1
+      },
+      "unops-xk": {
+        "start-actual": 2
+      },
+      "unops-ws": {
+        "start-actual": 1
+      },
+      "unops-lb": {
+        "start-actual": 7
+      },
+      "unops-kz": {
+        "start-actual": 1
+      },
+      "unops-sa": {
+        "start-actual": 2
+      },
+      "unops-tz": {
+        "start-actual": 4
+      },
+      "unops-ke": {
+        "start-actual": 31
+      },
+      "unops-mz": {
+        "start-actual": 1
+      },
+      "unops-kg": {
+        "start-actual": 1
+      },
+      "unops-mk": {
+        "start-actual": 4
+      },
+      "unops-eg": {
+        "start-actual": 2
+      },
+      "unops-tg": {
+        "start-actual": 2
+      },
+      "unops-bi": {
+        "start-actual": 2
+      },
+      "unops-zw": {
+        "start-actual": 3
+      },
+      "unops-mu": {
+        "start-actual": 1
+      },
+      "unops-ng": {
+        "start-actual": 2
+      },
+      "unops-gw": {
+        "start-actual": 3
+      },
+      "unops-pg": {
+        "start-actual": 2
+      },
+      "unops-mn": {
+        "start-actual": 1
+      },
+      "unops-fr": {
+        "start-actual": 2
+      },
+      "unops-hn": {
+        "start-actual": 8
+      },
+      "unops-bf": {
+        "start-actual": 7
+      },
+      "unops-cf": {
+        "start-actual": 12
+      },
+      "unops-bw": {
+        "start-actual": 1
+      },
+      "unops-lk": {
+        "start-actual": 5
+      },
+      "unops-br": {
+        "start-actual": 11
+      },
+      "unops-ht": {
+        "start-actual": 16
+      },
+      "unops-lc": {
+        "start-actual": 3
+      },
+      "unops-by": {
+        "start-actual": 1
+      },
+      "unops-ec": {
+        "start-actual": 3
+      },
+      "unops-ci": {
+        "start-actual": 1
+      },
+      "unops-sy": {
+        "start-actual": 8
+      },
+      "unops-pa": {
+        "start-actual": 34
+      },
+      "unops-cy": {
+        "start-actual": 2
+      },
+      "unops-nc": {
+        "start-actual": 1
+      }
+    },
+    ".//activity-status/@code": {
+      "unops-za": {
+        "2": 3
+      },
+      "unops-tn": {
+        "2": 10
+      },
+      "unops-al": {
+        "2": 1
+      },
+      "unops-dj": {
+        "2": 4
+      },
+      "unops-fi": {
+        "2": 1
+      },
+      "unops-gh": {
+        "2": 3
+      },
+      "unops-ar": {
+        "2": 11
+      },
+      "unops-de": {
+        "2": 2
+      },
+      "unops-ls": {
+        "2": 1
+      },
+      "unops-be": {
+        "2": 6
+      },
+      "unops-dk": {
+        "2": 38
+      },
+      "unops-zm": {
+        "2": 2
+      },
+      "unops-ba": {
+        "2": 1
+      },
+      "unops-rw": {
+        "2": 2
+      },
+      "unops-ph": {
+        "2": 5
+      },
+      "unops-so": {
+        "2": 32
+      },
+      "unops-ga": {
+        "2": 2
+      },
+      "unops-ch": {
+        "2": 91
+      },
+      "unops-kw": {
+        "2": 1
+      },
+      "unops-kh": {
+        "2": 13
+      },
+      "unops-ro": {
+        "2": 1
+      },
+      "unops-gn": {
+        "2": 4
+      },
+      "unops-ps": {
+        "2": 27
+      },
+      "unops-ua": {
+        "2": 29
+      },
+      "unops-nl": {
+        "2": 4
+      },
+      "unops-mv": {
+        "2": 2
+      },
+      "unops-na": {
+        "2": 1
+      },
+      "unops-at": {
+        "2": 4
+      },
+      "unops-mg": {
+        "2": 1
+      },
+      "unops-jm": {
+        "2": 1
+      },
+      "unops-ss": {
+        "2": 10
+      },
+      "unops-cd": {
+        "2": 16
+      },
+      "unops-pk": {
+        "2": 7
+      },
+      "unops-cr": {
+        "2": 9
+      },
+      "unops-mr": {
+        "2": 1
+      },
+      "unops-bt": {
+        "2": 2
+      },
+      "unops-er": {
+        "2": 1
+      },
+      "unops-rs": {
+        "2": 9
+      },
+      "unops-tv": {
+        "2": 1
+      },
+      "unops-ly": {
+        "2": 9
+      },
+      "unops-bz": {
+        "2": 2
+      },
+      "unops-ne": {
+        "2": 4
+      },
+      "unops-pw": {
+        "2": 1
+      },
+      "unops-la": {
+        "2": 3
+      },
+      "unops-ao": {
+        "2": 2
+      },
+      "unops-id": {
+        "2": 4
+      },
+      "unops-cu": {
+        "2": 1
+      },
+      "unops-gr": {
+        "2": 2
+      },
+      "unops-il": {
+        "2": 1
+      },
+      "unops-it": {
+        "2": 7
+      },
+      "unops-us": {
+        "2": 43
+      },
+      "unops-gd": {
+        "2": 1
+      },
+      "unops-cm": {
+        "2": 4
+      },
+      "unops-vn": {
+        "2": 1
+      },
+      "unops-lr": {
+        "2": 6
+      },
+      "unops-tr": {
+        "2": 3
+      },
+      "unops-sv": {
+        "2": 4
+      },
+      "unops-ug": {
+        "2": 6
+      },
+      "unops-ml": {
+        "2": 7
+      },
+      "unops-mw": {
+        "2": 1
+      },
+      "unops-hr": {
+        "2": 1
+      },
+      "unops-sn": {
+        "2": 8
+      },
+      "unops-ge": {
+        "2": 3
+      },
+      "unops-st": {
+        "2": 1
+      },
+      "unops-jo": {
+        "2": 24
+      },
+      "unops-np": {
+        "2": 9
+      },
+      "unops-af": {
+        "2": 32
+      },
+      "unops-ma": {
+        "2": 3
+      },
+      "unops-ag": {
+        "2": 2
+      },
+      "unops-cw": {
+        "2": 1
+      },
+      "unops-co": {
+        "2": 10
+      },
+      "unops-dm": {
+        "2": 2
+      },
+      "unops-eh": {
+        "2": 5
+      },
+      "unops-gt": {
+        "2": 2
+      },
+      "unops-bo": {
+        "2": 1
+      },
+      "unops-ye": {
+        "2": 15
+      },
+      "unops-my": {
+        "2": 3
+      },
+      "unops-sd": {
+        "2": 17
+      },
+      "unops-py": {
+        "2": 11
+      },
+      "unops-th": {
+        "2": 11
+      },
+      "unops-td": {
+        "2": 1
+      },
+      "unops-sb": {
+        "2": 1
+      },
+      "unops-me": {
+        "2": 1
+      },
+      "unops-in": {
+        "2": 1
+      },
+      "unops-mm": {
+        "2": 22
+      },
+      "unops-hu": {
+        "2": 4
+      },
+      "unops-et": {
+        "2": 28
+      },
+      "unops-cn": {
+        "2": 3
+      },
+      "unops-bd": {
+        "2": 8
+      },
+      "unops-kr": {
+        "2": 1
+      },
+      "unops-uy": {
+        "2": 3
+      },
+      "unops-tt": {
+        "2": 1
+      },
+      "unops-gm": {
+        "2": 5
+      },
+      "unops-sr": {
+        "2": 1
+      },
+      "unops-ir": {
+        "2": 3
+      },
+      "unops-tj": {
+        "2": 1
+      },
+      "unops-pe": {
+        "2": 11
+      },
+      "unops-iq": {
+        "2": 28
+      },
+      "unops-jp": {
+        "2": 2
+      },
+      "unops-se": {
+        "2": 1
+      },
+      "unops-cv": {
+        "2": 1
+      },
+      "unops-mx": {
+        "2": 9
+      },
+      "unops-es": {
+        "2": 5
+      },
+      "unops-sl": {
+        "2": 7
+      },
+      "unops-kp": {
+        "2": 1
+      },
+      "unops-dz": {
+        "2": 2
+      },
+      "unops-bj": {
+        "2": 3
+      },
+      "unops-tl": {
+        "2": 1
+      },
+      "unops-fj": {
+        "2": 1
+      },
+      "unops-xk": {
+        "2": 2
+      },
+      "unops-ws": {
+        "2": 1
+      },
+      "unops-lb": {
+        "2": 7
+      },
+      "unops-kz": {
+        "2": 1
+      },
+      "unops-sa": {
+        "2": 2
+      },
+      "unops-tz": {
+        "2": 4
+      },
+      "unops-ke": {
+        "2": 31
+      },
+      "unops-mz": {
+        "2": 1
+      },
+      "unops-kg": {
+        "2": 1
+      },
+      "unops-mk": {
+        "2": 4
+      },
+      "unops-eg": {
+        "2": 2
+      },
+      "unops-tg": {
+        "2": 2
+      },
+      "unops-bi": {
+        "2": 2
+      },
+      "unops-zw": {
+        "2": 3
+      },
+      "unops-mu": {
+        "2": 1
+      },
+      "unops-ng": {
+        "2": 2
+      },
+      "unops-gw": {
+        "2": 3
+      },
+      "unops-pg": {
+        "2": 2
+      },
+      "unops-mn": {
+        "2": 1
+      },
+      "unops-fr": {
+        "2": 2
+      },
+      "unops-hn": {
+        "2": 8
+      },
+      "unops-bf": {
+        "2": 7
+      },
+      "unops-cf": {
+        "2": 12
+      },
+      "unops-bw": {
+        "2": 1
+      },
+      "unops-lk": {
+        "2": 5
+      },
+      "unops-br": {
+        "2": 11
+      },
+      "unops-ht": {
+        "2": 16
+      },
+      "unops-lc": {
+        "2": 3
+      },
+      "unops-by": {
+        "2": 1
+      },
+      "unops-ec": {
+        "2": 3
+      },
+      "unops-ci": {
+        "2": 1
+      },
+      "unops-sy": {
+        "2": 8
+      },
+      "unops-pa": {
+        "2": 34
+      },
+      "unops-cy": {
+        "2": 2
+      },
+      "unops-nc": {
+        "2": 1
+      }
+    },
+    ".//budget/@type": {
+      "unops-za": {
+        "Original": 3
+      },
+      "unops-tn": {
+        "Original": 10
+      },
+      "unops-al": {
+        "Original": 1
+      },
+      "unops-dj": {
+        "Original": 4
+      },
+      "unops-fi": {
+        "Original": 1
+      },
+      "unops-gh": {
+        "Original": 3
+      },
+      "unops-ar": {
+        "Original": 11
+      },
+      "unops-de": {
+        "Original": 2
+      },
+      "unops-ls": {
+        "Original": 1
+      },
+      "unops-be": {
+        "Original": 6
+      },
+      "unops-dk": {
+        "Original": 38
+      },
+      "unops-zm": {
+        "Original": 2
+      },
+      "unops-ba": {
+        "Original": 1
+      },
+      "unops-rw": {
+        "Original": 2
+      },
+      "unops-ph": {
+        "Original": 5
+      },
+      "unops-so": {
+        "Original": 32
+      },
+      "unops-ga": {
+        "Original": 2
+      },
+      "unops-ch": {
+        "Original": 91
+      },
+      "unops-kw": {
+        "Original": 1
+      },
+      "unops-kh": {
+        "Original": 13
+      },
+      "unops-ro": {
+        "Original": 1
+      },
+      "unops-gn": {
+        "Original": 4
+      },
+      "unops-ps": {
+        "Original": 27
+      },
+      "unops-ua": {
+        "Original": 29
+      },
+      "unops-nl": {
+        "Original": 4
+      },
+      "unops-mv": {
+        "Original": 2
+      },
+      "unops-na": {
+        "Original": 1
+      },
+      "unops-at": {
+        "Original": 4
+      },
+      "unops-mg": {
+        "Original": 1
+      },
+      "unops-jm": {
+        "Original": 1
+      },
+      "unops-ss": {
+        "Original": 10
+      },
+      "unops-cd": {
+        "Original": 16
+      },
+      "unops-pk": {
+        "Original": 7
+      },
+      "unops-cr": {
+        "Original": 9
+      },
+      "unops-mr": {
+        "Original": 1
+      },
+      "unops-bt": {
+        "Original": 2
+      },
+      "unops-er": {
+        "Original": 1
+      },
+      "unops-rs": {
+        "Original": 9
+      },
+      "unops-tv": {
+        "Original": 1
+      },
+      "unops-ly": {
+        "Original": 9
+      },
+      "unops-bz": {
+        "Original": 2
+      },
+      "unops-ne": {
+        "Original": 4
+      },
+      "unops-pw": {
+        "Original": 1
+      },
+      "unops-la": {
+        "Original": 3
+      },
+      "unops-ao": {
+        "Original": 2
+      },
+      "unops-id": {
+        "Original": 4
+      },
+      "unops-cu": {
+        "Original": 1
+      },
+      "unops-gr": {
+        "Original": 2
+      },
+      "unops-il": {
+        "Original": 1
+      },
+      "unops-it": {
+        "Original": 7
+      },
+      "unops-us": {
+        "Original": 43
+      },
+      "unops-gd": {
+        "Original": 1
+      },
+      "unops-cm": {
+        "Original": 4
+      },
+      "unops-vn": {
+        "Original": 1
+      },
+      "unops-lr": {
+        "Original": 6
+      },
+      "unops-tr": {
+        "Original": 3
+      },
+      "unops-sv": {
+        "Original": 4
+      },
+      "unops-ug": {
+        "Original": 6
+      },
+      "unops-ml": {
+        "Original": 7
+      },
+      "unops-mw": {
+        "Original": 1
+      },
+      "unops-hr": {
+        "Original": 1
+      },
+      "unops-sn": {
+        "Original": 8
+      },
+      "unops-ge": {
+        "Original": 3
+      },
+      "unops-st": {
+        "Original": 1
+      },
+      "unops-jo": {
+        "Original": 24
+      },
+      "unops-np": {
+        "Original": 9
+      },
+      "unops-af": {
+        "Original": 32
+      },
+      "unops-ma": {
+        "Original": 3
+      },
+      "unops-ag": {
+        "Original": 2
+      },
+      "unops-cw": {
+        "Original": 1
+      },
+      "unops-co": {
+        "Original": 10
+      },
+      "unops-dm": {
+        "Original": 2
+      },
+      "unops-eh": {
+        "Original": 5
+      },
+      "unops-gt": {
+        "Original": 2
+      },
+      "unops-bo": {
+        "Original": 1
+      },
+      "unops-ye": {
+        "Original": 15
+      },
+      "unops-my": {
+        "Original": 3
+      },
+      "unops-sd": {
+        "Original": 17
+      },
+      "unops-py": {
+        "Original": 11
+      },
+      "unops-th": {
+        "Original": 11
+      },
+      "unops-td": {
+        "Original": 1
+      },
+      "unops-sb": {
+        "Original": 1
+      },
+      "unops-me": {
+        "Original": 1
+      },
+      "unops-in": {
+        "Original": 1
+      },
+      "unops-mm": {
+        "Original": 22
+      },
+      "unops-hu": {
+        "Original": 4
+      },
+      "unops-et": {
+        "Original": 28
+      },
+      "unops-cn": {
+        "Original": 3
+      },
+      "unops-bd": {
+        "Original": 8
+      },
+      "unops-kr": {
+        "Original": 1
+      },
+      "unops-uy": {
+        "Original": 3
+      },
+      "unops-tt": {
+        "Original": 1
+      },
+      "unops-gm": {
+        "Original": 5
+      },
+      "unops-sr": {
+        "Original": 1
+      },
+      "unops-ir": {
+        "Original": 3
+      },
+      "unops-tj": {
+        "Original": 1
+      },
+      "unops-pe": {
+        "Original": 11
+      },
+      "unops-iq": {
+        "Original": 28
+      },
+      "unops-jp": {
+        "Original": 2
+      },
+      "unops-se": {
+        "Original": 1
+      },
+      "unops-cv": {
+        "Original": 1
+      },
+      "unops-mx": {
+        "Original": 9
+      },
+      "unops-es": {
+        "Original": 5
+      },
+      "unops-sl": {
+        "Original": 7
+      },
+      "unops-kp": {
+        "Original": 1
+      },
+      "unops-dz": {
+        "Original": 2
+      },
+      "unops-bj": {
+        "Original": 3
+      },
+      "unops-tl": {
+        "Original": 1
+      },
+      "unops-fj": {
+        "Original": 1
+      },
+      "unops-xk": {
+        "Original": 2
+      },
+      "unops-ws": {
+        "Original": 1
+      },
+      "unops-lb": {
+        "Original": 7
+      },
+      "unops-kz": {
+        "Original": 1
+      },
+      "unops-sa": {
+        "Original": 2
+      },
+      "unops-tz": {
+        "Original": 4
+      },
+      "unops-ke": {
+        "Original": 31
+      },
+      "unops-mz": {
+        "Original": 1
+      },
+      "unops-kg": {
+        "Original": 1
+      },
+      "unops-mk": {
+        "Original": 4
+      },
+      "unops-eg": {
+        "Original": 2
+      },
+      "unops-tg": {
+        "Original": 2
+      },
+      "unops-bi": {
+        "Original": 2
+      },
+      "unops-zw": {
+        "Original": 3
+      },
+      "unops-mu": {
+        "Original": 1
+      },
+      "unops-ng": {
+        "Original": 2
+      },
+      "unops-gw": {
+        "Original": 3
+      },
+      "unops-pg": {
+        "Original": 2
+      },
+      "unops-mn": {
+        "Original": 1
+      },
+      "unops-fr": {
+        "Original": 2
+      },
+      "unops-hn": {
+        "Original": 8
+      },
+      "unops-bf": {
+        "Original": 7
+      },
+      "unops-cf": {
+        "Original": 12
+      },
+      "unops-bw": {
+        "Original": 1
+      },
+      "unops-lk": {
+        "Original": 5
+      },
+      "unops-br": {
+        "Original": 11
+      },
+      "unops-ht": {
+        "Original": 16
+      },
+      "unops-lc": {
+        "Original": 3
+      },
+      "unops-by": {
+        "Original": 1
+      },
+      "unops-ec": {
+        "Original": 3
+      },
+      "unops-ci": {
+        "Original": 1
+      },
+      "unops-sy": {
+        "Original": 8
+      },
+      "unops-pa": {
+        "Original": 34
+      },
+      "unops-cy": {
+        "Original": 2
+      },
+      "unops-nc": {
+        "Original": 1
+      }
+    },
+    ".//collaboration-type/@code": {
+      "unops-za": {
+        "2": 3
+      },
+      "unops-tn": {
+        "2": 10
+      },
+      "unops-al": {
+        "2": 1
+      },
+      "unops-dj": {
+        "2": 4
+      },
+      "unops-fi": {
+        "2": 1
+      },
+      "unops-gh": {
+        "2": 3
+      },
+      "unops-ar": {
+        "2": 11
+      },
+      "unops-de": {
+        "2": 2
+      },
+      "unops-ls": {
+        "2": 1
+      },
+      "unops-be": {
+        "2": 6
+      },
+      "unops-dk": {
+        "2": 38
+      },
+      "unops-zm": {
+        "2": 2
+      },
+      "unops-ba": {
+        "2": 1
+      },
+      "unops-rw": {
+        "2": 2
+      },
+      "unops-ph": {
+        "2": 5
+      },
+      "unops-so": {
+        "2": 32
+      },
+      "unops-ga": {
+        "2": 2
+      },
+      "unops-ch": {
+        "2": 91
+      },
+      "unops-kw": {
+        "2": 1
+      },
+      "unops-kh": {
+        "2": 13
+      },
+      "unops-ro": {
+        "2": 1
+      },
+      "unops-gn": {
+        "2": 4
+      },
+      "unops-ps": {
+        "2": 27
+      },
+      "unops-ua": {
+        "2": 29
+      },
+      "unops-nl": {
+        "2": 4
+      },
+      "unops-mv": {
+        "2": 2
+      },
+      "unops-na": {
+        "2": 1
+      },
+      "unops-at": {
+        "2": 4
+      },
+      "unops-mg": {
+        "2": 1
+      },
+      "unops-jm": {
+        "2": 1
+      },
+      "unops-ss": {
+        "2": 10
+      },
+      "unops-cd": {
+        "2": 16
+      },
+      "unops-pk": {
+        "2": 7
+      },
+      "unops-cr": {
+        "2": 9
+      },
+      "unops-mr": {
+        "2": 1
+      },
+      "unops-bt": {
+        "2": 2
+      },
+      "unops-er": {
+        "2": 1
+      },
+      "unops-rs": {
+        "2": 9
+      },
+      "unops-tv": {
+        "2": 1
+      },
+      "unops-ly": {
+        "2": 9
+      },
+      "unops-bz": {
+        "2": 2
+      },
+      "unops-ne": {
+        "2": 4
+      },
+      "unops-pw": {
+        "2": 1
+      },
+      "unops-la": {
+        "2": 3
+      },
+      "unops-ao": {
+        "2": 2
+      },
+      "unops-id": {
+        "2": 4
+      },
+      "unops-cu": {
+        "2": 1
+      },
+      "unops-gr": {
+        "2": 2
+      },
+      "unops-il": {
+        "2": 1
+      },
+      "unops-it": {
+        "2": 7
+      },
+      "unops-us": {
+        "2": 43
+      },
+      "unops-gd": {
+        "2": 1
+      },
+      "unops-cm": {
+        "2": 4
+      },
+      "unops-vn": {
+        "2": 1
+      },
+      "unops-lr": {
+        "2": 6
+      },
+      "unops-tr": {
+        "2": 3
+      },
+      "unops-sv": {
+        "2": 4
+      },
+      "unops-ug": {
+        "2": 6
+      },
+      "unops-ml": {
+        "2": 7
+      },
+      "unops-mw": {
+        "2": 1
+      },
+      "unops-hr": {
+        "2": 1
+      },
+      "unops-sn": {
+        "2": 8
+      },
+      "unops-ge": {
+        "2": 3
+      },
+      "unops-st": {
+        "2": 1
+      },
+      "unops-jo": {
+        "2": 24
+      },
+      "unops-np": {
+        "2": 9
+      },
+      "unops-af": {
+        "2": 32
+      },
+      "unops-ma": {
+        "2": 3
+      },
+      "unops-ag": {
+        "2": 2
+      },
+      "unops-cw": {
+        "2": 1
+      },
+      "unops-co": {
+        "2": 10
+      },
+      "unops-dm": {
+        "2": 2
+      },
+      "unops-eh": {
+        "2": 5
+      },
+      "unops-gt": {
+        "2": 2
+      },
+      "unops-bo": {
+        "2": 1
+      },
+      "unops-ye": {
+        "2": 15
+      },
+      "unops-my": {
+        "2": 3
+      },
+      "unops-sd": {
+        "2": 17
+      },
+      "unops-py": {
+        "2": 11
+      },
+      "unops-th": {
+        "2": 11
+      },
+      "unops-td": {
+        "2": 1
+      },
+      "unops-sb": {
+        "2": 1
+      },
+      "unops-me": {
+        "2": 1
+      },
+      "unops-in": {
+        "2": 1
+      },
+      "unops-mm": {
+        "2": 22
+      },
+      "unops-hu": {
+        "2": 4
+      },
+      "unops-et": {
+        "2": 28
+      },
+      "unops-cn": {
+        "2": 3
+      },
+      "unops-bd": {
+        "2": 8
+      },
+      "unops-kr": {
+        "2": 1
+      },
+      "unops-uy": {
+        "2": 3
+      },
+      "unops-tt": {
+        "2": 1
+      },
+      "unops-gm": {
+        "2": 5
+      },
+      "unops-sr": {
+        "2": 1
+      },
+      "unops-ir": {
+        "2": 3
+      },
+      "unops-tj": {
+        "2": 1
+      },
+      "unops-pe": {
+        "2": 11
+      },
+      "unops-iq": {
+        "2": 28
+      },
+      "unops-jp": {
+        "2": 2
+      },
+      "unops-se": {
+        "2": 1
+      },
+      "unops-cv": {
+        "2": 1
+      },
+      "unops-mx": {
+        "2": 9
+      },
+      "unops-es": {
+        "2": 5
+      },
+      "unops-sl": {
+        "2": 7
+      },
+      "unops-kp": {
+        "2": 1
+      },
+      "unops-dz": {
+        "2": 2
+      },
+      "unops-bj": {
+        "2": 3
+      },
+      "unops-tl": {
+        "2": 1
+      },
+      "unops-fj": {
+        "2": 1
+      },
+      "unops-xk": {
+        "2": 2
+      },
+      "unops-ws": {
+        "2": 1
+      },
+      "unops-lb": {
+        "2": 7
+      },
+      "unops-kz": {
+        "2": 1
+      },
+      "unops-sa": {
+        "2": 2
+      },
+      "unops-tz": {
+        "2": 4
+      },
+      "unops-ke": {
+        "2": 31
+      },
+      "unops-mz": {
+        "2": 1
+      },
+      "unops-kg": {
+        "2": 1
+      },
+      "unops-mk": {
+        "2": 4
+      },
+      "unops-eg": {
+        "2": 2
+      },
+      "unops-tg": {
+        "2": 2
+      },
+      "unops-bi": {
+        "2": 2
+      },
+      "unops-zw": {
+        "2": 3
+      },
+      "unops-mu": {
+        "2": 1
+      },
+      "unops-ng": {
+        "2": 2
+      },
+      "unops-gw": {
+        "2": 3
+      },
+      "unops-pg": {
+        "2": 2
+      },
+      "unops-mn": {
+        "2": 1
+      },
+      "unops-fr": {
+        "2": 2
+      },
+      "unops-hn": {
+        "2": 8
+      },
+      "unops-bf": {
+        "2": 7
+      },
+      "unops-cf": {
+        "2": 12
+      },
+      "unops-bw": {
+        "2": 1
+      },
+      "unops-lk": {
+        "2": 5
+      },
+      "unops-br": {
+        "2": 11
+      },
+      "unops-ht": {
+        "2": 16
+      },
+      "unops-lc": {
+        "2": 3
+      },
+      "unops-by": {
+        "2": 1
+      },
+      "unops-ec": {
+        "2": 3
+      },
+      "unops-ci": {
+        "2": 1
+      },
+      "unops-sy": {
+        "2": 8
+      },
+      "unops-pa": {
+        "2": 34
+      },
+      "unops-cy": {
+        "2": 2
+      },
+      "unops-nc": {
+        "2": 1
+      }
+    },
+    ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "unops-za": {
+        "C01": 3
+      },
+      "unops-tn": {
+        "C01": 10
+      },
+      "unops-al": {
+        "C01": 1
+      },
+      "unops-dj": {
+        "C01": 4
+      },
+      "unops-fi": {
+        "C01": 1
+      },
+      "unops-gh": {
+        "C01": 3
+      },
+      "unops-ar": {
+        "C01": 11
+      },
+      "unops-de": {
+        "C01": 2
+      },
+      "unops-ls": {
+        "C01": 1
+      },
+      "unops-be": {
+        "C01": 6
+      },
+      "unops-dk": {
+        "C01": 38
+      },
+      "unops-zm": {
+        "C01": 2
+      },
+      "unops-ba": {
+        "C01": 1
+      },
+      "unops-rw": {
+        "C01": 2
+      },
+      "unops-ph": {
+        "C01": 5
+      },
+      "unops-so": {
+        "C01": 32
+      },
+      "unops-ga": {
+        "C01": 2
+      },
+      "unops-ch": {
+        "C01": 91
+      },
+      "unops-kw": {
+        "C01": 1
+      },
+      "unops-kh": {
+        "C01": 13
+      },
+      "unops-ro": {
+        "C01": 1
+      },
+      "unops-gn": {
+        "C01": 4
+      },
+      "unops-ps": {
+        "C01": 27
+      },
+      "unops-ua": {
+        "C01": 29
+      },
+      "unops-nl": {
+        "C01": 4
+      },
+      "unops-mv": {
+        "C01": 2
+      },
+      "unops-na": {
+        "C01": 1
+      },
+      "unops-at": {
+        "C01": 4
+      },
+      "unops-mg": {
+        "C01": 1
+      },
+      "unops-jm": {
+        "C01": 1
+      },
+      "unops-ss": {
+        "C01": 10
+      },
+      "unops-cd": {
+        "C01": 16
+      },
+      "unops-pk": {
+        "C01": 7
+      },
+      "unops-cr": {
+        "C01": 9
+      },
+      "unops-mr": {
+        "C01": 1
+      },
+      "unops-bt": {
+        "C01": 2
+      },
+      "unops-er": {
+        "C01": 1
+      },
+      "unops-rs": {
+        "C01": 9
+      },
+      "unops-tv": {
+        "C01": 1
+      },
+      "unops-ly": {
+        "C01": 9
+      },
+      "unops-bz": {
+        "C01": 2
+      },
+      "unops-ne": {
+        "C01": 4
+      },
+      "unops-pw": {
+        "C01": 1
+      },
+      "unops-la": {
+        "C01": 3
+      },
+      "unops-ao": {
+        "C01": 2
+      },
+      "unops-id": {
+        "C01": 4
+      },
+      "unops-cu": {
+        "C01": 1
+      },
+      "unops-gr": {
+        "C01": 2
+      },
+      "unops-il": {
+        "C01": 1
+      },
+      "unops-it": {
+        "C01": 7
+      },
+      "unops-us": {
+        "C01": 43
+      },
+      "unops-gd": {
+        "C01": 1
+      },
+      "unops-cm": {
+        "C01": 4
+      },
+      "unops-vn": {
+        "C01": 1
+      },
+      "unops-lr": {
+        "C01": 6
+      },
+      "unops-tr": {
+        "C01": 3
+      },
+      "unops-sv": {
+        "C01": 4
+      },
+      "unops-ug": {
+        "C01": 6
+      },
+      "unops-ml": {
+        "C01": 7
+      },
+      "unops-mw": {
+        "C01": 1
+      },
+      "unops-hr": {
+        "C01": 1
+      },
+      "unops-sn": {
+        "C01": 8
+      },
+      "unops-ge": {
+        "C01": 3
+      },
+      "unops-st": {
+        "C01": 1
+      },
+      "unops-jo": {
+        "C01": 24
+      },
+      "unops-np": {
+        "C01": 9
+      },
+      "unops-af": {
+        "C01": 32
+      },
+      "unops-ma": {
+        "C01": 3
+      },
+      "unops-ag": {
+        "C01": 2
+      },
+      "unops-cw": {
+        "C01": 1
+      },
+      "unops-co": {
+        "C01": 10
+      },
+      "unops-dm": {
+        "C01": 2
+      },
+      "unops-eh": {
+        "C01": 5
+      },
+      "unops-gt": {
+        "C01": 2
+      },
+      "unops-bo": {
+        "C01": 1
+      },
+      "unops-ye": {
+        "C01": 15
+      },
+      "unops-my": {
+        "C01": 3
+      },
+      "unops-sd": {
+        "C01": 17
+      },
+      "unops-py": {
+        "C01": 11
+      },
+      "unops-th": {
+        "C01": 11
+      },
+      "unops-td": {
+        "C01": 1
+      },
+      "unops-sb": {
+        "C01": 1
+      },
+      "unops-me": {
+        "C01": 1
+      },
+      "unops-in": {
+        "C01": 1
+      },
+      "unops-mm": {
+        "C01": 22
+      },
+      "unops-hu": {
+        "C01": 4
+      },
+      "unops-et": {
+        "C01": 28
+      },
+      "unops-cn": {
+        "C01": 3
+      },
+      "unops-bd": {
+        "C01": 8
+      },
+      "unops-kr": {
+        "C01": 1
+      },
+      "unops-uy": {
+        "C01": 3
+      },
+      "unops-tt": {
+        "C01": 1
+      },
+      "unops-gm": {
+        "C01": 5
+      },
+      "unops-sr": {
+        "C01": 1
+      },
+      "unops-ir": {
+        "C01": 3
+      },
+      "unops-tj": {
+        "C01": 1
+      },
+      "unops-pe": {
+        "C01": 11
+      },
+      "unops-iq": {
+        "C01": 28
+      },
+      "unops-jp": {
+        "C01": 2
+      },
+      "unops-se": {
+        "C01": 1
+      },
+      "unops-cv": {
+        "C01": 1
+      },
+      "unops-mx": {
+        "C01": 9
+      },
+      "unops-es": {
+        "C01": 5
+      },
+      "unops-sl": {
+        "C01": 7
+      },
+      "unops-kp": {
+        "C01": 1
+      },
+      "unops-dz": {
+        "C01": 2
+      },
+      "unops-bj": {
+        "C01": 3
+      },
+      "unops-tl": {
+        "C01": 1
+      },
+      "unops-fj": {
+        "C01": 1
+      },
+      "unops-xk": {
+        "C01": 2
+      },
+      "unops-ws": {
+        "C01": 1
+      },
+      "unops-lb": {
+        "C01": 7
+      },
+      "unops-kz": {
+        "C01": 1
+      },
+      "unops-sa": {
+        "C01": 2
+      },
+      "unops-tz": {
+        "C01": 4
+      },
+      "unops-ke": {
+        "C01": 31
+      },
+      "unops-mz": {
+        "C01": 1
+      },
+      "unops-kg": {
+        "C01": 1
+      },
+      "unops-mk": {
+        "C01": 4
+      },
+      "unops-eg": {
+        "C01": 2
+      },
+      "unops-tg": {
+        "C01": 2
+      },
+      "unops-bi": {
+        "C01": 2
+      },
+      "unops-zw": {
+        "C01": 3
+      },
+      "unops-mu": {
+        "C01": 1
+      },
+      "unops-ng": {
+        "C01": 2
+      },
+      "unops-gw": {
+        "C01": 3
+      },
+      "unops-pg": {
+        "C01": 2
+      },
+      "unops-mn": {
+        "C01": 1
+      },
+      "unops-fr": {
+        "C01": 2
+      },
+      "unops-hn": {
+        "C01": 8
+      },
+      "unops-bf": {
+        "C01": 7
+      },
+      "unops-cf": {
+        "C01": 12
+      },
+      "unops-bw": {
+        "C01": 1
+      },
+      "unops-lk": {
+        "C01": 5
+      },
+      "unops-br": {
+        "C01": 11
+      },
+      "unops-ht": {
+        "C01": 16
+      },
+      "unops-lc": {
+        "C01": 3
+      },
+      "unops-by": {
+        "C01": 1
+      },
+      "unops-ec": {
+        "C01": 3
+      },
+      "unops-ci": {
+        "C01": 1
+      },
+      "unops-sy": {
+        "C01": 8
+      },
+      "unops-pa": {
+        "C01": 34
+      },
+      "unops-cy": {
+        "C01": 2
+      },
+      "unops-nc": {
+        "C01": 1
+      }
+    },
+    ".//default-finance-type/@code": {
+      "unops-za": {
+        "110": 3
+      },
+      "unops-tn": {
+        "110": 10
+      },
+      "unops-al": {
+        "110": 1
+      },
+      "unops-dj": {
+        "110": 4
+      },
+      "unops-fi": {
+        "110": 1
+      },
+      "unops-gh": {
+        "110": 3
+      },
+      "unops-ar": {
+        "110": 11
+      },
+      "unops-de": {
+        "110": 2
+      },
+      "unops-ls": {
+        "110": 1
+      },
+      "unops-be": {
+        "110": 6
+      },
+      "unops-dk": {
+        "110": 38
+      },
+      "unops-zm": {
+        "110": 2
+      },
+      "unops-ba": {
+        "110": 1
+      },
+      "unops-rw": {
+        "110": 2
+      },
+      "unops-ph": {
+        "110": 5
+      },
+      "unops-so": {
+        "110": 32
+      },
+      "unops-ga": {
+        "110": 2
+      },
+      "unops-ch": {
+        "110": 91
+      },
+      "unops-kw": {
+        "110": 1
+      },
+      "unops-kh": {
+        "110": 13
+      },
+      "unops-ro": {
+        "110": 1
+      },
+      "unops-gn": {
+        "110": 4
+      },
+      "unops-ps": {
+        "110": 27
+      },
+      "unops-ua": {
+        "110": 29
+      },
+      "unops-nl": {
+        "110": 4
+      },
+      "unops-mv": {
+        "110": 2
+      },
+      "unops-na": {
+        "110": 1
+      },
+      "unops-at": {
+        "110": 4
+      },
+      "unops-mg": {
+        "110": 1
+      },
+      "unops-jm": {
+        "110": 1
+      },
+      "unops-ss": {
+        "110": 10
+      },
+      "unops-cd": {
+        "110": 16
+      },
+      "unops-pk": {
+        "110": 7
+      },
+      "unops-cr": {
+        "110": 9
+      },
+      "unops-mr": {
+        "110": 1
+      },
+      "unops-bt": {
+        "110": 2
+      },
+      "unops-er": {
+        "110": 1
+      },
+      "unops-rs": {
+        "110": 9
+      },
+      "unops-tv": {
+        "110": 1
+      },
+      "unops-ly": {
+        "110": 9
+      },
+      "unops-bz": {
+        "110": 2
+      },
+      "unops-ne": {
+        "110": 4
+      },
+      "unops-pw": {
+        "110": 1
+      },
+      "unops-la": {
+        "110": 3
+      },
+      "unops-ao": {
+        "110": 2
+      },
+      "unops-id": {
+        "110": 4
+      },
+      "unops-cu": {
+        "110": 1
+      },
+      "unops-gr": {
+        "110": 2
+      },
+      "unops-il": {
+        "110": 1
+      },
+      "unops-it": {
+        "110": 7
+      },
+      "unops-us": {
+        "110": 43
+      },
+      "unops-gd": {
+        "110": 1
+      },
+      "unops-cm": {
+        "110": 4
+      },
+      "unops-vn": {
+        "110": 1
+      },
+      "unops-lr": {
+        "110": 6
+      },
+      "unops-tr": {
+        "110": 3
+      },
+      "unops-sv": {
+        "110": 4
+      },
+      "unops-ug": {
+        "110": 6
+      },
+      "unops-ml": {
+        "110": 7
+      },
+      "unops-mw": {
+        "110": 1
+      },
+      "unops-hr": {
+        "110": 1
+      },
+      "unops-sn": {
+        "110": 8
+      },
+      "unops-ge": {
+        "110": 3
+      },
+      "unops-st": {
+        "110": 1
+      },
+      "unops-jo": {
+        "110": 24
+      },
+      "unops-np": {
+        "110": 9
+      },
+      "unops-af": {
+        "110": 32
+      },
+      "unops-ma": {
+        "110": 3
+      },
+      "unops-ag": {
+        "110": 2
+      },
+      "unops-cw": {
+        "110": 1
+      },
+      "unops-co": {
+        "110": 10
+      },
+      "unops-dm": {
+        "110": 2
+      },
+      "unops-eh": {
+        "110": 5
+      },
+      "unops-gt": {
+        "110": 2
+      },
+      "unops-bo": {
+        "110": 1
+      },
+      "unops-ye": {
+        "110": 15
+      },
+      "unops-my": {
+        "110": 3
+      },
+      "unops-sd": {
+        "110": 17
+      },
+      "unops-py": {
+        "110": 11
+      },
+      "unops-th": {
+        "110": 11
+      },
+      "unops-td": {
+        "110": 1
+      },
+      "unops-sb": {
+        "110": 1
+      },
+      "unops-me": {
+        "110": 1
+      },
+      "unops-in": {
+        "110": 1
+      },
+      "unops-mm": {
+        "110": 22
+      },
+      "unops-hu": {
+        "110": 4
+      },
+      "unops-et": {
+        "110": 28
+      },
+      "unops-cn": {
+        "110": 3
+      },
+      "unops-bd": {
+        "110": 8
+      },
+      "unops-kr": {
+        "110": 1
+      },
+      "unops-uy": {
+        "110": 3
+      },
+      "unops-tt": {
+        "110": 1
+      },
+      "unops-gm": {
+        "110": 5
+      },
+      "unops-sr": {
+        "110": 1
+      },
+      "unops-ir": {
+        "110": 3
+      },
+      "unops-tj": {
+        "110": 1
+      },
+      "unops-pe": {
+        "110": 11
+      },
+      "unops-iq": {
+        "110": 28
+      },
+      "unops-jp": {
+        "110": 2
+      },
+      "unops-se": {
+        "110": 1
+      },
+      "unops-cv": {
+        "110": 1
+      },
+      "unops-mx": {
+        "110": 9
+      },
+      "unops-es": {
+        "110": 5
+      },
+      "unops-sl": {
+        "110": 7
+      },
+      "unops-kp": {
+        "110": 1
+      },
+      "unops-dz": {
+        "110": 2
+      },
+      "unops-bj": {
+        "110": 3
+      },
+      "unops-tl": {
+        "110": 1
+      },
+      "unops-fj": {
+        "110": 1
+      },
+      "unops-xk": {
+        "110": 2
+      },
+      "unops-ws": {
+        "110": 1
+      },
+      "unops-lb": {
+        "110": 7
+      },
+      "unops-kz": {
+        "110": 1
+      },
+      "unops-sa": {
+        "110": 2
+      },
+      "unops-tz": {
+        "110": 4
+      },
+      "unops-ke": {
+        "110": 31
+      },
+      "unops-mz": {
+        "110": 1
+      },
+      "unops-kg": {
+        "110": 1
+      },
+      "unops-mk": {
+        "110": 4
+      },
+      "unops-eg": {
+        "110": 2
+      },
+      "unops-tg": {
+        "110": 2
+      },
+      "unops-bi": {
+        "110": 2
+      },
+      "unops-zw": {
+        "110": 3
+      },
+      "unops-mu": {
+        "110": 1
+      },
+      "unops-ng": {
+        "110": 2
+      },
+      "unops-gw": {
+        "110": 3
+      },
+      "unops-pg": {
+        "110": 2
+      },
+      "unops-mn": {
+        "110": 1
+      },
+      "unops-fr": {
+        "110": 2
+      },
+      "unops-hn": {
+        "110": 8
+      },
+      "unops-bf": {
+        "110": 7
+      },
+      "unops-cf": {
+        "110": 12
+      },
+      "unops-bw": {
+        "110": 1
+      },
+      "unops-lk": {
+        "110": 5
+      },
+      "unops-br": {
+        "110": 11
+      },
+      "unops-ht": {
+        "110": 16
+      },
+      "unops-lc": {
+        "110": 3
+      },
+      "unops-by": {
+        "110": 1
+      },
+      "unops-ec": {
+        "110": 3
+      },
+      "unops-ci": {
+        "110": 1
+      },
+      "unops-sy": {
+        "110": 8
+      },
+      "unops-pa": {
+        "110": 34
+      },
+      "unops-cy": {
+        "110": 2
+      },
+      "unops-nc": {
+        "110": 1
+      }
+    },
+    ".//default-flow-type/@code": {
+      "unops-za": {
+        "20": 3
+      },
+      "unops-tn": {
+        "20": 10
+      },
+      "unops-al": {
+        "20": 1
+      },
+      "unops-dj": {
+        "20": 4
+      },
+      "unops-fi": {
+        "20": 1
+      },
+      "unops-gh": {
+        "20": 3
+      },
+      "unops-ar": {
+        "20": 11
+      },
+      "unops-de": {
+        "20": 2
+      },
+      "unops-ls": {
+        "20": 1
+      },
+      "unops-be": {
+        "20": 6
+      },
+      "unops-dk": {
+        "20": 38
+      },
+      "unops-zm": {
+        "20": 2
+      },
+      "unops-ba": {
+        "20": 1
+      },
+      "unops-rw": {
+        "20": 2
+      },
+      "unops-ph": {
+        "20": 5
+      },
+      "unops-so": {
+        "20": 32
+      },
+      "unops-ga": {
+        "20": 2
+      },
+      "unops-ch": {
+        "20": 91
+      },
+      "unops-kw": {
+        "20": 1
+      },
+      "unops-kh": {
+        "20": 13
+      },
+      "unops-ro": {
+        "20": 1
+      },
+      "unops-gn": {
+        "20": 4
+      },
+      "unops-ps": {
+        "20": 27
+      },
+      "unops-ua": {
+        "20": 29
+      },
+      "unops-nl": {
+        "20": 4
+      },
+      "unops-mv": {
+        "20": 2
+      },
+      "unops-na": {
+        "20": 1
+      },
+      "unops-at": {
+        "20": 4
+      },
+      "unops-mg": {
+        "20": 1
+      },
+      "unops-jm": {
+        "20": 1
+      },
+      "unops-ss": {
+        "20": 10
+      },
+      "unops-cd": {
+        "20": 16
+      },
+      "unops-pk": {
+        "20": 7
+      },
+      "unops-cr": {
+        "20": 9
+      },
+      "unops-mr": {
+        "20": 1
+      },
+      "unops-bt": {
+        "20": 2
+      },
+      "unops-er": {
+        "20": 1
+      },
+      "unops-rs": {
+        "20": 9
+      },
+      "unops-tv": {
+        "20": 1
+      },
+      "unops-ly": {
+        "20": 9
+      },
+      "unops-bz": {
+        "20": 2
+      },
+      "unops-ne": {
+        "20": 4
+      },
+      "unops-pw": {
+        "20": 1
+      },
+      "unops-la": {
+        "20": 3
+      },
+      "unops-ao": {
+        "20": 2
+      },
+      "unops-id": {
+        "20": 4
+      },
+      "unops-cu": {
+        "20": 1
+      },
+      "unops-gr": {
+        "20": 2
+      },
+      "unops-il": {
+        "20": 1
+      },
+      "unops-it": {
+        "20": 7
+      },
+      "unops-us": {
+        "20": 43
+      },
+      "unops-gd": {
+        "20": 1
+      },
+      "unops-cm": {
+        "20": 4
+      },
+      "unops-vn": {
+        "20": 1
+      },
+      "unops-lr": {
+        "20": 6
+      },
+      "unops-tr": {
+        "20": 3
+      },
+      "unops-sv": {
+        "20": 4
+      },
+      "unops-ug": {
+        "20": 6
+      },
+      "unops-ml": {
+        "20": 7
+      },
+      "unops-mw": {
+        "20": 1
+      },
+      "unops-hr": {
+        "20": 1
+      },
+      "unops-sn": {
+        "20": 8
+      },
+      "unops-ge": {
+        "20": 3
+      },
+      "unops-st": {
+        "20": 1
+      },
+      "unops-jo": {
+        "20": 24
+      },
+      "unops-np": {
+        "20": 9
+      },
+      "unops-af": {
+        "20": 32
+      },
+      "unops-ma": {
+        "20": 3
+      },
+      "unops-ag": {
+        "20": 2
+      },
+      "unops-cw": {
+        "20": 1
+      },
+      "unops-co": {
+        "20": 10
+      },
+      "unops-dm": {
+        "20": 2
+      },
+      "unops-eh": {
+        "20": 5
+      },
+      "unops-gt": {
+        "20": 2
+      },
+      "unops-bo": {
+        "20": 1
+      },
+      "unops-ye": {
+        "20": 15
+      },
+      "unops-my": {
+        "20": 3
+      },
+      "unops-sd": {
+        "20": 17
+      },
+      "unops-py": {
+        "20": 11
+      },
+      "unops-th": {
+        "20": 11
+      },
+      "unops-td": {
+        "20": 1
+      },
+      "unops-sb": {
+        "20": 1
+      },
+      "unops-me": {
+        "20": 1
+      },
+      "unops-in": {
+        "20": 1
+      },
+      "unops-mm": {
+        "20": 22
+      },
+      "unops-hu": {
+        "20": 4
+      },
+      "unops-et": {
+        "20": 28
+      },
+      "unops-cn": {
+        "20": 3
+      },
+      "unops-bd": {
+        "20": 8
+      },
+      "unops-kr": {
+        "20": 1
+      },
+      "unops-uy": {
+        "20": 3
+      },
+      "unops-tt": {
+        "20": 1
+      },
+      "unops-gm": {
+        "20": 5
+      },
+      "unops-sr": {
+        "20": 1
+      },
+      "unops-ir": {
+        "20": 3
+      },
+      "unops-tj": {
+        "20": 1
+      },
+      "unops-pe": {
+        "20": 11
+      },
+      "unops-iq": {
+        "20": 28
+      },
+      "unops-jp": {
+        "20": 2
+      },
+      "unops-se": {
+        "20": 1
+      },
+      "unops-cv": {
+        "20": 1
+      },
+      "unops-mx": {
+        "20": 9
+      },
+      "unops-es": {
+        "20": 5
+      },
+      "unops-sl": {
+        "20": 7
+      },
+      "unops-kp": {
+        "20": 1
+      },
+      "unops-dz": {
+        "20": 2
+      },
+      "unops-bj": {
+        "20": 3
+      },
+      "unops-tl": {
+        "20": 1
+      },
+      "unops-fj": {
+        "20": 1
+      },
+      "unops-xk": {
+        "20": 2
+      },
+      "unops-ws": {
+        "20": 1
+      },
+      "unops-lb": {
+        "20": 7
+      },
+      "unops-kz": {
+        "20": 1
+      },
+      "unops-sa": {
+        "20": 2
+      },
+      "unops-tz": {
+        "20": 4
+      },
+      "unops-ke": {
+        "20": 31
+      },
+      "unops-mz": {
+        "20": 1
+      },
+      "unops-kg": {
+        "20": 1
+      },
+      "unops-mk": {
+        "20": 4
+      },
+      "unops-eg": {
+        "20": 2
+      },
+      "unops-tg": {
+        "20": 2
+      },
+      "unops-bi": {
+        "20": 2
+      },
+      "unops-zw": {
+        "20": 3
+      },
+      "unops-mu": {
+        "20": 1
+      },
+      "unops-ng": {
+        "20": 2
+      },
+      "unops-gw": {
+        "20": 3
+      },
+      "unops-pg": {
+        "20": 2
+      },
+      "unops-mn": {
+        "20": 1
+      },
+      "unops-fr": {
+        "20": 2
+      },
+      "unops-hn": {
+        "20": 8
+      },
+      "unops-bf": {
+        "20": 7
+      },
+      "unops-cf": {
+        "20": 12
+      },
+      "unops-bw": {
+        "20": 1
+      },
+      "unops-lk": {
+        "20": 5
+      },
+      "unops-br": {
+        "20": 11
+      },
+      "unops-ht": {
+        "20": 16
+      },
+      "unops-lc": {
+        "20": 3
+      },
+      "unops-by": {
+        "20": 1
+      },
+      "unops-ec": {
+        "20": 3
+      },
+      "unops-ci": {
+        "20": 1
+      },
+      "unops-sy": {
+        "20": 8
+      },
+      "unops-pa": {
+        "20": 34
+      },
+      "unops-cy": {
+        "20": 2
+      },
+      "unops-nc": {
+        "20": 1
+      }
+    },
+    ".//default-tied-status/@code": {
+      "unops-za": {
+        "5": 3
+      },
+      "unops-tn": {
+        "5": 10
+      },
+      "unops-al": {
+        "5": 1
+      },
+      "unops-dj": {
+        "5": 4
+      },
+      "unops-fi": {
+        "5": 1
+      },
+      "unops-gh": {
+        "5": 3
+      },
+      "unops-ar": {
+        "5": 11
+      },
+      "unops-de": {
+        "5": 2
+      },
+      "unops-ls": {
+        "5": 1
+      },
+      "unops-be": {
+        "5": 6
+      },
+      "unops-dk": {
+        "5": 38
+      },
+      "unops-zm": {
+        "5": 2
+      },
+      "unops-ba": {
+        "5": 1
+      },
+      "unops-rw": {
+        "5": 2
+      },
+      "unops-ph": {
+        "5": 5
+      },
+      "unops-so": {
+        "5": 32
+      },
+      "unops-ga": {
+        "5": 2
+      },
+      "unops-ch": {
+        "5": 91
+      },
+      "unops-kw": {
+        "5": 1
+      },
+      "unops-kh": {
+        "5": 13
+      },
+      "unops-ro": {
+        "5": 1
+      },
+      "unops-gn": {
+        "5": 4
+      },
+      "unops-ps": {
+        "5": 27
+      },
+      "unops-ua": {
+        "5": 29
+      },
+      "unops-nl": {
+        "5": 4
+      },
+      "unops-mv": {
+        "5": 2
+      },
+      "unops-na": {
+        "5": 1
+      },
+      "unops-at": {
+        "5": 4
+      },
+      "unops-mg": {
+        "5": 1
+      },
+      "unops-jm": {
+        "5": 1
+      },
+      "unops-ss": {
+        "5": 10
+      },
+      "unops-cd": {
+        "5": 16
+      },
+      "unops-pk": {
+        "5": 7
+      },
+      "unops-cr": {
+        "5": 9
+      },
+      "unops-mr": {
+        "5": 1
+      },
+      "unops-bt": {
+        "5": 2
+      },
+      "unops-er": {
+        "5": 1
+      },
+      "unops-rs": {
+        "5": 9
+      },
+      "unops-tv": {
+        "5": 1
+      },
+      "unops-ly": {
+        "5": 9
+      },
+      "unops-bz": {
+        "5": 2
+      },
+      "unops-ne": {
+        "5": 4
+      },
+      "unops-pw": {
+        "5": 1
+      },
+      "unops-la": {
+        "5": 3
+      },
+      "unops-ao": {
+        "5": 2
+      },
+      "unops-id": {
+        "5": 4
+      },
+      "unops-cu": {
+        "5": 1
+      },
+      "unops-gr": {
+        "5": 2
+      },
+      "unops-il": {
+        "5": 1
+      },
+      "unops-it": {
+        "5": 7
+      },
+      "unops-us": {
+        "5": 43
+      },
+      "unops-gd": {
+        "5": 1
+      },
+      "unops-cm": {
+        "5": 4
+      },
+      "unops-vn": {
+        "5": 1
+      },
+      "unops-lr": {
+        "5": 6
+      },
+      "unops-tr": {
+        "5": 3
+      },
+      "unops-sv": {
+        "5": 4
+      },
+      "unops-ug": {
+        "5": 6
+      },
+      "unops-ml": {
+        "5": 7
+      },
+      "unops-mw": {
+        "5": 1
+      },
+      "unops-hr": {
+        "5": 1
+      },
+      "unops-sn": {
+        "5": 8
+      },
+      "unops-ge": {
+        "5": 3
+      },
+      "unops-st": {
+        "5": 1
+      },
+      "unops-jo": {
+        "5": 24
+      },
+      "unops-np": {
+        "5": 9
+      },
+      "unops-af": {
+        "5": 32
+      },
+      "unops-ma": {
+        "5": 3
+      },
+      "unops-ag": {
+        "5": 2
+      },
+      "unops-cw": {
+        "5": 1
+      },
+      "unops-co": {
+        "5": 10
+      },
+      "unops-dm": {
+        "5": 2
+      },
+      "unops-eh": {
+        "5": 5
+      },
+      "unops-gt": {
+        "5": 2
+      },
+      "unops-bo": {
+        "5": 1
+      },
+      "unops-ye": {
+        "5": 15
+      },
+      "unops-my": {
+        "5": 3
+      },
+      "unops-sd": {
+        "5": 17
+      },
+      "unops-py": {
+        "5": 11
+      },
+      "unops-th": {
+        "5": 11
+      },
+      "unops-td": {
+        "5": 1
+      },
+      "unops-sb": {
+        "5": 1
+      },
+      "unops-me": {
+        "5": 1
+      },
+      "unops-in": {
+        "5": 1
+      },
+      "unops-mm": {
+        "5": 22
+      },
+      "unops-hu": {
+        "5": 4
+      },
+      "unops-et": {
+        "5": 28
+      },
+      "unops-cn": {
+        "5": 3
+      },
+      "unops-bd": {
+        "5": 8
+      },
+      "unops-kr": {
+        "5": 1
+      },
+      "unops-uy": {
+        "5": 3
+      },
+      "unops-tt": {
+        "5": 1
+      },
+      "unops-gm": {
+        "5": 5
+      },
+      "unops-sr": {
+        "5": 1
+      },
+      "unops-ir": {
+        "5": 3
+      },
+      "unops-tj": {
+        "5": 1
+      },
+      "unops-pe": {
+        "5": 11
+      },
+      "unops-iq": {
+        "5": 28
+      },
+      "unops-jp": {
+        "5": 2
+      },
+      "unops-se": {
+        "5": 1
+      },
+      "unops-cv": {
+        "5": 1
+      },
+      "unops-mx": {
+        "5": 9
+      },
+      "unops-es": {
+        "5": 5
+      },
+      "unops-sl": {
+        "5": 7
+      },
+      "unops-kp": {
+        "5": 1
+      },
+      "unops-dz": {
+        "5": 2
+      },
+      "unops-bj": {
+        "5": 3
+      },
+      "unops-tl": {
+        "5": 1
+      },
+      "unops-fj": {
+        "5": 1
+      },
+      "unops-xk": {
+        "5": 2
+      },
+      "unops-ws": {
+        "5": 1
+      },
+      "unops-lb": {
+        "5": 7
+      },
+      "unops-kz": {
+        "5": 1
+      },
+      "unops-sa": {
+        "5": 2
+      },
+      "unops-tz": {
+        "5": 4
+      },
+      "unops-ke": {
+        "5": 31
+      },
+      "unops-mz": {
+        "5": 1
+      },
+      "unops-kg": {
+        "5": 1
+      },
+      "unops-mk": {
+        "5": 4
+      },
+      "unops-eg": {
+        "5": 2
+      },
+      "unops-tg": {
+        "5": 2
+      },
+      "unops-bi": {
+        "5": 2
+      },
+      "unops-zw": {
+        "5": 3
+      },
+      "unops-mu": {
+        "5": 1
+      },
+      "unops-ng": {
+        "5": 2
+      },
+      "unops-gw": {
+        "5": 3
+      },
+      "unops-pg": {
+        "5": 2
+      },
+      "unops-mn": {
+        "5": 1
+      },
+      "unops-fr": {
+        "5": 2
+      },
+      "unops-hn": {
+        "5": 8
+      },
+      "unops-bf": {
+        "5": 7
+      },
+      "unops-cf": {
+        "5": 12
+      },
+      "unops-bw": {
+        "5": 1
+      },
+      "unops-lk": {
+        "5": 5
+      },
+      "unops-br": {
+        "5": 11
+      },
+      "unops-ht": {
+        "5": 16
+      },
+      "unops-lc": {
+        "5": 3
+      },
+      "unops-by": {
+        "5": 1
+      },
+      "unops-ec": {
+        "5": 3
+      },
+      "unops-ci": {
+        "5": 1
+      },
+      "unops-sy": {
+        "5": 8
+      },
+      "unops-pa": {
+        "5": 34
+      },
+      "unops-cy": {
+        "5": 2
+      },
+      "unops-nc": {
+        "5": 1
+      }
+    },
+    ".//description/@type": {
+      "unops-za": {
+        "1": 3
+      },
+      "unops-tn": {
+        "1": 10
+      },
+      "unops-al": {
+        "1": 1
+      },
+      "unops-dj": {
+        "1": 4
+      },
+      "unops-fi": {
+        "1": 1
+      },
+      "unops-gh": {
+        "1": 3
+      },
+      "unops-ar": {
+        "1": 11
+      },
+      "unops-de": {
+        "1": 2
+      },
+      "unops-ls": {
+        "1": 1
+      },
+      "unops-be": {
+        "1": 6
+      },
+      "unops-dk": {
+        "1": 38
+      },
+      "unops-zm": {
+        "1": 2
+      },
+      "unops-ba": {
+        "1": 1
+      },
+      "unops-rw": {
+        "1": 2
+      },
+      "unops-ph": {
+        "1": 5
+      },
+      "unops-so": {
+        "1": 32
+      },
+      "unops-ga": {
+        "1": 2
+      },
+      "unops-ch": {
+        "1": 91
+      },
+      "unops-kw": {
+        "1": 1
+      },
+      "unops-kh": {
+        "1": 13
+      },
+      "unops-ro": {
+        "1": 1
+      },
+      "unops-gn": {
+        "1": 4
+      },
+      "unops-ps": {
+        "1": 27
+      },
+      "unops-ua": {
+        "1": 29
+      },
+      "unops-nl": {
+        "1": 4
+      },
+      "unops-mv": {
+        "1": 2
+      },
+      "unops-na": {
+        "1": 1
+      },
+      "unops-at": {
+        "1": 4
+      },
+      "unops-mg": {
+        "1": 1
+      },
+      "unops-jm": {
+        "1": 1
+      },
+      "unops-ss": {
+        "1": 10
+      },
+      "unops-cd": {
+        "1": 16
+      },
+      "unops-pk": {
+        "1": 7
+      },
+      "unops-cr": {
+        "1": 9
+      },
+      "unops-mr": {
+        "1": 1
+      },
+      "unops-bt": {
+        "1": 2
+      },
+      "unops-er": {
+        "1": 1
+      },
+      "unops-rs": {
+        "1": 9
+      },
+      "unops-tv": {
+        "1": 1
+      },
+      "unops-ly": {
+        "1": 9
+      },
+      "unops-bz": {
+        "1": 2
+      },
+      "unops-ne": {
+        "1": 4
+      },
+      "unops-pw": {
+        "1": 1
+      },
+      "unops-la": {
+        "1": 3
+      },
+      "unops-ao": {
+        "1": 2
+      },
+      "unops-id": {
+        "1": 4
+      },
+      "unops-cu": {
+        "1": 1
+      },
+      "unops-gr": {
+        "1": 2
+      },
+      "unops-il": {
+        "1": 1
+      },
+      "unops-it": {
+        "1": 7
+      },
+      "unops-us": {
+        "1": 43
+      },
+      "unops-gd": {
+        "1": 1
+      },
+      "unops-cm": {
+        "1": 4
+      },
+      "unops-vn": {
+        "1": 1
+      },
+      "unops-lr": {
+        "1": 6
+      },
+      "unops-tr": {
+        "1": 3
+      },
+      "unops-sv": {
+        "1": 4
+      },
+      "unops-ug": {
+        "1": 6
+      },
+      "unops-ml": {
+        "1": 7
+      },
+      "unops-mw": {
+        "1": 1
+      },
+      "unops-hr": {
+        "1": 1
+      },
+      "unops-sn": {
+        "1": 8
+      },
+      "unops-ge": {
+        "1": 3
+      },
+      "unops-st": {
+        "1": 1
+      },
+      "unops-jo": {
+        "1": 24
+      },
+      "unops-np": {
+        "1": 9
+      },
+      "unops-af": {
+        "1": 32
+      },
+      "unops-ma": {
+        "1": 3
+      },
+      "unops-ag": {
+        "1": 2
+      },
+      "unops-cw": {
+        "1": 1
+      },
+      "unops-co": {
+        "1": 10
+      },
+      "unops-dm": {
+        "1": 2
+      },
+      "unops-eh": {
+        "1": 5
+      },
+      "unops-gt": {
+        "1": 2
+      },
+      "unops-bo": {
+        "1": 1
+      },
+      "unops-ye": {
+        "1": 15
+      },
+      "unops-my": {
+        "1": 3
+      },
+      "unops-sd": {
+        "1": 17
+      },
+      "unops-py": {
+        "1": 11
+      },
+      "unops-th": {
+        "1": 11
+      },
+      "unops-td": {
+        "1": 1
+      },
+      "unops-sb": {
+        "1": 1
+      },
+      "unops-me": {
+        "1": 1
+      },
+      "unops-in": {
+        "1": 1
+      },
+      "unops-mm": {
+        "1": 22
+      },
+      "unops-hu": {
+        "1": 4
+      },
+      "unops-et": {
+        "1": 28
+      },
+      "unops-cn": {
+        "1": 3
+      },
+      "unops-bd": {
+        "1": 8
+      },
+      "unops-kr": {
+        "1": 1
+      },
+      "unops-uy": {
+        "1": 3
+      },
+      "unops-tt": {
+        "1": 1
+      },
+      "unops-gm": {
+        "1": 5
+      },
+      "unops-sr": {
+        "1": 1
+      },
+      "unops-ir": {
+        "1": 3
+      },
+      "unops-tj": {
+        "1": 1
+      },
+      "unops-pe": {
+        "1": 11
+      },
+      "unops-iq": {
+        "1": 28
+      },
+      "unops-jp": {
+        "1": 2
+      },
+      "unops-se": {
+        "1": 1
+      },
+      "unops-cv": {
+        "1": 1
+      },
+      "unops-mx": {
+        "1": 9
+      },
+      "unops-es": {
+        "1": 5
+      },
+      "unops-sl": {
+        "1": 7
+      },
+      "unops-kp": {
+        "1": 1
+      },
+      "unops-dz": {
+        "1": 2
+      },
+      "unops-bj": {
+        "1": 3
+      },
+      "unops-tl": {
+        "1": 1
+      },
+      "unops-fj": {
+        "1": 1
+      },
+      "unops-xk": {
+        "1": 2
+      },
+      "unops-ws": {
+        "1": 1
+      },
+      "unops-lb": {
+        "1": 7
+      },
+      "unops-kz": {
+        "1": 1
+      },
+      "unops-sa": {
+        "1": 2
+      },
+      "unops-tz": {
+        "1": 4
+      },
+      "unops-ke": {
+        "1": 31
+      },
+      "unops-mz": {
+        "1": 1
+      },
+      "unops-kg": {
+        "1": 1
+      },
+      "unops-mk": {
+        "1": 4
+      },
+      "unops-eg": {
+        "1": 2
+      },
+      "unops-tg": {
+        "1": 2
+      },
+      "unops-bi": {
+        "1": 2
+      },
+      "unops-zw": {
+        "1": 3
+      },
+      "unops-mu": {
+        "1": 1
+      },
+      "unops-ng": {
+        "1": 2
+      },
+      "unops-gw": {
+        "1": 3
+      },
+      "unops-pg": {
+        "1": 2
+      },
+      "unops-mn": {
+        "1": 1
+      },
+      "unops-fr": {
+        "1": 2
+      },
+      "unops-hn": {
+        "1": 8
+      },
+      "unops-bf": {
+        "1": 7
+      },
+      "unops-cf": {
+        "1": 12
+      },
+      "unops-bw": {
+        "1": 1
+      },
+      "unops-lk": {
+        "1": 5
+      },
+      "unops-br": {
+        "1": 11
+      },
+      "unops-ht": {
+        "1": 16
+      },
+      "unops-lc": {
+        "1": 3
+      },
+      "unops-by": {
+        "1": 1
+      },
+      "unops-ec": {
+        "1": 3
+      },
+      "unops-ci": {
+        "1": 1
+      },
+      "unops-sy": {
+        "1": 8
+      },
+      "unops-pa": {
+        "1": 34
+      },
+      "unops-cy": {
+        "1": 2
+      },
+      "unops-nc": {
+        "1": 1
+      }
+    },
+    ".//document-link/@format": {
+      "unops-za": {
+        "text/html": 3
+      },
+      "unops-tn": {
+        "text/html": 10
+      },
+      "unops-al": {
+        "text/html": 1
+      },
+      "unops-dj": {
+        "text/html": 4
+      },
+      "unops-fi": {
+        "text/html": 1
+      },
+      "unops-gh": {
+        "text/html": 3
+      },
+      "unops-ar": {
+        "text/html": 11
+      },
+      "unops-de": {
+        "text/html": 2
+      },
+      "unops-ls": {
+        "text/html": 1
+      },
+      "unops-be": {
+        "text/html": 6
+      },
+      "unops-dk": {
+        "text/html": 38
+      },
+      "unops-zm": {
+        "text/html": 2
+      },
+      "unops-ba": {
+        "text/html": 1
+      },
+      "unops-rw": {
+        "text/html": 2
+      },
+      "unops-ph": {
+        "text/html": 5
+      },
+      "unops-so": {
+        "text/html": 32
+      },
+      "unops-ga": {
+        "text/html": 2
+      },
+      "unops-ch": {
+        "text/html": 91
+      },
+      "unops-kw": {
+        "text/html": 1
+      },
+      "unops-kh": {
+        "text/html": 13
+      },
+      "unops-ro": {
+        "text/html": 1
+      },
+      "unops-gn": {
+        "text/html": 4
+      },
+      "unops-ps": {
+        "text/html": 27
+      },
+      "unops-ua": {
+        "text/html": 29
+      },
+      "unops-nl": {
+        "text/html": 4
+      },
+      "unops-mv": {
+        "text/html": 2
+      },
+      "unops-na": {
+        "text/html": 1
+      },
+      "unops-at": {
+        "text/html": 4
+      },
+      "unops-mg": {
+        "text/html": 1
+      },
+      "unops-jm": {
+        "text/html": 1
+      },
+      "unops-ss": {
+        "text/html": 10
+      },
+      "unops-cd": {
+        "text/html": 16
+      },
+      "unops-pk": {
+        "text/html": 7
+      },
+      "unops-cr": {
+        "text/html": 9
+      },
+      "unops-mr": {
+        "text/html": 1
+      },
+      "unops-bt": {
+        "text/html": 2
+      },
+      "unops-er": {
+        "text/html": 1
+      },
+      "unops-rs": {
+        "text/html": 9
+      },
+      "unops-tv": {
+        "text/html": 1
+      },
+      "unops-ly": {
+        "text/html": 9
+      },
+      "unops-bz": {
+        "text/html": 2
+      },
+      "unops-ne": {
+        "text/html": 4
+      },
+      "unops-pw": {
+        "text/html": 1
+      },
+      "unops-la": {
+        "text/html": 3
+      },
+      "unops-ao": {
+        "text/html": 2
+      },
+      "unops-id": {
+        "text/html": 4
+      },
+      "unops-cu": {
+        "text/html": 1
+      },
+      "unops-gr": {
+        "text/html": 2
+      },
+      "unops-il": {
+        "text/html": 1
+      },
+      "unops-it": {
+        "text/html": 7
+      },
+      "unops-us": {
+        "text/html": 43
+      },
+      "unops-gd": {
+        "text/html": 1
+      },
+      "unops-cm": {
+        "text/html": 4
+      },
+      "unops-vn": {
+        "text/html": 1
+      },
+      "unops-lr": {
+        "text/html": 6
+      },
+      "unops-tr": {
+        "text/html": 3
+      },
+      "unops-sv": {
+        "text/html": 4
+      },
+      "unops-ug": {
+        "text/html": 6
+      },
+      "unops-ml": {
+        "text/html": 7
+      },
+      "unops-mw": {
+        "text/html": 1
+      },
+      "unops-hr": {
+        "text/html": 1
+      },
+      "unops-sn": {
+        "text/html": 8
+      },
+      "unops-ge": {
+        "text/html": 3
+      },
+      "unops-st": {
+        "text/html": 1
+      },
+      "unops-jo": {
+        "text/html": 24
+      },
+      "unops-np": {
+        "text/html": 9
+      },
+      "unops-af": {
+        "text/html": 32
+      },
+      "unops-ma": {
+        "text/html": 3
+      },
+      "unops-ag": {
+        "text/html": 2
+      },
+      "unops-cw": {
+        "text/html": 1
+      },
+      "unops-co": {
+        "text/html": 10
+      },
+      "unops-dm": {
+        "text/html": 2
+      },
+      "unops-eh": {
+        "text/html": 5
+      },
+      "unops-gt": {
+        "text/html": 2
+      },
+      "unops-bo": {
+        "text/html": 1
+      },
+      "unops-ye": {
+        "text/html": 15
+      },
+      "unops-my": {
+        "text/html": 3
+      },
+      "unops-sd": {
+        "text/html": 17
+      },
+      "unops-py": {
+        "text/html": 11
+      },
+      "unops-th": {
+        "text/html": 11
+      },
+      "unops-td": {
+        "text/html": 1
+      },
+      "unops-sb": {
+        "text/html": 1
+      },
+      "unops-me": {
+        "text/html": 1
+      },
+      "unops-in": {
+        "text/html": 1
+      },
+      "unops-mm": {
+        "text/html": 22
+      },
+      "unops-hu": {
+        "text/html": 4
+      },
+      "unops-et": {
+        "text/html": 28
+      },
+      "unops-cn": {
+        "text/html": 3
+      },
+      "unops-bd": {
+        "text/html": 8
+      },
+      "unops-kr": {
+        "text/html": 1
+      },
+      "unops-uy": {
+        "text/html": 3
+      },
+      "unops-tt": {
+        "text/html": 1
+      },
+      "unops-gm": {
+        "text/html": 5
+      },
+      "unops-sr": {
+        "text/html": 1
+      },
+      "unops-ir": {
+        "text/html": 3
+      },
+      "unops-tj": {
+        "text/html": 1
+      },
+      "unops-pe": {
+        "text/html": 11
+      },
+      "unops-iq": {
+        "text/html": 28
+      },
+      "unops-jp": {
+        "text/html": 2
+      },
+      "unops-se": {
+        "text/html": 1
+      },
+      "unops-cv": {
+        "text/html": 1
+      },
+      "unops-mx": {
+        "text/html": 9
+      },
+      "unops-es": {
+        "text/html": 5
+      },
+      "unops-sl": {
+        "text/html": 7
+      },
+      "unops-kp": {
+        "text/html": 1
+      },
+      "unops-dz": {
+        "text/html": 2
+      },
+      "unops-bj": {
+        "text/html": 3
+      },
+      "unops-tl": {
+        "text/html": 1
+      },
+      "unops-fj": {
+        "text/html": 1
+      },
+      "unops-xk": {
+        "text/html": 2
+      },
+      "unops-ws": {
+        "text/html": 1
+      },
+      "unops-lb": {
+        "text/html": 7
+      },
+      "unops-kz": {
+        "text/html": 1
+      },
+      "unops-sa": {
+        "text/html": 2
+      },
+      "unops-tz": {
+        "text/html": 4
+      },
+      "unops-ke": {
+        "text/html": 31
+      },
+      "unops-mz": {
+        "text/html": 1
+      },
+      "unops-kg": {
+        "text/html": 1
+      },
+      "unops-mk": {
+        "text/html": 4
+      },
+      "unops-eg": {
+        "text/html": 2
+      },
+      "unops-tg": {
+        "text/html": 2
+      },
+      "unops-bi": {
+        "text/html": 2
+      },
+      "unops-zw": {
+        "text/html": 3
+      },
+      "unops-mu": {
+        "text/html": 1
+      },
+      "unops-ng": {
+        "text/html": 2
+      },
+      "unops-gw": {
+        "text/html": 3
+      },
+      "unops-pg": {
+        "text/html": 2
+      },
+      "unops-mn": {
+        "text/html": 1
+      },
+      "unops-fr": {
+        "text/html": 2
+      },
+      "unops-hn": {
+        "text/html": 8
+      },
+      "unops-bf": {
+        "text/html": 7
+      },
+      "unops-cf": {
+        "text/html": 12
+      },
+      "unops-bw": {
+        "text/html": 1
+      },
+      "unops-lk": {
+        "text/html": 5
+      },
+      "unops-br": {
+        "text/html": 11
+      },
+      "unops-ht": {
+        "text/html": 16
+      },
+      "unops-lc": {
+        "text/html": 3
+      },
+      "unops-by": {
+        "text/html": 1
+      },
+      "unops-ec": {
+        "text/html": 3
+      },
+      "unops-ci": {
+        "text/html": 1
+      },
+      "unops-sy": {
+        "text/html": 8
+      },
+      "unops-pa": {
+        "text/html": 34
+      },
+      "unops-cy": {
+        "text/html": 2
+      },
+      "unops-nc": {
+        "text/html": 1
+      }
+    },
+    ".//document-link/category/@code": {
+      "unops-za": {
+        "A12": 3
+      },
+      "unops-tn": {
+        "A12": 10
+      },
+      "unops-al": {
+        "A12": 1
+      },
+      "unops-dj": {
+        "A12": 4
+      },
+      "unops-fi": {
+        "A12": 1
+      },
+      "unops-gh": {
+        "A12": 3
+      },
+      "unops-ar": {
+        "A12": 11
+      },
+      "unops-de": {
+        "A12": 2
+      },
+      "unops-ls": {
+        "A12": 1
+      },
+      "unops-be": {
+        "A12": 6
+      },
+      "unops-dk": {
+        "A12": 38
+      },
+      "unops-zm": {
+        "A12": 2
+      },
+      "unops-ba": {
+        "A12": 1
+      },
+      "unops-rw": {
+        "A12": 2
+      },
+      "unops-ph": {
+        "A12": 5
+      },
+      "unops-so": {
+        "A12": 32
+      },
+      "unops-ga": {
+        "A12": 2
+      },
+      "unops-ch": {
+        "A12": 91
+      },
+      "unops-kw": {
+        "A12": 1
+      },
+      "unops-kh": {
+        "A12": 13
+      },
+      "unops-ro": {
+        "A12": 1
+      },
+      "unops-gn": {
+        "A12": 4
+      },
+      "unops-ps": {
+        "A12": 27
+      },
+      "unops-ua": {
+        "A12": 29
+      },
+      "unops-nl": {
+        "A12": 4
+      },
+      "unops-mv": {
+        "A12": 2
+      },
+      "unops-na": {
+        "A12": 1
+      },
+      "unops-at": {
+        "A12": 4
+      },
+      "unops-mg": {
+        "A12": 1
+      },
+      "unops-jm": {
+        "A12": 1
+      },
+      "unops-ss": {
+        "A12": 10
+      },
+      "unops-cd": {
+        "A12": 16
+      },
+      "unops-pk": {
+        "A12": 7
+      },
+      "unops-cr": {
+        "A12": 9
+      },
+      "unops-mr": {
+        "A12": 1
+      },
+      "unops-bt": {
+        "A12": 2
+      },
+      "unops-er": {
+        "A12": 1
+      },
+      "unops-rs": {
+        "A12": 9
+      },
+      "unops-tv": {
+        "A12": 1
+      },
+      "unops-ly": {
+        "A12": 9
+      },
+      "unops-bz": {
+        "A12": 2
+      },
+      "unops-ne": {
+        "A12": 4
+      },
+      "unops-pw": {
+        "A12": 1
+      },
+      "unops-la": {
+        "A12": 3
+      },
+      "unops-ao": {
+        "A12": 2
+      },
+      "unops-id": {
+        "A12": 4
+      },
+      "unops-cu": {
+        "A12": 1
+      },
+      "unops-gr": {
+        "A12": 2
+      },
+      "unops-il": {
+        "A12": 1
+      },
+      "unops-it": {
+        "A12": 7
+      },
+      "unops-us": {
+        "A12": 43
+      },
+      "unops-gd": {
+        "A12": 1
+      },
+      "unops-cm": {
+        "A12": 4
+      },
+      "unops-vn": {
+        "A12": 1
+      },
+      "unops-lr": {
+        "A12": 6
+      },
+      "unops-tr": {
+        "A12": 3
+      },
+      "unops-sv": {
+        "A12": 4
+      },
+      "unops-ug": {
+        "A12": 6
+      },
+      "unops-ml": {
+        "A12": 7
+      },
+      "unops-mw": {
+        "A12": 1
+      },
+      "unops-hr": {
+        "A12": 1
+      },
+      "unops-sn": {
+        "A12": 8
+      },
+      "unops-ge": {
+        "A12": 3
+      },
+      "unops-st": {
+        "A12": 1
+      },
+      "unops-jo": {
+        "A12": 24
+      },
+      "unops-np": {
+        "A12": 9
+      },
+      "unops-af": {
+        "A12": 32
+      },
+      "unops-ma": {
+        "A12": 3
+      },
+      "unops-ag": {
+        "A12": 2
+      },
+      "unops-cw": {
+        "A12": 1
+      },
+      "unops-co": {
+        "A12": 10
+      },
+      "unops-dm": {
+        "A12": 2
+      },
+      "unops-eh": {
+        "A12": 5
+      },
+      "unops-gt": {
+        "A12": 2
+      },
+      "unops-bo": {
+        "A12": 1
+      },
+      "unops-ye": {
+        "A12": 15
+      },
+      "unops-my": {
+        "A12": 3
+      },
+      "unops-sd": {
+        "A12": 17
+      },
+      "unops-py": {
+        "A12": 11
+      },
+      "unops-th": {
+        "A12": 11
+      },
+      "unops-td": {
+        "A12": 1
+      },
+      "unops-sb": {
+        "A12": 1
+      },
+      "unops-me": {
+        "A12": 1
+      },
+      "unops-in": {
+        "A12": 1
+      },
+      "unops-mm": {
+        "A12": 22
+      },
+      "unops-hu": {
+        "A12": 4
+      },
+      "unops-et": {
+        "A12": 28
+      },
+      "unops-cn": {
+        "A12": 3
+      },
+      "unops-bd": {
+        "A12": 8
+      },
+      "unops-kr": {
+        "A12": 1
+      },
+      "unops-uy": {
+        "A12": 3
+      },
+      "unops-tt": {
+        "A12": 1
+      },
+      "unops-gm": {
+        "A12": 5
+      },
+      "unops-sr": {
+        "A12": 1
+      },
+      "unops-ir": {
+        "A12": 3
+      },
+      "unops-tj": {
+        "A12": 1
+      },
+      "unops-pe": {
+        "A12": 11
+      },
+      "unops-iq": {
+        "A12": 28
+      },
+      "unops-jp": {
+        "A12": 2
+      },
+      "unops-se": {
+        "A12": 1
+      },
+      "unops-cv": {
+        "A12": 1
+      },
+      "unops-mx": {
+        "A12": 9
+      },
+      "unops-es": {
+        "A12": 5
+      },
+      "unops-sl": {
+        "A12": 7
+      },
+      "unops-kp": {
+        "A12": 1
+      },
+      "unops-dz": {
+        "A12": 2
+      },
+      "unops-bj": {
+        "A12": 3
+      },
+      "unops-tl": {
+        "A12": 1
+      },
+      "unops-fj": {
+        "A12": 1
+      },
+      "unops-xk": {
+        "A12": 2
+      },
+      "unops-ws": {
+        "A12": 1
+      },
+      "unops-lb": {
+        "A12": 7
+      },
+      "unops-kz": {
+        "A12": 1
+      },
+      "unops-sa": {
+        "A12": 2
+      },
+      "unops-tz": {
+        "A12": 4
+      },
+      "unops-ke": {
+        "A12": 31
+      },
+      "unops-mz": {
+        "A12": 1
+      },
+      "unops-kg": {
+        "A12": 1
+      },
+      "unops-mk": {
+        "A12": 4
+      },
+      "unops-eg": {
+        "A12": 2
+      },
+      "unops-tg": {
+        "A12": 2
+      },
+      "unops-bi": {
+        "A12": 2
+      },
+      "unops-zw": {
+        "A12": 3
+      },
+      "unops-mu": {
+        "A12": 1
+      },
+      "unops-ng": {
+        "A12": 2
+      },
+      "unops-gw": {
+        "A12": 3
+      },
+      "unops-pg": {
+        "A12": 2
+      },
+      "unops-mn": {
+        "A12": 1
+      },
+      "unops-fr": {
+        "A12": 2
+      },
+      "unops-hn": {
+        "A12": 8
+      },
+      "unops-bf": {
+        "A12": 7
+      },
+      "unops-cf": {
+        "A12": 12
+      },
+      "unops-bw": {
+        "A12": 1
+      },
+      "unops-lk": {
+        "A12": 5
+      },
+      "unops-br": {
+        "A12": 11
+      },
+      "unops-ht": {
+        "A12": 16
+      },
+      "unops-lc": {
+        "A12": 3
+      },
+      "unops-by": {
+        "A12": 1
+      },
+      "unops-ec": {
+        "A12": 3
+      },
+      "unops-ci": {
+        "A12": 1
+      },
+      "unops-sy": {
+        "A12": 8
+      },
+      "unops-pa": {
+        "A12": 34
+      },
+      "unops-cy": {
+        "A12": 2
+      },
+      "unops-nc": {
+        "A12": 1
+      }
+    },
+    ".//document-link/language/@code": {
+      "unops-za": {
+        "en": 3
+      },
+      "unops-tn": {
+        "en": 10
+      },
+      "unops-al": {
+        "en": 1
+      },
+      "unops-dj": {
+        "en": 4
+      },
+      "unops-fi": {
+        "en": 1
+      },
+      "unops-gh": {
+        "en": 3
+      },
+      "unops-ar": {
+        "en": 11
+      },
+      "unops-de": {
+        "en": 2
+      },
+      "unops-ls": {
+        "en": 1
+      },
+      "unops-be": {
+        "en": 6
+      },
+      "unops-dk": {
+        "en": 38
+      },
+      "unops-zm": {
+        "en": 2
+      },
+      "unops-ba": {
+        "en": 1
+      },
+      "unops-rw": {
+        "en": 2
+      },
+      "unops-ph": {
+        "en": 5
+      },
+      "unops-so": {
+        "en": 32
+      },
+      "unops-ga": {
+        "en": 2
+      },
+      "unops-ch": {
+        "en": 91
+      },
+      "unops-kw": {
+        "en": 1
+      },
+      "unops-kh": {
+        "en": 13
+      },
+      "unops-ro": {
+        "en": 1
+      },
+      "unops-gn": {
+        "en": 4
+      },
+      "unops-ps": {
+        "en": 27
+      },
+      "unops-ua": {
+        "en": 29
+      },
+      "unops-nl": {
+        "en": 4
+      },
+      "unops-mv": {
+        "en": 2
+      },
+      "unops-na": {
+        "en": 1
+      },
+      "unops-at": {
+        "en": 4
+      },
+      "unops-mg": {
+        "en": 1
+      },
+      "unops-jm": {
+        "en": 1
+      },
+      "unops-ss": {
+        "en": 10
+      },
+      "unops-cd": {
+        "en": 16
+      },
+      "unops-pk": {
+        "en": 7
+      },
+      "unops-cr": {
+        "en": 9
+      },
+      "unops-mr": {
+        "en": 1
+      },
+      "unops-bt": {
+        "en": 2
+      },
+      "unops-er": {
+        "en": 1
+      },
+      "unops-rs": {
+        "en": 9
+      },
+      "unops-tv": {
+        "en": 1
+      },
+      "unops-ly": {
+        "en": 9
+      },
+      "unops-bz": {
+        "en": 2
+      },
+      "unops-ne": {
+        "en": 4
+      },
+      "unops-pw": {
+        "en": 1
+      },
+      "unops-la": {
+        "en": 3
+      },
+      "unops-ao": {
+        "en": 2
+      },
+      "unops-id": {
+        "en": 4
+      },
+      "unops-cu": {
+        "en": 1
+      },
+      "unops-gr": {
+        "en": 2
+      },
+      "unops-il": {
+        "en": 1
+      },
+      "unops-it": {
+        "en": 7
+      },
+      "unops-us": {
+        "en": 43
+      },
+      "unops-gd": {
+        "en": 1
+      },
+      "unops-cm": {
+        "en": 4
+      },
+      "unops-vn": {
+        "en": 1
+      },
+      "unops-lr": {
+        "en": 6
+      },
+      "unops-tr": {
+        "en": 3
+      },
+      "unops-sv": {
+        "en": 4
+      },
+      "unops-ug": {
+        "en": 6
+      },
+      "unops-ml": {
+        "en": 7
+      },
+      "unops-mw": {
+        "en": 1
+      },
+      "unops-hr": {
+        "en": 1
+      },
+      "unops-sn": {
+        "en": 8
+      },
+      "unops-ge": {
+        "en": 3
+      },
+      "unops-st": {
+        "en": 1
+      },
+      "unops-jo": {
+        "en": 24
+      },
+      "unops-np": {
+        "en": 9
+      },
+      "unops-af": {
+        "en": 32
+      },
+      "unops-ma": {
+        "en": 3
+      },
+      "unops-ag": {
+        "en": 2
+      },
+      "unops-cw": {
+        "en": 1
+      },
+      "unops-co": {
+        "en": 10
+      },
+      "unops-dm": {
+        "en": 2
+      },
+      "unops-eh": {
+        "en": 5
+      },
+      "unops-gt": {
+        "en": 2
+      },
+      "unops-bo": {
+        "en": 1
+      },
+      "unops-ye": {
+        "en": 15
+      },
+      "unops-my": {
+        "en": 3
+      },
+      "unops-sd": {
+        "en": 17
+      },
+      "unops-py": {
+        "en": 11
+      },
+      "unops-th": {
+        "en": 11
+      },
+      "unops-td": {
+        "en": 1
+      },
+      "unops-sb": {
+        "en": 1
+      },
+      "unops-me": {
+        "en": 1
+      },
+      "unops-in": {
+        "en": 1
+      },
+      "unops-mm": {
+        "en": 22
+      },
+      "unops-hu": {
+        "en": 4
+      },
+      "unops-et": {
+        "en": 28
+      },
+      "unops-cn": {
+        "en": 3
+      },
+      "unops-bd": {
+        "en": 8
+      },
+      "unops-kr": {
+        "en": 1
+      },
+      "unops-uy": {
+        "en": 3
+      },
+      "unops-tt": {
+        "en": 1
+      },
+      "unops-gm": {
+        "en": 5
+      },
+      "unops-sr": {
+        "en": 1
+      },
+      "unops-ir": {
+        "en": 3
+      },
+      "unops-tj": {
+        "en": 1
+      },
+      "unops-pe": {
+        "en": 11
+      },
+      "unops-iq": {
+        "en": 28
+      },
+      "unops-jp": {
+        "en": 2
+      },
+      "unops-se": {
+        "en": 1
+      },
+      "unops-cv": {
+        "en": 1
+      },
+      "unops-mx": {
+        "en": 9
+      },
+      "unops-es": {
+        "en": 5
+      },
+      "unops-sl": {
+        "en": 7
+      },
+      "unops-kp": {
+        "en": 1
+      },
+      "unops-dz": {
+        "en": 2
+      },
+      "unops-bj": {
+        "en": 3
+      },
+      "unops-tl": {
+        "en": 1
+      },
+      "unops-fj": {
+        "en": 1
+      },
+      "unops-xk": {
+        "en": 2
+      },
+      "unops-ws": {
+        "en": 1
+      },
+      "unops-lb": {
+        "en": 7
+      },
+      "unops-kz": {
+        "en": 1
+      },
+      "unops-sa": {
+        "en": 2
+      },
+      "unops-tz": {
+        "en": 4
+      },
+      "unops-ke": {
+        "en": 31
+      },
+      "unops-mz": {
+        "en": 1
+      },
+      "unops-kg": {
+        "en": 1
+      },
+      "unops-mk": {
+        "en": 4
+      },
+      "unops-eg": {
+        "en": 2
+      },
+      "unops-tg": {
+        "en": 2
+      },
+      "unops-bi": {
+        "en": 2
+      },
+      "unops-zw": {
+        "en": 3
+      },
+      "unops-mu": {
+        "en": 1
+      },
+      "unops-ng": {
+        "en": 2
+      },
+      "unops-gw": {
+        "en": 3
+      },
+      "unops-pg": {
+        "en": 2
+      },
+      "unops-mn": {
+        "en": 1
+      },
+      "unops-fr": {
+        "en": 2
+      },
+      "unops-hn": {
+        "en": 8
+      },
+      "unops-bf": {
+        "en": 7
+      },
+      "unops-cf": {
+        "en": 12
+      },
+      "unops-bw": {
+        "en": 1
+      },
+      "unops-lk": {
+        "en": 5
+      },
+      "unops-br": {
+        "en": 11
+      },
+      "unops-ht": {
+        "en": 16
+      },
+      "unops-lc": {
+        "en": 3
+      },
+      "unops-by": {
+        "en": 1
+      },
+      "unops-ec": {
+        "en": 3
+      },
+      "unops-ci": {
+        "en": 1
+      },
+      "unops-sy": {
+        "en": 8
+      },
+      "unops-pa": {
+        "en": 34
+      },
+      "unops-cy": {
+        "en": 2
+      },
+      "unops-nc": {
+        "en": 1
+      }
+    },
+    ".//location/location-class/@code": {
+      "unops-za": {
+        "4": 8
+      },
+      "unops-tn": {
+        "4": 5,
+        "1": 12
+      },
+      "unops-dj": {
+        "4": 3,
+        "1": 2
+      },
+      "unops-fi": {
+        "1": 1
+      },
+      "unops-gh": {
+        "4": 8
+      },
+      "unops-ar": {
+        "4": 31,
+        "1": 4
+      },
+      "unops-de": {
+        "1": 2
+      },
+      "unops-ls": {
+        "4": 1
+      },
+      "unops-be": {
+        "1": 22,
+        "4": 6
+      },
+      "unops-dk": {
+        "4": 204,
+        "1": 11
+      },
+      "unops-zm": {
+        "4": 27
+      },
+      "unops-rw": {
+        "4": 6
+      },
+      "unops-ph": {
+        "4": 27,
+        "1": 3
+      },
+      "unops-so": {
+        "1": 15,
+        "4": 22
+      },
+      "unops-ga": {
+        "4": 1
+      },
+      "unops-ch": {
+        "1": 90,
+        "4": 203
+      },
+      "unops-kw": {
+        "1": 1
+      },
+      "unops-kh": {
+        "4": 13,
+        "1": 6
+      },
+      "unops-ro": {
+        "4": 1
+      },
+      "unops-gn": {
+        "4": 7,
+        "1": 8
+      },
+      "unops-ps": {
+        "1": 22,
+        "4": 2
+      },
+      "unops-ua": {
+        "4": 3,
+        "1": 26
+      },
+      "unops-nl": {
+        "1": 3,
+        "4": 1
+      },
+      "unops-mv": {
+        "4": 33
+      },
+      "unops-na": {
+        "4": 26
+      },
+      "unops-at": {
+        "1": 3,
+        "4": 2
+      },
+      "unops-mg": {
+        "4": 26
+      },
+      "unops-jm": {
+        "1": 1
+      },
+      "unops-ss": {
+        "4": 5,
+        "1": 14
+      },
+      "unops-cd": {
+        "4": 10,
+        "1": 18
+      },
+      "unops-pk": {
+        "4": 3,
+        "1": 15
+      },
+      "unops-cr": {
+        "1": 21,
+        "4": 1
+      },
+      "unops-mr": {
+        "4": 1
+      },
+      "unops-bt": {
+        "4": 8
+      },
+      "unops-er": {
+        "4": 1,
+        "1": 2
+      },
+      "unops-rs": {
+        "4": 9,
+        "1": 9
+      },
+      "unops-tv": {
+        "4": 4
+      },
+      "unops-ly": {
+        "4": 7,
+        "1": 3
+      },
+      "unops-bz": {
+        "4": 26,
+        "1": 1
+      },
+      "unops-ne": {
+        "4": 8,
+        "1": 1
+      },
+      "unops-pw": {
+        "1": 1
+      },
+      "unops-la": {
+        "4": 8,
+        "1": 1
+      },
+      "unops-ao": {
+        "4": 2
+      },
+      "unops-id": {
+        "4": 28,
+        "1": 7
+      },
+      "unops-gr": {
+        "1": 2
+      },
+      "unops-il": {
+        "4": 2,
+        "1": 1
+      },
+      "unops-it": {
+        "1": 8,
+        "4": 1
+      },
+      "unops-us": {
+        "1": 29,
+        "4": 17
+      },
+      "unops-gd": {
+        "1": 2
+      },
+      "unops-cm": {
+        "4": 2,
+        "1": 4
+      },
+      "unops-vn": {
+        "4": 26
+      },
+      "unops-lr": {
+        "4": 11,
+        "1": 9
+      },
+      "unops-tr": {
+        "1": 2,
+        "4": 1
+      },
+      "unops-sv": {
+        "1": 1
+      },
+      "unops-ug": {
+        "4": 10,
+        "1": 2
+      },
+      "unops-ml": {
+        "4": 9,
+        "1": 1
+      },
+      "unops-mw": {
+        "4": 1
+      },
+      "unops-hr": {
+        "1": 1
+      },
+      "unops-sn": {
+        "4": 32,
+        "1": 14
+      },
+      "unops-ge": {
+        "4": 32,
+        "1": 2
+      },
+      "unops-st": {
+        "4": 1
+      },
+      "unops-jo": {
+        "4": 32,
+        "1": 24
+      },
+      "unops-np": {
+        "4": 10,
+        "1": 37
+      },
+      "unops-af": {
+        "4": 23,
+        "1": 12
+      },
+      "unops-ma": {
+        "4": 27,
+        "1": 4
+      },
+      "unops-ag": {
+        "4": 2
+      },
+      "unops-cw": {
+        "4": 1
+      },
+      "unops-co": {
+        "4": 31
+      },
+      "unops-dm": {
+        "4": 1,
+        "1": 2
+      },
+      "unops-eh": {
+        "1": 5
+      },
+      "unops-gt": {
+        "4": 27
+      },
+      "unops-bo": {
+        "1": 9
+      },
+      "unops-ye": {
+        "4": 13,
+        "1": 6
+      },
+      "unops-my": {
+        "4": 26,
+        "1": 2
+      },
+      "unops-sd": {
+        "1": 22,
+        "4": 3
+      },
+      "unops-py": {
+        "4": 27,
+        "1": 1
+      },
+      "unops-th": {
+        "1": 10,
+        "4": 10
+      },
+      "unops-td": {
+        "4": 5
+      },
+      "unops-sb": {
+        "4": 4
+      },
+      "unops-in": {
+        "4": 1
+      },
+      "unops-mm": {
+        "1": 102,
+        "4": 15
+      },
+      "unops-hu": {
+        "4": 4
+      },
+      "unops-et": {
+        "4": 11,
+        "1": 8
+      },
+      "unops-cn": {
+        "4": 3,
+        "1": 1
+      },
+      "unops-bd": {
+        "4": 12,
+        "1": 2
+      },
+      "unops-kr": {
+        "4": 2
+      },
+      "unops-uy": {
+        "1": 1,
+        "4": 1
+      },
+      "unops-tt": {
+        "1": 2
+      },
+      "unops-gm": {
+        "4": 7,
+        "1": 7
+      },
+      "unops-sr": {
+        "4": 26
+      },
+      "unops-ir": {
+        "4": 27,
+        "1": 1
+      },
+      "unops-tj": {
+        "4": 1
+      },
+      "unops-pe": {
+        "4": 30,
+        "1": 6
+      },
+      "unops-iq": {
+        "4": 25,
+        "1": 7
+      },
+      "unops-jp": {
+        "1": 3
+      },
+      "unops-se": {
+        "1": 1
+      },
+      "unops-cv": {
+        "4": 6
+      },
+      "unops-mx": {
+        "1": 7,
+        "4": 2
+      },
+      "unops-es": {
+        "1": 6
+      },
+      "unops-sl": {
+        "4": 7,
+        "1": 3
+      },
+      "unops-kp": {
+        "1": 1
+      },
+      "unops-dz": {
+        "1": 1
+      },
+      "unops-bj": {
+        "4": 32
+      },
+      "unops-tl": {
+        "4": 4
+      },
+      "unops-fj": {
+        "4": 1
+      },
+      "unops-xk": {
+        "4": 13
+      },
+      "unops-ws": {
+        "4": 4
+      },
+      "unops-lb": {
+        "4": 4,
+        "1": 1
+      },
+      "unops-kz": {
+        "4": 1
+      },
+      "unops-sa": {
+        "4": 1
+      },
+      "unops-tz": {
+        "4": 27,
+        "1": 3
+      },
+      "unops-ke": {
+        "4": 44,
+        "1": 23
+      },
+      "unops-kg": {
+        "4": 26
+      },
+      "unops-mk": {
+        "1": 1,
+        "4": 2
+      },
+      "unops-eg": {
+        "4": 2
+      },
+      "unops-tg": {
+        "4": 7
+      },
+      "unops-bi": {
+        "4": 5,
+        "1": 1
+      },
+      "unops-mu": {
+        "4": 6
+      },
+      "unops-ng": {
+        "1": 2
+      },
+      "unops-gw": {
+        "4": 6,
+        "1": 2
+      },
+      "unops-pg": {
+        "1": 4,
+        "4": 1
+      },
+      "unops-mn": {
+        "4": 1
+      },
+      "unops-fr": {
+        "1": 2
+      },
+      "unops-hn": {
+        "4": 1,
+        "1": 4
+      },
+      "unops-bf": {
+        "4": 15
+      },
+      "unops-cf": {
+        "4": 9,
+        "1": 7
+      },
+      "unops-bw": {
+        "4": 1
+      },
+      "unops-lk": {
+        "1": 4,
+        "4": 2
+      },
+      "unops-br": {
+        "4": 31,
+        "1": 6
+      },
+      "unops-ht": {
+        "1": 10,
+        "4": 1
+      },
+      "unops-lc": {
+        "4": 3
+      },
+      "unops-by": {
+        "4": 1
+      },
+      "unops-ec": {
+        "4": 27,
+        "1": 4
+      },
+      "unops-ci": {
+        "1": 5
+      },
+      "unops-sy": {
+        "4": 8
+      },
+      "unops-pa": {
+        "1": 10,
+        "4": 8
+      },
+      "unops-cy": {
+        "1": 1
+      },
+      "unops-nc": {
+        "1": 1
+      }
+    },
+    ".//participating-org/@role": {
+      "unops-za": {
+        "Implementing": 3,
+        "Accountable": 3,
+        "Funding": 1
+      },
+      "unops-tn": {
+        "Implementing": 10,
+        "Accountable": 10,
+        "Funding": 3
+      },
+      "unops-al": {
+        "Implementing": 1,
+        "Accountable": 1
+      },
+      "unops-dj": {
+        "Implementing": 4,
+        "Accountable": 4,
+        "Funding": 1
+      },
+      "unops-fi": {
+        "Implementing": 1,
+        "Accountable": 1
+      },
+      "unops-gh": {
+        "Implementing": 3,
+        "Accountable": 3,
+        "Funding": 1
+      },
+      "unops-ar": {
+        "Implementing": 11,
+        "Accountable": 11,
+        "Funding": 1
+      },
+      "unops-de": {
+        "Implementing": 2,
+        "Accountable": 2
+      },
+      "unops-ls": {
+        "Implementing": 1,
+        "Accountable": 1
+      },
+      "unops-be": {
+        "Implementing": 6,
+        "Accountable": 6
+      },
+      "unops-dk": {
+        "Implementing": 38,
+        "Accountable": 38,
+        "Funding": 8
+      },
+      "unops-zm": {
+        "Implementing": 2,
+        "Accountable": 2,
+        "Funding": 1
+      },
+      "unops-ba": {
+        "Implementing": 1,
+        "Accountable": 1
+      },
+      "unops-rw": {
+        "Implementing": 2,
+        "Accountable": 2,
+        "Funding": 1
+      },
+      "unops-ph": {
+        "Implementing": 5,
+        "Accountable": 5,
+        "Funding": 1
+      },
+      "unops-so": {
+        "Implementing": 32,
+        "Accountable": 32,
+        "Funding": 6
+      },
+      "unops-ga": {
+        "Implementing": 2,
+        "Accountable": 2
+      },
+      "unops-ch": {
+        "Implementing": 91,
+        "Accountable": 91,
+        "Funding": 35
+      },
+      "unops-kw": {
+        "Implementing": 1,
+        "Accountable": 1
+      },
+      "unops-kh": {
+        "Implementing": 13,
+        "Accountable": 13,
+        "Funding": 2
+      },
+      "unops-ro": {
+        "Implementing": 1,
+        "Accountable": 1
+      },
+      "unops-gn": {
+        "Implementing": 4,
+        "Accountable": 4,
+        "Funding": 1
+      },
+      "unops-ps": {
+        "Implementing": 27,
+        "Accountable": 27,
+        "Funding": 6
+      },
+      "unops-ua": {
+        "Implementing": 29,
+        "Accountable": 29
+      },
+      "unops-nl": {
+        "Implementing": 4,
+        "Accountable": 4
+      },
+      "unops-mv": {
+        "Implementing": 2,
+        "Accountable": 2,
+        "Funding": 2
+      },
+      "unops-na": {
+        "Implementing": 1,
+        "Accountable": 1,
+        "Funding": 1
+      },
+      "unops-at": {
+        "Implementing": 4,
+        "Accountable": 4
+      },
+      "unops-mg": {
+        "Implementing": 1,
+        "Accountable": 1,
+        "Funding": 1
+      },
+      "unops-jm": {
+        "Implementing": 1,
+        "Accountable": 1
+      },
+      "unops-ss": {
+        "Implementing": 10,
+        "Accountable": 10,
+        "Funding": 2
+      },
+      "unops-cd": {
+        "Implementing": 16,
+        "Accountable": 16,
+        "Funding": 2
+      },
+      "unops-pk": {
+        "Implementing": 7,
+        "Accountable": 7,
+        "Funding": 1
+      },
+      "unops-cr": {
+        "Implementing": 9,
+        "Accountable": 9,
+        "Funding": 3
+      },
+      "unops-mr": {
+        "Implementing": 1,
+        "Accountable": 1
+      },
+      "unops-bt": {
+        "Implementing": 2,
+        "Accountable": 2,
+        "Funding": 1
+      },
+      "unops-er": {
+        "Implementing": 1,
+        "Accountable": 1
+      },
+      "unops-rs": {
+        "Implementing": 9,
+        "Accountable": 9
+      },
+      "unops-tv": {
+        "Implementing": 1,
+        "Accountable": 1,
+        "Funding": 1
+      },
+      "unops-ly": {
+        "Implementing": 9,
+        "Accountable": 9
+      },
+      "unops-bz": {
+        "Implementing": 2,
+        "Accountable": 2,
+        "Funding": 2
+      },
+      "unops-ne": {
+        "Implementing": 4,
+        "Accountable": 4,
+        "Funding": 1
+      },
+      "unops-pw": {
+        "Implementing": 1,
+        "Accountable": 1
+      },
+      "unops-la": {
+        "Implementing": 3,
+        "Accountable": 3,
+        "Funding": 1
+      },
+      "unops-ao": {
+        "Implementing": 2,
+        "Accountable": 2
+      },
+      "unops-id": {
+        "Implementing": 4,
+        "Accountable": 4,
+        "Funding": 1
+      },
+      "unops-cu": {
+        "Implementing": 1,
+        "Accountable": 1
+      },
+      "unops-gr": {
+        "Implementing": 2,
+        "Accountable": 2
+      },
+      "unops-il": {
+        "Implementing": 1,
+        "Accountable": 1,
+        "Funding": 1
+      },
+      "unops-it": {
+        "Implementing": 7,
+        "Accountable": 7,
+        "Funding": 1
+      },
+      "unops-us": {
+        "Implementing": 43,
+        "Accountable": 43,
+        "Funding": 5
+      },
+      "unops-gd": {
+        "Implementing": 1,
+        "Accountable": 1
+      },
+      "unops-cm": {
+        "Implementing": 4,
+        "Accountable": 4
+      },
+      "unops-vn": {
+        "Implementing": 1,
+        "Accountable": 1,
+        "Funding": 1
+      },
+      "unops-lr": {
+        "Implementing": 6,
+        "Accountable": 6,
+        "Funding": 2
+      },
+      "unops-tr": {
+        "Implementing": 3,
+        "Accountable": 3
+      },
+      "unops-sv": {
+        "Implementing": 4,
+        "Accountable": 4,
+        "Funding": 1
+      },
+      "unops-ug": {
+        "Implementing": 6,
+        "Accountable": 6,
+        "Funding": 2
+      },
+      "unops-ml": {
+        "Implementing": 7,
+        "Accountable": 7,
+        "Funding": 1
+      },
+      "unops-mw": {
+        "Implementing": 1,
+        "Accountable": 1
+      },
+      "unops-hr": {
+        "Implementing": 1,
+        "Accountable": 1
+      },
+      "unops-sn": {
+        "Implementing": 8,
+        "Accountable": 8,
+        "Funding": 2
+      },
+      "unops-ge": {
+        "Implementing": 3,
+        "Accountable": 3,
+        "Funding": 1
+      },
+      "unops-st": {
+        "Implementing": 1,
+        "Accountable": 1
+      },
+      "unops-jo": {
+        "Implementing": 24,
+        "Accountable": 24,
+        "Funding": 2
+      },
+      "unops-np": {
+        "Implementing": 9,
+        "Accountable": 9,
+        "Funding": 2
+      },
+      "unops-af": {
+        "Implementing": 32,
+        "Accountable": 32,
+        "Funding": 4
+      },
+      "unops-ma": {
+        "Implementing": 3,
+        "Accountable": 3,
+        "Funding": 1
+      },
+      "unops-ag": {
+        "Implementing": 2,
+        "Accountable": 2
+      },
+      "unops-cw": {
+        "Implementing": 1,
+        "Accountable": 1
+      },
+      "unops-co": {
+        "Implementing": 10,
+        "Accountable": 10,
+        "Funding": 2
+      },
+      "unops-dm": {
+        "Implementing": 2,
+        "Accountable": 2
+      },
+      "unops-eh": {
+        "Implementing": 5,
+        "Accountable": 5
+      },
+      "unops-gt": {
+        "Implementing": 2,
+        "Accountable": 2,
+        "Funding": 1
+      },
+      "unops-bo": {
+        "Implementing": 1,
+        "Accountable": 1
+      },
+      "unops-ye": {
+        "Implementing": 15,
+        "Accountable": 15,
+        "Funding": 1
+      },
+      "unops-my": {
+        "Implementing": 3,
+        "Accountable": 3,
+        "Funding": 1
+      },
+      "unops-sd": {
+        "Implementing": 17,
+        "Accountable": 17,
+        "Funding": 2
+      },
+      "unops-py": {
+        "Implementing": 11,
+        "Accountable": 11,
+        "Funding": 1
+      },
+      "unops-th": {
+        "Implementing": 11,
+        "Accountable": 11,
+        "Funding": 1
+      },
+      "unops-td": {
+        "Implementing": 1,
+        "Accountable": 1,
+        "Funding": 1
+      },
+      "unops-sb": {
+        "Implementing": 1,
+        "Accountable": 1,
+        "Funding": 1
+      },
+      "unops-me": {
+        "Implementing": 1,
+        "Accountable": 1
+      },
+      "unops-in": {
+        "Implementing": 1,
+        "Accountable": 1
+      },
+      "unops-mm": {
+        "Implementing": 22,
+        "Accountable": 22,
+        "Funding": 4
+      },
+      "unops-hu": {
+        "Implementing": 4,
+        "Accountable": 4
+      },
+      "unops-et": {
+        "Implementing": 28,
+        "Accountable": 28,
+        "Funding": 1
+      },
+      "unops-cn": {
+        "Implementing": 3,
+        "Accountable": 3,
+        "Funding": 1
+      },
+      "unops-bd": {
+        "Implementing": 8,
+        "Accountable": 8,
+        "Funding": 2
+      },
+      "unops-kr": {
+        "Implementing": 1,
+        "Accountable": 1,
+        "Funding": 1
+      },
+      "unops-uy": {
+        "Implementing": 3,
+        "Accountable": 3,
+        "Funding": 1
+      },
+      "unops-tt": {
+        "Implementing": 1,
+        "Accountable": 1
+      },
+      "unops-gm": {
+        "Implementing": 5,
+        "Accountable": 5,
+        "Funding": 1
+      },
+      "unops-sr": {
+        "Implementing": 1,
+        "Accountable": 1,
+        "Funding": 1
+      },
+      "unops-ir": {
+        "Implementing": 3,
+        "Accountable": 3,
+        "Funding": 1
+      },
+      "unops-tj": {
+        "Implementing": 1,
+        "Accountable": 1
+      },
+      "unops-pe": {
+        "Implementing": 11,
+        "Accountable": 11,
+        "Funding": 3
+      },
+      "unops-iq": {
+        "Implementing": 28,
+        "Accountable": 28,
+        "Funding": 1
+      },
+      "unops-jp": {
+        "Implementing": 2,
+        "Accountable": 2,
+        "Funding": 1
+      },
+      "unops-se": {
+        "Implementing": 1,
+        "Accountable": 1
+      },
+      "unops-cv": {
+        "Implementing": 1,
+        "Accountable": 1,
+        "Funding": 1
+      },
+      "unops-mx": {
+        "Implementing": 9,
+        "Accountable": 9
+      },
+      "unops-es": {
+        "Implementing": 5,
+        "Accountable": 5
+      },
+      "unops-sl": {
+        "Implementing": 7,
+        "Accountable": 7,
+        "Funding": 1
+      },
+      "unops-kp": {
+        "Implementing": 1,
+        "Accountable": 1
+      },
+      "unops-dz": {
+        "Implementing": 2,
+        "Accountable": 2
+      },
+      "unops-bj": {
+        "Implementing": 3,
+        "Accountable": 3,
+        "Funding": 2
+      },
+      "unops-tl": {
+        "Implementing": 1,
+        "Accountable": 1,
+        "Funding": 1
+      },
+      "unops-fj": {
+        "Implementing": 1,
+        "Accountable": 1
+      },
+      "unops-xk": {
+        "Implementing": 2,
+        "Accountable": 2
+      },
+      "unops-ws": {
+        "Implementing": 1,
+        "Accountable": 1,
+        "Funding": 1
+      },
+      "unops-lb": {
+        "Implementing": 7,
+        "Accountable": 7,
+        "Funding": 1
+      },
+      "unops-kz": {
+        "Implementing": 1,
+        "Accountable": 1
+      },
+      "unops-sa": {
+        "Implementing": 2,
+        "Accountable": 2
+      },
+      "unops-tz": {
+        "Implementing": 4,
+        "Accountable": 4,
+        "Funding": 2
+      },
+      "unops-ke": {
+        "Implementing": 31,
+        "Accountable": 31,
+        "Funding": 2
+      },
+      "unops-mz": {
+        "Implementing": 1,
+        "Accountable": 1
+      },
+      "unops-kg": {
+        "Implementing": 1,
+        "Accountable": 1,
+        "Funding": 1
+      },
+      "unops-mk": {
+        "Implementing": 4,
+        "Accountable": 4
+      },
+      "unops-eg": {
+        "Implementing": 2,
+        "Accountable": 2
+      },
+      "unops-tg": {
+        "Implementing": 2,
+        "Accountable": 2,
+        "Funding": 1
+      },
+      "unops-bi": {
+        "Implementing": 2,
+        "Accountable": 2,
+        "Funding": 1
+      },
+      "unops-zw": {
+        "Implementing": 3,
+        "Accountable": 3
+      },
+      "unops-mu": {
+        "Implementing": 1,
+        "Accountable": 1,
+        "Funding": 1
+      },
+      "unops-ng": {
+        "Implementing": 2,
+        "Accountable": 2
+      },
+      "unops-gw": {
+        "Implementing": 3,
+        "Accountable": 3,
+        "Funding": 1
+      },
+      "unops-pg": {
+        "Implementing": 2,
+        "Accountable": 2
+      },
+      "unops-mn": {
+        "Implementing": 1,
+        "Accountable": 1
+      },
+      "unops-fr": {
+        "Implementing": 2,
+        "Accountable": 2
+      },
+      "unops-hn": {
+        "Implementing": 8,
+        "Accountable": 8
+      },
+      "unops-bf": {
+        "Implementing": 7,
+        "Accountable": 7,
+        "Funding": 2
+      },
+      "unops-cf": {
+        "Implementing": 12,
+        "Accountable": 12,
+        "Funding": 1
+      },
+      "unops-bw": {
+        "Implementing": 1,
+        "Accountable": 1
+      },
+      "unops-lk": {
+        "Implementing": 5,
+        "Accountable": 5
+      },
+      "unops-br": {
+        "Implementing": 11,
+        "Accountable": 11,
+        "Funding": 3
+      },
+      "unops-ht": {
+        "Implementing": 16,
+        "Accountable": 16,
+        "Funding": 1
+      },
+      "unops-lc": {
+        "Implementing": 3,
+        "Accountable": 3
+      },
+      "unops-by": {
+        "Implementing": 1,
+        "Accountable": 1
+      },
+      "unops-ec": {
+        "Implementing": 3,
+        "Accountable": 3,
+        "Funding": 1
+      },
+      "unops-ci": {
+        "Implementing": 1,
+        "Accountable": 1
+      },
+      "unops-sy": {
+        "Implementing": 8,
+        "Accountable": 8,
+        "Funding": 1
+      },
+      "unops-pa": {
+        "Implementing": 34,
+        "Accountable": 34,
+        "Funding": 2
+      },
+      "unops-cy": {
+        "Implementing": 2,
+        "Accountable": 2
+      },
+      "unops-nc": {
+        "Implementing": 1,
+        "Accountable": 1
+      }
+    },
+    ".//participating-org/@type": {
+      "unops-za": {
+        "40": 6
+      },
+      "unops-tn": {
+        "40": 20
+      },
+      "unops-al": {
+        "40": 2
+      },
+      "unops-dj": {
+        "40": 8
+      },
+      "unops-fi": {
+        "40": 2
+      },
+      "unops-gh": {
+        "40": 6
+      },
+      "unops-ar": {
+        "40": 22
+      },
+      "unops-de": {
+        "40": 4
+      },
+      "unops-ls": {
+        "40": 2
+      },
+      "unops-be": {
+        "40": 12
+      },
+      "unops-dk": {
+        "40": 76
+      },
+      "unops-zm": {
+        "40": 4
+      },
+      "unops-ba": {
+        "40": 2
+      },
+      "unops-rw": {
+        "40": 4
+      },
+      "unops-ph": {
+        "40": 10
+      },
+      "unops-so": {
+        "40": 64
+      },
+      "unops-ga": {
+        "40": 4
+      },
+      "unops-ch": {
+        "40": 182
+      },
+      "unops-kw": {
+        "40": 2
+      },
+      "unops-kh": {
+        "40": 26
+      },
+      "unops-ro": {
+        "40": 2
+      },
+      "unops-gn": {
+        "40": 8
+      },
+      "unops-ps": {
+        "40": 54
+      },
+      "unops-ua": {
+        "40": 58
+      },
+      "unops-nl": {
+        "40": 8
+      },
+      "unops-mv": {
+        "40": 4
+      },
+      "unops-na": {
+        "40": 2
+      },
+      "unops-at": {
+        "40": 8
+      },
+      "unops-mg": {
+        "40": 2
+      },
+      "unops-jm": {
+        "40": 2
+      },
+      "unops-ss": {
+        "40": 20
+      },
+      "unops-cd": {
+        "40": 32
+      },
+      "unops-pk": {
+        "40": 14
+      },
+      "unops-cr": {
+        "40": 18
+      },
+      "unops-mr": {
+        "40": 2
+      },
+      "unops-bt": {
+        "40": 4
+      },
+      "unops-er": {
+        "40": 2
+      },
+      "unops-rs": {
+        "40": 18
+      },
+      "unops-tv": {
+        "40": 2
+      },
+      "unops-ly": {
+        "40": 18
+      },
+      "unops-bz": {
+        "40": 4
+      },
+      "unops-ne": {
+        "40": 8
+      },
+      "unops-pw": {
+        "40": 2
+      },
+      "unops-la": {
+        "40": 6
+      },
+      "unops-ao": {
+        "40": 4
+      },
+      "unops-id": {
+        "40": 8
+      },
+      "unops-cu": {
+        "40": 2
+      },
+      "unops-gr": {
+        "40": 4
+      },
+      "unops-il": {
+        "40": 2
+      },
+      "unops-it": {
+        "40": 14
+      },
+      "unops-us": {
+        "40": 86
+      },
+      "unops-gd": {
+        "40": 2
+      },
+      "unops-cm": {
+        "40": 8
+      },
+      "unops-vn": {
+        "40": 2
+      },
+      "unops-lr": {
+        "40": 12
+      },
+      "unops-tr": {
+        "40": 6
+      },
+      "unops-sv": {
+        "40": 8
+      },
+      "unops-ug": {
+        "40": 12
+      },
+      "unops-ml": {
+        "40": 14
+      },
+      "unops-mw": {
+        "40": 2
+      },
+      "unops-hr": {
+        "40": 2
+      },
+      "unops-sn": {
+        "40": 16
+      },
+      "unops-ge": {
+        "40": 6
+      },
+      "unops-st": {
+        "40": 2
+      },
+      "unops-jo": {
+        "40": 48
+      },
+      "unops-np": {
+        "40": 18
+      },
+      "unops-af": {
+        "40": 64
+      },
+      "unops-ma": {
+        "40": 6
+      },
+      "unops-ag": {
+        "40": 4
+      },
+      "unops-cw": {
+        "40": 2
+      },
+      "unops-co": {
+        "40": 20
+      },
+      "unops-dm": {
+        "40": 4
+      },
+      "unops-eh": {
+        "40": 10
+      },
+      "unops-gt": {
+        "40": 4
+      },
+      "unops-bo": {
+        "40": 2
+      },
+      "unops-ye": {
+        "40": 30
+      },
+      "unops-my": {
+        "40": 6
+      },
+      "unops-sd": {
+        "40": 34
+      },
+      "unops-py": {
+        "40": 22
+      },
+      "unops-th": {
+        "40": 22
+      },
+      "unops-td": {
+        "40": 2
+      },
+      "unops-sb": {
+        "40": 2
+      },
+      "unops-me": {
+        "40": 2
+      },
+      "unops-in": {
+        "40": 2
+      },
+      "unops-mm": {
+        "40": 44
+      },
+      "unops-hu": {
+        "40": 8
+      },
+      "unops-et": {
+        "40": 56
+      },
+      "unops-cn": {
+        "40": 6
+      },
+      "unops-bd": {
+        "40": 16
+      },
+      "unops-kr": {
+        "40": 2
+      },
+      "unops-uy": {
+        "40": 6
+      },
+      "unops-tt": {
+        "40": 2
+      },
+      "unops-gm": {
+        "40": 10
+      },
+      "unops-sr": {
+        "40": 2
+      },
+      "unops-ir": {
+        "40": 6
+      },
+      "unops-tj": {
+        "40": 2
+      },
+      "unops-pe": {
+        "40": 22
+      },
+      "unops-iq": {
+        "40": 56
+      },
+      "unops-jp": {
+        "40": 4
+      },
+      "unops-se": {
+        "40": 2
+      },
+      "unops-cv": {
+        "40": 2
+      },
+      "unops-mx": {
+        "40": 18
+      },
+      "unops-es": {
+        "40": 10
+      },
+      "unops-sl": {
+        "40": 14
+      },
+      "unops-kp": {
+        "40": 2
+      },
+      "unops-dz": {
+        "40": 4
+      },
+      "unops-bj": {
+        "40": 6
+      },
+      "unops-tl": {
+        "40": 2
+      },
+      "unops-fj": {
+        "40": 2
+      },
+      "unops-xk": {
+        "40": 4
+      },
+      "unops-ws": {
+        "40": 2
+      },
+      "unops-lb": {
+        "40": 14
+      },
+      "unops-kz": {
+        "40": 2
+      },
+      "unops-sa": {
+        "40": 4
+      },
+      "unops-tz": {
+        "40": 8
+      },
+      "unops-ke": {
+        "40": 62
+      },
+      "unops-mz": {
+        "40": 2
+      },
+      "unops-kg": {
+        "40": 2
+      },
+      "unops-mk": {
+        "40": 8
+      },
+      "unops-eg": {
+        "40": 4
+      },
+      "unops-tg": {
+        "40": 4
+      },
+      "unops-bi": {
+        "40": 4
+      },
+      "unops-zw": {
+        "40": 6
+      },
+      "unops-mu": {
+        "40": 2
+      },
+      "unops-ng": {
+        "40": 4
+      },
+      "unops-gw": {
+        "40": 6
+      },
+      "unops-pg": {
+        "40": 4
+      },
+      "unops-mn": {
+        "40": 2
+      },
+      "unops-fr": {
+        "40": 4
+      },
+      "unops-hn": {
+        "40": 16
+      },
+      "unops-bf": {
+        "40": 14
+      },
+      "unops-cf": {
+        "40": 24
+      },
+      "unops-bw": {
+        "40": 2
+      },
+      "unops-lk": {
+        "40": 10
+      },
+      "unops-br": {
+        "40": 22
+      },
+      "unops-ht": {
+        "40": 32
+      },
+      "unops-lc": {
+        "40": 6
+      },
+      "unops-by": {
+        "40": 2
+      },
+      "unops-ec": {
+        "40": 6
+      },
+      "unops-ci": {
+        "40": 2
+      },
+      "unops-sy": {
+        "40": 16
+      },
+      "unops-pa": {
+        "40": 68
+      },
+      "unops-cy": {
+        "40": 4
+      },
+      "unops-nc": {
+        "40": 2
+      }
+    },
+    ".//recipient-country/@code": {
+      "unops-za": {
+        "ZA": 3
+      },
+      "unops-tn": {
+        "TN": 10
+      },
+      "unops-al": {
+        "AL": 1
+      },
+      "unops-dj": {
+        "DJ": 4
+      },
+      "unops-fi": {
+        "FI": 1
+      },
+      "unops-gh": {
+        "GH": 3
+      },
+      "unops-ar": {
+        "AR": 11
+      },
+      "unops-de": {
+        "DE": 2
+      },
+      "unops-ls": {
+        "LS": 1
+      },
+      "unops-be": {
+        "BE": 6
+      },
+      "unops-dk": {
+        "DK": 38
+      },
+      "unops-zm": {
+        "ZM": 2
+      },
+      "unops-ba": {
+        "BA": 1
+      },
+      "unops-rw": {
+        "RW": 2
+      },
+      "unops-ph": {
+        "PH": 5
+      },
+      "unops-so": {
+        "SO": 32
+      },
+      "unops-ga": {
+        "GA": 2
+      },
+      "unops-ch": {
+        "CH": 91
+      },
+      "unops-kw": {
+        "KW": 1
+      },
+      "unops-kh": {
+        "KH": 13
+      },
+      "unops-ro": {
+        "RO": 1
+      },
+      "unops-gn": {
+        "GN": 4
+      },
+      "unops-ps": {
+        "PS": 27
+      },
+      "unops-ua": {
+        "UA": 29
+      },
+      "unops-nl": {
+        "NL": 4
+      },
+      "unops-mv": {
+        "MV": 2
+      },
+      "unops-na": {
+        "NA": 1
+      },
+      "unops-at": {
+        "AT": 4
+      },
+      "unops-mg": {
+        "MG": 1
+      },
+      "unops-jm": {
+        "JM": 1
+      },
+      "unops-ss": {
+        "SS": 10
+      },
+      "unops-cd": {
+        "CD": 16
+      },
+      "unops-pk": {
+        "PK": 7
+      },
+      "unops-cr": {
+        "CR": 9
+      },
+      "unops-mr": {
+        "MR": 1
+      },
+      "unops-bt": {
+        "BT": 2
+      },
+      "unops-er": {
+        "ER": 1
+      },
+      "unops-rs": {
+        "RS": 9
+      },
+      "unops-tv": {
+        "TV": 1
+      },
+      "unops-ly": {
+        "LY": 9
+      },
+      "unops-bz": {
+        "BZ": 2
+      },
+      "unops-ne": {
+        "NE": 4
+      },
+      "unops-pw": {
+        "PW": 1
+      },
+      "unops-la": {
+        "LA": 3
+      },
+      "unops-ao": {
+        "AO": 2
+      },
+      "unops-id": {
+        "ID": 4
+      },
+      "unops-cu": {
+        "CU": 1
+      },
+      "unops-gr": {
+        "GR": 2
+      },
+      "unops-il": {
+        "IL": 1
+      },
+      "unops-it": {
+        "IT": 7
+      },
+      "unops-us": {
+        "US": 43
+      },
+      "unops-gd": {
+        "GD": 1
+      },
+      "unops-cm": {
+        "CM": 4
+      },
+      "unops-vn": {
+        "VN": 1
+      },
+      "unops-lr": {
+        "LR": 6
+      },
+      "unops-tr": {
+        "TR": 3
+      },
+      "unops-sv": {
+        "SV": 4
+      },
+      "unops-ug": {
+        "UG": 6
+      },
+      "unops-ml": {
+        "ML": 7
+      },
+      "unops-mw": {
+        "MW": 1
+      },
+      "unops-hr": {
+        "HR": 1
+      },
+      "unops-sn": {
+        "SN": 8
+      },
+      "unops-ge": {
+        "GE": 3
+      },
+      "unops-st": {
+        "ST": 1
+      },
+      "unops-jo": {
+        "JO": 24
+      },
+      "unops-np": {
+        "NP": 9
+      },
+      "unops-af": {
+        "AF": 32
+      },
+      "unops-ma": {
+        "MA": 3
+      },
+      "unops-ag": {
+        "AG": 2
+      },
+      "unops-cw": {
+        "CW": 1
+      },
+      "unops-co": {
+        "CO": 10
+      },
+      "unops-dm": {
+        "DM": 2
+      },
+      "unops-eh": {
+        "EH": 5
+      },
+      "unops-gt": {
+        "GT": 2
+      },
+      "unops-bo": {
+        "BO": 1
+      },
+      "unops-ye": {
+        "YE": 15
+      },
+      "unops-my": {
+        "MY": 3
+      },
+      "unops-sd": {
+        "SD": 17
+      },
+      "unops-py": {
+        "PY": 11
+      },
+      "unops-th": {
+        "TH": 11
+      },
+      "unops-td": {
+        "TD": 1
+      },
+      "unops-sb": {
+        "SB": 1
+      },
+      "unops-me": {
+        "ME": 1
+      },
+      "unops-in": {
+        "IN": 1
+      },
+      "unops-mm": {
+        "MM": 22
+      },
+      "unops-hu": {
+        "HU": 4
+      },
+      "unops-et": {
+        "ET": 28
+      },
+      "unops-cn": {
+        "CN": 3
+      },
+      "unops-bd": {
+        "BD": 8
+      },
+      "unops-kr": {
+        "KR": 1
+      },
+      "unops-uy": {
+        "UY": 3
+      },
+      "unops-tt": {
+        "TT": 1
+      },
+      "unops-gm": {
+        "GM": 5
+      },
+      "unops-sr": {
+        "SR": 1
+      },
+      "unops-ir": {
+        "IR": 3
+      },
+      "unops-tj": {
+        "TJ": 1
+      },
+      "unops-pe": {
+        "PE": 11
+      },
+      "unops-iq": {
+        "IQ": 28
+      },
+      "unops-jp": {
+        "JP": 2
+      },
+      "unops-se": {
+        "SE": 1
+      },
+      "unops-cv": {
+        "CV": 1
+      },
+      "unops-mx": {
+        "MX": 9
+      },
+      "unops-es": {
+        "ES": 5
+      },
+      "unops-sl": {
+        "SL": 7
+      },
+      "unops-kp": {
+        "KP": 1
+      },
+      "unops-dz": {
+        "DZ": 2
+      },
+      "unops-bj": {
+        "BJ": 3
+      },
+      "unops-tl": {
+        "TL": 1
+      },
+      "unops-fj": {
+        "FJ": 1
+      },
+      "unops-xk": {
+        "XK": 2
+      },
+      "unops-ws": {
+        "WS": 1
+      },
+      "unops-lb": {
+        "LB": 7
+      },
+      "unops-kz": {
+        "KZ": 1
+      },
+      "unops-sa": {
+        "SA": 2
+      },
+      "unops-tz": {
+        "TZ": 4
+      },
+      "unops-ke": {
+        "KE": 31
+      },
+      "unops-mz": {
+        "MZ": 1
+      },
+      "unops-kg": {
+        "KG": 1
+      },
+      "unops-mk": {
+        "MK": 4
+      },
+      "unops-eg": {
+        "EG": 2
+      },
+      "unops-tg": {
+        "TG": 2
+      },
+      "unops-bi": {
+        "BI": 2
+      },
+      "unops-zw": {
+        "ZW": 3
+      },
+      "unops-mu": {
+        "MU": 1
+      },
+      "unops-ng": {
+        "NG": 2
+      },
+      "unops-gw": {
+        "GW": 3
+      },
+      "unops-pg": {
+        "PG": 2
+      },
+      "unops-mn": {
+        "MN": 1
+      },
+      "unops-fr": {
+        "FR": 2
+      },
+      "unops-hn": {
+        "HN": 8
+      },
+      "unops-bf": {
+        "BF": 7
+      },
+      "unops-cf": {
+        "CF": 12
+      },
+      "unops-bw": {
+        "BW": 1
+      },
+      "unops-lk": {
+        "LK": 5
+      },
+      "unops-br": {
+        "BR": 11
+      },
+      "unops-ht": {
+        "HT": 16
+      },
+      "unops-lc": {
+        "LC": 3
+      },
+      "unops-by": {
+        "BY": 1
+      },
+      "unops-ec": {
+        "EC": 3
+      },
+      "unops-ci": {
+        "CI": 1
+      },
+      "unops-sy": {
+        "SY": 8
+      },
+      "unops-pa": {
+        "PA": 34
+      },
+      "unops-cy": {
+        "CY": 2
+      },
+      "unops-nc": {
+        "NC": 1
+      }
+    },
+    ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "unops-za": {
+        "998": 1
+      },
+      "unops-tn": {
+        "189": 6
+      },
+      "unops-dj": {
+        "998": 3
+      },
+      "unops-gh": {
+        "998": 1
+      },
+      "unops-ar": {
+        "998": 1,
+        "489": 5
+      },
+      "unops-be": {
+        "89": 6
+      },
+      "unops-dk": {
+        "998": 28
+      },
+      "unops-zm": {
+        "998": 1
+      },
+      "unops-rw": {
+        "998": 1
+      },
+      "unops-ph": {
+        "998": 1,
+        "798": 3
+      },
+      "unops-so": {
+        "998": 17
+      },
+      "unops-ch": {
+        "998": 47
+      },
+      "unops-kw": {
+        "589": 1
+      },
+      "unops-kh": {
+        "998": 1,
+        "798": 2
+      },
+      "unops-gn": {
+        "998": 1,
+        "298": 3
+      },
+      "unops-ps": {
+        "589": 7,
+        "998": 1
+      },
+      "unops-ua": {
+        "89": 2
+      },
+      "unops-nl": {
+        "89": 3
+      },
+      "unops-mv": {
+        "998": 2
+      },
+      "unops-na": {
+        "998": 1
+      },
+      "unops-at": {
+        "89": 2
+      },
+      "unops-mg": {
+        "998": 1
+      },
+      "unops-ss": {
+        "189": 6
+      },
+      "unops-cd": {
+        "998": 1,
+        "298": 3
+      },
+      "unops-pk": {
+        "679": 3
+      },
+      "unops-cr": {
+        "389": 7
+      },
+      "unops-bt": {
+        "998": 1
+      },
+      "unops-rs": {
+        "89": 4
+      },
+      "unops-tv": {
+        "998": 1
+      },
+      "unops-ly": {
+        "189": 3
+      },
+      "unops-bz": {
+        "998": 1,
+        "389": 1
+      },
+      "unops-ne": {
+        "998": 1,
+        "298": 1
+      },
+      "unops-la": {
+        "998": 1
+      },
+      "unops-ao": {
+        "298": 1
+      },
+      "unops-id": {
+        "998": 1,
+        "798": 1
+      },
+      "unops-il": {
+        "998": 1
+      },
+      "unops-it": {
+        "998": 1
+      },
+      "unops-us": {
+        "998": 7
+      },
+      "unops-vn": {
+        "998": 1
+      },
+      "unops-lr": {
+        "998": 2,
+        "298": 4
+      },
+      "unops-sv": {
+        "389": 3
+      },
+      "unops-ug": {
+        "998": 3
+      },
+      "unops-ml": {
+        "998": 1,
+        "298": 1
+      },
+      "unops-sn": {
+        "998": 2,
+        "298": 1
+      },
+      "unops-ge": {
+        "998": 1
+      },
+      "unops-jo": {
+        "998": 1,
+        "589": 6
+      },
+      "unops-np": {
+        "998": 1,
+        "679": 4
+      },
+      "unops-af": {
+        "998": 1,
+        "679": 10
+      },
+      "unops-ma": {
+        "998": 1,
+        "189": 1
+      },
+      "unops-cw": {
+        "998": 1
+      },
+      "unops-co": {
+        "998": 1,
+        "489": 4
+      },
+      "unops-gt": {
+        "998": 1,
+        "389": 1
+      },
+      "unops-bo": {
+        "489": 1
+      },
+      "unops-ye": {
+        "589": 4
+      },
+      "unops-my": {
+        "998": 1,
+        "798": 1
+      },
+      "unops-sd": {
+        "189": 4
+      },
+      "unops-py": {
+        "998": 1,
+        "489": 1
+      },
+      "unops-th": {
+        "798": 3
+      },
+      "unops-td": {
+        "998": 1
+      },
+      "unops-sb": {
+        "998": 1
+      },
+      "unops-mm": {
+        "798": 15
+      },
+      "unops-et": {
+        "998": 6
+      },
+      "unops-cn": {
+        "998": 1,
+        "789": 1
+      },
+      "unops-bd": {
+        "998": 1,
+        "679": 5
+      },
+      "unops-kr": {
+        "998": 1
+      },
+      "unops-uy": {
+        "489": 2
+      },
+      "unops-gm": {
+        "998": 1,
+        "298": 1
+      },
+      "unops-sr": {
+        "998": 1
+      },
+      "unops-ir": {
+        "998": 1
+      },
+      "unops-pe": {
+        "489": 4,
+        "998": 1
+      },
+      "unops-iq": {
+        "589": 9
+      },
+      "unops-jp": {
+        "998": 1
+      },
+      "unops-cv": {
+        "998": 1
+      },
+      "unops-mx": {
+        "389": 1
+      },
+      "unops-sl": {
+        "998": 1,
+        "298": 2
+      },
+      "unops-bj": {
+        "998": 2
+      },
+      "unops-tl": {
+        "998": 1
+      },
+      "unops-fj": {
+        "889": 1
+      },
+      "unops-ws": {
+        "998": 1
+      },
+      "unops-lb": {
+        "589": 1
+      },
+      "unops-kz": {
+        "619": 1
+      },
+      "unops-sa": {
+        "589": 1
+      },
+      "unops-tz": {
+        "998": 2
+      },
+      "unops-ke": {
+        "998": 10
+      },
+      "unops-kg": {
+        "998": 1
+      },
+      "unops-eg": {
+        "189": 1
+      },
+      "unops-tg": {
+        "998": 1
+      },
+      "unops-bi": {
+        "998": 2
+      },
+      "unops-mu": {
+        "998": 1
+      },
+      "unops-gw": {
+        "998": 1,
+        "298": 1
+      },
+      "unops-hn": {
+        "389": 3
+      },
+      "unops-bf": {
+        "998": 2,
+        "298": 1
+      },
+      "unops-cf": {
+        "998": 1,
+        "298": 2
+      },
+      "unops-lk": {
+        "679": 2
+      },
+      "unops-br": {
+        "998": 1,
+        "489": 3
+      },
+      "unops-ht": {
+        "380": 5
+      },
+      "unops-lc": {
+        "380": 2
+      },
+      "unops-ec": {
+        "998": 1,
+        "489": 1
+      },
+      "unops-sy": {
+        "589": 4
+      },
+      "unops-pa": {
+        "389": 8
+      },
+      "unops-nc": {
+        "889": 1
+      }
+    },
+    ".//reporting-org/@type": {
+      "unops-za": {
+        "40": 3
+      },
+      "unops-tn": {
+        "40": 10
+      },
+      "unops-al": {
+        "40": 1
+      },
+      "unops-dj": {
+        "40": 4
+      },
+      "unops-fi": {
+        "40": 1
+      },
+      "unops-gh": {
+        "40": 3
+      },
+      "unops-ar": {
+        "40": 11
+      },
+      "unops-de": {
+        "40": 2
+      },
+      "unops-ls": {
+        "40": 1
+      },
+      "unops-be": {
+        "40": 6
+      },
+      "unops-dk": {
+        "40": 38
+      },
+      "unops-zm": {
+        "40": 2
+      },
+      "unops-ba": {
+        "40": 1
+      },
+      "unops-rw": {
+        "40": 2
+      },
+      "unops-ph": {
+        "40": 5
+      },
+      "unops-so": {
+        "40": 32
+      },
+      "unops-ga": {
+        "40": 2
+      },
+      "unops-ch": {
+        "40": 91
+      },
+      "unops-kw": {
+        "40": 1
+      },
+      "unops-kh": {
+        "40": 13
+      },
+      "unops-ro": {
+        "40": 1
+      },
+      "unops-gn": {
+        "40": 4
+      },
+      "unops-ps": {
+        "40": 27
+      },
+      "unops-ua": {
+        "40": 29
+      },
+      "unops-nl": {
+        "40": 4
+      },
+      "unops-mv": {
+        "40": 2
+      },
+      "unops-na": {
+        "40": 1
+      },
+      "unops-at": {
+        "40": 4
+      },
+      "unops-mg": {
+        "40": 1
+      },
+      "unops-jm": {
+        "40": 1
+      },
+      "unops-ss": {
+        "40": 10
+      },
+      "unops-cd": {
+        "40": 16
+      },
+      "unops-pk": {
+        "40": 7
+      },
+      "unops-cr": {
+        "40": 9
+      },
+      "unops-mr": {
+        "40": 1
+      },
+      "unops-bt": {
+        "40": 2
+      },
+      "unops-er": {
+        "40": 1
+      },
+      "unops-rs": {
+        "40": 9
+      },
+      "unops-tv": {
+        "40": 1
+      },
+      "unops-ly": {
+        "40": 9
+      },
+      "unops-bz": {
+        "40": 2
+      },
+      "unops-ne": {
+        "40": 4
+      },
+      "unops-pw": {
+        "40": 1
+      },
+      "unops-la": {
+        "40": 3
+      },
+      "unops-ao": {
+        "40": 2
+      },
+      "unops-id": {
+        "40": 4
+      },
+      "unops-cu": {
+        "40": 1
+      },
+      "unops-gr": {
+        "40": 2
+      },
+      "unops-il": {
+        "40": 1
+      },
+      "unops-it": {
+        "40": 7
+      },
+      "unops-us": {
+        "40": 43
+      },
+      "unops-gd": {
+        "40": 1
+      },
+      "unops-cm": {
+        "40": 4
+      },
+      "unops-vn": {
+        "40": 1
+      },
+      "unops-lr": {
+        "40": 6
+      },
+      "unops-tr": {
+        "40": 3
+      },
+      "unops-sv": {
+        "40": 4
+      },
+      "unops-ug": {
+        "40": 6
+      },
+      "unops-ml": {
+        "40": 7
+      },
+      "unops-mw": {
+        "40": 1
+      },
+      "unops-hr": {
+        "40": 1
+      },
+      "unops-sn": {
+        "40": 8
+      },
+      "unops-ge": {
+        "40": 3
+      },
+      "unops-st": {
+        "40": 1
+      },
+      "unops-jo": {
+        "40": 24
+      },
+      "unops-np": {
+        "40": 9
+      },
+      "unops-af": {
+        "40": 32
+      },
+      "unops-ma": {
+        "40": 3
+      },
+      "unops-ag": {
+        "40": 2
+      },
+      "unops-cw": {
+        "40": 1
+      },
+      "unops-co": {
+        "40": 10
+      },
+      "unops-dm": {
+        "40": 2
+      },
+      "unops-eh": {
+        "40": 5
+      },
+      "unops-gt": {
+        "40": 2
+      },
+      "unops-bo": {
+        "40": 1
+      },
+      "unops-ye": {
+        "40": 15
+      },
+      "unops-my": {
+        "40": 3
+      },
+      "unops-sd": {
+        "40": 17
+      },
+      "unops-py": {
+        "40": 11
+      },
+      "unops-th": {
+        "40": 11
+      },
+      "unops-td": {
+        "40": 1
+      },
+      "unops-sb": {
+        "40": 1
+      },
+      "unops-me": {
+        "40": 1
+      },
+      "unops-in": {
+        "40": 1
+      },
+      "unops-mm": {
+        "40": 22
+      },
+      "unops-hu": {
+        "40": 4
+      },
+      "unops-et": {
+        "40": 28
+      },
+      "unops-cn": {
+        "40": 3
+      },
+      "unops-bd": {
+        "40": 8
+      },
+      "unops-kr": {
+        "40": 1
+      },
+      "unops-uy": {
+        "40": 3
+      },
+      "unops-tt": {
+        "40": 1
+      },
+      "unops-gm": {
+        "40": 5
+      },
+      "unops-sr": {
+        "40": 1
+      },
+      "unops-ir": {
+        "40": 3
+      },
+      "unops-tj": {
+        "40": 1
+      },
+      "unops-pe": {
+        "40": 11
+      },
+      "unops-iq": {
+        "40": 28
+      },
+      "unops-jp": {
+        "40": 2
+      },
+      "unops-se": {
+        "40": 1
+      },
+      "unops-cv": {
+        "40": 1
+      },
+      "unops-mx": {
+        "40": 9
+      },
+      "unops-es": {
+        "40": 5
+      },
+      "unops-sl": {
+        "40": 7
+      },
+      "unops-kp": {
+        "40": 1
+      },
+      "unops-dz": {
+        "40": 2
+      },
+      "unops-bj": {
+        "40": 3
+      },
+      "unops-tl": {
+        "40": 1
+      },
+      "unops-fj": {
+        "40": 1
+      },
+      "unops-xk": {
+        "40": 2
+      },
+      "unops-ws": {
+        "40": 1
+      },
+      "unops-lb": {
+        "40": 7
+      },
+      "unops-kz": {
+        "40": 1
+      },
+      "unops-sa": {
+        "40": 2
+      },
+      "unops-tz": {
+        "40": 4
+      },
+      "unops-ke": {
+        "40": 31
+      },
+      "unops-mz": {
+        "40": 1
+      },
+      "unops-kg": {
+        "40": 1
+      },
+      "unops-mk": {
+        "40": 4
+      },
+      "unops-eg": {
+        "40": 2
+      },
+      "unops-tg": {
+        "40": 2
+      },
+      "unops-bi": {
+        "40": 2
+      },
+      "unops-zw": {
+        "40": 3
+      },
+      "unops-mu": {
+        "40": 1
+      },
+      "unops-ng": {
+        "40": 2
+      },
+      "unops-gw": {
+        "40": 3
+      },
+      "unops-pg": {
+        "40": 2
+      },
+      "unops-mn": {
+        "40": 1
+      },
+      "unops-fr": {
+        "40": 2
+      },
+      "unops-hn": {
+        "40": 8
+      },
+      "unops-bf": {
+        "40": 7
+      },
+      "unops-cf": {
+        "40": 12
+      },
+      "unops-bw": {
+        "40": 1
+      },
+      "unops-lk": {
+        "40": 5
+      },
+      "unops-br": {
+        "40": 11
+      },
+      "unops-ht": {
+        "40": 16
+      },
+      "unops-lc": {
+        "40": 3
+      },
+      "unops-by": {
+        "40": 1
+      },
+      "unops-ec": {
+        "40": 3
+      },
+      "unops-ci": {
+        "40": 1
+      },
+      "unops-sy": {
+        "40": 8
+      },
+      "unops-pa": {
+        "40": 34
+      },
+      "unops-cy": {
+        "40": 2
+      },
+      "unops-nc": {
+        "40": 1
+      }
+    },
+    ".//sector/@vocabulary": {
+      "unops-za": {
+        "DAC": 1
+      },
+      "unops-tn": {
+        "DAC": 2
+      },
+      "unops-dj": {
+        "DAC": 1
+      },
+      "unops-gh": {
+        "DAC": 1
+      },
+      "unops-ar": {
+        "DAC": 1
+      },
+      "unops-dk": {
+        "DAC": 6
+      },
+      "unops-zm": {
+        "DAC": 1
+      },
+      "unops-rw": {
+        "DAC": 1
+      },
+      "unops-ph": {
+        "DAC": 1
+      },
+      "unops-so": {
+        "DAC": 5
+      },
+      "unops-ch": {
+        "DAC": 12
+      },
+      "unops-kh": {
+        "DAC": 2
+      },
+      "unops-gn": {
+        "DAC": 1
+      },
+      "unops-ps": {
+        "DAC": 4
+      },
+      "unops-mv": {
+        "DAC": 2
+      },
+      "unops-na": {
+        "DAC": 1
+      },
+      "unops-mg": {
+        "DAC": 1
+      },
+      "unops-ss": {
+        "DAC": 2
+      },
+      "unops-cd": {
+        "DAC": 2
+      },
+      "unops-pk": {
+        "DAC": 1
+      },
+      "unops-cr": {
+        "DAC": 3
+      },
+      "unops-bt": {
+        "DAC": 1
+      },
+      "unops-tv": {
+        "DAC": 1
+      },
+      "unops-bz": {
+        "DAC": 2
+      },
+      "unops-ne": {
+        "DAC": 1
+      },
+      "unops-la": {
+        "DAC": 1
+      },
+      "unops-id": {
+        "DAC": 1
+      },
+      "unops-il": {
+        "DAC": 1
+      },
+      "unops-it": {
+        "DAC": 1
+      },
+      "unops-us": {
+        "DAC": 5
+      },
+      "unops-vn": {
+        "DAC": 1
+      },
+      "unops-lr": {
+        "DAC": 2
+      },
+      "unops-sv": {
+        "DAC": 1
+      },
+      "unops-ug": {
+        "DAC": 2
+      },
+      "unops-ml": {
+        "DAC": 1
+      },
+      "unops-sn": {
+        "DAC": 2
+      },
+      "unops-ge": {
+        "DAC": 1
+      },
+      "unops-jo": {
+        "DAC": 2
+      },
+      "unops-np": {
+        "DAC": 2
+      },
+      "unops-af": {
+        "DAC": 4
+      },
+      "unops-ma": {
+        "DAC": 1
+      },
+      "unops-co": {
+        "DAC": 2
+      },
+      "unops-gt": {
+        "DAC": 1
+      },
+      "unops-ye": {
+        "DAC": 1
+      },
+      "unops-my": {
+        "DAC": 1
+      },
+      "unops-sd": {
+        "DAC": 2
+      },
+      "unops-py": {
+        "DAC": 1
+      },
+      "unops-td": {
+        "DAC": 1
+      },
+      "unops-sb": {
+        "DAC": 1
+      },
+      "unops-mm": {
+        "DAC": 4
+      },
+      "unops-cn": {
+        "DAC": 1
+      },
+      "unops-bd": {
+        "DAC": 2
+      },
+      "unops-kr": {
+        "DAC": 1
+      },
+      "unops-uy": {
+        "DAC": 1
+      },
+      "unops-gm": {
+        "DAC": 1
+      },
+      "unops-sr": {
+        "DAC": 1
+      },
+      "unops-ir": {
+        "DAC": 1
+      },
+      "unops-pe": {
+        "DAC": 3
+      },
+      "unops-iq": {
+        "DAC": 1
+      },
+      "unops-jp": {
+        "DAC": 1
+      },
+      "unops-cv": {
+        "DAC": 1
+      },
+      "unops-sl": {
+        "DAC": 1
+      },
+      "unops-bj": {
+        "DAC": 2
+      },
+      "unops-tl": {
+        "DAC": 1
+      },
+      "unops-ws": {
+        "DAC": 1
+      },
+      "unops-lb": {
+        "DAC": 1
+      },
+      "unops-tz": {
+        "DAC": 2
+      },
+      "unops-ke": {
+        "DAC": 2
+      },
+      "unops-kg": {
+        "DAC": 1
+      },
+      "unops-tg": {
+        "DAC": 1
+      },
+      "unops-bi": {
+        "DAC": 1
+      },
+      "unops-mu": {
+        "DAC": 1
+      },
+      "unops-gw": {
+        "DAC": 1
+      },
+      "unops-bf": {
+        "DAC": 2
+      },
+      "unops-cf": {
+        "DAC": 1
+      },
+      "unops-br": {
+        "DAC": 3
+      },
+      "unops-ht": {
+        "DAC": 1
+      },
+      "unops-ec": {
+        "DAC": 1
+      },
+      "unops-sy": {
+        "DAC": 1
+      },
+      "unops-pa": {
+        "DAC": 2
+      }
+    },
+    ".//transaction/disbursement-channel/@code": {
+      "unops-za": {
+        "2": 31
+      },
+      "unops-tn": {
+        "2": 140
+      },
+      "unops-al": {
+        "2": 6
+      },
+      "unops-dj": {
+        "2": 53
+      },
+      "unops-fi": {
+        "2": 13
+      },
+      "unops-gh": {
+        "2": 40
+      },
+      "unops-ar": {
+        "2": 133
+      },
+      "unops-de": {
+        "2": 25
+      },
+      "unops-ls": {
+        "2": 2
+      },
+      "unops-be": {
+        "2": 65
+      },
+      "unops-dk": {
+        "2": 487
+      },
+      "unops-zm": {
+        "2": 30
+      },
+      "unops-ba": {
+        "2": 9
+      },
+      "unops-rw": {
+        "2": 31
+      },
+      "unops-ph": {
+        "2": 76
+      },
+      "unops-so": {
+        "2": 403
+      },
+      "unops-ga": {
+        "2": 4
+      },
+      "unops-ch": {
+        "2": 1070
+      },
+      "unops-kw": {
+        "2": 10
+      },
+      "unops-kh": {
+        "2": 134
+      },
+      "unops-ro": {
+        "2": 12
+      },
+      "unops-gn": {
+        "2": 61
+      },
+      "unops-ps": {
+        "2": 309
+      },
+      "unops-ua": {
+        "2": 273
+      },
+      "unops-nl": {
+        "2": 48
+      },
+      "unops-mv": {
+        "2": 38
+      },
+      "unops-na": {
+        "2": 18
+      },
+      "unops-at": {
+        "2": 46
+      },
+      "unops-mg": {
+        "2": 18
+      },
+      "unops-jm": {
+        "2": 8
+      },
+      "unops-ss": {
+        "2": 137
+      },
+      "unops-cd": {
+        "2": 177
+      },
+      "unops-pk": {
+        "2": 95
+      },
+      "unops-cr": {
+        "2": 127
+      },
+      "unops-mr": {
+        "2": 12
+      },
+      "unops-bt": {
+        "2": 23
+      },
+      "unops-er": {
+        "2": 8
+      },
+      "unops-rs": {
+        "2": 116
+      },
+      "unops-tv": {
+        "2": 13
+      },
+      "unops-ly": {
+        "2": 103
+      },
+      "unops-bz": {
+        "2": 34
+      },
+      "unops-ne": {
+        "2": 47
+      },
+      "unops-pw": {
+        "2": 5
+      },
+      "unops-la": {
+        "2": 43
+      },
+      "unops-ao": {
+        "2": 26
+      },
+      "unops-id": {
+        "2": 47
+      },
+      "unops-cu": {
+        "2": 13
+      },
+      "unops-gr": {
+        "2": 24
+      },
+      "unops-il": {
+        "2": 20
+      },
+      "unops-it": {
+        "2": 62
+      },
+      "unops-us": {
+        "2": 354
+      },
+      "unops-gd": {
+        "2": 3
+      },
+      "unops-cm": {
+        "2": 28
+      },
+      "unops-vn": {
+        "2": 18
+      },
+      "unops-lr": {
+        "2": 91
+      },
+      "unops-tr": {
+        "2": 32
+      },
+      "unops-sv": {
+        "2": 60
+      },
+      "unops-ug": {
+        "2": 72
+      },
+      "unops-ml": {
+        "2": 73
+      },
+      "unops-mw": {
+        "2": 12
+      },
+      "unops-hr": {
+        "2": 12
+      },
+      "unops-sn": {
+        "2": 91
+      },
+      "unops-ge": {
+        "2": 44
+      },
+      "unops-st": {
+        "2": 3
+      },
+      "unops-jo": {
+        "2": 286
+      },
+      "unops-np": {
+        "2": 134
+      },
+      "unops-af": {
+        "2": 333
+      },
+      "unops-ma": {
+        "2": 45
+      },
+      "unops-ag": {
+        "2": 16
+      },
+      "unops-cw": {
+        "2": 14
+      },
+      "unops-co": {
+        "2": 113
+      },
+      "unops-dm": {
+        "2": 25
+      },
+      "unops-eh": {
+        "2": 48
+      },
+      "unops-gt": {
+        "2": 34
+      },
+      "unops-bo": {
+        "2": 15
+      },
+      "unops-ye": {
+        "2": 146
+      },
+      "unops-my": {
+        "2": 43
+      },
+      "unops-sd": {
+        "2": 166
+      },
+      "unops-py": {
+        "2": 87
+      },
+      "unops-th": {
+        "2": 136
+      },
+      "unops-td": {
+        "2": 19
+      },
+      "unops-sb": {
+        "2": 13
+      },
+      "unops-me": {
+        "2": 14
+      },
+      "unops-in": {
+        "2": 12
+      },
+      "unops-mm": {
+        "2": 304
+      },
+      "unops-hu": {
+        "2": 39
+      },
+      "unops-et": {
+        "2": 247
+      },
+      "unops-cn": {
+        "2": 45
+      },
+      "unops-bd": {
+        "2": 101
+      },
+      "unops-kr": {
+        "2": 18
+      },
+      "unops-uy": {
+        "2": 37
+      },
+      "unops-tt": {
+        "2": 14
+      },
+      "unops-gm": {
+        "2": 43
+      },
+      "unops-sr": {
+        "2": 18
+      },
+      "unops-ir": {
+        "2": 43
+      },
+      "unops-tj": {
+        "2": 12
+      },
+      "unops-pe": {
+        "2": 129
+      },
+      "unops-iq": {
+        "2": 315
+      },
+      "unops-jp": {
+        "2": 32
+      },
+      "unops-se": {
+        "2": 3
+      },
+      "unops-cv": {
+        "2": 20
+      },
+      "unops-mx": {
+        "2": 71
+      },
+      "unops-es": {
+        "2": 30
+      },
+      "unops-sl": {
+        "2": 79
+      },
+      "unops-kp": {
+        "2": 12
+      },
+      "unops-dz": {
+        "2": 15
+      },
+      "unops-bj": {
+        "2": 43
+      },
+      "unops-tl": {
+        "2": 13
+      },
+      "unops-fj": {
+        "2": 13
+      },
+      "unops-xk": {
+        "2": 17
+      },
+      "unops-ws": {
+        "2": 13
+      },
+      "unops-lb": {
+        "2": 70
+      },
+      "unops-kz": {
+        "2": 15
+      },
+      "unops-sa": {
+        "2": 27
+      },
+      "unops-tz": {
+        "2": 50
+      },
+      "unops-ke": {
+        "2": 308
+      },
+      "unops-mz": {
+        "2": 5
+      },
+      "unops-kg": {
+        "2": 18
+      },
+      "unops-mk": {
+        "2": 40
+      },
+      "unops-eg": {
+        "2": 27
+      },
+      "unops-tg": {
+        "2": 20
+      },
+      "unops-bi": {
+        "2": 34
+      },
+      "unops-zw": {
+        "2": 15
+      },
+      "unops-mu": {
+        "2": 17
+      },
+      "unops-ng": {
+        "2": 26
+      },
+      "unops-gw": {
+        "2": 46
+      },
+      "unops-pg": {
+        "2": 15
+      },
+      "unops-mn": {
+        "2": 2
+      },
+      "unops-fr": {
+        "2": 12
+      },
+      "unops-hn": {
+        "2": 86
+      },
+      "unops-bf": {
+        "2": 77
+      },
+      "unops-cf": {
+        "2": 124
+      },
+      "unops-bw": {
+        "2": 2
+      },
+      "unops-lk": {
+        "2": 44
+      },
+      "unops-br": {
+        "2": 139
+      },
+      "unops-ht": {
+        "2": 175
+      },
+      "unops-lc": {
+        "2": 39
+      },
+      "unops-by": {
+        "2": 12
+      },
+      "unops-ec": {
+        "2": 36
+      },
+      "unops-ci": {
+        "2": 13
+      },
+      "unops-sy": {
+        "2": 98
+      },
+      "unops-pa": {
+        "2": 396
+      },
+      "unops-cy": {
+        "2": 19
+      },
+      "unops-nc": {
+        "2": 11
+      }
+    },
+    ".//transaction/transaction-type/@code": {
+      "unops-za": {
+        "C": 3,
+        "E": 28
+      },
+      "unops-tn": {
+        "C": 10,
+        "E": 130
+      },
+      "unops-al": {
+        "C": 1,
+        "E": 5
+      },
+      "unops-dj": {
+        "C": 4,
+        "E": 49
+      },
+      "unops-fi": {
+        "C": 1,
+        "E": 12
+      },
+      "unops-gh": {
+        "C": 3,
+        "E": 37
+      },
+      "unops-ar": {
+        "C": 11,
+        "E": 122
+      },
+      "unops-de": {
+        "C": 2,
+        "E": 23
+      },
+      "unops-ls": {
+        "C": 1,
+        "E": 1
+      },
+      "unops-be": {
+        "C": 6,
+        "E": 59
+      },
+      "unops-dk": {
+        "C": 38,
+        "E": 449
+      },
+      "unops-zm": {
+        "C": 2,
+        "E": 28
+      },
+      "unops-ba": {
+        "C": 1,
+        "E": 8
+      },
+      "unops-rw": {
+        "C": 2,
+        "E": 29
+      },
+      "unops-ph": {
+        "C": 5,
+        "E": 71
+      },
+      "unops-so": {
+        "C": 32,
+        "E": 371
+      },
+      "unops-ga": {
+        "C": 2,
+        "E": 2
+      },
+      "unops-ch": {
+        "C": 91,
+        "E": 979
+      },
+      "unops-kw": {
+        "C": 1,
+        "E": 9
+      },
+      "unops-kh": {
+        "C": 13,
+        "E": 121
+      },
+      "unops-ro": {
+        "C": 1,
+        "E": 11
+      },
+      "unops-gn": {
+        "C": 4,
+        "E": 57
+      },
+      "unops-ps": {
+        "C": 27,
+        "E": 282
+      },
+      "unops-ua": {
+        "C": 29,
+        "E": 244
+      },
+      "unops-nl": {
+        "C": 4,
+        "E": 44
+      },
+      "unops-mv": {
+        "C": 2,
+        "E": 36
+      },
+      "unops-na": {
+        "C": 1,
+        "E": 17
+      },
+      "unops-at": {
+        "C": 4,
+        "E": 42
+      },
+      "unops-mg": {
+        "C": 1,
+        "E": 17
+      },
+      "unops-jm": {
+        "C": 1,
+        "E": 7
+      },
+      "unops-ss": {
+        "C": 10,
+        "E": 127
+      },
+      "unops-cd": {
+        "C": 16,
+        "E": 161
+      },
+      "unops-pk": {
+        "C": 7,
+        "E": 88
+      },
+      "unops-cr": {
+        "C": 9,
+        "E": 118
+      },
+      "unops-mr": {
+        "C": 1,
+        "E": 11
+      },
+      "unops-bt": {
+        "C": 2,
+        "E": 21
+      },
+      "unops-er": {
+        "C": 1,
+        "E": 7
+      },
+      "unops-rs": {
+        "C": 9,
+        "E": 107
+      },
+      "unops-tv": {
+        "C": 1,
+        "E": 12
+      },
+      "unops-ly": {
+        "C": 9,
+        "E": 94
+      },
+      "unops-bz": {
+        "C": 2,
+        "E": 32
+      },
+      "unops-ne": {
+        "C": 4,
+        "E": 43
+      },
+      "unops-pw": {
+        "C": 1,
+        "E": 4
+      },
+      "unops-la": {
+        "C": 3,
+        "E": 40
+      },
+      "unops-ao": {
+        "C": 2,
+        "E": 24
+      },
+      "unops-id": {
+        "C": 4,
+        "E": 43
+      },
+      "unops-cu": {
+        "C": 1,
+        "E": 12
+      },
+      "unops-gr": {
+        "C": 2,
+        "E": 22
+      },
+      "unops-il": {
+        "C": 1,
+        "E": 19
+      },
+      "unops-it": {
+        "E": 55,
+        "C": 7
+      },
+      "unops-us": {
+        "C": 43,
+        "E": 311
+      },
+      "unops-gd": {
+        "C": 1,
+        "E": 2
+      },
+      "unops-cm": {
+        "C": 4,
+        "E": 24
+      },
+      "unops-vn": {
+        "C": 1,
+        "E": 17
+      },
+      "unops-lr": {
+        "C": 6,
+        "E": 85
+      },
+      "unops-tr": {
+        "C": 3,
+        "E": 29
+      },
+      "unops-sv": {
+        "C": 4,
+        "E": 56
+      },
+      "unops-ug": {
+        "C": 6,
+        "E": 66
+      },
+      "unops-ml": {
+        "C": 7,
+        "E": 66
+      },
+      "unops-mw": {
+        "C": 1,
+        "E": 11
+      },
+      "unops-hr": {
+        "C": 1,
+        "E": 11
+      },
+      "unops-sn": {
+        "C": 8,
+        "E": 83
+      },
+      "unops-ge": {
+        "C": 3,
+        "E": 41
+      },
+      "unops-st": {
+        "C": 1,
+        "E": 2
+      },
+      "unops-jo": {
+        "C": 24,
+        "E": 262
+      },
+      "unops-np": {
+        "C": 9,
+        "E": 125
+      },
+      "unops-af": {
+        "C": 32,
+        "E": 301
+      },
+      "unops-ma": {
+        "C": 3,
+        "E": 42
+      },
+      "unops-ag": {
+        "C": 2,
+        "E": 14
+      },
+      "unops-cw": {
+        "C": 1,
+        "E": 13
+      },
+      "unops-co": {
+        "C": 10,
+        "E": 103
+      },
+      "unops-dm": {
+        "C": 2,
+        "E": 23
+      },
+      "unops-eh": {
+        "C": 5,
+        "E": 43
+      },
+      "unops-gt": {
+        "C": 2,
+        "E": 32
+      },
+      "unops-bo": {
+        "C": 1,
+        "E": 14
+      },
+      "unops-ye": {
+        "C": 15,
+        "E": 131
+      },
+      "unops-my": {
+        "C": 3,
+        "E": 40
+      },
+      "unops-sd": {
+        "C": 17,
+        "E": 149
+      },
+      "unops-py": {
+        "C": 11,
+        "E": 76
+      },
+      "unops-th": {
+        "C": 11,
+        "E": 125
+      },
+      "unops-td": {
+        "C": 1,
+        "E": 18
+      },
+      "unops-sb": {
+        "C": 1,
+        "E": 12
+      },
+      "unops-me": {
+        "C": 1,
+        "E": 13
+      },
+      "unops-in": {
+        "C": 1,
+        "E": 11
+      },
+      "unops-mm": {
+        "C": 22,
+        "E": 282
+      },
+      "unops-hu": {
+        "C": 4,
+        "E": 35
+      },
+      "unops-et": {
+        "C": 28,
+        "E": 219
+      },
+      "unops-cn": {
+        "C": 3,
+        "E": 42
+      },
+      "unops-bd": {
+        "C": 8,
+        "E": 93
+      },
+      "unops-kr": {
+        "C": 1,
+        "E": 17
+      },
+      "unops-uy": {
+        "C": 3,
+        "E": 34
+      },
+      "unops-tt": {
+        "C": 1,
+        "E": 13
+      },
+      "unops-gm": {
+        "C": 5,
+        "E": 38
+      },
+      "unops-sr": {
+        "C": 1,
+        "E": 17
+      },
+      "unops-ir": {
+        "C": 3,
+        "E": 40
+      },
+      "unops-tj": {
+        "C": 1,
+        "E": 11
+      },
+      "unops-pe": {
+        "C": 11,
+        "E": 118
+      },
+      "unops-iq": {
+        "C": 28,
+        "E": 287
+      },
+      "unops-jp": {
+        "E": 30,
+        "C": 2
+      },
+      "unops-se": {
+        "C": 1,
+        "E": 2
+      },
+      "unops-cv": {
+        "C": 1,
+        "E": 19
+      },
+      "unops-mx": {
+        "C": 9,
+        "E": 62
+      },
+      "unops-es": {
+        "C": 5,
+        "E": 25
+      },
+      "unops-sl": {
+        "C": 7,
+        "E": 72
+      },
+      "unops-kp": {
+        "C": 1,
+        "E": 11
+      },
+      "unops-dz": {
+        "C": 2,
+        "E": 13
+      },
+      "unops-bj": {
+        "C": 3,
+        "E": 40
+      },
+      "unops-tl": {
+        "C": 1,
+        "E": 12
+      },
+      "unops-fj": {
+        "E": 12,
+        "C": 1
+      },
+      "unops-xk": {
+        "C": 2,
+        "E": 15
+      },
+      "unops-ws": {
+        "C": 1,
+        "E": 12
+      },
+      "unops-lb": {
+        "C": 7,
+        "E": 63
+      },
+      "unops-kz": {
+        "C": 1,
+        "E": 14
+      },
+      "unops-sa": {
+        "C": 2,
+        "E": 25
+      },
+      "unops-tz": {
+        "C": 4,
+        "E": 46
+      },
+      "unops-ke": {
+        "C": 31,
+        "E": 277
+      },
+      "unops-mz": {
+        "C": 1,
+        "E": 4
+      },
+      "unops-kg": {
+        "C": 1,
+        "E": 17
+      },
+      "unops-mk": {
+        "C": 4,
+        "E": 36
+      },
+      "unops-eg": {
+        "C": 2,
+        "E": 25
+      },
+      "unops-tg": {
+        "C": 2,
+        "E": 18
+      },
+      "unops-bi": {
+        "C": 2,
+        "E": 32
+      },
+      "unops-zw": {
+        "C": 3,
+        "E": 12
+      },
+      "unops-mu": {
+        "C": 1,
+        "E": 16
+      },
+      "unops-ng": {
+        "C": 2,
+        "E": 24
+      },
+      "unops-gw": {
+        "C": 3,
+        "E": 43
+      },
+      "unops-pg": {
+        "C": 2,
+        "E": 13
+      },
+      "unops-mn": {
+        "C": 1,
+        "E": 1
+      },
+      "unops-fr": {
+        "C": 2,
+        "E": 10
+      },
+      "unops-hn": {
+        "C": 8,
+        "E": 78
+      },
+      "unops-bf": {
+        "C": 7,
+        "E": 70
+      },
+      "unops-cf": {
+        "C": 12,
+        "E": 112
+      },
+      "unops-bw": {
+        "C": 1,
+        "E": 1
+      },
+      "unops-lk": {
+        "C": 5,
+        "E": 39
+      },
+      "unops-br": {
+        "C": 11,
+        "E": 128
+      },
+      "unops-ht": {
+        "C": 16,
+        "E": 159
+      },
+      "unops-lc": {
+        "C": 3,
+        "E": 36
+      },
+      "unops-by": {
+        "C": 1,
+        "E": 11
+      },
+      "unops-ec": {
+        "C": 3,
+        "E": 33
+      },
+      "unops-ci": {
+        "C": 1,
+        "E": 12
+      },
+      "unops-sy": {
+        "C": 8,
+        "E": 90
+      },
+      "unops-pa": {
+        "C": 34,
+        "E": 362
+      },
+      "unops-cy": {
+        "C": 2,
+        "E": 17
+      },
+      "unops-nc": {
+        "C": 1,
+        "E": 10
+      }
+    },
+    ".//transaction/value/@currency": {
+      "unops-za": {
+        "USD": 31
+      },
+      "unops-tn": {
+        "USD": 140
+      },
+      "unops-al": {
+        "USD": 6
+      },
+      "unops-dj": {
+        "USD": 53
+      },
+      "unops-fi": {
+        "USD": 13
+      },
+      "unops-gh": {
+        "USD": 40
+      },
+      "unops-ar": {
+        "USD": 133
+      },
+      "unops-de": {
+        "USD": 25
+      },
+      "unops-ls": {
+        "USD": 2
+      },
+      "unops-be": {
+        "USD": 65
+      },
+      "unops-dk": {
+        "USD": 487
+      },
+      "unops-zm": {
+        "USD": 30
+      },
+      "unops-ba": {
+        "USD": 9
+      },
+      "unops-rw": {
+        "USD": 31
+      },
+      "unops-ph": {
+        "USD": 76
+      },
+      "unops-so": {
+        "USD": 403
+      },
+      "unops-ga": {
+        "USD": 4
+      },
+      "unops-ch": {
+        "USD": 1070
+      },
+      "unops-kw": {
+        "USD": 10
+      },
+      "unops-kh": {
+        "USD": 134
+      },
+      "unops-ro": {
+        "USD": 12
+      },
+      "unops-gn": {
+        "USD": 61
+      },
+      "unops-ps": {
+        "USD": 309
+      },
+      "unops-ua": {
+        "USD": 273
+      },
+      "unops-nl": {
+        "USD": 48
+      },
+      "unops-mv": {
+        "USD": 38
+      },
+      "unops-na": {
+        "USD": 18
+      },
+      "unops-at": {
+        "USD": 46
+      },
+      "unops-mg": {
+        "USD": 18
+      },
+      "unops-jm": {
+        "USD": 8
+      },
+      "unops-ss": {
+        "USD": 137
+      },
+      "unops-cd": {
+        "USD": 177
+      },
+      "unops-pk": {
+        "USD": 95
+      },
+      "unops-cr": {
+        "USD": 127
+      },
+      "unops-mr": {
+        "USD": 12
+      },
+      "unops-bt": {
+        "USD": 23
+      },
+      "unops-er": {
+        "USD": 8
+      },
+      "unops-rs": {
+        "USD": 116
+      },
+      "unops-tv": {
+        "USD": 13
+      },
+      "unops-ly": {
+        "USD": 103
+      },
+      "unops-bz": {
+        "USD": 34
+      },
+      "unops-ne": {
+        "USD": 47
+      },
+      "unops-pw": {
+        "USD": 5
+      },
+      "unops-la": {
+        "USD": 43
+      },
+      "unops-ao": {
+        "USD": 26
+      },
+      "unops-id": {
+        "USD": 47
+      },
+      "unops-cu": {
+        "USD": 13
+      },
+      "unops-gr": {
+        "USD": 24
+      },
+      "unops-il": {
+        "USD": 20
+      },
+      "unops-it": {
+        "USD": 62
+      },
+      "unops-us": {
+        "USD": 354
+      },
+      "unops-gd": {
+        "USD": 3
+      },
+      "unops-cm": {
+        "USD": 28
+      },
+      "unops-vn": {
+        "USD": 18
+      },
+      "unops-lr": {
+        "USD": 91
+      },
+      "unops-tr": {
+        "USD": 32
+      },
+      "unops-sv": {
+        "USD": 60
+      },
+      "unops-ug": {
+        "USD": 72
+      },
+      "unops-ml": {
+        "USD": 73
+      },
+      "unops-mw": {
+        "USD": 12
+      },
+      "unops-hr": {
+        "USD": 12
+      },
+      "unops-sn": {
+        "USD": 91
+      },
+      "unops-ge": {
+        "USD": 44
+      },
+      "unops-st": {
+        "USD": 3
+      },
+      "unops-jo": {
+        "USD": 286
+      },
+      "unops-np": {
+        "USD": 134
+      },
+      "unops-af": {
+        "USD": 333
+      },
+      "unops-ma": {
+        "USD": 45
+      },
+      "unops-ag": {
+        "USD": 16
+      },
+      "unops-cw": {
+        "USD": 14
+      },
+      "unops-co": {
+        "USD": 113
+      },
+      "unops-dm": {
+        "USD": 25
+      },
+      "unops-eh": {
+        "USD": 48
+      },
+      "unops-gt": {
+        "USD": 34
+      },
+      "unops-bo": {
+        "USD": 15
+      },
+      "unops-ye": {
+        "USD": 146
+      },
+      "unops-my": {
+        "USD": 43
+      },
+      "unops-sd": {
+        "USD": 166
+      },
+      "unops-py": {
+        "USD": 87
+      },
+      "unops-th": {
+        "USD": 136
+      },
+      "unops-td": {
+        "USD": 19
+      },
+      "unops-sb": {
+        "USD": 13
+      },
+      "unops-me": {
+        "USD": 14
+      },
+      "unops-in": {
+        "USD": 12
+      },
+      "unops-mm": {
+        "USD": 304
+      },
+      "unops-hu": {
+        "USD": 39
+      },
+      "unops-et": {
+        "USD": 247
+      },
+      "unops-cn": {
+        "USD": 45
+      },
+      "unops-bd": {
+        "USD": 101
+      },
+      "unops-kr": {
+        "USD": 18
+      },
+      "unops-uy": {
+        "USD": 37
+      },
+      "unops-tt": {
+        "USD": 14
+      },
+      "unops-gm": {
+        "USD": 43
+      },
+      "unops-sr": {
+        "USD": 18
+      },
+      "unops-ir": {
+        "USD": 43
+      },
+      "unops-tj": {
+        "USD": 12
+      },
+      "unops-pe": {
+        "USD": 129
+      },
+      "unops-iq": {
+        "USD": 315
+      },
+      "unops-jp": {
+        "USD": 32
+      },
+      "unops-se": {
+        "USD": 3
+      },
+      "unops-cv": {
+        "USD": 20
+      },
+      "unops-mx": {
+        "USD": 71
+      },
+      "unops-es": {
+        "USD": 30
+      },
+      "unops-sl": {
+        "USD": 79
+      },
+      "unops-kp": {
+        "USD": 12
+      },
+      "unops-dz": {
+        "USD": 15
+      },
+      "unops-bj": {
+        "USD": 43
+      },
+      "unops-tl": {
+        "USD": 13
+      },
+      "unops-fj": {
+        "USD": 13
+      },
+      "unops-xk": {
+        "USD": 17
+      },
+      "unops-ws": {
+        "USD": 13
+      },
+      "unops-lb": {
+        "USD": 70
+      },
+      "unops-kz": {
+        "USD": 15
+      },
+      "unops-sa": {
+        "USD": 27
+      },
+      "unops-tz": {
+        "USD": 50
+      },
+      "unops-ke": {
+        "USD": 308
+      },
+      "unops-mz": {
+        "USD": 5
+      },
+      "unops-kg": {
+        "USD": 18
+      },
+      "unops-mk": {
+        "USD": 40
+      },
+      "unops-eg": {
+        "USD": 27
+      },
+      "unops-tg": {
+        "USD": 20
+      },
+      "unops-bi": {
+        "USD": 34
+      },
+      "unops-zw": {
+        "USD": 15
+      },
+      "unops-mu": {
+        "USD": 17
+      },
+      "unops-ng": {
+        "USD": 26
+      },
+      "unops-gw": {
+        "USD": 46
+      },
+      "unops-pg": {
+        "USD": 15
+      },
+      "unops-mn": {
+        "USD": 2
+      },
+      "unops-fr": {
+        "USD": 12
+      },
+      "unops-hn": {
+        "USD": 86
+      },
+      "unops-bf": {
+        "USD": 77
+      },
+      "unops-cf": {
+        "USD": 124
+      },
+      "unops-bw": {
+        "USD": 2
+      },
+      "unops-lk": {
+        "USD": 44
+      },
+      "unops-br": {
+        "USD": 139
+      },
+      "unops-ht": {
+        "USD": 175
+      },
+      "unops-lc": {
+        "USD": 39
+      },
+      "unops-by": {
+        "USD": 12
+      },
+      "unops-ec": {
+        "USD": 36
+      },
+      "unops-ci": {
+        "USD": 13
+      },
+      "unops-sy": {
+        "USD": 98
+      },
+      "unops-pa": {
+        "USD": 396
+      },
+      "unops-cy": {
+        "USD": 19
+      },
+      "unops-nc": {
+        "USD": 11
+      }
+    },
+    ".//@xml:lang": {
+      "unops-za": {
+        "en": 3
+      },
+      "unops-tn": {
+        "en": 10
+      },
+      "unops-al": {
+        "en": 1
+      },
+      "unops-dj": {
+        "en": 4
+      },
+      "unops-fi": {
+        "en": 1
+      },
+      "unops-gh": {
+        "en": 3
+      },
+      "unops-ar": {
+        "en": 11
+      },
+      "unops-de": {
+        "en": 2
+      },
+      "unops-ls": {
+        "en": 1
+      },
+      "unops-be": {
+        "en": 6
+      },
+      "unops-dk": {
+        "en": 38
+      },
+      "unops-zm": {
+        "en": 2
+      },
+      "unops-ba": {
+        "en": 1
+      },
+      "unops-rw": {
+        "en": 2
+      },
+      "unops-ph": {
+        "en": 5
+      },
+      "unops-so": {
+        "en": 32
+      },
+      "unops-ga": {
+        "en": 2
+      },
+      "unops-ch": {
+        "en": 91
+      },
+      "unops-kw": {
+        "en": 1
+      },
+      "unops-kh": {
+        "en": 13
+      },
+      "unops-ro": {
+        "en": 1
+      },
+      "unops-gn": {
+        "en": 4
+      },
+      "unops-ps": {
+        "en": 27
+      },
+      "unops-ua": {
+        "en": 29
+      },
+      "unops-nl": {
+        "en": 4
+      },
+      "unops-mv": {
+        "en": 2
+      },
+      "unops-na": {
+        "en": 1
+      },
+      "unops-at": {
+        "en": 4
+      },
+      "unops-mg": {
+        "en": 1
+      },
+      "unops-jm": {
+        "en": 1
+      },
+      "unops-ss": {
+        "en": 10
+      },
+      "unops-cd": {
+        "en": 16
+      },
+      "unops-pk": {
+        "en": 7
+      },
+      "unops-cr": {
+        "en": 9
+      },
+      "unops-mr": {
+        "en": 1
+      },
+      "unops-bt": {
+        "en": 2
+      },
+      "unops-er": {
+        "en": 1
+      },
+      "unops-rs": {
+        "en": 9
+      },
+      "unops-tv": {
+        "en": 1
+      },
+      "unops-ly": {
+        "en": 9
+      },
+      "unops-bz": {
+        "en": 2
+      },
+      "unops-ne": {
+        "en": 4
+      },
+      "unops-pw": {
+        "en": 1
+      },
+      "unops-la": {
+        "en": 3
+      },
+      "unops-ao": {
+        "en": 2
+      },
+      "unops-id": {
+        "en": 4
+      },
+      "unops-cu": {
+        "en": 1
+      },
+      "unops-gr": {
+        "en": 2
+      },
+      "unops-il": {
+        "en": 1
+      },
+      "unops-it": {
+        "en": 7
+      },
+      "unops-us": {
+        "en": 43
+      },
+      "unops-gd": {
+        "en": 1
+      },
+      "unops-cm": {
+        "en": 4
+      },
+      "unops-vn": {
+        "en": 1
+      },
+      "unops-lr": {
+        "en": 6
+      },
+      "unops-tr": {
+        "en": 3
+      },
+      "unops-sv": {
+        "en": 4
+      },
+      "unops-ug": {
+        "en": 6
+      },
+      "unops-ml": {
+        "en": 7
+      },
+      "unops-mw": {
+        "en": 1
+      },
+      "unops-hr": {
+        "en": 1
+      },
+      "unops-sn": {
+        "en": 8
+      },
+      "unops-ge": {
+        "en": 3
+      },
+      "unops-st": {
+        "en": 1
+      },
+      "unops-jo": {
+        "en": 24
+      },
+      "unops-np": {
+        "en": 9
+      },
+      "unops-af": {
+        "en": 32
+      },
+      "unops-ma": {
+        "en": 3
+      },
+      "unops-ag": {
+        "en": 2
+      },
+      "unops-cw": {
+        "en": 1
+      },
+      "unops-co": {
+        "en": 10
+      },
+      "unops-dm": {
+        "en": 2
+      },
+      "unops-eh": {
+        "en": 5
+      },
+      "unops-gt": {
+        "en": 2
+      },
+      "unops-bo": {
+        "en": 1
+      },
+      "unops-ye": {
+        "en": 15
+      },
+      "unops-my": {
+        "en": 3
+      },
+      "unops-sd": {
+        "en": 17
+      },
+      "unops-py": {
+        "en": 11
+      },
+      "unops-th": {
+        "en": 11
+      },
+      "unops-td": {
+        "en": 1
+      },
+      "unops-sb": {
+        "en": 1
+      },
+      "unops-me": {
+        "en": 1
+      },
+      "unops-in": {
+        "en": 1
+      },
+      "unops-mm": {
+        "en": 22
+      },
+      "unops-hu": {
+        "en": 4
+      },
+      "unops-et": {
+        "en": 28
+      },
+      "unops-cn": {
+        "en": 3
+      },
+      "unops-bd": {
+        "en": 8
+      },
+      "unops-kr": {
+        "en": 1
+      },
+      "unops-uy": {
+        "en": 3
+      },
+      "unops-tt": {
+        "en": 1
+      },
+      "unops-gm": {
+        "en": 5
+      },
+      "unops-sr": {
+        "en": 1
+      },
+      "unops-ir": {
+        "en": 3
+      },
+      "unops-tj": {
+        "en": 1
+      },
+      "unops-pe": {
+        "en": 11
+      },
+      "unops-iq": {
+        "en": 28
+      },
+      "unops-jp": {
+        "en": 2
+      },
+      "unops-se": {
+        "en": 1
+      },
+      "unops-cv": {
+        "en": 1
+      },
+      "unops-mx": {
+        "en": 9
+      },
+      "unops-es": {
+        "en": 5
+      },
+      "unops-sl": {
+        "en": 7
+      },
+      "unops-kp": {
+        "en": 1
+      },
+      "unops-dz": {
+        "en": 2
+      },
+      "unops-bj": {
+        "en": 3
+      },
+      "unops-tl": {
+        "en": 1
+      },
+      "unops-fj": {
+        "en": 1
+      },
+      "unops-xk": {
+        "en": 2
+      },
+      "unops-ws": {
+        "en": 1
+      },
+      "unops-lb": {
+        "en": 7
+      },
+      "unops-kz": {
+        "en": 1
+      },
+      "unops-sa": {
+        "en": 2
+      },
+      "unops-tz": {
+        "en": 4
+      },
+      "unops-ke": {
+        "en": 31
+      },
+      "unops-mz": {
+        "en": 1
+      },
+      "unops-kg": {
+        "en": 1
+      },
+      "unops-mk": {
+        "en": 4
+      },
+      "unops-eg": {
+        "en": 2
+      },
+      "unops-tg": {
+        "en": 2
+      },
+      "unops-bi": {
+        "en": 2
+      },
+      "unops-zw": {
+        "en": 3
+      },
+      "unops-mu": {
+        "en": 1
+      },
+      "unops-ng": {
+        "en": 2
+      },
+      "unops-gw": {
+        "en": 3
+      },
+      "unops-pg": {
+        "en": 2
+      },
+      "unops-mn": {
+        "en": 1
+      },
+      "unops-fr": {
+        "en": 2
+      },
+      "unops-hn": {
+        "en": 8
+      },
+      "unops-bf": {
+        "en": 7
+      },
+      "unops-cf": {
+        "en": 12
+      },
+      "unops-bw": {
+        "en": 1
+      },
+      "unops-lk": {
+        "en": 5
+      },
+      "unops-br": {
+        "en": 11
+      },
+      "unops-ht": {
+        "en": 16
+      },
+      "unops-lc": {
+        "en": 3
+      },
+      "unops-by": {
+        "en": 1
+      },
+      "unops-ec": {
+        "en": 3
+      },
+      "unops-ci": {
+        "en": 1
+      },
+      "unops-sy": {
+        "en": 8
+      },
+      "unops-pa": {
+        "en": 34
+      },
+      "unops-cy": {
+        "en": 2
+      },
+      "unops-nc": {
+        "en": 1
+      }
+    }
+  }
+}

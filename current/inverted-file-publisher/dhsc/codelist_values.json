@@ -1,0 +1,575 @@
+{
+  ".//@default-currency": {
+    "GBP": {
+      "dhsc-activities-ghr": 86,
+      "dhsc-activities": 32
+    }
+  },
+  ".//@xml:lang": {
+    "en": {
+      "dhsc-activities": 1107
+    }
+  },
+  ".//activity-date/@type": {
+    "1": {
+      "dhsc-activities-ghr": 86,
+      "dhsc-activities": 32
+    },
+    "2": {
+      "dhsc-activities-ghr": 86,
+      "dhsc-activities": 32
+    },
+    "3": {
+      "dhsc-activities-ghr": 81,
+      "dhsc-activities": 32
+    },
+    "4": {
+      "dhsc-activities-ghr": 5,
+      "dhsc-activities": 2
+    }
+  },
+  ".//activity-status/@code": {
+    "2": {
+      "dhsc-activities-ghr": 78,
+      "dhsc-activities": 30
+    },
+    "6": {
+      "dhsc-activities-ghr": 1
+    },
+    "4": {
+      "dhsc-activities-ghr": 4,
+      "dhsc-activities": 2
+    },
+    "3": {
+      "dhsc-activities-ghr": 3
+    }
+  },
+  ".//budget/@status": {
+    "1": {
+      "dhsc-activities-ghr": 261,
+      "dhsc-activities": 288
+    },
+    "2": {
+      "dhsc-activities-ghr": 5,
+      "dhsc-activities": 2
+    }
+  },
+  ".//budget/@type": {
+    "1": {
+      "dhsc-activities-ghr": 266,
+      "dhsc-activities": 290
+    }
+  },
+  ".//budget/value/@currency": {
+    "GBP": {
+      "dhsc-activities-ghr": 266,
+      "dhsc-activities": 290
+    }
+  },
+  ".//collaboration-type/@code": {
+    "1": {
+      "dhsc-activities-ghr": 86,
+      "dhsc-activities": 25
+    },
+    "2": {
+      "dhsc-activities": 6
+    }
+  },
+  ".//conditions/condition/@type": {
+    "2": {
+      "dhsc-activities-ghr": 42,
+      "dhsc-activities": 18
+    },
+    "1": {
+      "dhsc-activities": 1
+    }
+  },
+  ".//contact-info/@type": {
+    "1": {
+      "dhsc-activities-ghr": 86
+    }
+  },
+  ".//default-aid-type/@vocabulary": {
+    "1": {
+      "dhsc-activities": 32
+    }
+  },
+  ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "D01": {
+      "dhsc-activities-ghr": 1
+    },
+    "D02": {
+      "dhsc-activities-ghr": 58
+    },
+    "C01": {
+      "dhsc-activities-ghr": 22,
+      "dhsc-activities": 25
+    },
+    "H01": {
+      "dhsc-activities-ghr": 1
+    },
+    "B03": {
+      "dhsc-activities-ghr": 3,
+      "dhsc-activities": 6
+    },
+    "G01": {
+      "dhsc-activities-ghr": 1
+    },
+    "B02": {
+      "dhsc-activities": 1
+    }
+  },
+  ".//default-finance-type/@code": {
+    "110": {
+      "dhsc-activities-ghr": 86,
+      "dhsc-activities": 32
+    }
+  },
+  ".//default-flow-type/@code": {
+    "10": {
+      "dhsc-activities-ghr": 86,
+      "dhsc-activities": 32
+    }
+  },
+  ".//default-tied-status/@code": {
+    "5": {
+      "dhsc-activities-ghr": 86,
+      "dhsc-activities": 32
+    }
+  },
+  ".//description/@type": {
+    "1": {
+      "dhsc-activities-ghr": 86,
+      "dhsc-activities": 88
+    },
+    "2": {
+      "dhsc-activities-ghr": 86,
+      "dhsc-activities": 1
+    },
+    "3": {
+      "dhsc-activities": 1
+    }
+  },
+  ".//document-link/@format": {
+    "application/pdf": {
+      "dhsc-activities-ghr": 216,
+      "dhsc-activities": 69
+    },
+    "text/html": {
+      "dhsc-activities-ghr": 30,
+      "dhsc-activities": 58
+    },
+    "application/vnd.ms-word.template.macroEnabled.12": {
+      "dhsc-activities-ghr": 20
+    }
+  },
+  ".//document-link/category/@code": {
+    "A06": {
+      "dhsc-activities-ghr": 60,
+      "dhsc-activities": 28
+    },
+    "A10": {
+      "dhsc-activities-ghr": 72,
+      "dhsc-activities": 2
+    },
+    "A11": {
+      "dhsc-activities-ghr": 80,
+      "dhsc-activities": 30
+    },
+    "A04": {
+      "dhsc-activities-ghr": 84,
+      "dhsc-activities": 31
+    },
+    "A12": {
+      "dhsc-activities-ghr": 16,
+      "dhsc-activities": 14
+    },
+    "A02": {
+      "dhsc-activities-ghr": 13,
+      "dhsc-activities": 61
+    },
+    "A01": {
+      "dhsc-activities-ghr": 10,
+      "dhsc-activities": 1
+    },
+    "A07": {
+      "dhsc-activities-ghr": 14,
+      "dhsc-activities": 13
+    },
+    "A08": {
+      "dhsc-activities-ghr": 14,
+      "dhsc-activities": 15
+    },
+    "A03": {
+      "dhsc-activities-ghr": 4,
+      "dhsc-activities": 21
+    },
+    "A05": {
+      "dhsc-activities-ghr": 3,
+      "dhsc-activities": 32
+    },
+    "B01": {
+      "dhsc-activities": 4
+    }
+  },
+  ".//document-link/language/@code": {
+    "en": {
+      "dhsc-activities-ghr": 266,
+      "dhsc-activities": 127
+    }
+  },
+  ".//location/location-class/@code": {
+    "1": {
+      "dhsc-activities": 1
+    }
+  },
+  ".//other-identifier/@type": {
+    "A1": {
+      "dhsc-activities": 1
+    },
+    "A3": {
+      "dhsc-activities": 1
+    }
+  },
+  ".//participating-org/@role": {
+    "1": {
+      "dhsc-activities-ghr": 86,
+      "dhsc-activities": 32
+    },
+    "2": {
+      "dhsc-activities-ghr": 86,
+      "dhsc-activities": 32
+    },
+    "3": {
+      "dhsc-activities-ghr": 86
+    },
+    "4": {
+      "dhsc-activities-ghr": 132,
+      "dhsc-activities": 55
+    }
+  },
+  ".//participating-org/@type": {
+    "10": {
+      "dhsc-activities-ghr": 269,
+      "dhsc-activities": 79
+    },
+    "15": {
+      "dhsc-activities-ghr": 4,
+      "dhsc-activities": 1
+    },
+    "80": {
+      "dhsc-activities-ghr": 101,
+      "dhsc-activities": 15
+    },
+    "30": {
+      "dhsc-activities-ghr": 7
+    },
+    "21": {
+      "dhsc-activities-ghr": 1,
+      "dhsc-activities": 7
+    },
+    "71": {
+      "dhsc-activities-ghr": 2
+    },
+    "90": {
+      "dhsc-activities-ghr": 2,
+      "dhsc-activities": 2
+    },
+    "40": {
+      "dhsc-activities-ghr": 3,
+      "dhsc-activities": 11
+    },
+    "70": {
+      "dhsc-activities-ghr": 1,
+      "dhsc-activities": 4
+    }
+  },
+  ".//planned-disbursement/@type": {
+    "1": {
+      "dhsc-activities": 2
+    }
+  },
+  ".//planned-disbursement/value/@currency": {
+    "GBP": {
+      "dhsc-activities": 2
+    }
+  },
+  ".//recipient-country/@code": {
+    "IN": {
+      "dhsc-activities-ghr": 3
+    },
+    "CN": {
+      "dhsc-activities-ghr": 1
+    },
+    "LK": {
+      "dhsc-activities-ghr": 1,
+      "dhsc-activities": 1
+    },
+    "NP": {
+      "dhsc-activities-ghr": 1,
+      "dhsc-activities": 1
+    },
+    "BR": {
+      "dhsc-activities-ghr": 1
+    },
+    "TZ": {
+      "dhsc-activities-ghr": 1,
+      "dhsc-activities": 2
+    },
+    "SL": {
+      "dhsc-activities-ghr": 1,
+      "dhsc-activities": 1
+    },
+    "GB": {
+      "dhsc-activities-ghr": 1
+    },
+    "UG": {
+      "dhsc-activities": 2
+    },
+    "GH": {
+      "dhsc-activities": 2
+    },
+    "ZM": {
+      "dhsc-activities": 2
+    },
+    "BD": {
+      "dhsc-activities": 1
+    },
+    "ZW": {
+      "dhsc-activities": 1
+    },
+    "ID": {
+      "dhsc-activities": 1
+    },
+    "KE": {
+      "dhsc-activities": 1
+    },
+    "LA": {
+      "dhsc-activities": 1
+    },
+    "MW": {
+      "dhsc-activities": 1
+    },
+    "MM": {
+      "dhsc-activities": 1
+    },
+    "BT": {
+      "dhsc-activities": 1
+    },
+    "BF": {
+      "dhsc-activities": 1
+    },
+    "NG": {
+      "dhsc-activities": 1
+    },
+    "PK": {
+      "dhsc-activities": 1
+    },
+    "PG": {
+      "dhsc-activities": 1
+    },
+    "SN": {
+      "dhsc-activities": 1
+    },
+    "SZ": {
+      "dhsc-activities": 1
+    },
+    "TL": {
+      "dhsc-activities": 1
+    },
+    "VN": {
+      "dhsc-activities": 2
+    }
+  },
+  ".//recipient-region/@vocabulary": {
+    "1": {
+      "dhsc-activities-ghr": 75,
+      "dhsc-activities": 30
+    }
+  },
+  ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "998": {
+      "dhsc-activities-ghr": 46,
+      "dhsc-activities": 30
+    },
+    "798": {
+      "dhsc-activities-ghr": 1
+    },
+    "289": {
+      "dhsc-activities-ghr": 21
+    },
+    "679": {
+      "dhsc-activities-ghr": 4
+    },
+    "298": {
+      "dhsc-activities-ghr": 2
+    },
+    "489": {
+      "dhsc-activities-ghr": 1
+    }
+  },
+  ".//related-activity/@type": {
+    "1": {
+      "dhsc-activities-ghr": 62,
+      "dhsc-activities": 12
+    },
+    "3": {
+      "dhsc-activities-ghr": 1448,
+      "dhsc-activities": 92
+    },
+    "2": {
+      "dhsc-activities-ghr": 58,
+      "dhsc-activities": 12
+    }
+  },
+  ".//reporting-org/@type": {
+    "10": {
+      "dhsc-activities-ghr": 86,
+      "dhsc-activities": 32
+    }
+  },
+  ".//sector/@vocabulary": {
+    "1": {
+      "dhsc-activities": 32
+    }
+  },
+  ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "12182": {
+      "dhsc-activities-ghr": 77,
+      "dhsc-activities": 9
+    },
+    "13040": {
+      "dhsc-activities-ghr": 1,
+      "dhsc-activities": 1
+    },
+    "12262": {
+      "dhsc-activities-ghr": 2
+    },
+    "12263": {
+      "dhsc-activities-ghr": 1
+    },
+    "12250": {
+      "dhsc-activities-ghr": 1,
+      "dhsc-activities": 6
+    },
+    "99820": {
+      "dhsc-activities-ghr": 2
+    },
+    "21010": {
+      "dhsc-activities-ghr": 1
+    },
+    "99810": {
+      "dhsc-activities-ghr": 1
+    },
+    "12110": {
+      "dhsc-activities": 16
+    }
+  },
+  ".//transaction/aid-type/@vocabulary": {
+    "1": {
+      "dhsc-activities": 245
+    }
+  },
+  ".//transaction/aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "C01": {
+      "dhsc-activities": 208
+    },
+    "B03": {
+      "dhsc-activities": 27
+    },
+    "D01": {
+      "dhsc-activities": 4
+    },
+    "B02": {
+      "dhsc-activities": 6
+    }
+  },
+  ".//transaction/disbursement-channel/@code": {
+    "2": {
+      "dhsc-activities": 223
+    },
+    "3": {
+      "dhsc-activities": 2
+    }
+  },
+  ".//transaction/finance-type/@code": {
+    "110": {
+      "dhsc-activities": 248
+    }
+  },
+  ".//transaction/flow-type/@code": {
+    "10": {
+      "dhsc-activities": 249
+    }
+  },
+  ".//transaction/provider-org/@type": {
+    "10": {
+      "dhsc-activities": 380
+    },
+    "11": {
+      "dhsc-activities": 1
+    },
+    "21": {
+      "dhsc-activities": 1
+    },
+    "70": {
+      "dhsc-activities": 1
+    },
+    "15": {
+      "dhsc-activities": 1
+    }
+  },
+  ".//transaction/receiver-org/@type": {
+    "21": {
+      "dhsc-activities": 15
+    },
+    "80": {
+      "dhsc-activities": 132
+    },
+    "40": {
+      "dhsc-activities": 47
+    },
+    "70": {
+      "dhsc-activities": 112
+    },
+    "10": {
+      "dhsc-activities": 95
+    },
+    "90": {
+      "dhsc-activities": 4
+    },
+    "15": {
+      "dhsc-activities": 5
+    }
+  },
+  ".//transaction/tied-status/@code": {
+    "5": {
+      "dhsc-activities": 249
+    }
+  },
+  ".//transaction/transaction-type/@code": {
+    "2": {
+      "dhsc-activities-ghr": 81,
+      "dhsc-activities": 36
+    },
+    "3": {
+      "dhsc-activities-ghr": 385,
+      "dhsc-activities": 386
+    }
+  },
+  ".//transaction/value/@currency": {
+    "GBP": {
+      "dhsc-activities-ghr": 465,
+      "dhsc-activities": 415
+    },
+    "EUR": {
+      "dhsc-activities-ghr": 1
+    },
+    "CHF": {
+      "dhsc-activities": 3
+    },
+    "USD": {
+      "dhsc-activities": 3
+    }
+  }
+}

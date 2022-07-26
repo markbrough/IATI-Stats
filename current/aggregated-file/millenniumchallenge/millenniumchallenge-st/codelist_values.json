@@ -1,0 +1,135 @@
+{
+  ".//@default-currency": {
+    "USD": 16
+  },
+  ".//@xml:lang": {
+    "en": 72
+  },
+  ".//activity-date/@type": {
+    "1": 16,
+    "2": 16,
+    "3": 16,
+    "4": 16
+  },
+  ".//activity-status/@code": {
+    "3": 14,
+    "5": 2
+  },
+  ".//budget/@type": {
+    "2": 8
+  },
+  ".//budget/value/@currency": {
+    "USD": 8
+  },
+  ".//collaboration-type/@code": {
+    "1": 8
+  },
+  ".//country-budget-items/@vocabulary": {
+    "1": 8
+  },
+  ".//country-budget-items/budget-item[../@vocabulary = '1']/@code": {
+    "1.4.3": 8
+  },
+  ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "C01": 1
+  },
+  ".//default-finance-type/@code": {
+    "110": 1
+  },
+  ".//default-flow-type/@code": {
+    "10": 1
+  },
+  ".//default-tied-status/@code": {
+    "5": 1
+  },
+  ".//description/@type": {
+    "1": 16
+  },
+  ".//document-link/@format": {
+    "text/html": 2,
+    "application/pdf": 1
+  },
+  ".//document-link/category/@code": {
+    "A02": 1,
+    "A04": 1,
+    "A05": 1,
+    "A08": 2,
+    "A09": 1,
+    "A11": 1,
+    "A01": 1,
+    "A07": 1,
+    "A12": 1
+  },
+  ".//document-link/language/@code": {
+    "en": 3
+  },
+  ".//location/administrative/@vocabulary": {
+    "A4": 6,
+    "G1": 6
+  },
+  ".//location/administrative[@vocabulary = 'A4']/@code": {
+    "ST": 6
+  },
+  ".//location/exactness/@code": {
+    "1": 6
+  },
+  ".//location/feature-designation/@code": {
+    "P": 6
+  },
+  ".//location/location-class/@code": {
+    "2": 6
+  },
+  ".//location/location-id/@vocabulary": {
+    "G1": 6
+  },
+  ".//location/location-reach/@code": {
+    "1": 6
+  },
+  ".//participating-org/@role": {
+    "1": 16,
+    "3": 16,
+    "2": 16,
+    "4": 16
+  },
+  ".//participating-org/@type": {
+    "10": 64
+  },
+  ".//planned-disbursement/@type": {
+    "2": 8
+  },
+  ".//planned-disbursement/value/@currency": {
+    "USD": 8
+  },
+  ".//recipient-country/@code": {
+    "ST": 16
+  },
+  ".//related-activity/@type": {
+    "1": 16,
+    "2": 15,
+    "3": 44
+  },
+  ".//reporting-org/@type": {
+    "10": 16
+  },
+  ".//sector/@vocabulary": {
+    "1": 8,
+    "99": 8
+  },
+  ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "25010": 1,
+    "15156": 1,
+    "91010": 3,
+    "99810": 2,
+    "15116": 1
+  },
+  ".//transaction/disbursement-channel/@code": {
+    "3": 52
+  },
+  ".//transaction/transaction-type/@code": {
+    "2": 22,
+    "3": 30
+  },
+  ".//transaction/value/@currency": {
+    "USD": 52
+  }
+}

@@ -1,0 +1,81 @@
+{
+  ".//@default-currency": {
+    "EUR": 2
+  },
+  ".//@xml:lang": {
+    "en": 6,
+    "da": 4
+  },
+  ".//activity-date/@type": {
+    "2": 2,
+    "3": 2
+  },
+  ".//activity-status/@code": {
+    "2": 2
+  },
+  ".//contact-info/@type": {
+    "1": 2
+  },
+  ".//default-aid-type/@vocabulary": {
+    "1": 2
+  },
+  ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "B03": 2
+  },
+  ".//default-finance-type/@code": {
+    "110": 2
+  },
+  ".//default-flow-type/@code": {
+    "30": 2
+  },
+  ".//default-tied-status/@code": {
+    "5": 2
+  },
+  ".//description/@type": {
+    "1": 2
+  },
+  ".//document-link/@format": {
+    "application/pdf": 10
+  },
+  ".//document-link/category/@code": {
+    "B02": 6,
+    "A11": 2,
+    "B01": 2
+  },
+  ".//participating-org/@role": {
+    "1": 2
+  },
+  ".//participating-org/@type": {
+    "10": 2
+  },
+  ".//recipient-region/@vocabulary": {
+    "1": 2
+  },
+  ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "998": 2
+  },
+  ".//reporting-org/@type": {
+    "21": 2
+  },
+  ".//sector/@vocabulary": {
+    "1": 2
+  },
+  ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "16050": 1,
+    "72010": 1
+  },
+  ".//transaction/flow-type/@code": {
+    "10": 8
+  },
+  ".//transaction/provider-org/@type": {
+    "10": 11
+  },
+  ".//transaction/transaction-type/@code": {
+    "13": 2,
+    "11": 4,
+    "1": 8
+  },
+  ".//transaction/value/@currency": {
+    "DKK": 14
+  }
+}

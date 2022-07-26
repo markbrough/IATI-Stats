@@ -1,0 +1,71 @@
+{
+  ".//@default-currency": {
+    "GBP": 1
+  },
+  ".//@xml:lang": {
+    "en": 11
+  },
+  ".//activity-date/@type": {
+    "2": 1
+  },
+  ".//activity-status/@code": {
+    "2": 1
+  },
+  ".//budget/@status": {
+    "1": 1
+  },
+  ".//budget/@type": {
+    "1": 1
+  },
+  ".//budget/value/@currency": {
+    "GHS": 1
+  },
+  ".//description/@type": {
+    "1": 1
+  },
+  ".//participating-org/@role": {
+    "1": 1,
+    "2": 1,
+    "4": 1
+  },
+  ".//participating-org/@type": {
+    "10": 1,
+    "21": 1,
+    "22": 1
+  },
+  ".//recipient-country/@code": {
+    "GH": 1
+  },
+  ".//reporting-org/@type": {
+    "22": 1
+  },
+  ".//sector/@vocabulary": {
+    "1": 16
+  },
+  ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "11220": 16
+  },
+  ".//transaction/disbursement-channel/@code": {
+    "2": 16
+  },
+  ".//transaction/provider-org/@type": {
+    "21": 16
+  },
+  ".//transaction/receiver-org/@type": {
+    "22": 15
+  },
+  ".//transaction/sector/@vocabulary": {
+    "1": 16
+  },
+  ".//transaction/sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "11220": 16
+  },
+  ".//transaction/transaction-type/@code": {
+    "1": 9,
+    "4": 6,
+    "7": 1
+  },
+  ".//transaction/value/@currency": {
+    "GHS": 16
+  }
+}

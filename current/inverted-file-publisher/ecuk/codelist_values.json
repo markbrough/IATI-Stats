@@ -1,0 +1,266 @@
+{
+  ".//@default-currency": {
+    "GBP": {
+      "ecuk-gb": 1,
+      "ecuk-ge": 1,
+      "ecuk-np": 1,
+      "ecuk-tz": 1
+    }
+  },
+  ".//@xml:lang": {
+    "en": {
+      "ecuk-gb": 14,
+      "ecuk-ge": 13,
+      "ecuk-np": 6,
+      "ecuk-tz": 6
+    }
+  },
+  ".//activity-date/@type": {
+    "2": {
+      "ecuk-gb": 1,
+      "ecuk-ge": 1,
+      "ecuk-np": 1,
+      "ecuk-tz": 1
+    },
+    "3": {
+      "ecuk-gb": 1,
+      "ecuk-ge": 1,
+      "ecuk-np": 1,
+      "ecuk-tz": 1
+    },
+    "1": {
+      "ecuk-ge": 1
+    }
+  },
+  ".//activity-status/@code": {
+    "2": {
+      "ecuk-gb": 1,
+      "ecuk-ge": 1,
+      "ecuk-np": 1,
+      "ecuk-tz": 1
+    }
+  },
+  ".//budget/@status": {
+    "1": {
+      "ecuk-gb": 1,
+      "ecuk-ge": 2,
+      "ecuk-np": 1,
+      "ecuk-tz": 1
+    },
+    "2": {
+      "ecuk-ge": 1
+    }
+  },
+  ".//budget/@type": {
+    "1": {
+      "ecuk-gb": 1,
+      "ecuk-np": 1,
+      "ecuk-tz": 1
+    },
+    "2": {
+      "ecuk-ge": 3
+    }
+  },
+  ".//budget/value/@currency": {
+    "GBP": {
+      "ecuk-gb": 1,
+      "ecuk-ge": 3,
+      "ecuk-np": 1,
+      "ecuk-tz": 1
+    }
+  },
+  ".//contact-info/@type": {
+    "3": {
+      "ecuk-ge": 1
+    }
+  },
+  ".//default-aid-type/@vocabulary": {
+    "1": {
+      "ecuk-ge": 1
+    }
+  },
+  ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "D02": {
+      "ecuk-ge": 1
+    }
+  },
+  ".//default-finance-type/@code": {
+    "110": {
+      "ecuk-ge": 1
+    }
+  },
+  ".//default-flow-type/@code": {
+    "10": {
+      "ecuk-ge": 1
+    }
+  },
+  ".//default-tied-status/@code": {
+    "5": {
+      "ecuk-ge": 1
+    }
+  },
+  ".//description/@type": {
+    "1": {
+      "ecuk-gb": 1,
+      "ecuk-ge": 1,
+      "ecuk-np": 1,
+      "ecuk-tz": 1
+    }
+  },
+  ".//document-link/@format": {
+    "application/vnd.ms-word.document.macroEnabled.12": {
+      "ecuk-gb": 1,
+      "ecuk-np": 1
+    },
+    "application/msword": {
+      "ecuk-ge": 2,
+      "ecuk-tz": 1
+    },
+    "application/pdf": {
+      "ecuk-ge": 1
+    }
+  },
+  ".//document-link/category/@code": {
+    "A02": {
+      "ecuk-gb": 1,
+      "ecuk-ge": 3,
+      "ecuk-np": 1,
+      "ecuk-tz": 1
+    }
+  },
+  ".//document-link/language/@code": {
+    "en": {
+      "ecuk-ge": 3
+    }
+  },
+  ".//participating-org/@role": {
+    "1": {
+      "ecuk-gb": 1,
+      "ecuk-ge": 1,
+      "ecuk-np": 1,
+      "ecuk-tz": 1
+    },
+    "2": {
+      "ecuk-gb": 1,
+      "ecuk-ge": 1
+    },
+    "4": {
+      "ecuk-gb": 1,
+      "ecuk-ge": 1
+    }
+  },
+  ".//participating-org/@type": {
+    "10": {
+      "ecuk-gb": 1,
+      "ecuk-ge": 1,
+      "ecuk-np": 1,
+      "ecuk-tz": 1
+    },
+    "70": {
+      "ecuk-gb": 2,
+      "ecuk-ge": 2
+    }
+  },
+  ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "3": {
+      "ecuk-ge": 1
+    }
+  },
+  ".//recipient-country/@code": {
+    "GB": {
+      "ecuk-gb": 1
+    },
+    "GE": {
+      "ecuk-ge": 1
+    },
+    "RS": {
+      "ecuk-ge": 1
+    },
+    "MD": {
+      "ecuk-ge": 1
+    },
+    "UA": {
+      "ecuk-ge": 1
+    },
+    "BA": {
+      "ecuk-ge": 1
+    },
+    "NP": {
+      "ecuk-np": 1
+    },
+    "TZ": {
+      "ecuk-tz": 1
+    }
+  },
+  ".//reporting-org/@type": {
+    "70": {
+      "ecuk-gb": 1,
+      "ecuk-ge": 1,
+      "ecuk-np": 1,
+      "ecuk-tz": 1
+    }
+  },
+  ".//sector/@vocabulary": {
+    "1": {
+      "ecuk-gb": 1,
+      "ecuk-ge": 1,
+      "ecuk-np": 1,
+      "ecuk-tz": 1
+    }
+  },
+  ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "15110": {
+      "ecuk-gb": 1
+    },
+    "15122": {
+      "ecuk-ge": 1
+    },
+    "15170": {
+      "ecuk-np": 1
+    },
+    "14010": {
+      "ecuk-tz": 1
+    }
+  },
+  ".//transaction/provider-org/@type": {
+    "10": {
+      "ecuk-gb": 2,
+      "ecuk-ge": 4,
+      "ecuk-np": 5,
+      "ecuk-tz": 7
+    },
+    "70": {
+      "ecuk-ge": 1
+    }
+  },
+  ".//transaction/receiver-org/@type": {
+    "70": {
+      "ecuk-gb": 2,
+      "ecuk-ge": 4,
+      "ecuk-np": 5,
+      "ecuk-tz": 5
+    }
+  },
+  ".//transaction/transaction-type/@code": {
+    "2": {
+      "ecuk-gb": 2
+    },
+    "4": {
+      "ecuk-gb": 3,
+      "ecuk-ge": 2
+    },
+    "1": {
+      "ecuk-ge": 4,
+      "ecuk-np": 5,
+      "ecuk-tz": 12
+    }
+  },
+  ".//transaction/value/@currency": {
+    "GBP": {
+      "ecuk-gb": 4,
+      "ecuk-ge": 6,
+      "ecuk-np": 5,
+      "ecuk-tz": 12
+    }
+  }
+}

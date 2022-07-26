@@ -1,0 +1,309 @@
+{
+  "2": {
+    ".//@default-currency": {
+      "dmru-dk": {
+        "DKK": 1
+      },
+      "dmru-be": {
+        "EUR": 1
+      },
+      "dmru-998": {
+        "DKK": 3
+      },
+      "dmru-cn": {
+        "DKK": 1
+      }
+    },
+    ".//activity-date/@type": {
+      "dmru-dk": {
+        "2": 1
+      },
+      "dmru-be": {
+        "2": 1,
+        "1": 1,
+        "3": 1
+      },
+      "dmru-998": {
+        "1": 1,
+        "2": 2,
+        "4": 1
+      },
+      "dmru-cn": {
+        "1": 1
+      }
+    },
+    ".//activity-status/@code": {
+      "dmru-dk": {
+        "4": 1
+      },
+      "dmru-be": {
+        "2": 1
+      },
+      "dmru-998": {
+        "1": 2,
+        "3": 1
+      },
+      "dmru-cn": {
+        "2": 1
+      }
+    },
+    ".//budget/@status": {
+      "dmru-dk": {
+        "1": 1
+      },
+      "dmru-cn": {
+        "2": 1
+      }
+    },
+    ".//budget/@type": {
+      "dmru-dk": {
+        "1": 1
+      },
+      "dmru-cn": {
+        "1": 1
+      }
+    },
+    ".//budget/value/@currency": {
+      "dmru-dk": {
+        "DKK": 1
+      },
+      "dmru-cn": {
+        "DKK": 1
+      }
+    },
+    ".//description/@type": {
+      "dmru-dk": {
+        "1": 1
+      },
+      "dmru-be": {
+        "1": 1
+      },
+      "dmru-998": {
+        "1": 2,
+        "4": 1,
+        "2": 1,
+        "3": 1
+      },
+      "dmru-cn": {
+        "1": 1
+      }
+    },
+    ".//participating-org/@crs-channel-code": {
+      "dmru-dk": {
+        "20000": 1
+      },
+      "dmru-998": {
+        "11001": 1
+      }
+    },
+    ".//participating-org/@role": {
+      "dmru-dk": {
+        "4": 1
+      },
+      "dmru-be": {
+        "1": 1
+      },
+      "dmru-998": {
+        "1": 3,
+        "4": 1
+      },
+      "dmru-cn": {
+        "1": 1
+      }
+    },
+    ".//participating-org/@type": {
+      "dmru-dk": {
+        "21": 1
+      },
+      "dmru-be": {
+        "90": 1
+      },
+      "dmru-998": {
+        "22": 1,
+        "21": 2,
+        "10": 1
+      },
+      "dmru-cn": {
+        "21": 1
+      }
+    },
+    ".//recipient-country/@code": {
+      "dmru-dk": {
+        "DK": 1
+      },
+      "dmru-be": {
+        "BE": 1
+      },
+      "dmru-cn": {
+        "CN": 1
+      }
+    },
+    ".//reporting-org/@type": {
+      "dmru-dk": {
+        "21": 1
+      },
+      "dmru-be": {
+        "21": 1
+      },
+      "dmru-998": {
+        "21": 3
+      },
+      "dmru-cn": {
+        "21": 1
+      }
+    },
+    ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "dmru-dk": {
+        "92010": 1
+      },
+      "dmru-be": {
+        "91010": 1
+      },
+      "dmru-998": {
+        "92020": 1
+      },
+      "dmru-cn": {
+        "11330": 1
+      }
+    },
+    ".//sector/@vocabulary": {
+      "dmru-dk": {
+        "1": 1
+      },
+      "dmru-be": {
+        "1": 1
+      },
+      "dmru-998": {
+        "6": 2,
+        "1": 1
+      },
+      "dmru-cn": {
+        "1": 1
+      }
+    },
+    ".//transaction/aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "dmru-dk": {
+        "A02": 1
+      },
+      "dmru-998": {
+        "B04": 1
+      }
+    },
+    ".//transaction/aid-type/@vocabulary": {
+      "dmru-dk": {
+        "1": 1
+      },
+      "dmru-998": {
+        "1": 1
+      }
+    },
+    ".//transaction/disbursement-channel/@code": {
+      "dmru-dk": {
+        "3": 1
+      },
+      "dmru-998": {
+        "3": 1
+      }
+    },
+    ".//transaction/finance-type/@code": {
+      "dmru-dk": {
+        "110": 1
+      },
+      "dmru-998": {
+        "110": 1
+      }
+    },
+    ".//transaction/flow-type/@code": {
+      "dmru-dk": {
+        "10": 1
+      },
+      "dmru-998": {
+        "10": 1
+      }
+    },
+    ".//transaction/provider-org/@type": {
+      "dmru-dk": {
+        "10": 2
+      },
+      "dmru-be": {
+        "21": 1
+      },
+      "dmru-998": {
+        "10": 3
+      }
+    },
+    ".//transaction/receiver-org/@type": {
+      "dmru-dk": {
+        "21": 1,
+        "22": 1
+      },
+      "dmru-998": {
+        "22": 2
+      }
+    },
+    ".//transaction/tied-status/@code": {
+      "dmru-dk": {
+        "5": 1
+      },
+      "dmru-998": {
+        "5": 1
+      }
+    },
+    ".//transaction/transaction-type/@code": {
+      "dmru-dk": {
+        "1": 2
+      },
+      "dmru-be": {
+        "1": 1
+      },
+      "dmru-998": {
+        "1": 3
+      }
+    },
+    ".//transaction/value/@currency": {
+      "dmru-dk": {
+        "DKK": 2
+      },
+      "dmru-998": {
+        "DKK": 2
+      }
+    },
+    ".//@xml:lang": {
+      "dmru-dk": {
+        "en": 11
+      },
+      "dmru-be": {
+        "en": 2
+      },
+      "dmru-998": {
+        "en": 10,
+        "da": 1
+      },
+      "dmru-cn": {
+        "en": 3,
+        "da": 1
+      }
+    },
+    ".//activity-scope/@code": {
+      "dmru-998": {
+        "1": 1
+      }
+    },
+    ".//other-identifier/@type": {
+      "dmru-998": {
+        "A9": 1,
+        "A1": 1
+      }
+    },
+    ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "dmru-998": {
+        "998": 3
+      }
+    },
+    ".//recipient-region/@vocabulary": {
+      "dmru-998": {
+        "1": 3
+      }
+    }
+  }
+}

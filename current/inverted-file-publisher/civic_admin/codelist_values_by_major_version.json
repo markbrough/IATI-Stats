@@ -1,0 +1,352 @@
+{
+  "2": {
+    ".//@default-currency": {
+      "civic_admin-cf": {
+        "EUR": 1
+      },
+      "civic_admin-af": {
+        "EUR": 2
+      },
+      "civic_admin-ye": {
+        "EUR": 1
+      }
+    },
+    ".//activity-date/@type": {
+      "civic_admin-cf": {
+        "1": 1,
+        "2": 1,
+        "3": 1
+      },
+      "civic_admin-af": {
+        "1": 2,
+        "2": 2,
+        "3": 2
+      },
+      "civic_admin-ye": {
+        "2": 1
+      }
+    },
+    ".//activity-status/@code": {
+      "civic_admin-cf": {
+        "2": 1
+      },
+      "civic_admin-af": {
+        "2": 1,
+        "4": 1
+      },
+      "civic_admin-ye": {
+        "2": 1
+      }
+    },
+    ".//budget/@status": {
+      "civic_admin-cf": {
+        "2": 2
+      },
+      "civic_admin-af": {
+        "2": 3
+      },
+      "civic_admin-ye": {
+        "2": 2
+      }
+    },
+    ".//budget/@type": {
+      "civic_admin-cf": {
+        "1": 2
+      },
+      "civic_admin-af": {
+        "1": 3
+      },
+      "civic_admin-ye": {
+        "1": 2
+      }
+    },
+    ".//budget/value/@currency": {
+      "civic_admin-cf": {
+        "USD": 2
+      },
+      "civic_admin-af": {
+        "USD": 3
+      },
+      "civic_admin-ye": {
+        "USD": 2
+      }
+    },
+    ".//contact-info/@type": {
+      "civic_admin-cf": {
+        "2": 1
+      },
+      "civic_admin-af": {
+        "2": 1
+      },
+      "civic_admin-ye": {
+        "2": 1
+      }
+    },
+    ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "civic_admin-cf": {
+        "C01": 1
+      },
+      "civic_admin-af": {
+        "C01": 2
+      },
+      "civic_admin-ye": {
+        "A01": 1
+      }
+    },
+    ".//default-finance-type/@code": {
+      "civic_admin-cf": {
+        "110": 1
+      },
+      "civic_admin-af": {
+        "110": 2
+      },
+      "civic_admin-ye": {
+        "110": 1
+      }
+    },
+    ".//default-flow-type/@code": {
+      "civic_admin-cf": {
+        "10": 1
+      },
+      "civic_admin-af": {
+        "10": 2
+      },
+      "civic_admin-ye": {
+        "10": 1
+      }
+    },
+    ".//default-tied-status/@code": {
+      "civic_admin-cf": {
+        "4": 1
+      },
+      "civic_admin-af": {
+        "4": 2
+      },
+      "civic_admin-ye": {
+        "4": 1
+      }
+    },
+    ".//description/@type": {
+      "civic_admin-cf": {
+        "1": 1,
+        "2": 1
+      },
+      "civic_admin-af": {
+        "1": 2,
+        "2": 1
+      },
+      "civic_admin-ye": {
+        "1": 1
+      }
+    },
+    ".//document-link/@format": {
+      "civic_admin-cf": {
+        "application/pdf": 2
+      }
+    },
+    ".//document-link/category/@code": {
+      "civic_admin-cf": {
+        "A08": 3
+      }
+    },
+    ".//document-link/language/@code": {
+      "civic_admin-cf": {
+        "en": 2
+      }
+    },
+    ".//participating-org/@role": {
+      "civic_admin-cf": {
+        "2": 1,
+        "4": 1,
+        "1": 1
+      },
+      "civic_admin-af": {
+        "4": 2,
+        "1": 2,
+        "2": 1
+      },
+      "civic_admin-ye": {
+        "1": 1,
+        "4": 1
+      }
+    },
+    ".//participating-org/@type": {
+      "civic_admin-cf": {
+        "21": 2,
+        "10": 1
+      },
+      "civic_admin-af": {
+        "21": 3,
+        "10": 2
+      },
+      "civic_admin-ye": {
+        "10": 1,
+        "21": 1
+      }
+    },
+    ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "civic_admin-cf": {
+        "3": 1
+      },
+      "civic_admin-af": {
+        "3": 2
+      }
+    },
+    ".//policy-marker/@significance": {
+      "civic_admin-cf": {
+        "3": 1
+      },
+      "civic_admin-af": {
+        "3": 1
+      },
+      "civic_admin-ye": {
+        "3": 1
+      }
+    },
+    ".//policy-marker/@vocabulary": {
+      "civic_admin-cf": {
+        "1": 1
+      },
+      "civic_admin-af": {
+        "1": 2
+      },
+      "civic_admin-ye": {
+        "99": 1
+      }
+    },
+    ".//recipient-country/@code": {
+      "civic_admin-cf": {
+        "CF": 1,
+        "CD": 1,
+        "ML": 1,
+        "SS": 1,
+        "US": 1
+      },
+      "civic_admin-af": {
+        "AF": 2,
+        "CF": 1,
+        "CD": 1,
+        "ML": 1,
+        "SS": 1,
+        "US": 1
+      },
+      "civic_admin-ye": {
+        "YE": 1
+      }
+    },
+    ".//related-activity/@type": {
+      "civic_admin-cf": {
+        "1": 1
+      },
+      "civic_admin-af": {
+        "2": 2,
+        "1": 1
+      }
+    },
+    ".//reporting-org/@type": {
+      "civic_admin-cf": {
+        "21": 1
+      },
+      "civic_admin-af": {
+        "21": 2
+      },
+      "civic_admin-ye": {
+        "21": 1
+      }
+    },
+    ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "civic_admin-cf": {
+        "99810": 1
+      },
+      "civic_admin-af": {
+        "15230": 1,
+        "15220": 2
+      },
+      "civic_admin-ye": {
+        "15220": 1
+      }
+    },
+    ".//sector/@vocabulary": {
+      "civic_admin-cf": {
+        "1": 1
+      },
+      "civic_admin-af": {
+        "1": 3
+      },
+      "civic_admin-ye": {
+        "1": 1
+      }
+    },
+    ".//transaction/aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "civic_admin-cf": {
+        "C01": 3
+      },
+      "civic_admin-af": {
+        "C01": 6
+      }
+    },
+    ".//transaction/tied-status/@code": {
+      "civic_admin-cf": {
+        "4": 6
+      },
+      "civic_admin-af": {
+        "4": 13
+      }
+    },
+    ".//transaction/transaction-type/@code": {
+      "civic_admin-cf": {
+        "4": 12
+      },
+      "civic_admin-af": {
+        "4": 24,
+        "1": 4
+      },
+      "civic_admin-ye": {
+        "4": 6,
+        "1": 3
+      }
+    },
+    ".//transaction/value/@currency": {
+      "civic_admin-cf": {
+        "USD": 12
+      },
+      "civic_admin-af": {
+        "USD": 26
+      },
+      "civic_admin-ye": {
+        "USD": 8
+      }
+    },
+    ".//@xml:lang": {
+      "civic_admin-cf": {
+        "en": 17
+      },
+      "civic_admin-af": {
+        "en": 26
+      },
+      "civic_admin-ye": {
+        "en": 4
+      }
+    },
+    ".//planned-disbursement/@type": {
+      "civic_admin-ye": {
+        "1": 1
+      }
+    },
+    ".//planned-disbursement/provider-org/@type": {
+      "civic_admin-ye": {
+        "Initial Disbursement": 1
+      }
+    },
+    ".//planned-disbursement/receiver-org/@type": {
+      "civic_admin-ye": {
+        "Initial Disbursement": 1
+      }
+    },
+    ".//planned-disbursement/value/@currency": {
+      "civic_admin-ye": {
+        "USD": 1
+      }
+    }
+  }
+}

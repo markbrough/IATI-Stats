@@ -1,0 +1,711 @@
+{
+  "2": {
+    ".//@default-currency": {
+      "options-bd": {
+        "GBP": 1
+      },
+      "options-ke": {
+        "GBP": 4
+      },
+      "options-in": {
+        "GBP": 1
+      },
+      "options-bf": {
+        "GBP": 1
+      },
+      "options-ng": {
+        "GBP": 1
+      },
+      "options-np": {
+        "GBP": 2
+      },
+      "options-sl": {
+        "GBP": 2
+      },
+      "options-mw": {
+        "GBP": 2
+      }
+    },
+    ".//activity-date/@type": {
+      "options-bd": {
+        "2": 1,
+        "4": 1
+      },
+      "options-ke": {
+        "2": 4,
+        "4": 1,
+        "3": 3
+      },
+      "options-in": {
+        "2": 1,
+        "4": 1
+      },
+      "options-bf": {
+        "2": 1,
+        "3": 1
+      },
+      "options-ng": {
+        "2": 1,
+        "3": 1
+      },
+      "options-np": {
+        "2": 2,
+        "4": 1,
+        "3": 1
+      },
+      "options-sl": {
+        "2": 2,
+        "4": 2
+      },
+      "options-mw": {
+        "2": 2,
+        "3": 1,
+        "4": 1
+      }
+    },
+    ".//activity-status/@code": {
+      "options-bd": {
+        "4": 1
+      },
+      "options-ke": {
+        "4": 1,
+        "3": 1,
+        "2": 2
+      },
+      "options-in": {
+        "4": 1
+      },
+      "options-bf": {
+        "2": 1
+      },
+      "options-ng": {
+        "2": 1
+      },
+      "options-np": {
+        "4": 1,
+        "2": 1
+      },
+      "options-sl": {
+        "4": 2
+      },
+      "options-mw": {
+        "2": 1,
+        "4": 1
+      }
+    },
+    ".//budget/@status": {
+      "options-bd": {
+        "2": 4
+      },
+      "options-ke": {
+        "2": 11,
+        "1": 8
+      },
+      "options-in": {
+        "2": 1
+      },
+      "options-bf": {
+        "2": 4
+      },
+      "options-ng": {
+        "2": 7
+      },
+      "options-np": {
+        "2": 9
+      },
+      "options-sl": {
+        "2": 12
+      },
+      "options-mw": {
+        "2": 9
+      }
+    },
+    ".//budget/@type": {
+      "options-bd": {
+        "1": 4
+      },
+      "options-ke": {
+        "1": 19
+      },
+      "options-in": {
+        "1": 1
+      },
+      "options-bf": {
+        "1": 4
+      },
+      "options-ng": {
+        "1": 1,
+        "2": 6
+      },
+      "options-np": {
+        "1": 6,
+        "2": 3
+      },
+      "options-sl": {
+        "1": 5,
+        "2": 7
+      },
+      "options-mw": {
+        "1": 9
+      }
+    },
+    ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "options-bd": {
+        "D02": 1
+      },
+      "options-ke": {
+        "D02": 2,
+        "C01": 2
+      },
+      "options-in": {
+        "D02": 1
+      },
+      "options-bf": {
+        "C01": 1
+      },
+      "options-ng": {
+        "D02": 1
+      },
+      "options-np": {
+        "D02": 1,
+        "A02": 1
+      },
+      "options-sl": {
+        "C01": 1,
+        "D02": 1
+      },
+      "options-mw": {
+        "C01": 1,
+        "D02": 1
+      }
+    },
+    ".//default-aid-type/@vocabulary": {
+      "options-bd": {
+        "1": 1
+      },
+      "options-ke": {
+        "1": 4
+      },
+      "options-in": {
+        "1": 1
+      },
+      "options-bf": {
+        "1": 1
+      },
+      "options-ng": {
+        "1": 1
+      },
+      "options-np": {
+        "1": 2
+      },
+      "options-sl": {
+        "1": 2
+      },
+      "options-mw": {
+        "1": 2
+      }
+    },
+    ".//default-finance-type/@code": {
+      "options-bd": {
+        "110": 1
+      },
+      "options-ke": {
+        "110": 4
+      },
+      "options-in": {
+        "110": 1
+      },
+      "options-bf": {
+        "110": 1
+      },
+      "options-ng": {
+        "110": 1
+      },
+      "options-np": {
+        "110": 2
+      },
+      "options-sl": {
+        "110": 2
+      },
+      "options-mw": {
+        "110": 2
+      }
+    },
+    ".//default-flow-type/@code": {
+      "options-bd": {
+        "30": 1
+      },
+      "options-ke": {
+        "30": 4
+      },
+      "options-in": {
+        "30": 1
+      },
+      "options-bf": {
+        "30": 1
+      },
+      "options-ng": {
+        "30": 1
+      },
+      "options-np": {
+        "30": 2
+      },
+      "options-sl": {
+        "30": 2
+      },
+      "options-mw": {
+        "30": 2
+      }
+    },
+    ".//default-tied-status/@code": {
+      "options-bd": {
+        "5": 1
+      },
+      "options-ke": {
+        "5": 4
+      },
+      "options-in": {
+        "5": 1
+      },
+      "options-bf": {
+        "5": 1
+      },
+      "options-ng": {
+        "5": 1
+      },
+      "options-np": {
+        "5": 2
+      },
+      "options-sl": {
+        "5": 2
+      },
+      "options-mw": {
+        "5": 2
+      }
+    },
+    ".//description/@type": {
+      "options-bd": {
+        "2": 1
+      },
+      "options-ke": {
+        "2": 3,
+        "1": 1
+      },
+      "options-in": {
+        "1": 1
+      },
+      "options-bf": {
+        "1": 1
+      },
+      "options-ng": {
+        "2": 1
+      },
+      "options-np": {
+        "3": 1,
+        "1": 1
+      },
+      "options-sl": {
+        "1": 1,
+        "2": 1
+      },
+      "options-mw": {
+        "1": 2
+      }
+    },
+    ".//participating-org/@role": {
+      "options-bd": {
+        "1": 1,
+        "2": 1,
+        "4": 1
+      },
+      "options-ke": {
+        "4": 11,
+        "2": 4,
+        "1": 4
+      },
+      "options-in": {
+        "1": 1,
+        "2": 1,
+        "4": 3
+      },
+      "options-bf": {
+        "1": 1,
+        "2": 1,
+        "4": 1
+      },
+      "options-ng": {
+        "1": 1,
+        "2": 1,
+        "4": 1
+      },
+      "options-np": {
+        "1": 2,
+        "4": 11,
+        "2": 2
+      },
+      "options-sl": {
+        "1": 2,
+        "2": 2,
+        "4": 2
+      },
+      "options-mw": {
+        "2": 2,
+        "4": 5,
+        "1": 2
+      }
+    },
+    ".//participating-org/@type": {
+      "options-bd": {
+        "10": 1,
+        "70": 2
+      },
+      "options-ke": {
+        "70": 11,
+        "60": 1,
+        "10": 1,
+        "21": 5,
+        "22": 1
+      },
+      "options-in": {
+        "10": 1,
+        "70": 3,
+        "22": 1
+      },
+      "options-bf": {
+        "21": 1,
+        "70": 2
+      },
+      "options-ng": {
+        "70": 3
+      },
+      "options-np": {
+        "10": 2,
+        "72": 4,
+        "80": 1,
+        "70": 5,
+        "71": 1,
+        "21": 2
+      },
+      "options-sl": {
+        "10": 2,
+        "70": 4
+      },
+      "options-mw": {
+        "70": 4,
+        "21": 1,
+        "10": 1,
+        "72": 2,
+        "22": 1
+      }
+    },
+    ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "options-bd": {
+        "9": 1
+      },
+      "options-ke": {
+        "1": 1,
+        "9": 3
+      },
+      "options-in": {
+        "9": 1
+      },
+      "options-bf": {
+        "9": 1
+      },
+      "options-ng": {
+        "9": 1
+      },
+      "options-np": {
+        "9": 2
+      },
+      "options-sl": {
+        "9": 2
+      },
+      "options-mw": {
+        "9": 2
+      }
+    },
+    ".//policy-marker/@significance": {
+      "options-bd": {
+        "1": 1
+      },
+      "options-ke": {
+        "1": 2,
+        "2": 1,
+        "4": 1
+      },
+      "options-in": {
+        "2": 1
+      },
+      "options-bf": {
+        "4": 1
+      },
+      "options-ng": {
+        "4": 1
+      },
+      "options-np": {
+        "4": 1,
+        "1": 1
+      },
+      "options-sl": {
+        "0": 1,
+        "2": 1
+      },
+      "options-mw": {
+        "1": 2
+      }
+    },
+    ".//recipient-country/@code": {
+      "options-bd": {
+        "BD": 1
+      },
+      "options-ke": {
+        "KE": 4,
+        "NG": 1,
+        "BF": 1,
+        "SD": 1,
+        "ET": 1,
+        "SO": 1,
+        "SN": 1,
+        "GM": 1,
+        "EG": 1,
+        "ML": 1
+      },
+      "options-in": {
+        "IN": 1
+      },
+      "options-bf": {
+        "BF": 1,
+        "CD": 1,
+        "NG": 1
+      },
+      "options-ng": {
+        "NG": 1
+      },
+      "options-np": {
+        "NP": 2
+      },
+      "options-sl": {
+        "SL": 2
+      },
+      "options-mw": {
+        "MW": 2,
+        "MG": 1,
+        "ZM": 1,
+        "UG": 1,
+        "TZ": 1,
+        "BD": 1,
+        "PK": 1
+      }
+    },
+    ".//reporting-org/@type": {
+      "options-bd": {
+        "70": 1
+      },
+      "options-ke": {
+        "70": 4
+      },
+      "options-in": {
+        "70": 1
+      },
+      "options-bf": {
+        "70": 1
+      },
+      "options-ng": {
+        "70": 1
+      },
+      "options-np": {
+        "70": 2
+      },
+      "options-sl": {
+        "70": 2
+      },
+      "options-mw": {
+        "70": 2
+      }
+    },
+    ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "options-bd": {
+        "13020": 1
+      },
+      "options-ke": {
+        "12261": 1,
+        "13020": 1,
+        "23230": 1,
+        "15185": 1,
+        "12191": 1,
+        "12220": 1,
+        "12110": 1,
+        "13030": 1
+      },
+      "options-in": {
+        "13020": 1
+      },
+      "options-bf": {
+        "13010": 1,
+        "13020": 1
+      },
+      "options-ng": {
+        "13020": 1
+      },
+      "options-np": {
+        "13020": 1,
+        "12110": 2,
+        "12230": 2,
+        "12220": 1
+      },
+      "options-sl": {
+        "13020": 2
+      },
+      "options-mw": {
+        "13020": 1,
+        "13030": 1,
+        "12110": 1
+      }
+    },
+    ".//sector/@vocabulary": {
+      "options-bd": {
+        "1": 1
+      },
+      "options-ke": {
+        "1": 8
+      },
+      "options-in": {
+        "1": 1
+      },
+      "options-bf": {
+        "1": 2
+      },
+      "options-ng": {
+        "1": 1
+      },
+      "options-np": {
+        "1": 6
+      },
+      "options-sl": {
+        "1": 2
+      },
+      "options-mw": {
+        "1": 3
+      }
+    },
+    ".//transaction/transaction-type/@code": {
+      "options-bd": {
+        "1": 1,
+        "4": 1
+      },
+      "options-ke": {
+        "4": 9,
+        "1": 6,
+        "3": 11
+      },
+      "options-in": {
+        "3": 2,
+        "4": 1,
+        "1": 1
+      },
+      "options-bf": {
+        "1": 3,
+        "4": 4
+      },
+      "options-ng": {
+        "4": 4,
+        "1": 4
+      },
+      "options-np": {
+        "1": 6,
+        "4": 5,
+        "3": 25
+      },
+      "options-sl": {
+        "1": 2,
+        "4": 2
+      },
+      "options-mw": {
+        "1": 4,
+        "4": 5,
+        "3": 3
+      }
+    },
+    ".//@xml:lang": {
+      "options-bd": {
+        "en": 5
+      },
+      "options-ke": {
+        "en": 25
+      },
+      "options-in": {
+        "en": 7
+      },
+      "options-bf": {
+        "en": 5
+      },
+      "options-ng": {
+        "en": 5
+      },
+      "options-np": {
+        "en": 16
+      },
+      "options-sl": {
+        "en": 12
+      },
+      "options-mw": {
+        "en": 10
+      }
+    },
+    ".//contact-info/@type": {
+      "options-ke": {
+        "1": 1
+      }
+    },
+    ".//location/administrative/@vocabulary": {
+      "options-ke": {
+        "G2": 1
+      },
+      "options-np": {
+        "A4": 1
+      }
+    },
+    ".//location/feature-designation/@code": {
+      "options-ke": {
+        "PPLX": 1
+      }
+    },
+    ".//location/location-class/@code": {
+      "options-ke": {
+        "2": 1
+      }
+    },
+    ".//location/location-id/@vocabulary": {
+      "options-ke": {
+        "G2": 1
+      },
+      "options-np": {
+        "A4": 1
+      }
+    },
+    ".//location/location-reach/@code": {
+      "options-ke": {
+        "1": 1
+      },
+      "options-np": {
+        "1": 1
+      }
+    },
+    ".//location/exactness/@code": {
+      "options-ke": {
+        "2": 1
+      }
+    },
+    ".//budget/value/@currency": {
+      "options-in": {
+        "GBP": 1
+      }
+    },
+    ".//location/administrative[@vocabulary = 'A4']/@code": {
+      "options-np": {
+        "NP": 1
+      }
+    }
+  }
+}

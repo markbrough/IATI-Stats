@@ -1,0 +1,661 @@
+{
+  ".//@default-currency": {
+    "EUR": {
+      "mondiaalfnv-np": 1,
+      "mondiaalfnv-mm": 1,
+      "mondiaalfnv-et": 2,
+      "mondiaalfnv-gh": 1,
+      "mondiaalfnv-pe": 2,
+      "mondiaalfnv-in": 1,
+      "mondiaalfnv-998": 1,
+      "mondiaalfnv-nl": 2,
+      "mondiaalfnv-bd": 1,
+      "mondiaalfnv-id": 2
+    }
+  },
+  ".//@xml:lang": {
+    "en": {
+      "mondiaalfnv-np": 7,
+      "mondiaalfnv-mm": 24,
+      "mondiaalfnv-et": 34,
+      "mondiaalfnv-gh": 22,
+      "mondiaalfnv-pe": 35,
+      "mondiaalfnv-in": 9,
+      "mondiaalfnv-998": 17,
+      "mondiaalfnv-nl": 28,
+      "mondiaalfnv-bd": 23,
+      "mondiaalfnv-id": 45
+    }
+  },
+  ".//activity-date/@type": {
+    "2": {
+      "mondiaalfnv-np": 1,
+      "mondiaalfnv-mm": 1,
+      "mondiaalfnv-et": 2,
+      "mondiaalfnv-gh": 1,
+      "mondiaalfnv-pe": 2,
+      "mondiaalfnv-in": 1,
+      "mondiaalfnv-998": 1,
+      "mondiaalfnv-nl": 2,
+      "mondiaalfnv-bd": 1,
+      "mondiaalfnv-id": 2
+    },
+    "3": {
+      "mondiaalfnv-np": 1,
+      "mondiaalfnv-mm": 1,
+      "mondiaalfnv-et": 2,
+      "mondiaalfnv-gh": 1,
+      "mondiaalfnv-pe": 2,
+      "mondiaalfnv-in": 1,
+      "mondiaalfnv-998": 1,
+      "mondiaalfnv-nl": 2,
+      "mondiaalfnv-bd": 1,
+      "mondiaalfnv-id": 2
+    }
+  },
+  ".//activity-scope/@code": {
+    "2": {
+      "mondiaalfnv-et": 1,
+      "mondiaalfnv-in": 1
+    },
+    "1": {
+      "mondiaalfnv-998": 1,
+      "mondiaalfnv-nl": 1
+    }
+  },
+  ".//activity-status/@code": {
+    "2": {
+      "mondiaalfnv-np": 1,
+      "mondiaalfnv-mm": 1,
+      "mondiaalfnv-et": 2,
+      "mondiaalfnv-gh": 1,
+      "mondiaalfnv-pe": 2,
+      "mondiaalfnv-in": 1,
+      "mondiaalfnv-998": 1,
+      "mondiaalfnv-nl": 2,
+      "mondiaalfnv-bd": 1,
+      "mondiaalfnv-id": 2
+    }
+  },
+  ".//budget/@status": {
+    "2": {
+      "mondiaalfnv-np": 2,
+      "mondiaalfnv-et": 3,
+      "mondiaalfnv-gh": 2,
+      "mondiaalfnv-pe": 6,
+      "mondiaalfnv-in": 2,
+      "mondiaalfnv-998": 1,
+      "mondiaalfnv-nl": 3,
+      "mondiaalfnv-id": 3
+    },
+    "1": {
+      "mondiaalfnv-mm": 3,
+      "mondiaalfnv-et": 3,
+      "mondiaalfnv-998": 1,
+      "mondiaalfnv-nl": 3,
+      "mondiaalfnv-bd": 3,
+      "mondiaalfnv-id": 3
+    }
+  },
+  ".//budget/@type": {
+    "2": {
+      "mondiaalfnv-np": 1,
+      "mondiaalfnv-mm": 1,
+      "mondiaalfnv-et": 1,
+      "mondiaalfnv-gh": 2,
+      "mondiaalfnv-pe": 4,
+      "mondiaalfnv-998": 1,
+      "mondiaalfnv-nl": 3,
+      "mondiaalfnv-bd": 1,
+      "mondiaalfnv-id": 4
+    },
+    "1": {
+      "mondiaalfnv-np": 1,
+      "mondiaalfnv-mm": 2,
+      "mondiaalfnv-et": 5,
+      "mondiaalfnv-pe": 2,
+      "mondiaalfnv-in": 2,
+      "mondiaalfnv-998": 1,
+      "mondiaalfnv-nl": 3,
+      "mondiaalfnv-bd": 2,
+      "mondiaalfnv-id": 2
+    }
+  },
+  ".//budget/value/@currency": {
+    "EUR": {
+      "mondiaalfnv-np": 2,
+      "mondiaalfnv-mm": 2,
+      "mondiaalfnv-et": 3,
+      "mondiaalfnv-gh": 1,
+      "mondiaalfnv-pe": 4,
+      "mondiaalfnv-in": 1,
+      "mondiaalfnv-998": 2,
+      "mondiaalfnv-nl": 5,
+      "mondiaalfnv-bd": 3,
+      "mondiaalfnv-id": 6
+    }
+  },
+  ".//default-finance-type/@code": {
+    "110": {
+      "mondiaalfnv-np": 1,
+      "mondiaalfnv-mm": 1,
+      "mondiaalfnv-et": 2,
+      "mondiaalfnv-gh": 1,
+      "mondiaalfnv-pe": 2,
+      "mondiaalfnv-in": 1,
+      "mondiaalfnv-998": 1,
+      "mondiaalfnv-nl": 2,
+      "mondiaalfnv-bd": 1,
+      "mondiaalfnv-id": 2
+    }
+  },
+  ".//default-flow-type/@code": {
+    "10": {
+      "mondiaalfnv-np": 1,
+      "mondiaalfnv-mm": 1,
+      "mondiaalfnv-et": 2,
+      "mondiaalfnv-gh": 1,
+      "mondiaalfnv-pe": 2,
+      "mondiaalfnv-in": 1,
+      "mondiaalfnv-998": 1,
+      "mondiaalfnv-nl": 2,
+      "mondiaalfnv-bd": 1,
+      "mondiaalfnv-id": 2
+    }
+  },
+  ".//default-tied-status/@code": {
+    "5": {
+      "mondiaalfnv-np": 1,
+      "mondiaalfnv-mm": 1,
+      "mondiaalfnv-et": 2,
+      "mondiaalfnv-gh": 1,
+      "mondiaalfnv-pe": 2,
+      "mondiaalfnv-in": 1,
+      "mondiaalfnv-998": 1,
+      "mondiaalfnv-nl": 2,
+      "mondiaalfnv-bd": 1,
+      "mondiaalfnv-id": 2
+    }
+  },
+  ".//description/@type": {
+    "1": {
+      "mondiaalfnv-np": 1,
+      "mondiaalfnv-mm": 1,
+      "mondiaalfnv-et": 2,
+      "mondiaalfnv-gh": 1,
+      "mondiaalfnv-pe": 2,
+      "mondiaalfnv-in": 1,
+      "mondiaalfnv-nl": 2,
+      "mondiaalfnv-bd": 1,
+      "mondiaalfnv-id": 2
+    },
+    "2": {
+      "mondiaalfnv-998": 1
+    }
+  },
+  ".//document-link/@format": {
+    "application/http": {
+      "mondiaalfnv-np": 1,
+      "mondiaalfnv-et": 1,
+      "mondiaalfnv-gh": 1,
+      "mondiaalfnv-pe": 2,
+      "mondiaalfnv-in": 1,
+      "mondiaalfnv-nl": 1,
+      "mondiaalfnv-id": 1
+    }
+  },
+  ".//document-link/category/@code": {
+    "B01": {
+      "mondiaalfnv-np": 1,
+      "mondiaalfnv-et": 1,
+      "mondiaalfnv-gh": 1,
+      "mondiaalfnv-pe": 1,
+      "mondiaalfnv-in": 1
+    },
+    "A12": {
+      "mondiaalfnv-pe": 1,
+      "mondiaalfnv-nl": 1,
+      "mondiaalfnv-id": 1
+    }
+  },
+  ".//document-link/language/@code": {
+    "en": {
+      "mondiaalfnv-np": 1,
+      "mondiaalfnv-et": 1,
+      "mondiaalfnv-gh": 1,
+      "mondiaalfnv-pe": 2,
+      "mondiaalfnv-in": 1,
+      "mondiaalfnv-nl": 1,
+      "mondiaalfnv-id": 1
+    }
+  },
+  ".//participating-org/@role": {
+    "1": {
+      "mondiaalfnv-np": 1,
+      "mondiaalfnv-et": 1,
+      "mondiaalfnv-gh": 1,
+      "mondiaalfnv-pe": 2,
+      "mondiaalfnv-in": 1,
+      "mondiaalfnv-nl": 1,
+      "mondiaalfnv-id": 1
+    },
+    "4": {
+      "mondiaalfnv-np": 1,
+      "mondiaalfnv-mm": 1,
+      "mondiaalfnv-et": 2,
+      "mondiaalfnv-gh": 1,
+      "mondiaalfnv-pe": 2,
+      "mondiaalfnv-in": 1,
+      "mondiaalfnv-998": 1,
+      "mondiaalfnv-nl": 1,
+      "mondiaalfnv-bd": 1,
+      "mondiaalfnv-id": 2
+    },
+    "2": {
+      "mondiaalfnv-998": 1
+    }
+  },
+  ".//participating-org/@type": {
+    "10": {
+      "mondiaalfnv-np": 1,
+      "mondiaalfnv-et": 1,
+      "mondiaalfnv-gh": 1,
+      "mondiaalfnv-pe": 2,
+      "mondiaalfnv-in": 1,
+      "mondiaalfnv-nl": 1,
+      "mondiaalfnv-id": 1
+    },
+    "22": {
+      "mondiaalfnv-np": 1,
+      "mondiaalfnv-mm": 1,
+      "mondiaalfnv-et": 1,
+      "mondiaalfnv-gh": 1,
+      "mondiaalfnv-pe": 2,
+      "mondiaalfnv-in": 1,
+      "mondiaalfnv-nl": 1,
+      "mondiaalfnv-bd": 1,
+      "mondiaalfnv-id": 2
+    },
+    "21": {
+      "mondiaalfnv-998": 2
+    }
+  },
+  ".//policy-marker/@vocabulary": {
+    "1": {
+      "mondiaalfnv-mm": 1,
+      "mondiaalfnv-et": 1,
+      "mondiaalfnv-998": 1,
+      "mondiaalfnv-nl": 1,
+      "mondiaalfnv-bd": 1,
+      "mondiaalfnv-id": 1
+    }
+  },
+  ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "4": {
+      "mondiaalfnv-mm": 1,
+      "mondiaalfnv-et": 1,
+      "mondiaalfnv-998": 1,
+      "mondiaalfnv-nl": 1,
+      "mondiaalfnv-bd": 1,
+      "mondiaalfnv-id": 1
+    }
+  },
+  ".//recipient-country/@code": {
+    "NP": {
+      "mondiaalfnv-np": 1,
+      "mondiaalfnv-in": 1
+    },
+    "MM": {
+      "mondiaalfnv-mm": 1,
+      "mondiaalfnv-998": 1
+    },
+    "ET": {
+      "mondiaalfnv-et": 2,
+      "mondiaalfnv-998": 1
+    },
+    "BI": {
+      "mondiaalfnv-et": 1
+    },
+    "KE": {
+      "mondiaalfnv-et": 1
+    },
+    "RW": {
+      "mondiaalfnv-et": 1
+    },
+    "TZ": {
+      "mondiaalfnv-et": 1
+    },
+    "UG": {
+      "mondiaalfnv-et": 1
+    },
+    "GH": {
+      "mondiaalfnv-gh": 1
+    },
+    "PE": {
+      "mondiaalfnv-pe": 2
+    },
+    "BD": {
+      "mondiaalfnv-in": 1,
+      "mondiaalfnv-998": 1,
+      "mondiaalfnv-bd": 1
+    },
+    "IN": {
+      "mondiaalfnv-in": 1
+    },
+    "PK": {
+      "mondiaalfnv-in": 1
+    },
+    "LK": {
+      "mondiaalfnv-in": 1
+    },
+    "NL": {
+      "mondiaalfnv-998": 1,
+      "mondiaalfnv-nl": 2
+    },
+    "ID": {
+      "mondiaalfnv-998": 1,
+      "mondiaalfnv-id": 2
+    }
+  },
+  ".//recipient-region/@vocabulary": {
+    "1": {
+      "mondiaalfnv-998": 1
+    }
+  },
+  ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "998": {
+      "mondiaalfnv-998": 1
+    }
+  },
+  ".//related-activity/@type": {
+    "1": {
+      "mondiaalfnv-np": 1,
+      "mondiaalfnv-mm": 1,
+      "mondiaalfnv-et": 2,
+      "mondiaalfnv-gh": 1,
+      "mondiaalfnv-pe": 2,
+      "mondiaalfnv-in": 1,
+      "mondiaalfnv-nl": 1,
+      "mondiaalfnv-bd": 1,
+      "mondiaalfnv-id": 2
+    },
+    "2": {
+      "mondiaalfnv-998": 5
+    }
+  },
+  ".//reporting-org/@type": {
+    "22": {
+      "mondiaalfnv-np": 1,
+      "mondiaalfnv-mm": 1,
+      "mondiaalfnv-et": 2,
+      "mondiaalfnv-gh": 1,
+      "mondiaalfnv-pe": 2,
+      "mondiaalfnv-in": 1,
+      "mondiaalfnv-998": 1,
+      "mondiaalfnv-nl": 2,
+      "mondiaalfnv-bd": 1,
+      "mondiaalfnv-id": 2
+    }
+  },
+  ".//result/@type": {
+    "1": {
+      "mondiaalfnv-np": 2,
+      "mondiaalfnv-mm": 2,
+      "mondiaalfnv-et": 5,
+      "mondiaalfnv-gh": 3,
+      "mondiaalfnv-pe": 6,
+      "mondiaalfnv-in": 2,
+      "mondiaalfnv-998": 2,
+      "mondiaalfnv-nl": 2,
+      "mondiaalfnv-bd": 2,
+      "mondiaalfnv-id": 6
+    },
+    "2": {
+      "mondiaalfnv-mm": 2,
+      "mondiaalfnv-et": 8,
+      "mondiaalfnv-gh": 7,
+      "mondiaalfnv-pe": 7,
+      "mondiaalfnv-in": 1,
+      "mondiaalfnv-nl": 2,
+      "mondiaalfnv-bd": 2,
+      "mondiaalfnv-id": 8
+    },
+    "9": {
+      "mondiaalfnv-nl": 2
+    }
+  },
+  ".//result/indicator/@measure": {
+    "2": {
+      "mondiaalfnv-np": 1,
+      "mondiaalfnv-mm": 2,
+      "mondiaalfnv-et": 5,
+      "mondiaalfnv-gh": 6,
+      "mondiaalfnv-pe": 9,
+      "mondiaalfnv-in": 1,
+      "mondiaalfnv-998": 2,
+      "mondiaalfnv-nl": 3,
+      "mondiaalfnv-bd": 2,
+      "mondiaalfnv-id": 6
+    },
+    "1": {
+      "mondiaalfnv-np": 2,
+      "mondiaalfnv-mm": 6,
+      "mondiaalfnv-et": 22,
+      "mondiaalfnv-gh": 10,
+      "mondiaalfnv-pe": 20,
+      "mondiaalfnv-in": 3,
+      "mondiaalfnv-nl": 7,
+      "mondiaalfnv-bd": 6,
+      "mondiaalfnv-id": 21
+    }
+  },
+  ".//sector/@vocabulary": {
+    "1": {
+      "mondiaalfnv-np": 9,
+      "mondiaalfnv-mm": 1,
+      "mondiaalfnv-et": 10,
+      "mondiaalfnv-gh": 9,
+      "mondiaalfnv-pe": 18,
+      "mondiaalfnv-in": 8,
+      "mondiaalfnv-998": 1,
+      "mondiaalfnv-nl": 11,
+      "mondiaalfnv-bd": 1,
+      "mondiaalfnv-id": 10
+    }
+  },
+  ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "15150": {
+      "mondiaalfnv-np": 1,
+      "mondiaalfnv-et": 1,
+      "mondiaalfnv-gh": 1,
+      "mondiaalfnv-pe": 2,
+      "mondiaalfnv-nl": 1,
+      "mondiaalfnv-id": 1
+    },
+    "15160": {
+      "mondiaalfnv-np": 1,
+      "mondiaalfnv-et": 1,
+      "mondiaalfnv-gh": 1,
+      "mondiaalfnv-pe": 2,
+      "mondiaalfnv-in": 1,
+      "mondiaalfnv-nl": 1,
+      "mondiaalfnv-id": 1
+    },
+    "16010": {
+      "mondiaalfnv-np": 1,
+      "mondiaalfnv-et": 1,
+      "mondiaalfnv-gh": 1,
+      "mondiaalfnv-pe": 2,
+      "mondiaalfnv-in": 1,
+      "mondiaalfnv-nl": 1,
+      "mondiaalfnv-id": 1
+    },
+    "16020": {
+      "mondiaalfnv-np": 1,
+      "mondiaalfnv-et": 1,
+      "mondiaalfnv-gh": 1,
+      "mondiaalfnv-pe": 2,
+      "mondiaalfnv-in": 1,
+      "mondiaalfnv-nl": 1,
+      "mondiaalfnv-id": 1
+    },
+    "25010": {
+      "mondiaalfnv-np": 1,
+      "mondiaalfnv-et": 1,
+      "mondiaalfnv-gh": 1,
+      "mondiaalfnv-pe": 2,
+      "mondiaalfnv-in": 1,
+      "mondiaalfnv-nl": 1,
+      "mondiaalfnv-id": 1
+    },
+    "31110": {
+      "mondiaalfnv-np": 1,
+      "mondiaalfnv-et": 1,
+      "mondiaalfnv-gh": 1,
+      "mondiaalfnv-pe": 2,
+      "mondiaalfnv-nl": 1,
+      "mondiaalfnv-id": 1
+    },
+    "32110": {
+      "mondiaalfnv-np": 1,
+      "mondiaalfnv-et": 1,
+      "mondiaalfnv-gh": 1,
+      "mondiaalfnv-pe": 2,
+      "mondiaalfnv-in": 1,
+      "mondiaalfnv-nl": 1,
+      "mondiaalfnv-id": 1
+    },
+    "32310": {
+      "mondiaalfnv-np": 1,
+      "mondiaalfnv-et": 1,
+      "mondiaalfnv-gh": 1,
+      "mondiaalfnv-pe": 2,
+      "mondiaalfnv-in": 1,
+      "mondiaalfnv-nl": 1,
+      "mondiaalfnv-id": 1
+    },
+    "33110": {
+      "mondiaalfnv-np": 1,
+      "mondiaalfnv-et": 1,
+      "mondiaalfnv-gh": 1,
+      "mondiaalfnv-pe": 2,
+      "mondiaalfnv-in": 1,
+      "mondiaalfnv-nl": 1,
+      "mondiaalfnv-id": 1
+    },
+    "32163": {
+      "mondiaalfnv-mm": 1,
+      "mondiaalfnv-et": 1,
+      "mondiaalfnv-998": 1,
+      "mondiaalfnv-nl": 1,
+      "mondiaalfnv-bd": 1,
+      "mondiaalfnv-id": 1
+    },
+    "32172": {
+      "mondiaalfnv-in": 1,
+      "mondiaalfnv-nl": 1
+    }
+  },
+  ".//transaction/aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "C01": {
+      "mondiaalfnv-mm": 2
+    }
+  },
+  ".//transaction/disbursement-channel/@code": {
+    "2": {
+      "mondiaalfnv-mm": 1,
+      "mondiaalfnv-et": 3,
+      "mondiaalfnv-998": 3,
+      "mondiaalfnv-bd": 3
+    }
+  },
+  ".//transaction/finance-type/@code": {
+    "110": {
+      "mondiaalfnv-mm": 3,
+      "mondiaalfnv-et": 3,
+      "mondiaalfnv-998": 2,
+      "mondiaalfnv-bd": 3
+    }
+  },
+  ".//transaction/flow-type/@code": {
+    "10": {
+      "mondiaalfnv-mm": 3,
+      "mondiaalfnv-et": 3,
+      "mondiaalfnv-998": 2,
+      "mondiaalfnv-bd": 3
+    }
+  },
+  ".//transaction/provider-org/@type": {
+    "22": {
+      "mondiaalfnv-mm": 3,
+      "mondiaalfnv-et": 3,
+      "mondiaalfnv-pe": 6,
+      "mondiaalfnv-998": 3,
+      "mondiaalfnv-bd": 2,
+      "mondiaalfnv-id": 5
+    },
+    "10": {
+      "mondiaalfnv-nl": 1
+    }
+  },
+  ".//transaction/receiver-org/@type": {
+    "22": {
+      "mondiaalfnv-998": 3,
+      "mondiaalfnv-nl": 1
+    }
+  },
+  ".//transaction/tied-status/@code": {
+    "5": {
+      "mondiaalfnv-mm": 3,
+      "mondiaalfnv-et": 3,
+      "mondiaalfnv-998": 2,
+      "mondiaalfnv-bd": 3
+    }
+  },
+  ".//transaction/transaction-type/@code": {
+    "2": {
+      "mondiaalfnv-np": 2,
+      "mondiaalfnv-et": 2,
+      "mondiaalfnv-gh": 2,
+      "mondiaalfnv-pe": 3,
+      "mondiaalfnv-in": 2,
+      "mondiaalfnv-nl": 2,
+      "mondiaalfnv-id": 1
+    },
+    "4": {
+      "mondiaalfnv-mm": 3,
+      "mondiaalfnv-et": 4,
+      "mondiaalfnv-pe": 4,
+      "mondiaalfnv-998": 2,
+      "mondiaalfnv-nl": 3,
+      "mondiaalfnv-bd": 3,
+      "mondiaalfnv-id": 5
+    },
+    "3": {
+      "mondiaalfnv-et": 1,
+      "mondiaalfnv-pe": 4,
+      "mondiaalfnv-id": 2
+    },
+    "1": {
+      "mondiaalfnv-998": 3,
+      "mondiaalfnv-nl": 1
+    },
+    "11": {
+      "mondiaalfnv-nl": 1
+    }
+  },
+  ".//transaction/value/@currency": {
+    "EUR": {
+      "mondiaalfnv-np": 2,
+      "mondiaalfnv-mm": 3,
+      "mondiaalfnv-et": 7,
+      "mondiaalfnv-gh": 2,
+      "mondiaalfnv-pe": 11,
+      "mondiaalfnv-in": 2,
+      "mondiaalfnv-998": 5,
+      "mondiaalfnv-nl": 6,
+      "mondiaalfnv-bd": 3,
+      "mondiaalfnv-id": 8
+    }
+  }
+}

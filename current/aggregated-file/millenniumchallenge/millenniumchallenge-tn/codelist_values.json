@@ -1,0 +1,91 @@
+{
+  ".//@default-currency": {
+    "USD": 32
+  },
+  ".//@xml:lang": {
+    "en": 144
+  },
+  ".//activity-date/@type": {
+    "1": 32,
+    "2": 32,
+    "3": 32,
+    "4": 25
+  },
+  ".//activity-status/@code": {
+    "1": 32
+  },
+  ".//budget/@type": {
+    "2": 16
+  },
+  ".//budget/value/@currency": {
+    "USD": 16
+  },
+  ".//collaboration-type/@code": {
+    "1": 16
+  },
+  ".//country-budget-items/@vocabulary": {
+    "1": 16
+  },
+  ".//country-budget-items/budget-item[../@vocabulary = '1']/@code": {
+    "1.4.3": 16
+  },
+  ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "C01": 2
+  },
+  ".//default-finance-type/@code": {
+    "110": 2
+  },
+  ".//default-flow-type/@code": {
+    "10": 2
+  },
+  ".//default-tied-status/@code": {
+    "5": 2
+  },
+  ".//description/@type": {
+    "1": 32
+  },
+  ".//participating-org/@role": {
+    "1": 32,
+    "3": 32,
+    "2": 32,
+    "4": 32
+  },
+  ".//participating-org/@type": {
+    "10": 128
+  },
+  ".//planned-disbursement/@type": {
+    "2": 16
+  },
+  ".//planned-disbursement/value/@currency": {
+    "USD": 16
+  },
+  ".//recipient-country/@code": {
+    "TN": 32
+  },
+  ".//related-activity/@type": {
+    "1": 32,
+    "2": 30,
+    "3": 124
+  },
+  ".//reporting-org/@type": {
+    "10": 32
+  },
+  ".//sector/@vocabulary": {
+    "1": 16,
+    "99": 16
+  },
+  ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "99810": 15,
+    "91010": 1
+  },
+  ".//transaction/disbursement-channel/@code": {
+    "3": 91
+  },
+  ".//transaction/transaction-type/@code": {
+    "2": 47,
+    "3": 44
+  },
+  ".//transaction/value/@currency": {
+    "USD": 91
+  }
+}

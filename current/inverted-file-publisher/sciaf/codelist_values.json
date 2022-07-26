@@ -1,0 +1,448 @@
+{
+  ".//@default-currency": {
+    "GBP": {
+      "sciaf-mw": 1,
+      "sciaf-kh": 1,
+      "sciaf-et": 1,
+      "sciaf-cd": 1
+    }
+  },
+  ".//@xml:lang": {
+    "en": {
+      "sciaf-mw": 343,
+      "sciaf-kh": 44,
+      "sciaf-et": 233,
+      "sciaf-cd": 110
+    },
+    "et": {
+      "sciaf-mw": 1,
+      "sciaf-et": 1
+    },
+    "fr": {
+      "sciaf-mw": 1
+    },
+    "eo": {
+      "sciaf-et": 2
+    }
+  },
+  ".//activity-date/@type": {
+    "2": {
+      "sciaf-mw": 1,
+      "sciaf-kh": 1,
+      "sciaf-et": 1,
+      "sciaf-cd": 1
+    },
+    "3": {
+      "sciaf-kh": 1,
+      "sciaf-et": 1
+    },
+    "4": {
+      "sciaf-cd": 1
+    }
+  },
+  ".//activity-status/@code": {
+    "2": {
+      "sciaf-mw": 1,
+      "sciaf-kh": 1,
+      "sciaf-et": 1
+    },
+    "4": {
+      "sciaf-cd": 1
+    }
+  },
+  ".//budget/@status": {
+    "2": {
+      "sciaf-mw": 1,
+      "sciaf-et": 1
+    },
+    "1": {
+      "sciaf-mw": 3,
+      "sciaf-kh": 4,
+      "sciaf-et": 3,
+      "sciaf-cd": 1
+    }
+  },
+  ".//budget/@type": {
+    "2": {
+      "sciaf-mw": 4,
+      "sciaf-kh": 4,
+      "sciaf-et": 4
+    },
+    "1": {
+      "sciaf-cd": 1
+    }
+  },
+  ".//budget/value/@currency": {
+    "GBP": {
+      "sciaf-mw": 4,
+      "sciaf-kh": 4,
+      "sciaf-et": 4,
+      "sciaf-cd": 1
+    }
+  },
+  ".//contact-info/@type": {
+    "2": {
+      "sciaf-mw": 1,
+      "sciaf-kh": 1,
+      "sciaf-et": 1
+    }
+  },
+  ".//default-aid-type/@vocabulary": {
+    "1": {
+      "sciaf-kh": 1,
+      "sciaf-et": 1
+    }
+  },
+  ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "C01": {
+      "sciaf-mw": 1,
+      "sciaf-kh": 1,
+      "sciaf-et": 1,
+      "sciaf-cd": 1
+    }
+  },
+  ".//default-flow-type/@code": {
+    "30": {
+      "sciaf-mw": 1,
+      "sciaf-kh": 1,
+      "sciaf-et": 1
+    },
+    "10": {
+      "sciaf-cd": 1
+    }
+  },
+  ".//description/@type": {
+    "1": {
+      "sciaf-mw": 1,
+      "sciaf-kh": 1,
+      "sciaf-et": 1,
+      "sciaf-cd": 1
+    }
+  },
+  ".//document-link/@format": {
+    "image/tiff": {
+      "sciaf-mw": 3
+    },
+    "application/msword": {
+      "sciaf-mw": 8,
+      "sciaf-et": 2,
+      "sciaf-cd": 8
+    },
+    "application/vnd.ms-excel": {
+      "sciaf-mw": 4,
+      "sciaf-cd": 13
+    },
+    "application/pdf": {
+      "sciaf-cd": 5
+    }
+  },
+  ".//document-link/category/@code": {
+    "A11": {
+      "sciaf-mw": 2,
+      "sciaf-cd": 1
+    },
+    "A04": {
+      "sciaf-mw": 2,
+      "sciaf-cd": 2
+    },
+    "A02": {
+      "sciaf-mw": 4,
+      "sciaf-et": 3,
+      "sciaf-cd": 1
+    },
+    "A05": {
+      "sciaf-mw": 1,
+      "sciaf-cd": 3
+    },
+    "A08": {
+      "sciaf-mw": 4,
+      "sciaf-cd": 7
+    },
+    "B01": {
+      "sciaf-mw": 2,
+      "sciaf-cd": 6
+    },
+    "A06": {
+      "sciaf-cd": 2
+    },
+    "A07": {
+      "sciaf-cd": 2
+    },
+    "B06": {
+      "sciaf-cd": 2
+    }
+  },
+  ".//document-link/language/@code": {
+    "en": {
+      "sciaf-mw": 15,
+      "sciaf-et": 2,
+      "sciaf-cd": 26
+    }
+  },
+  ".//other-identifier/@type": {
+    "A1": {
+      "sciaf-mw": 1
+    },
+    "A9": {
+      "sciaf-et": 1
+    }
+  },
+  ".//participating-org/@role": {
+    "3": {
+      "sciaf-mw": 1,
+      "sciaf-kh": 1,
+      "sciaf-et": 1
+    },
+    "4": {
+      "sciaf-mw": 1,
+      "sciaf-kh": 1,
+      "sciaf-et": 1,
+      "sciaf-cd": 4
+    },
+    "2": {
+      "sciaf-mw": 6,
+      "sciaf-kh": 1,
+      "sciaf-et": 3,
+      "sciaf-cd": 1
+    },
+    "1": {
+      "sciaf-kh": 1,
+      "sciaf-cd": 1
+    }
+  },
+  ".//participating-org/@type": {
+    "10": {
+      "sciaf-mw": 1,
+      "sciaf-kh": 1,
+      "sciaf-et": 1,
+      "sciaf-cd": 1
+    },
+    "22": {
+      "sciaf-mw": 6,
+      "sciaf-et": 3,
+      "sciaf-cd": 5
+    },
+    "70": {
+      "sciaf-mw": 1,
+      "sciaf-kh": 1
+    },
+    "21": {
+      "sciaf-kh": 1,
+      "sciaf-et": 1
+    },
+    "24": {
+      "sciaf-kh": 1
+    }
+  },
+  ".//recipient-country/@code": {
+    "MW": {
+      "sciaf-mw": 1
+    },
+    "CD": {
+      "sciaf-mw": 1,
+      "sciaf-cd": 1
+    },
+    "RW": {
+      "sciaf-mw": 1,
+      "sciaf-cd": 1
+    },
+    "KH": {
+      "sciaf-kh": 1
+    },
+    "GB": {
+      "sciaf-kh": 1
+    },
+    "ET": {
+      "sciaf-et": 1
+    }
+  },
+  ".//reporting-org/@type": {
+    "22": {
+      "sciaf-mw": 1,
+      "sciaf-kh": 1,
+      "sciaf-et": 1,
+      "sciaf-cd": 1
+    }
+  },
+  ".//sector/@vocabulary": {
+    "2": {
+      "sciaf-mw": 3
+    },
+    "1": {
+      "sciaf-kh": 5,
+      "sciaf-et": 4,
+      "sciaf-cd": 4
+    }
+  },
+  ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "31120": {
+      "sciaf-kh": 1
+    },
+    "74010": {
+      "sciaf-kh": 1,
+      "sciaf-et": 1
+    },
+    "14030": {
+      "sciaf-kh": 1
+    },
+    "31210": {
+      "sciaf-kh": 1
+    },
+    "15170": {
+      "sciaf-kh": 1
+    },
+    "14031": {
+      "sciaf-et": 1
+    },
+    "31130": {
+      "sciaf-et": 1
+    },
+    "24040": {
+      "sciaf-et": 1,
+      "sciaf-cd": 1
+    },
+    "12220": {
+      "sciaf-cd": 1
+    },
+    "31150": {
+      "sciaf-cd": 1
+    },
+    "43040": {
+      "sciaf-cd": 1
+    }
+  },
+  ".//sector[@vocabulary = '2']/@code": {
+    "311": {
+      "sciaf-mw": 1
+    },
+    "410": {
+      "sciaf-mw": 1
+    },
+    "151": {
+      "sciaf-mw": 1
+    }
+  },
+  ".//transaction/aid-type/@vocabulary": {
+    "1": {
+      "sciaf-kh": 10,
+      "sciaf-et": 71
+    }
+  },
+  ".//transaction/aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "C01": {
+      "sciaf-mw": 98,
+      "sciaf-kh": 10,
+      "sciaf-et": 71,
+      "sciaf-cd": 55
+    }
+  },
+  ".//transaction/disbursement-channel/@code": {
+    "1": {
+      "sciaf-mw": 77,
+      "sciaf-kh": 9,
+      "sciaf-et": 45,
+      "sciaf-cd": 53
+    },
+    "2": {
+      "sciaf-mw": 27,
+      "sciaf-et": 27,
+      "sciaf-cd": 21
+    }
+  },
+  ".//transaction/finance-type/@code": {
+    "110": {
+      "sciaf-mw": 98,
+      "sciaf-kh": 10,
+      "sciaf-et": 71,
+      "sciaf-cd": 55
+    },
+    "111": {
+      "sciaf-et": 1
+    }
+  },
+  ".//transaction/flow-type/@code": {
+    "10": {
+      "sciaf-mw": 77,
+      "sciaf-kh": 10,
+      "sciaf-et": 60,
+      "sciaf-cd": 28
+    },
+    "30": {
+      "sciaf-mw": 20,
+      "sciaf-et": 12,
+      "sciaf-cd": 27
+    }
+  },
+  ".//transaction/provider-org/@type": {
+    "10": {
+      "sciaf-mw": 50,
+      "sciaf-kh": 9,
+      "sciaf-et": 53
+    },
+    "22": {
+      "sciaf-mw": 11,
+      "sciaf-et": 15
+    },
+    "21": {
+      "sciaf-kh": 1,
+      "sciaf-et": 4
+    }
+  },
+  ".//transaction/receiver-org/@type": {
+    "22": {
+      "sciaf-mw": 29,
+      "sciaf-kh": 6,
+      "sciaf-et": 39
+    },
+    "10": {
+      "sciaf-mw": 1
+    },
+    "24": {
+      "sciaf-mw": 4
+    },
+    "23": {
+      "sciaf-mw": 27,
+      "sciaf-et": 1
+    },
+    "21": {
+      "sciaf-kh": 3,
+      "sciaf-et": 31
+    }
+  },
+  ".//transaction/tied-status/@code": {
+    "4": {
+      "sciaf-mw": 97,
+      "sciaf-kh": 10,
+      "sciaf-et": 72,
+      "sciaf-cd": 55
+    }
+  },
+  ".//transaction/transaction-type/@code": {
+    "1": {
+      "sciaf-mw": 22,
+      "sciaf-kh": 3,
+      "sciaf-et": 11,
+      "sciaf-cd": 18
+    },
+    "3": {
+      "sciaf-mw": 51,
+      "sciaf-kh": 4,
+      "sciaf-et": 25,
+      "sciaf-cd": 20
+    },
+    "4": {
+      "sciaf-mw": 31,
+      "sciaf-kh": 3,
+      "sciaf-et": 36,
+      "sciaf-cd": 36
+    }
+  },
+  ".//transaction/value/@currency": {
+    "GBP": {
+      "sciaf-mw": 104,
+      "sciaf-kh": 10,
+      "sciaf-et": 72,
+      "sciaf-cd": 21
+    }
+  }
+}

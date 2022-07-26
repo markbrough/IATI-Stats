@@ -1,0 +1,141 @@
+{
+  ".//@default-currency": {
+    "GBP": 4
+  },
+  ".//@xml:lang": {
+    "en": 4
+  },
+  ".//activity-date/@type": {
+    "1": 4,
+    "2": 4,
+    "3": 4
+  },
+  ".//activity-status/@code": {
+    "2": 4
+  },
+  ".//budget/@type": {
+    "2": 4
+  },
+  ".//budget/value/@currency": {
+    "GBP": 4
+  },
+  ".//collaboration-type/@code": {
+    "1": 1,
+    "3": 2
+  },
+  ".//contact-info/@type": {
+    "1": 4
+  },
+  ".//country-budget-items/@vocabulary": {
+    "1": 3
+  },
+  ".//country-budget-items/budget-item[../@vocabulary = '1']/@code": {
+    "5.4.10": 3
+  },
+  ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "C01": 3
+  },
+  ".//default-finance-type/@code": {
+    "110": 3
+  },
+  ".//default-flow-type/@code": {
+    "10": 3
+  },
+  ".//default-tied-status/@code": {
+    "5": 4
+  },
+  ".//description/@type": {
+    "1": 1
+  },
+  ".//document-link/@format": {
+    "application/vnd.oasis.opendocument.text": 1
+  },
+  ".//document-link/category/@code": {
+    "A05": 1,
+    "A04": 1,
+    "A03": 1,
+    "A02": 1,
+    "A01": 1
+  },
+  ".//document-link/language/@code": {
+    "en": 1
+  },
+  ".//location/administrative/@vocabulary": {
+    "A4": 7
+  },
+  ".//location/administrative[@vocabulary = 'A4']/@code": {
+    "CO": 1,
+    "AR": 1,
+    "BR": 1,
+    "EC": 1,
+    "GY": 1,
+    "PA": 1,
+    "PE": 1
+  },
+  ".//location/exactness/@code": {
+    "2": 8
+  },
+  ".//location/feature-designation/@code": {
+    "PCL": 8
+  },
+  ".//location/location-class/@code": {
+    "1": 8
+  },
+  ".//location/location-reach/@code": {
+    "2": 8
+  },
+  ".//other-identifier/@type": {
+    "A1": 4,
+    "B1": 4
+  },
+  ".//participating-org/@role": {
+    "4": 5,
+    "1": 4,
+    "2": 4
+  },
+  ".//participating-org/@type": {
+    "21": 2,
+    "40": 1,
+    "70": 1,
+    "10": 8
+  },
+  ".//policy-marker/@significance": {
+    "0": 6
+  },
+  ".//policy-marker/@vocabulary": {
+    "1": 6
+  },
+  ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "1": 1,
+    "5": 1,
+    "6": 1,
+    "7": 1,
+    "8": 1,
+    "11": 1
+  },
+  ".//recipient-country/@code": {
+    "CO": 1,
+    "VE": 4
+  },
+  ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "389": 1
+  },
+  ".//related-activity/@type": {
+    "2": 6,
+    "1": 3,
+    "3": 15
+  },
+  ".//reporting-org/@type": {
+    "10": 4
+  },
+  ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "72010": 4
+  },
+  ".//transaction/transaction-type/@code": {
+    "2": 3,
+    "3": 5
+  },
+  ".//transaction/value/@currency": {
+    "GBP": 8
+  }
+}

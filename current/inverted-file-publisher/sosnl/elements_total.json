@@ -1,0 +1,979 @@
+{
+  "iati-activity": {
+    "sosnl-co": 1,
+    "sosnl-ua": 1,
+    "sosnl-289": 5,
+    "sosnl-so": 1,
+    "sosnl-et": 1,
+    "sosnl-cf": 1
+  },
+  "iati-activity/@default-currency": {
+    "sosnl-co": 1,
+    "sosnl-ua": 1,
+    "sosnl-289": 5,
+    "sosnl-so": 1,
+    "sosnl-et": 1,
+    "sosnl-cf": 1
+  },
+  "iati-activity/@hierarchy": {
+    "sosnl-co": 1,
+    "sosnl-ua": 1,
+    "sosnl-289": 5,
+    "sosnl-so": 1,
+    "sosnl-et": 1,
+    "sosnl-cf": 1
+  },
+  "iati-activity/@humanitarian": {
+    "sosnl-co": 1,
+    "sosnl-ua": 1,
+    "sosnl-289": 5,
+    "sosnl-so": 1,
+    "sosnl-et": 1,
+    "sosnl-cf": 1
+  },
+  "iati-activity/@last-updated-datetime": {
+    "sosnl-co": 1,
+    "sosnl-ua": 1,
+    "sosnl-289": 5,
+    "sosnl-so": 1,
+    "sosnl-et": 1,
+    "sosnl-cf": 1
+  },
+  "iati-activity/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "sosnl-co": 1,
+    "sosnl-ua": 1,
+    "sosnl-289": 5,
+    "sosnl-so": 1,
+    "sosnl-et": 1,
+    "sosnl-cf": 1
+  },
+  "iati-activity/activity-date": {
+    "sosnl-co": 2,
+    "sosnl-ua": 3,
+    "sosnl-289": 5,
+    "sosnl-so": 2,
+    "sosnl-et": 2,
+    "sosnl-cf": 3
+  },
+  "iati-activity/activity-date/@iso-date": {
+    "sosnl-co": 2,
+    "sosnl-ua": 3,
+    "sosnl-289": 5,
+    "sosnl-so": 2,
+    "sosnl-et": 2,
+    "sosnl-cf": 3
+  },
+  "iati-activity/activity-date/@type": {
+    "sosnl-co": 2,
+    "sosnl-ua": 3,
+    "sosnl-289": 5,
+    "sosnl-so": 2,
+    "sosnl-et": 2,
+    "sosnl-cf": 3
+  },
+  "iati-activity/activity-date/narrative": {
+    "sosnl-ua": 1,
+    "sosnl-cf": 1
+  },
+  "iati-activity/activity-scope": {
+    "sosnl-co": 1,
+    "sosnl-ua": 1,
+    "sosnl-289": 5,
+    "sosnl-so": 1,
+    "sosnl-et": 1,
+    "sosnl-cf": 1
+  },
+  "iati-activity/activity-scope/@code": {
+    "sosnl-co": 1,
+    "sosnl-ua": 1,
+    "sosnl-289": 5,
+    "sosnl-so": 1,
+    "sosnl-et": 1,
+    "sosnl-cf": 1
+  },
+  "iati-activity/activity-status": {
+    "sosnl-co": 1,
+    "sosnl-ua": 1,
+    "sosnl-289": 5,
+    "sosnl-so": 1,
+    "sosnl-et": 1,
+    "sosnl-cf": 1
+  },
+  "iati-activity/activity-status/@code": {
+    "sosnl-co": 1,
+    "sosnl-ua": 1,
+    "sosnl-289": 5,
+    "sosnl-so": 1,
+    "sosnl-et": 1,
+    "sosnl-cf": 1
+  },
+  "iati-activity/budget": {
+    "sosnl-co": 1,
+    "sosnl-ua": 1,
+    "sosnl-289": 5,
+    "sosnl-so": 1,
+    "sosnl-et": 1,
+    "sosnl-cf": 1
+  },
+  "iati-activity/budget/@status": {
+    "sosnl-co": 1,
+    "sosnl-ua": 1,
+    "sosnl-289": 5,
+    "sosnl-so": 1,
+    "sosnl-et": 1,
+    "sosnl-cf": 1
+  },
+  "iati-activity/budget/@type": {
+    "sosnl-co": 1,
+    "sosnl-ua": 1,
+    "sosnl-289": 4,
+    "sosnl-so": 1,
+    "sosnl-et": 1,
+    "sosnl-cf": 1
+  },
+  "iati-activity/budget/period-end": {
+    "sosnl-co": 1,
+    "sosnl-ua": 1,
+    "sosnl-289": 5,
+    "sosnl-so": 1,
+    "sosnl-et": 1,
+    "sosnl-cf": 1
+  },
+  "iati-activity/budget/period-end/@iso-date": {
+    "sosnl-co": 1,
+    "sosnl-ua": 1,
+    "sosnl-289": 5,
+    "sosnl-so": 1,
+    "sosnl-et": 1,
+    "sosnl-cf": 1
+  },
+  "iati-activity/budget/period-start": {
+    "sosnl-co": 1,
+    "sosnl-ua": 1,
+    "sosnl-289": 5,
+    "sosnl-so": 1,
+    "sosnl-et": 1,
+    "sosnl-cf": 1
+  },
+  "iati-activity/budget/period-start/@iso-date": {
+    "sosnl-co": 1,
+    "sosnl-ua": 1,
+    "sosnl-289": 5,
+    "sosnl-so": 1,
+    "sosnl-et": 1,
+    "sosnl-cf": 1
+  },
+  "iati-activity/budget/value": {
+    "sosnl-co": 1,
+    "sosnl-ua": 1,
+    "sosnl-289": 5,
+    "sosnl-so": 1,
+    "sosnl-et": 1,
+    "sosnl-cf": 1
+  },
+  "iati-activity/budget/value/@currency": {
+    "sosnl-co": 1,
+    "sosnl-ua": 1,
+    "sosnl-289": 4,
+    "sosnl-so": 1,
+    "sosnl-et": 1,
+    "sosnl-cf": 1
+  },
+  "iati-activity/budget/value/@value-date": {
+    "sosnl-co": 1,
+    "sosnl-ua": 1,
+    "sosnl-289": 5,
+    "sosnl-so": 1,
+    "sosnl-et": 1,
+    "sosnl-cf": 1
+  },
+  "iati-activity/description": {
+    "sosnl-co": 3,
+    "sosnl-ua": 3,
+    "sosnl-289": 7,
+    "sosnl-so": 3,
+    "sosnl-et": 3,
+    "sosnl-cf": 3
+  },
+  "iati-activity/description/@type": {
+    "sosnl-co": 3,
+    "sosnl-ua": 3,
+    "sosnl-289": 7,
+    "sosnl-so": 3,
+    "sosnl-et": 3,
+    "sosnl-cf": 3
+  },
+  "iati-activity/description/narrative": {
+    "sosnl-co": 3,
+    "sosnl-ua": 3,
+    "sosnl-289": 7,
+    "sosnl-so": 3,
+    "sosnl-et": 3,
+    "sosnl-cf": 3
+  },
+  "iati-activity/description/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "sosnl-co": 1,
+    "sosnl-ua": 3,
+    "sosnl-289": 5,
+    "sosnl-so": 1,
+    "sosnl-et": 1,
+    "sosnl-cf": 3
+  },
+  "iati-activity/iati-identifier": {
+    "sosnl-co": 1,
+    "sosnl-ua": 1,
+    "sosnl-289": 5,
+    "sosnl-so": 1,
+    "sosnl-et": 1,
+    "sosnl-cf": 1
+  },
+  "iati-activity/location": {
+    "sosnl-co": 1,
+    "sosnl-so": 1,
+    "sosnl-et": 1
+  },
+  "iati-activity/location/administrative": {
+    "sosnl-co": 1,
+    "sosnl-so": 1
+  },
+  "iati-activity/location/administrative/@code": {
+    "sosnl-co": 1,
+    "sosnl-so": 1
+  },
+  "iati-activity/location/administrative/@vocabulary": {
+    "sosnl-co": 1,
+    "sosnl-so": 1
+  },
+  "iati-activity/location/exactness": {
+    "sosnl-co": 1,
+    "sosnl-so": 1,
+    "sosnl-et": 1
+  },
+  "iati-activity/location/exactness/@code": {
+    "sosnl-co": 1,
+    "sosnl-so": 1,
+    "sosnl-et": 1
+  },
+  "iati-activity/location/feature-designation": {
+    "sosnl-co": 1,
+    "sosnl-so": 1
+  },
+  "iati-activity/location/feature-designation/@code": {
+    "sosnl-co": 1,
+    "sosnl-so": 1
+  },
+  "iati-activity/location/location-class": {
+    "sosnl-co": 1,
+    "sosnl-so": 1,
+    "sosnl-et": 1
+  },
+  "iati-activity/location/location-class/@code": {
+    "sosnl-co": 1,
+    "sosnl-so": 1,
+    "sosnl-et": 1
+  },
+  "iati-activity/location/location-id": {
+    "sosnl-co": 1,
+    "sosnl-so": 1,
+    "sosnl-et": 1
+  },
+  "iati-activity/location/location-id/@code": {
+    "sosnl-co": 1,
+    "sosnl-so": 1,
+    "sosnl-et": 1
+  },
+  "iati-activity/location/location-id/@vocabulary": {
+    "sosnl-co": 1,
+    "sosnl-so": 1,
+    "sosnl-et": 1
+  },
+  "iati-activity/location/location-reach": {
+    "sosnl-co": 1,
+    "sosnl-so": 1
+  },
+  "iati-activity/location/location-reach/@code": {
+    "sosnl-co": 1,
+    "sosnl-so": 1
+  },
+  "iati-activity/location/name": {
+    "sosnl-so": 1,
+    "sosnl-et": 1
+  },
+  "iati-activity/location/name/narrative": {
+    "sosnl-so": 1,
+    "sosnl-et": 1
+  },
+  "iati-activity/location/point": {
+    "sosnl-so": 1,
+    "sosnl-et": 1
+  },
+  "iati-activity/location/point/@srsName": {
+    "sosnl-so": 1,
+    "sosnl-et": 1
+  },
+  "iati-activity/location/point/pos": {
+    "sosnl-so": 1,
+    "sosnl-et": 1
+  },
+  "iati-activity/participating-org": {
+    "sosnl-co": 7,
+    "sosnl-ua": 3,
+    "sosnl-289": 7,
+    "sosnl-so": 3,
+    "sosnl-et": 3,
+    "sosnl-cf": 4
+  },
+  "iati-activity/participating-org/@activity-id": {
+    "sosnl-co": 2,
+    "sosnl-ua": 2,
+    "sosnl-289": 4,
+    "sosnl-so": 1,
+    "sosnl-et": 2,
+    "sosnl-cf": 2
+  },
+  "iati-activity/participating-org/@ref": {
+    "sosnl-co": 6,
+    "sosnl-ua": 2,
+    "sosnl-289": 7,
+    "sosnl-so": 2,
+    "sosnl-et": 2,
+    "sosnl-cf": 2
+  },
+  "iati-activity/participating-org/@role": {
+    "sosnl-co": 7,
+    "sosnl-ua": 3,
+    "sosnl-289": 7,
+    "sosnl-so": 3,
+    "sosnl-et": 3,
+    "sosnl-cf": 4
+  },
+  "iati-activity/participating-org/@type": {
+    "sosnl-co": 7,
+    "sosnl-ua": 3,
+    "sosnl-289": 6,
+    "sosnl-so": 3,
+    "sosnl-et": 3,
+    "sosnl-cf": 4
+  },
+  "iati-activity/participating-org/narrative": {
+    "sosnl-co": 7,
+    "sosnl-ua": 3,
+    "sosnl-289": 6,
+    "sosnl-so": 3,
+    "sosnl-et": 3,
+    "sosnl-cf": 4
+  },
+  "iati-activity/participating-org/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "sosnl-co": 5,
+    "sosnl-ua": 2,
+    "sosnl-289": 4,
+    "sosnl-so": 2,
+    "sosnl-et": 2,
+    "sosnl-cf": 2
+  },
+  "iati-activity/recipient-country": {
+    "sosnl-co": 1,
+    "sosnl-ua": 1,
+    "sosnl-289": 16,
+    "sosnl-so": 1,
+    "sosnl-et": 1,
+    "sosnl-cf": 1
+  },
+  "iati-activity/recipient-country/@code": {
+    "sosnl-co": 1,
+    "sosnl-ua": 1,
+    "sosnl-289": 16,
+    "sosnl-so": 1,
+    "sosnl-et": 1,
+    "sosnl-cf": 1
+  },
+  "iati-activity/recipient-country/@percentage": {
+    "sosnl-co": 1,
+    "sosnl-ua": 1,
+    "sosnl-289": 16,
+    "sosnl-so": 1,
+    "sosnl-et": 1,
+    "sosnl-cf": 1
+  },
+  "iati-activity/recipient-country/narrative": {
+    "sosnl-289": 3
+  },
+  "iati-activity/recipient-country/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "sosnl-289": 3
+  },
+  "iati-activity/recipient-region": {
+    "sosnl-289": 5
+  },
+  "iati-activity/recipient-region/@code": {
+    "sosnl-289": 5
+  },
+  "iati-activity/recipient-region/@percentage": {
+    "sosnl-289": 5
+  },
+  "iati-activity/recipient-region/@vocabulary": {
+    "sosnl-289": 5
+  },
+  "iati-activity/related-activity": {
+    "sosnl-289": 9
+  },
+  "iati-activity/related-activity/@ref": {
+    "sosnl-289": 9
+  },
+  "iati-activity/related-activity/@type": {
+    "sosnl-289": 9
+  },
+  "iati-activity/reporting-org": {
+    "sosnl-co": 1,
+    "sosnl-ua": 1,
+    "sosnl-289": 5,
+    "sosnl-so": 1,
+    "sosnl-et": 1,
+    "sosnl-cf": 1
+  },
+  "iati-activity/reporting-org/@ref": {
+    "sosnl-co": 1,
+    "sosnl-ua": 1,
+    "sosnl-289": 5,
+    "sosnl-so": 1,
+    "sosnl-et": 1,
+    "sosnl-cf": 1
+  },
+  "iati-activity/reporting-org/@type": {
+    "sosnl-co": 1,
+    "sosnl-ua": 1,
+    "sosnl-289": 5,
+    "sosnl-so": 1,
+    "sosnl-et": 1,
+    "sosnl-cf": 1
+  },
+  "iati-activity/reporting-org/narrative": {
+    "sosnl-co": 1,
+    "sosnl-ua": 1,
+    "sosnl-289": 5,
+    "sosnl-so": 1,
+    "sosnl-et": 1,
+    "sosnl-cf": 1
+  },
+  "iati-activity/reporting-org/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "sosnl-co": 1,
+    "sosnl-ua": 1,
+    "sosnl-289": 5,
+    "sosnl-so": 1,
+    "sosnl-et": 1,
+    "sosnl-cf": 1
+  },
+  "iati-activity/result": {
+    "sosnl-co": 10,
+    "sosnl-ua": 20,
+    "sosnl-289": 20,
+    "sosnl-so": 14,
+    "sosnl-et": 7,
+    "sosnl-cf": 9
+  },
+  "iati-activity/result/@aggregation-status": {
+    "sosnl-co": 1,
+    "sosnl-289": 12,
+    "sosnl-so": 13,
+    "sosnl-et": 7,
+    "sosnl-cf": 9
+  },
+  "iati-activity/result/@type": {
+    "sosnl-co": 10,
+    "sosnl-ua": 20,
+    "sosnl-289": 20,
+    "sosnl-so": 14,
+    "sosnl-et": 7,
+    "sosnl-cf": 9
+  },
+  "iati-activity/result/description": {
+    "sosnl-co": 10,
+    "sosnl-ua": 7,
+    "sosnl-289": 5,
+    "sosnl-so": 14
+  },
+  "iati-activity/result/description/narrative": {
+    "sosnl-co": 10,
+    "sosnl-ua": 7,
+    "sosnl-289": 5,
+    "sosnl-so": 14
+  },
+  "iati-activity/result/description/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "sosnl-289": 3
+  },
+  "iati-activity/result/indicator": {
+    "sosnl-co": 10,
+    "sosnl-ua": 20,
+    "sosnl-289": 20,
+    "sosnl-so": 14,
+    "sosnl-et": 7,
+    "sosnl-cf": 9
+  },
+  "iati-activity/result/indicator/@ascending": {
+    "sosnl-289": 19,
+    "sosnl-et": 5
+  },
+  "iati-activity/result/indicator/@measure": {
+    "sosnl-co": 10,
+    "sosnl-ua": 20,
+    "sosnl-289": 20,
+    "sosnl-so": 14,
+    "sosnl-et": 7,
+    "sosnl-cf": 9
+  },
+  "iati-activity/result/indicator/baseline": {
+    "sosnl-289": 20
+  },
+  "iati-activity/result/indicator/baseline/@value": {
+    "sosnl-289": 20
+  },
+  "iati-activity/result/indicator/baseline/@year": {
+    "sosnl-289": 20
+  },
+  "iati-activity/result/indicator/baseline/comment": {
+    "sosnl-289": 1
+  },
+  "iati-activity/result/indicator/baseline/comment/narrative": {
+    "sosnl-289": 1
+  },
+  "iati-activity/result/indicator/baseline/comment/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "sosnl-289": 1
+  },
+  "iati-activity/result/indicator/description": {
+    "sosnl-co": 9,
+    "sosnl-ua": 7,
+    "sosnl-so": 14
+  },
+  "iati-activity/result/indicator/description/narrative": {
+    "sosnl-co": 9,
+    "sosnl-ua": 7,
+    "sosnl-so": 14
+  },
+  "iati-activity/result/indicator/period": {
+    "sosnl-co": 10,
+    "sosnl-ua": 20,
+    "sosnl-289": 20,
+    "sosnl-so": 14,
+    "sosnl-et": 7,
+    "sosnl-cf": 9
+  },
+  "iati-activity/result/indicator/period/actual": {
+    "sosnl-co": 5,
+    "sosnl-ua": 19,
+    "sosnl-289": 20,
+    "sosnl-so": 7,
+    "sosnl-et": 7,
+    "sosnl-cf": 9
+  },
+  "iati-activity/result/indicator/period/actual/@value": {
+    "sosnl-co": 5,
+    "sosnl-ua": 19,
+    "sosnl-289": 20,
+    "sosnl-so": 7,
+    "sosnl-et": 7,
+    "sosnl-cf": 9
+  },
+  "iati-activity/result/indicator/period/actual/comment": {
+    "sosnl-ua": 2,
+    "sosnl-289": 3,
+    "sosnl-cf": 8
+  },
+  "iati-activity/result/indicator/period/actual/comment/narrative": {
+    "sosnl-ua": 2,
+    "sosnl-289": 3,
+    "sosnl-cf": 8
+  },
+  "iati-activity/result/indicator/period/actual/comment/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "sosnl-289": 1
+  },
+  "iati-activity/result/indicator/period/actual/location": {
+    "sosnl-cf": 1
+  },
+  "iati-activity/result/indicator/period/actual/location/@ref": {
+    "sosnl-cf": 1
+  },
+  "iati-activity/result/indicator/period/period-end": {
+    "sosnl-co": 10,
+    "sosnl-ua": 20,
+    "sosnl-289": 20,
+    "sosnl-so": 14,
+    "sosnl-et": 7,
+    "sosnl-cf": 9
+  },
+  "iati-activity/result/indicator/period/period-end/@iso-date": {
+    "sosnl-co": 10,
+    "sosnl-ua": 20,
+    "sosnl-289": 20,
+    "sosnl-so": 14,
+    "sosnl-et": 7,
+    "sosnl-cf": 9
+  },
+  "iati-activity/result/indicator/period/period-start": {
+    "sosnl-co": 10,
+    "sosnl-ua": 20,
+    "sosnl-289": 20,
+    "sosnl-so": 14,
+    "sosnl-et": 7,
+    "sosnl-cf": 9
+  },
+  "iati-activity/result/indicator/period/period-start/@iso-date": {
+    "sosnl-co": 10,
+    "sosnl-ua": 20,
+    "sosnl-289": 20,
+    "sosnl-so": 14,
+    "sosnl-et": 7,
+    "sosnl-cf": 9
+  },
+  "iati-activity/result/indicator/period/target": {
+    "sosnl-co": 10,
+    "sosnl-ua": 20,
+    "sosnl-289": 20,
+    "sosnl-so": 14,
+    "sosnl-et": 7,
+    "sosnl-cf": 9
+  },
+  "iati-activity/result/indicator/period/target/@value": {
+    "sosnl-co": 10,
+    "sosnl-ua": 20,
+    "sosnl-289": 20,
+    "sosnl-so": 14,
+    "sosnl-et": 7,
+    "sosnl-cf": 9
+  },
+  "iati-activity/result/indicator/period/target/comment": {
+    "sosnl-cf": 9
+  },
+  "iati-activity/result/indicator/period/target/comment/narrative": {
+    "sosnl-cf": 9
+  },
+  "iati-activity/result/indicator/title": {
+    "sosnl-co": 10,
+    "sosnl-ua": 20,
+    "sosnl-289": 20,
+    "sosnl-so": 14,
+    "sosnl-et": 7,
+    "sosnl-cf": 9
+  },
+  "iati-activity/result/indicator/title/narrative": {
+    "sosnl-co": 10,
+    "sosnl-ua": 20,
+    "sosnl-289": 20,
+    "sosnl-so": 14,
+    "sosnl-et": 7,
+    "sosnl-cf": 9
+  },
+  "iati-activity/result/indicator/title/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "sosnl-ua": 11,
+    "sosnl-289": 17
+  },
+  "iati-activity/result/title": {
+    "sosnl-co": 10,
+    "sosnl-ua": 20,
+    "sosnl-289": 20,
+    "sosnl-so": 14,
+    "sosnl-et": 7,
+    "sosnl-cf": 9
+  },
+  "iati-activity/result/title/narrative": {
+    "sosnl-co": 10,
+    "sosnl-ua": 20,
+    "sosnl-289": 20,
+    "sosnl-so": 14,
+    "sosnl-et": 7,
+    "sosnl-cf": 9
+  },
+  "iati-activity/result/title/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "sosnl-ua": 11,
+    "sosnl-289": 18
+  },
+  "iati-activity/sector": {
+    "sosnl-co": 3,
+    "sosnl-ua": 4,
+    "sosnl-289": 6,
+    "sosnl-so": 3,
+    "sosnl-et": 2,
+    "sosnl-cf": 2
+  },
+  "iati-activity/sector/@code": {
+    "sosnl-co": 3,
+    "sosnl-ua": 4,
+    "sosnl-289": 6,
+    "sosnl-so": 3,
+    "sosnl-et": 2,
+    "sosnl-cf": 2
+  },
+  "iati-activity/sector/@percentage": {
+    "sosnl-co": 3,
+    "sosnl-ua": 4,
+    "sosnl-289": 5,
+    "sosnl-so": 3,
+    "sosnl-et": 2,
+    "sosnl-cf": 2
+  },
+  "iati-activity/sector/@vocabulary": {
+    "sosnl-co": 3,
+    "sosnl-ua": 4,
+    "sosnl-289": 6,
+    "sosnl-so": 3,
+    "sosnl-et": 2,
+    "sosnl-cf": 2
+  },
+  "iati-activity/sector/narrative": {
+    "sosnl-co": 3,
+    "sosnl-ua": 4,
+    "sosnl-so": 3
+  },
+  "iati-activity/sector/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "sosnl-ua": 4
+  },
+  "iati-activity/title": {
+    "sosnl-co": 1,
+    "sosnl-ua": 1,
+    "sosnl-289": 5,
+    "sosnl-so": 1,
+    "sosnl-et": 1,
+    "sosnl-cf": 1
+  },
+  "iati-activity/title/narrative": {
+    "sosnl-co": 1,
+    "sosnl-ua": 1,
+    "sosnl-289": 5,
+    "sosnl-so": 1,
+    "sosnl-et": 1,
+    "sosnl-cf": 1
+  },
+  "iati-activity/title/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "sosnl-co": 1,
+    "sosnl-ua": 1,
+    "sosnl-289": 5,
+    "sosnl-so": 1,
+    "sosnl-cf": 1
+  },
+  "iati-activity/transaction": {
+    "sosnl-co": 16,
+    "sosnl-ua": 8,
+    "sosnl-289": 24,
+    "sosnl-so": 4,
+    "sosnl-et": 4,
+    "sosnl-cf": 4
+  },
+  "iati-activity/transaction/@humanitarian": {
+    "sosnl-co": 15,
+    "sosnl-ua": 5,
+    "sosnl-289": 6,
+    "sosnl-so": 1,
+    "sosnl-et": 2,
+    "sosnl-cf": 4
+  },
+  "iati-activity/transaction/@ref": {
+    "sosnl-co": 16,
+    "sosnl-ua": 5,
+    "sosnl-cf": 4
+  },
+  "iati-activity/transaction/aid-type": {
+    "sosnl-co": 1,
+    "sosnl-ua": 5,
+    "sosnl-289": 24,
+    "sosnl-cf": 4
+  },
+  "iati-activity/transaction/aid-type/@code": {
+    "sosnl-co": 1,
+    "sosnl-ua": 5,
+    "sosnl-289": 24,
+    "sosnl-cf": 4
+  },
+  "iati-activity/transaction/aid-type/@vocabulary": {
+    "sosnl-co": 1
+  },
+  "iati-activity/transaction/description": {
+    "sosnl-ua": 1,
+    "sosnl-cf": 1
+  },
+  "iati-activity/transaction/description/narrative": {
+    "sosnl-ua": 1,
+    "sosnl-cf": 1
+  },
+  "iati-activity/transaction/description/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "sosnl-ua": 1
+  },
+  "iati-activity/transaction/disbursement-channel": {
+    "sosnl-co": 11,
+    "sosnl-ua": 5,
+    "sosnl-289": 22,
+    "sosnl-cf": 4
+  },
+  "iati-activity/transaction/disbursement-channel/@code": {
+    "sosnl-co": 11,
+    "sosnl-ua": 5,
+    "sosnl-289": 22,
+    "sosnl-cf": 4
+  },
+  "iati-activity/transaction/finance-type": {
+    "sosnl-co": 9,
+    "sosnl-ua": 5,
+    "sosnl-289": 24,
+    "sosnl-cf": 4
+  },
+  "iati-activity/transaction/finance-type/@code": {
+    "sosnl-co": 9,
+    "sosnl-ua": 5,
+    "sosnl-289": 24,
+    "sosnl-cf": 4
+  },
+  "iati-activity/transaction/flow-type": {
+    "sosnl-co": 1,
+    "sosnl-ua": 5,
+    "sosnl-289": 24,
+    "sosnl-cf": 4
+  },
+  "iati-activity/transaction/flow-type/@code": {
+    "sosnl-co": 1,
+    "sosnl-ua": 5,
+    "sosnl-289": 24,
+    "sosnl-cf": 4
+  },
+  "iati-activity/transaction/provider-org": {
+    "sosnl-co": 16,
+    "sosnl-ua": 5,
+    "sosnl-289": 24,
+    "sosnl-so": 4,
+    "sosnl-et": 4,
+    "sosnl-cf": 4
+  },
+  "iati-activity/transaction/provider-org/@provider-activity-id": {
+    "sosnl-co": 15,
+    "sosnl-ua": 5,
+    "sosnl-289": 24,
+    "sosnl-so": 4,
+    "sosnl-et": 4,
+    "sosnl-cf": 2
+  },
+  "iati-activity/transaction/provider-org/@ref": {
+    "sosnl-co": 16,
+    "sosnl-ua": 5,
+    "sosnl-289": 24,
+    "sosnl-so": 4,
+    "sosnl-et": 4,
+    "sosnl-cf": 4
+  },
+  "iati-activity/transaction/provider-org/@type": {
+    "sosnl-co": 15,
+    "sosnl-ua": 5,
+    "sosnl-289": 14,
+    "sosnl-so": 2,
+    "sosnl-et": 4,
+    "sosnl-cf": 3
+  },
+  "iati-activity/transaction/provider-org/narrative": {
+    "sosnl-ua": 1
+  },
+  "iati-activity/transaction/provider-org/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "sosnl-ua": 1
+  },
+  "iati-activity/transaction/receiver-org": {
+    "sosnl-co": 16,
+    "sosnl-ua": 5,
+    "sosnl-289": 24,
+    "sosnl-so": 4,
+    "sosnl-et": 4,
+    "sosnl-cf": 4
+  },
+  "iati-activity/transaction/receiver-org/@receiver-activity-id": {
+    "sosnl-co": 13,
+    "sosnl-ua": 1,
+    "sosnl-289": 24,
+    "sosnl-so": 2,
+    "sosnl-et": 1,
+    "sosnl-cf": 2
+  },
+  "iati-activity/transaction/receiver-org/@ref": {
+    "sosnl-co": 16,
+    "sosnl-ua": 1,
+    "sosnl-289": 24,
+    "sosnl-so": 4,
+    "sosnl-et": 4,
+    "sosnl-cf": 2
+  },
+  "iati-activity/transaction/receiver-org/@type": {
+    "sosnl-co": 12,
+    "sosnl-ua": 1,
+    "sosnl-289": 14,
+    "sosnl-so": 2,
+    "sosnl-et": 4,
+    "sosnl-cf": 2
+  },
+  "iati-activity/transaction/receiver-org/narrative": {
+    "sosnl-ua": 5,
+    "sosnl-cf": 2
+  },
+  "iati-activity/transaction/receiver-org/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "sosnl-ua": 5
+  },
+  "iati-activity/transaction/tied-status": {
+    "sosnl-co": 12,
+    "sosnl-ua": 5,
+    "sosnl-289": 24,
+    "sosnl-cf": 4
+  },
+  "iati-activity/transaction/tied-status/@code": {
+    "sosnl-co": 12,
+    "sosnl-ua": 5,
+    "sosnl-289": 24,
+    "sosnl-cf": 4
+  },
+  "iati-activity/transaction/transaction-date": {
+    "sosnl-co": 16,
+    "sosnl-ua": 8,
+    "sosnl-289": 24,
+    "sosnl-so": 4,
+    "sosnl-et": 4,
+    "sosnl-cf": 4
+  },
+  "iati-activity/transaction/transaction-date/@iso-date": {
+    "sosnl-co": 16,
+    "sosnl-ua": 8,
+    "sosnl-289": 24,
+    "sosnl-so": 4,
+    "sosnl-et": 4,
+    "sosnl-cf": 4
+  },
+  "iati-activity/transaction/transaction-type": {
+    "sosnl-co": 16,
+    "sosnl-ua": 8,
+    "sosnl-289": 24,
+    "sosnl-so": 4,
+    "sosnl-et": 4,
+    "sosnl-cf": 4
+  },
+  "iati-activity/transaction/transaction-type/@code": {
+    "sosnl-co": 16,
+    "sosnl-ua": 8,
+    "sosnl-289": 24,
+    "sosnl-so": 4,
+    "sosnl-et": 4,
+    "sosnl-cf": 4
+  },
+  "iati-activity/transaction/value": {
+    "sosnl-co": 16,
+    "sosnl-ua": 8,
+    "sosnl-289": 24,
+    "sosnl-so": 4,
+    "sosnl-et": 4,
+    "sosnl-cf": 4
+  },
+  "iati-activity/transaction/value/@currency": {
+    "sosnl-co": 16,
+    "sosnl-ua": 8,
+    "sosnl-289": 24,
+    "sosnl-so": 3,
+    "sosnl-et": 3,
+    "sosnl-cf": 4
+  },
+  "iati-activity/transaction/value/@value-date": {
+    "sosnl-co": 16,
+    "sosnl-ua": 8,
+    "sosnl-289": 24,
+    "sosnl-so": 4,
+    "sosnl-et": 4,
+    "sosnl-cf": 4
+  }
+}

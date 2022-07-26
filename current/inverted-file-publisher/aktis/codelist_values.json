@@ -1,0 +1,206 @@
+{
+  ".//@default-currency": {
+    "GBP": {
+      "aktis-ke": 2,
+      "aktis-lb": 1,
+      "aktis-sy": 1,
+      "aktis-ly": 1,
+      "aktis-998": 1
+    }
+  },
+  ".//@xml:lang": {
+    "en": {
+      "aktis-ke": 16,
+      "aktis-lb": 15,
+      "aktis-sy": 10,
+      "aktis-ly": 5,
+      "aktis-998": 4
+    }
+  },
+  ".//activity-date/@type": {
+    "1": {
+      "aktis-ke": 2,
+      "aktis-lb": 1,
+      "aktis-sy": 1
+    },
+    "4": {
+      "aktis-ke": 2
+    },
+    "3": {
+      "aktis-lb": 1,
+      "aktis-ly": 1
+    },
+    "2": {
+      "aktis-ly": 1,
+      "aktis-998": 1
+    }
+  },
+  ".//activity-status/@code": {
+    "4": {
+      "aktis-ke": 2,
+      "aktis-ly": 1,
+      "aktis-998": 1
+    },
+    "2": {
+      "aktis-lb": 1,
+      "aktis-sy": 1
+    }
+  },
+  ".//budget/@status": {
+    "1": {
+      "aktis-ke": 2,
+      "aktis-lb": 1,
+      "aktis-sy": 1
+    },
+    "2": {
+      "aktis-ly": 1,
+      "aktis-998": 1
+    }
+  },
+  ".//budget/@type": {
+    "1": {
+      "aktis-ke": 2,
+      "aktis-lb": 1,
+      "aktis-sy": 1,
+      "aktis-ly": 1,
+      "aktis-998": 1
+    }
+  },
+  ".//budget/value/@currency": {
+    "EUR": {
+      "aktis-ly": 1,
+      "aktis-998": 1
+    }
+  },
+  ".//description/@type": {
+    "2": {
+      "aktis-ke": 2,
+      "aktis-lb": 1,
+      "aktis-sy": 1
+    },
+    "1": {
+      "aktis-ly": 1,
+      "aktis-998": 1
+    }
+  },
+  ".//participating-org/@role": {
+    "1": {
+      "aktis-ke": 2,
+      "aktis-lb": 1,
+      "aktis-sy": 1,
+      "aktis-ly": 1,
+      "aktis-998": 1
+    }
+  },
+  ".//participating-org/@type": {
+    "10": {
+      "aktis-ke": 2,
+      "aktis-lb": 1,
+      "aktis-sy": 1,
+      "aktis-ly": 1
+    },
+    "70": {
+      "aktis-998": 1
+    }
+  },
+  ".//recipient-country/@code": {
+    "KE": {
+      "aktis-ke": 2
+    },
+    "LB": {
+      "aktis-lb": 1
+    },
+    "SY": {
+      "aktis-sy": 1
+    },
+    "LY": {
+      "aktis-ly": 1
+    }
+  },
+  ".//reporting-org/@type": {
+    "70": {
+      "aktis-ke": 2,
+      "aktis-lb": 1,
+      "aktis-sy": 1,
+      "aktis-ly": 1,
+      "aktis-998": 1
+    }
+  },
+  ".//sector/@vocabulary": {
+    "1": {
+      "aktis-ke": 2,
+      "aktis-lb": 3,
+      "aktis-sy": 1,
+      "aktis-998": 1
+    },
+    "98": {
+      "aktis-ly": 1
+    }
+  },
+  ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "15210": {
+      "aktis-ke": 2,
+      "aktis-lb": 2
+    },
+    "text": {
+      "aktis-ke": 4,
+      "aktis-sy": 2
+    },
+    "15220": {
+      "aktis-lb": 1,
+      "aktis-sy": 1
+    },
+    "15185": {
+      "aktis-998": 1
+    }
+  },
+  ".//transaction/provider-org/@type": {
+    " ": {
+      "aktis-ke": 4,
+      "aktis-sy": 2
+    }
+  },
+  ".//transaction/receiver-org/@type": {
+    " ": {
+      "aktis-ke": 4,
+      "aktis-sy": 2
+    }
+  },
+  ".//transaction/sector/@vocabulary": {
+    "1": {
+      "aktis-lb": 2
+    }
+  },
+  ".//transaction/sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "text": {
+      "aktis-ke": 4,
+      "aktis-sy": 2
+    },
+    "15210": {
+      "aktis-lb": 2
+    }
+  },
+  ".//transaction/transaction-type/@code": {
+    "4": {
+      "aktis-ke": 2,
+      "aktis-lb": 2,
+      "aktis-sy": 2,
+      "aktis-ly": 38
+    },
+    "1": {
+      "aktis-ke": 2,
+      "aktis-lb": 5
+    },
+    "3": {
+      "aktis-ly": 21
+    }
+  },
+  ".//transaction/value/@currency": {
+    "GBP": {
+      "aktis-lb": 3
+    },
+    "EUR": {
+      "aktis-ly": 59
+    }
+  }
+}

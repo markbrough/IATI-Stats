@@ -1,0 +1,675 @@
+{
+  "2": {
+    ".//@default-currency": {
+      "sendacow-998": {
+        "GBP": 1
+      },
+      "sendacow-et": {
+        "GBP": 4
+      },
+      "sendacow-rw": {
+        "GBP": 2
+      },
+      "sendacow-ug": {
+        "GBP": 1
+      },
+      "sendacow-bi": {
+        "GBP": 1
+      },
+      "sendacow-ke": {
+        "GBP": 2
+      }
+    },
+    ".//activity-date/@type": {
+      "sendacow-998": {
+        "2": 1
+      },
+      "sendacow-et": {
+        "2": 3,
+        "4": 1,
+        "1": 1,
+        "3": 2
+      },
+      "sendacow-rw": {
+        "2": 2,
+        "3": 1
+      },
+      "sendacow-ug": {
+        "2": 1
+      },
+      "sendacow-bi": {
+        "2": 1
+      },
+      "sendacow-ke": {
+        "2": 2,
+        "4": 1,
+        "3": 1
+      }
+    },
+    ".//activity-status/@code": {
+      "sendacow-998": {
+        "2": 1
+      },
+      "sendacow-et": {
+        "4": 2,
+        "2": 2
+      },
+      "sendacow-rw": {
+        "3": 1,
+        "4": 1
+      },
+      "sendacow-ug": {
+        "4": 1
+      },
+      "sendacow-bi": {
+        "2": 1
+      },
+      "sendacow-ke": {
+        "3": 1,
+        "2": 1
+      }
+    },
+    ".//budget/@type": {
+      "sendacow-998": {
+        "1": 4
+      },
+      "sendacow-et": {
+        "1": 8,
+        "2": 1
+      },
+      "sendacow-rw": {
+        "1": 8
+      },
+      "sendacow-ug": {
+        "1": 4
+      },
+      "sendacow-bi": {
+        "1": 1
+      },
+      "sendacow-ke": {
+        "1": 8
+      }
+    },
+    ".//budget/value/@currency": {
+      "sendacow-998": {
+        "GBP": 4
+      },
+      "sendacow-et": {
+        "GBP": 9
+      },
+      "sendacow-rw": {
+        "GBP": 8
+      },
+      "sendacow-ug": {
+        "GBP": 4
+      },
+      "sendacow-ke": {
+        "GBP": 8
+      }
+    },
+    ".//collaboration-type/@code": {
+      "sendacow-998": {
+        "2": 1
+      },
+      "sendacow-et": {
+        "2": 4
+      },
+      "sendacow-rw": {
+        "2": 2
+      },
+      "sendacow-ug": {
+        "2": 1
+      },
+      "sendacow-bi": {
+        "2": 1
+      },
+      "sendacow-ke": {
+        "2": 2
+      }
+    },
+    ".//contact-info/@type": {
+      "sendacow-998": {
+        "1": 1
+      },
+      "sendacow-et": {
+        "1": 2
+      },
+      "sendacow-rw": {
+        "1": 2
+      },
+      "sendacow-ug": {
+        "1": 1
+      },
+      "sendacow-ke": {
+        "1": 2
+      }
+    },
+    ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "sendacow-998": {
+        "C01": 1
+      },
+      "sendacow-et": {
+        "C01": 4
+      },
+      "sendacow-rw": {
+        "C01": 2
+      },
+      "sendacow-ug": {
+        "C01": 1
+      },
+      "sendacow-bi": {
+        "C01": 1
+      },
+      "sendacow-ke": {
+        "C01": 2
+      }
+    },
+    ".//default-finance-type/@code": {
+      "sendacow-998": {
+        "110": 1
+      },
+      "sendacow-et": {
+        "110": 4
+      },
+      "sendacow-rw": {
+        "110": 2
+      },
+      "sendacow-ug": {
+        "110": 1
+      },
+      "sendacow-bi": {
+        "110": 1
+      },
+      "sendacow-ke": {
+        "110": 2
+      }
+    },
+    ".//default-flow-type/@code": {
+      "sendacow-998": {
+        "10": 1
+      },
+      "sendacow-et": {
+        "10": 4
+      },
+      "sendacow-rw": {
+        "10": 2
+      },
+      "sendacow-ug": {
+        "10": 1
+      },
+      "sendacow-bi": {
+        "10": 1
+      },
+      "sendacow-ke": {
+        "10": 2
+      }
+    },
+    ".//default-tied-status/@code": {
+      "sendacow-998": {
+        "5": 1
+      },
+      "sendacow-et": {
+        "5": 4
+      },
+      "sendacow-rw": {
+        "5": 2
+      },
+      "sendacow-ug": {
+        "5": 1
+      },
+      "sendacow-bi": {
+        "5": 1
+      },
+      "sendacow-ke": {
+        "5": 2
+      }
+    },
+    ".//document-link/@format": {
+      "sendacow-998": {
+        "application/pdf": 1
+      },
+      "sendacow-et": {
+        "application/msword": 1,
+        "application/pdf": 1,
+        "text/html": 1
+      },
+      "sendacow-rw": {
+        "application/pdf": 2
+      },
+      "sendacow-ug": {
+        "application/pdf": 1
+      },
+      "sendacow-ke": {
+        "application/pdf": 1,
+        "text/html": 1
+      }
+    },
+    ".//document-link/category/@code": {
+      "sendacow-998": {
+        "A02": 1
+      },
+      "sendacow-et": {
+        "A02": 3
+      },
+      "sendacow-rw": {
+        "A02": 2
+      },
+      "sendacow-ug": {
+        "A02": 1
+      },
+      "sendacow-ke": {
+        "A02": 2
+      }
+    },
+    ".//participating-org/@role": {
+      "sendacow-998": {
+        "4": 1,
+        "1": 1
+      },
+      "sendacow-et": {
+        "4": 9,
+        "2": 1,
+        "1": 4,
+        "3": 2
+      },
+      "sendacow-rw": {
+        "4": 2,
+        "1": 2
+      },
+      "sendacow-ug": {
+        "4": 1
+      },
+      "sendacow-bi": {
+        "4": 1
+      },
+      "sendacow-ke": {
+        "4": 3,
+        "1": 2,
+        "3": 1
+      }
+    },
+    ".//participating-org/@type": {
+      "sendacow-998": {
+        "21": 1,
+        "10": 1
+      },
+      "sendacow-et": {
+        "22": 6,
+        "15": 1,
+        "10": 3,
+        "21": 2,
+        "80": 2,
+        "70": 2
+      },
+      "sendacow-rw": {
+        "21": 1,
+        "10": 2,
+        "22": 1
+      },
+      "sendacow-ug": {
+        "22": 1
+      },
+      "sendacow-ke": {
+        "21": 2,
+        "10": 2,
+        "70": 1,
+        "22": 1
+      }
+    },
+    ".//recipient-country/@code": {
+      "sendacow-998": {
+        "BI": 20,
+        "RW": 26
+      },
+      "sendacow-et": {
+        "ET": 4
+      },
+      "sendacow-rw": {
+        "RW": 2,
+        "BI": 1
+      },
+      "sendacow-ug": {
+        "UG": 1
+      },
+      "sendacow-bi": {
+        "BI": 1
+      },
+      "sendacow-ke": {
+        "KE": 2
+      }
+    },
+    ".//reporting-org/@type": {
+      "sendacow-998": {
+        "21": 1
+      },
+      "sendacow-et": {
+        "21": 4
+      },
+      "sendacow-rw": {
+        "21": 2
+      },
+      "sendacow-ug": {
+        "21": 1
+      },
+      "sendacow-bi": {
+        "21": 1
+      },
+      "sendacow-ke": {
+        "21": 2
+      }
+    },
+    ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "sendacow-998": {
+        "31120": 1
+      },
+      "sendacow-et": {
+        "31120": 3,
+        "14030": 1,
+        "12240": 1
+      },
+      "sendacow-rw": {
+        "31120": 2
+      },
+      "sendacow-ug": {
+        "31120": 1
+      },
+      "sendacow-bi": {
+        "31120": 1,
+        "96": 4
+      },
+      "sendacow-ke": {
+        "31120": 1,
+        "12240": 1
+      }
+    },
+    ".//sector/@vocabulary": {
+      "sendacow-998": {
+        "1": 1
+      },
+      "sendacow-et": {
+        "1": 5
+      },
+      "sendacow-rw": {
+        "1": 2
+      },
+      "sendacow-ug": {
+        "1": 1
+      },
+      "sendacow-bi": {
+        "1": 1
+      },
+      "sendacow-ke": {
+        "1": 2
+      }
+    },
+    ".//transaction/aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "sendacow-998": {
+        "C01": 46
+      },
+      "sendacow-et": {
+        "C01": 106,
+        "A01": 15
+      },
+      "sendacow-rw": {
+        "C01": 118,
+        "A01": 8
+      },
+      "sendacow-ug": {
+        "C01": 32
+      },
+      "sendacow-bi": {
+        "A01": 6,
+        "C01": 2
+      },
+      "sendacow-ke": {
+        "A01": 19,
+        "C01": 27
+      }
+    },
+    ".//transaction/disbursement-channel/@code": {
+      "sendacow-998": {
+        "2": 35,
+        "1": 8
+      },
+      "sendacow-et": {
+        "2": 70,
+        "1": 29
+      },
+      "sendacow-rw": {
+        "1": 25,
+        "2": 75
+      },
+      "sendacow-ug": {
+        "1": 11,
+        "2": 22
+      },
+      "sendacow-bi": {
+        "2": 9,
+        "1": 3
+      },
+      "sendacow-ke": {
+        "1": 16,
+        "2": 28,
+        "4": 1
+      }
+    },
+    ".//transaction/finance-type/@code": {
+      "sendacow-998": {
+        "110": 46
+      },
+      "sendacow-et": {
+        "110": 105,
+        "410": 17
+      },
+      "sendacow-rw": {
+        "110": 126
+      },
+      "sendacow-ug": {
+        "110": 32
+      },
+      "sendacow-bi": {
+        "110": 8
+      },
+      "sendacow-ke": {
+        "110": 46
+      }
+    },
+    ".//transaction/flow-type/@code": {
+      "sendacow-998": {
+        "30": 37,
+        "10": 9
+      },
+      "sendacow-et": {
+        "30": 67,
+        "10": 54,
+        "50": 1
+      },
+      "sendacow-rw": {
+        "30": 99,
+        "10": 26
+      },
+      "sendacow-ug": {
+        "10": 6,
+        "30": 26
+      },
+      "sendacow-bi": {
+        "30": 6,
+        "10": 2
+      },
+      "sendacow-ke": {
+        "10": 17,
+        "30": 28,
+        "35": 1
+      }
+    },
+    ".//transaction/recipient-country/@code": {
+      "sendacow-998": {
+        "BI": 20,
+        "RW": 26
+      }
+    },
+    ".//transaction/tied-status/@code": {
+      "sendacow-998": {
+        "3": 39,
+        "5": 7
+      },
+      "sendacow-et": {
+        "5": 78,
+        "3": 44
+      },
+      "sendacow-rw": {
+        "3": 105,
+        "5": 21
+      },
+      "sendacow-ug": {
+        "5": 9,
+        "3": 23
+      },
+      "sendacow-bi": {
+        "3": 6,
+        "5": 2
+      },
+      "sendacow-ke": {
+        "3": 27,
+        "5": 19
+      }
+    },
+    ".//transaction/transaction-type/@code": {
+      "sendacow-998": {
+        "3": 39,
+        "1": 7
+      },
+      "sendacow-et": {
+        "3": 36,
+        "1": 50,
+        "4": 58
+      },
+      "sendacow-rw": {
+        "3": 102,
+        "1": 24
+      },
+      "sendacow-ug": {
+        "1": 11,
+        "3": 22
+      },
+      "sendacow-bi": {
+        "3": 10,
+        "1": 2
+      },
+      "sendacow-ke": {
+        "1": 17,
+        "3": 30,
+        "4": 16
+      }
+    },
+    ".//transaction/value/@currency": {
+      "sendacow-998": {
+        "GBP": 21
+      },
+      "sendacow-et": {
+        "GBP": 108
+      },
+      "sendacow-rw": {
+        "GBP": 84
+      },
+      "sendacow-ug": {
+        "GBP": 30
+      },
+      "sendacow-ke": {
+        "GBP": 34
+      }
+    },
+    ".//@xml:lang": {
+      "sendacow-998": {
+        "en": 4
+      },
+      "sendacow-et": {
+        "en": 37
+      },
+      "sendacow-rw": {
+        "en": 17
+      },
+      "sendacow-ug": {
+        "en": 6
+      },
+      "sendacow-bi": {
+        "en": 2
+      },
+      "sendacow-ke": {
+        "en": 11
+      }
+    },
+    ".//budget/@status": {
+      "sendacow-et": {
+        "1": 5,
+        "2": 4
+      },
+      "sendacow-rw": {
+        "1": 8
+      },
+      "sendacow-ug": {
+        "1": 4
+      },
+      "sendacow-ke": {
+        "1": 4,
+        "2": 4
+      }
+    },
+    ".//default-aid-type/@vocabulary": {
+      "sendacow-et": {
+        "1": 2
+      },
+      "sendacow-ke": {
+        "1": 1
+      }
+    },
+    ".//description/@type": {
+      "sendacow-et": {
+        "1": 4
+      },
+      "sendacow-rw": {
+        "1": 1
+      },
+      "sendacow-ug": {
+        "1": 1
+      },
+      "sendacow-ke": {
+        "1": 1
+      }
+    },
+    ".//document-link/language/@code": {
+      "sendacow-et": {
+        "en": 1
+      }
+    },
+    ".//transaction/aid-type/@vocabulary": {
+      "sendacow-et": {
+        "1": 92
+      },
+      "sendacow-ke": {
+        "1": 8
+      }
+    },
+    ".//transaction/provider-org/@type": {
+      "sendacow-rw": {
+        "21": 7
+      },
+      "sendacow-ug": {
+        "21": 2
+      }
+    },
+    ".//transaction/receiver-org/@type": {
+      "sendacow-rw": {
+        "21": 5
+      },
+      "sendacow-ug": {
+        "21": 1
+      }
+    },
+    ".//transaction/sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "sendacow-bi": {
+        "96": 4
+      }
+    }
+  }
+}

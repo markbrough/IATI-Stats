@@ -1,0 +1,172 @@
+{
+  ".//@default-currency": {
+    "EUR": {
+      "atmf-atmf2019": 1,
+      "atmf-atmi2018": 1
+    }
+  },
+  ".//@xml:lang": {
+    "en": {
+      "atmf-atmf2019": 8,
+      "atmf-atmi2018": 18
+    }
+  },
+  ".//activity-date/@type": {
+    "2": {
+      "atmf-atmf2019": 1,
+      "atmf-atmi2018": 1
+    },
+    "3": {
+      "atmf-atmf2019": 1,
+      "atmf-atmi2018": 1
+    }
+  },
+  ".//activity-status/@code": {
+    "2": {
+      "atmf-atmf2019": 1,
+      "atmf-atmi2018": 1
+    }
+  },
+  ".//budget/@status": {
+    "2": {
+      "atmf-atmf2019": 1,
+      "atmf-atmi2018": 1
+    }
+  },
+  ".//budget/@type": {
+    "1": {
+      "atmf-atmf2019": 1,
+      "atmf-atmi2018": 1
+    }
+  },
+  ".//budget/value/@currency": {
+    "EUR": {
+      "atmf-atmf2019": 1,
+      "atmf-atmi2018": 1
+    }
+  },
+  ".//description/@type": {
+    "1": {
+      "atmf-atmf2019": 1,
+      "atmf-atmi2018": 1
+    }
+  },
+  ".//document-link/@format": {
+    "application/pdf": {
+      "atmf-atmi2018": 1
+    },
+    "application/http": {
+      "atmf-atmi2018": 1
+    }
+  },
+  ".//document-link/category/@code": {
+    "A02": {
+      "atmf-atmi2018": 2
+    }
+  },
+  ".//document-link/language/@code": {
+    "en": {
+      "atmf-atmi2018": 1
+    }
+  },
+  ".//participating-org/@role": {
+    "1": {
+      "atmf-atmf2019": 3,
+      "atmf-atmi2018": 3
+    }
+  },
+  ".//participating-org/@type": {
+    "10": {
+      "atmf-atmf2019": 2,
+      "atmf-atmi2018": 2
+    },
+    "60": {
+      "atmf-atmf2019": 1,
+      "atmf-atmi2018": 1
+    }
+  },
+  ".//recipient-country/@code": {
+    "NL": {
+      "atmf-atmf2019": 1,
+      "atmf-atmi2018": 1
+    }
+  },
+  ".//reporting-org/@type": {
+    "60": {
+      "atmf-atmf2019": 1,
+      "atmf-atmi2018": 1
+    }
+  },
+  ".//result/@type": {
+    "1": {
+      "atmf-atmf2019": 2,
+      "atmf-atmi2018": 3
+    },
+    "2": {
+      "atmf-atmi2018": 1
+    }
+  },
+  ".//result/indicator/@measure": {
+    "1": {
+      "atmf-atmf2019": 2,
+      "atmf-atmi2018": 4
+    }
+  },
+  ".//result/indicator/reference/@vocabulary": {
+    "99": {
+      "atmf-atmi2018": 1
+    }
+  },
+  ".//sector/@vocabulary": {
+    "1": {
+      "atmf-atmf2019": 1,
+      "atmf-atmi2018": 1
+    }
+  },
+  ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "12220": {
+      "atmf-atmf2019": 1,
+      "atmf-atmi2018": 1
+    }
+  },
+  ".//transaction/provider-org/@type": {
+    "10": {
+      "atmf-atmi2018": 4
+    },
+    "60": {
+      "atmf-atmi2018": 2
+    }
+  },
+  ".//transaction/transaction-type/@code": {
+    "1": {
+      "atmf-atmf2019": 5,
+      "atmf-atmi2018": 6
+    },
+    "11": {
+      "atmf-atmf2019": 3,
+      "atmf-atmi2018": 3
+    },
+    "2": {
+      "atmf-atmf2019": 1,
+      "atmf-atmi2018": 1
+    },
+    "4": {
+      "atmf-atmf2019": 1,
+      "atmf-atmi2018": 1
+    }
+  },
+  ".//transaction/value/@currency": {
+    "USD": {
+      "atmf-atmf2019": 2,
+      "atmf-atmi2018": 3
+    },
+    "GBP": {
+      "atmf-atmf2019": 3,
+      "atmf-atmi2018": 4
+    },
+    "EUR": {
+      "atmf-atmf2019": 5,
+      "atmf-atmi2018": 4
+    }
+  }
+}

@@ -1,0 +1,103 @@
+{
+  ".//@default-currency": {
+    "USD": 1
+  },
+  ".//@xml:lang": {
+    "en": 4
+  },
+  ".//activity-date/@type": {
+    "3": 1,
+    "2": 1,
+    "1": 1
+  },
+  ".//activity-scope/@code": {
+    "4": 1
+  },
+  ".//activity-status/@code": {
+    "2": 1
+  },
+  ".//budget/@status": {
+    "1": 4,
+    "2": 6
+  },
+  ".//budget/@type": {
+    "1": 4,
+    "2": 6
+  },
+  ".//budget/value/@currency": {
+    "USD": 10
+  },
+  ".//conditions/condition/@type": {
+    "2": 1
+  },
+  ".//country-budget-items/@vocabulary": {
+    "5": 1
+  },
+  ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "C01": 1
+  },
+  ".//document-link/@format": {
+    "application/http": 1
+  },
+  ".//document-link/category/@code": {
+    "B17": 1
+  },
+  ".//document-link/language/@code": {
+    "en": 1
+  },
+  ".//humanitarian-scope/@type": {
+    "1": 6
+  },
+  ".//humanitarian-scope/@vocabulary": {
+    "99": 6
+  },
+  ".//location/exactness/@code": {
+    "2": 1
+  },
+  ".//location/location-id/@vocabulary": {
+    "A4": 1
+  },
+  ".//location/location-reach/@code": {
+    "1": 1
+  },
+  ".//participating-org/@role": {
+    "4": 1,
+    "1": 10
+  },
+  ".//participating-org/@type": {
+    "40": 1,
+    "10": 8,
+    "90": 2
+  },
+  ".//reporting-org/@type": {
+    "40": 1
+  },
+  ".//sector/@vocabulary": {
+    "1": 1
+  },
+  ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "72050": 1
+  },
+  ".//transaction/finance-type/@code": {
+    "110": 65
+  },
+  ".//transaction/flow-type/@code": {
+    "20": 65
+  },
+  ".//transaction/provider-org/@type": {
+    "10": 51,
+    "90": 14,
+    "40": 4
+  },
+  ".//transaction/receiver-org/@type": {
+    "40": 30
+  },
+  ".//transaction/transaction-type/@code": {
+    "11": 35,
+    "1": 30,
+    "4": 4
+  },
+  ".//transaction/value/@currency": {
+    "USD": 69
+  }
+}

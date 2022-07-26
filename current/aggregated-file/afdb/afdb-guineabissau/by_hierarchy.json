@@ -1,0 +1,426 @@
+{
+  "1": {
+    "activities": 19,
+    "elements": {
+      "iati-activity": 19,
+      "iati-activity/iati-identifier": 19,
+      "iati-activity/reporting-org": 19,
+      "iati-activity/reporting-org/narrative": 19,
+      "iati-activity/reporting-org/@ref": 19,
+      "iati-activity/reporting-org/@type": 19,
+      "iati-activity/title": 19,
+      "iati-activity/title/narrative": 19,
+      "iati-activity/title/narrative/@{http://www.w3.org/XML/1998/namespace}lang": 19,
+      "iati-activity/description": 19,
+      "iati-activity/description/narrative": 19,
+      "iati-activity/description/narrative/@{http://www.w3.org/XML/1998/namespace}lang": 19,
+      "iati-activity/description/@type": 19,
+      "iati-activity/participating-org": 19,
+      "iati-activity/participating-org/narrative": 19,
+      "iati-activity/participating-org/@role": 19,
+      "iati-activity/participating-org/@ref": 19,
+      "iati-activity/participating-org/@type": 19,
+      "iati-activity/activity-status": 19,
+      "iati-activity/activity-status/@code": 19,
+      "iati-activity/activity-date": 19,
+      "iati-activity/activity-date/@iso-date": 19,
+      "iati-activity/activity-date/@type": 19,
+      "iati-activity/contact-info": 19,
+      "iati-activity/contact-info/organisation": 19,
+      "iati-activity/contact-info/organisation/narrative": 19,
+      "iati-activity/contact-info/department": 19,
+      "iati-activity/contact-info/department/narrative": 19,
+      "iati-activity/contact-info/person-name": 19,
+      "iati-activity/contact-info/person-name/narrative": 19,
+      "iati-activity/contact-info/job-title": 19,
+      "iati-activity/contact-info/job-title/narrative": 19,
+      "iati-activity/contact-info/telephone": 19,
+      "iati-activity/contact-info/email": 19,
+      "iati-activity/contact-info/website": 19,
+      "iati-activity/contact-info/mailing-address": 19,
+      "iati-activity/contact-info/mailing-address/narrative": 19,
+      "iati-activity/activity-scope": 19,
+      "iati-activity/activity-scope/@code": 19,
+      "iati-activity/recipient-country": 19,
+      "iati-activity/recipient-country/@code": 19,
+      "iati-activity/sector": 19,
+      "iati-activity/sector/narrative": 19,
+      "iati-activity/sector/@vocabulary": 19,
+      "iati-activity/sector/@code": 19,
+      "iati-activity/country-budget-items": 19,
+      "iati-activity/country-budget-items/budget-item": 19,
+      "iati-activity/country-budget-items/budget-item/description": 19,
+      "iati-activity/country-budget-items/budget-item/description/narrative": 19,
+      "iati-activity/country-budget-items/budget-item/description/narrative/@{http://www.w3.org/XML/1998/namespace}lang": 19,
+      "iati-activity/country-budget-items/budget-item/@code": 19,
+      "iati-activity/country-budget-items/budget-item/@percentage": 19,
+      "iati-activity/country-budget-items/@vocabulary": 19,
+      "iati-activity/collaboration-type": 19,
+      "iati-activity/collaboration-type/@code": 19,
+      "iati-activity/budget": 19,
+      "iati-activity/budget/period-start": 19,
+      "iati-activity/budget/period-start/@iso-date": 19,
+      "iati-activity/budget/period-end": 19,
+      "iati-activity/budget/period-end/@iso-date": 19,
+      "iati-activity/budget/value": 19,
+      "iati-activity/budget/value/@currency": 19,
+      "iati-activity/budget/value/@value-date": 19,
+      "iati-activity/budget/@type": 19,
+      "iati-activity/capital-spend": 19,
+      "iati-activity/capital-spend/@percentage": 19,
+      "iati-activity/transaction": 19,
+      "iati-activity/transaction/transaction-type": 19,
+      "iati-activity/transaction/transaction-type/@code": 19,
+      "iati-activity/transaction/transaction-date": 19,
+      "iati-activity/transaction/transaction-date/@iso-date": 19,
+      "iati-activity/transaction/value": 19,
+      "iati-activity/transaction/value/@value-date": 19,
+      "iati-activity/transaction/provider-org": 19,
+      "iati-activity/transaction/provider-org/narrative": 19,
+      "iati-activity/transaction/receiver-org": 19,
+      "iati-activity/transaction/receiver-org/narrative": 19,
+      "iati-activity/transaction/flow-type": 19,
+      "iati-activity/transaction/flow-type/@code": 19,
+      "iati-activity/transaction/finance-type": 19,
+      "iati-activity/transaction/finance-type/@code": 19,
+      "iati-activity/transaction/aid-type": 19,
+      "iati-activity/transaction/aid-type/@code": 19,
+      "iati-activity/transaction/tied-status": 19,
+      "iati-activity/transaction/tied-status/@code": 19,
+      "iati-activity/transaction/@ref": 19,
+      "iati-activity/transaction/description": 19,
+      "iati-activity/transaction/description/narrative": 19,
+      "iati-activity/document-link": 19,
+      "iati-activity/document-link/title": 19,
+      "iati-activity/document-link/title/narrative": 19,
+      "iati-activity/document-link/category": 19,
+      "iati-activity/document-link/category/@code": 19,
+      "iati-activity/document-link/language": 19,
+      "iati-activity/document-link/language/@code": 19,
+      "iati-activity/document-link/@url": 19,
+      "iati-activity/document-link/@format": 19,
+      "iati-activity/conditions": 19,
+      "iati-activity/conditions/condition": 19,
+      "iati-activity/conditions/condition/narrative": 19,
+      "iati-activity/conditions/condition/@type": 19,
+      "iati-activity/conditions/@attached": 19,
+      "iati-activity/@{http://www.w3.org/XML/1998/namespace}lang": 19,
+      "iati-activity/@default-currency": 19,
+      "iati-activity/@hierarchy": 19,
+      "iati-activity/@last-updated-datetime": 19,
+      "iati-activity/location": 8,
+      "iati-activity/location/location-id": 8,
+      "iati-activity/location/location-id/@vocabulary": 8,
+      "iati-activity/location/location-id/@code": 8,
+      "iati-activity/location/name": 8,
+      "iati-activity/location/name/narrative": 8,
+      "iati-activity/location/point": 8,
+      "iati-activity/location/point/pos": 8,
+      "iati-activity/location/point/@srsName": 8,
+      "iati-activity/location/exactness": 8,
+      "iati-activity/location/exactness/@code": 8,
+      "iati-activity/location/location-class": 8,
+      "iati-activity/location/location-class/@code": 8,
+      "iati-activity/location/feature-designation": 8,
+      "iati-activity/location/feature-designation/@code": 8,
+      "iati-activity/location/administrative": 6,
+      "iati-activity/location/administrative/@code": 6,
+      "iati-activity/location/administrative/@vocabulary": 6,
+      "iati-activity/location/administrative/@level": 6,
+      "iati-activity/result": 5,
+      "iati-activity/result/title": 5,
+      "iati-activity/result/title/narrative": 5,
+      "iati-activity/result/indicator": 5,
+      "iati-activity/result/indicator/title": 5,
+      "iati-activity/result/indicator/title/narrative": 5,
+      "iati-activity/result/indicator/period": 5,
+      "iati-activity/result/indicator/period/period-start": 5,
+      "iati-activity/result/indicator/period/period-start/@iso-date": 5,
+      "iati-activity/result/indicator/period/period-end": 5,
+      "iati-activity/result/indicator/period/period-end/@iso-date": 5,
+      "iati-activity/result/indicator/period/target": 5,
+      "iati-activity/result/indicator/period/target/@value": 5,
+      "iati-activity/result/indicator/period/actual": 3,
+      "iati-activity/result/indicator/period/actual/@value": 3,
+      "iati-activity/result/indicator/@measure": 5,
+      "iati-activity/result/@type": 5
+    },
+    "elements_total": {
+      "iati-activity": 19,
+      "iati-activity/iati-identifier": 19,
+      "iati-activity/reporting-org": 19,
+      "iati-activity/reporting-org/narrative": 19,
+      "iati-activity/reporting-org/@ref": 19,
+      "iati-activity/reporting-org/@type": 19,
+      "iati-activity/title": 19,
+      "iati-activity/title/narrative": 25,
+      "iati-activity/title/narrative/@{http://www.w3.org/XML/1998/namespace}lang": 25,
+      "iati-activity/description": 56,
+      "iati-activity/description/narrative": 56,
+      "iati-activity/description/narrative/@{http://www.w3.org/XML/1998/namespace}lang": 56,
+      "iati-activity/description/@type": 56,
+      "iati-activity/participating-org": 45,
+      "iati-activity/participating-org/narrative": 45,
+      "iati-activity/participating-org/@role": 45,
+      "iati-activity/participating-org/@ref": 19,
+      "iati-activity/participating-org/@type": 39,
+      "iati-activity/activity-status": 19,
+      "iati-activity/activity-status/@code": 19,
+      "iati-activity/activity-date": 75,
+      "iati-activity/activity-date/@iso-date": 75,
+      "iati-activity/activity-date/@type": 75,
+      "iati-activity/contact-info": 19,
+      "iati-activity/contact-info/organisation": 19,
+      "iati-activity/contact-info/organisation/narrative": 19,
+      "iati-activity/contact-info/department": 19,
+      "iati-activity/contact-info/department/narrative": 19,
+      "iati-activity/contact-info/person-name": 19,
+      "iati-activity/contact-info/person-name/narrative": 19,
+      "iati-activity/contact-info/job-title": 19,
+      "iati-activity/contact-info/job-title/narrative": 19,
+      "iati-activity/contact-info/telephone": 19,
+      "iati-activity/contact-info/email": 19,
+      "iati-activity/contact-info/website": 19,
+      "iati-activity/contact-info/mailing-address": 19,
+      "iati-activity/contact-info/mailing-address/narrative": 19,
+      "iati-activity/activity-scope": 19,
+      "iati-activity/activity-scope/@code": 19,
+      "iati-activity/recipient-country": 19,
+      "iati-activity/recipient-country/@code": 19,
+      "iati-activity/sector": 19,
+      "iati-activity/sector/narrative": 19,
+      "iati-activity/sector/@vocabulary": 19,
+      "iati-activity/sector/@code": 19,
+      "iati-activity/country-budget-items": 19,
+      "iati-activity/country-budget-items/budget-item": 19,
+      "iati-activity/country-budget-items/budget-item/description": 19,
+      "iati-activity/country-budget-items/budget-item/description/narrative": 19,
+      "iati-activity/country-budget-items/budget-item/description/narrative/@{http://www.w3.org/XML/1998/namespace}lang": 19,
+      "iati-activity/country-budget-items/budget-item/@code": 19,
+      "iati-activity/country-budget-items/budget-item/@percentage": 19,
+      "iati-activity/country-budget-items/@vocabulary": 19,
+      "iati-activity/collaboration-type": 19,
+      "iati-activity/collaboration-type/@code": 19,
+      "iati-activity/budget": 86,
+      "iati-activity/budget/period-start": 86,
+      "iati-activity/budget/period-start/@iso-date": 86,
+      "iati-activity/budget/period-end": 86,
+      "iati-activity/budget/period-end/@iso-date": 86,
+      "iati-activity/budget/value": 86,
+      "iati-activity/budget/value/@currency": 86,
+      "iati-activity/budget/value/@value-date": 86,
+      "iati-activity/budget/@type": 86,
+      "iati-activity/capital-spend": 19,
+      "iati-activity/capital-spend/@percentage": 19,
+      "iati-activity/transaction": 301,
+      "iati-activity/transaction/transaction-type": 301,
+      "iati-activity/transaction/transaction-type/@code": 301,
+      "iati-activity/transaction/transaction-date": 301,
+      "iati-activity/transaction/transaction-date/@iso-date": 301,
+      "iati-activity/transaction/value": 301,
+      "iati-activity/transaction/value/@value-date": 301,
+      "iati-activity/transaction/provider-org": 122,
+      "iati-activity/transaction/provider-org/narrative": 122,
+      "iati-activity/transaction/receiver-org": 198,
+      "iati-activity/transaction/receiver-org/narrative": 198,
+      "iati-activity/transaction/flow-type": 19,
+      "iati-activity/transaction/flow-type/@code": 19,
+      "iati-activity/transaction/finance-type": 19,
+      "iati-activity/transaction/finance-type/@code": 19,
+      "iati-activity/transaction/aid-type": 19,
+      "iati-activity/transaction/aid-type/@code": 19,
+      "iati-activity/transaction/tied-status": 19,
+      "iati-activity/transaction/tied-status/@code": 19,
+      "iati-activity/transaction/@ref": 19,
+      "iati-activity/transaction/description": 275,
+      "iati-activity/transaction/description/narrative": 275,
+      "iati-activity/document-link": 50,
+      "iati-activity/document-link/title": 50,
+      "iati-activity/document-link/title/narrative": 50,
+      "iati-activity/document-link/category": 100,
+      "iati-activity/document-link/category/@code": 100,
+      "iati-activity/document-link/language": 50,
+      "iati-activity/document-link/language/@code": 50,
+      "iati-activity/document-link/@url": 50,
+      "iati-activity/document-link/@format": 50,
+      "iati-activity/conditions": 19,
+      "iati-activity/conditions/condition": 38,
+      "iati-activity/conditions/condition/narrative": 38,
+      "iati-activity/conditions/condition/@type": 38,
+      "iati-activity/conditions/@attached": 19,
+      "iati-activity/@{http://www.w3.org/XML/1998/namespace}lang": 19,
+      "iati-activity/@default-currency": 19,
+      "iati-activity/@hierarchy": 19,
+      "iati-activity/@last-updated-datetime": 19,
+      "iati-activity/location": 47,
+      "iati-activity/location/location-id": 47,
+      "iati-activity/location/location-id/@vocabulary": 47,
+      "iati-activity/location/location-id/@code": 47,
+      "iati-activity/location/name": 47,
+      "iati-activity/location/name/narrative": 47,
+      "iati-activity/location/point": 47,
+      "iati-activity/location/point/pos": 47,
+      "iati-activity/location/point/@srsName": 47,
+      "iati-activity/location/exactness": 47,
+      "iati-activity/location/exactness/@code": 47,
+      "iati-activity/location/location-class": 47,
+      "iati-activity/location/location-class/@code": 47,
+      "iati-activity/location/feature-designation": 47,
+      "iati-activity/location/feature-designation/@code": 47,
+      "iati-activity/location/administrative": 12,
+      "iati-activity/location/administrative/@code": 12,
+      "iati-activity/location/administrative/@vocabulary": 12,
+      "iati-activity/location/administrative/@level": 12,
+      "iati-activity/result": 39,
+      "iati-activity/result/title": 39,
+      "iati-activity/result/title/narrative": 39,
+      "iati-activity/result/indicator": 39,
+      "iati-activity/result/indicator/title": 39,
+      "iati-activity/result/indicator/title/narrative": 39,
+      "iati-activity/result/indicator/period": 64,
+      "iati-activity/result/indicator/period/period-start": 64,
+      "iati-activity/result/indicator/period/period-start/@iso-date": 64,
+      "iati-activity/result/indicator/period/period-end": 64,
+      "iati-activity/result/indicator/period/period-end/@iso-date": 64,
+      "iati-activity/result/indicator/period/target": 39,
+      "iati-activity/result/indicator/period/target/@value": 39,
+      "iati-activity/result/indicator/period/actual": 25,
+      "iati-activity/result/indicator/period/actual/@value": 25,
+      "iati-activity/result/indicator/@measure": 39,
+      "iati-activity/result/@type": 39
+    },
+    "forwardlooking_currency_year": {
+      "1981": {
+        "XDR": 3439909.05
+      },
+      "1982": {
+        "XDR": 4514386.45
+      },
+      "1983": {
+        "XDR": 4514386.45
+      },
+      "1984": {
+        "XDR": 4514386.45
+      },
+      "1985": {
+        "XDR": 3146795.0
+      },
+      "2006": {
+        "XDR": 1160000.0
+      },
+      "2007": {
+        "XDR": 1160000.0
+      },
+      "2008": {
+        "XDR": 1160000.0
+      },
+      "2009": {
+        "XDR": 2760000.0
+      },
+      "2010": {
+        "XDR": 4320000.0
+      },
+      "1991": {
+        "XDR": 11182949.9
+      },
+      "1992": {
+        "XDR": 4652004.5
+      },
+      "1993": {
+        "XDR": 3650915.26
+      },
+      "1994": {
+        "XDR": 2325346.2
+      },
+      "1995": {
+        "XDR": 2325346.2
+      },
+      "1989": {
+        "XDR": 6483460.26
+      },
+      "1990": {
+        "XDR": 8630211.1
+      },
+      "1980": {
+        "XDR": 2649616.45
+      },
+      "1977": {
+        "XDR": 729393.8
+      },
+      "1978": {
+        "XDR": 729393.8
+      },
+      "1979": {
+        "XDR": 729393.8
+      },
+      "1986": {
+        "XDR": 2356502.4
+      },
+      "1987": {
+        "XDR": 552631.2
+      },
+      "1988": {
+        "XDR": 5157891.2
+      },
+      "2011": {
+        "XDR": 3160000.0
+      },
+      "2012": {
+        "XDR": 3160000.0
+      },
+      "2013": {
+        "XDR": 3160000.0
+      },
+      "2014": {
+        "XDR": 1560000.0
+      },
+      "1998": {
+        "XDR": 1920413.1
+      },
+      "1999": {
+        "XDR": 1920413.1
+      },
+      "2000": {
+        "XDR": 1920413.1
+      },
+      "2001": {
+        "XDR": 1920413.1
+      },
+      "2002": {
+        "XDR": 1920413.1
+      },
+      "2016": {
+        "XDR": 2500000.0
+      },
+      "2017": {
+        "XDR": 2500000.0
+      },
+      "1996": {
+        "XDR": 273152.1
+      }
+    },
+    "forwardlooking_activities_current": {
+      "2022": 0,
+      "2023": 0,
+      "2024": 0
+    },
+    "forwardlooking_activities_with_budgets": {
+      "2022": 0,
+      "2023": 0,
+      "2024": 0
+    },
+    "forwardlooking_activities_with_budget_not_provided": {
+      "2022": 0,
+      "2023": 0,
+      "2024": 0
+    },
+    "comprehensiveness": {},
+    "comprehensiveness_with_validation": {},
+    "comprehensiveness_denominators": {
+      "recipient_language": 0,
+      "transaction_spend": 0,
+      "transaction_traceability": 0
+    },
+    "comprehensiveness_denominator_default": 0
+  }
+}

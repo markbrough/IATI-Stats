@@ -1,0 +1,51 @@
+{
+  ".//@default-currency": {
+    "USD": 10
+  },
+  ".//@xml:lang": {
+    "en": 85
+  },
+  ".//activity-date/@type": {
+    "1": 10
+  },
+  ".//activity-status/@code": {
+    "2": 10
+  },
+  ".//collaboration-type/@code": {
+    "2": 10
+  },
+  ".//default-tied-status/@code": {
+    "5": 15
+  },
+  ".//description/@type": {
+    "1": 10
+  },
+  ".//participating-org/@role": {
+    "4": 10
+  },
+  ".//participating-org/@type": {
+    "40": 10
+  },
+  ".//recipient-country/@code": {
+    "TR": 10
+  },
+  ".//reporting-org/@type": {
+    "40": 10
+  },
+  ".//transaction/aid-type/@vocabulary": {
+    "1": 15
+  },
+  ".//transaction/aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "B03": 15
+  },
+  ".//transaction/finance-type/@code": {
+    "410": 8,
+    "110": 7
+  },
+  ".//transaction/flow-type/@code": {
+    "10": 15
+  },
+  ".//transaction/transaction-type/@code": {
+    "2": 15
+  }
+}

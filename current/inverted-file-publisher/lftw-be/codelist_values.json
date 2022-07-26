@@ -1,0 +1,364 @@
+{
+  ".//@default-currency": {
+    "EUR": {
+      "lftw-be-cd": 2,
+      "lftw-be-activities": 5
+    }
+  },
+  ".//@xml:lang": {
+    "en": {
+      "lftw-be-cd": 7,
+      "lftw-be-activities": 20
+    },
+    "fr": {
+      "lftw-be-cd": 20,
+      "lftw-be-activities": 27
+    }
+  },
+  ".//activity-date/@type": {
+    "2": {
+      "lftw-be-cd": 2,
+      "lftw-be-activities": 5
+    },
+    "3": {
+      "lftw-be-cd": 2,
+      "lftw-be-activities": 5
+    },
+    "1": {
+      "lftw-be-activities": 1
+    }
+  },
+  ".//activity-scope/@code": {
+    "4": {
+      "lftw-be-activities": 1
+    }
+  },
+  ".//activity-status/@code": {
+    "2": {
+      "lftw-be-cd": 2,
+      "lftw-be-activities": 5
+    }
+  },
+  ".//budget/@status": {
+    "2": {
+      "lftw-be-cd": 10,
+      "lftw-be-activities": 30
+    }
+  },
+  ".//budget/@type": {
+    "1": {
+      "lftw-be-cd": 9,
+      "lftw-be-activities": 15
+    },
+    "2": {
+      "lftw-be-activities": 10
+    }
+  },
+  ".//budget/value/@currency": {
+    "EUR": {
+      "lftw-be-cd": 5,
+      "lftw-be-activities": 7
+    }
+  },
+  ".//collaboration-type/@code": {
+    "1": {
+      "lftw-be-cd": 2,
+      "lftw-be-activities": 5
+    }
+  },
+  ".//contact-info/@type": {
+    "1": {
+      "lftw-be-cd": 1,
+      "lftw-be-activities": 2
+    },
+    "2": {
+      "lftw-be-cd": 1,
+      "lftw-be-activities": 3
+    }
+  },
+  ".//default-aid-type/@vocabulary": {
+    "1": {
+      "lftw-be-cd": 2,
+      "lftw-be-activities": 5
+    }
+  },
+  ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "G01": {
+      "lftw-be-cd": 1,
+      "lftw-be-activities": 1
+    },
+    "C01": {
+      "lftw-be-cd": 1,
+      "lftw-be-activities": 4
+    }
+  },
+  ".//default-finance-type/@code": {
+    "110": {
+      "lftw-be-cd": 2,
+      "lftw-be-activities": 5
+    }
+  },
+  ".//default-flow-type/@code": {
+    "30": {
+      "lftw-be-cd": 2,
+      "lftw-be-activities": 5
+    }
+  },
+  ".//default-tied-status/@code": {
+    "5": {
+      "lftw-be-cd": 1,
+      "lftw-be-activities": 5
+    }
+  },
+  ".//description/@type": {
+    "1": {
+      "lftw-be-cd": 1,
+      "lftw-be-activities": 3
+    },
+    "2": {
+      "lftw-be-cd": 1,
+      "lftw-be-activities": 2
+    }
+  },
+  ".//document-link/@format": {
+    "application/pdf": {
+      "lftw-be-activities": 1
+    }
+  },
+  ".//document-link/category/@code": {
+    "A02": {
+      "lftw-be-activities": 1
+    }
+  },
+  ".//document-link/language/@code": {
+    "fr": {
+      "lftw-be-activities": 1
+    }
+  },
+  ".//location/exactness/@code": {
+    "2": {
+      "lftw-be-cd": 3,
+      "lftw-be-activities": 10
+    }
+  },
+  ".//location/location-class/@code": {
+    "1": {
+      "lftw-be-cd": 3,
+      "lftw-be-activities": 6
+    },
+    "3": {
+      "lftw-be-activities": 2
+    }
+  },
+  ".//location/location-reach/@code": {
+    "1": {
+      "lftw-be-cd": 3,
+      "lftw-be-activities": 7
+    },
+    "2": {
+      "lftw-be-activities": 3
+    }
+  },
+  ".//other-identifier/@type": {
+    "A9": {
+      "lftw-be-cd": 1,
+      "lftw-be-activities": 2
+    }
+  },
+  ".//participating-org/@role": {
+    "2": {
+      "lftw-be-cd": 2,
+      "lftw-be-activities": 6
+    },
+    "1": {
+      "lftw-be-cd": 3,
+      "lftw-be-activities": 10
+    },
+    "4": {
+      "lftw-be-cd": 8,
+      "lftw-be-activities": 17
+    }
+  },
+  ".//participating-org/@type": {
+    "22": {
+      "lftw-be-cd": 4,
+      "lftw-be-activities": 16
+    },
+    "10": {
+      "lftw-be-cd": 5,
+      "lftw-be-activities": 8
+    },
+    "70": {
+      "lftw-be-cd": 4,
+      "lftw-be-activities": 9
+    }
+  },
+  ".//policy-marker/@significance": {
+    "2": {
+      "lftw-be-cd": 1,
+      "lftw-be-activities": 2
+    },
+    "1": {
+      "lftw-be-cd": 3,
+      "lftw-be-activities": 8
+    }
+  },
+  ".//policy-marker/@vocabulary": {
+    "1": {
+      "lftw-be-cd": 3,
+      "lftw-be-activities": 9
+    }
+  },
+  ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "3": {
+      "lftw-be-cd": 1,
+      "lftw-be-activities": 2
+    },
+    "2": {
+      "lftw-be-cd": 1,
+      "lftw-be-activities": 2
+    },
+    "1": {
+      "lftw-be-cd": 1,
+      "lftw-be-activities": 3
+    },
+    "9": {
+      "lftw-be-cd": 1,
+      "lftw-be-activities": 3
+    }
+  },
+  ".//recipient-country/@code": {
+    "CD": {
+      "lftw-be-cd": 2,
+      "lftw-be-activities": 1
+    },
+    "TZ": {
+      "lftw-be-cd": 1,
+      "lftw-be-activities": 1
+    },
+    "RW": {
+      "lftw-be-cd": 1,
+      "lftw-be-activities": 1
+    }
+  },
+  ".//recipient-region/@vocabulary": {
+    "1": {
+      "lftw-be-activities": 2
+    }
+  },
+  ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "89": {
+      "lftw-be-activities": 1
+    },
+    "998": {
+      "lftw-be-activities": 1
+    }
+  },
+  ".//related-activity/@type": {
+    "1": {
+      "lftw-be-cd": 2,
+      "lftw-be-activities": 4
+    }
+  },
+  ".//reporting-org/@type": {
+    "22": {
+      "lftw-be-cd": 2,
+      "lftw-be-activities": 5
+    }
+  },
+  ".//result/@type": {
+    "2": {
+      "lftw-be-cd": 7,
+      "lftw-be-activities": 3
+    }
+  },
+  ".//result/indicator/@measure": {
+    "1": {
+      "lftw-be-cd": 6,
+      "lftw-be-activities": 17
+    },
+    "2": {
+      "lftw-be-cd": 1,
+      "lftw-be-activities": 4
+    }
+  },
+  ".//sector/@vocabulary": {
+    "1": {
+      "lftw-be-cd": 3,
+      "lftw-be-activities": 8
+    }
+  },
+  ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "12220": {
+      "lftw-be-cd": 1,
+      "lftw-be-activities": 1
+    },
+    "11230": {
+      "lftw-be-cd": 1,
+      "lftw-be-activities": 2
+    },
+    "12191": {
+      "lftw-be-cd": 1,
+      "lftw-be-activities": 3
+    },
+    "11220": {
+      "lftw-be-activities": 1
+    },
+    "99810": {
+      "lftw-be-activities": 1
+    }
+  },
+  ".//transaction/disbursement-channel/@code": {
+    "2": {
+      "lftw-be-activities": 2
+    }
+  },
+  ".//transaction/provider-org/@type": {
+    "22": {
+      "lftw-be-cd": 1,
+      "lftw-be-activities": 54
+    },
+    "10": {
+      "lftw-be-activities": 8
+    },
+    "11": {
+      "lftw-be-activities": 2
+    }
+  },
+  ".//transaction/receiver-org/@type": {
+    "90": {
+      "lftw-be-activities": 26
+    },
+    "70": {
+      "lftw-be-activities": 3
+    },
+    "22": {
+      "lftw-be-activities": 26
+    }
+  },
+  ".//transaction/transaction-type/@code": {
+    "4": {
+      "lftw-be-cd": 2,
+      "lftw-be-activities": 8
+    },
+    "2": {
+      "lftw-be-cd": 5,
+      "lftw-be-activities": 31
+    },
+    "3": {
+      "lftw-be-cd": 4,
+      "lftw-be-activities": 20
+    },
+    "11": {
+      "lftw-be-activities": 18
+    },
+    "1": {
+      "lftw-be-activities": 4
+    }
+  },
+  ".//transaction/value/@currency": {
+    "EUR": {
+      "lftw-be-activities": 10
+    }
+  }
+}
