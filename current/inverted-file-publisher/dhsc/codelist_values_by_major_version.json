@@ -1,0 +1,327 @@
+{
+  "1": {
+    ".//@default-currency": {
+      "doh-activities": {
+        "GBP": 1
+      }
+    },
+    ".//activity-date/@type": {
+      "doh-activities": {
+        "start-actual": 1,
+        "end-planned": 1
+      }
+    },
+    ".//activity-status/@code": {
+      "doh-activities": {
+        "2": 1
+      }
+    },
+    ".//budget/@type": {
+      "doh-activities": {
+        "1": 5
+      }
+    },
+    ".//budget/value/@currency": {
+      "doh-activities": {
+        "USD": 3,
+        "CHF": 2
+      }
+    },
+    ".//collaboration-type/@code": {
+      "doh-activities": {
+        "2": 1
+      }
+    },
+    ".//default-aid-type/@code": {
+      "doh-activities": {
+        "B02": 1
+      }
+    },
+    ".//default-finance-type/@code": {
+      "doh-activities": {
+        "110": 1
+      }
+    },
+    ".//default-flow-type/@code": {
+      "doh-activities": {
+        "10": 1
+      }
+    },
+    ".//default-tied-status/@code": {
+      "doh-activities": {
+        "5": 1
+      }
+    },
+    ".//description/@type": {
+      "doh-activities": {
+        "1": 1
+      }
+    },
+    ".//participating-org/@role": {
+      "doh-activities": {
+        "Extending": 1,
+        "Implementing": 1,
+        "Funding": 1
+      }
+    },
+    ".//participating-org/@type": {
+      "doh-activities": {
+        "10": 2,
+        "40": 1
+      }
+    },
+    ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "doh-activities": {
+        "998": 1
+      }
+    },
+    ".//reporting-org/@type": {
+      "doh-activities": {
+        "10": 1
+      }
+    },
+    ".//sector[@vocabulary = 'DAC' or not(@vocabulary)]/@code": {
+      "doh-activities": {
+        "12110": 1
+      }
+    },
+    ".//sector/@vocabulary": {
+      "doh-activities": {
+        "DAC": 1
+      }
+    },
+    ".//transaction/aid-type/@code": {
+      "doh-activities": {
+        "B02": 2
+      }
+    },
+    ".//transaction/disbursement-channel/@code": {
+      "doh-activities": {
+        "2": 2
+      }
+    },
+    ".//transaction/finance-type/@code": {
+      "doh-activities": {
+        "110": 2
+      }
+    },
+    ".//transaction/flow-type/@code": {
+      "doh-activities": {
+        "10": 2
+      }
+    },
+    ".//transaction/tied-status/@code": {
+      "doh-activities": {
+        "5": 2
+      }
+    },
+    ".//transaction/transaction-type/@code": {
+      "doh-activities": {
+        "D": 1,
+        "C": 1
+      }
+    },
+    ".//transaction/value/@currency": {
+      "doh-activities": {
+        "USD": 2
+      }
+    },
+    ".//@xml:lang": {
+      "doh-activities": {
+        "en": 26
+      }
+    }
+  },
+  "2": {
+    ".//@default-currency": {
+      "dhsc-activities": {
+        "GBP": 8
+      }
+    },
+    ".//activity-date/@type": {
+      "dhsc-activities": {
+        "1": 8,
+        "3": 9,
+        "2": 4
+      }
+    },
+    ".//activity-status/@code": {
+      "dhsc-activities": {
+        "2": 8
+      }
+    },
+    ".//budget/@status": {
+      "dhsc-activities": {
+        "2": 40
+      }
+    },
+    ".//budget/@type": {
+      "dhsc-activities": {
+        "1": 40
+      }
+    },
+    ".//budget/value/@currency": {
+      "dhsc-activities": {
+        "GBP": 40
+      }
+    },
+    ".//collaboration-type/@code": {
+      "dhsc-activities": {
+        "1": 8
+      }
+    },
+    ".//contact-info/@type": {
+      "dhsc-activities": {
+        "1": 8,
+        "2": 8,
+        "3": 8,
+        "4": 8
+      }
+    },
+    ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "dhsc-activities": {
+        "C01": 8
+      }
+    },
+    ".//default-finance-type/@code": {
+      "dhsc-activities": {
+        "110": 8
+      }
+    },
+    ".//default-flow-type/@code": {
+      "dhsc-activities": {
+        "10": 8
+      }
+    },
+    ".//default-tied-status/@code": {
+      "dhsc-activities": {
+        "5": 8
+      }
+    },
+    ".//description/@type": {
+      "dhsc-activities": {
+        "1": 8,
+        "2": 8,
+        "3": 7
+      }
+    },
+    ".//participating-org/@role": {
+      "dhsc-activities": {
+        "4": 8,
+        "1": 8
+      }
+    },
+    ".//participating-org/@type": {
+      "dhsc-activities": {
+        "10": 15,
+        "80": 1
+      }
+    },
+    ".//planned-disbursement/@type": {
+      "dhsc-activities": {
+        "1": 89,
+        "2": 18
+      }
+    },
+    ".//planned-disbursement/provider-org/@type": {
+      "dhsc-activities": {
+        "10": 107,
+        "80": 1
+      }
+    },
+    ".//planned-disbursement/receiver-org/@type": {
+      "dhsc-activities": {
+        "10": 68,
+        "80": 40
+      }
+    },
+    ".//planned-disbursement/value/@currency": {
+      "dhsc-activities": {
+        "GBP": 108
+      }
+    },
+    ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "dhsc-activities": {
+        "998": 8
+      }
+    },
+    ".//recipient-region/@vocabulary": {
+      "dhsc-activities": {
+        "1": 8
+      }
+    },
+    ".//related-activity/@type": {
+      "dhsc-activities": {
+        "3": 36
+      }
+    },
+    ".//reporting-org/@type": {
+      "dhsc-activities": {
+        "10": 8
+      }
+    },
+    ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "dhsc-activities": {
+        "12182": 7,
+        "12110": 1,
+        "12250": 1
+      }
+    },
+    ".//sector/@vocabulary": {
+      "dhsc-activities": {
+        "1": 9
+      }
+    },
+    ".//transaction/aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "dhsc-activities": {
+        "C01": 60
+      }
+    },
+    ".//transaction/disbursement-channel/@code": {
+      "dhsc-activities": {
+        "2": 60
+      }
+    },
+    ".//transaction/finance-type/@code": {
+      "dhsc-activities": {
+        "110": 60
+      }
+    },
+    ".//transaction/flow-type/@code": {
+      "dhsc-activities": {
+        "10": 60
+      }
+    },
+    ".//transaction/provider-org/@type": {
+      "dhsc-activities": {
+        "10": 60
+      }
+    },
+    ".//transaction/receiver-org/@type": {
+      "dhsc-activities": {
+        "80": 37,
+        "10": 23
+      }
+    },
+    ".//transaction/tied-status/@code": {
+      "dhsc-activities": {
+        "5": 60
+      }
+    },
+    ".//transaction/transaction-type/@code": {
+      "dhsc-activities": {
+        "3": 60
+      }
+    },
+    ".//transaction/value/@currency": {
+      "dhsc-activities": {
+        "GBP": 58
+      }
+    },
+    ".//@xml:lang": {
+      "dhsc-activities": {
+        "en": 222
+      }
+    }
+  }
+}

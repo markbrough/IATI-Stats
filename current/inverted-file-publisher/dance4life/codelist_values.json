@@ -1,0 +1,564 @@
+{
+  ".//@default-currency": {
+    "EUR": {
+      "dance4life-et": 1,
+      "dance4life-998": 1,
+      "dance4life-ke": 2,
+      "dance4life-289": 1,
+      "dance4life-id": 1,
+      "dance4life-gh": 1,
+      "dance4life-pk": 1
+    }
+  },
+  ".//@xml:lang": {
+    "en": {
+      "dance4life-et": 25,
+      "dance4life-998": 45,
+      "dance4life-ke": 49,
+      "dance4life-289": 21,
+      "dance4life-id": 27,
+      "dance4life-gh": 25,
+      "dance4life-pk": 24
+    }
+  },
+  ".//activity-date/@type": {
+    "1": {
+      "dance4life-et": 1,
+      "dance4life-ke": 1,
+      "dance4life-289": 1,
+      "dance4life-id": 1,
+      "dance4life-gh": 1,
+      "dance4life-pk": 1
+    },
+    "3": {
+      "dance4life-et": 1,
+      "dance4life-998": 1,
+      "dance4life-ke": 2,
+      "dance4life-289": 1,
+      "dance4life-id": 1,
+      "dance4life-gh": 1,
+      "dance4life-pk": 1
+    },
+    "2": {
+      "dance4life-998": 1,
+      "dance4life-ke": 1
+    }
+  },
+  ".//activity-scope/@code": {
+    "4": {
+      "dance4life-et": 1,
+      "dance4life-ke": 1,
+      "dance4life-289": 1,
+      "dance4life-id": 1,
+      "dance4life-gh": 1,
+      "dance4life-pk": 1
+    },
+    "1": {
+      "dance4life-998": 1,
+      "dance4life-ke": 1
+    }
+  },
+  ".//activity-status/@code": {
+    "2": {
+      "dance4life-et": 1,
+      "dance4life-998": 1,
+      "dance4life-ke": 2,
+      "dance4life-id": 1,
+      "dance4life-gh": 1,
+      "dance4life-pk": 1
+    },
+    "1": {
+      "dance4life-289": 1
+    }
+  },
+  ".//budget/@status": {
+    "2": {
+      "dance4life-et": 3,
+      "dance4life-998": 1,
+      "dance4life-ke": 5,
+      "dance4life-289": 3,
+      "dance4life-id": 2,
+      "dance4life-gh": 3,
+      "dance4life-pk": 3
+    },
+    "1": {
+      "dance4life-id": 1
+    }
+  },
+  ".//budget/@type": {
+    "1": {
+      "dance4life-et": 3,
+      "dance4life-998": 1,
+      "dance4life-ke": 4,
+      "dance4life-289": 3,
+      "dance4life-id": 3,
+      "dance4life-gh": 3,
+      "dance4life-pk": 3
+    }
+  },
+  ".//budget/value/@currency": {
+    "EUR": {
+      "dance4life-et": 3,
+      "dance4life-998": 1,
+      "dance4life-ke": 5,
+      "dance4life-289": 3,
+      "dance4life-id": 3,
+      "dance4life-gh": 3,
+      "dance4life-pk": 3
+    }
+  },
+  ".//collaboration-type/@code": {
+    "3": {
+      "dance4life-et": 1,
+      "dance4life-998": 1,
+      "dance4life-ke": 2,
+      "dance4life-289": 1,
+      "dance4life-id": 1,
+      "dance4life-gh": 1,
+      "dance4life-pk": 1
+    }
+  },
+  ".//contact-info/@type": {
+    "1": {
+      "dance4life-998": 1
+    },
+    "2": {
+      "dance4life-ke": 1
+    }
+  },
+  ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "C01": {
+      "dance4life-et": 1,
+      "dance4life-998": 1,
+      "dance4life-ke": 2,
+      "dance4life-289": 1,
+      "dance4life-id": 1,
+      "dance4life-gh": 1,
+      "dance4life-pk": 1
+    }
+  },
+  ".//default-finance-type/@code": {
+    "110": {
+      "dance4life-et": 1,
+      "dance4life-998": 1,
+      "dance4life-ke": 2,
+      "dance4life-289": 1,
+      "dance4life-id": 1,
+      "dance4life-gh": 1,
+      "dance4life-pk": 1
+    }
+  },
+  ".//default-flow-type/@code": {
+    "30": {
+      "dance4life-et": 1,
+      "dance4life-998": 1,
+      "dance4life-ke": 2,
+      "dance4life-289": 1,
+      "dance4life-id": 1,
+      "dance4life-gh": 1,
+      "dance4life-pk": 1
+    }
+  },
+  ".//default-tied-status/@code": {
+    "5": {
+      "dance4life-et": 1,
+      "dance4life-998": 1,
+      "dance4life-ke": 2,
+      "dance4life-289": 1,
+      "dance4life-id": 1,
+      "dance4life-gh": 1,
+      "dance4life-pk": 1
+    }
+  },
+  ".//description/@type": {
+    "1": {
+      "dance4life-et": 1,
+      "dance4life-998": 1,
+      "dance4life-ke": 2,
+      "dance4life-289": 1,
+      "dance4life-id": 1,
+      "dance4life-gh": 1,
+      "dance4life-pk": 1
+    },
+    "2": {
+      "dance4life-et": 1,
+      "dance4life-998": 1,
+      "dance4life-ke": 1,
+      "dance4life-id": 1,
+      "dance4life-gh": 1,
+      "dance4life-pk": 1
+    },
+    "3": {
+      "dance4life-et": 1,
+      "dance4life-998": 1,
+      "dance4life-ke": 2,
+      "dance4life-id": 1,
+      "dance4life-gh": 1,
+      "dance4life-pk": 1
+    }
+  },
+  ".//participating-org/@role": {
+    "4": {
+      "dance4life-et": 1,
+      "dance4life-998": 1,
+      "dance4life-ke": 2,
+      "dance4life-289": 1,
+      "dance4life-id": 1,
+      "dance4life-gh": 1,
+      "dance4life-pk": 1
+    },
+    "2": {
+      "dance4life-et": 1,
+      "dance4life-998": 1,
+      "dance4life-ke": 2,
+      "dance4life-289": 1,
+      "dance4life-id": 1,
+      "dance4life-gh": 1,
+      "dance4life-pk": 1
+    },
+    "1": {
+      "dance4life-et": 1,
+      "dance4life-998": 1,
+      "dance4life-ke": 2,
+      "dance4life-289": 1,
+      "dance4life-id": 1,
+      "dance4life-gh": 1,
+      "dance4life-pk": 1
+    }
+  },
+  ".//participating-org/@type": {
+    "22": {
+      "dance4life-et": 1,
+      "dance4life-ke": 1,
+      "dance4life-gh": 1
+    },
+    "21": {
+      "dance4life-et": 2,
+      "dance4life-998": 3,
+      "dance4life-ke": 5,
+      "dance4life-289": 3,
+      "dance4life-id": 2,
+      "dance4life-gh": 2,
+      "dance4life-pk": 3
+    }
+  },
+  ".//policy-marker/@significance": {
+    "1": {
+      "dance4life-et": 1,
+      "dance4life-998": 1,
+      "dance4life-ke": 2,
+      "dance4life-289": 1,
+      "dance4life-id": 1,
+      "dance4life-gh": 1,
+      "dance4life-pk": 1
+    },
+    "4": {
+      "dance4life-et": 1,
+      "dance4life-998": 1,
+      "dance4life-ke": 2,
+      "dance4life-289": 1,
+      "dance4life-id": 1,
+      "dance4life-gh": 1,
+      "dance4life-pk": 1
+    }
+  },
+  ".//policy-marker/@vocabulary": {
+    "1": {
+      "dance4life-et": 2,
+      "dance4life-998": 1,
+      "dance4life-ke": 3,
+      "dance4life-289": 1,
+      "dance4life-id": 2,
+      "dance4life-gh": 2,
+      "dance4life-pk": 2
+    }
+  },
+  ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "1": {
+      "dance4life-et": 1,
+      "dance4life-998": 1,
+      "dance4life-ke": 2,
+      "dance4life-289": 1,
+      "dance4life-id": 1,
+      "dance4life-gh": 1,
+      "dance4life-pk": 1
+    },
+    "9": {
+      "dance4life-et": 1,
+      "dance4life-998": 1,
+      "dance4life-ke": 2,
+      "dance4life-289": 1,
+      "dance4life-id": 1,
+      "dance4life-gh": 1,
+      "dance4life-pk": 1
+    }
+  },
+  ".//recipient-country/@code": {
+    "ET": {
+      "dance4life-et": 1,
+      "dance4life-998": 1
+    },
+    "GH": {
+      "dance4life-998": 1,
+      "dance4life-gh": 1
+    },
+    "ID": {
+      "dance4life-998": 1,
+      "dance4life-ke": 1,
+      "dance4life-id": 1
+    },
+    "KE": {
+      "dance4life-998": 1,
+      "dance4life-ke": 2
+    },
+    "PK": {
+      "dance4life-998": 1,
+      "dance4life-ke": 1,
+      "dance4life-pk": 1
+    },
+    "UG": {
+      "dance4life-998": 1,
+      "dance4life-ke": 1,
+      "dance4life-289": 1
+    },
+    "BO": {
+      "dance4life-ke": 1
+    },
+    "SN": {
+      "dance4life-ke": 1
+    },
+    "ZW": {
+      "dance4life-ke": 1
+    },
+    "NP": {
+      "dance4life-ke": 1
+    },
+    "BD": {
+      "dance4life-ke": 1
+    }
+  },
+  ".//recipient-region/@vocabulary": {
+    "1": {
+      "dance4life-998": 1,
+      "dance4life-289": 1
+    }
+  },
+  ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "998": {
+      "dance4life-998": 1
+    },
+    "289": {
+      "dance4life-289": 1
+    }
+  },
+  ".//related-activity/@type": {
+    "1": {
+      "dance4life-998": 1,
+      "dance4life-ke": 2
+    }
+  },
+  ".//reporting-org/@type": {
+    "21": {
+      "dance4life-et": 1,
+      "dance4life-998": 1,
+      "dance4life-ke": 2,
+      "dance4life-289": 1,
+      "dance4life-id": 1,
+      "dance4life-gh": 1,
+      "dance4life-pk": 1
+    }
+  },
+  ".//result/@type": {
+    "2": {
+      "dance4life-et": 3,
+      "dance4life-ke": 3,
+      "dance4life-289": 3,
+      "dance4life-id": 3,
+      "dance4life-gh": 3,
+      "dance4life-pk": 3
+    }
+  },
+  ".//result/indicator/@measure": {
+    "1": {
+      "dance4life-et": 5,
+      "dance4life-ke": 5,
+      "dance4life-289": 5,
+      "dance4life-id": 5,
+      "dance4life-gh": 5,
+      "dance4life-pk": 5
+    },
+    "2": {
+      "dance4life-et": 1,
+      "dance4life-ke": 1,
+      "dance4life-289": 1,
+      "dance4life-id": 1,
+      "dance4life-gh": 1,
+      "dance4life-pk": 1
+    }
+  },
+  ".//sector/@vocabulary": {
+    "1": {
+      "dance4life-et": 4,
+      "dance4life-998": 1,
+      "dance4life-ke": 5,
+      "dance4life-289": 4,
+      "dance4life-id": 4,
+      "dance4life-gh": 4,
+      "dance4life-pk": 4
+    }
+  },
+  ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "12261": {
+      "dance4life-et": 1,
+      "dance4life-998": 1,
+      "dance4life-ke": 1,
+      "dance4life-289": 1,
+      "dance4life-id": 1,
+      "dance4life-gh": 1,
+      "dance4life-pk": 1
+    },
+    "13020": {
+      "dance4life-et": 1,
+      "dance4life-ke": 2,
+      "dance4life-289": 1,
+      "dance4life-id": 1,
+      "dance4life-gh": 1,
+      "dance4life-pk": 1
+    },
+    "13030": {
+      "dance4life-et": 1,
+      "dance4life-ke": 1,
+      "dance4life-289": 1,
+      "dance4life-id": 1,
+      "dance4life-gh": 1,
+      "dance4life-pk": 1
+    },
+    "13040": {
+      "dance4life-et": 1,
+      "dance4life-ke": 1,
+      "dance4life-289": 1,
+      "dance4life-id": 1,
+      "dance4life-gh": 1,
+      "dance4life-pk": 1
+    }
+  },
+  ".//transaction/aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "C01": {
+      "dance4life-et": 4,
+      "dance4life-998": 23,
+      "dance4life-ke": 5,
+      "dance4life-289": 3,
+      "dance4life-id": 4,
+      "dance4life-gh": 4,
+      "dance4life-pk": 4
+    }
+  },
+  ".//transaction/disbursement-channel/@code": {
+    "2": {
+      "dance4life-et": 3,
+      "dance4life-998": 23,
+      "dance4life-ke": 4,
+      "dance4life-289": 3,
+      "dance4life-id": 4,
+      "dance4life-gh": 4,
+      "dance4life-pk": 3
+    },
+    "1": {
+      "dance4life-998": 3,
+      "dance4life-ke": 1
+    }
+  },
+  ".//transaction/finance-type/@code": {
+    "110": {
+      "dance4life-et": 4,
+      "dance4life-998": 23,
+      "dance4life-ke": 5,
+      "dance4life-289": 3,
+      "dance4life-id": 4,
+      "dance4life-gh": 4,
+      "dance4life-pk": 4
+    }
+  },
+  ".//transaction/flow-type/@code": {
+    "30": {
+      "dance4life-et": 3,
+      "dance4life-998": 23,
+      "dance4life-ke": 4,
+      "dance4life-289": 3,
+      "dance4life-id": 4,
+      "dance4life-gh": 4,
+      "dance4life-pk": 4
+    },
+    "50": {
+      "dance4life-ke": 1
+    }
+  },
+  ".//transaction/provider-org/@type": {
+    "21": {
+      "dance4life-et": 1,
+      "dance4life-998": 20,
+      "dance4life-ke": 4,
+      "dance4life-289": 3,
+      "dance4life-id": 1,
+      "dance4life-gh": 3,
+      "dance4life-pk": 3
+    }
+  },
+  ".//transaction/receiver-org/@type": {
+    "21": {
+      "dance4life-998": 3,
+      "dance4life-ke": 2,
+      "dance4life-289": 1
+    },
+    "22": {
+      "dance4life-998": 23
+    }
+  },
+  ".//transaction/sector/@vocabulary": {
+    "1": {
+      "dance4life-ke": 1
+    }
+  },
+  ".//transaction/sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "13020": {
+      "dance4life-ke": 1
+    }
+  },
+  ".//transaction/tied-status/@code": {
+    "5": {
+      "dance4life-et": 4,
+      "dance4life-998": 23,
+      "dance4life-ke": 5,
+      "dance4life-289": 3,
+      "dance4life-id": 4,
+      "dance4life-gh": 4,
+      "dance4life-pk": 4
+    }
+  },
+  ".//transaction/transaction-type/@code": {
+    "3": {
+      "dance4life-et": 4,
+      "dance4life-998": 23,
+      "dance4life-ke": 4,
+      "dance4life-289": 3,
+      "dance4life-id": 4,
+      "dance4life-gh": 4,
+      "dance4life-pk": 4
+    },
+    "1": {
+      "dance4life-998": 3,
+      "dance4life-ke": 1
+    }
+  },
+  ".//transaction/value/@currency": {
+    "EUR": {
+      "dance4life-et": 4,
+      "dance4life-998": 26,
+      "dance4life-ke": 5,
+      "dance4life-289": 3,
+      "dance4life-id": 4,
+      "dance4life-gh": 4,
+      "dance4life-pk": 4
+    }
+  }
+}

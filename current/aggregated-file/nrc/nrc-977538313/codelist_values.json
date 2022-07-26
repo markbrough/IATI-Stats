@@ -1,0 +1,46 @@
+{
+  ".//@default-currency": {
+    "NOK": 5
+  },
+  ".//@xml:lang": {
+    "en": 5
+  },
+  ".//activity-date/@type": {
+    "end-planned": 5,
+    "start-planned": 5
+  },
+  ".//activity-status/@code": {
+    "3": 5
+  },
+  ".//participating-org/@role": {
+    "Funding": 5,
+    "Extending": 5,
+    "Implementing": 5
+  },
+  ".//recipient-country/@code": {
+    "LB": 1,
+    "SY": 3,
+    "JO": 1
+  },
+  ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "589": 5
+  },
+  ".//reporting-org/@type": {
+    "21": 5
+  },
+  ".//sector/@vocabulary": {
+    "DAC": 5
+  },
+  ".//sector[@vocabulary = 'DAC' or not(@vocabulary)]/@code": {
+    "72010": 4,
+    "72050": 1
+  },
+  ".//transaction/transaction-type/@code": {
+    "1": 5,
+    "2": 5,
+    "4": 5
+  },
+  ".//transaction/value/@currency": {
+    "NOK": 15
+  }
+}

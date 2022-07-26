@@ -1,0 +1,992 @@
+{
+  "2": {
+    ".//@default-currency": {
+      "africalia-bf": {
+        "EUR": 3
+      },
+      "africalia-cd": {
+        "EUR": 1
+      },
+      "africalia-rw": {
+        "EUR": 1
+      },
+      "africalia-be": {
+        "EUR": 2
+      },
+      "africalia-sn": {
+        "EUR": 1
+      },
+      "africalia-ug": {
+        "EUR": 1
+      },
+      "africalia-ke": {
+        "EUR": 1
+      },
+      "africalia-zw": {
+        "EUR": 1
+      }
+    },
+    ".//activity-date/@type": {
+      "africalia-bf": {
+        "1": 3,
+        "3": 3,
+        "2": 3
+      },
+      "africalia-cd": {
+        "1": 1,
+        "2": 1,
+        "3": 1
+      },
+      "africalia-rw": {
+        "1": 1,
+        "2": 1,
+        "3": 1
+      },
+      "africalia-be": {
+        "1": 2,
+        "2": 2,
+        "3": 2
+      },
+      "africalia-sn": {
+        "1": 1,
+        "2": 1,
+        "3": 1
+      },
+      "africalia-ug": {
+        "1": 1,
+        "2": 1,
+        "3": 1
+      },
+      "africalia-ke": {
+        "1": 1,
+        "2": 1,
+        "3": 1
+      },
+      "africalia-zw": {
+        "1": 1,
+        "2": 1,
+        "3": 1
+      }
+    },
+    ".//activity-status/@code": {
+      "africalia-bf": {
+        "2": 3
+      },
+      "africalia-cd": {
+        "2": 1
+      },
+      "africalia-rw": {
+        "2": 1
+      },
+      "africalia-be": {
+        "2": 2
+      },
+      "africalia-sn": {
+        "2": 1
+      },
+      "africalia-ug": {
+        "2": 1
+      },
+      "africalia-ke": {
+        "2": 1
+      },
+      "africalia-zw": {
+        "2": 1
+      }
+    },
+    ".//budget/@status": {
+      "africalia-bf": {
+        "2": 15
+      },
+      "africalia-cd": {
+        "2": 5
+      },
+      "africalia-rw": {
+        "2": 5
+      },
+      "africalia-be": {
+        "2": 10
+      },
+      "africalia-sn": {
+        "2": 3
+      },
+      "africalia-ug": {
+        "2": 5
+      },
+      "africalia-ke": {
+        "2": 5
+      },
+      "africalia-zw": {
+        "2": 5
+      }
+    },
+    ".//budget/@type": {
+      "africalia-bf": {
+        "1": 15
+      },
+      "africalia-cd": {
+        "1": 5
+      },
+      "africalia-rw": {
+        "1": 5
+      },
+      "africalia-be": {
+        "1": 10
+      },
+      "africalia-sn": {
+        "1": 3
+      },
+      "africalia-ug": {
+        "1": 5
+      },
+      "africalia-ke": {
+        "1": 5
+      },
+      "africalia-zw": {
+        "1": 5
+      }
+    },
+    ".//budget/value/@currency": {
+      "africalia-bf": {
+        "EUR": 10
+      },
+      "africalia-cd": {
+        "EUR": 5
+      },
+      "africalia-rw": {
+        "EUR": 5
+      },
+      "africalia-be": {
+        "EUR": 7
+      },
+      "africalia-sn": {
+        "EUR": 3
+      },
+      "africalia-ug": {
+        "EUR": 5
+      },
+      "africalia-ke": {
+        "EUR": 5
+      },
+      "africalia-zw": {
+        "EUR": 5
+      }
+    },
+    ".//collaboration-type/@code": {
+      "africalia-bf": {
+        "1": 3
+      },
+      "africalia-cd": {
+        "1": 1
+      },
+      "africalia-rw": {
+        "1": 1
+      },
+      "africalia-be": {
+        "1": 2
+      },
+      "africalia-sn": {
+        "1": 1
+      },
+      "africalia-ug": {
+        "1": 1
+      },
+      "africalia-ke": {
+        "1": 1
+      },
+      "africalia-zw": {
+        "1": 1
+      }
+    },
+    ".//contact-info/@type": {
+      "africalia-bf": {
+        "1": 3,
+        "3": 1,
+        "4": 1,
+        "2": 1
+      },
+      "africalia-cd": {
+        "1": 1,
+        "3": 1,
+        "4": 1,
+        "2": 1
+      },
+      "africalia-rw": {
+        "1": 1,
+        "3": 1,
+        "4": 1,
+        "2": 1
+      },
+      "africalia-be": {
+        "1": 2,
+        "2": 1,
+        "3": 1,
+        "4": 1
+      },
+      "africalia-sn": {
+        "1": 1,
+        "3": 1,
+        "4": 1,
+        "2": 1
+      },
+      "africalia-ug": {
+        "1": 1,
+        "3": 1,
+        "4": 1,
+        "2": 1
+      },
+      "africalia-ke": {
+        "1": 1,
+        "3": 1,
+        "4": 1,
+        "2": 1
+      },
+      "africalia-zw": {
+        "1": 1,
+        "3": 1,
+        "4": 1,
+        "2": 1
+      }
+    },
+    ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "africalia-bf": {
+        "C01": 3
+      },
+      "africalia-cd": {
+        "C01": 1
+      },
+      "africalia-rw": {
+        "C01": 1
+      },
+      "africalia-be": {
+        "G01": 1,
+        "H01": 1
+      },
+      "africalia-sn": {
+        "C01": 1
+      },
+      "africalia-ug": {
+        "C01": 1
+      },
+      "africalia-ke": {
+        "C01": 1
+      },
+      "africalia-zw": {
+        "C01": 1
+      }
+    },
+    ".//default-finance-type/@code": {
+      "africalia-bf": {
+        "110": 3
+      },
+      "africalia-cd": {
+        "110": 1
+      },
+      "africalia-rw": {
+        "110": 1
+      },
+      "africalia-be": {
+        "110": 2
+      },
+      "africalia-sn": {
+        "110": 1
+      },
+      "africalia-ug": {
+        "110": 1
+      },
+      "africalia-ke": {
+        "110": 1
+      },
+      "africalia-zw": {
+        "110": 1
+      }
+    },
+    ".//default-flow-type/@code": {
+      "africalia-bf": {
+        "30": 3
+      },
+      "africalia-cd": {
+        "30": 1
+      },
+      "africalia-rw": {
+        "30": 1
+      },
+      "africalia-be": {
+        "30": 2
+      },
+      "africalia-sn": {
+        "30": 1
+      },
+      "africalia-ug": {
+        "30": 1
+      },
+      "africalia-ke": {
+        "30": 1
+      },
+      "africalia-zw": {
+        "30": 1
+      }
+    },
+    ".//default-tied-status/@code": {
+      "africalia-bf": {
+        "5": 3
+      },
+      "africalia-cd": {
+        "5": 1
+      },
+      "africalia-rw": {
+        "5": 1
+      },
+      "africalia-be": {
+        "5": 2
+      },
+      "africalia-sn": {
+        "5": 1
+      },
+      "africalia-ug": {
+        "5": 1
+      },
+      "africalia-ke": {
+        "5": 1
+      },
+      "africalia-zw": {
+        "5": 1
+      }
+    },
+    ".//description/@type": {
+      "africalia-bf": {
+        "2": 2,
+        "1": 2,
+        "3": 1
+      },
+      "africalia-cd": {
+        "1": 1,
+        "2": 1,
+        "3": 1
+      },
+      "africalia-rw": {
+        "1": 1,
+        "2": 1,
+        "3": 1
+      },
+      "africalia-be": {
+        "1": 2
+      },
+      "africalia-sn": {
+        "1": 1,
+        "2": 1,
+        "3": 1
+      },
+      "africalia-ug": {
+        "1": 1,
+        "2": 1,
+        "3": 1
+      },
+      "africalia-ke": {
+        "1": 1,
+        "2": 1,
+        "3": 1
+      },
+      "africalia-zw": {
+        "1": 1,
+        "2": 1,
+        "3": 1
+      }
+    },
+    ".//document-link/@format": {
+      "africalia-bf": {
+        "application/pdf": 1
+      }
+    },
+    ".//document-link/category/@code": {
+      "africalia-bf": {
+        "A02": 1
+      }
+    },
+    ".//document-link/language/@code": {
+      "africalia-bf": {
+        "fr": 1
+      }
+    },
+    ".//other-identifier/@type": {
+      "africalia-bf": {
+        "A9": 2,
+        "B9": 1
+      },
+      "africalia-cd": {
+        "A9": 1
+      },
+      "africalia-rw": {
+        "A9": 1
+      },
+      "africalia-be": {
+        "A9": 2
+      },
+      "africalia-sn": {
+        "A9": 1
+      },
+      "africalia-ug": {
+        "A9": 1
+      },
+      "africalia-ke": {
+        "A9": 1
+      },
+      "africalia-zw": {
+        "A9": 1
+      }
+    },
+    ".//participating-org/@role": {
+      "africalia-bf": {
+        "1": 3,
+        "4": 8,
+        "2": 3
+      },
+      "africalia-cd": {
+        "1": 1,
+        "2": 1,
+        "4": 3
+      },
+      "africalia-rw": {
+        "1": 1,
+        "2": 1,
+        "4": 2
+      },
+      "africalia-be": {
+        "1": 2,
+        "2": 2,
+        "4": 10
+      },
+      "africalia-sn": {
+        "1": 1,
+        "2": 1,
+        "4": 2
+      },
+      "africalia-ug": {
+        "1": 1,
+        "2": 1,
+        "4": 2
+      },
+      "africalia-ke": {
+        "1": 1,
+        "2": 1,
+        "4": 4
+      },
+      "africalia-zw": {
+        "1": 1,
+        "2": 1,
+        "4": 4
+      }
+    },
+    ".//participating-org/@type": {
+      "africalia-bf": {
+        "10": 3,
+        "15": 6,
+        "22": 4,
+        "80": 1
+      },
+      "africalia-cd": {
+        "10": 1,
+        "15": 2,
+        "22": 2
+      },
+      "africalia-rw": {
+        "10": 1,
+        "15": 2,
+        "22": 1
+      },
+      "africalia-be": {
+        "10": 2,
+        "15": 11,
+        "22": 1
+      },
+      "africalia-sn": {
+        "10": 1,
+        "15": 2,
+        "22": 1
+      },
+      "africalia-ug": {
+        "10": 1,
+        "15": 2,
+        "60": 1
+      },
+      "africalia-ke": {
+        "10": 1,
+        "15": 2,
+        "22": 3
+      },
+      "africalia-zw": {
+        "10": 1,
+        "15": 2,
+        "22": 3
+      }
+    },
+    ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "africalia-bf": {
+        "1": 1,
+        "3": 1,
+        "2": 1,
+        "4": 1
+      },
+      "africalia-cd": {
+        "1": 1,
+        "3": 1,
+        "2": 1,
+        "4": 1
+      },
+      "africalia-rw": {
+        "1": 1,
+        "3": 1,
+        "2": 1,
+        "4": 1
+      },
+      "africalia-be": {
+        "1": 1,
+        "2": 1,
+        "3": 1,
+        "4": 1
+      },
+      "africalia-sn": {
+        "1": 1,
+        "3": 1,
+        "5": 1,
+        "2": 1,
+        "4": 1
+      },
+      "africalia-ug": {
+        "1": 1,
+        "3": 1,
+        "2": 1,
+        "9": 1,
+        "4": 1
+      },
+      "africalia-ke": {
+        "1": 1,
+        "3": 1,
+        "2": 1,
+        "9": 1,
+        "4": 1
+      },
+      "africalia-zw": {
+        "1": 1,
+        "3": 1,
+        "4": 1,
+        "2": 1,
+        "9": 1
+      }
+    },
+    ".//policy-marker/@significance": {
+      "africalia-bf": {
+        "2": 3,
+        "1": 1
+      },
+      "africalia-cd": {
+        "2": 1,
+        "1": 3
+      },
+      "africalia-rw": {
+        "2": 2,
+        "1": 2
+      },
+      "africalia-be": {
+        "2": 2,
+        "1": 2
+      },
+      "africalia-sn": {
+        "2": 3,
+        "1": 2
+      },
+      "africalia-ug": {
+        "2": 3,
+        "1": 2
+      },
+      "africalia-ke": {
+        "2": 3,
+        "1": 2
+      },
+      "africalia-zw": {
+        "2": 3,
+        "1": 2
+      }
+    },
+    ".//policy-marker/@vocabulary": {
+      "africalia-bf": {
+        "1": 4
+      },
+      "africalia-cd": {
+        "1": 4
+      },
+      "africalia-rw": {
+        "1": 4
+      },
+      "africalia-be": {
+        "1": 4
+      },
+      "africalia-sn": {
+        "1": 5
+      },
+      "africalia-ug": {
+        "1": 5
+      },
+      "africalia-ke": {
+        "1": 5
+      },
+      "africalia-zw": {
+        "1": 5
+      }
+    },
+    ".//recipient-country/@code": {
+      "africalia-bf": {
+        "BE": 2,
+        "BF": 3,
+        "KE": 2,
+        "CD": 2,
+        "RW": 2,
+        "SN": 2,
+        "UG": 2,
+        "ZW": 2
+      },
+      "africalia-cd": {
+        "CD": 1
+      },
+      "africalia-rw": {
+        "RW": 1
+      },
+      "africalia-be": {
+        "BE": 2
+      },
+      "africalia-sn": {
+        "SN": 1
+      },
+      "africalia-ug": {
+        "UG": 1
+      },
+      "africalia-ke": {
+        "KE": 1
+      },
+      "africalia-zw": {
+        "ZW": 1
+      }
+    },
+    ".//related-activity/@type": {
+      "africalia-bf": {
+        "1": 2
+      },
+      "africalia-cd": {
+        "1": 1
+      },
+      "africalia-rw": {
+        "1": 1
+      },
+      "africalia-be": {
+        "1": 2
+      },
+      "africalia-sn": {
+        "1": 1
+      },
+      "africalia-ug": {
+        "1": 1
+      },
+      "africalia-ke": {
+        "1": 1
+      },
+      "africalia-zw": {
+        "1": 1
+      }
+    },
+    ".//reporting-org/@type": {
+      "africalia-bf": {
+        "15": 3
+      },
+      "africalia-cd": {
+        "15": 1
+      },
+      "africalia-rw": {
+        "15": 1
+      },
+      "africalia-be": {
+        "15": 2
+      },
+      "africalia-sn": {
+        "15": 1
+      },
+      "africalia-ug": {
+        "15": 1
+      },
+      "africalia-ke": {
+        "15": 1
+      },
+      "africalia-zw": {
+        "15": 1
+      }
+    },
+    ".//result/@type": {
+      "africalia-bf": {
+        "2": 1
+      },
+      "africalia-cd": {
+        "2": 1
+      },
+      "africalia-rw": {
+        "2": 1
+      },
+      "africalia-be": {
+        "2": 1
+      },
+      "africalia-sn": {
+        "2": 1
+      },
+      "africalia-ug": {
+        "2": 1
+      },
+      "africalia-ke": {
+        "2": 1
+      },
+      "africalia-zw": {
+        "2": 1
+      }
+    },
+    ".//result/indicator/@measure": {
+      "africalia-bf": {
+        "1": 6
+      },
+      "africalia-cd": {
+        "1": 6
+      },
+      "africalia-rw": {
+        "1": 5
+      },
+      "africalia-be": {
+        "1": 1
+      },
+      "africalia-sn": {
+        "1": 5
+      },
+      "africalia-ug": {
+        "1": 6
+      },
+      "africalia-ke": {
+        "1": 6
+      },
+      "africalia-zw": {
+        "1": 6
+      }
+    },
+    ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "africalia-bf": {
+        "16061": 3
+      },
+      "africalia-cd": {
+        "16061": 1
+      },
+      "africalia-rw": {
+        "16061": 1
+      },
+      "africalia-be": {
+        "91010": 1,
+        "16061": 1
+      },
+      "africalia-sn": {
+        "16061": 1
+      },
+      "africalia-ug": {
+        "16061": 1
+      },
+      "africalia-ke": {
+        "16061": 1
+      },
+      "africalia-zw": {
+        "16061": 1
+      }
+    },
+    ".//sector/@vocabulary": {
+      "africalia-bf": {
+        "1": 3
+      },
+      "africalia-cd": {
+        "1": 1
+      },
+      "africalia-rw": {
+        "1": 1
+      },
+      "africalia-be": {
+        "1": 2
+      },
+      "africalia-sn": {
+        "1": 1
+      },
+      "africalia-ug": {
+        "1": 1
+      },
+      "africalia-ke": {
+        "1": 1
+      },
+      "africalia-zw": {
+        "1": 1
+      }
+    },
+    ".//transaction/provider-org/@type": {
+      "africalia-bf": {
+        "10": 6,
+        "15": 11
+      },
+      "africalia-cd": {
+        "15": 2
+      },
+      "africalia-rw": {
+        "15": 3
+      },
+      "africalia-be": {
+        "15": 10
+      },
+      "africalia-sn": {
+        "15": 3
+      },
+      "africalia-ug": {
+        "15": 3
+      },
+      "africalia-ke": {
+        "15": 8
+      },
+      "africalia-zw": {
+        "15": 7
+      }
+    },
+    ".//transaction/receiver-org/@type": {
+      "africalia-bf": {
+        "15": 8,
+        "22": 10
+      },
+      "africalia-cd": {
+        "22": 1,
+        "15": 1
+      },
+      "africalia-rw": {
+        "22": 2
+      },
+      "africalia-be": {
+        "15": 8,
+        "22": 2
+      },
+      "africalia-sn": {
+        "22": 2,
+        "15": 1
+      },
+      "africalia-ug": {
+        "60": 2,
+        "15": 1
+      },
+      "africalia-ke": {
+        "22": 7,
+        "15": 1
+      },
+      "africalia-zw": {
+        "22": 6,
+        "15": 1
+      }
+    },
+    ".//transaction/transaction-type/@code": {
+      "africalia-bf": {
+        "11": 5,
+        "1": 1,
+        "4": 2,
+        "2": 5,
+        "3": 5
+      },
+      "africalia-cd": {
+        "2": 2,
+        "3": 2,
+        "4": 1
+      },
+      "africalia-rw": {
+        "3": 1,
+        "4": 1,
+        "2": 1
+      },
+      "africalia-be": {
+        "4": 2,
+        "2": 8
+      },
+      "africalia-sn": {
+        "3": 1,
+        "4": 1,
+        "2": 1
+      },
+      "africalia-ug": {
+        "3": 1,
+        "2": 1,
+        "4": 1
+      },
+      "africalia-ke": {
+        "2": 4,
+        "3": 3,
+        "4": 1
+      },
+      "africalia-zw": {
+        "3": 3,
+        "4": 1,
+        "2": 3
+      }
+    },
+    ".//transaction/value/@currency": {
+      "africalia-bf": {
+        "EUR": 11
+      },
+      "africalia-cd": {
+        "EUR": 4
+      },
+      "africalia-rw": {
+        "EUR": 1
+      },
+      "africalia-be": {
+        "EUR": 3
+      },
+      "africalia-sn": {
+        "EUR": 2
+      },
+      "africalia-ug": {
+        "EUR": 1
+      },
+      "africalia-ke": {
+        "EUR": 1
+      },
+      "africalia-zw": {
+        "EUR": 1
+      }
+    },
+    ".//@xml:lang": {
+      "africalia-bf": {
+        "en": 15,
+        "fr": 65
+      },
+      "africalia-cd": {
+        "en": 1,
+        "fr": 41
+      },
+      "africalia-rw": {
+        "en": 1,
+        "fr": 29
+      },
+      "africalia-be": {
+        "en": 2,
+        "fr": 35,
+        "nl": 3
+      },
+      "africalia-sn": {
+        "en": 2,
+        "fr": 28
+      },
+      "africalia-ug": {
+        "en": 18,
+        "fr": 14
+      },
+      "africalia-ke": {
+        "en": 29,
+        "fr": 14
+      },
+      "africalia-zw": {
+        "en": 16,
+        "fr": 14
+      }
+    }
+  }
+}

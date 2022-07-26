@@ -1,0 +1,42 @@
+{
+  ".//@default-currency": {
+    "EUR": 2
+  },
+  ".//activity-date/@type": {
+    "2": 2,
+    "4": 2
+  },
+  ".//activity-status/@code": {
+    "4": 2
+  },
+  ".//budget/@status": {
+    "2": 2
+  },
+  ".//budget/@type": {
+    "1": 2
+  },
+  ".//contact-info/@type": {
+    "1": 2
+  },
+  ".//description/@type": {
+    "3": 2
+  },
+  ".//participating-org/@role": {
+    "4": 2,
+    "1": 2
+  },
+  ".//recipient-country/@code": {
+    "BJ": 1,
+    "MN": 1
+  },
+  ".//reporting-org/@type": {
+    "21": 2
+  },
+  ".//sector/@vocabulary": {
+    "1": 4
+  },
+  ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "72010": 2,
+    "72040": 2
+  }
+}

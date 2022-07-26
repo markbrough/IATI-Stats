@@ -1,0 +1,60 @@
+{
+  ".//@default-currency": {
+    "GBP": 10
+  },
+  ".//@xml:lang": {
+    "en": 11
+  },
+  ".//activity-date/@type": {
+    "start-actual": 10,
+    "end-planned": 10
+  },
+  ".//activity-status/@code": {
+    "3": 3,
+    "2": 7
+  },
+  ".//default-aid-type/@code": {
+    "C01": 10
+  },
+  ".//default-finance-type/@code": {
+    "110": 10
+  },
+  ".//default-flow-type/@code": {
+    "30": 10
+  },
+  ".//default-tied-status/@code": {
+    "5": 10
+  },
+  ".//participating-org/@role": {
+    "Funding": 13,
+    "Implementing": 10
+  },
+  ".//recipient-country/@code": {
+    "NP": 10
+  },
+  ".//reporting-org/@type": {
+    "21": 10
+  },
+  ".//sector/@vocabulary": {
+    "RO": 10,
+    "DAC": 38
+  },
+  ".//sector[@vocabulary = 'DAC' or not(@vocabulary)]/@code": {
+    "14030": 8,
+    "99810": 2,
+    "11330": 3,
+    "31130": 3,
+    "92030": 7,
+    "73010": 3,
+    "72040": 2,
+    "72050": 2,
+    "23030": 1,
+    "32130": 2,
+    "74010": 3,
+    "14010": 2
+  },
+  ".//transaction/transaction-type/@code": {
+    "IF": 37,
+    "D": 32
+  }
+}

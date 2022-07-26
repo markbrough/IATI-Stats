@@ -1,0 +1,958 @@
+{
+  ".//@default-currency": {
+    "EUR": {
+      "hiuk-np": 1,
+      "hiuk-so": 1,
+      "hiuk-ps": 1,
+      "hiuk-bd": 1,
+      "hiuk-rw": 1,
+      "hiuk-lb": 1,
+      "hiuk-jo": 1,
+      "hiuk-kh": 1,
+      "hiuk-iq": 1,
+      "hiuk-89": 1,
+      "hiuk-sl": 1
+    },
+    "GBP": {
+      "hiuk-np": 1,
+      "hiuk-289": 2,
+      "hiuk-ke": 1,
+      "hiuk-jo": 1,
+      "hiuk-cd": 1,
+      "hiuk-89": 2,
+      "hiuk-sl": 1
+    }
+  },
+  ".//@xml:lang": {
+    "en": {
+      "hiuk-np": 17,
+      "hiuk-so": 10,
+      "hiuk-ps": 3,
+      "hiuk-bd": 21,
+      "hiuk-289": 19,
+      "hiuk-rw": 3,
+      "hiuk-ke": 6,
+      "hiuk-lb": 14,
+      "hiuk-jo": 34,
+      "hiuk-kh": 49,
+      "hiuk-cd": 6,
+      "hiuk-iq": 15,
+      "hiuk-89": 28,
+      "hiuk-sl": 5
+    },
+    "fr": {
+      "hiuk-bd": 1,
+      "hiuk-289": 1
+    }
+  },
+  ".//activity-date/@type": {
+    "2": {
+      "hiuk-np": 2,
+      "hiuk-so": 1,
+      "hiuk-ps": 1,
+      "hiuk-bd": 1,
+      "hiuk-289": 2,
+      "hiuk-rw": 1,
+      "hiuk-ke": 1,
+      "hiuk-lb": 1,
+      "hiuk-jo": 2,
+      "hiuk-kh": 1,
+      "hiuk-iq": 1,
+      "hiuk-89": 2,
+      "hiuk-sl": 2
+    },
+    "4": {
+      "hiuk-np": 1,
+      "hiuk-ps": 1,
+      "hiuk-289": 1,
+      "hiuk-rw": 1,
+      "hiuk-lb": 1,
+      "hiuk-iq": 1
+    },
+    "3": {
+      "hiuk-np": 1,
+      "hiuk-so": 1,
+      "hiuk-bd": 1,
+      "hiuk-289": 1,
+      "hiuk-jo": 2,
+      "hiuk-kh": 1,
+      "hiuk-cd": 1,
+      "hiuk-89": 2,
+      "hiuk-sl": 2
+    },
+    "1": {
+      "hiuk-cd": 1,
+      "hiuk-89": 1
+    }
+  },
+  ".//activity-status/@code": {
+    "3": {
+      "hiuk-np": 2,
+      "hiuk-ps": 1,
+      "hiuk-289": 1,
+      "hiuk-rw": 1,
+      "hiuk-kh": 1,
+      "hiuk-iq": 1,
+      "hiuk-sl": 1
+    },
+    "2": {
+      "hiuk-so": 1,
+      "hiuk-bd": 1,
+      "hiuk-289": 1,
+      "hiuk-ke": 1,
+      "hiuk-jo": 2,
+      "hiuk-cd": 1,
+      "hiuk-89": 3,
+      "hiuk-sl": 1
+    },
+    "4": {
+      "hiuk-lb": 1
+    }
+  },
+  ".//budget/@status": {
+    "1": {
+      "hiuk-np": 3,
+      "hiuk-so": 2,
+      "hiuk-bd": 4,
+      "hiuk-289": 4,
+      "hiuk-rw": 1,
+      "hiuk-lb": 1,
+      "hiuk-jo": 1,
+      "hiuk-kh": 3,
+      "hiuk-cd": 2,
+      "hiuk-iq": 1,
+      "hiuk-89": 6,
+      "hiuk-sl": 5
+    },
+    "2": {
+      "hiuk-so": 1,
+      "hiuk-289": 2,
+      "hiuk-ke": 2,
+      "hiuk-jo": 2,
+      "hiuk-cd": 1
+    }
+  },
+  ".//budget/@type": {
+    "1": {
+      "hiuk-np": 3,
+      "hiuk-so": 1,
+      "hiuk-ps": 1,
+      "hiuk-bd": 4,
+      "hiuk-289": 4,
+      "hiuk-rw": 1,
+      "hiuk-ke": 2,
+      "hiuk-lb": 1,
+      "hiuk-jo": 2,
+      "hiuk-kh": 3,
+      "hiuk-cd": 2,
+      "hiuk-89": 10,
+      "hiuk-sl": 5
+    },
+    "2": {
+      "hiuk-so": 2,
+      "hiuk-ps": 1,
+      "hiuk-289": 2,
+      "hiuk-jo": 1,
+      "hiuk-cd": 1,
+      "hiuk-iq": 1,
+      "hiuk-89": 1,
+      "hiuk-sl": 2
+    }
+  },
+  ".//budget/value/@currency": {
+    "GBP": {
+      "hiuk-np": 3,
+      "hiuk-so": 3,
+      "hiuk-ps": 2,
+      "hiuk-bd": 4,
+      "hiuk-289": 6,
+      "hiuk-rw": 1,
+      "hiuk-ke": 2,
+      "hiuk-lb": 1,
+      "hiuk-jo": 3,
+      "hiuk-kh": 3,
+      "hiuk-cd": 3,
+      "hiuk-89": 10,
+      "hiuk-sl": 5
+    }
+  },
+  ".//collaboration-type/@code": {
+    "3": {
+      "hiuk-np": 2,
+      "hiuk-so": 1,
+      "hiuk-ps": 1,
+      "hiuk-bd": 1,
+      "hiuk-289": 2,
+      "hiuk-rw": 1,
+      "hiuk-ke": 1,
+      "hiuk-lb": 1,
+      "hiuk-jo": 2,
+      "hiuk-cd": 1,
+      "hiuk-iq": 1,
+      "hiuk-89": 3,
+      "hiuk-sl": 2
+    }
+  },
+  ".//contact-info/@type": {
+    "1": {
+      "hiuk-289": 2,
+      "hiuk-jo": 1,
+      "hiuk-89": 1
+    }
+  },
+  ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "C01": {
+      "hiuk-np": 2,
+      "hiuk-so": 1,
+      "hiuk-ps": 1,
+      "hiuk-bd": 1,
+      "hiuk-289": 2,
+      "hiuk-rw": 1,
+      "hiuk-ke": 1,
+      "hiuk-lb": 1,
+      "hiuk-jo": 2,
+      "hiuk-cd": 1,
+      "hiuk-iq": 1,
+      "hiuk-89": 3,
+      "hiuk-sl": 2
+    }
+  },
+  ".//default-finance-type/@code": {
+    "110": {
+      "hiuk-np": 2,
+      "hiuk-so": 1,
+      "hiuk-ps": 1,
+      "hiuk-bd": 1,
+      "hiuk-289": 2,
+      "hiuk-rw": 1,
+      "hiuk-ke": 1,
+      "hiuk-lb": 1,
+      "hiuk-jo": 2,
+      "hiuk-cd": 1,
+      "hiuk-iq": 1,
+      "hiuk-89": 3,
+      "hiuk-sl": 2
+    }
+  },
+  ".//default-flow-type/@code": {
+    "10": {
+      "hiuk-np": 2,
+      "hiuk-so": 1,
+      "hiuk-ps": 1,
+      "hiuk-bd": 1,
+      "hiuk-289": 2,
+      "hiuk-rw": 1,
+      "hiuk-ke": 1,
+      "hiuk-lb": 1,
+      "hiuk-jo": 2,
+      "hiuk-cd": 1,
+      "hiuk-iq": 1,
+      "hiuk-89": 3,
+      "hiuk-sl": 2
+    }
+  },
+  ".//default-tied-status/@code": {
+    "3": {
+      "hiuk-np": 2,
+      "hiuk-so": 1,
+      "hiuk-ps": 1,
+      "hiuk-bd": 1,
+      "hiuk-289": 2,
+      "hiuk-ke": 1,
+      "hiuk-lb": 1,
+      "hiuk-jo": 2,
+      "hiuk-cd": 1,
+      "hiuk-iq": 1,
+      "hiuk-89": 3,
+      "hiuk-sl": 1
+    },
+    "5": {
+      "hiuk-rw": 1,
+      "hiuk-sl": 1
+    }
+  },
+  ".//description/@type": {
+    "1": {
+      "hiuk-np": 2,
+      "hiuk-ps": 1,
+      "hiuk-bd": 1,
+      "hiuk-289": 2,
+      "hiuk-rw": 1,
+      "hiuk-ke": 1,
+      "hiuk-lb": 1,
+      "hiuk-jo": 2,
+      "hiuk-kh": 1,
+      "hiuk-cd": 1,
+      "hiuk-iq": 1,
+      "hiuk-89": 1,
+      "hiuk-sl": 2
+    },
+    "2": {
+      "hiuk-so": 1,
+      "hiuk-rw": 1,
+      "hiuk-89": 2
+    }
+  },
+  ".//document-link/@format": {
+    "application/msword": {
+      "hiuk-np": 1,
+      "hiuk-ps": 1,
+      "hiuk-lb": 1,
+      "hiuk-jo": 1,
+      "hiuk-iq": 1,
+      "hiuk-sl": 1
+    },
+    "application/vnd.ms-excel": {
+      "hiuk-np": 1,
+      "hiuk-bd": 1,
+      "hiuk-rw": 1,
+      "hiuk-89": 3
+    },
+    "application/pdf": {
+      "hiuk-so": 1,
+      "hiuk-ke": 1,
+      "hiuk-jo": 1,
+      "hiuk-sl": 1
+    },
+    "text/html": {
+      "hiuk-kh": 1
+    }
+  },
+  ".//document-link/category/@code": {
+    "A10": {
+      "hiuk-np": 1,
+      "hiuk-iq": 1,
+      "hiuk-sl": 1
+    },
+    "A05": {
+      "hiuk-np": 1,
+      "hiuk-89": 3
+    },
+    "A02": {
+      "hiuk-so": 1,
+      "hiuk-ps": 1,
+      "hiuk-bd": 1,
+      "hiuk-rw": 1,
+      "hiuk-lb": 1,
+      "hiuk-jo": 1,
+      "hiuk-sl": 1
+    },
+    "A08": {
+      "hiuk-ps": 1,
+      "hiuk-ke": 1
+    },
+    "A11": {
+      "hiuk-jo": 1
+    },
+    "A12": {
+      "hiuk-kh": 1
+    }
+  },
+  ".//document-link/language/@code": {
+    "en": {
+      "hiuk-np": 2,
+      "hiuk-so": 1,
+      "hiuk-ps": 1,
+      "hiuk-bd": 1,
+      "hiuk-rw": 1,
+      "hiuk-lb": 1,
+      "hiuk-jo": 1,
+      "hiuk-kh": 1,
+      "hiuk-iq": 1,
+      "hiuk-89": 3,
+      "hiuk-sl": 2
+    }
+  },
+  ".//location/administrative/@vocabulary": {
+    "A4": {
+      "hiuk-np": 5,
+      "hiuk-so": 1,
+      "hiuk-bd": 1,
+      "hiuk-rw": 2,
+      "hiuk-lb": 2,
+      "hiuk-jo": 4,
+      "hiuk-kh": 1,
+      "hiuk-iq": 2,
+      "hiuk-sl": 1
+    },
+    "4": {
+      "hiuk-ps": 1,
+      "hiuk-sl": 1
+    }
+  },
+  ".//location/administrative[@vocabulary = 'A4']/@code": {
+    " NP-BA ": {
+      "hiuk-np": 1
+    },
+    "NP-1": {
+      "hiuk-np": 4
+    },
+    " SO-AW": {
+      "hiuk-so": 1
+    },
+    "BD-10": {
+      "hiuk-bd": 1
+    },
+    " RW-04*": {
+      "hiuk-rw": 2
+    },
+    " LB-BI* ": {
+      "hiuk-lb": 2
+    },
+    " JO-AM* ": {
+      "hiuk-jo": 4
+    },
+    "KH-3": {
+      "hiuk-kh": 1
+    },
+    "IQ-AR*": {
+      "hiuk-iq": 2
+    },
+    "SL-E": {
+      "hiuk-sl": 1
+    }
+  },
+  ".//location/exactness/@code": {
+    "2": {
+      "hiuk-np": 4,
+      "hiuk-so": 1,
+      "hiuk-ps": 1,
+      "hiuk-bd": 1,
+      "hiuk-289": 1,
+      "hiuk-sl": 2
+    },
+    "1": {
+      "hiuk-np": 1,
+      "hiuk-rw": 2,
+      "hiuk-lb": 2,
+      "hiuk-jo": 4,
+      "hiuk-kh": 1,
+      "hiuk-iq": 2
+    }
+  },
+  ".//location/feature-designation/@code": {
+    "ADM2": {
+      "hiuk-np": 5,
+      "hiuk-rw": 2,
+      "hiuk-sl": 1
+    },
+    "ADM1": {
+      "hiuk-so": 1,
+      "hiuk-bd": 1,
+      "hiuk-lb": 2,
+      "hiuk-jo": 4,
+      "hiuk-kh": 1,
+      "hiuk-iq": 2
+    },
+    "179": {
+      "hiuk-ps": 1,
+      "hiuk-sl": 1
+    }
+  },
+  ".//location/location-class/@code": {
+    "2": {
+      "hiuk-np": 1,
+      "hiuk-ps": 1
+    },
+    "4": {
+      "hiuk-np": 4,
+      "hiuk-rw": 2,
+      "hiuk-iq": 2
+    },
+    "1": {
+      "hiuk-so": 1,
+      "hiuk-bd": 1,
+      "hiuk-lb": 2,
+      "hiuk-jo": 4,
+      "hiuk-kh": 1,
+      "hiuk-sl": 2
+    }
+  },
+  ".//location/location-id/@vocabulary": {
+    "A4": {
+      "hiuk-np": 5,
+      "hiuk-so": 1,
+      "hiuk-bd": 1,
+      "hiuk-289": 1,
+      "hiuk-rw": 2,
+      "hiuk-lb": 2,
+      "hiuk-jo": 4,
+      "hiuk-kh": 1,
+      "hiuk-iq": 2,
+      "hiuk-sl": 1
+    },
+    "4": {
+      "hiuk-ps": 1,
+      "hiuk-sl": 1
+    }
+  },
+  ".//location/location-reach/@code": {
+    "1": {
+      "hiuk-np": 5,
+      "hiuk-ps": 1,
+      "hiuk-bd": 1,
+      "hiuk-289": 1,
+      "hiuk-rw": 2,
+      "hiuk-lb": 2,
+      "hiuk-jo": 4,
+      "hiuk-kh": 1,
+      "hiuk-iq": 2,
+      "hiuk-sl": 2
+    },
+    "2": {
+      "hiuk-so": 1
+    }
+  },
+  ".//participating-org/@role": {
+    "1": {
+      "hiuk-np": 2,
+      "hiuk-so": 1,
+      "hiuk-ps": 1,
+      "hiuk-bd": 1,
+      "hiuk-289": 1,
+      "hiuk-rw": 1,
+      "hiuk-ke": 1,
+      "hiuk-lb": 1,
+      "hiuk-jo": 1,
+      "hiuk-kh": 1,
+      "hiuk-cd": 1,
+      "hiuk-iq": 1,
+      "hiuk-89": 3,
+      "hiuk-sl": 2
+    },
+    "4": {
+      "hiuk-np": 2,
+      "hiuk-so": 1,
+      "hiuk-ps": 1,
+      "hiuk-bd": 1,
+      "hiuk-289": 3,
+      "hiuk-rw": 1,
+      "hiuk-lb": 1,
+      "hiuk-jo": 2,
+      "hiuk-kh": 3,
+      "hiuk-cd": 1,
+      "hiuk-iq": 1,
+      "hiuk-89": 2,
+      "hiuk-sl": 3
+    }
+  },
+  ".//participating-org/@type": {
+    "10": {
+      "hiuk-np": 1,
+      "hiuk-so": 1,
+      "hiuk-ps": 1,
+      "hiuk-bd": 1,
+      "hiuk-rw": 1,
+      "hiuk-ke": 1,
+      "hiuk-lb": 1,
+      "hiuk-jo": 1,
+      "hiuk-kh": 1,
+      "hiuk-cd": 1,
+      "hiuk-iq": 1,
+      "hiuk-89": 3,
+      "hiuk-sl": 1
+    },
+    "21": {
+      "hiuk-np": 2,
+      "hiuk-so": 1,
+      "hiuk-ps": 1,
+      "hiuk-bd": 1,
+      "hiuk-289": 4,
+      "hiuk-rw": 1,
+      "hiuk-lb": 1,
+      "hiuk-jo": 2,
+      "hiuk-cd": 1,
+      "hiuk-iq": 1,
+      "hiuk-89": 2,
+      "hiuk-sl": 4
+    },
+    "70": {
+      "hiuk-np": 1
+    },
+    "22": {
+      "hiuk-kh": 3
+    }
+  },
+  ".//recipient-country/@code": {
+    "NP": {
+      "hiuk-np": 2
+    },
+    "SO": {
+      "hiuk-so": 1
+    },
+    "PS": {
+      "hiuk-ps": 1
+    },
+    "BD": {
+      "hiuk-bd": 1
+    },
+    "SL": {
+      "hiuk-289": 2,
+      "hiuk-sl": 2
+    },
+    "RW": {
+      "hiuk-rw": 1
+    },
+    "KE": {
+      "hiuk-ke": 1
+    },
+    "LB": {
+      "hiuk-lb": 1
+    },
+    "JO": {
+      "hiuk-jo": 2,
+      "hiuk-cd": 1
+    },
+    "KH": {
+      "hiuk-kh": 1
+    },
+    "CD": {
+      "hiuk-cd": 1
+    },
+    "PH": {
+      "hiuk-cd": 1
+    },
+    "GB": {
+      "hiuk-cd": 1,
+      "hiuk-89": 1
+    },
+    "IQ": {
+      "hiuk-iq": 1
+    }
+  },
+  ".//recipient-region/@vocabulary": {
+    "1": {
+      "hiuk-289": 2,
+      "hiuk-89": 3
+    }
+  },
+  ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "289": {
+      "hiuk-289": 2
+    },
+    "89": {
+      "hiuk-89": 3
+    }
+  },
+  ".//reporting-org/@type": {
+    "21": {
+      "hiuk-np": 2,
+      "hiuk-so": 1,
+      "hiuk-ps": 1,
+      "hiuk-bd": 1,
+      "hiuk-289": 2,
+      "hiuk-rw": 1,
+      "hiuk-ke": 1,
+      "hiuk-lb": 1,
+      "hiuk-jo": 2,
+      "hiuk-kh": 1,
+      "hiuk-cd": 1,
+      "hiuk-iq": 1,
+      "hiuk-89": 3,
+      "hiuk-sl": 2
+    }
+  },
+  ".//result/@type": {
+    "1": {
+      "hiuk-np": 1,
+      "hiuk-iq": 1
+    },
+    "2": {
+      "hiuk-lb": 1,
+      "hiuk-jo": 1,
+      "hiuk-kh": 2
+    }
+  },
+  ".//result/indicator/@measure": {
+    "1": {
+      "hiuk-np": 2,
+      "hiuk-lb": 1,
+      "hiuk-jo": 2,
+      "hiuk-kh": 2,
+      "hiuk-iq": 2
+    },
+    "2": {
+      "hiuk-kh": 4
+    }
+  },
+  ".//sector/@vocabulary": {
+    "1": {
+      "hiuk-np": 3,
+      "hiuk-so": 1,
+      "hiuk-ps": 1,
+      "hiuk-bd": 12,
+      "hiuk-289": 2,
+      "hiuk-rw": 1,
+      "hiuk-ke": 1,
+      "hiuk-lb": 1,
+      "hiuk-jo": 6,
+      "hiuk-kh": 1,
+      "hiuk-89": 9,
+      "hiuk-sl": 8
+    },
+    "2": {
+      "hiuk-jo": 1,
+      "hiuk-cd": 1
+    },
+    "99": {
+      "hiuk-iq": 1
+    }
+  },
+  ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "43010": {
+      "hiuk-np": 1,
+      "hiuk-ps": 1,
+      "hiuk-lb": 1,
+      "hiuk-jo": 1
+    },
+    "12281": {
+      "hiuk-np": 2
+    },
+    "15150": {
+      "hiuk-so": 1,
+      "hiuk-bd": 12,
+      "hiuk-ke": 1
+    },
+    "11120": {
+      "hiuk-289": 1,
+      "hiuk-sl": 1
+    },
+    "11320": {
+      "hiuk-289": 1
+    },
+    "11220": {
+      "hiuk-rw": 1
+    },
+    "12191": {
+      "hiuk-jo": 5,
+      "hiuk-sl": 7
+    },
+    "43040": {
+      "hiuk-kh": 1
+    },
+    "11430": {
+      "hiuk-89": 5
+    },
+    "12181": {
+      "hiuk-89": 4
+    }
+  },
+  ".//sector[@vocabulary = '2']/@code": {
+    "720": {
+      "hiuk-jo": 1,
+      "hiuk-cd": 1
+    }
+  },
+  ".//transaction/aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "C01": {
+      "hiuk-np": 1,
+      "hiuk-ps": 3,
+      "hiuk-bd": 2,
+      "hiuk-rw": 1,
+      "hiuk-lb": 4,
+      "hiuk-jo": 8,
+      "hiuk-kh": 13,
+      "hiuk-iq": 2,
+      "hiuk-sl": 6
+    },
+    "B03": {
+      "hiuk-bd": 1,
+      "hiuk-89": 1
+    }
+  },
+  ".//transaction/disbursement-channel/@code": {
+    "2": {
+      "hiuk-np": 4,
+      "hiuk-so": 5,
+      "hiuk-ps": 3,
+      "hiuk-bd": 11,
+      "hiuk-289": 6,
+      "hiuk-rw": 1,
+      "hiuk-lb": 7,
+      "hiuk-jo": 12,
+      "hiuk-kh": 16,
+      "hiuk-cd": 1,
+      "hiuk-iq": 2,
+      "hiuk-89": 5,
+      "hiuk-sl": 14
+    }
+  },
+  ".//transaction/finance-type/@code": {
+    "110": {
+      "hiuk-np": 1,
+      "hiuk-ps": 3,
+      "hiuk-bd": 2,
+      "hiuk-rw": 1,
+      "hiuk-lb": 4,
+      "hiuk-jo": 8,
+      "hiuk-kh": 13,
+      "hiuk-iq": 2,
+      "hiuk-89": 1,
+      "hiuk-sl": 6
+    }
+  },
+  ".//transaction/flow-type/@code": {
+    "10": {
+      "hiuk-np": 1,
+      "hiuk-ps": 3,
+      "hiuk-bd": 5,
+      "hiuk-rw": 1,
+      "hiuk-lb": 5,
+      "hiuk-jo": 9,
+      "hiuk-kh": 13,
+      "hiuk-iq": 2,
+      "hiuk-89": 2,
+      "hiuk-sl": 6
+    }
+  },
+  ".//transaction/provider-org/@type": {
+    "10": {
+      "hiuk-so": 4,
+      "hiuk-bd": 5,
+      "hiuk-ke": 5,
+      "hiuk-jo": 3,
+      "hiuk-kh": 1,
+      "hiuk-cd": 3,
+      "hiuk-89": 1,
+      "hiuk-sl": 1
+    },
+    "n/a": {
+      "hiuk-bd": 1
+    },
+    "21": {
+      "hiuk-289": 9,
+      "hiuk-sl": 4
+    },
+    "N/A": {
+      "hiuk-lb": 1
+    }
+  },
+  ".//transaction/receiver-org/@type": {
+    "21": {
+      "hiuk-so": 4,
+      "hiuk-bd": 5,
+      "hiuk-289": 9,
+      "hiuk-ke": 5,
+      "hiuk-jo": 3,
+      "hiuk-kh": 1,
+      "hiuk-cd": 3,
+      "hiuk-89": 3,
+      "hiuk-sl": 4
+    },
+    "n/a": {
+      "hiuk-bd": 1
+    },
+    "N/A": {
+      "hiuk-lb": 1
+    }
+  },
+  ".//transaction/sector/@vocabulary": {
+    "1": {
+      "hiuk-np": 2,
+      "hiuk-bd": 12,
+      "hiuk-jo": 5,
+      "hiuk-89": 8,
+      "hiuk-sl": 6
+    },
+    "2": {
+      "hiuk-jo": 1
+    }
+  },
+  ".//transaction/sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "12281": {
+      "hiuk-np": 2
+    },
+    "15150": {
+      "hiuk-bd": 12
+    },
+    "12191": {
+      "hiuk-jo": 5,
+      "hiuk-sl": 6
+    },
+    "11430": {
+      "hiuk-89": 4
+    },
+    "12181": {
+      "hiuk-89": 4
+    }
+  },
+  ".//transaction/sector[@vocabulary = '2']/@code": {
+    "720": {
+      "hiuk-jo": 1
+    }
+  },
+  ".//transaction/tied-status/@code": {
+    "5": {
+      "hiuk-np": 1,
+      "hiuk-ps": 3,
+      "hiuk-bd": 1,
+      "hiuk-rw": 1,
+      "hiuk-lb": 4,
+      "hiuk-jo": 7,
+      "hiuk-kh": 13,
+      "hiuk-iq": 2,
+      "hiuk-sl": 6
+    },
+    "4": {
+      "hiuk-bd": 1,
+      "hiuk-lb": 1,
+      "hiuk-jo": 1
+    },
+    "3": {
+      "hiuk-bd": 1,
+      "hiuk-89": 1
+    }
+  },
+  ".//transaction/transaction-type/@code": {
+    "2": {
+      "hiuk-np": 1,
+      "hiuk-so": 1,
+      "hiuk-ps": 1,
+      "hiuk-bd": 1,
+      "hiuk-rw": 1,
+      "hiuk-lb": 1,
+      "hiuk-jo": 1,
+      "hiuk-kh": 1,
+      "hiuk-iq": 1,
+      "hiuk-sl": 1
+    },
+    "7": {
+      "hiuk-np": 1,
+      "hiuk-iq": 1,
+      "hiuk-89": 3,
+      "hiuk-sl": 11
+    },
+    "1": {
+      "hiuk-np": 2,
+      "hiuk-so": 10,
+      "hiuk-ps": 2,
+      "hiuk-bd": 11,
+      "hiuk-289": 9,
+      "hiuk-ke": 5,
+      "hiuk-lb": 6,
+      "hiuk-jo": 13,
+      "hiuk-kh": 16,
+      "hiuk-cd": 3,
+      "hiuk-89": 5,
+      "hiuk-sl": 5
+    }
+  },
+  ".//transaction/value/@currency": {
+    "GBP": {
+      "hiuk-np": 4,
+      "hiuk-so": 10,
+      "hiuk-ps": 3,
+      "hiuk-bd": 11,
+      "hiuk-289": 9,
+      "hiuk-rw": 1,
+      "hiuk-ke": 5,
+      "hiuk-lb": 7,
+      "hiuk-jo": 14,
+      "hiuk-kh": 8,
+      "hiuk-cd": 3,
+      "hiuk-iq": 2,
+      "hiuk-89": 7,
+      "hiuk-sl": 5
+    }
+  }
+}

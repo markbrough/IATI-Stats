@@ -1,0 +1,417 @@
+{
+  ".//@default-currency": {
+    "EUR": {
+      "csa-cd": 1,
+      "csa-be": 4,
+      "csa-bi": 1,
+      "csa-ph": 1
+    }
+  },
+  ".//@xml:lang": {
+    "fr": {
+      "csa-cd": 2,
+      "csa-be": 8,
+      "csa-bi": 2,
+      "csa-ph": 2
+    },
+    "en": {
+      "csa-cd": 1,
+      "csa-be": 11,
+      "csa-bi": 1,
+      "csa-ph": 18
+    }
+  },
+  ".//activity-date/@type": {
+    "1": {
+      "csa-cd": 1,
+      "csa-be": 4,
+      "csa-bi": 1,
+      "csa-ph": 1
+    },
+    "2": {
+      "csa-cd": 1,
+      "csa-be": 4,
+      "csa-bi": 1,
+      "csa-ph": 1
+    },
+    "3": {
+      "csa-cd": 1,
+      "csa-be": 4,
+      "csa-bi": 1,
+      "csa-ph": 1
+    }
+  },
+  ".//activity-scope/@code": {
+    "3": {
+      "csa-be": 1
+    }
+  },
+  ".//activity-status/@code": {
+    "2": {
+      "csa-cd": 1,
+      "csa-be": 4,
+      "csa-bi": 1,
+      "csa-ph": 1
+    }
+  },
+  ".//budget/@status": {
+    "2": {
+      "csa-cd": 5,
+      "csa-be": 19,
+      "csa-bi": 5,
+      "csa-ph": 5
+    },
+    "1": {
+      "csa-be": 1
+    }
+  },
+  ".//budget/@type": {
+    "1": {
+      "csa-cd": 5,
+      "csa-be": 20,
+      "csa-bi": 5,
+      "csa-ph": 5
+    }
+  },
+  ".//budget/value/@currency": {
+    "EUR": {
+      "csa-be": 4,
+      "csa-bi": 5,
+      "csa-ph": 5
+    }
+  },
+  ".//collaboration-type/@code": {
+    "1": {
+      "csa-cd": 1,
+      "csa-be": 4,
+      "csa-bi": 1,
+      "csa-ph": 1
+    }
+  },
+  ".//contact-info/@type": {
+    "1": {
+      "csa-cd": 1,
+      "csa-bi": 1,
+      "csa-ph": 1
+    }
+  },
+  ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "C01": {
+      "csa-cd": 1,
+      "csa-be": 2,
+      "csa-bi": 1,
+      "csa-ph": 1
+    },
+    "G01": {
+      "csa-be": 1
+    },
+    "H01": {
+      "csa-be": 1
+    }
+  },
+  ".//default-finance-type/@code": {
+    "110": {
+      "csa-cd": 1,
+      "csa-be": 4,
+      "csa-bi": 1,
+      "csa-ph": 1
+    }
+  },
+  ".//default-flow-type/@code": {
+    "30": {
+      "csa-cd": 1,
+      "csa-be": 4,
+      "csa-bi": 1,
+      "csa-ph": 1
+    }
+  },
+  ".//default-tied-status/@code": {
+    "5": {
+      "csa-cd": 1,
+      "csa-be": 4,
+      "csa-bi": 1,
+      "csa-ph": 1
+    }
+  },
+  ".//description/@type": {
+    "1": {
+      "csa-cd": 1,
+      "csa-be": 4,
+      "csa-bi": 1,
+      "csa-ph": 1
+    }
+  },
+  ".//document-link/@format": {
+    "application/pdf": {
+      "csa-be": 1
+    }
+  },
+  ".//document-link/category/@code": {
+    "A02": {
+      "csa-be": 1
+    }
+  },
+  ".//location/exactness/@code": {
+    "2": {
+      "csa-cd": 1,
+      "csa-be": 1,
+      "csa-bi": 1,
+      "csa-ph": 1
+    }
+  },
+  ".//location/location-class/@code": {
+    "1": {
+      "csa-cd": 1,
+      "csa-be": 1,
+      "csa-bi": 1,
+      "csa-ph": 1
+    }
+  },
+  ".//other-identifier/@type": {
+    "A9": {
+      "csa-be": 1
+    }
+  },
+  ".//participating-org/@role": {
+    "1": {
+      "csa-cd": 2,
+      "csa-be": 8,
+      "csa-bi": 2,
+      "csa-ph": 2
+    },
+    "2": {
+      "csa-cd": 1,
+      "csa-be": 4,
+      "csa-bi": 1,
+      "csa-ph": 1
+    },
+    "4": {
+      "csa-cd": 2,
+      "csa-be": 4,
+      "csa-bi": 2,
+      "csa-ph": 2
+    }
+  },
+  ".//participating-org/@type": {
+    "10": {
+      "csa-cd": 1,
+      "csa-be": 4,
+      "csa-bi": 1,
+      "csa-ph": 1
+    },
+    "22": {
+      "csa-cd": 4,
+      "csa-be": 12,
+      "csa-bi": 4,
+      "csa-ph": 4
+    }
+  },
+  ".//policy-marker/@significance": {
+    "2": {
+      "csa-cd": 1
+    },
+    "1": {
+      "csa-cd": 6,
+      "csa-be": 4,
+      "csa-bi": 6,
+      "csa-ph": 7
+    },
+    "0": {
+      "csa-cd": 2,
+      "csa-be": 4,
+      "csa-bi": 3,
+      "csa-ph": 2
+    }
+  },
+  ".//policy-marker/@vocabulary": {
+    "1": {
+      "csa-cd": 9,
+      "csa-be": 8,
+      "csa-bi": 8,
+      "csa-ph": 9
+    }
+  },
+  ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "1": {
+      "csa-cd": 1,
+      "csa-be": 1,
+      "csa-bi": 1,
+      "csa-ph": 1
+    },
+    "2": {
+      "csa-cd": 1,
+      "csa-bi": 1,
+      "csa-ph": 1
+    },
+    "3": {
+      "csa-cd": 1,
+      "csa-be": 1,
+      "csa-bi": 1,
+      "csa-ph": 1
+    },
+    "4": {
+      "csa-cd": 1,
+      "csa-be": 1,
+      "csa-bi": 1,
+      "csa-ph": 1
+    },
+    "5": {
+      "csa-cd": 1,
+      "csa-be": 1,
+      "csa-bi": 1,
+      "csa-ph": 1
+    },
+    "6": {
+      "csa-cd": 1,
+      "csa-be": 1,
+      "csa-bi": 1,
+      "csa-ph": 1
+    },
+    "7": {
+      "csa-cd": 1,
+      "csa-be": 1,
+      "csa-bi": 1,
+      "csa-ph": 1
+    },
+    "8": {
+      "csa-cd": 1,
+      "csa-be": 1,
+      "csa-bi": 1,
+      "csa-ph": 1
+    },
+    "9": {
+      "csa-cd": 1,
+      "csa-be": 1,
+      "csa-bi": 1,
+      "csa-ph": 1
+    }
+  },
+  ".//recipient-country/@code": {
+    "CD": {
+      "csa-cd": 1,
+      "csa-be": 1
+    },
+    "BE": {
+      "csa-be": 4
+    },
+    "BI": {
+      "csa-be": 1,
+      "csa-bi": 1
+    },
+    "PH": {
+      "csa-be": 1,
+      "csa-ph": 1
+    }
+  },
+  ".//related-activity/@type": {
+    "2": {
+      "csa-cd": 1,
+      "csa-be": 3,
+      "csa-bi": 1,
+      "csa-ph": 1
+    },
+    "1": {
+      "csa-be": 1
+    }
+  },
+  ".//reporting-org/@type": {
+    "22": {
+      "csa-cd": 1,
+      "csa-be": 4,
+      "csa-bi": 1,
+      "csa-ph": 1
+    }
+  },
+  ".//result/@type": {
+    "2": {
+      "csa-cd": 1,
+      "csa-be": 1,
+      "csa-bi": 1,
+      "csa-ph": 1
+    }
+  },
+  ".//result/indicator/@measure": {
+    "2": {
+      "csa-cd": 4,
+      "csa-bi": 4,
+      "csa-ph": 1
+    },
+    "1": {
+      "csa-cd": 3,
+      "csa-be": 7,
+      "csa-bi": 3,
+      "csa-ph": 8
+    }
+  },
+  ".//sector/@vocabulary": {
+    "1": {
+      "csa-cd": 1,
+      "csa-be": 4,
+      "csa-bi": 1,
+      "csa-ph": 1
+    }
+  },
+  ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "31194": {
+      "csa-cd": 1,
+      "csa-be": 4,
+      "csa-bi": 1,
+      "csa-ph": 1
+    }
+  },
+  ".//transaction/provider-org/@type": {
+    "22": {
+      "csa-cd": 6,
+      "csa-be": 18,
+      "csa-bi": 5,
+      "csa-ph": 4
+    },
+    "10": {
+      "csa-be": 7
+    },
+    "21": {
+      "csa-be": 2
+    }
+  },
+  ".//transaction/receiver-org/@type": {
+    "22": {
+      "csa-cd": 4,
+      "csa-be": 18
+    },
+    "21": {
+      "csa-be": 8
+    },
+    "70": {
+      "csa-bi": 6
+    }
+  },
+  ".//transaction/transaction-type/@code": {
+    "2": {
+      "csa-cd": 5,
+      "csa-be": 15,
+      "csa-bi": 5,
+      "csa-ph": 5
+    },
+    "3": {
+      "csa-cd": 1,
+      "csa-bi": 1,
+      "csa-ph": 1
+    },
+    "11": {
+      "csa-be": 10
+    },
+    "1": {
+      "csa-be": 2
+    },
+    "4": {
+      "csa-be": 1
+    }
+  },
+  ".//transaction/value/@currency": {
+    "EUR": {
+      "csa-be": 17,
+      "csa-bi": 5,
+      "csa-ph": 4
+    }
+  }
+}

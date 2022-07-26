@@ -1,0 +1,843 @@
+{
+  ".//@default-currency": {
+    "EUR": {
+      "oxsol-gt": 1,
+      "oxsol-cd": 1,
+      "oxsol-bf": 1,
+      "oxsol-ml": 1,
+      "oxsol-sv": 1,
+      "oxsol-mz": 1,
+      "oxsol-789": 2,
+      "oxsol-be": 4,
+      "oxsol-cu": 1,
+      "oxsol-ni": 1
+    }
+  },
+  ".//@xml:lang": {
+    "fr": {
+      "oxsol-gt": 2,
+      "oxsol-cd": 6,
+      "oxsol-bf": 6,
+      "oxsol-ml": 19,
+      "oxsol-sv": 2,
+      "oxsol-mz": 3,
+      "oxsol-789": 16,
+      "oxsol-be": 49,
+      "oxsol-cu": 2,
+      "oxsol-ni": 2
+    },
+    "es": {
+      "oxsol-gt": 14,
+      "oxsol-sv": 17,
+      "oxsol-cu": 31,
+      "oxsol-ni": 42
+    },
+    "en": {
+      "oxsol-gt": 3,
+      "oxsol-cd": 2,
+      "oxsol-bf": 1,
+      "oxsol-ml": 2,
+      "oxsol-sv": 2,
+      "oxsol-mz": 2,
+      "oxsol-789": 45,
+      "oxsol-be": 4,
+      "oxsol-cu": 4,
+      "oxsol-ni": 1
+    },
+    "nl": {
+      "oxsol-gt": 2,
+      "oxsol-cd": 2,
+      "oxsol-bf": 2,
+      "oxsol-ml": 2,
+      "oxsol-sv": 2,
+      "oxsol-mz": 2,
+      "oxsol-789": 7,
+      "oxsol-cu": 2,
+      "oxsol-ni": 2
+    }
+  },
+  ".//activity-date/@type": {
+    "1": {
+      "oxsol-gt": 1,
+      "oxsol-cd": 1,
+      "oxsol-bf": 1,
+      "oxsol-ml": 1,
+      "oxsol-sv": 1,
+      "oxsol-mz": 1,
+      "oxsol-789": 2,
+      "oxsol-be": 4,
+      "oxsol-cu": 1,
+      "oxsol-ni": 1
+    },
+    "2": {
+      "oxsol-gt": 1,
+      "oxsol-cd": 1,
+      "oxsol-bf": 1,
+      "oxsol-ml": 1,
+      "oxsol-sv": 1,
+      "oxsol-mz": 1,
+      "oxsol-789": 2,
+      "oxsol-be": 4,
+      "oxsol-ni": 1
+    },
+    "3": {
+      "oxsol-gt": 1,
+      "oxsol-cd": 1,
+      "oxsol-bf": 1,
+      "oxsol-ml": 1,
+      "oxsol-sv": 1,
+      "oxsol-mz": 1,
+      "oxsol-789": 2,
+      "oxsol-be": 4,
+      "oxsol-cu": 1,
+      "oxsol-ni": 1
+    }
+  },
+  ".//activity-status/@code": {
+    "3": {
+      "oxsol-gt": 1
+    },
+    "2": {
+      "oxsol-cd": 1,
+      "oxsol-bf": 1,
+      "oxsol-ml": 1,
+      "oxsol-sv": 1,
+      "oxsol-mz": 1,
+      "oxsol-789": 2,
+      "oxsol-be": 4,
+      "oxsol-cu": 1,
+      "oxsol-ni": 1
+    }
+  },
+  ".//budget/@status": {
+    "2": {
+      "oxsol-gt": 1,
+      "oxsol-cd": 5,
+      "oxsol-bf": 5,
+      "oxsol-ml": 5,
+      "oxsol-sv": 5,
+      "oxsol-mz": 5,
+      "oxsol-789": 10,
+      "oxsol-be": 20,
+      "oxsol-cu": 5,
+      "oxsol-ni": 5
+    }
+  },
+  ".//budget/@type": {
+    "1": {
+      "oxsol-gt": 1,
+      "oxsol-cd": 5,
+      "oxsol-bf": 5,
+      "oxsol-ml": 5,
+      "oxsol-sv": 5,
+      "oxsol-mz": 5,
+      "oxsol-789": 10,
+      "oxsol-be": 20,
+      "oxsol-cu": 5,
+      "oxsol-ni": 5
+    }
+  },
+  ".//budget/value/@currency": {
+    "EUR": {
+      "oxsol-789": 2
+    }
+  },
+  ".//collaboration-type/@code": {
+    "1": {
+      "oxsol-gt": 1,
+      "oxsol-cd": 1,
+      "oxsol-bf": 1,
+      "oxsol-ml": 1,
+      "oxsol-sv": 1,
+      "oxsol-mz": 1,
+      "oxsol-789": 2,
+      "oxsol-be": 4,
+      "oxsol-cu": 1,
+      "oxsol-ni": 1
+    }
+  },
+  ".//contact-info/@type": {
+    "1": {
+      "oxsol-gt": 2,
+      "oxsol-cd": 2,
+      "oxsol-bf": 2,
+      "oxsol-ml": 2,
+      "oxsol-sv": 2,
+      "oxsol-mz": 2,
+      "oxsol-789": 4,
+      "oxsol-be": 6,
+      "oxsol-cu": 2,
+      "oxsol-ni": 2
+    }
+  },
+  ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "C01": {
+      "oxsol-gt": 1,
+      "oxsol-cd": 1,
+      "oxsol-bf": 1,
+      "oxsol-ml": 1,
+      "oxsol-sv": 1,
+      "oxsol-mz": 1,
+      "oxsol-789": 2,
+      "oxsol-be": 2,
+      "oxsol-cu": 1,
+      "oxsol-ni": 1
+    },
+    "G01": {
+      "oxsol-be": 1
+    },
+    "H01": {
+      "oxsol-be": 1
+    }
+  },
+  ".//default-finance-type/@code": {
+    "110": {
+      "oxsol-gt": 1,
+      "oxsol-cd": 1,
+      "oxsol-bf": 1,
+      "oxsol-ml": 1,
+      "oxsol-sv": 1,
+      "oxsol-mz": 1,
+      "oxsol-789": 2,
+      "oxsol-be": 4,
+      "oxsol-cu": 1,
+      "oxsol-ni": 1
+    }
+  },
+  ".//default-flow-type/@code": {
+    "30": {
+      "oxsol-gt": 1,
+      "oxsol-cd": 1,
+      "oxsol-bf": 1,
+      "oxsol-ml": 1,
+      "oxsol-sv": 1,
+      "oxsol-mz": 1,
+      "oxsol-789": 2,
+      "oxsol-be": 4,
+      "oxsol-cu": 1,
+      "oxsol-ni": 1
+    }
+  },
+  ".//default-tied-status/@code": {
+    "5": {
+      "oxsol-gt": 1,
+      "oxsol-cd": 1,
+      "oxsol-bf": 1,
+      "oxsol-ml": 1,
+      "oxsol-sv": 1,
+      "oxsol-mz": 1,
+      "oxsol-789": 2,
+      "oxsol-be": 4,
+      "oxsol-cu": 1,
+      "oxsol-ni": 1
+    }
+  },
+  ".//description/@type": {
+    "1": {
+      "oxsol-gt": 1,
+      "oxsol-cd": 1,
+      "oxsol-bf": 1,
+      "oxsol-ml": 1,
+      "oxsol-sv": 1,
+      "oxsol-mz": 1,
+      "oxsol-789": 2,
+      "oxsol-be": 4,
+      "oxsol-cu": 1,
+      "oxsol-ni": 1
+    },
+    "2": {
+      "oxsol-gt": 1,
+      "oxsol-cd": 1,
+      "oxsol-bf": 1,
+      "oxsol-ml": 1,
+      "oxsol-sv": 1,
+      "oxsol-mz": 1,
+      "oxsol-789": 1,
+      "oxsol-be": 3,
+      "oxsol-cu": 1,
+      "oxsol-ni": 1
+    },
+    "3": {
+      "oxsol-gt": 1,
+      "oxsol-cd": 1,
+      "oxsol-bf": 1,
+      "oxsol-ml": 1,
+      "oxsol-sv": 1,
+      "oxsol-mz": 1,
+      "oxsol-789": 1,
+      "oxsol-be": 3,
+      "oxsol-cu": 1,
+      "oxsol-ni": 1
+    },
+    "4": {
+      "oxsol-gt": 1,
+      "oxsol-cd": 1,
+      "oxsol-bf": 1,
+      "oxsol-ml": 1,
+      "oxsol-sv": 1,
+      "oxsol-mz": 1,
+      "oxsol-789": 1,
+      "oxsol-be": 3,
+      "oxsol-cu": 1,
+      "oxsol-ni": 1
+    }
+  },
+  ".//document-link/@format": {
+    "application/pdf": {
+      "oxsol-789": 1
+    }
+  },
+  ".//document-link/category/@code": {
+    "A08": {
+      "oxsol-789": 1
+    }
+  },
+  ".//location/exactness/@code": {
+    "2": {
+      "oxsol-gt": 1,
+      "oxsol-cd": 1,
+      "oxsol-bf": 1,
+      "oxsol-ml": 1,
+      "oxsol-sv": 1,
+      "oxsol-mz": 1,
+      "oxsol-789": 1,
+      "oxsol-be": 3,
+      "oxsol-cu": 1,
+      "oxsol-ni": 1
+    }
+  },
+  ".//location/location-class/@code": {
+    "1": {
+      "oxsol-gt": 1,
+      "oxsol-cd": 1,
+      "oxsol-bf": 1,
+      "oxsol-ml": 1,
+      "oxsol-sv": 1,
+      "oxsol-mz": 1,
+      "oxsol-789": 1,
+      "oxsol-be": 3,
+      "oxsol-cu": 1,
+      "oxsol-ni": 1
+    }
+  },
+  ".//location/location-id/@vocabulary": {
+    "A4": {
+      "oxsol-gt": 1,
+      "oxsol-cd": 1,
+      "oxsol-bf": 1,
+      "oxsol-ml": 1,
+      "oxsol-sv": 1,
+      "oxsol-mz": 1,
+      "oxsol-789": 1,
+      "oxsol-be": 4,
+      "oxsol-cu": 1,
+      "oxsol-ni": 1
+    }
+  },
+  ".//other-identifier/@type": {
+    "A9": {
+      "oxsol-789": 1
+    }
+  },
+  ".//participating-org/@role": {
+    "2": {
+      "oxsol-gt": 1,
+      "oxsol-cd": 1,
+      "oxsol-bf": 1,
+      "oxsol-ml": 1,
+      "oxsol-sv": 1,
+      "oxsol-mz": 1,
+      "oxsol-789": 2,
+      "oxsol-be": 9,
+      "oxsol-cu": 1,
+      "oxsol-ni": 1
+    },
+    "4": {
+      "oxsol-gt": 4,
+      "oxsol-cd": 8,
+      "oxsol-bf": 9,
+      "oxsol-ml": 9,
+      "oxsol-sv": 5,
+      "oxsol-mz": 9,
+      "oxsol-789": 23,
+      "oxsol-be": 16,
+      "oxsol-cu": 8,
+      "oxsol-ni": 6
+    },
+    "1": {
+      "oxsol-789": 2,
+      "oxsol-be": 1
+    }
+  },
+  ".//participating-org/@type": {
+    "22": {
+      "oxsol-gt": 3,
+      "oxsol-cd": 2,
+      "oxsol-bf": 3,
+      "oxsol-ml": 2,
+      "oxsol-sv": 3,
+      "oxsol-mz": 3,
+      "oxsol-789": 7,
+      "oxsol-be": 24,
+      "oxsol-cu": 3,
+      "oxsol-ni": 3
+    },
+    "23": {
+      "oxsol-gt": 2,
+      "oxsol-cd": 5,
+      "oxsol-bf": 6,
+      "oxsol-ml": 6,
+      "oxsol-sv": 2,
+      "oxsol-mz": 5,
+      "oxsol-789": 18,
+      "oxsol-be": 1,
+      "oxsol-cu": 2,
+      "oxsol-ni": 3
+    },
+    "80": {
+      "oxsol-cd": 1,
+      "oxsol-bf": 1,
+      "oxsol-ml": 1,
+      "oxsol-mz": 1,
+      "oxsol-ni": 1
+    },
+    "21": {
+      "oxsol-cd": 1,
+      "oxsol-ml": 1,
+      "oxsol-sv": 1,
+      "oxsol-mz": 1,
+      "oxsol-789": 1
+    },
+    "10": {
+      "oxsol-789": 1,
+      "oxsol-be": 1,
+      "oxsol-cu": 4
+    }
+  },
+  ".//policy-marker/@significance": {
+    "2": {
+      "oxsol-gt": 2,
+      "oxsol-cd": 4,
+      "oxsol-bf": 3,
+      "oxsol-ml": 3,
+      "oxsol-sv": 1,
+      "oxsol-mz": 3,
+      "oxsol-789": 2,
+      "oxsol-be": 2,
+      "oxsol-cu": 4,
+      "oxsol-ni": 5
+    },
+    "1": {
+      "oxsol-gt": 6,
+      "oxsol-cd": 3,
+      "oxsol-bf": 6,
+      "oxsol-ml": 6,
+      "oxsol-sv": 3,
+      "oxsol-mz": 6,
+      "oxsol-789": 1,
+      "oxsol-be": 16,
+      "oxsol-cu": 4,
+      "oxsol-ni": 2
+    },
+    "0": {
+      "oxsol-gt": 1,
+      "oxsol-cd": 2,
+      "oxsol-sv": 5,
+      "oxsol-789": 6,
+      "oxsol-be": 5,
+      "oxsol-cu": 1,
+      "oxsol-ni": 2
+    }
+  },
+  ".//policy-marker/@vocabulary": {
+    "1": {
+      "oxsol-gt": 9,
+      "oxsol-cd": 9,
+      "oxsol-bf": 9,
+      "oxsol-ml": 9,
+      "oxsol-sv": 9,
+      "oxsol-mz": 9,
+      "oxsol-789": 9,
+      "oxsol-be": 23,
+      "oxsol-cu": 9,
+      "oxsol-ni": 9
+    }
+  },
+  ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "1": {
+      "oxsol-gt": 1,
+      "oxsol-cd": 1,
+      "oxsol-bf": 1,
+      "oxsol-ml": 1,
+      "oxsol-sv": 1,
+      "oxsol-mz": 1,
+      "oxsol-789": 1,
+      "oxsol-be": 3,
+      "oxsol-cu": 1,
+      "oxsol-ni": 1
+    },
+    "2": {
+      "oxsol-gt": 1,
+      "oxsol-cd": 1,
+      "oxsol-bf": 1,
+      "oxsol-ml": 1,
+      "oxsol-sv": 1,
+      "oxsol-mz": 1,
+      "oxsol-789": 1,
+      "oxsol-be": 3,
+      "oxsol-cu": 1,
+      "oxsol-ni": 1
+    },
+    "3": {
+      "oxsol-gt": 1,
+      "oxsol-cd": 1,
+      "oxsol-bf": 1,
+      "oxsol-ml": 1,
+      "oxsol-sv": 1,
+      "oxsol-mz": 1,
+      "oxsol-789": 1,
+      "oxsol-be": 3,
+      "oxsol-cu": 1,
+      "oxsol-ni": 1
+    },
+    "4": {
+      "oxsol-gt": 1,
+      "oxsol-cd": 1,
+      "oxsol-bf": 1,
+      "oxsol-ml": 1,
+      "oxsol-sv": 1,
+      "oxsol-mz": 1,
+      "oxsol-789": 1,
+      "oxsol-be": 3,
+      "oxsol-cu": 1,
+      "oxsol-ni": 1
+    },
+    "5": {
+      "oxsol-gt": 1,
+      "oxsol-cd": 1,
+      "oxsol-bf": 1,
+      "oxsol-ml": 1,
+      "oxsol-sv": 1,
+      "oxsol-mz": 1,
+      "oxsol-789": 1,
+      "oxsol-be": 3,
+      "oxsol-cu": 1,
+      "oxsol-ni": 1
+    },
+    "6": {
+      "oxsol-gt": 1,
+      "oxsol-cd": 1,
+      "oxsol-bf": 1,
+      "oxsol-ml": 1,
+      "oxsol-sv": 1,
+      "oxsol-mz": 1,
+      "oxsol-789": 1,
+      "oxsol-be": 3,
+      "oxsol-cu": 1,
+      "oxsol-ni": 1
+    },
+    "7": {
+      "oxsol-gt": 1,
+      "oxsol-cd": 1,
+      "oxsol-bf": 1,
+      "oxsol-ml": 1,
+      "oxsol-sv": 1,
+      "oxsol-mz": 1,
+      "oxsol-789": 1,
+      "oxsol-be": 2,
+      "oxsol-cu": 1,
+      "oxsol-ni": 1
+    },
+    "8": {
+      "oxsol-gt": 1,
+      "oxsol-cd": 1,
+      "oxsol-bf": 1,
+      "oxsol-ml": 1,
+      "oxsol-sv": 1,
+      "oxsol-mz": 1,
+      "oxsol-789": 1,
+      "oxsol-be": 2,
+      "oxsol-cu": 1,
+      "oxsol-ni": 1
+    },
+    "9": {
+      "oxsol-gt": 1,
+      "oxsol-cd": 1,
+      "oxsol-bf": 1,
+      "oxsol-ml": 1,
+      "oxsol-sv": 1,
+      "oxsol-mz": 1,
+      "oxsol-789": 1,
+      "oxsol-be": 1,
+      "oxsol-cu": 1,
+      "oxsol-ni": 1
+    }
+  },
+  ".//recipient-country/@code": {
+    "GT": {
+      "oxsol-gt": 1,
+      "oxsol-789": 1
+    },
+    "CD": {
+      "oxsol-cd": 1,
+      "oxsol-789": 1
+    },
+    "BF": {
+      "oxsol-bf": 1,
+      "oxsol-789": 1
+    },
+    "ML": {
+      "oxsol-ml": 1,
+      "oxsol-789": 1
+    },
+    "SV": {
+      "oxsol-sv": 1,
+      "oxsol-789": 1
+    },
+    "MZ": {
+      "oxsol-mz": 1,
+      "oxsol-789": 1
+    },
+    "KH": {
+      "oxsol-789": 1
+    },
+    "VN": {
+      "oxsol-789": 1
+    },
+    "LA": {
+      "oxsol-789": 1
+    },
+    "BE": {
+      "oxsol-789": 1,
+      "oxsol-be": 4
+    },
+    "CU": {
+      "oxsol-789": 1,
+      "oxsol-cu": 1
+    },
+    "NI": {
+      "oxsol-789": 1,
+      "oxsol-ni": 1
+    }
+  },
+  ".//recipient-region/@vocabulary": {
+    "1": {
+      "oxsol-789": 2
+    }
+  },
+  ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "789": {
+      "oxsol-789": 2
+    }
+  },
+  ".//related-activity/@type": {
+    "1": {
+      "oxsol-gt": 1,
+      "oxsol-cd": 1,
+      "oxsol-bf": 1,
+      "oxsol-ml": 1,
+      "oxsol-sv": 1,
+      "oxsol-mz": 1,
+      "oxsol-789": 1,
+      "oxsol-be": 4,
+      "oxsol-cu": 1,
+      "oxsol-ni": 1
+    },
+    "2": {
+      "oxsol-789": 13
+    }
+  },
+  ".//reporting-org/@type": {
+    "22": {
+      "oxsol-gt": 1,
+      "oxsol-cd": 1,
+      "oxsol-bf": 1,
+      "oxsol-ml": 1,
+      "oxsol-sv": 1,
+      "oxsol-mz": 1,
+      "oxsol-789": 2,
+      "oxsol-be": 4,
+      "oxsol-cu": 1,
+      "oxsol-ni": 1
+    }
+  },
+  ".//result/@type": {
+    "2": {
+      "oxsol-gt": 1,
+      "oxsol-cd": 1,
+      "oxsol-bf": 1,
+      "oxsol-ml": 1,
+      "oxsol-sv": 1,
+      "oxsol-mz": 1,
+      "oxsol-789": 1,
+      "oxsol-be": 3,
+      "oxsol-cu": 1,
+      "oxsol-ni": 1
+    }
+  },
+  ".//result/indicator/@measure": {
+    "2": {
+      "oxsol-gt": 1,
+      "oxsol-cd": 1,
+      "oxsol-bf": 1,
+      "oxsol-mz": 1,
+      "oxsol-be": 4,
+      "oxsol-cu": 4,
+      "oxsol-ni": 1
+    },
+    "1": {
+      "oxsol-gt": 1,
+      "oxsol-cd": 1,
+      "oxsol-bf": 1,
+      "oxsol-ml": 3,
+      "oxsol-sv": 2,
+      "oxsol-mz": 2,
+      "oxsol-789": 9,
+      "oxsol-be": 8,
+      "oxsol-cu": 1,
+      "oxsol-ni": 6
+    }
+  },
+  ".//sector/@vocabulary": {
+    "2": {
+      "oxsol-gt": 1,
+      "oxsol-cd": 1,
+      "oxsol-bf": 1,
+      "oxsol-ml": 1,
+      "oxsol-mz": 1,
+      "oxsol-789": 3,
+      "oxsol-cu": 1,
+      "oxsol-ni": 1
+    },
+    "1": {
+      "oxsol-sv": 1,
+      "oxsol-789": 1,
+      "oxsol-be": 4
+    }
+  },
+  ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "15150": {
+      "oxsol-sv": 1,
+      "oxsol-789": 1
+    },
+    "91010": {
+      "oxsol-be": 1
+    },
+    "99820": {
+      "oxsol-be": 3
+    }
+  },
+  ".//sector[@vocabulary = '2']/@code": {
+    "311": {
+      "oxsol-gt": 1,
+      "oxsol-cd": 1,
+      "oxsol-bf": 1,
+      "oxsol-ml": 1,
+      "oxsol-mz": 1,
+      "oxsol-789": 1,
+      "oxsol-cu": 1,
+      "oxsol-ni": 1
+    },
+    "998": {
+      "oxsol-789": 1
+    },
+    "151": {
+      "oxsol-789": 1
+    }
+  },
+  ".//transaction/provider-org/@type": {
+    "22": {
+      "oxsol-gt": 4,
+      "oxsol-cd": 14,
+      "oxsol-bf": 16,
+      "oxsol-ml": 13,
+      "oxsol-sv": 12,
+      "oxsol-mz": 14,
+      "oxsol-789": 49,
+      "oxsol-be": 43,
+      "oxsol-cu": 10,
+      "oxsol-ni": 12
+    },
+    "10": {
+      "oxsol-789": 7
+    }
+  },
+  ".//transaction/receiver-org/@type": {
+    "21": {
+      "oxsol-gt": 3,
+      "oxsol-cd": 9,
+      "oxsol-bf": 14,
+      "oxsol-ml": 12,
+      "oxsol-sv": 11,
+      "oxsol-mz": 11,
+      "oxsol-789": 21,
+      "oxsol-cu": 9,
+      "oxsol-ni": 11
+    },
+    "80": {
+      "oxsol-cd": 4,
+      "oxsol-bf": 1,
+      "oxsol-mz": 2
+    },
+    "22": {
+      "oxsol-789": 34
+    }
+  },
+  ".//transaction/transaction-type/@code": {
+    "3": {
+      "oxsol-gt": 3,
+      "oxsol-cd": 1,
+      "oxsol-bf": 3,
+      "oxsol-ml": 4,
+      "oxsol-sv": 3,
+      "oxsol-mz": 4,
+      "oxsol-789": 14,
+      "oxsol-be": 8,
+      "oxsol-cu": 1,
+      "oxsol-ni": 3
+    },
+    "4": {
+      "oxsol-gt": 1,
+      "oxsol-cd": 1,
+      "oxsol-bf": 1,
+      "oxsol-ml": 1,
+      "oxsol-sv": 1,
+      "oxsol-mz": 1,
+      "oxsol-789": 1,
+      "oxsol-be": 4,
+      "oxsol-cu": 1,
+      "oxsol-ni": 1
+    },
+    "2": {
+      "oxsol-cd": 12,
+      "oxsol-bf": 12,
+      "oxsol-ml": 8,
+      "oxsol-sv": 8,
+      "oxsol-mz": 9,
+      "oxsol-789": 32,
+      "oxsol-be": 31,
+      "oxsol-cu": 8,
+      "oxsol-ni": 8
+    },
+    "11": {
+      "oxsol-789": 8
+    },
+    "1": {
+      "oxsol-789": 2
+    }
+  },
+  ".//transaction/value/@currency": {
+    "EUR": {
+      "oxsol-gt": 4,
+      "oxsol-cd": 14,
+      "oxsol-bf": 16,
+      "oxsol-ml": 13,
+      "oxsol-sv": 12,
+      "oxsol-mz": 14,
+      "oxsol-789": 48,
+      "oxsol-be": 4,
+      "oxsol-cu": 10,
+      "oxsol-ni": 12
+    }
+  }
+}

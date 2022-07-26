@@ -1,0 +1,516 @@
+{
+  "2": {
+    ".//@default-currency": {
+      "msv-be": {
+        "EUR": 2
+      },
+      "msv-cd": {
+        "EUR": 2
+      },
+      "msv-bj": {
+        "EUR": 1
+      },
+      "msv-bi": {
+        "EUR": 1
+      }
+    },
+    ".//activity-date/@type": {
+      "msv-be": {
+        "1": 2,
+        "2": 2,
+        "3": 2
+      },
+      "msv-cd": {
+        "1": 2,
+        "2": 2,
+        "3": 2
+      },
+      "msv-bj": {
+        "1": 1,
+        "2": 1,
+        "3": 1
+      },
+      "msv-bi": {
+        "1": 1,
+        "2": 1,
+        "3": 1
+      }
+    },
+    ".//activity-status/@code": {
+      "msv-be": {
+        "2": 2
+      },
+      "msv-cd": {
+        "2": 2
+      },
+      "msv-bj": {
+        "2": 1
+      },
+      "msv-bi": {
+        "2": 1
+      }
+    },
+    ".//activity-scope/@code": {
+      "msv-be": {
+        "4": 1
+      }
+    },
+    ".//budget/@status": {
+      "msv-be": {
+        "2": 10
+      },
+      "msv-cd": {
+        "2": 10
+      },
+      "msv-bj": {
+        "2": 5
+      },
+      "msv-bi": {
+        "2": 5
+      }
+    },
+    ".//budget/@type": {
+      "msv-be": {
+        "1": 10
+      },
+      "msv-cd": {
+        "1": 10
+      },
+      "msv-bj": {
+        "1": 5
+      },
+      "msv-bi": {
+        "1": 5
+      }
+    },
+    ".//collaboration-type/@code": {
+      "msv-be": {
+        "1": 2
+      },
+      "msv-cd": {
+        "1": 2
+      },
+      "msv-bj": {
+        "1": 1
+      },
+      "msv-bi": {
+        "1": 1
+      }
+    },
+    ".//contact-info/@type": {
+      "msv-be": {
+        "1": 1
+      },
+      "msv-cd": {
+        "1": 2
+      },
+      "msv-bj": {
+        "1": 1
+      },
+      "msv-bi": {
+        "1": 1
+      }
+    },
+    ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "msv-be": {
+        "H01": 1,
+        "G01": 1
+      },
+      "msv-cd": {
+        "C01": 2
+      },
+      "msv-bj": {
+        "C01": 1
+      },
+      "msv-bi": {
+        "C01": 1
+      }
+    },
+    ".//default-finance-type/@code": {
+      "msv-be": {
+        "110": 2
+      },
+      "msv-cd": {
+        "110": 2
+      },
+      "msv-bj": {
+        "110": 1
+      },
+      "msv-bi": {
+        "110": 1
+      }
+    },
+    ".//default-flow-type/@code": {
+      "msv-be": {
+        "30": 2
+      },
+      "msv-cd": {
+        "30": 2
+      },
+      "msv-bj": {
+        "30": 1
+      },
+      "msv-bi": {
+        "30": 1
+      }
+    },
+    ".//default-tied-status/@code": {
+      "msv-be": {
+        "5": 2
+      },
+      "msv-cd": {
+        "5": 2
+      },
+      "msv-bj": {
+        "5": 1
+      },
+      "msv-bi": {
+        "5": 1
+      }
+    },
+    ".//description/@type": {
+      "msv-be": {
+        "1": 2
+      },
+      "msv-cd": {
+        "1": 2
+      },
+      "msv-bj": {
+        "1": 1
+      },
+      "msv-bi": {
+        "1": 1
+      }
+    },
+    ".//location/location-class/@code": {
+      "msv-be": {
+        "1": 1
+      },
+      "msv-cd": {
+        "3": 17
+      },
+      "msv-bj": {
+        "3": 5
+      },
+      "msv-bi": {
+        "3": 7
+      }
+    },
+    ".//location/location-reach/@code": {
+      "msv-be": {
+        "1": 1
+      },
+      "msv-cd": {
+        "1": 17
+      },
+      "msv-bj": {
+        "1": 5
+      },
+      "msv-bi": {
+        "1": 7
+      }
+    },
+    ".//location/exactness/@code": {
+      "msv-be": {
+        "1": 1
+      },
+      "msv-cd": {
+        "1": 17
+      },
+      "msv-bj": {
+        "1": 5
+      },
+      "msv-bi": {
+        "1": 7
+      }
+    },
+    ".//participating-org/@role": {
+      "msv-be": {
+        "2": 3,
+        "1": 3,
+        "4": 4
+      },
+      "msv-cd": {
+        "2": 4,
+        "1": 4,
+        "4": 6
+      },
+      "msv-bj": {
+        "2": 2,
+        "1": 2,
+        "4": 3
+      },
+      "msv-bi": {
+        "2": 2,
+        "1": 2,
+        "4": 3
+      }
+    },
+    ".//participating-org/@type": {
+      "msv-be": {
+        "22": 8,
+        "10": 2
+      },
+      "msv-cd": {
+        "22": 11,
+        "10": 2,
+        "60": 1
+      },
+      "msv-bj": {
+        "22": 5,
+        "10": 1,
+        "23": 1
+      },
+      "msv-bi": {
+        "22": 6,
+        "10": 1
+      }
+    },
+    ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "msv-be": {
+        "2": 1,
+        "1": 1,
+        "3": 1,
+        "9": 1
+      },
+      "msv-cd": {
+        "2": 1,
+        "1": 1,
+        "3": 1,
+        "9": 1
+      },
+      "msv-bj": {
+        "2": 1,
+        "1": 1,
+        "3": 1,
+        "9": 1
+      },
+      "msv-bi": {
+        "2": 1,
+        "1": 1,
+        "3": 1,
+        "9": 1
+      }
+    },
+    ".//policy-marker/@significance": {
+      "msv-be": {
+        "2": 2,
+        "1": 2
+      },
+      "msv-cd": {
+        "1": 2,
+        "2": 2
+      },
+      "msv-bj": {
+        "1": 2,
+        "2": 2
+      },
+      "msv-bi": {
+        "1": 2,
+        "2": 2
+      }
+    },
+    ".//policy-marker/@vocabulary": {
+      "msv-be": {
+        "1": 4
+      },
+      "msv-cd": {
+        "1": 4
+      },
+      "msv-bj": {
+        "1": 4
+      },
+      "msv-bi": {
+        "1": 4
+      }
+    },
+    ".//recipient-country/@code": {
+      "msv-be": {
+        "BE": 2
+      },
+      "msv-cd": {
+        "CD": 2,
+        "BJ": 1,
+        "BI": 1,
+        "BE": 1
+      },
+      "msv-bj": {
+        "BJ": 1
+      },
+      "msv-bi": {
+        "BI": 1
+      }
+    },
+    ".//related-activity/@type": {
+      "msv-be": {
+        "1": 2
+      },
+      "msv-cd": {
+        "1": 1
+      },
+      "msv-bj": {
+        "1": 1
+      },
+      "msv-bi": {
+        "1": 1
+      }
+    },
+    ".//reporting-org/@type": {
+      "msv-be": {
+        "22": 2
+      },
+      "msv-cd": {
+        "22": 2
+      },
+      "msv-bj": {
+        "22": 1
+      },
+      "msv-bi": {
+        "22": 1
+      }
+    },
+    ".//result/@type": {
+      "msv-be": {
+        "2": 1
+      },
+      "msv-cd": {
+        "2": 1
+      },
+      "msv-bj": {
+        "2": 1
+      },
+      "msv-bi": {
+        "2": 1
+      }
+    },
+    ".//result/indicator/@measure": {
+      "msv-be": {
+        "2": 1
+      },
+      "msv-cd": {
+        "1": 1,
+        "2": 2
+      },
+      "msv-bj": {
+        "2": 2
+      },
+      "msv-bi": {
+        "2": 4,
+        "1": 1
+      }
+    },
+    ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "msv-be": {
+        "99820": 1,
+        "91010": 1
+      },
+      "msv-cd": {
+        "12281": 2,
+        "99820": 1
+      },
+      "msv-bj": {
+        "12281": 1
+      },
+      "msv-bi": {
+        "12281": 1
+      }
+    },
+    ".//sector/@vocabulary": {
+      "msv-be": {
+        "1": 2
+      },
+      "msv-cd": {
+        "1": 3
+      },
+      "msv-bj": {
+        "1": 1
+      },
+      "msv-bi": {
+        "1": 1
+      }
+    },
+    ".//transaction/provider-org/@type": {
+      "msv-be": {
+        "22": 1
+      },
+      "msv-cd": {
+        "10": 5,
+        "22": 5
+      },
+      "msv-bi": {
+        "22": 4
+      }
+    },
+    ".//transaction/transaction-type/@code": {
+      "msv-be": {
+        "4": 2
+      },
+      "msv-cd": {
+        "2": 8,
+        "3": 2,
+        "4": 1,
+        "1": 2,
+        "11": 8
+      },
+      "msv-bj": {
+        "2": 4,
+        "3": 1,
+        "4": 1
+      },
+      "msv-bi": {
+        "2": 4,
+        "3": 1,
+        "4": 1
+      }
+    },
+    ".//@xml:lang": {
+      "msv-be": {
+        "fr": 3,
+        "en": 4,
+        "nl": 5
+      },
+      "msv-cd": {
+        "fr": 14,
+        "en": 4
+      },
+      "msv-bj": {
+        "fr": 9,
+        "en": 2
+      },
+      "msv-bi": {
+        "fr": 13,
+        "en": 2
+      }
+    },
+    ".//document-link/@format": {
+      "msv-cd": {
+        "application/pdf": 1
+      }
+    },
+    ".//document-link/category/@code": {
+      "msv-cd": {
+        "A02": 1
+      }
+    },
+    ".//document-link/language/@code": {
+      "msv-cd": {
+        "fr": 1
+      }
+    },
+    ".//other-identifier/@type": {
+      "msv-cd": {
+        "A9": 1
+      }
+    },
+    ".//transaction/receiver-org/@type": {
+      "msv-cd": {
+        "70": 5,
+        "60": 5,
+        "22": 10
+      },
+      "msv-bi": {
+        "70": 5
+      }
+    }
+  }
+}

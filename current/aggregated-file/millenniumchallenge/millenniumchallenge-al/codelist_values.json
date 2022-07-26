@@ -1,0 +1,84 @@
+{
+  ".//@default-currency": {
+    "USD": 4
+  },
+  ".//@xml:lang": {
+    "en": 18
+  },
+  ".//activity-date/@type": {
+    "1": 4,
+    "2": 4,
+    "3": 4,
+    "4": 4
+  },
+  ".//activity-status/@code": {
+    "1": 4
+  },
+  ".//budget/@type": {
+    "2": 2
+  },
+  ".//budget/value/@currency": {
+    "USD": 2
+  },
+  ".//collaboration-type/@code": {
+    "1": 2
+  },
+  ".//country-budget-items/@vocabulary": {
+    "1": 2
+  },
+  ".//country-budget-items/budget-item[../@vocabulary = '1']/@code": {
+    "1.4.3": 2
+  },
+  ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "C01": 1
+  },
+  ".//default-finance-type/@code": {
+    "110": 1
+  },
+  ".//default-flow-type/@code": {
+    "10": 1
+  },
+  ".//default-tied-status/@code": {
+    "5": 1
+  },
+  ".//description/@type": {
+    "1": 4
+  },
+  ".//participating-org/@role": {
+    "Funding": 4,
+    "Extending": 4,
+    "Accountable": 4,
+    "Implementing": 4
+  },
+  ".//participating-org/@type": {
+    "10": 16
+  },
+  ".//planned-disbursement/@type": {
+    "2": 2
+  },
+  ".//planned-disbursement/value/@currency": {
+    "USD": 2
+  },
+  ".//related-activity/@type": {
+    "1": 4,
+    "2": 3,
+    "3": 2
+  },
+  ".//reporting-org/@type": {
+    "10": 4
+  },
+  ".//sector/@vocabulary": {
+    "DAC": 2,
+    "U.S. Sector Framework": 2
+  },
+  ".//transaction/disbursement-channel/@code": {
+    "3": 14
+  },
+  ".//transaction/transaction-type/@code": {
+    "C": 8,
+    "D": 6
+  },
+  ".//transaction/value/@currency": {
+    "USD": 14
+  }
+}

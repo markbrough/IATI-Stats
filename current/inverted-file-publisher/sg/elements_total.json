@@ -1,0 +1,636 @@
+{
+  "iati-activity": {
+    "sg-onderwijs": 1,
+    "sg-programma": 1,
+    "sg-structuurkosten": 1
+  },
+  "iati-activity/@default-currency": {
+    "sg-onderwijs": 1,
+    "sg-programma": 1,
+    "sg-structuurkosten": 1
+  },
+  "iati-activity/@hierarchy": {
+    "sg-onderwijs": 1,
+    "sg-programma": 1,
+    "sg-structuurkosten": 1
+  },
+  "iati-activity/@humanitarian": {
+    "sg-onderwijs": 1,
+    "sg-programma": 1,
+    "sg-structuurkosten": 1
+  },
+  "iati-activity/@last-updated-datetime": {
+    "sg-onderwijs": 1,
+    "sg-programma": 1,
+    "sg-structuurkosten": 1
+  },
+  "iati-activity/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "sg-onderwijs": 1,
+    "sg-programma": 1,
+    "sg-structuurkosten": 1
+  },
+  "iati-activity/activity-date": {
+    "sg-onderwijs": 3,
+    "sg-programma": 3,
+    "sg-structuurkosten": 3
+  },
+  "iati-activity/activity-date/@iso-date": {
+    "sg-onderwijs": 3,
+    "sg-programma": 3,
+    "sg-structuurkosten": 3
+  },
+  "iati-activity/activity-date/@type": {
+    "sg-onderwijs": 3,
+    "sg-programma": 3,
+    "sg-structuurkosten": 3
+  },
+  "iati-activity/activity-status": {
+    "sg-onderwijs": 1,
+    "sg-programma": 1,
+    "sg-structuurkosten": 1
+  },
+  "iati-activity/activity-status/@code": {
+    "sg-onderwijs": 1,
+    "sg-programma": 1,
+    "sg-structuurkosten": 1
+  },
+  "iati-activity/budget": {
+    "sg-onderwijs": 5,
+    "sg-programma": 5,
+    "sg-structuurkosten": 5
+  },
+  "iati-activity/budget/@status": {
+    "sg-onderwijs": 5,
+    "sg-programma": 5,
+    "sg-structuurkosten": 5
+  },
+  "iati-activity/budget/@type": {
+    "sg-onderwijs": 5,
+    "sg-programma": 5,
+    "sg-structuurkosten": 5
+  },
+  "iati-activity/budget/period-end": {
+    "sg-onderwijs": 5,
+    "sg-programma": 5,
+    "sg-structuurkosten": 5
+  },
+  "iati-activity/budget/period-end/@iso-date": {
+    "sg-onderwijs": 5,
+    "sg-programma": 5,
+    "sg-structuurkosten": 5
+  },
+  "iati-activity/budget/period-start": {
+    "sg-onderwijs": 5,
+    "sg-programma": 5,
+    "sg-structuurkosten": 5
+  },
+  "iati-activity/budget/period-start/@iso-date": {
+    "sg-onderwijs": 5,
+    "sg-programma": 5,
+    "sg-structuurkosten": 5
+  },
+  "iati-activity/budget/value": {
+    "sg-onderwijs": 5,
+    "sg-programma": 5,
+    "sg-structuurkosten": 5
+  },
+  "iati-activity/budget/value/@currency": {
+    "sg-onderwijs": 5,
+    "sg-programma": 5,
+    "sg-structuurkosten": 5
+  },
+  "iati-activity/budget/value/@value-date": {
+    "sg-onderwijs": 5,
+    "sg-programma": 5,
+    "sg-structuurkosten": 5
+  },
+  "iati-activity/collaboration-type": {
+    "sg-onderwijs": 1,
+    "sg-programma": 1,
+    "sg-structuurkosten": 1
+  },
+  "iati-activity/collaboration-type/@code": {
+    "sg-onderwijs": 1,
+    "sg-programma": 1,
+    "sg-structuurkosten": 1
+  },
+  "iati-activity/conditions": {
+    "sg-onderwijs": 1,
+    "sg-programma": 1,
+    "sg-structuurkosten": 1
+  },
+  "iati-activity/conditions/@attached": {
+    "sg-onderwijs": 1,
+    "sg-programma": 1,
+    "sg-structuurkosten": 1
+  },
+  "iati-activity/contact-info": {
+    "sg-onderwijs": 1,
+    "sg-programma": 1,
+    "sg-structuurkosten": 1
+  },
+  "iati-activity/contact-info/@type": {
+    "sg-onderwijs": 1,
+    "sg-programma": 1,
+    "sg-structuurkosten": 1
+  },
+  "iati-activity/contact-info/email": {
+    "sg-onderwijs": 1,
+    "sg-programma": 1,
+    "sg-structuurkosten": 1
+  },
+  "iati-activity/default-aid-type": {
+    "sg-onderwijs": 1,
+    "sg-programma": 1,
+    "sg-structuurkosten": 1
+  },
+  "iati-activity/default-aid-type/@code": {
+    "sg-onderwijs": 1,
+    "sg-programma": 1,
+    "sg-structuurkosten": 1
+  },
+  "iati-activity/default-finance-type": {
+    "sg-onderwijs": 1,
+    "sg-programma": 1,
+    "sg-structuurkosten": 1
+  },
+  "iati-activity/default-finance-type/@code": {
+    "sg-onderwijs": 1,
+    "sg-programma": 1,
+    "sg-structuurkosten": 1
+  },
+  "iati-activity/default-flow-type": {
+    "sg-onderwijs": 1,
+    "sg-programma": 1,
+    "sg-structuurkosten": 1
+  },
+  "iati-activity/default-flow-type/@code": {
+    "sg-onderwijs": 1,
+    "sg-programma": 1,
+    "sg-structuurkosten": 1
+  },
+  "iati-activity/default-tied-status": {
+    "sg-onderwijs": 1,
+    "sg-programma": 1,
+    "sg-structuurkosten": 1
+  },
+  "iati-activity/default-tied-status/@code": {
+    "sg-onderwijs": 1,
+    "sg-programma": 1,
+    "sg-structuurkosten": 1
+  },
+  "iati-activity/description": {
+    "sg-onderwijs": 3,
+    "sg-programma": 1,
+    "sg-structuurkosten": 1
+  },
+  "iati-activity/description/@type": {
+    "sg-onderwijs": 3,
+    "sg-programma": 1,
+    "sg-structuurkosten": 1
+  },
+  "iati-activity/description/narrative": {
+    "sg-onderwijs": 3,
+    "sg-programma": 1,
+    "sg-structuurkosten": 1
+  },
+  "iati-activity/description/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "sg-onderwijs": 2
+  },
+  "iati-activity/document-link": {
+    "sg-programma": 1
+  },
+  "iati-activity/document-link/@format": {
+    "sg-programma": 1
+  },
+  "iati-activity/document-link/@url": {
+    "sg-programma": 1
+  },
+  "iati-activity/document-link/category": {
+    "sg-programma": 4
+  },
+  "iati-activity/document-link/category/@code": {
+    "sg-programma": 4
+  },
+  "iati-activity/document-link/document-date": {
+    "sg-programma": 1
+  },
+  "iati-activity/document-link/document-date/@iso-date": {
+    "sg-programma": 1
+  },
+  "iati-activity/document-link/language": {
+    "sg-programma": 1
+  },
+  "iati-activity/document-link/language/@code": {
+    "sg-programma": 1
+  },
+  "iati-activity/document-link/title": {
+    "sg-programma": 1
+  },
+  "iati-activity/document-link/title/narrative": {
+    "sg-programma": 1
+  },
+  "iati-activity/iati-identifier": {
+    "sg-onderwijs": 1,
+    "sg-programma": 1,
+    "sg-structuurkosten": 1
+  },
+  "iati-activity/location": {
+    "sg-onderwijs": 2
+  },
+  "iati-activity/location/exactness": {
+    "sg-onderwijs": 2
+  },
+  "iati-activity/location/exactness/@code": {
+    "sg-onderwijs": 2
+  },
+  "iati-activity/location/location-class": {
+    "sg-onderwijs": 2
+  },
+  "iati-activity/location/location-class/@code": {
+    "sg-onderwijs": 2
+  },
+  "iati-activity/location/name": {
+    "sg-onderwijs": 2
+  },
+  "iati-activity/location/name/narrative": {
+    "sg-onderwijs": 2
+  },
+  "iati-activity/location/point": {
+    "sg-onderwijs": 2
+  },
+  "iati-activity/location/point/@srsName": {
+    "sg-onderwijs": 2
+  },
+  "iati-activity/location/point/pos": {
+    "sg-onderwijs": 2
+  },
+  "iati-activity/other-identifier": {
+    "sg-programma": 1
+  },
+  "iati-activity/other-identifier/@ref": {
+    "sg-programma": 1
+  },
+  "iati-activity/other-identifier/@type": {
+    "sg-programma": 1
+  },
+  "iati-activity/other-identifier/owner-org": {
+    "sg-programma": 1
+  },
+  "iati-activity/other-identifier/owner-org/@ref": {
+    "sg-programma": 1
+  },
+  "iati-activity/other-identifier/owner-org/narrative": {
+    "sg-programma": 1
+  },
+  "iati-activity/participating-org": {
+    "sg-onderwijs": 7,
+    "sg-programma": 7,
+    "sg-structuurkosten": 3
+  },
+  "iati-activity/participating-org/@activity-id": {
+    "sg-onderwijs": 1,
+    "sg-programma": 1,
+    "sg-structuurkosten": 1
+  },
+  "iati-activity/participating-org/@ref": {
+    "sg-onderwijs": 7,
+    "sg-programma": 7,
+    "sg-structuurkosten": 3
+  },
+  "iati-activity/participating-org/@role": {
+    "sg-onderwijs": 7,
+    "sg-programma": 7,
+    "sg-structuurkosten": 3
+  },
+  "iati-activity/participating-org/@type": {
+    "sg-onderwijs": 7,
+    "sg-programma": 7,
+    "sg-structuurkosten": 3
+  },
+  "iati-activity/participating-org/narrative": {
+    "sg-onderwijs": 7,
+    "sg-programma": 7,
+    "sg-structuurkosten": 3
+  },
+  "iati-activity/policy-marker": {
+    "sg-onderwijs": 6
+  },
+  "iati-activity/policy-marker/@code": {
+    "sg-onderwijs": 6
+  },
+  "iati-activity/policy-marker/@significance": {
+    "sg-onderwijs": 6
+  },
+  "iati-activity/policy-marker/@vocabulary": {
+    "sg-onderwijs": 6
+  },
+  "iati-activity/recipient-country": {
+    "sg-onderwijs": 1,
+    "sg-programma": 1,
+    "sg-structuurkosten": 1
+  },
+  "iati-activity/recipient-country/@code": {
+    "sg-onderwijs": 1,
+    "sg-programma": 1,
+    "sg-structuurkosten": 1
+  },
+  "iati-activity/recipient-country/@percentage": {
+    "sg-onderwijs": 1,
+    "sg-programma": 1,
+    "sg-structuurkosten": 1
+  },
+  "iati-activity/related-activity": {
+    "sg-onderwijs": 1,
+    "sg-structuurkosten": 1
+  },
+  "iati-activity/related-activity/@ref": {
+    "sg-onderwijs": 1,
+    "sg-structuurkosten": 1
+  },
+  "iati-activity/related-activity/@type": {
+    "sg-onderwijs": 1,
+    "sg-structuurkosten": 1
+  },
+  "iati-activity/reporting-org": {
+    "sg-onderwijs": 1,
+    "sg-programma": 1,
+    "sg-structuurkosten": 1
+  },
+  "iati-activity/reporting-org/@ref": {
+    "sg-onderwijs": 1,
+    "sg-programma": 1,
+    "sg-structuurkosten": 1
+  },
+  "iati-activity/reporting-org/@type": {
+    "sg-onderwijs": 1,
+    "sg-programma": 1,
+    "sg-structuurkosten": 1
+  },
+  "iati-activity/reporting-org/narrative": {
+    "sg-onderwijs": 1,
+    "sg-programma": 1,
+    "sg-structuurkosten": 1
+  },
+  "iati-activity/result": {
+    "sg-onderwijs": 3
+  },
+  "iati-activity/result/@aggregation-status": {
+    "sg-onderwijs": 3
+  },
+  "iati-activity/result/@type": {
+    "sg-onderwijs": 3
+  },
+  "iati-activity/result/indicator": {
+    "sg-onderwijs": 3
+  },
+  "iati-activity/result/indicator/@ascending": {
+    "sg-onderwijs": 3
+  },
+  "iati-activity/result/indicator/@measure": {
+    "sg-onderwijs": 3
+  },
+  "iati-activity/result/indicator/baseline": {
+    "sg-onderwijs": 3
+  },
+  "iati-activity/result/indicator/baseline/@value": {
+    "sg-onderwijs": 3
+  },
+  "iati-activity/result/indicator/baseline/@year": {
+    "sg-onderwijs": 3
+  },
+  "iati-activity/result/indicator/description": {
+    "sg-onderwijs": 3
+  },
+  "iati-activity/result/indicator/description/narrative": {
+    "sg-onderwijs": 3
+  },
+  "iati-activity/result/indicator/period": {
+    "sg-onderwijs": 6
+  },
+  "iati-activity/result/indicator/period/actual": {
+    "sg-onderwijs": 6
+  },
+  "iati-activity/result/indicator/period/actual/@value": {
+    "sg-onderwijs": 6
+  },
+  "iati-activity/result/indicator/period/period-end": {
+    "sg-onderwijs": 6
+  },
+  "iati-activity/result/indicator/period/period-end/@iso-date": {
+    "sg-onderwijs": 6
+  },
+  "iati-activity/result/indicator/period/period-start": {
+    "sg-onderwijs": 6
+  },
+  "iati-activity/result/indicator/period/period-start/@iso-date": {
+    "sg-onderwijs": 6
+  },
+  "iati-activity/result/indicator/period/target": {
+    "sg-onderwijs": 6
+  },
+  "iati-activity/result/indicator/period/target/@value": {
+    "sg-onderwijs": 6
+  },
+  "iati-activity/result/indicator/title": {
+    "sg-onderwijs": 3
+  },
+  "iati-activity/result/indicator/title/narrative": {
+    "sg-onderwijs": 3
+  },
+  "iati-activity/result/title": {
+    "sg-onderwijs": 3
+  },
+  "iati-activity/result/title/narrative": {
+    "sg-onderwijs": 3
+  },
+  "iati-activity/sector": {
+    "sg-onderwijs": 1,
+    "sg-programma": 1,
+    "sg-structuurkosten": 1
+  },
+  "iati-activity/sector/@code": {
+    "sg-onderwijs": 1,
+    "sg-programma": 1,
+    "sg-structuurkosten": 1
+  },
+  "iati-activity/sector/@vocabulary": {
+    "sg-onderwijs": 1,
+    "sg-programma": 1,
+    "sg-structuurkosten": 1
+  },
+  "iati-activity/title": {
+    "sg-onderwijs": 1,
+    "sg-programma": 1,
+    "sg-structuurkosten": 1
+  },
+  "iati-activity/title/narrative": {
+    "sg-onderwijs": 1,
+    "sg-programma": 1,
+    "sg-structuurkosten": 1
+  },
+  "iati-activity/transaction": {
+    "sg-onderwijs": 1,
+    "sg-programma": 5,
+    "sg-structuurkosten": 1
+  },
+  "iati-activity/transaction/provider-org": {
+    "sg-onderwijs": 1,
+    "sg-programma": 5,
+    "sg-structuurkosten": 1
+  },
+  "iati-activity/transaction/provider-org/@provider-activity-id": {
+    "sg-onderwijs": 1,
+    "sg-programma": 5,
+    "sg-structuurkosten": 1
+  },
+  "iati-activity/transaction/provider-org/@ref": {
+    "sg-onderwijs": 1,
+    "sg-programma": 5,
+    "sg-structuurkosten": 1
+  },
+  "iati-activity/transaction/provider-org/@type": {
+    "sg-onderwijs": 1,
+    "sg-programma": 5,
+    "sg-structuurkosten": 1
+  },
+  "iati-activity/transaction/provider-org/narrative": {
+    "sg-onderwijs": 1,
+    "sg-programma": 5,
+    "sg-structuurkosten": 1
+  },
+  "iati-activity/transaction/receiver-org": {
+    "sg-programma": 5
+  },
+  "iati-activity/transaction/receiver-org/@receiver-activity-id": {
+    "sg-programma": 5
+  },
+  "iati-activity/transaction/receiver-org/@ref": {
+    "sg-programma": 5
+  },
+  "iati-activity/transaction/receiver-org/@type": {
+    "sg-programma": 5
+  },
+  "iati-activity/transaction/receiver-org/narrative": {
+    "sg-programma": 5
+  },
+  "iati-activity/transaction/transaction-date": {
+    "sg-onderwijs": 1,
+    "sg-programma": 5,
+    "sg-structuurkosten": 1
+  },
+  "iati-activity/transaction/transaction-date/@iso-date": {
+    "sg-onderwijs": 1,
+    "sg-programma": 5,
+    "sg-structuurkosten": 1
+  },
+  "iati-activity/transaction/transaction-type": {
+    "sg-onderwijs": 1,
+    "sg-programma": 5,
+    "sg-structuurkosten": 1
+  },
+  "iati-activity/transaction/transaction-type/@code": {
+    "sg-onderwijs": 1,
+    "sg-programma": 5,
+    "sg-structuurkosten": 1
+  },
+  "iati-activity/transaction/value": {
+    "sg-onderwijs": 1,
+    "sg-programma": 5,
+    "sg-structuurkosten": 1
+  },
+  "iati-activity/transaction/value/@currency": {
+    "sg-onderwijs": 1,
+    "sg-programma": 5,
+    "sg-structuurkosten": 1
+  },
+  "iati-activity/transaction/value/@value-date": {
+    "sg-onderwijs": 1,
+    "sg-programma": 5,
+    "sg-structuurkosten": 1
+  },
+  "iati-organisation": {
+    "sg-org": 1
+  },
+  "iati-organisation/@default-currency": {
+    "sg-org": 1
+  },
+  "iati-organisation/@last-updated-datetime": {
+    "sg-org": 1
+  },
+  "iati-organisation/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "sg-org": 1
+  },
+  "iati-organisation/name": {
+    "sg-org": 1
+  },
+  "iati-organisation/name/narrative": {
+    "sg-org": 1
+  },
+  "iati-organisation/organisation-identifier": {
+    "sg-org": 1
+  },
+  "iati-organisation/reporting-org": {
+    "sg-org": 1
+  },
+  "iati-organisation/reporting-org/@ref": {
+    "sg-org": 1
+  },
+  "iati-organisation/reporting-org/@type": {
+    "sg-org": 1
+  },
+  "iati-organisation/reporting-org/narrative": {
+    "sg-org": 1
+  },
+  "iati-organisation/total-budget": {
+    "sg-org": 2
+  },
+  "iati-organisation/total-budget/@status": {
+    "sg-org": 2
+  },
+  "iati-organisation/total-budget/period-end": {
+    "sg-org": 2
+  },
+  "iati-organisation/total-budget/period-end/@iso-date": {
+    "sg-org": 2
+  },
+  "iati-organisation/total-budget/period-start": {
+    "sg-org": 2
+  },
+  "iati-organisation/total-budget/period-start/@iso-date": {
+    "sg-org": 2
+  },
+  "iati-organisation/total-budget/value": {
+    "sg-org": 2
+  },
+  "iati-organisation/total-budget/value/@currency": {
+    "sg-org": 2
+  },
+  "iati-organisation/total-budget/value/@value-date": {
+    "sg-org": 2
+  },
+  "iati-organisation/total-expenditure": {
+    "sg-org": 1
+  },
+  "iati-organisation/total-expenditure/period-end": {
+    "sg-org": 1
+  },
+  "iati-organisation/total-expenditure/period-end/@iso-date": {
+    "sg-org": 1
+  },
+  "iati-organisation/total-expenditure/period-start": {
+    "sg-org": 1
+  },
+  "iati-organisation/total-expenditure/period-start/@iso-date": {
+    "sg-org": 1
+  },
+  "iati-organisation/total-expenditure/value": {
+    "sg-org": 1
+  },
+  "iati-organisation/total-expenditure/value/@currency": {
+    "sg-org": 1
+  },
+  "iati-organisation/total-expenditure/value/@value-date": {
+    "sg-org": 1
+  }
+}

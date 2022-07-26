@@ -1,0 +1,815 @@
+{
+  "iati-activity": {
+    "dapp-mw": 1,
+    "dapp-activities": 6
+  },
+  "iati-activity/@default-currency": {
+    "dapp-mw": 1,
+    "dapp-activities": 6
+  },
+  "iati-activity/@hierarchy": {
+    "dapp-mw": 1,
+    "dapp-activities": 6
+  },
+  "iati-activity/@humanitarian": {
+    "dapp-activities": 2
+  },
+  "iati-activity/@last-updated-datetime": {
+    "dapp-mw": 1,
+    "dapp-activities": 6
+  },
+  "iati-activity/@linked-data-uri": {
+    "dapp-activities": 1
+  },
+  "iati-activity/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "dapp-mw": 1,
+    "dapp-activities": 2
+  },
+  "iati-activity/activity-date": {
+    "dapp-mw": 1,
+    "dapp-activities": 11
+  },
+  "iati-activity/activity-date/@iso-date": {
+    "dapp-mw": 1,
+    "dapp-activities": 11
+  },
+  "iati-activity/activity-date/@type": {
+    "dapp-mw": 1,
+    "dapp-activities": 11
+  },
+  "iati-activity/activity-date/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "dapp-mw": 1
+  },
+  "iati-activity/activity-date/narrative": {
+    "dapp-activities": 11
+  },
+  "iati-activity/activity-date/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "dapp-activities": 1
+  },
+  "iati-activity/activity-status": {
+    "dapp-mw": 1,
+    "dapp-activities": 6
+  },
+  "iati-activity/activity-status/@code": {
+    "dapp-mw": 1,
+    "dapp-activities": 6
+  },
+  "iati-activity/activity-status/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "dapp-mw": 1
+  },
+  "iati-activity/activity-website": {
+    "dapp-mw": 1
+  },
+  "iati-activity/budget": {
+    "dapp-mw": 1,
+    "dapp-activities": 7
+  },
+  "iati-activity/budget/@status": {
+    "dapp-activities": 3
+  },
+  "iati-activity/budget/@type": {
+    "dapp-mw": 1,
+    "dapp-activities": 7
+  },
+  "iati-activity/budget/period-end": {
+    "dapp-mw": 1,
+    "dapp-activities": 7
+  },
+  "iati-activity/budget/period-end/@iso-date": {
+    "dapp-mw": 1,
+    "dapp-activities": 7
+  },
+  "iati-activity/budget/period-start": {
+    "dapp-mw": 1,
+    "dapp-activities": 7
+  },
+  "iati-activity/budget/period-start/@iso-date": {
+    "dapp-mw": 1,
+    "dapp-activities": 7
+  },
+  "iati-activity/budget/value": {
+    "dapp-mw": 1,
+    "dapp-activities": 7
+  },
+  "iati-activity/budget/value/@currency": {
+    "dapp-mw": 1
+  },
+  "iati-activity/budget/value/@value-date": {
+    "dapp-mw": 1,
+    "dapp-activities": 3
+  },
+  "iati-activity/collaboration-type": {
+    "dapp-mw": 1,
+    "dapp-activities": 6
+  },
+  "iati-activity/collaboration-type/@code": {
+    "dapp-mw": 1,
+    "dapp-activities": 6
+  },
+  "iati-activity/conditions": {
+    "dapp-activities": 3
+  },
+  "iati-activity/conditions/@attached": {
+    "dapp-activities": 3
+  },
+  "iati-activity/conditions/condition": {
+    "dapp-activities": 3
+  },
+  "iati-activity/conditions/condition/@type": {
+    "dapp-activities": 3
+  },
+  "iati-activity/conditions/condition/narrative": {
+    "dapp-activities": 3
+  },
+  "iati-activity/contact-info": {
+    "dapp-mw": 1,
+    "dapp-activities": 5
+  },
+  "iati-activity/contact-info/email": {
+    "dapp-mw": 1,
+    "dapp-activities": 5
+  },
+  "iati-activity/contact-info/job-title": {
+    "dapp-activities": 4
+  },
+  "iati-activity/contact-info/job-title/narrative": {
+    "dapp-activities": 4
+  },
+  "iati-activity/contact-info/mailing-address": {
+    "dapp-mw": 1,
+    "dapp-activities": 5
+  },
+  "iati-activity/contact-info/mailing-address/narrative": {
+    "dapp-activities": 5
+  },
+  "iati-activity/contact-info/organisation": {
+    "dapp-mw": 1,
+    "dapp-activities": 5
+  },
+  "iati-activity/contact-info/organisation/narrative": {
+    "dapp-activities": 5
+  },
+  "iati-activity/contact-info/person-name": {
+    "dapp-mw": 1,
+    "dapp-activities": 5
+  },
+  "iati-activity/contact-info/person-name/narrative": {
+    "dapp-activities": 5
+  },
+  "iati-activity/contact-info/telephone": {
+    "dapp-mw": 1,
+    "dapp-activities": 5
+  },
+  "iati-activity/contact-info/website": {
+    "dapp-activities": 4
+  },
+  "iati-activity/default-aid-type": {
+    "dapp-mw": 1,
+    "dapp-activities": 6
+  },
+  "iati-activity/default-aid-type/@code": {
+    "dapp-mw": 1,
+    "dapp-activities": 6
+  },
+  "iati-activity/default-finance-type": {
+    "dapp-mw": 1,
+    "dapp-activities": 6
+  },
+  "iati-activity/default-finance-type/@code": {
+    "dapp-mw": 1,
+    "dapp-activities": 6
+  },
+  "iati-activity/default-flow-type": {
+    "dapp-mw": 1,
+    "dapp-activities": 6
+  },
+  "iati-activity/default-flow-type/@code": {
+    "dapp-mw": 1,
+    "dapp-activities": 6
+  },
+  "iati-activity/default-tied-status": {
+    "dapp-mw": 1,
+    "dapp-activities": 6
+  },
+  "iati-activity/default-tied-status/@code": {
+    "dapp-mw": 1,
+    "dapp-activities": 6
+  },
+  "iati-activity/description": {
+    "dapp-mw": 3,
+    "dapp-activities": 15
+  },
+  "iati-activity/description/@type": {
+    "dapp-mw": 3,
+    "dapp-activities": 15
+  },
+  "iati-activity/description/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "dapp-mw": 3
+  },
+  "iati-activity/description/narrative": {
+    "dapp-activities": 15
+  },
+  "iati-activity/description/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "dapp-activities": 1
+  },
+  "iati-activity/document-link": {
+    "dapp-activities": 14
+  },
+  "iati-activity/document-link/@format": {
+    "dapp-activities": 14
+  },
+  "iati-activity/document-link/@url": {
+    "dapp-activities": 14
+  },
+  "iati-activity/document-link/category": {
+    "dapp-activities": 14
+  },
+  "iati-activity/document-link/category/@code": {
+    "dapp-activities": 14
+  },
+  "iati-activity/document-link/document-date": {
+    "dapp-activities": 1
+  },
+  "iati-activity/document-link/document-date/@iso-date": {
+    "dapp-activities": 1
+  },
+  "iati-activity/document-link/language": {
+    "dapp-activities": 14
+  },
+  "iati-activity/document-link/language/@code": {
+    "dapp-activities": 14
+  },
+  "iati-activity/document-link/title": {
+    "dapp-activities": 14
+  },
+  "iati-activity/document-link/title/narrative": {
+    "dapp-activities": 14
+  },
+  "iati-activity/document-link/title/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "dapp-activities": 1
+  },
+  "iati-activity/iati-identifier": {
+    "dapp-mw": 1,
+    "dapp-activities": 6
+  },
+  "iati-activity/legacy-data": {
+    "dapp-activities": 3
+  },
+  "iati-activity/legacy-data/@iati-equivalent": {
+    "dapp-activities": 1
+  },
+  "iati-activity/legacy-data/@name": {
+    "dapp-activities": 3
+  },
+  "iati-activity/legacy-data/@value": {
+    "dapp-activities": 3
+  },
+  "iati-activity/location": {
+    "dapp-activities": 4
+  },
+  "iati-activity/location/@ref": {
+    "dapp-activities": 1
+  },
+  "iati-activity/location/activity-description": {
+    "dapp-activities": 1
+  },
+  "iati-activity/location/activity-description/narrative": {
+    "dapp-activities": 1
+  },
+  "iati-activity/location/activity-description/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "dapp-activities": 1
+  },
+  "iati-activity/location/administrative": {
+    "dapp-activities": 1
+  },
+  "iati-activity/location/administrative/@code": {
+    "dapp-activities": 1
+  },
+  "iati-activity/location/administrative/@level": {
+    "dapp-activities": 1
+  },
+  "iati-activity/location/administrative/@vocabulary": {
+    "dapp-activities": 1
+  },
+  "iati-activity/location/description": {
+    "dapp-activities": 4
+  },
+  "iati-activity/location/description/narrative": {
+    "dapp-activities": 4
+  },
+  "iati-activity/location/description/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "dapp-activities": 1
+  },
+  "iati-activity/location/exactness": {
+    "dapp-activities": 1
+  },
+  "iati-activity/location/exactness/@code": {
+    "dapp-activities": 1
+  },
+  "iati-activity/location/feature-designation": {
+    "dapp-activities": 1
+  },
+  "iati-activity/location/feature-designation/@code": {
+    "dapp-activities": 1
+  },
+  "iati-activity/location/location-class": {
+    "dapp-activities": 1
+  },
+  "iati-activity/location/location-class/@code": {
+    "dapp-activities": 1
+  },
+  "iati-activity/location/location-id": {
+    "dapp-activities": 1
+  },
+  "iati-activity/location/location-id/@code": {
+    "dapp-activities": 1
+  },
+  "iati-activity/location/location-id/@vocabulary": {
+    "dapp-activities": 1
+  },
+  "iati-activity/location/location-reach": {
+    "dapp-activities": 1
+  },
+  "iati-activity/location/location-reach/@code": {
+    "dapp-activities": 1
+  },
+  "iati-activity/location/name": {
+    "dapp-activities": 4
+  },
+  "iati-activity/location/name/narrative": {
+    "dapp-activities": 4
+  },
+  "iati-activity/location/name/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "dapp-activities": 1
+  },
+  "iati-activity/location/point": {
+    "dapp-activities": 2
+  },
+  "iati-activity/location/point/@srsName": {
+    "dapp-activities": 2
+  },
+  "iati-activity/location/point/pos": {
+    "dapp-activities": 2
+  },
+  "iati-activity/other-identifier": {
+    "dapp-activities": 1
+  },
+  "iati-activity/other-identifier/@ref": {
+    "dapp-activities": 1
+  },
+  "iati-activity/other-identifier/@type": {
+    "dapp-activities": 1
+  },
+  "iati-activity/other-identifier/owner-org": {
+    "dapp-activities": 1
+  },
+  "iati-activity/other-identifier/owner-org/@ref": {
+    "dapp-activities": 1
+  },
+  "iati-activity/other-identifier/owner-org/narrative": {
+    "dapp-activities": 1
+  },
+  "iati-activity/participating-org": {
+    "dapp-mw": 2,
+    "dapp-activities": 13
+  },
+  "iati-activity/participating-org/@activity-id": {
+    "dapp-activities": 1
+  },
+  "iati-activity/participating-org/@ref": {
+    "dapp-mw": 2,
+    "dapp-activities": 9
+  },
+  "iati-activity/participating-org/@role": {
+    "dapp-mw": 2,
+    "dapp-activities": 13
+  },
+  "iati-activity/participating-org/@type": {
+    "dapp-mw": 2,
+    "dapp-activities": 13
+  },
+  "iati-activity/participating-org/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "dapp-mw": 2
+  },
+  "iati-activity/participating-org/narrative": {
+    "dapp-activities": 13
+  },
+  "iati-activity/participating-org/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "dapp-activities": 1
+  },
+  "iati-activity/planned-disbursement": {
+    "dapp-activities": 9
+  },
+  "iati-activity/planned-disbursement/@type": {
+    "dapp-activities": 3
+  },
+  "iati-activity/planned-disbursement/period-end": {
+    "dapp-activities": 9
+  },
+  "iati-activity/planned-disbursement/period-end/@iso-date": {
+    "dapp-activities": 9
+  },
+  "iati-activity/planned-disbursement/period-start": {
+    "dapp-activities": 9
+  },
+  "iati-activity/planned-disbursement/period-start/@iso-date": {
+    "dapp-activities": 9
+  },
+  "iati-activity/planned-disbursement/value": {
+    "dapp-activities": 9
+  },
+  "iati-activity/planned-disbursement/value/@currency": {
+    "dapp-activities": 3
+  },
+  "iati-activity/planned-disbursement/value/@value-date": {
+    "dapp-activities": 3
+  },
+  "iati-activity/policy-marker": {
+    "dapp-activities": 4
+  },
+  "iati-activity/policy-marker/@code": {
+    "dapp-activities": 4
+  },
+  "iati-activity/policy-marker/@significance": {
+    "dapp-activities": 4
+  },
+  "iati-activity/policy-marker/narrative": {
+    "dapp-activities": 3
+  },
+  "iati-activity/recipient-country": {
+    "dapp-mw": 1,
+    "dapp-activities": 5
+  },
+  "iati-activity/recipient-country/@code": {
+    "dapp-mw": 1,
+    "dapp-activities": 5
+  },
+  "iati-activity/recipient-country/@percentage": {
+    "dapp-mw": 1,
+    "dapp-activities": 5
+  },
+  "iati-activity/recipient-country/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "dapp-mw": 1
+  },
+  "iati-activity/recipient-country/narrative": {
+    "dapp-activities": 5
+  },
+  "iati-activity/recipient-country/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "dapp-activities": 1
+  },
+  "iati-activity/recipient-region": {
+    "dapp-activities": 4
+  },
+  "iati-activity/recipient-region/@code": {
+    "dapp-activities": 4
+  },
+  "iati-activity/recipient-region/@percentage": {
+    "dapp-activities": 4
+  },
+  "iati-activity/recipient-region/@vocabulary": {
+    "dapp-activities": 4
+  },
+  "iati-activity/recipient-region/narrative": {
+    "dapp-activities": 4
+  },
+  "iati-activity/recipient-region/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "dapp-activities": 1
+  },
+  "iati-activity/related-activity": {
+    "dapp-activities": 2
+  },
+  "iati-activity/related-activity/@ref": {
+    "dapp-activities": 2
+  },
+  "iati-activity/related-activity/@type": {
+    "dapp-activities": 2
+  },
+  "iati-activity/reporting-org": {
+    "dapp-mw": 1,
+    "dapp-activities": 6
+  },
+  "iati-activity/reporting-org/@ref": {
+    "dapp-mw": 1,
+    "dapp-activities": 6
+  },
+  "iati-activity/reporting-org/@type": {
+    "dapp-mw": 1,
+    "dapp-activities": 6
+  },
+  "iati-activity/reporting-org/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "dapp-mw": 1
+  },
+  "iati-activity/reporting-org/narrative": {
+    "dapp-activities": 6
+  },
+  "iati-activity/reporting-org/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "dapp-activities": 2
+  },
+  "iati-activity/result": {
+    "dapp-activities": 3
+  },
+  "iati-activity/result/@aggregation-status": {
+    "dapp-activities": 3
+  },
+  "iati-activity/result/@type": {
+    "dapp-activities": 3
+  },
+  "iati-activity/result/description": {
+    "dapp-activities": 2
+  },
+  "iati-activity/result/description/narrative": {
+    "dapp-activities": 2
+  },
+  "iati-activity/result/description/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "dapp-activities": 1
+  },
+  "iati-activity/result/indicator": {
+    "dapp-activities": 5
+  },
+  "iati-activity/result/indicator/@ascending": {
+    "dapp-activities": 5
+  },
+  "iati-activity/result/indicator/@measure": {
+    "dapp-activities": 5
+  },
+  "iati-activity/result/indicator/baseline": {
+    "dapp-activities": 5
+  },
+  "iati-activity/result/indicator/baseline/@value": {
+    "dapp-activities": 5
+  },
+  "iati-activity/result/indicator/baseline/@year": {
+    "dapp-activities": 5
+  },
+  "iati-activity/result/indicator/baseline/comment": {
+    "dapp-activities": 5
+  },
+  "iati-activity/result/indicator/baseline/comment/narrative": {
+    "dapp-activities": 5
+  },
+  "iati-activity/result/indicator/baseline/comment/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "dapp-activities": 1
+  },
+  "iati-activity/result/indicator/description": {
+    "dapp-activities": 5
+  },
+  "iati-activity/result/indicator/description/narrative": {
+    "dapp-activities": 5
+  },
+  "iati-activity/result/indicator/description/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "dapp-activities": 1
+  },
+  "iati-activity/result/indicator/period": {
+    "dapp-activities": 5
+  },
+  "iati-activity/result/indicator/period/actual": {
+    "dapp-activities": 5
+  },
+  "iati-activity/result/indicator/period/actual/@value": {
+    "dapp-activities": 5
+  },
+  "iati-activity/result/indicator/period/actual/comment": {
+    "dapp-activities": 5
+  },
+  "iati-activity/result/indicator/period/actual/comment/narrative": {
+    "dapp-activities": 5
+  },
+  "iati-activity/result/indicator/period/actual/comment/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "dapp-activities": 1
+  },
+  "iati-activity/result/indicator/period/period-end": {
+    "dapp-activities": 5
+  },
+  "iati-activity/result/indicator/period/period-end/@iso-date": {
+    "dapp-activities": 5
+  },
+  "iati-activity/result/indicator/period/period-start": {
+    "dapp-activities": 5
+  },
+  "iati-activity/result/indicator/period/period-start/@iso-date": {
+    "dapp-activities": 5
+  },
+  "iati-activity/result/indicator/period/target": {
+    "dapp-activities": 5
+  },
+  "iati-activity/result/indicator/period/target/@value": {
+    "dapp-activities": 5
+  },
+  "iati-activity/result/indicator/period/target/comment": {
+    "dapp-activities": 5
+  },
+  "iati-activity/result/indicator/period/target/comment/narrative": {
+    "dapp-activities": 5
+  },
+  "iati-activity/result/indicator/period/target/comment/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "dapp-activities": 1
+  },
+  "iati-activity/result/indicator/title": {
+    "dapp-activities": 5
+  },
+  "iati-activity/result/indicator/title/narrative": {
+    "dapp-activities": 7
+  },
+  "iati-activity/result/indicator/title/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "dapp-activities": 3
+  },
+  "iati-activity/result/title": {
+    "dapp-activities": 2
+  },
+  "iati-activity/result/title/narrative": {
+    "dapp-activities": 2
+  },
+  "iati-activity/result/title/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "dapp-activities": 1
+  },
+  "iati-activity/sector": {
+    "dapp-mw": 1,
+    "dapp-activities": 5
+  },
+  "iati-activity/sector/@code": {
+    "dapp-activities": 5
+  },
+  "iati-activity/sector/@percentage": {
+    "dapp-mw": 1,
+    "dapp-activities": 5
+  },
+  "iati-activity/sector/@vocabulary": {
+    "dapp-mw": 1,
+    "dapp-activities": 5
+  },
+  "iati-activity/sector/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "dapp-mw": 1
+  },
+  "iati-activity/sector/narrative": {
+    "dapp-activities": 4
+  },
+  "iati-activity/sector/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "dapp-activities": 1
+  },
+  "iati-activity/title": {
+    "dapp-mw": 1,
+    "dapp-activities": 6
+  },
+  "iati-activity/title/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "dapp-mw": 1
+  },
+  "iati-activity/title/narrative": {
+    "dapp-activities": 6
+  },
+  "iati-activity/title/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "dapp-activities": 1
+  },
+  "iati-activity/transaction": {
+    "dapp-activities": 28
+  },
+  "iati-activity/transaction/@humanitarian": {
+    "dapp-activities": 4
+  },
+  "iati-activity/transaction/@ref": {
+    "dapp-activities": 28
+  },
+  "iati-activity/transaction/aid-type": {
+    "dapp-activities": 22
+  },
+  "iati-activity/transaction/aid-type/@code": {
+    "dapp-activities": 22
+  },
+  "iati-activity/transaction/description": {
+    "dapp-activities": 28
+  },
+  "iati-activity/transaction/description/narrative": {
+    "dapp-activities": 28
+  },
+  "iati-activity/transaction/description/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "dapp-activities": 10
+  },
+  "iati-activity/transaction/disbursement-channel": {
+    "dapp-activities": 28
+  },
+  "iati-activity/transaction/disbursement-channel/@code": {
+    "dapp-activities": 28
+  },
+  "iati-activity/transaction/finance-type": {
+    "dapp-activities": 23
+  },
+  "iati-activity/transaction/finance-type/@code": {
+    "dapp-activities": 23
+  },
+  "iati-activity/transaction/flow-type": {
+    "dapp-activities": 22
+  },
+  "iati-activity/transaction/flow-type/@code": {
+    "dapp-activities": 22
+  },
+  "iati-activity/transaction/provider-org": {
+    "dapp-activities": 28
+  },
+  "iati-activity/transaction/provider-org/@provider-activity-id": {
+    "dapp-activities": 23
+  },
+  "iati-activity/transaction/provider-org/@ref": {
+    "dapp-activities": 23
+  },
+  "iati-activity/transaction/provider-org/@type": {
+    "dapp-activities": 4
+  },
+  "iati-activity/transaction/provider-org/narrative": {
+    "dapp-activities": 28
+  },
+  "iati-activity/transaction/provider-org/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "dapp-activities": 10
+  },
+  "iati-activity/transaction/receiver-org": {
+    "dapp-activities": 28
+  },
+  "iati-activity/transaction/receiver-org/@receiver-activity-id": {
+    "dapp-activities": 24
+  },
+  "iati-activity/transaction/receiver-org/@ref": {
+    "dapp-activities": 24
+  },
+  "iati-activity/transaction/receiver-org/@type": {
+    "dapp-activities": 4
+  },
+  "iati-activity/transaction/receiver-org/narrative": {
+    "dapp-activities": 28
+  },
+  "iati-activity/transaction/receiver-org/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "dapp-activities": 10
+  },
+  "iati-activity/transaction/recipient-country": {
+    "dapp-activities": 1
+  },
+  "iati-activity/transaction/recipient-country/@code": {
+    "dapp-activities": 1
+  },
+  "iati-activity/transaction/recipient-country/narrative": {
+    "dapp-activities": 1
+  },
+  "iati-activity/transaction/recipient-country/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "dapp-activities": 1
+  },
+  "iati-activity/transaction/recipient-region": {
+    "dapp-activities": 1
+  },
+  "iati-activity/transaction/recipient-region/@code": {
+    "dapp-activities": 1
+  },
+  "iati-activity/transaction/recipient-region/@vocabulary": {
+    "dapp-activities": 1
+  },
+  "iati-activity/transaction/recipient-region/@vocabulary-uri": {
+    "dapp-activities": 1
+  },
+  "iati-activity/transaction/recipient-region/narrative": {
+    "dapp-activities": 1
+  },
+  "iati-activity/transaction/recipient-region/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "dapp-activities": 1
+  },
+  "iati-activity/transaction/sector": {
+    "dapp-activities": 1
+  },
+  "iati-activity/transaction/sector/@code": {
+    "dapp-activities": 1
+  },
+  "iati-activity/transaction/sector/@vocabulary": {
+    "dapp-activities": 1
+  },
+  "iati-activity/transaction/sector/@vocabulary-uri": {
+    "dapp-activities": 1
+  },
+  "iati-activity/transaction/sector/narrative": {
+    "dapp-activities": 1
+  },
+  "iati-activity/transaction/sector/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "dapp-activities": 1
+  },
+  "iati-activity/transaction/tied-status": {
+    "dapp-activities": 23
+  },
+  "iati-activity/transaction/tied-status/@code": {
+    "dapp-activities": 23
+  },
+  "iati-activity/transaction/transaction-date": {
+    "dapp-activities": 28
+  },
+  "iati-activity/transaction/transaction-date/@iso-date": {
+    "dapp-activities": 28
+  },
+  "iati-activity/transaction/transaction-type": {
+    "dapp-activities": 28
+  },
+  "iati-activity/transaction/transaction-type/@code": {
+    "dapp-activities": 28
+  },
+  "iati-activity/transaction/value": {
+    "dapp-activities": 28
+  },
+  "iati-activity/transaction/value/@currency": {
+    "dapp-activities": 5
+  },
+  "iati-activity/transaction/value/@value-date": {
+    "dapp-activities": 10
+  }
+}

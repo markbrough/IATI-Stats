@@ -1,0 +1,73 @@
+{
+  ".//@default-currency": {
+    "USD": {
+      "ff-activities": 2
+    }
+  },
+  ".//@xml:lang": {
+    "en": {
+      "ff-activities": 13
+    }
+  },
+  ".//activity-date/@type": {
+    "start-actual": {
+      "ff-activities": 2
+    },
+    "end-actual": {
+      "ff-activities": 2
+    }
+  },
+  ".//activity-status/@code": {
+    "4": {
+      "ff-activities": 2
+    }
+  },
+  ".//budget/value/@currency": {
+    "NPR": {
+      "ff-activities": 1
+    }
+  },
+  ".//description/@type": {
+    "1": {
+      "ff-activities": 2
+    }
+  },
+  ".//participating-org/@role": {
+    "Funding": {
+      "ff-activities": 1
+    }
+  },
+  ".//recipient-country/@code": {
+    "NP": {
+      "ff-activities": 2
+    }
+  },
+  ".//reporting-org/@type": {
+    "22": {
+      "ff-activities": 2
+    }
+  },
+  ".//sector/@vocabulary": {
+    "DAC": {
+      "ff-activities": 1
+    }
+  },
+  ".//sector[@vocabulary = 'DAC' or not(@vocabulary)]/@code": {
+    "15163": {
+      "ff-activities": 1
+    }
+  },
+  ".//transaction/transaction-type/@code": {
+    "IF": {
+      "ff-activities": 5
+    },
+    "E": {
+      "ff-activities": 1
+    }
+  },
+  ".//transaction/value/@currency": {
+    "NPR": {
+      "ff-activities": 4
+    }
+  }
+}

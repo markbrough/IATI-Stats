@@ -1,0 +1,258 @@
+{
+  ".//@default-currency": {
+    "CHF": {
+      "dcaf-mk": 1,
+      "dcaf-998": 1,
+      "dcaf-tn": 1
+    }
+  },
+  ".//@xml:lang": {
+    "en": {
+      "dcaf-mk": 18,
+      "dcaf-998": 30,
+      "dcaf-tn": 46
+    }
+  },
+  ".//activity-date/@type": {
+    "1": {
+      "dcaf-mk": 1
+    },
+    "2": {
+      "dcaf-mk": 1,
+      "dcaf-998": 1,
+      "dcaf-tn": 1
+    },
+    "3": {
+      "dcaf-mk": 1
+    }
+  },
+  ".//activity-status/@code": {
+    "2": {
+      "dcaf-mk": 1,
+      "dcaf-998": 1,
+      "dcaf-tn": 1
+    }
+  },
+  ".//budget/@status": {
+    "2": {
+      "dcaf-mk": 1
+    },
+    "1": {
+      "dcaf-998": 1,
+      "dcaf-tn": 1
+    }
+  },
+  ".//budget/@type": {
+    "1": {
+      "dcaf-mk": 1,
+      "dcaf-998": 1,
+      "dcaf-tn": 1
+    }
+  },
+  ".//budget/value/@currency": {
+    "CHF": {
+      "dcaf-mk": 1,
+      "dcaf-998": 1,
+      "dcaf-tn": 1
+    }
+  },
+  ".//description/@type": {
+    "1": {
+      "dcaf-mk": 1,
+      "dcaf-998": 1,
+      "dcaf-tn": 1
+    },
+    "2": {
+      "dcaf-mk": 1,
+      "dcaf-998": 1,
+      "dcaf-tn": 1
+    },
+    "3": {
+      "dcaf-mk": 1,
+      "dcaf-998": 1,
+      "dcaf-tn": 1
+    },
+    "4": {
+      "dcaf-mk": 1,
+      "dcaf-998": 1,
+      "dcaf-tn": 1
+    }
+  },
+  ".//document-link/@format": {
+    "application/pdf": {
+      "dcaf-998": 3,
+      "dcaf-tn": 2
+    },
+    "text/html": {
+      "dcaf-998": 1,
+      "dcaf-tn": 8
+    }
+  },
+  ".//document-link/category/@code": {
+    "B01": {
+      "dcaf-998": 2
+    },
+    "A12": {
+      "dcaf-998": 1,
+      "dcaf-tn": 8
+    },
+    "B02": {
+      "dcaf-998": 1
+    },
+    "B15": {
+      "dcaf-tn": 1
+    },
+    "A02": {
+      "dcaf-tn": 1
+    }
+  },
+  ".//document-link/language/@code": {
+    "en": {
+      "dcaf-998": 4,
+      "dcaf-tn": 6
+    },
+    "fr": {
+      "dcaf-tn": 4
+    }
+  },
+  ".//participating-org/@role": {
+    "1": {
+      "dcaf-mk": 1,
+      "dcaf-998": 15,
+      "dcaf-tn": 7
+    },
+    "2": {
+      "dcaf-mk": 1,
+      "dcaf-998": 1,
+      "dcaf-tn": 1
+    },
+    "4": {
+      "dcaf-mk": 1,
+      "dcaf-998": 1,
+      "dcaf-tn": 1
+    }
+  },
+  ".//participating-org/@type": {
+    "10": {
+      "dcaf-mk": 1,
+      "dcaf-998": 12,
+      "dcaf-tn": 7
+    },
+    "60": {
+      "dcaf-mk": 2,
+      "dcaf-998": 2,
+      "dcaf-tn": 2
+    },
+    "40": {
+      "dcaf-998": 3
+    }
+  },
+  ".//recipient-country/@code": {
+    "MK": {
+      "dcaf-mk": 1
+    },
+    "EG": {
+      "dcaf-tn": 1
+    },
+    "LY": {
+      "dcaf-tn": 1
+    },
+    "MA": {
+      "dcaf-tn": 1
+    },
+    "TN": {
+      "dcaf-tn": 1
+    }
+  },
+  ".//reporting-org/@type": {
+    "60": {
+      "dcaf-mk": 1,
+      "dcaf-998": 1,
+      "dcaf-tn": 1
+    }
+  },
+  ".//sector/@vocabulary": {
+    "1": {
+      "dcaf-mk": 1,
+      "dcaf-998": 1,
+      "dcaf-tn": 1
+    }
+  },
+  ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "15210": {
+      "dcaf-mk": 1,
+      "dcaf-998": 1,
+      "dcaf-tn": 1
+    }
+  },
+  ".//transaction/aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "B04": {
+      "dcaf-mk": 2,
+      "dcaf-tn": 8
+    },
+    "D01": {
+      "dcaf-tn": 1
+    }
+  },
+  ".//transaction/disbursement-channel/@code": {
+    "2": {
+      "dcaf-mk": 2,
+      "dcaf-tn": 7
+    },
+    "4": {
+      "dcaf-tn": 1
+    }
+  },
+  ".//transaction/finance-type/@code": {
+    "110": {
+      "dcaf-mk": 2,
+      "dcaf-tn": 7
+    }
+  },
+  ".//transaction/flow-type/@code": {
+    "10": {
+      "dcaf-mk": 2,
+      "dcaf-tn": 9
+    }
+  },
+  ".//transaction/provider-org/@type": {
+    "10": {
+      "dcaf-mk": 2,
+      "dcaf-tn": 8
+    }
+  },
+  ".//transaction/receiver-org/@type": {
+    "60": {
+      "dcaf-mk": 2,
+      "dcaf-tn": 6
+    },
+    "10": {
+      "dcaf-tn": 2
+    }
+  },
+  ".//transaction/tied-status/@code": {
+    "5": {
+      "dcaf-mk": 2,
+      "dcaf-tn": 9
+    }
+  },
+  ".//transaction/transaction-type/@code": {
+    "1": {
+      "dcaf-mk": 1,
+      "dcaf-tn": 8
+    },
+    "4": {
+      "dcaf-mk": 1,
+      "dcaf-tn": 1
+    }
+  },
+  ".//transaction/value/@currency": {
+    "CHF": {
+      "dcaf-mk": 2,
+      "dcaf-tn": 4
+    },
+    "EUR": {
+      "dcaf-tn": 5
+    }
+  }
+}

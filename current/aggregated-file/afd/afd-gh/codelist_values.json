@@ -1,0 +1,73 @@
+{
+  ".//@default-currency": {
+    "EUR": 18
+  },
+  ".//activity-date/@type": {
+    "start-planned": 10,
+    "end-planned": 2
+  },
+  ".//activity-status/@code": {
+    "2": 8,
+    "3": 2
+  },
+  ".//collaboration-type/@code": {
+    "1": 10
+  },
+  ".//default-aid-type/@code": {
+    "C01": 10
+  },
+  ".//default-finance-type/@code": {
+    "410": 8,
+    "110": 2
+  },
+  ".//default-flow-type/@code": {
+    "10": 10
+  },
+  ".//default-tied-status/@code": {
+    "5": 10
+  },
+  ".//document-link/@format": {
+    "text/html": 10
+  },
+  ".//document-link/category/@code": {
+    "A02": 10
+  },
+  ".//location/coordinates/@precision": {
+    "3": 10
+  },
+  ".//participating-org/@role": {
+    "Funding": 10,
+    "Extending": 10,
+    "Implementing": 10
+  },
+  ".//participating-org/@type": {
+    "10": 20
+  },
+  ".//recipient-country/@code": {
+    "GH": 10
+  },
+  ".//related-activity/@type": {
+    "2": 10,
+    "1": 10
+  },
+  ".//reporting-org/@type": {
+    "10": 10
+  },
+  ".//sector/@vocabulary": {
+    "DAC": 10,
+    "RO": 10
+  },
+  ".//sector[@vocabulary = 'DAC' or not(@vocabulary)]/@code": {
+    "43030": 2,
+    "32167": 1,
+    "16050": 1,
+    "31120": 1,
+    "31161": 2,
+    "14031": 1,
+    "21020": 2
+  },
+  ".//transaction/transaction-type/@code": {
+    "C": 10,
+    "D": 80
+  }
+}

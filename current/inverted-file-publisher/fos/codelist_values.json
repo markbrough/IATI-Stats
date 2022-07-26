@@ -1,0 +1,812 @@
+{
+  ".//@default-currency": {
+    "EUR": {
+      "fos-co": 1,
+      "fos-ec": 1,
+      "fos-cu": 1,
+      "fos-pe": 1,
+      "fos-bo": 1,
+      "fos-zw": 1,
+      "fos-ni": 1,
+      "fos-za": 1,
+      "fos-sv": 1,
+      "fos-hn": 1,
+      "fos-mz": 1,
+      "fos-be": 4
+    }
+  },
+  ".//@xml:lang": {
+    "nl": {
+      "fos-co": 12,
+      "fos-ec": 17,
+      "fos-cu": 32,
+      "fos-pe": 14,
+      "fos-bo": 15,
+      "fos-zw": 26,
+      "fos-ni": 17,
+      "fos-za": 28,
+      "fos-sv": 14,
+      "fos-hn": 16,
+      "fos-mz": 13,
+      "fos-be": 56
+    },
+    "es": {
+      "fos-co": 12,
+      "fos-ec": 7,
+      "fos-cu": 26,
+      "fos-pe": 18,
+      "fos-bo": 17,
+      "fos-ni": 10,
+      "fos-sv": 8,
+      "fos-hn": 7
+    },
+    "en": {
+      "fos-co": 1,
+      "fos-ec": 1,
+      "fos-cu": 2,
+      "fos-pe": 1,
+      "fos-bo": 1,
+      "fos-zw": 21,
+      "fos-ni": 1,
+      "fos-za": 25,
+      "fos-sv": 1,
+      "fos-hn": 1,
+      "fos-mz": 20,
+      "fos-be": 4
+    },
+    "pt": {
+      "fos-mz": 7
+    },
+    "fr": {
+      "fos-be": 8
+    }
+  },
+  ".//activity-date/@type": {
+    "1": {
+      "fos-co": 1,
+      "fos-ec": 1,
+      "fos-cu": 1,
+      "fos-pe": 1,
+      "fos-bo": 1,
+      "fos-zw": 1,
+      "fos-ni": 1,
+      "fos-za": 1,
+      "fos-sv": 1,
+      "fos-hn": 1,
+      "fos-mz": 1,
+      "fos-be": 4
+    },
+    "2": {
+      "fos-co": 1,
+      "fos-ec": 1,
+      "fos-cu": 1,
+      "fos-pe": 1,
+      "fos-bo": 1,
+      "fos-zw": 1,
+      "fos-ni": 1,
+      "fos-za": 1,
+      "fos-sv": 1,
+      "fos-hn": 1,
+      "fos-mz": 1,
+      "fos-be": 4
+    },
+    "3": {
+      "fos-co": 1,
+      "fos-ec": 1,
+      "fos-cu": 1,
+      "fos-pe": 1,
+      "fos-bo": 1,
+      "fos-zw": 1,
+      "fos-ni": 1,
+      "fos-za": 1,
+      "fos-sv": 1,
+      "fos-hn": 1,
+      "fos-mz": 1,
+      "fos-be": 4
+    }
+  },
+  ".//activity-status/@code": {
+    "2": {
+      "fos-co": 1,
+      "fos-ec": 1,
+      "fos-cu": 1,
+      "fos-pe": 1,
+      "fos-bo": 1,
+      "fos-zw": 1,
+      "fos-ni": 1,
+      "fos-za": 1,
+      "fos-sv": 1,
+      "fos-hn": 1,
+      "fos-mz": 1,
+      "fos-be": 4
+    }
+  },
+  ".//budget/@status": {
+    "2": {
+      "fos-co": 5,
+      "fos-ec": 5,
+      "fos-cu": 5,
+      "fos-pe": 5,
+      "fos-bo": 5,
+      "fos-zw": 5,
+      "fos-ni": 5,
+      "fos-za": 5,
+      "fos-sv": 5,
+      "fos-hn": 5,
+      "fos-mz": 5,
+      "fos-be": 20
+    }
+  },
+  ".//budget/@type": {
+    "1": {
+      "fos-co": 4,
+      "fos-ec": 4,
+      "fos-cu": 4,
+      "fos-pe": 4,
+      "fos-bo": 4,
+      "fos-zw": 4,
+      "fos-ni": 4,
+      "fos-za": 4,
+      "fos-sv": 4,
+      "fos-hn": 4,
+      "fos-mz": 4,
+      "fos-be": 16
+    },
+    "2": {
+      "fos-co": 1,
+      "fos-ec": 1,
+      "fos-cu": 1,
+      "fos-pe": 1,
+      "fos-bo": 1,
+      "fos-zw": 1,
+      "fos-ni": 1,
+      "fos-za": 1,
+      "fos-sv": 1,
+      "fos-hn": 1,
+      "fos-mz": 1,
+      "fos-be": 4
+    }
+  },
+  ".//budget/value/@currency": {
+    "EUR": {
+      "fos-co": 5,
+      "fos-ec": 5,
+      "fos-cu": 5,
+      "fos-pe": 4,
+      "fos-bo": 5,
+      "fos-zw": 5,
+      "fos-ni": 5,
+      "fos-za": 5,
+      "fos-sv": 5,
+      "fos-hn": 5,
+      "fos-mz": 5,
+      "fos-be": 20
+    }
+  },
+  ".//collaboration-type/@code": {
+    "1": {
+      "fos-co": 1,
+      "fos-ec": 1,
+      "fos-cu": 1,
+      "fos-pe": 1,
+      "fos-bo": 1,
+      "fos-zw": 1,
+      "fos-ni": 1,
+      "fos-za": 1,
+      "fos-sv": 1,
+      "fos-hn": 1,
+      "fos-mz": 1,
+      "fos-be": 4
+    }
+  },
+  ".//contact-info/@type": {
+    "3": {
+      "fos-co": 1,
+      "fos-ec": 1,
+      "fos-cu": 1,
+      "fos-pe": 1,
+      "fos-bo": 1,
+      "fos-zw": 1,
+      "fos-ni": 1,
+      "fos-za": 1,
+      "fos-sv": 1,
+      "fos-hn": 1,
+      "fos-mz": 1,
+      "fos-be": 4
+    },
+    "2": {
+      "fos-co": 1,
+      "fos-ec": 1,
+      "fos-cu": 1,
+      "fos-pe": 1,
+      "fos-bo": 1,
+      "fos-zw": 1,
+      "fos-ni": 1,
+      "fos-za": 1,
+      "fos-sv": 1,
+      "fos-hn": 1,
+      "fos-mz": 1,
+      "fos-be": 4
+    }
+  },
+  ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "C01": {
+      "fos-co": 1,
+      "fos-ec": 1,
+      "fos-cu": 1,
+      "fos-pe": 1,
+      "fos-bo": 1,
+      "fos-zw": 1,
+      "fos-ni": 1,
+      "fos-za": 1,
+      "fos-sv": 1,
+      "fos-hn": 1,
+      "fos-mz": 1,
+      "fos-be": 4
+    }
+  },
+  ".//default-finance-type/@code": {
+    "110": {
+      "fos-co": 1,
+      "fos-ec": 1,
+      "fos-cu": 1,
+      "fos-pe": 1,
+      "fos-bo": 1,
+      "fos-zw": 1,
+      "fos-ni": 1,
+      "fos-za": 1,
+      "fos-sv": 1,
+      "fos-hn": 1,
+      "fos-mz": 1,
+      "fos-be": 4
+    }
+  },
+  ".//default-flow-type/@code": {
+    "30": {
+      "fos-co": 1,
+      "fos-ec": 1,
+      "fos-cu": 1,
+      "fos-pe": 1,
+      "fos-bo": 1,
+      "fos-zw": 1,
+      "fos-ni": 1,
+      "fos-za": 1,
+      "fos-sv": 1,
+      "fos-hn": 1,
+      "fos-mz": 1,
+      "fos-be": 4
+    }
+  },
+  ".//default-tied-status/@code": {
+    "5": {
+      "fos-co": 1,
+      "fos-ec": 1,
+      "fos-cu": 1,
+      "fos-pe": 1,
+      "fos-bo": 1,
+      "fos-zw": 1,
+      "fos-ni": 1,
+      "fos-za": 1,
+      "fos-sv": 1,
+      "fos-hn": 1,
+      "fos-mz": 1,
+      "fos-be": 4
+    }
+  },
+  ".//description/@type": {
+    "1": {
+      "fos-co": 1,
+      "fos-ec": 1,
+      "fos-cu": 1,
+      "fos-pe": 1,
+      "fos-bo": 1,
+      "fos-zw": 1,
+      "fos-ni": 1,
+      "fos-za": 1,
+      "fos-sv": 1,
+      "fos-hn": 1,
+      "fos-mz": 1,
+      "fos-be": 4
+    }
+  },
+  ".//document-link/@format": {
+    "application/pdf": {
+      "fos-be": 1
+    }
+  },
+  ".//document-link/category/@code": {
+    "A02": {
+      "fos-be": 1
+    }
+  },
+  ".//location/exactness/@code": {
+    "2": {
+      "fos-co": 8,
+      "fos-ec": 9,
+      "fos-cu": 1,
+      "fos-bo": 5,
+      "fos-zw": 2,
+      "fos-ni": 8,
+      "fos-za": 2,
+      "fos-sv": 3,
+      "fos-hn": 1,
+      "fos-mz": 8,
+      "fos-be": 2
+    },
+    "1": {
+      "fos-co": 5,
+      "fos-ec": 2,
+      "fos-bo": 2,
+      "fos-ni": 1,
+      "fos-hn": 5
+    }
+  },
+  ".//location/location-class/@code": {
+    "1": {
+      "fos-co": 13,
+      "fos-ec": 11,
+      "fos-cu": 1,
+      "fos-bo": 7,
+      "fos-zw": 2,
+      "fos-ni": 9,
+      "fos-za": 2,
+      "fos-sv": 3,
+      "fos-hn": 6,
+      "fos-mz": 8,
+      "fos-be": 2
+    }
+  },
+  ".//other-identifier/@type": {
+    "A9": {
+      "fos-be": 1
+    }
+  },
+  ".//participating-org/@role": {
+    "4": {
+      "fos-co": 4,
+      "fos-ec": 5,
+      "fos-cu": 9,
+      "fos-pe": 5,
+      "fos-bo": 5,
+      "fos-zw": 5,
+      "fos-ni": 6,
+      "fos-za": 7,
+      "fos-sv": 5,
+      "fos-hn": 5,
+      "fos-mz": 5,
+      "fos-be": 5
+    },
+    "2": {
+      "fos-co": 3,
+      "fos-ec": 1,
+      "fos-cu": 2,
+      "fos-pe": 2,
+      "fos-bo": 2,
+      "fos-zw": 1,
+      "fos-ni": 1,
+      "fos-za": 1,
+      "fos-sv": 1,
+      "fos-hn": 1,
+      "fos-mz": 1,
+      "fos-be": 10
+    },
+    "1": {
+      "fos-co": 2,
+      "fos-ec": 2,
+      "fos-cu": 2,
+      "fos-pe": 2,
+      "fos-bo": 2,
+      "fos-zw": 2,
+      "fos-ni": 2,
+      "fos-za": 2,
+      "fos-sv": 2,
+      "fos-hn": 2,
+      "fos-mz": 2,
+      "fos-be": 8
+    }
+  },
+  ".//participating-org/@type": {
+    "22": {
+      "fos-co": 5,
+      "fos-ec": 6,
+      "fos-cu": 7,
+      "fos-pe": 6,
+      "fos-bo": 8,
+      "fos-zw": 5,
+      "fos-ni": 3,
+      "fos-za": 7,
+      "fos-sv": 5,
+      "fos-hn": 4,
+      "fos-mz": 3,
+      "fos-be": 18
+    },
+    "23": {
+      "fos-co": 3,
+      "fos-ec": 1,
+      "fos-cu": 5,
+      "fos-pe": 2,
+      "fos-zw": 2,
+      "fos-ni": 5,
+      "fos-za": 2,
+      "fos-sv": 2,
+      "fos-hn": 3,
+      "fos-mz": 4
+    },
+    "10": {
+      "fos-co": 1,
+      "fos-ec": 1,
+      "fos-cu": 1,
+      "fos-pe": 1,
+      "fos-bo": 1,
+      "fos-zw": 1,
+      "fos-ni": 1,
+      "fos-za": 1,
+      "fos-sv": 1,
+      "fos-hn": 1,
+      "fos-mz": 1,
+      "fos-be": 4
+    },
+    "21": {
+      "fos-be": 1
+    }
+  },
+  ".//policy-marker/@significance": {
+    "1": {
+      "fos-co": 4,
+      "fos-ec": 4,
+      "fos-cu": 4,
+      "fos-pe": 5,
+      "fos-bo": 5,
+      "fos-zw": 5,
+      "fos-ni": 4,
+      "fos-za": 5,
+      "fos-sv": 4,
+      "fos-hn": 4,
+      "fos-mz": 5,
+      "fos-be": 7
+    }
+  },
+  ".//policy-marker/@vocabulary": {
+    "1": {
+      "fos-co": 4,
+      "fos-ec": 4,
+      "fos-cu": 4,
+      "fos-pe": 5,
+      "fos-bo": 5,
+      "fos-zw": 5,
+      "fos-ni": 4,
+      "fos-za": 5,
+      "fos-sv": 4,
+      "fos-hn": 4,
+      "fos-mz": 3,
+      "fos-be": 7
+    }
+  },
+  ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "1": {
+      "fos-co": 1,
+      "fos-ec": 1,
+      "fos-cu": 1,
+      "fos-pe": 1,
+      "fos-bo": 1,
+      "fos-zw": 1,
+      "fos-ni": 1,
+      "fos-za": 1,
+      "fos-sv": 1,
+      "fos-hn": 1,
+      "fos-mz": 1,
+      "fos-be": 2
+    },
+    "3": {
+      "fos-co": 1,
+      "fos-ec": 1,
+      "fos-cu": 1,
+      "fos-pe": 1,
+      "fos-bo": 1,
+      "fos-zw": 1,
+      "fos-ni": 1,
+      "fos-za": 1,
+      "fos-sv": 1,
+      "fos-hn": 1,
+      "fos-mz": 1,
+      "fos-be": 2
+    },
+    "9": {
+      "fos-co": 1,
+      "fos-ec": 1,
+      "fos-cu": 1,
+      "fos-pe": 1,
+      "fos-bo": 1,
+      "fos-zw": 1,
+      "fos-ni": 1,
+      "fos-za": 1,
+      "fos-sv": 1,
+      "fos-hn": 1,
+      "fos-mz": 1,
+      "fos-be": 1
+    },
+    "2": {
+      "fos-co": 1,
+      "fos-cu": 1,
+      "fos-pe": 1,
+      "fos-bo": 1,
+      "fos-zw": 1,
+      "fos-za": 1,
+      "fos-mz": 1,
+      "fos-be": 2
+    },
+    "6": {
+      "fos-ec": 1,
+      "fos-pe": 1,
+      "fos-bo": 1,
+      "fos-zw": 1,
+      "fos-ni": 1,
+      "fos-za": 1,
+      "fos-sv": 1,
+      "fos-hn": 1,
+      "fos-mz": 1
+    }
+  },
+  ".//recipient-country/@code": {
+    "CO": {
+      "fos-co": 1,
+      "fos-be": 1
+    },
+    "EC": {
+      "fos-ec": 1,
+      "fos-be": 1
+    },
+    "CU": {
+      "fos-cu": 1,
+      "fos-be": 1
+    },
+    "PE": {
+      "fos-pe": 1,
+      "fos-be": 1
+    },
+    "BO": {
+      "fos-bo": 1,
+      "fos-be": 1
+    },
+    "ZW": {
+      "fos-zw": 1,
+      "fos-be": 1
+    },
+    "NI": {
+      "fos-ni": 1,
+      "fos-be": 1
+    },
+    "ZA": {
+      "fos-za": 1,
+      "fos-be": 1
+    },
+    "SV": {
+      "fos-sv": 1,
+      "fos-be": 1
+    },
+    "HN": {
+      "fos-hn": 1,
+      "fos-be": 1
+    },
+    "MZ": {
+      "fos-mz": 1,
+      "fos-be": 1
+    },
+    "BE": {
+      "fos-be": 4
+    }
+  },
+  ".//related-activity/@type": {
+    "2": {
+      "fos-co": 1,
+      "fos-ec": 1,
+      "fos-cu": 1,
+      "fos-pe": 1,
+      "fos-bo": 1,
+      "fos-zw": 1,
+      "fos-ni": 1,
+      "fos-za": 1,
+      "fos-sv": 1,
+      "fos-hn": 1,
+      "fos-mz": 1,
+      "fos-be": 3
+    }
+  },
+  ".//reporting-org/@type": {
+    "22": {
+      "fos-co": 1,
+      "fos-ec": 1,
+      "fos-cu": 1,
+      "fos-pe": 1,
+      "fos-bo": 1,
+      "fos-zw": 1,
+      "fos-ni": 1,
+      "fos-za": 1,
+      "fos-sv": 1,
+      "fos-hn": 1,
+      "fos-mz": 1,
+      "fos-be": 4
+    }
+  },
+  ".//result/@type": {
+    "2": {
+      "fos-co": 1,
+      "fos-ec": 1,
+      "fos-cu": 1,
+      "fos-pe": 1,
+      "fos-bo": 1,
+      "fos-zw": 1,
+      "fos-ni": 1,
+      "fos-za": 1,
+      "fos-sv": 1,
+      "fos-hn": 1,
+      "fos-mz": 1,
+      "fos-be": 2
+    }
+  },
+  ".//result/indicator/@measure": {
+    "1": {
+      "fos-co": 1,
+      "fos-ec": 2,
+      "fos-pe": 2,
+      "fos-bo": 2,
+      "fos-zw": 2,
+      "fos-ni": 2,
+      "fos-za": 2,
+      "fos-sv": 2,
+      "fos-hn": 2,
+      "fos-mz": 2,
+      "fos-be": 4
+    },
+    "2": {
+      "fos-cu": 4
+    }
+  },
+  ".//sector/@vocabulary": {
+    "1": {
+      "fos-co": 1,
+      "fos-ec": 1,
+      "fos-cu": 1,
+      "fos-pe": 1,
+      "fos-bo": 1,
+      "fos-zw": 1,
+      "fos-ni": 1,
+      "fos-za": 1,
+      "fos-sv": 1,
+      "fos-hn": 1,
+      "fos-mz": 1,
+      "fos-be": 5
+    }
+  },
+  ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "15150": {
+      "fos-co": 1,
+      "fos-ec": 1,
+      "fos-cu": 1,
+      "fos-pe": 1,
+      "fos-bo": 1,
+      "fos-zw": 1,
+      "fos-ni": 1,
+      "fos-za": 1,
+      "fos-sv": 1,
+      "fos-hn": 1,
+      "fos-mz": 1,
+      "fos-be": 2
+    },
+    "99820": {
+      "fos-be": 2
+    },
+    "91010": {
+      "fos-be": 1
+    }
+  },
+  ".//transaction/provider-org/@type": {
+    "22": {
+      "fos-co": 1,
+      "fos-ec": 1,
+      "fos-cu": 1,
+      "fos-pe": 1,
+      "fos-bo": 1,
+      "fos-zw": 3,
+      "fos-ni": 2,
+      "fos-za": 1,
+      "fos-sv": 1,
+      "fos-hn": 1,
+      "fos-mz": 1,
+      "fos-be": 8
+    },
+    "10": {
+      "fos-be": 5
+    }
+  },
+  ".//transaction/receiver-org/@type": {
+    "23": {
+      "fos-co": 6,
+      "fos-ec": 2,
+      "fos-cu": 10,
+      "fos-pe": 4,
+      "fos-zw": 4,
+      "fos-ni": 10,
+      "fos-za": 4,
+      "fos-sv": 4,
+      "fos-hn": 6,
+      "fos-mz": 7
+    },
+    "22": {
+      "fos-co": 1,
+      "fos-ec": 6,
+      "fos-cu": 4,
+      "fos-pe": 4,
+      "fos-bo": 7,
+      "fos-zw": 3,
+      "fos-za": 8,
+      "fos-sv": 4,
+      "fos-hn": 3,
+      "fos-be": 6
+    }
+  },
+  ".//transaction/transaction-type/@code": {
+    "2": {
+      "fos-co": 3,
+      "fos-ec": 4,
+      "fos-cu": 8,
+      "fos-pe": 4,
+      "fos-bo": 4,
+      "fos-zw": 4,
+      "fos-ni": 5,
+      "fos-za": 6,
+      "fos-sv": 4,
+      "fos-hn": 4,
+      "fos-mz": 4
+    },
+    "3": {
+      "fos-co": 3,
+      "fos-ec": 4,
+      "fos-cu": 8,
+      "fos-pe": 4,
+      "fos-bo": 4,
+      "fos-zw": 4,
+      "fos-ni": 5,
+      "fos-za": 6,
+      "fos-sv": 4,
+      "fos-hn": 4,
+      "fos-mz": 3
+    },
+    "4": {
+      "fos-co": 1,
+      "fos-ec": 1,
+      "fos-cu": 1,
+      "fos-pe": 1,
+      "fos-bo": 1,
+      "fos-zw": 1,
+      "fos-ni": 1,
+      "fos-za": 1,
+      "fos-sv": 1,
+      "fos-hn": 1,
+      "fos-mz": 1,
+      "fos-be": 3
+    },
+    "11": {
+      "fos-be": 5
+    },
+    "1": {
+      "fos-be": 5
+    }
+  },
+  ".//transaction/value/@currency": {
+    "EUR": {
+      "fos-co": 7,
+      "fos-ec": 9,
+      "fos-cu": 17,
+      "fos-pe": 9,
+      "fos-bo": 9,
+      "fos-zw": 9,
+      "fos-ni": 11,
+      "fos-za": 13,
+      "fos-sv": 9,
+      "fos-hn": 9,
+      "fos-mz": 8,
+      "fos-be": 13
+    }
+  }
+}

@@ -1,0 +1,207 @@
+{
+  "1": {
+    ".//@default-currency": {
+      "GBP": 1
+    },
+    ".//activity-date/@type": {
+      "start-actual": 1,
+      "end-planned": 1
+    },
+    ".//activity-status/@code": {
+      "2": 1
+    },
+    ".//budget/@type": {
+      "1": 5
+    },
+    ".//budget/value/@currency": {
+      "USD": 3,
+      "CHF": 2
+    },
+    ".//collaboration-type/@code": {
+      "2": 1
+    },
+    ".//default-aid-type/@code": {
+      "B02": 1
+    },
+    ".//default-finance-type/@code": {
+      "110": 1
+    },
+    ".//default-flow-type/@code": {
+      "10": 1
+    },
+    ".//default-tied-status/@code": {
+      "5": 1
+    },
+    ".//description/@type": {
+      "1": 1
+    },
+    ".//participating-org/@role": {
+      "Extending": 1,
+      "Implementing": 1,
+      "Funding": 1
+    },
+    ".//participating-org/@type": {
+      "10": 2,
+      "40": 1
+    },
+    ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "998": 1
+    },
+    ".//reporting-org/@type": {
+      "10": 1
+    },
+    ".//sector[@vocabulary = 'DAC' or not(@vocabulary)]/@code": {
+      "12110": 1
+    },
+    ".//sector/@vocabulary": {
+      "DAC": 1
+    },
+    ".//transaction/aid-type/@code": {
+      "B02": 2
+    },
+    ".//transaction/disbursement-channel/@code": {
+      "2": 2
+    },
+    ".//transaction/finance-type/@code": {
+      "110": 2
+    },
+    ".//transaction/flow-type/@code": {
+      "10": 2
+    },
+    ".//transaction/tied-status/@code": {
+      "5": 2
+    },
+    ".//transaction/transaction-type/@code": {
+      "D": 1,
+      "C": 1
+    },
+    ".//transaction/value/@currency": {
+      "USD": 2
+    },
+    ".//@xml:lang": {
+      "en": 26
+    }
+  },
+  "2": {
+    ".//@default-currency": {
+      "GBP": 8
+    },
+    ".//activity-date/@type": {
+      "1": 8,
+      "3": 9,
+      "2": 4
+    },
+    ".//activity-status/@code": {
+      "2": 8
+    },
+    ".//budget/@status": {
+      "2": 40
+    },
+    ".//budget/@type": {
+      "1": 40
+    },
+    ".//budget/value/@currency": {
+      "GBP": 40
+    },
+    ".//collaboration-type/@code": {
+      "1": 8
+    },
+    ".//contact-info/@type": {
+      "1": 8,
+      "2": 8,
+      "3": 8,
+      "4": 8
+    },
+    ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "C01": 8
+    },
+    ".//default-finance-type/@code": {
+      "110": 8
+    },
+    ".//default-flow-type/@code": {
+      "10": 8
+    },
+    ".//default-tied-status/@code": {
+      "5": 8
+    },
+    ".//description/@type": {
+      "1": 8,
+      "2": 8,
+      "3": 7
+    },
+    ".//participating-org/@role": {
+      "4": 8,
+      "1": 8
+    },
+    ".//participating-org/@type": {
+      "10": 15,
+      "80": 1
+    },
+    ".//planned-disbursement/@type": {
+      "1": 89,
+      "2": 18
+    },
+    ".//planned-disbursement/provider-org/@type": {
+      "10": 107,
+      "80": 1
+    },
+    ".//planned-disbursement/receiver-org/@type": {
+      "10": 68,
+      "80": 40
+    },
+    ".//planned-disbursement/value/@currency": {
+      "GBP": 108
+    },
+    ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "998": 8
+    },
+    ".//recipient-region/@vocabulary": {
+      "1": 8
+    },
+    ".//related-activity/@type": {
+      "3": 36
+    },
+    ".//reporting-org/@type": {
+      "10": 8
+    },
+    ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "12182": 7,
+      "12110": 1,
+      "12250": 1
+    },
+    ".//sector/@vocabulary": {
+      "1": 9
+    },
+    ".//transaction/aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "C01": 60
+    },
+    ".//transaction/disbursement-channel/@code": {
+      "2": 60
+    },
+    ".//transaction/finance-type/@code": {
+      "110": 60
+    },
+    ".//transaction/flow-type/@code": {
+      "10": 60
+    },
+    ".//transaction/provider-org/@type": {
+      "10": 60
+    },
+    ".//transaction/receiver-org/@type": {
+      "80": 37,
+      "10": 23
+    },
+    ".//transaction/tied-status/@code": {
+      "5": 60
+    },
+    ".//transaction/transaction-type/@code": {
+      "3": 60
+    },
+    ".//transaction/value/@currency": {
+      "GBP": 58
+    },
+    ".//@xml:lang": {
+      "en": 222
+    }
+  }
+}

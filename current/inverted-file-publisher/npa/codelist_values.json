@@ -1,0 +1,402 @@
+{
+  ".//@default-currency": {
+    "BAM": {
+      "npa-589": 1,
+      "npa-ba": 1,
+      "npa-88": 1
+    }
+  },
+  ".//@xml:lang": {
+    "en": {
+      "npa-589": 32,
+      "npa-ba": 36,
+      "npa-88": 84
+    }
+  },
+  ".//activity-date/@type": {
+    "2": {
+      "npa-589": 1,
+      "npa-ba": 1,
+      "npa-88": 1
+    },
+    "3": {
+      "npa-ba": 1,
+      "npa-88": 1
+    }
+  },
+  ".//activity-scope/@code": {
+    "4": {
+      "npa-589": 1
+    },
+    "6": {
+      "npa-ba": 1,
+      "npa-88": 1
+    }
+  },
+  ".//activity-status/@code": {
+    "2": {
+      "npa-589": 1,
+      "npa-ba": 1,
+      "npa-88": 1
+    }
+  },
+  ".//budget/@status": {
+    "2": {
+      "npa-589": 1,
+      "npa-ba": 1,
+      "npa-88": 1
+    }
+  },
+  ".//budget/@type": {
+    "1": {
+      "npa-589": 1,
+      "npa-ba": 1,
+      "npa-88": 1
+    }
+  },
+  ".//budget/value/@currency": {
+    "USD": {
+      "npa-589": 1
+    },
+    "BAM": {
+      "npa-ba": 1,
+      "npa-88": 1
+    }
+  },
+  ".//collaboration-type/@code": {
+    "1": {
+      "npa-589": 1
+    },
+    "2": {
+      "npa-ba": 1,
+      "npa-88": 1
+    }
+  },
+  ".//conditions/condition/@type": {
+    "2": {
+      "npa-589": 1,
+      "npa-ba": 1,
+      "npa-88": 1
+    }
+  },
+  ".//contact-info/@type": {
+    "2": {
+      "npa-589": 1,
+      "npa-ba": 1,
+      "npa-88": 1
+    },
+    "4": {
+      "npa-589": 1
+    },
+    "3": {
+      "npa-ba": 1,
+      "npa-88": 1
+    },
+    "1": {
+      "npa-ba": 1,
+      "npa-88": 1
+    }
+  },
+  ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "B03": {
+      "npa-589": 1,
+      "npa-ba": 1,
+      "npa-88": 1
+    }
+  },
+  ".//default-finance-type/@code": {
+    "110": {
+      "npa-589": 1,
+      "npa-ba": 1,
+      "npa-88": 1
+    }
+  },
+  ".//default-flow-type/@code": {
+    "10": {
+      "npa-589": 1,
+      "npa-ba": 1,
+      "npa-88": 1
+    }
+  },
+  ".//default-tied-status/@code": {
+    "3": {
+      "npa-589": 1
+    },
+    "4": {
+      "npa-ba": 1,
+      "npa-88": 1
+    }
+  },
+  ".//description/@type": {
+    "1": {
+      "npa-589": 1
+    },
+    "2": {
+      "npa-ba": 1,
+      "npa-88": 1
+    }
+  },
+  ".//location/administrative/@vocabulary": {
+    "G1": {
+      "npa-ba": 1,
+      "npa-88": 1
+    }
+  },
+  ".//location/exactness/@code": {
+    "2": {
+      "npa-589": 1,
+      "npa-ba": 1,
+      "npa-88": 1
+    }
+  },
+  ".//location/feature-designation/@code": {
+    "BLDG": {
+      "npa-589": 1
+    },
+    "RGN": {
+      "npa-ba": 1,
+      "npa-88": 1
+    }
+  },
+  ".//location/location-class/@code": {
+    "1": {
+      "npa-589": 1,
+      "npa-ba": 1,
+      "npa-88": 1
+    }
+  },
+  ".//location/location-id/@vocabulary": {
+    "G1": {
+      "npa-ba": 1,
+      "npa-88": 1
+    }
+  },
+  ".//location/location-reach/@code": {
+    "1": {
+      "npa-589": 1,
+      "npa-ba": 1,
+      "npa-88": 1
+    }
+  },
+  ".//other-identifier/@type": {
+    "A3": {
+      "npa-589": 1
+    }
+  },
+  ".//participating-org/@role": {
+    "4": {
+      "npa-589": 1,
+      "npa-ba": 1,
+      "npa-88": 1
+    }
+  },
+  ".//participating-org/@type": {
+    "21": {
+      "npa-589": 1,
+      "npa-ba": 1,
+      "npa-88": 1
+    }
+  },
+  ".//planned-disbursement/@type": {
+    "1": {
+      "npa-589": 1,
+      "npa-ba": 1,
+      "npa-88": 1
+    }
+  },
+  ".//planned-disbursement/provider-org/@type": {
+    "GRANT": {
+      "npa-589": 1
+    },
+    "Grant": {
+      "npa-ba": 1,
+      "npa-88": 1
+    }
+  },
+  ".//planned-disbursement/receiver-org/@type": {
+    "GRANT": {
+      "npa-589": 1
+    },
+    "Grant": {
+      "npa-ba": 1,
+      "npa-88": 1
+    }
+  },
+  ".//planned-disbursement/value/@currency": {
+    "USD": {
+      "npa-589": 1
+    },
+    "BAM": {
+      "npa-ba": 1,
+      "npa-88": 1
+    }
+  },
+  ".//policy-marker/@significance": {
+    "1": {
+      "npa-589": 1,
+      "npa-ba": 1,
+      "npa-88": 1
+    }
+  },
+  ".//policy-marker/@vocabulary": {
+    "99": {
+      "npa-589": 1
+    },
+    "1": {
+      "npa-ba": 1,
+      "npa-88": 1
+    }
+  },
+  ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "3": {
+      "npa-ba": 1,
+      "npa-88": 1
+    }
+  },
+  ".//recipient-country/@code": {
+    "IQ": {
+      "npa-589": 1
+    },
+    "BA": {
+      "npa-ba": 1,
+      "npa-88": 1
+    }
+  },
+  ".//recipient-region/@vocabulary": {
+    "1": {
+      "npa-589": 1
+    },
+    "99": {
+      "npa-ba": 1,
+      "npa-88": 1
+    }
+  },
+  ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "589": {
+      "npa-589": 1
+    }
+  },
+  ".//reporting-org/@type": {
+    "21": {
+      "npa-589": 1,
+      "npa-ba": 1,
+      "npa-88": 1
+    }
+  },
+  ".//result/@type": {
+    "2": {
+      "npa-589": 1
+    },
+    "1": {
+      "npa-ba": 1,
+      "npa-88": 6
+    }
+  },
+  ".//result/indicator/@measure": {
+    "2": {
+      "npa-589": 1,
+      "npa-ba": 1,
+      "npa-88": 6
+    }
+  },
+  ".//result/indicator/reference/@vocabulary": {
+    "99": {
+      "npa-589": 1,
+      "npa-88": 1
+    }
+  },
+  ".//sector/@vocabulary": {
+    "99": {
+      "npa-589": 1
+    },
+    "1": {
+      "npa-ba": 1,
+      "npa-88": 21
+    }
+  },
+  ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "15250": {
+      "npa-ba": 1,
+      "npa-88": 21
+    }
+  },
+  ".//transaction/aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "B01": {
+      "npa-589": 1
+    },
+    "B03": {
+      "npa-88": 2
+    }
+  },
+  ".//transaction/disbursement-channel/@code": {
+    "1": {
+      "npa-589": 1,
+      "npa-88": 18
+    },
+    "2": {
+      "npa-88": 2
+    }
+  },
+  ".//transaction/finance-type/@code": {
+    "110": {
+      "npa-589": 1,
+      "npa-88": 2
+    }
+  },
+  ".//transaction/flow-type/@code": {
+    "10": {
+      "npa-88": 2
+    }
+  },
+  ".//transaction/provider-org/@type": {
+    "10": {
+      "npa-589": 1
+    }
+  },
+  ".//transaction/receiver-org/@type": {
+    "21": {
+      "npa-589": 1
+    }
+  },
+  ".//transaction/sector/@vocabulary": {
+    "99": {
+      "npa-589": 1
+    },
+    "1": {
+      "npa-88": 21
+    }
+  },
+  ".//transaction/sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "15250": {
+      "npa-88": 21
+    }
+  },
+  ".//transaction/tied-status/@code": {
+    "3": {
+      "npa-589": 1
+    },
+    "4": {
+      "npa-88": 2
+    }
+  },
+  ".//transaction/transaction-type/@code": {
+    "1": {
+      "npa-589": 1,
+      "npa-88": 1
+    },
+    "4": {
+      "npa-88": 19
+    },
+    "2": {
+      "npa-88": 1
+    }
+  },
+  ".//transaction/value/@currency": {
+    "USD": {
+      "npa-589": 1
+    },
+    "BAM": {
+      "npa-88": 20
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  ".//@default-currency": {
+    "EUR": 4
+  },
+  ".//@xml:lang": {
+    "en": 4
+  },
+  ".//activity-date/@type": {
+    "1": 4,
+    "3": 4
+  },
+  ".//activity-status/@code": {
+    "1": 4
+  },
+  ".//budget/@type": {
+    "1": 4
+  },
+  ".//budget/value/@currency": {
+    "EUR": 4
+  },
+  ".//description/@type": {
+    "1": 4
+  },
+  ".//participating-org/@role": {
+    "4": 5
+  },
+  ".//reporting-org/@type": {
+    "21": 4
+  },
+  ".//sector/@vocabulary": {
+    "98": 9,
+    "1": 7,
+    "2": 2
+  },
+  ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "16010": 7
+  },
+  ".//sector[@vocabulary = '2']/@code": {
+    "160": 1,
+    "112": 1
+  }
+}

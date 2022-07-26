@@ -1,0 +1,82 @@
+{
+  ".//@default-currency": {
+    "USD": 10
+  },
+  ".//@xml:lang": {
+    "en": 10
+  },
+  ".//activity-date/@type": {
+    "1": 10,
+    "2": 10,
+    "3": 10,
+    "4": 9
+  },
+  ".//activity-scope/@code": {
+    "4": 10
+  },
+  ".//activity-status/@code": {
+    "3": 9,
+    "2": 1
+  },
+  ".//collaboration-type/@code": {
+    "1": 10
+  },
+  ".//contact-info/@type": {
+    "1": 10
+  },
+  ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "G01": 6,
+    "C01": 4
+  },
+  ".//default-finance-type/@code": {
+    "110": 10
+  },
+  ".//default-flow-type/@code": {
+    "10": 10
+  },
+  ".//default-tied-status/@code": {
+    "4": 6,
+    "5": 4
+  },
+  ".//participating-org/@role": {
+    "1": 10,
+    "2": 10,
+    "3": 10,
+    "4": 10
+  },
+  ".//participating-org/@type": {
+    "10": 34,
+    "": 6
+  },
+  ".//recipient-country/@code": {
+    "JP": 10
+  },
+  ".//reporting-org/@type": {
+    "10": 10
+  },
+  ".//sector/@vocabulary": {
+    "1": 20,
+    "99": 17
+  },
+  ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "91010": 4,
+    "43010": 3,
+    "72010": 13
+  },
+  ".//transaction/disbursement-channel/@code": {
+    "2": 17
+  },
+  ".//transaction/sector/@vocabulary": {
+    "1": 20,
+    "99": 17
+  },
+  ".//transaction/sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "91010": 4,
+    "43010": 3,
+    "72010": 13
+  },
+  ".//transaction/transaction-type/@code": {
+    "2": 9,
+    "3": 11
+  }
+}

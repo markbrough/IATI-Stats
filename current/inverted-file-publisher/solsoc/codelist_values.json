@@ -1,0 +1,677 @@
+{
+  ".//@default-currency": {
+    "EUR": {
+      "solsoc-ma": 1,
+      "solsoc-ps": 2,
+      "solsoc-cd": 1,
+      "solsoc-co": 1,
+      "solsoc-sn": 1,
+      "solsoc-bo": 1,
+      "solsoc-be": 3,
+      "solsoc-bf": 1,
+      "solsoc-bi": 2
+    }
+  },
+  ".//@xml:lang": {
+    "fr": {
+      "solsoc-ma": 44,
+      "solsoc-ps": 55,
+      "solsoc-cd": 9,
+      "solsoc-co": 15,
+      "solsoc-sn": 36,
+      "solsoc-bo": 16,
+      "solsoc-be": 53,
+      "solsoc-bf": 37,
+      "solsoc-bi": 57
+    },
+    "en": {
+      "solsoc-ma": 1,
+      "solsoc-ps": 7,
+      "solsoc-cd": 1,
+      "solsoc-co": 1,
+      "solsoc-sn": 1,
+      "solsoc-bo": 1,
+      "solsoc-be": 4,
+      "solsoc-bf": 1,
+      "solsoc-bi": 2
+    },
+    "es": {
+      "solsoc-co": 5,
+      "solsoc-bo": 7
+    },
+    "ga": {
+      "solsoc-bi": 1
+    }
+  },
+  ".//activity-date/@type": {
+    "2": {
+      "solsoc-ma": 1,
+      "solsoc-ps": 2,
+      "solsoc-cd": 1,
+      "solsoc-co": 1,
+      "solsoc-sn": 1,
+      "solsoc-bo": 1,
+      "solsoc-be": 2,
+      "solsoc-bf": 1,
+      "solsoc-bi": 2
+    },
+    "3": {
+      "solsoc-ma": 1,
+      "solsoc-ps": 2,
+      "solsoc-cd": 1,
+      "solsoc-co": 1,
+      "solsoc-sn": 1,
+      "solsoc-bo": 1,
+      "solsoc-be": 3,
+      "solsoc-bf": 1,
+      "solsoc-bi": 2
+    },
+    "1": {
+      "solsoc-be": 1
+    }
+  },
+  ".//activity-scope/@code": {
+    "4": {
+      "solsoc-be": 1
+    }
+  },
+  ".//activity-status/@code": {
+    "2": {
+      "solsoc-ma": 1,
+      "solsoc-ps": 2,
+      "solsoc-cd": 1,
+      "solsoc-co": 1,
+      "solsoc-sn": 1,
+      "solsoc-bo": 1,
+      "solsoc-be": 3,
+      "solsoc-bf": 1,
+      "solsoc-bi": 2
+    }
+  },
+  ".//budget/@status": {
+    "2": {
+      "solsoc-ma": 5,
+      "solsoc-ps": 10,
+      "solsoc-cd": 5,
+      "solsoc-co": 5,
+      "solsoc-sn": 5,
+      "solsoc-bo": 5,
+      "solsoc-be": 15,
+      "solsoc-bf": 5,
+      "solsoc-bi": 6
+    },
+    "1": {
+      "solsoc-bi": 4
+    }
+  },
+  ".//budget/@type": {
+    "1": {
+      "solsoc-ma": 5,
+      "solsoc-ps": 10,
+      "solsoc-cd": 5,
+      "solsoc-co": 5,
+      "solsoc-sn": 5,
+      "solsoc-bo": 5,
+      "solsoc-be": 15,
+      "solsoc-bf": 5,
+      "solsoc-bi": 9
+    }
+  },
+  ".//budget/value/@currency": {
+    "EUR": {
+      "solsoc-ma": 5,
+      "solsoc-ps": 10,
+      "solsoc-cd": 5,
+      "solsoc-co": 5,
+      "solsoc-sn": 5,
+      "solsoc-bo": 5,
+      "solsoc-be": 14,
+      "solsoc-bf": 5,
+      "solsoc-bi": 9
+    }
+  },
+  ".//collaboration-type/@code": {
+    "1": {
+      "solsoc-ma": 1,
+      "solsoc-ps": 2,
+      "solsoc-cd": 1,
+      "solsoc-co": 1,
+      "solsoc-sn": 1,
+      "solsoc-bo": 1,
+      "solsoc-be": 3,
+      "solsoc-bf": 1,
+      "solsoc-bi": 2
+    }
+  },
+  ".//contact-info/@type": {
+    "1": {
+      "solsoc-ma": 1,
+      "solsoc-ps": 2,
+      "solsoc-cd": 1,
+      "solsoc-co": 1,
+      "solsoc-sn": 1,
+      "solsoc-bo": 1,
+      "solsoc-be": 2,
+      "solsoc-bf": 1,
+      "solsoc-bi": 2
+    },
+    "2": {
+      "solsoc-ma": 1,
+      "solsoc-ps": 2,
+      "solsoc-cd": 1,
+      "solsoc-co": 1,
+      "solsoc-sn": 1,
+      "solsoc-bo": 1,
+      "solsoc-be": 2,
+      "solsoc-bf": 1,
+      "solsoc-bi": 1
+    },
+    "3": {
+      "solsoc-bi": 1
+    },
+    "4": {
+      "solsoc-bi": 1
+    }
+  },
+  ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "C01": {
+      "solsoc-ma": 1,
+      "solsoc-ps": 2,
+      "solsoc-cd": 1,
+      "solsoc-co": 1,
+      "solsoc-sn": 1,
+      "solsoc-bo": 1,
+      "solsoc-be": 2,
+      "solsoc-bf": 1,
+      "solsoc-bi": 2
+    },
+    "G01": {
+      "solsoc-be": 1
+    }
+  },
+  ".//default-finance-type/@code": {
+    "110": {
+      "solsoc-ma": 1,
+      "solsoc-ps": 2,
+      "solsoc-cd": 1,
+      "solsoc-co": 1,
+      "solsoc-sn": 1,
+      "solsoc-bo": 1,
+      "solsoc-be": 3,
+      "solsoc-bf": 1,
+      "solsoc-bi": 2
+    }
+  },
+  ".//default-flow-type/@code": {
+    "30": {
+      "solsoc-ma": 1,
+      "solsoc-ps": 2,
+      "solsoc-cd": 1,
+      "solsoc-co": 1,
+      "solsoc-sn": 1,
+      "solsoc-bo": 1,
+      "solsoc-be": 3,
+      "solsoc-bf": 1,
+      "solsoc-bi": 2
+    }
+  },
+  ".//default-tied-status/@code": {
+    "5": {
+      "solsoc-ma": 1,
+      "solsoc-ps": 2,
+      "solsoc-cd": 1,
+      "solsoc-co": 1,
+      "solsoc-sn": 1,
+      "solsoc-bo": 1,
+      "solsoc-be": 3,
+      "solsoc-bf": 1,
+      "solsoc-bi": 2
+    }
+  },
+  ".//description/@type": {
+    "1": {
+      "solsoc-ma": 1,
+      "solsoc-ps": 2,
+      "solsoc-cd": 1,
+      "solsoc-co": 1,
+      "solsoc-sn": 1,
+      "solsoc-bo": 1,
+      "solsoc-be": 3,
+      "solsoc-bf": 1,
+      "solsoc-bi": 2
+    },
+    "2": {
+      "solsoc-ma": 1,
+      "solsoc-ps": 2,
+      "solsoc-cd": 1,
+      "solsoc-co": 1,
+      "solsoc-sn": 1,
+      "solsoc-bo": 1,
+      "solsoc-be": 2,
+      "solsoc-bf": 1,
+      "solsoc-bi": 1
+    },
+    "3": {
+      "solsoc-ma": 1,
+      "solsoc-ps": 2,
+      "solsoc-cd": 1,
+      "solsoc-co": 1,
+      "solsoc-sn": 1,
+      "solsoc-bo": 1,
+      "solsoc-be": 2,
+      "solsoc-bf": 1,
+      "solsoc-bi": 1
+    }
+  },
+  ".//document-link/@format": {
+    "application/pdf": {
+      "solsoc-bi": 1
+    }
+  },
+  ".//document-link/category/@code": {
+    "A02": {
+      "solsoc-bi": 1
+    }
+  },
+  ".//document-link/language/@code": {
+    "fr": {
+      "solsoc-bi": 1
+    }
+  },
+  ".//location/exactness/@code": {
+    "2": {
+      "solsoc-ma": 1,
+      "solsoc-ps": 1,
+      "solsoc-cd": 4,
+      "solsoc-sn": 6
+    }
+  },
+  ".//location/location-class/@code": {
+    "1": {
+      "solsoc-ma": 1,
+      "solsoc-ps": 1,
+      "solsoc-cd": 4,
+      "solsoc-sn": 6
+    }
+  },
+  ".//location/location-reach/@code": {
+    "1": {
+      "solsoc-ma": 1,
+      "solsoc-ps": 1,
+      "solsoc-sn": 6
+    }
+  },
+  ".//other-identifier/@type": {
+    "A9": {
+      "solsoc-bi": 1
+    }
+  },
+  ".//participating-org/@role": {
+    "1": {
+      "solsoc-ma": 2,
+      "solsoc-ps": 4,
+      "solsoc-cd": 2,
+      "solsoc-co": 2,
+      "solsoc-sn": 2,
+      "solsoc-bo": 2,
+      "solsoc-be": 6,
+      "solsoc-bf": 2,
+      "solsoc-bi": 3
+    },
+    "2": {
+      "solsoc-ma": 1,
+      "solsoc-ps": 2,
+      "solsoc-cd": 1,
+      "solsoc-co": 3,
+      "solsoc-sn": 1,
+      "solsoc-bo": 2,
+      "solsoc-be": 7,
+      "solsoc-bf": 1,
+      "solsoc-bi": 2
+    },
+    "4": {
+      "solsoc-ma": 4,
+      "solsoc-ps": 5,
+      "solsoc-cd": 4,
+      "solsoc-co": 3,
+      "solsoc-sn": 3,
+      "solsoc-bo": 4,
+      "solsoc-be": 2,
+      "solsoc-bf": 4,
+      "solsoc-bi": 8
+    }
+  },
+  ".//participating-org/@type": {
+    "10": {
+      "solsoc-ma": 1,
+      "solsoc-ps": 2,
+      "solsoc-cd": 1,
+      "solsoc-co": 1,
+      "solsoc-sn": 1,
+      "solsoc-bo": 1,
+      "solsoc-be": 3,
+      "solsoc-bf": 1,
+      "solsoc-bi": 2
+    },
+    "22": {
+      "solsoc-ma": 6,
+      "solsoc-ps": 9,
+      "solsoc-cd": 6,
+      "solsoc-co": 7,
+      "solsoc-sn": 5,
+      "solsoc-bo": 7,
+      "solsoc-be": 12,
+      "solsoc-bf": 6,
+      "solsoc-bi": 11
+    }
+  },
+  ".//policy-marker/@significance": {
+    "2": {
+      "solsoc-ma": 3,
+      "solsoc-ps": 3,
+      "solsoc-cd": 2,
+      "solsoc-sn": 1,
+      "solsoc-bf": 1,
+      "solsoc-bi": 2
+    },
+    "1": {
+      "solsoc-ma": 3,
+      "solsoc-ps": 3,
+      "solsoc-cd": 5,
+      "solsoc-co": 4,
+      "solsoc-sn": 7,
+      "solsoc-bo": 5,
+      "solsoc-be": 7,
+      "solsoc-bf": 6,
+      "solsoc-bi": 6
+    }
+  },
+  ".//policy-marker/@vocabulary": {
+    "1": {
+      "solsoc-ma": 6,
+      "solsoc-ps": 6,
+      "solsoc-cd": 6,
+      "solsoc-co": 4,
+      "solsoc-sn": 8,
+      "solsoc-bo": 5,
+      "solsoc-be": 7,
+      "solsoc-bf": 7,
+      "solsoc-bi": 8
+    }
+  },
+  ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "2": {
+      "solsoc-ma": 1,
+      "solsoc-ps": 2,
+      "solsoc-cd": 1,
+      "solsoc-co": 1,
+      "solsoc-sn": 1,
+      "solsoc-bo": 1,
+      "solsoc-be": 2,
+      "solsoc-bf": 1,
+      "solsoc-bi": 1
+    },
+    "7": {
+      "solsoc-ma": 1,
+      "solsoc-cd": 1,
+      "solsoc-sn": 1,
+      "solsoc-bf": 1,
+      "solsoc-bi": 1
+    },
+    "6": {
+      "solsoc-ma": 1,
+      "solsoc-cd": 1,
+      "solsoc-sn": 1,
+      "solsoc-bo": 1,
+      "solsoc-bf": 1,
+      "solsoc-bi": 1
+    },
+    "1": {
+      "solsoc-ma": 1,
+      "solsoc-ps": 2,
+      "solsoc-cd": 1,
+      "solsoc-co": 1,
+      "solsoc-sn": 1,
+      "solsoc-bo": 1,
+      "solsoc-be": 2,
+      "solsoc-bf": 1,
+      "solsoc-bi": 1
+    },
+    "3": {
+      "solsoc-ma": 1,
+      "solsoc-ps": 2,
+      "solsoc-cd": 1,
+      "solsoc-co": 1,
+      "solsoc-sn": 1,
+      "solsoc-bo": 1,
+      "solsoc-be": 2,
+      "solsoc-bf": 1,
+      "solsoc-bi": 1
+    },
+    "4": {
+      "solsoc-ma": 1,
+      "solsoc-cd": 1,
+      "solsoc-sn": 1,
+      "solsoc-bf": 1,
+      "solsoc-bi": 1
+    },
+    "9": {
+      "solsoc-cd": 1,
+      "solsoc-co": 1,
+      "solsoc-sn": 1,
+      "solsoc-bo": 1,
+      "solsoc-be": 1,
+      "solsoc-bf": 1,
+      "solsoc-bi": 1
+    },
+    "5": {
+      "solsoc-sn": 1,
+      "solsoc-bi": 1
+    }
+  },
+  ".//recipient-country/@code": {
+    "MA": {
+      "solsoc-ma": 1,
+      "solsoc-bi": 1
+    },
+    "PS": {
+      "solsoc-ps": 2,
+      "solsoc-bi": 1
+    },
+    "CD": {
+      "solsoc-cd": 1,
+      "solsoc-bi": 1
+    },
+    "CO": {
+      "solsoc-co": 1,
+      "solsoc-bi": 1
+    },
+    "SN": {
+      "solsoc-sn": 1,
+      "solsoc-bi": 1
+    },
+    "BO": {
+      "solsoc-bo": 1,
+      "solsoc-bi": 1
+    },
+    "BE": {
+      "solsoc-be": 3,
+      "solsoc-bi": 1
+    },
+    "BF": {
+      "solsoc-bf": 1,
+      "solsoc-bi": 1
+    },
+    "BI": {
+      "solsoc-bi": 2
+    }
+  },
+  ".//related-activity/@type": {
+    "1": {
+      "solsoc-ma": 1,
+      "solsoc-ps": 2,
+      "solsoc-cd": 1,
+      "solsoc-co": 1,
+      "solsoc-sn": 1,
+      "solsoc-bo": 1,
+      "solsoc-be": 3,
+      "solsoc-bf": 1,
+      "solsoc-bi": 1
+    }
+  },
+  ".//reporting-org/@type": {
+    "22": {
+      "solsoc-ma": 1,
+      "solsoc-ps": 2,
+      "solsoc-cd": 1,
+      "solsoc-co": 1,
+      "solsoc-sn": 1,
+      "solsoc-bo": 1,
+      "solsoc-be": 3,
+      "solsoc-bf": 1,
+      "solsoc-bi": 2
+    }
+  },
+  ".//result/@type": {
+    "2": {
+      "solsoc-ma": 1,
+      "solsoc-ps": 2,
+      "solsoc-cd": 1,
+      "solsoc-co": 1,
+      "solsoc-sn": 1,
+      "solsoc-bo": 1,
+      "solsoc-be": 2,
+      "solsoc-bf": 1,
+      "solsoc-bi": 1
+    }
+  },
+  ".//result/indicator/@measure": {
+    "1": {
+      "solsoc-ma": 5,
+      "solsoc-ps": 5,
+      "solsoc-cd": 4,
+      "solsoc-co": 1,
+      "solsoc-sn": 3,
+      "solsoc-bo": 1,
+      "solsoc-be": 5,
+      "solsoc-bf": 4,
+      "solsoc-bi": 6
+    },
+    "2": {
+      "solsoc-ps": 1,
+      "solsoc-sn": 1,
+      "solsoc-bf": 1
+    }
+  },
+  ".//sector/@vocabulary": {
+    "1": {
+      "solsoc-ma": 1,
+      "solsoc-ps": 2,
+      "solsoc-cd": 1,
+      "solsoc-co": 1,
+      "solsoc-sn": 1,
+      "solsoc-bo": 1,
+      "solsoc-be": 3,
+      "solsoc-bf": 1,
+      "solsoc-bi": 2
+    }
+  },
+  ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "15150": {
+      "solsoc-ma": 1,
+      "solsoc-ps": 2,
+      "solsoc-cd": 1,
+      "solsoc-co": 1,
+      "solsoc-sn": 1,
+      "solsoc-bo": 1,
+      "solsoc-be": 1,
+      "solsoc-bf": 1,
+      "solsoc-bi": 2
+    },
+    "91010": {
+      "solsoc-be": 1
+    },
+    "99820": {
+      "solsoc-be": 1
+    }
+  },
+  ".//transaction/provider-org/@type": {
+    "22": {
+      "solsoc-ma": 7,
+      "solsoc-ps": 8,
+      "solsoc-cd": 7,
+      "solsoc-co": 7,
+      "solsoc-sn": 5,
+      "solsoc-bo": 9,
+      "solsoc-be": 2,
+      "solsoc-bf": 7,
+      "solsoc-bi": 14
+    },
+    "10": {
+      "solsoc-be": 1,
+      "solsoc-bi": 5
+    }
+  },
+  ".//transaction/receiver-org/@type": {
+    "22": {
+      "solsoc-ma": 6,
+      "solsoc-ps": 6,
+      "solsoc-cd": 5,
+      "solsoc-co": 6,
+      "solsoc-sn": 2,
+      "solsoc-bo": 7,
+      "solsoc-be": 1,
+      "solsoc-bf": 5,
+      "solsoc-bi": 18
+    }
+  },
+  ".//transaction/transaction-type/@code": {
+    "2": {
+      "solsoc-ma": 3,
+      "solsoc-ps": 3,
+      "solsoc-cd": 3,
+      "solsoc-co": 3,
+      "solsoc-sn": 2,
+      "solsoc-bo": 4,
+      "solsoc-bf": 3,
+      "solsoc-bi": 4
+    },
+    "3": {
+      "solsoc-ma": 3,
+      "solsoc-ps": 3,
+      "solsoc-cd": 3,
+      "solsoc-co": 3,
+      "solsoc-sn": 2,
+      "solsoc-bo": 4,
+      "solsoc-bf": 3,
+      "solsoc-bi": 4
+    },
+    "4": {
+      "solsoc-ma": 1,
+      "solsoc-ps": 2,
+      "solsoc-cd": 1,
+      "solsoc-co": 1,
+      "solsoc-sn": 1,
+      "solsoc-bo": 1,
+      "solsoc-be": 3,
+      "solsoc-bf": 1,
+      "solsoc-bi": 1
+    },
+    "1": {
+      "solsoc-bi": 10
+    }
+  },
+  ".//transaction/value/@currency": {
+    "EUR": {
+      "solsoc-ma": 7,
+      "solsoc-ps": 8,
+      "solsoc-cd": 7,
+      "solsoc-co": 7,
+      "solsoc-sn": 5,
+      "solsoc-bo": 9,
+      "solsoc-be": 3,
+      "solsoc-bf": 7,
+      "solsoc-bi": 19
+    }
+  }
+}

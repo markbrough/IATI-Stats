@@ -1,0 +1,132 @@
+{
+  ".//@default-currency": {
+    "GBP": 10
+  },
+  ".//@xml:lang": {
+    "en": 10
+  },
+  ".//activity-date/@type": {
+    "1": 10,
+    "2": 10,
+    "3": 10,
+    "4": 10
+  },
+  ".//activity-status/@code": {
+    "4": 10
+  },
+  ".//budget/@type": {
+    "1": 5
+  },
+  ".//budget/value/@currency": {
+    "GBP": 5
+  },
+  ".//collaboration-type/@code": {
+    "3": 3,
+    "1": 2
+  },
+  ".//contact-info/@type": {
+    "1": 10
+  },
+  ".//country-budget-items/@vocabulary": {
+    "1": 5
+  },
+  ".//country-budget-items/budget-item[../@vocabulary = '1']/@code": {
+    "5.4.10": 5
+  },
+  ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "C01": 5
+  },
+  ".//default-finance-type/@code": {
+    "110": 5
+  },
+  ".//default-flow-type/@code": {
+    "10": 5
+  },
+  ".//default-tied-status/@code": {
+    "5": 10
+  },
+  ".//document-link/@format": {
+    "application/vnd.oasis.opendocument.text": 9,
+    "application/vnd.ms-excel": 1
+  },
+  ".//document-link/category/@code": {
+    "A02": 10,
+    "A05": 5,
+    "A04": 5,
+    "A03": 5,
+    "A01": 5,
+    "A08": 2
+  },
+  ".//document-link/language/@code": {
+    "en": 10
+  },
+  ".//location/administrative/@vocabulary": {
+    "A4": 5
+  },
+  ".//location/administrative[@vocabulary = 'A4']/@code": {
+    "CI": 5
+  },
+  ".//location/exactness/@code": {
+    "2": 5
+  },
+  ".//location/feature-designation/@code": {
+    "ADM1": 5
+  },
+  ".//location/location-class/@code": {
+    "1": 5
+  },
+  ".//location/location-reach/@code": {
+    "2": 5
+  },
+  ".//other-identifier/@type": {
+    "A1": 10,
+    "B1": 10
+  },
+  ".//participating-org/@role": {
+    "4": 10,
+    "1": 10,
+    "2": 10,
+    "3": 10
+  },
+  ".//participating-org/@type": {
+    "10": 30
+  },
+  ".//policy-marker/@significance": {
+    "0": 40
+  },
+  ".//policy-marker/@vocabulary": {
+    "1": 40
+  },
+  ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "1": 5,
+    "2": 5,
+    "3": 5,
+    "4": 5,
+    "5": 5,
+    "6": 5,
+    "7": 5,
+    "8": 5
+  },
+  ".//recipient-country/@code": {
+    "CI": 10
+  },
+  ".//related-activity/@type": {
+    "2": 5,
+    "1": 5
+  },
+  ".//reporting-org/@type": {
+    "10": 10
+  },
+  ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "72010": 6,
+    "72040": 2,
+    "72050": 2
+  },
+  ".//transaction/transaction-type/@code": {
+    "2": 5,
+    "3": 9
+  },
+  ".//transaction/value/@currency": {
+    "GBP": 9
+  }
+}

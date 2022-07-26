@@ -1,0 +1,58 @@
+{
+  ".//@default-currency": {
+    "GBP": 2
+  },
+  ".//@xml:lang": {
+    "en": 4
+  },
+  ".//activity-date/@type": {
+    "2": 2,
+    "3": 2
+  },
+  ".//activity-status/@code": {
+    "2": 2
+  },
+  ".//description/@type": {
+    "1": 2
+  },
+  ".//participating-org/@role": {
+    "1": 2,
+    "2": 2,
+    "4": 2
+  },
+  ".//participating-org/@type": {
+    "10": 2,
+    "21": 2,
+    "22": 2
+  },
+  ".//recipient-country/@code": {
+    "ET": 2
+  },
+  ".//reporting-org/@type": {
+    "22": 2
+  },
+  ".//sector/@vocabulary": {
+    "1": 2
+  },
+  ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "31120": 2
+  },
+  ".//transaction/aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "C01": 1
+  },
+  ".//transaction/finance-type/@code": {
+    "110": 1
+  },
+  ".//transaction/flow-type/@code": {
+    "30": 1
+  },
+  ".//transaction/tied-status/@code": {
+    "3": 1
+  },
+  ".//transaction/transaction-type/@code": {
+    "4": 23
+  },
+  ".//transaction/value/@currency": {
+    "GBP": 22
+  }
+}

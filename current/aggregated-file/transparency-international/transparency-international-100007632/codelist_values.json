@@ -1,0 +1,39 @@
+{
+  ".//@default-currency": {
+    "USD": 1
+  },
+  ".//@xml:lang": {
+    "en": 2
+  },
+  ".//activity-date/@type": {
+    "start-actual": 1,
+    "end-planned": 1
+  },
+  ".//activity-status/@code": {
+    "4": 1
+  },
+  ".//budget/value/@currency": {
+    "USD": 1
+  },
+  ".//participating-org/@role": {
+    "Funding": 1,
+    "Implementing": 1
+  },
+  ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "89": 1
+  },
+  ".//reporting-org/@type": {
+    "21": 1
+  },
+  ".//sector[@vocabulary = 'DAC' or not(@vocabulary)]/@code": {
+    "15150": 1
+  },
+  ".//transaction/transaction-type/@code": {
+    "IF": 1,
+    "E": 1
+  },
+  ".//transaction/value/@currency": {
+    "USD": 1,
+    "EUR": 1
+  }
+}

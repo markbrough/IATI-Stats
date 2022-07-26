@@ -1,0 +1,1089 @@
+{
+  "1": {
+    ".//@default-currency": {
+      "asf-td": {
+        "EUR": 1
+      },
+      "asf-cg": {
+        "EUR": 2
+      },
+      "asf-998": {
+        "EUR": 1
+      },
+      "asf-np": {
+        "EUR": 1
+      },
+      "asf-tn": {
+        "EUR": 2
+      }
+    },
+    ".//activity-date/@type": {
+      "asf-td": {
+        "start-actual": 1,
+        "end-actual": 1
+      },
+      "asf-cg": {
+        "start-planned": 2,
+        "end-planned": 2
+      },
+      "asf-998": {
+        "start-planned": 1,
+        "start-actual": 1,
+        "end-planned": 1
+      },
+      "asf-np": {
+        "start-actual": 1,
+        "end-planned": 1
+      },
+      "asf-tn": {
+        "start-actual": 2,
+        "end-planned": 2,
+        "start-planned": 1
+      }
+    },
+    ".//activity-status/@code": {
+      "asf-td": {
+        "2": 1
+      },
+      "asf-cg": {
+        "2": 2
+      },
+      "asf-998": {
+        "2": 1
+      },
+      "asf-np": {
+        "2": 1
+      },
+      "asf-tn": {
+        "2": 2
+      }
+    },
+    ".//budget/@type": {
+      "asf-td": {
+        "1": 1
+      },
+      "asf-cg": {
+        "1": 2
+      },
+      "asf-998": {
+        "1": 1
+      },
+      "asf-tn": {
+        "1": 2
+      }
+    },
+    ".//contact-info/@type": {
+      "asf-td": {
+        "Programme Coordinator": 1
+      },
+      "asf-998": {
+        "Focal point for the project at ASF's HQ": 1
+      },
+      "asf-tn": {
+        "Head of mission": 1,
+        "Person in charge of the project in the field": 1
+      }
+    },
+    ".//description/@type": {
+      "asf-td": {
+        "1": 1,
+        "2": 1,
+        "3": 1
+      },
+      "asf-cg": {
+        "1": 2,
+        "3": 3,
+        "2": 1
+      },
+      "asf-998": {
+        "1": 1,
+        "2": 1,
+        "3": 1
+      },
+      "asf-np": {
+        "2": 1,
+        "1": 1,
+        "3": 1
+      },
+      "asf-tn": {
+        "1": 2,
+        "2": 2,
+        "3": 1
+      }
+    },
+    ".//document-link/@format": {
+      "asf-td": {
+        "application/pdf": 1
+      },
+      "asf-cg": {
+        "application/pdf": 2
+      },
+      "asf-998": {
+        "application/pdf": 1
+      },
+      "asf-tn": {
+        "application/pdf": 2
+      }
+    },
+    ".//document-link/category/@code": {
+      "asf-td": {
+        "A02": 1
+      },
+      "asf-cg": {
+        "A02": 2
+      },
+      "asf-998": {
+        "A02": 1
+      },
+      "asf-tn": {
+        "A02": 2
+      }
+    },
+    ".//participating-org/@role": {
+      "asf-td": {
+        "Accountable": 1,
+        "Implementing": 4,
+        "Funding": 1
+      },
+      "asf-cg": {
+        "Accountable": 2,
+        "Implementing": 11,
+        "Funding": 2
+      },
+      "asf-998": {
+        "Accountable": 1,
+        "Implementing": 2,
+        "Funding": 1
+      },
+      "asf-np": {
+        "Accountable": 1,
+        "Implementing": 2,
+        "Funding": 1
+      },
+      "asf-tn": {
+        "Accountable": 2,
+        "Implementing": 2,
+        "Funding": 2
+      }
+    },
+    ".//participating-org/@type": {
+      "asf-td": {
+        "21": 2,
+        "40": 1,
+        "22": 3
+      },
+      "asf-cg": {
+        "21": 4,
+        "10": 2,
+        "70": 9
+      },
+      "asf-998": {
+        "21": 2,
+        "22": 1,
+        "40": 1
+      },
+      "asf-np": {
+        "21": 3,
+        "10": 1
+      },
+      "asf-tn": {
+        "21": 4,
+        "10": 2
+      }
+    },
+    ".//recipient-country/@code": {
+      "asf-td": {
+        "TD": 1
+      },
+      "asf-cg": {
+        "CG": 2
+      },
+      "asf-np": {
+        "BE": 1,
+        "BI": 1,
+        "NP": 1,
+        "CD": 2,
+        "UG": 2,
+        "TN": 2,
+        "MA": 2,
+        "TD": 1
+      },
+      "asf-tn": {
+        "TN": 2,
+        "EG": 1,
+        "MA": 1
+      }
+    },
+    ".//reporting-org/@type": {
+      "asf-td": {
+        "21": 1
+      },
+      "asf-cg": {
+        "21": 2
+      },
+      "asf-998": {
+        "21": 1
+      },
+      "asf-np": {
+        "21": 1
+      },
+      "asf-tn": {
+        "21": 2
+      }
+    },
+    ".//sector[@vocabulary = 'DAC' or not(@vocabulary)]/@code": {
+      "asf-td": {
+        "38": 1
+      },
+      "asf-cg": {
+        "38": 1
+      },
+      "asf-np": {
+        "15162": 1,
+        "15130": 1
+      },
+      "asf-tn": {
+        "38": 2,
+        "42": 1
+      }
+    },
+    ".//@xml:lang": {
+      "asf-td": {
+        "en": 5
+      },
+      "asf-cg": {
+        "en": 13
+      },
+      "asf-998": {
+        "en": 2
+      },
+      "asf-np": {
+        "en": 2
+      },
+      "asf-tn": {
+        "en": 4
+      }
+    },
+    ".//budget/value/@currency": {
+      "asf-cg": {
+        "EUR": 2
+      },
+      "asf-tn": {
+        "USD": 1
+      }
+    },
+    ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "asf-cg": {
+        "298": 1
+      }
+    },
+    ".//result/@type": {
+      "asf-cg": {
+        "1": 1
+      },
+      "asf-np": {
+        "1": 1
+      }
+    },
+    ".//result/indicator/@measure": {
+      "asf-cg": {
+        "1": 1
+      },
+      "asf-np": {
+        "1": 1
+      }
+    },
+    ".//sector/@vocabulary": {
+      "asf-cg": {
+        "COFOG": 1
+      }
+    }
+  },
+  "2": {
+    ".//@default-currency": {
+      "asf-cd": {
+        "EUR": 4
+      },
+      "asf-bi": {
+        "EUR": 5
+      },
+      "asf-ma": {
+        "EUR": 1
+      },
+      "asf-be": {
+        "EUR": 3
+      },
+      "asf-ug": {
+        "EUR": 2
+      },
+      "asf-id": {
+        "EUR": 1
+      }
+    },
+    ".//activity-date/@type": {
+      "asf-cd": {
+        "start-actual": 2,
+        "end-planned": 2,
+        "start-planned": 1,
+        "1": 1,
+        "3": 2,
+        "2": 2
+      },
+      "asf-bi": {
+        "start-actual": 3,
+        "end-planned": 4,
+        "start-planned": 1,
+        "end-actual": 1,
+        "2": 1,
+        "3": 1
+      },
+      "asf-ma": {
+        "2": 1,
+        "3": 1
+      },
+      "asf-be": {
+        "start-actual": 2,
+        "end-planned": 2,
+        "2": 1,
+        "3": 1
+      },
+      "asf-ug": {
+        "start-actual": 1,
+        "end-planned": 1,
+        "2": 1,
+        "3": 1
+      },
+      "asf-id": {
+        "2": 1,
+        "3": 1
+      }
+    },
+    ".//activity-status/@code": {
+      "asf-cd": {
+        "2": 4
+      },
+      "asf-bi": {
+        "2": 5
+      },
+      "asf-ma": {
+        "2": 1
+      },
+      "asf-be": {
+        "2": 2
+      },
+      "asf-ug": {
+        "2": 2
+      },
+      "asf-id": {
+        "2": 1
+      }
+    },
+    ".//budget/@status": {
+      "asf-cd": {
+        "2": 9,
+        "1": 1
+      },
+      "asf-bi": {
+        "2": 5
+      },
+      "asf-ma": {
+        "2": 5
+      },
+      "asf-be": {
+        "2": 5
+      },
+      "asf-ug": {
+        "2": 5
+      },
+      "asf-id": {
+        "2": 5
+      }
+    },
+    ".//budget/@type": {
+      "asf-cd": {
+        "1": 12
+      },
+      "asf-bi": {
+        "1": 9
+      },
+      "asf-ma": {
+        "1": 5
+      },
+      "asf-be": {
+        "1": 6
+      },
+      "asf-ug": {
+        "1": 6
+      },
+      "asf-id": {
+        "1": 5
+      }
+    },
+    ".//budget/value/@currency": {
+      "asf-cd": {
+        "EUR": 6
+      },
+      "asf-bi": {
+        "EUR": 5
+      },
+      "asf-ma": {
+        "EUR": 4
+      },
+      "asf-be": {
+        "EUR": 5
+      },
+      "asf-ug": {
+        "EUR": 5
+      },
+      "asf-id": {
+        "EUR": 5
+      }
+    },
+    ".//collaboration-type/@code": {
+      "asf-cd": {
+        "1": 2
+      },
+      "asf-bi": {
+        "1": 1
+      },
+      "asf-ma": {
+        "1": 1
+      },
+      "asf-be": {
+        "1": 1
+      },
+      "asf-ug": {
+        "1": 1
+      },
+      "asf-id": {
+        "1": 1
+      }
+    },
+    ".//contact-info/@type": {
+      "asf-cd": {
+        "Head of mission": 1,
+        "Coordinator of the project": 1,
+        "1": 2,
+        "2": 1,
+        "3": 1,
+        "4": 1
+      },
+      "asf-bi": {
+        "ASF's Head of mission in Burundi": 2,
+        "Project Coordinator": 1,
+        "3": 1
+      },
+      "asf-ma": {
+        "2": 1,
+        "3": 1
+      },
+      "asf-be": {
+        "Projet Coordinator staff": 1
+      },
+      "asf-ug": {
+        "2": 1
+      },
+      "asf-id": {
+        "2": 1,
+        "3": 1
+      }
+    },
+    ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "asf-cd": {
+        "C01": 2
+      },
+      "asf-bi": {
+        "C01": 1
+      },
+      "asf-ma": {
+        "C01": 1
+      },
+      "asf-be": {
+        "C01": 1
+      },
+      "asf-ug": {
+        "C01": 1
+      },
+      "asf-id": {
+        "C01": 1
+      }
+    },
+    ".//default-finance-type/@code": {
+      "asf-cd": {
+        "110": 2
+      },
+      "asf-bi": {
+        "110": 1
+      },
+      "asf-ma": {
+        "110": 1
+      },
+      "asf-be": {
+        "110": 1
+      },
+      "asf-ug": {
+        "110": 1
+      },
+      "asf-id": {
+        "110": 1
+      }
+    },
+    ".//default-flow-type/@code": {
+      "asf-cd": {
+        "30": 2
+      },
+      "asf-bi": {
+        "30": 1
+      },
+      "asf-ma": {
+        "30": 1
+      },
+      "asf-be": {
+        "30": 1
+      },
+      "asf-ug": {
+        "30": 1
+      },
+      "asf-id": {
+        "30": 1
+      }
+    },
+    ".//default-tied-status/@code": {
+      "asf-cd": {
+        "5": 2
+      },
+      "asf-bi": {
+        "5": 1
+      },
+      "asf-ma": {
+        "5": 1
+      },
+      "asf-be": {
+        "5": 1
+      },
+      "asf-ug": {
+        "5": 1
+      },
+      "asf-id": {
+        "5": 1
+      }
+    },
+    ".//description/@type": {
+      "asf-cd": {
+        "1": 2
+      },
+      "asf-bi": {
+        "1": 1
+      },
+      "asf-ma": {
+        "1": 1
+      },
+      "asf-be": {
+        "1": 1
+      },
+      "asf-ug": {
+        "1": 1
+      },
+      "asf-id": {
+        "1": 1
+      }
+    },
+    ".//document-link/@format": {
+      "asf-cd": {
+        "application/pdf": 3
+      },
+      "asf-bi": {
+        "application/pdf": 5
+      },
+      "asf-be": {
+        "application/msword": 1
+      },
+      "asf-ug": {
+        "application/pdf": 1
+      }
+    },
+    ".//document-link/category/@code": {
+      "asf-cd": {
+        "A02": 3
+      },
+      "asf-bi": {
+        "A02": 5
+      },
+      "asf-be": {
+        "A02": 1
+      },
+      "asf-ug": {
+        "A02": 1
+      }
+    },
+    ".//document-link/language/@code": {
+      "asf-cd": {
+        "fr": 1
+      }
+    },
+    ".//location/location-class/@code": {
+      "asf-cd": {
+        "2": 3
+      },
+      "asf-bi": {
+        "1": 2,
+        "2": 1
+      },
+      "asf-ma": {
+        "2": 2
+      },
+      "asf-ug": {
+        "2": 2,
+        "1": 1
+      },
+      "asf-id": {
+        "1": 2,
+        "2": 1
+      }
+    },
+    ".//location/exactness/@code": {
+      "asf-cd": {
+        "2": 3
+      },
+      "asf-bi": {
+        "2": 3
+      },
+      "asf-ma": {
+        "2": 2
+      },
+      "asf-ug": {
+        "2": 4
+      },
+      "asf-id": {
+        "2": 2,
+        "1": 1
+      }
+    },
+    ".//other-identifier/@type": {
+      "asf-cd": {
+        "A9": 1
+      }
+    },
+    ".//participating-org/@role": {
+      "asf-cd": {
+        "1": 2,
+        "2": 2,
+        "4": 6
+      },
+      "asf-bi": {
+        "4": 5,
+        "2": 1
+      },
+      "asf-ma": {
+        "4": 2,
+        "2": 1
+      },
+      "asf-be": {
+        "4": 1
+      },
+      "asf-ug": {
+        "2": 1,
+        "4": 2
+      },
+      "asf-id": {
+        "4": 3,
+        "2": 1
+      }
+    },
+    ".//participating-org/@type": {
+      "asf-cd": {
+        "10": 1,
+        "22": 5,
+        "70": 2,
+        "23": 2
+      },
+      "asf-bi": {
+        "22": 2,
+        "70": 2,
+        "23": 2
+      },
+      "asf-ma": {
+        "22": 2,
+        "23": 1
+      },
+      "asf-be": {
+        "22": 1
+      },
+      "asf-ug": {
+        "22": 2,
+        "23": 1
+      },
+      "asf-id": {
+        "22": 2,
+        "23": 2
+      }
+    },
+    ".//policy-marker[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "asf-cd": {
+        "3": 1,
+        "1": 1
+      },
+      "asf-bi": {
+        "3": 1,
+        "1": 1
+      },
+      "asf-ma": {
+        "1": 1,
+        "3": 1
+      },
+      "asf-ug": {
+        "1": 1,
+        "3": 1
+      },
+      "asf-id": {
+        "1": 1,
+        "3": 1
+      }
+    },
+    ".//policy-marker/@significance": {
+      "asf-cd": {
+        "2": 1,
+        "1": 1
+      },
+      "asf-bi": {
+        "2": 1,
+        "1": 1
+      },
+      "asf-ma": {
+        "2": 2
+      },
+      "asf-ug": {
+        "1": 1,
+        "2": 1
+      }
+    },
+    ".//policy-marker/@vocabulary": {
+      "asf-cd": {
+        "1": 2
+      },
+      "asf-bi": {
+        "1": 2
+      }
+    },
+    ".//recipient-country/@code": {
+      "asf-cd": {
+        "CD": 4,
+        "BI": 2,
+        "UG": 2,
+        "NP": 1,
+        "CO": 1,
+        "GT": 1,
+        "ID": 1,
+        "MA": 1
+      },
+      "asf-bi": {
+        "BI": 5,
+        "CD": 1,
+        "RW": 1,
+        "KE": 1,
+        "UG": 1
+      },
+      "asf-ma": {
+        "MA": 1
+      },
+      "asf-be": {
+        "BE": 2,
+        "BI": 1,
+        "NP": 1,
+        "CD": 2,
+        "UG": 2,
+        "TN": 2,
+        "MA": 2,
+        "TD": 1
+      },
+      "asf-ug": {
+        "UG": 2
+      },
+      "asf-id": {
+        "ID": 1
+      }
+    },
+    ".//related-activity/@type": {
+      "asf-cd": {
+        "2": 6,
+        "1": 1
+      },
+      "asf-bi": {
+        "1": 1
+      },
+      "asf-ma": {
+        "1": 1
+      },
+      "asf-be": {
+        "1": 1
+      },
+      "asf-ug": {
+        "1": 1
+      },
+      "asf-id": {
+        "1": 1
+      }
+    },
+    ".//reporting-org/@type": {
+      "asf-cd": {
+        "22": 2
+      },
+      "asf-bi": {
+        "22": 1
+      },
+      "asf-ma": {
+        "22": 1
+      },
+      "asf-be": {
+        "22": 1
+      },
+      "asf-ug": {
+        "22": 1
+      },
+      "asf-id": {
+        "22": 1
+      }
+    },
+    ".//result/@type": {
+      "asf-cd": {
+        "2": 1
+      },
+      "asf-bi": {
+        "2": 2
+      },
+      "asf-ma": {
+        "1": 5
+      },
+      "asf-be": {
+        "1": 3,
+        "2": 1,
+        "3": 1
+      },
+      "asf-ug": {
+        "2": 1
+      },
+      "asf-id": {
+        "2": 1
+      }
+    },
+    ".//result/indicator/@measure": {
+      "asf-cd": {
+        "1": 1,
+        "2": 1
+      },
+      "asf-bi": {
+        "1": 1,
+        "2": 1
+      },
+      "asf-ma": {
+        "1": 5
+      },
+      "asf-be": {
+        "1": 5,
+        "2": 1
+      },
+      "asf-ug": {
+        "1": 2
+      },
+      "asf-id": {
+        "1": 2
+      }
+    },
+    ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+      "asf-cd": {
+        "38": 2,
+        "15130": 2
+      },
+      "asf-bi": {
+        "38": 4,
+        "15130": 1
+      },
+      "asf-ma": {
+        "15130": 1,
+        "15160": 1,
+        "15170": 1
+      },
+      "asf-be": {
+        "38": 1,
+        "15162": 1,
+        "15130": 2
+      },
+      "asf-ug": {
+        "38": 1,
+        "15130": 1
+      },
+      "asf-id": {
+        "15130": 1,
+        "15160": 1
+      }
+    },
+    ".//sector/@vocabulary": {
+      "asf-cd": {
+        "1": 2
+      },
+      "asf-bi": {
+        "1": 1
+      },
+      "asf-ma": {
+        "1": 3
+      },
+      "asf-be": {
+        "1": 1
+      },
+      "asf-ug": {
+        "1": 1
+      },
+      "asf-id": {
+        "1": 2
+      }
+    },
+    ".//transaction/provider-org/@type": {
+      "asf-cd": {
+        "10": 6,
+        "22": 26,
+        "70": 2,
+        "23": 2
+      },
+      "asf-bi": {
+        "22": 21,
+        "21": 3,
+        "23": 2,
+        "70": 2
+      },
+      "asf-ma": {
+        "22": 7,
+        "23": 1
+      },
+      "asf-be": {
+        "22": 1
+      },
+      "asf-ug": {
+        "22": 6,
+        "23": 2
+      },
+      "asf-id": {
+        "22": 13,
+        "23": 2
+      }
+    },
+    ".//transaction/receiver-org/@type": {
+      "asf-cd": {
+        "22": 12,
+        "70": 11,
+        "23": 11
+      },
+      "asf-bi": {
+        "70": 12,
+        "23": 9,
+        "22": 4
+      },
+      "asf-ma": {
+        "23": 7
+      },
+      "asf-be": {
+        "22": 1
+      },
+      "asf-ug": {
+        "23": 6
+      },
+      "asf-id": {
+        "23": 8
+      }
+    },
+    ".//transaction/transaction-type/@code": {
+      "asf-cd": {
+        "1": 2,
+        "11": 10,
+        "2": 20,
+        "4": 5,
+        "3": 4
+      },
+      "asf-bi": {
+        "2": 20,
+        "3": 4,
+        "4": 5
+      },
+      "asf-ma": {
+        "3": 1,
+        "2": 5,
+        "4": 2
+      },
+      "asf-be": {
+        "4": 1
+      },
+      "asf-ug": {
+        "2": 5,
+        "3": 1,
+        "4": 2
+      },
+      "asf-id": {
+        "2": 10,
+        "3": 2,
+        "4": 3
+      }
+    },
+    ".//transaction/value/@currency": {
+      "asf-cd": {
+        "EUR": 30,
+        "USD": 4
+      },
+      "asf-bi": {
+        "EUR": 16
+      },
+      "asf-ma": {
+        "EUR": 3
+      },
+      "asf-ug": {
+        "EUR": 7
+      },
+      "asf-id": {
+        "EUR": 15
+      }
+    },
+    ".//@xml:lang": {
+      "asf-cd": {
+        "en": 7,
+        "fr": 32
+      },
+      "asf-bi": {
+        "en": 1,
+        "fr": 45
+      },
+      "asf-ma": {
+        "en": 3,
+        "fr": 1
+      },
+      "asf-be": {
+        "en": 1,
+        "fr": 3
+      },
+      "asf-ug": {
+        "en": 1,
+        "fr": 5
+      },
+      "asf-id": {
+        "fr": 2,
+        "en": 8
+      }
+    },
+    ".//activity-scope/@code": {
+      "asf-bi": {
+        "4": 1
+      },
+      "asf-ma": {
+        "4": 1
+      },
+      "asf-ug": {
+        "4": 1
+      },
+      "asf-id": {
+        "4": 1
+      }
+    },
+    ".//transaction/disbursement-channel/@code": {
+      "asf-bi": {
+        "2": 4
+      }
+    }
+  }
+}

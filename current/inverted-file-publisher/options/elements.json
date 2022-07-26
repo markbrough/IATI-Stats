@@ -1,0 +1,541 @@
+{
+  "iati-activity": {
+    "options-bd": 1,
+    "options-ke": 1,
+    "options-in": 1,
+    "options-np": 1,
+    "options-sl": 1,
+    "options-mw": 1
+  },
+  "iati-activity/@default-currency": {
+    "options-bd": 1,
+    "options-ke": 1,
+    "options-in": 1,
+    "options-np": 1,
+    "options-sl": 1,
+    "options-mw": 1
+  },
+  "iati-activity/@hierarchy": {
+    "options-bd": 1,
+    "options-ke": 1,
+    "options-in": 1,
+    "options-np": 1,
+    "options-sl": 1,
+    "options-mw": 1
+  },
+  "iati-activity/@humanitarian": {
+    "options-ke": 1,
+    "options-in": 1,
+    "options-np": 1,
+    "options-sl": 1,
+    "options-mw": 1
+  },
+  "iati-activity/@last-updated-datetime": {
+    "options-bd": 1,
+    "options-ke": 1,
+    "options-in": 1,
+    "options-np": 1,
+    "options-sl": 1,
+    "options-mw": 1
+  },
+  "iati-activity/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "options-bd": 1,
+    "options-ke": 1,
+    "options-in": 1,
+    "options-np": 1,
+    "options-sl": 1,
+    "options-mw": 1
+  },
+  "iati-activity/activity-date": {
+    "options-bd": 1,
+    "options-ke": 1,
+    "options-in": 1,
+    "options-np": 1,
+    "options-sl": 1,
+    "options-mw": 1
+  },
+  "iati-activity/activity-date/@iso-date": {
+    "options-bd": 1,
+    "options-ke": 1,
+    "options-in": 1,
+    "options-np": 1,
+    "options-sl": 1,
+    "options-mw": 1
+  },
+  "iati-activity/activity-date/@type": {
+    "options-bd": 1,
+    "options-ke": 1,
+    "options-in": 1,
+    "options-np": 1,
+    "options-sl": 1,
+    "options-mw": 1
+  },
+  "iati-activity/activity-date/narrative": {
+    "options-bd": 1,
+    "options-sl": 1
+  },
+  "iati-activity/activity-date/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "options-sl": 1
+  },
+  "iati-activity/activity-status": {
+    "options-bd": 1,
+    "options-ke": 1,
+    "options-in": 1,
+    "options-np": 1,
+    "options-sl": 1,
+    "options-mw": 1
+  },
+  "iati-activity/activity-status/@code": {
+    "options-bd": 1,
+    "options-ke": 1,
+    "options-in": 1,
+    "options-np": 1,
+    "options-sl": 1,
+    "options-mw": 1
+  },
+  "iati-activity/budget": {
+    "options-bd": 1,
+    "options-in": 1,
+    "options-np": 1,
+    "options-sl": 1
+  },
+  "iati-activity/budget/@status": {
+    "options-in": 1,
+    "options-np": 1,
+    "options-sl": 1
+  },
+  "iati-activity/budget/@type": {
+    "options-bd": 1,
+    "options-in": 1,
+    "options-np": 1,
+    "options-sl": 1
+  },
+  "iati-activity/budget/period-end": {
+    "options-bd": 1,
+    "options-in": 1,
+    "options-np": 1,
+    "options-sl": 1
+  },
+  "iati-activity/budget/period-end/@iso-date": {
+    "options-bd": 1,
+    "options-in": 1,
+    "options-np": 1,
+    "options-sl": 1
+  },
+  "iati-activity/budget/period-start": {
+    "options-bd": 1,
+    "options-in": 1,
+    "options-np": 1,
+    "options-sl": 1
+  },
+  "iati-activity/budget/period-start/@iso-date": {
+    "options-bd": 1,
+    "options-in": 1,
+    "options-np": 1,
+    "options-sl": 1
+  },
+  "iati-activity/budget/value": {
+    "options-bd": 1,
+    "options-in": 1,
+    "options-np": 1,
+    "options-sl": 1
+  },
+  "iati-activity/budget/value/@currency": {
+    "options-in": 1,
+    "options-np": 1,
+    "options-sl": 1
+  },
+  "iati-activity/budget/value/@value-date": {
+    "options-bd": 1,
+    "options-in": 1,
+    "options-np": 1,
+    "options-sl": 1
+  },
+  "iati-activity/default-aid-type": {
+    "options-bd": 1,
+    "options-ke": 1,
+    "options-in": 1,
+    "options-np": 1,
+    "options-sl": 1,
+    "options-mw": 1
+  },
+  "iati-activity/default-aid-type/@code": {
+    "options-bd": 1,
+    "options-ke": 1,
+    "options-in": 1,
+    "options-np": 1,
+    "options-sl": 1,
+    "options-mw": 1
+  },
+  "iati-activity/default-finance-type": {
+    "options-bd": 1,
+    "options-ke": 1,
+    "options-in": 1,
+    "options-np": 1,
+    "options-sl": 1,
+    "options-mw": 1
+  },
+  "iati-activity/default-finance-type/@code": {
+    "options-bd": 1,
+    "options-ke": 1,
+    "options-in": 1,
+    "options-np": 1,
+    "options-sl": 1,
+    "options-mw": 1
+  },
+  "iati-activity/default-flow-type": {
+    "options-bd": 1,
+    "options-ke": 1,
+    "options-in": 1,
+    "options-np": 1,
+    "options-sl": 1,
+    "options-mw": 1
+  },
+  "iati-activity/default-flow-type/@code": {
+    "options-bd": 1,
+    "options-ke": 1,
+    "options-in": 1,
+    "options-np": 1,
+    "options-sl": 1,
+    "options-mw": 1
+  },
+  "iati-activity/default-tied-status": {
+    "options-bd": 1,
+    "options-ke": 1,
+    "options-in": 1,
+    "options-np": 1,
+    "options-sl": 1,
+    "options-mw": 1
+  },
+  "iati-activity/default-tied-status/@code": {
+    "options-bd": 1,
+    "options-ke": 1,
+    "options-in": 1,
+    "options-np": 1,
+    "options-sl": 1,
+    "options-mw": 1
+  },
+  "iati-activity/description": {
+    "options-bd": 1,
+    "options-ke": 1,
+    "options-in": 1,
+    "options-np": 1,
+    "options-sl": 1,
+    "options-mw": 1
+  },
+  "iati-activity/description/@type": {
+    "options-bd": 1,
+    "options-ke": 1,
+    "options-in": 1,
+    "options-np": 1,
+    "options-sl": 1,
+    "options-mw": 1
+  },
+  "iati-activity/description/narrative": {
+    "options-bd": 1,
+    "options-ke": 1,
+    "options-in": 1,
+    "options-np": 1,
+    "options-sl": 1,
+    "options-mw": 1
+  },
+  "iati-activity/description/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "options-ke": 1,
+    "options-sl": 1
+  },
+  "iati-activity/iati-identifier": {
+    "options-bd": 1,
+    "options-ke": 1,
+    "options-in": 1,
+    "options-np": 1,
+    "options-sl": 1,
+    "options-mw": 1
+  },
+  "iati-activity/participating-org": {
+    "options-bd": 1,
+    "options-ke": 1,
+    "options-in": 1,
+    "options-np": 1,
+    "options-sl": 1,
+    "options-mw": 1
+  },
+  "iati-activity/participating-org/@ref": {
+    "options-ke": 1,
+    "options-in": 1,
+    "options-np": 1,
+    "options-mw": 1
+  },
+  "iati-activity/participating-org/@role": {
+    "options-bd": 1,
+    "options-ke": 1,
+    "options-in": 1,
+    "options-np": 1,
+    "options-sl": 1,
+    "options-mw": 1
+  },
+  "iati-activity/participating-org/narrative": {
+    "options-bd": 1,
+    "options-ke": 1,
+    "options-sl": 1,
+    "options-mw": 1
+  },
+  "iati-activity/recipient-country": {
+    "options-bd": 1,
+    "options-ke": 1,
+    "options-in": 1,
+    "options-np": 1,
+    "options-sl": 1,
+    "options-mw": 1
+  },
+  "iati-activity/recipient-country/@code": {
+    "options-bd": 1,
+    "options-ke": 1,
+    "options-in": 1,
+    "options-np": 1,
+    "options-sl": 1,
+    "options-mw": 1
+  },
+  "iati-activity/recipient-country/@percentage": {
+    "options-in": 1,
+    "options-np": 1
+  },
+  "iati-activity/recipient-country/narrative": {
+    "options-np": 1,
+    "options-sl": 1
+  },
+  "iati-activity/recipient-country/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "options-np": 1,
+    "options-sl": 1
+  },
+  "iati-activity/reporting-org": {
+    "options-bd": 1,
+    "options-ke": 1,
+    "options-in": 1,
+    "options-np": 1,
+    "options-sl": 1,
+    "options-mw": 1
+  },
+  "iati-activity/reporting-org/@ref": {
+    "options-bd": 1,
+    "options-ke": 1,
+    "options-in": 1,
+    "options-np": 1,
+    "options-sl": 1,
+    "options-mw": 1
+  },
+  "iati-activity/reporting-org/@type": {
+    "options-bd": 1,
+    "options-ke": 1,
+    "options-in": 1,
+    "options-np": 1,
+    "options-sl": 1,
+    "options-mw": 1
+  },
+  "iati-activity/reporting-org/narrative": {
+    "options-bd": 1,
+    "options-ke": 1,
+    "options-in": 1,
+    "options-np": 1,
+    "options-sl": 1,
+    "options-mw": 1
+  },
+  "iati-activity/reporting-org/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "options-bd": 1,
+    "options-ke": 1,
+    "options-in": 1,
+    "options-np": 1,
+    "options-sl": 1,
+    "options-mw": 1
+  },
+  "iati-activity/sector": {
+    "options-bd": 1,
+    "options-ke": 1,
+    "options-in": 1,
+    "options-np": 1,
+    "options-sl": 1,
+    "options-mw": 1
+  },
+  "iati-activity/sector/@code": {
+    "options-bd": 1,
+    "options-ke": 1,
+    "options-in": 1,
+    "options-np": 1,
+    "options-sl": 1,
+    "options-mw": 1
+  },
+  "iati-activity/sector/@vocabulary": {
+    "options-bd": 1,
+    "options-ke": 1,
+    "options-in": 1,
+    "options-np": 1,
+    "options-sl": 1,
+    "options-mw": 1
+  },
+  "iati-activity/title": {
+    "options-bd": 1,
+    "options-ke": 1,
+    "options-in": 1,
+    "options-np": 1,
+    "options-sl": 1,
+    "options-mw": 1
+  },
+  "iati-activity/title/narrative": {
+    "options-bd": 1,
+    "options-ke": 1,
+    "options-in": 1,
+    "options-np": 1,
+    "options-sl": 1,
+    "options-mw": 1
+  },
+  "iati-activity/title/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "options-ke": 1,
+    "options-in": 1,
+    "options-np": 1,
+    "options-sl": 1,
+    "options-mw": 1
+  },
+  "iati-activity/transaction": {
+    "options-bd": 1,
+    "options-ke": 1,
+    "options-in": 1,
+    "options-np": 1,
+    "options-sl": 1,
+    "options-mw": 1
+  },
+  "iati-activity/transaction/description": {
+    "options-bd": 1
+  },
+  "iati-activity/transaction/description/narrative": {
+    "options-bd": 1
+  },
+  "iati-activity/transaction/provider-org": {
+    "options-np": 1
+  },
+  "iati-activity/transaction/provider-org/@ref": {
+    "options-np": 1
+  },
+  "iati-activity/transaction/transaction-date": {
+    "options-bd": 1,
+    "options-ke": 1,
+    "options-in": 1,
+    "options-np": 1,
+    "options-sl": 1,
+    "options-mw": 1
+  },
+  "iati-activity/transaction/transaction-date/@iso-date": {
+    "options-bd": 1,
+    "options-ke": 1,
+    "options-in": 1,
+    "options-np": 1,
+    "options-sl": 1,
+    "options-mw": 1
+  },
+  "iati-activity/transaction/transaction-type": {
+    "options-bd": 1,
+    "options-ke": 1,
+    "options-in": 1,
+    "options-np": 1,
+    "options-sl": 1,
+    "options-mw": 1
+  },
+  "iati-activity/transaction/transaction-type/@code": {
+    "options-bd": 1,
+    "options-ke": 1,
+    "options-in": 1,
+    "options-np": 1,
+    "options-sl": 1,
+    "options-mw": 1
+  },
+  "iati-activity/transaction/value": {
+    "options-bd": 1,
+    "options-ke": 1,
+    "options-in": 1,
+    "options-np": 1,
+    "options-sl": 1,
+    "options-mw": 1
+  },
+  "iati-activity/transaction/value/@currency": {
+    "options-ke": 1,
+    "options-in": 1,
+    "options-np": 1,
+    "options-sl": 1,
+    "options-mw": 1
+  },
+  "iati-activity/transaction/value/@value-date": {
+    "options-bd": 1,
+    "options-ke": 1,
+    "options-in": 1,
+    "options-np": 1,
+    "options-sl": 1,
+    "options-mw": 1
+  },
+  "iati-organisation": {
+    "options-org": 1
+  },
+  "iati-organisation/@default-currency": {
+    "options-org": 1
+  },
+  "iati-organisation/@last-updated-datetime": {
+    "options-org": 1
+  },
+  "iati-organisation/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "options-org": 1
+  },
+  "iati-organisation/name": {
+    "options-org": 1
+  },
+  "iati-organisation/name/narrative": {
+    "options-org": 1
+  },
+  "iati-organisation/name/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "options-org": 1
+  },
+  "iati-organisation/organisation-identifier": {
+    "options-org": 1
+  },
+  "iati-organisation/reporting-org": {
+    "options-org": 1
+  },
+  "iati-organisation/reporting-org/@ref": {
+    "options-org": 1
+  },
+  "iati-organisation/reporting-org/@type": {
+    "options-org": 1
+  },
+  "iati-organisation/reporting-org/narrative": {
+    "options-org": 1
+  },
+  "iati-organisation/reporting-org/narrative/@{http://www.w3.org/XML/1998/namespace}lang": {
+    "options-org": 1
+  },
+  "iati-organisation/total-budget": {
+    "options-org": 1
+  },
+  "iati-organisation/total-budget/budget-line": {
+    "options-org": 1
+  },
+  "iati-organisation/total-budget/budget-line/value": {
+    "options-org": 1
+  },
+  "iati-organisation/total-budget/budget-line/value/@value-date": {
+    "options-org": 1
+  },
+  "iati-organisation/total-budget/period-end": {
+    "options-org": 1
+  },
+  "iati-organisation/total-budget/period-end/@iso-date": {
+    "options-org": 1
+  },
+  "iati-organisation/total-budget/period-start": {
+    "options-org": 1
+  },
+  "iati-organisation/total-budget/period-start/@iso-date": {
+    "options-org": 1
+  },
+  "iati-organisation/total-budget/value": {
+    "options-org": 1
+  },
+  "iati-organisation/total-budget/value/@value-date": {
+    "options-org": 1
+  }
+}

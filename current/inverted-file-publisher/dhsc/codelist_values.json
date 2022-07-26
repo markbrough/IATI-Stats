@@ -1,0 +1,291 @@
+{
+  ".//@default-currency": {
+    "GBP": {
+      "dhsc-activities": 8,
+      "doh-activities": 1
+    }
+  },
+  ".//@xml:lang": {
+    "en": {
+      "dhsc-activities": 222,
+      "doh-activities": 26
+    }
+  },
+  ".//activity-date/@type": {
+    "1": {
+      "dhsc-activities": 8
+    },
+    "3": {
+      "dhsc-activities": 9
+    },
+    "2": {
+      "dhsc-activities": 4
+    },
+    "start-actual": {
+      "doh-activities": 1
+    },
+    "end-planned": {
+      "doh-activities": 1
+    }
+  },
+  ".//activity-status/@code": {
+    "2": {
+      "dhsc-activities": 8,
+      "doh-activities": 1
+    }
+  },
+  ".//budget/@status": {
+    "2": {
+      "dhsc-activities": 40
+    }
+  },
+  ".//budget/@type": {
+    "1": {
+      "dhsc-activities": 40,
+      "doh-activities": 5
+    }
+  },
+  ".//budget/value/@currency": {
+    "GBP": {
+      "dhsc-activities": 40
+    },
+    "USD": {
+      "doh-activities": 3
+    },
+    "CHF": {
+      "doh-activities": 2
+    }
+  },
+  ".//collaboration-type/@code": {
+    "1": {
+      "dhsc-activities": 8
+    },
+    "2": {
+      "doh-activities": 1
+    }
+  },
+  ".//contact-info/@type": {
+    "1": {
+      "dhsc-activities": 8
+    },
+    "2": {
+      "dhsc-activities": 8
+    },
+    "3": {
+      "dhsc-activities": 8
+    },
+    "4": {
+      "dhsc-activities": 8
+    }
+  },
+  ".//default-aid-type/@code": {
+    "B02": {
+      "doh-activities": 1
+    }
+  },
+  ".//default-aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "C01": {
+      "dhsc-activities": 8
+    }
+  },
+  ".//default-finance-type/@code": {
+    "110": {
+      "dhsc-activities": 8,
+      "doh-activities": 1
+    }
+  },
+  ".//default-flow-type/@code": {
+    "10": {
+      "dhsc-activities": 8,
+      "doh-activities": 1
+    }
+  },
+  ".//default-tied-status/@code": {
+    "5": {
+      "dhsc-activities": 8,
+      "doh-activities": 1
+    }
+  },
+  ".//description/@type": {
+    "1": {
+      "dhsc-activities": 8,
+      "doh-activities": 1
+    },
+    "2": {
+      "dhsc-activities": 8
+    },
+    "3": {
+      "dhsc-activities": 7
+    }
+  },
+  ".//participating-org/@role": {
+    "4": {
+      "dhsc-activities": 8
+    },
+    "1": {
+      "dhsc-activities": 8
+    },
+    "Extending": {
+      "doh-activities": 1
+    },
+    "Implementing": {
+      "doh-activities": 1
+    },
+    "Funding": {
+      "doh-activities": 1
+    }
+  },
+  ".//participating-org/@type": {
+    "10": {
+      "dhsc-activities": 15,
+      "doh-activities": 2
+    },
+    "80": {
+      "dhsc-activities": 1
+    },
+    "40": {
+      "doh-activities": 1
+    }
+  },
+  ".//planned-disbursement/@type": {
+    "1": {
+      "dhsc-activities": 89
+    },
+    "2": {
+      "dhsc-activities": 18
+    }
+  },
+  ".//planned-disbursement/provider-org/@type": {
+    "10": {
+      "dhsc-activities": 107
+    },
+    "80": {
+      "dhsc-activities": 1
+    }
+  },
+  ".//planned-disbursement/receiver-org/@type": {
+    "10": {
+      "dhsc-activities": 68
+    },
+    "80": {
+      "dhsc-activities": 40
+    }
+  },
+  ".//planned-disbursement/value/@currency": {
+    "GBP": {
+      "dhsc-activities": 108
+    }
+  },
+  ".//recipient-region/@vocabulary": {
+    "1": {
+      "dhsc-activities": 8
+    }
+  },
+  ".//recipient-region[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "998": {
+      "dhsc-activities": 8,
+      "doh-activities": 1
+    }
+  },
+  ".//related-activity/@type": {
+    "3": {
+      "dhsc-activities": 36
+    }
+  },
+  ".//reporting-org/@type": {
+    "10": {
+      "dhsc-activities": 8,
+      "doh-activities": 1
+    }
+  },
+  ".//sector/@vocabulary": {
+    "1": {
+      "dhsc-activities": 9
+    },
+    "DAC": {
+      "doh-activities": 1
+    }
+  },
+  ".//sector[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "12182": {
+      "dhsc-activities": 7
+    },
+    "12110": {
+      "dhsc-activities": 1
+    },
+    "12250": {
+      "dhsc-activities": 1
+    }
+  },
+  ".//sector[@vocabulary = 'DAC' or not(@vocabulary)]/@code": {
+    "12110": {
+      "doh-activities": 1
+    }
+  },
+  ".//transaction/aid-type/@code": {
+    "B02": {
+      "doh-activities": 2
+    }
+  },
+  ".//transaction/aid-type[@vocabulary = '1' or not(@vocabulary)]/@code": {
+    "C01": {
+      "dhsc-activities": 60
+    }
+  },
+  ".//transaction/disbursement-channel/@code": {
+    "2": {
+      "dhsc-activities": 60,
+      "doh-activities": 2
+    }
+  },
+  ".//transaction/finance-type/@code": {
+    "110": {
+      "dhsc-activities": 60,
+      "doh-activities": 2
+    }
+  },
+  ".//transaction/flow-type/@code": {
+    "10": {
+      "dhsc-activities": 60,
+      "doh-activities": 2
+    }
+  },
+  ".//transaction/provider-org/@type": {
+    "10": {
+      "dhsc-activities": 60
+    }
+  },
+  ".//transaction/receiver-org/@type": {
+    "80": {
+      "dhsc-activities": 37
+    },
+    "10": {
+      "dhsc-activities": 23
+    }
+  },
+  ".//transaction/tied-status/@code": {
+    "5": {
+      "dhsc-activities": 60,
+      "doh-activities": 2
+    }
+  },
+  ".//transaction/transaction-type/@code": {
+    "3": {
+      "dhsc-activities": 60
+    },
+    "D": {
+      "doh-activities": 1
+    },
+    "C": {
+      "doh-activities": 1
+    }
+  },
+  ".//transaction/value/@currency": {
+    "GBP": {
+      "dhsc-activities": 58
+    },
+    "USD": {
+      "doh-activities": 2
+    }
+  }
+}
